@@ -1,0 +1,5 @@
+func_ov079_020d0160 kind:function(arm,size=0x190) addr:0x020d0160
+func_ov079_020d02f0 kind:function(arm,size=0x520) addr:0x020d02f0
+data_ov079_020d0810 kind:data(any) addr:0x020d0810
+data_ov079_020d082c kind:data(any) addr:0x020d082c
+data_ov079_020d0840 kind:data(any) addr:0x020d0840 ambiguous

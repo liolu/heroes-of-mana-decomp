@@ -1,0 +1,6 @@
+func_ov077_020d0160 kind:function(arm,size=0x1d8) addr:0x020d0160
+func_ov077_020d0338 kind:function(arm,size=0x1d8) addr:0x020d0338
+func_ov077_020d0510 kind:function(arm,size=0x30) addr:0x020d0510
+func_ov077_020d0540 kind:function(arm,size=0x5a8) addr:0x020d0540
+data_ov077_020d0ae8 kind:data(any) addr:0x020d0ae8
+data_ov077_020d0b04 kind:data(any) addr:0x020d0b04

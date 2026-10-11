@@ -1,0 +1,7 @@
+from:0x020d0180 kind:arm_call to:0x02048914 module:overlay(0)
+from:0x020d0190 kind:arm_call to:0x020a06f0 module:overlay(3)
+from:0x020d01ac kind:arm_call to:0x020a03f4 module:overlay(3)
+from:0x020d01c8 kind:arm_call to:0x0209fb70 module:overlay(3)
+from:0x020d01dc kind:arm_call to:0x020a0828 module:overlay(3)
+from:0x020d01e4 kind:arm_call to:0x0209c798 module:overlays(3,123)
+from:0x020d01e8 kind:arm_call to:0x0209f2b0 module:overlay(3)
