@@ -1,0 +1,3 @@
+# False pointers that dsd found in data (see tools/reloc_fixes.py).
+# <module> <address>   # reason
+overlays/ov123 0x020d4ec4   # bytes 02 02 03 02 read as pointer 0x02030202
