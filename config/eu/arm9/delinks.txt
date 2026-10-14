@@ -3271,10 +3271,6 @@ src/donor/func_020146c8.c:
     complete
     .text       start:0x020146c8 end:0x020148c4
 
-src/donor/func_02014a84.c:
-    complete
-    .text       start:0x02014a84 end:0x02014d04
-
 src/donor/func_02014d04.c:
     complete
     .text       start:0x02014d04 end:0x02014d58
@@ -3850,3 +3846,4 @@ src/donor/func_0202fadc.c:
 src/donor/func_0202fc28.c:
     complete
     .text       start:0x0202fc28 end:0x0202fc58
+
