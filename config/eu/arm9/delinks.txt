@@ -2290,3 +2290,11 @@ src/auto/func_0202fbf8.c:
 src/auto/func_0202fcec.c:
     complete
     .text       start:0x0202fcec end:0x0202fcf8
+
+src/auto/func_0200e828.c:
+    complete
+    .text       start:0x0200e828 end:0x0200e834
+
+src/auto/func_0200f208.c:
+    complete
+    .text       start:0x0200f208 end:0x0200f210
