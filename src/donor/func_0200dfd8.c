@@ -1,0 +1,111 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+/* OS_SetThreadStackWarningOffset from https://github.com/ntrtwl/NitroSDK libraries/os/src/os_thread.c (license: none), reused
+ * by tools/donor_match.py */
+typedef unsigned short int u16;
+typedef unsigned long u32;
+typedef unsigned long long int u64;
+typedef signed long s32;
+typedef struct CPContext {
+    u64 div_numer;
+    u64 div_denom;
+    u64 sqrt;
+    u16 div_mode;
+    u16 sqrt_mode;
+} CPContext;
+typedef struct OSContext {
+    u32 cpsr;
+    u32 r[13];
+    u32 sp;
+    u32 lr;
+    u32 pc_plus4;
+
+    u32 sp_svc;
+
+    CPContext cp_context;
+
+} OSContext;
+typedef struct _OSThread OSThread;
+typedef struct _OSThreadQueue OSThreadQueue;
+typedef struct _OSThreadLink OSThreadLink;
+typedef struct _OSMutexQueue OSMutexQueue;
+typedef struct _OSMutexLink OSMutexLink;
+typedef struct OSMutex OSMutex;
+typedef struct OSiAlarm OSAlarm;
+struct _OSThreadQueue {
+    OSThread *head;
+    OSThread *tail;
+};
+struct _OSThreadLink {
+    OSThread *prev;
+    OSThread *next;
+};
+struct _OSMutexQueue {
+    OSMutex *head;
+    OSMutex *tail;
+};
+struct _OSMutexLink {
+    OSMutex *next;
+    OSMutex *prev;
+};
+typedef enum {
+    OS_THREAD_STATE_WAITING    = 0,
+    OS_THREAD_STATE_READY      = 1,
+    OS_THREAD_STATE_TERMINATED = 2
+} OSThreadState;
+typedef void (*OSThreadDestructor)(void *);
+struct _OSThread {
+    OSContext context;
+    OSThreadState state;
+    OSThread *next;
+    u32 id;
+    u32 priority;
+    void *profiler;
+
+    OSThreadQueue *queue;
+    OSThreadLink link;
+
+    OSMutex *mutex;
+    OSMutexQueue mutexQueue;
+
+    u32 stackTop;
+    u32 stackBottom;
+    u32 stackWarningOffset;
+
+    OSThreadQueue joinQueue;
+    void *specific[3];
+    OSAlarm *alarmForSleep;
+    OSThreadDestructor destructor;
+    void *userParameter;
+    int systemErrno;
+};
+extern void func_0200dfd8(OSThread *thread, u32 offset);
+struct OSMutex {
+    OSThreadQueue queue;
+    OSThread *thread;
+    s32 count;
+
+    OSMutexLink link;
+};
+typedef u64 OSTick;
+typedef void (*OSAlarmHandler)(void *);
+struct OSiAlarm {
+    OSAlarmHandler handler;
+    void *arg;
+    u32 tag;
+    OSTick fire;
+    OSAlarm *prev;
+    OSAlarm *next;
+    OSTick period;
+    OSTick start;
+};
+void func_0200dfd8(OSThread *thread, u32 offset) {
+    ((void) 0);
+    ((void) 0);
+    ((void) 0);
+
+    thread->stackWarningOffset = offset;
+
+    if (offset != 0) {
+        *(u32 *) (thread->stackTop + offset) = 0x597dfbd9UL;
+    }
+}
