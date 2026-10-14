@@ -5,3 +5,5 @@ src/auto/func_0200b678.c 1.2/sp2p3
 src/auto/func_0200b6b4.c 1.2/sp2p3
 src/auto/func_0200b6f0.c 1.2/sp2p3
 src/auto/func_020148c4.c 1.2/sp2p3
+src/auto/func_02002708.c 1.2/sp2p3
+src/auto/func_0202e110.c 1.2/sp2p3
