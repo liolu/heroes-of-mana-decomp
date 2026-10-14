@@ -2302,3 +2302,7 @@ src/auto/func_0200f208.c:
 src/auto/func_0201027c.c:
     complete
     .text       start:0x0201027c end:0x02010294
+
+src/auto/func_02010294.c:
+    complete
+    .text       start:0x02010294 end:0x020102b0
