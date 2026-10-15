@@ -79,7 +79,7 @@ class CodeMap:
         paras = [p for p in doc.read_text(encoding="utf-8", errors="replace").split("\n\n")
                  if p.strip() and not p.lstrip().startswith(("#", "|", "-", "```"))]
         text = re.sub(r"[*`]", "", " ".join(paras[0].split())) if paras else ""
-        return text[:500]
+        return text[:500].rstrip(". ")
 
     def _assert_files(self) -> dict[str, str]:
         """{function: source file name} for the functions that load a source file name (assert messages)."""
@@ -144,20 +144,29 @@ class CodeMap:
     # ------------------------------------------------------------ calls
 
     def _load_asm(self) -> dict[str, str]:
+        """{function: [called functions]} read line by line from build/<version>/asm."""
         if self._asm is None:
-            text = "\n".join(f.read_text(encoding="utf-8", errors="replace") for f in project.ASM_DIR.glob("*.s")) \
-                if project.ASM_DIR.exists() else ""
-            self._asm = {m.group(1): m.group(0) for m in
-                         re.finditer(r"^(\w+): .*?^\s+(?:arm|thumb)_func_end \1$", text, re.S | re.M)}
+            self._asm = {}
             self._callers = collections.defaultdict(set)
-            for caller, body in self._asm.items():
-                for callee in set(re.findall(r"\bblx?\s+(\w+)", body)):
-                    self._callers[callee].add(caller)
+            start = re.compile(r"^\s+(?:arm|thumb)_func_start (\w+)")
+            call = re.compile(r"\sblx?\s+(\w+)")
+            for f in sorted(project.ASM_DIR.rglob("*.s")) if project.ASM_DIR.exists() else []:
+                cur = None
+                for line in f.read_text(encoding="utf-8", errors="replace").splitlines():
+                    m = start.match(line)
+                    if m:
+                        cur = self._asm.setdefault(m.group(1), [])
+                        caller = m.group(1)
+                        continue
+                    if cur is not None and " bl" in line:
+                        m = call.search(line)
+                        if m:
+                            cur.append(m.group(1))
+                            self._callers[m.group(1)].add(caller)
         return self._asm
 
     def callees(self, name: str) -> list[str]:
-        body = self._load_asm().get(name, "")
-        return list(dict.fromkeys(c for c in re.findall(r"\bblx?\s+(\w+)", body) if c != name))
+        return list(dict.fromkeys(c for c in self._load_asm().get(name, []) if c != name))
 
     def callers(self, name: str) -> list[str]:
         self._load_asm()
@@ -171,7 +180,9 @@ class CodeMap:
                 (f" {module}" if module else "")
         if name in self.asserted:
             return self.asserted[name]
-        return "game"
+        if name.startswith("func_"):
+            return "game" if not self._between(name) else "probably " + self._between(name).split(" (")[0][9:]
+        return "named"
 
     def context(self, name: str, max_calls: int = 12) -> str:
         """The text given to an AI before the code of `name`."""
