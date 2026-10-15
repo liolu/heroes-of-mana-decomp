@@ -22,6 +22,9 @@ parser.add_argument("--no-extract", action="store_true", help="Skip extract step
 parser.add_argument("--dsd", type=Path, required=False, help="Path to pre-installed dsd CLI")
 parser.add_argument('version', help='Game version')
 args = parser.parse_args()
+if args.dsd is None and (Path(__file__).resolve().parent.parent / "dsd-dsi.exe").exists():
+    # dsd built with DSi-enhanced ROM support (decomp ds/_src/ds-decomp, branch dsi-enhanced) until it is released
+    args.dsd = os.path.join(".", "dsd-dsi.exe")
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import reloc_fixes  # per-game fix of false pointers: does nothing without config/<version>/reloc_fixes.txt
 reloc_fixes.apply(Path(__file__).resolve().parent.parent, args.version, quiet=True)
