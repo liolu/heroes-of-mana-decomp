@@ -4,13 +4,13 @@
 typedef unsigned char u8;
 typedef unsigned short int u16;
 typedef unsigned long u32;
-extern void func_02010294(const void *srcp, void *destp, u32 size);
+extern void MIi_CpuCopy16(const void *srcp, void *destp, u32 size);
 static inline void MI_CpuCopy16(const void *src, void *dest, u32 size) {
     ((void) 0);
     ((void) 0);
     ((void) 0);
 
-    func_02010294(src, dest, size);
+    MIi_CpuCopy16(src, dest, size);
 }
 extern const u16(*ctrdgi_fl_maxtime);
 typedef struct {

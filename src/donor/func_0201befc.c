@@ -10560,7 +10560,7 @@ typedef struct {
     u16 errcode;
 } MBErrorCallback;
 extern void MBi_BlockHeaderBegin(u8 type, u32 *sendbuf);
-extern int func_0201d0a0(int body_len, u16 pollbmp, u32 *sendbuf);
+extern int MBi_BlockHeaderEnd(int body_len, u16 pollbmp, u32 *sendbuf);
 extern u16 MBi_calc_cksum(const u16 *buf, int length);
 extern void MBi_DebugPrint(const char *file, int line, const char *func, const char *fmt, ...);
 extern void MBi_comm_type_output(u16 type);
@@ -10769,8 +10769,8 @@ typedef struct MBiTaskInfo_tag {
 extern void MBi_InitTaskThread(void *p_work, u32 size);
 extern BOOL MBi_IsTaskAvailable(void);
 extern void MBi_InitTaskInfo(MBiTaskInfo *pt);
-extern BOOL func_0201f844(volatile const MBiTaskInfo *pt);
-extern void func_0201f85c(MBiTaskInfo *pt, MB_TASK_FUNC task, MB_TASK_FUNC callback, u32 priority);
+extern BOOL MBi_IsTaskBusy(volatile const MBiTaskInfo *pt);
+extern void MBi_SetTask(MBiTaskInfo *pt, MB_TASK_FUNC task, MB_TASK_FUNC callback, u32 priority);
 extern void MBi_EndTaskThread(MB_TASK_FUNC callback);
 typedef struct MB_CommCommonWork {
     u32 sendbuf[(0x400) / sizeof(u32)] __attribute__((aligned(32)));
@@ -10836,7 +10836,7 @@ typedef struct MB_CommCWork {
     u8 boot_end_flag;
     u8 _padding2[15];
 } MB_CommCWork;
-extern MB_CommCommonWork *data_020415ec;
+extern MB_CommCommonWork *mbc;
 extern int any_recv_bitmap;
 extern void MBi_CommChangeParentState(u16 child, int state, void *arg);
 extern void MBi_CommChangeParentStateCallbackOnly(u16 child, int state, void *arg);
@@ -10865,21 +10865,21 @@ void MBi_CommParentRecvDataPerChild(void *arg, u16 child);
 void MBi_CommParentRecvData(void *arg);
 int MBi_CommParentSendMsg(u8 type, u16 pollbmp);
 int MBi_CommParentSendDLFileInfo(void);
-void func_0201be68(MBiTaskInfo *p_task);
+void MBi_ReloadCache(MBiTaskInfo *p_task);
 int func_0201befc(void) {
     MBCommParentBlockHeader hd;
     u8 *databuf;
     u8 i;
     MB_BlockInfo bi;
 
-    if (((MB_CommPWork *) data_020415ec)->file_num == 0) {
+    if (((MB_CommPWork *) mbc)->file_num == 0) {
         return (WM_ERRCODE_MAX + 1);
     }
 
     for (i = 0; i < (16); i++) {
-        ((MB_CommPWork *) data_020415ec)->cur_fileid = (u8) ((((MB_CommPWork *) data_020415ec)->cur_fileid + 1) % (16));
-        if (((MB_CommPWork *) data_020415ec)->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid].active &&
-            ((MB_CommPWork *) data_020415ec)->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid].pollbmp) {
+        ((MB_CommPWork *) mbc)->cur_fileid = (u8) ((((MB_CommPWork *) mbc)->cur_fileid + 1) % (16));
+        if (((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].active &&
+            ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].pollbmp) {
             ((void) 0);
             break;
         }
@@ -10889,36 +10889,36 @@ int func_0201befc(void) {
         return (WM_ERRCODE_MAX + 1);
     }
 
-    func_0201c318(((MB_CommPWork *) data_020415ec)->cur_fileid);
+    func_0201c318(((MB_CommPWork *) mbc)->cur_fileid);
 
     if (!func_0201ce74(
-            &bi, &((MB_CommPWork *) data_020415ec)->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid].blockinfo_table,
-            ((MB_CommPWork *) data_020415ec)->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid].currentb,
-            &((MB_CommPWork *) data_020415ec)->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid].dl_fileinfo.header)) {
+            &bi, &((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].blockinfo_table,
+            ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].currentb,
+            &((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].dl_fileinfo.header)) {
         return (WM_ERRCODE_MAX + 1);
     }
 
     hd.type  = MB_COMM_TYPE_PARENT_DATA;
-    hd.fid   = ((MB_CommPWork *) data_020415ec)->cur_fileid;
-    hd.seqno = ((MB_CommPWork *) data_020415ec)->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid].currentb;
+    hd.fid   = ((MB_CommPWork *) mbc)->cur_fileid;
+    hd.seqno = ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].currentb;
 
-    databuf = func_0201faa4(&hd, (u8 *) ((MB_CommPWork *) data_020415ec)->common.sendbuf);
+    databuf = func_0201faa4(&hd, (u8 *) ((MB_CommPWork *) mbc)->common.sendbuf);
 
     {
         u32 card_addr = (u32) (bi.offset -
-                               ((MB_CommPWork *) data_020415ec)
-                                   ->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid]
+                               ((MB_CommPWork *) mbc)
+                                   ->fileinfo[((MB_CommPWork *) mbc)->cur_fileid]
                                    .blockinfo_table.seg_src_offset[bi.segment_no] +
-                               ((MB_CommPWork *) data_020415ec)
-                                   ->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid]
+                               ((MB_CommPWork *) mbc)
+                                   ->fileinfo[((MB_CommPWork *) mbc)->cur_fileid]
                                    .card_mapping[bi.segment_no]);
 
         MBiCacheList *const pl =
-            ((MB_CommPWork *) data_020415ec)->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid].cache_list;
+            ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].cache_list;
 
         if (!func_0201f5e4(pl, card_addr, databuf, bi.size)) {
-            MBiTaskInfo *const p_task = &((MB_CommPWork *) data_020415ec)->cur_task;
-            if (!func_0201f844(p_task)) {
+            MBiTaskInfo *const p_task = &((MB_CommPWork *) mbc)->cur_task;
+            if (!MBi_IsTaskBusy(p_task)) {
 
                 if (pl->lifetime) {
                     --pl->lifetime;
@@ -10947,7 +10947,7 @@ int func_0201befc(void) {
                     p_task->param[0] = (u32) trg;
                     p_task->param[1] = (u32) pl;
 
-                    func_0201f85c(p_task, func_0201be68, ((void *) 0), 4);
+                    MBi_SetTask(p_task, MBi_ReloadCache, ((void *) 0), 4);
                 }
             }
 
@@ -10955,9 +10955,9 @@ int func_0201befc(void) {
         }
     }
 
-    return func_0201d0a0((int) (bi.size + (6)),
-                         ((MB_CommPWork *) data_020415ec)->fileinfo[((MB_CommPWork *) data_020415ec)->cur_fileid].pollbmp,
-                         ((MB_CommPWork *) data_020415ec)->common.sendbuf);
+    return MBi_BlockHeaderEnd((int) (bi.size + (6)),
+                         ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].pollbmp,
+                         ((MB_CommPWork *) mbc)->common.sendbuf);
 }
 int MBi_CommParentSendData(void);
 void func_0201c318(u8 file_id);

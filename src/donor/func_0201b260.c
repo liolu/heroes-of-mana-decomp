@@ -100,19 +100,19 @@ struct OSiAlarm {
     OSTick period;
     OSTick start;
 };
-extern void func_020102dc(u32 data, void *destp, u32 size);
+extern void MIi_CpuClearFast(u32 data, void *destp, u32 size);
 static inline void MI_CpuFillFast(void *dest, u32 data, u32 size) {
     ((void) 0);
     ((void) 0);
 
-    func_020102dc(data, dest, size);
+    MIi_CpuClearFast(data, dest, size);
 }
 static inline void MI_CpuClearFast(void *dest, u32 size) {
     MI_CpuFillFast(dest, 0, size);
 }
-extern void func_020103a0(void *dest, u8 data, u32 size);
+extern void MI_CpuFill8(void *dest, u8 data, u32 size);
 static inline void MI_CpuClear8(void *dest, u32 size) {
-    func_020103a0(dest, 0, size);
+    MI_CpuFill8(dest, 0, size);
 }
 typedef enum WMApiid {
     WM_APIID_INITIALIZE = 0,
@@ -459,9 +459,9 @@ typedef struct MBGameInfo {
     struct MBGameInfo *nextp;
 } MBGameInfo, MbGameInfo;
 extern const u16(*ctrdgi_fl_maxtime);
-extern u32 func_0201f488(void);
-extern u16 func_0201f49c(void);
-extern u8 func_0201f4b0(void);
+extern u32 MBi_GetGgid(void);
+extern u16 MBi_GetTgid(void);
+extern u8 MBi_GetAttribute(void);
 extern void func_0201b260(u16 type, void *arg);
 typedef enum MBCommUserReq {
     MB_COMM_USER_REQ_NONE = 0,
@@ -475,9 +475,9 @@ typedef struct {
     u32 data_buf[15][((29) + 1) / sizeof(u32) + 1];
     u32 data_bmp[15];
 } MbRequestPieceBuf;
-extern void func_0201fa60(u16 child_aid);
+extern void MBi_ClearParentPieceBuffer(u16 child_aid);
 extern void func_0201d2b4(MBGameInfo *gameInfop, const MBUserInfo *member, u16 nowPlayerFlag, u16 changePlayerFlag);
-extern void func_0201d3e0(u32 ggid, u16 tgid, u8 attribute);
+extern void MB_SendGameInfoBeacon(u32 ggid, u16 tgid, u8 attribute);
 typedef struct MbDownloadFileInfoHeader {
     u32 arm9EntryAddr;
     u32 arm7EntryAddr;
@@ -573,18 +573,18 @@ typedef struct MB_CommPWork {
     u8 task_work[2 * 1024];
     MBiTaskInfo cur_task;
 } MB_CommPWork;
-extern MB_CommCommonWork *data_020415ec;
-extern void func_0201b1ec(u16 child, int state, void *arg);
-extern void func_0201bbe4(void *arg);
+extern MB_CommCommonWork *mbc;
+extern void MBi_CommChangeParentState(u16 child, int state, void *arg);
+extern void MBi_CommParentRecvData(void *arg);
 extern int func_0201c198(void);
-extern void func_0201c3c0(u16 aid, u16 errcode);
-void func_0201b1ec(u16 child, int state, void *arg);
+extern void MBi_CommCallParentError(u16 aid, u16 errcode);
+void MBi_CommChangeParentState(u16 child, int state, void *arg);
 void func_0201b260(u16 type, void *arg) {
     ((void) 0);
 
     switch (type) {
         case 21:
-            func_0201b1ec(0, MB_COMM_PSTATE_INIT_COMPLETE, arg);
+            MBi_CommChangeParentState(0, MB_COMM_PSTATE_INIT_COMPLETE, arg);
             break;
         case 17:
             break;
@@ -601,7 +601,7 @@ void func_0201b260(u16 type, void *arg) {
             }
 
             ((void) 0);
-            func_0201b1ec(sparg->aid, MB_COMM_PSTATE_CONNECTED, arg);
+            MBi_CommChangeParentState(sparg->aid, MB_COMM_PSTATE_CONNECTED, arg);
         } break;
         case 1: {
             WMstartParentCallback *sparg = (WMstartParentCallback *) arg;
@@ -617,41 +617,41 @@ void func_0201b260(u16 type, void *arg) {
 
             ((void) 0);
 
-            ((MB_CommPWork *) data_020415ec)->childversion[sparg->aid - 1] = 0;
-            MI_CpuClear8(&((MB_CommPWork *) data_020415ec)->childggid[sparg->aid - 1], sizeof(u32));
-            MI_CpuClear8(&((MB_CommPWork *) data_020415ec)->childUser[sparg->aid - 1], sizeof(MBUserInfo));
+            ((MB_CommPWork *) mbc)->childversion[sparg->aid - 1] = 0;
+            MI_CpuClear8(&((MB_CommPWork *) mbc)->childggid[sparg->aid - 1], sizeof(u32));
+            MI_CpuClear8(&((MB_CommPWork *) mbc)->childUser[sparg->aid - 1], sizeof(MBUserInfo));
 
-            func_0201fa60(sparg->aid);
+            MBi_ClearParentPieceBuffer(sparg->aid);
 
-            ((MB_CommPWork *) data_020415ec)->req2child[sparg->aid - 1] = MB_COMM_USER_REQ_NONE;
+            ((MB_CommPWork *) mbc)->req2child[sparg->aid - 1] = MB_COMM_USER_REQ_NONE;
 
-            if (((MB_CommPWork *) data_020415ec)->fileid_of_child[sparg->aid - 1] != -1) {
-                u8 fileID        = (u8) ((MB_CommPWork *) data_020415ec)->fileid_of_child[sparg->aid - 1];
-                u16 nowChildFlag = ((MB_CommPWork *) data_020415ec)->fileinfo[fileID].gameinfo_child_bmp;
+            if (((MB_CommPWork *) mbc)->fileid_of_child[sparg->aid - 1] != -1) {
+                u8 fileID        = (u8) ((MB_CommPWork *) mbc)->fileid_of_child[sparg->aid - 1];
+                u16 nowChildFlag = ((MB_CommPWork *) mbc)->fileinfo[fileID].gameinfo_child_bmp;
                 u16 child        = sparg->aid;
 
-                ((MB_CommPWork *) data_020415ec)->fileinfo[fileID].gameinfo_child_bmp &= ~((1 << (child)));
-                ((MB_CommPWork *) data_020415ec)->fileinfo[fileID].gameinfo_changed_bmp |= (1 << (child));
-                ((MB_CommPWork *) data_020415ec)->fileid_of_child[child - 1] = -1;
-                ((MB_CommPWork *) data_020415ec)->fileinfo[fileID].pollbmp &= ~(0x0001 << (child));
+                ((MB_CommPWork *) mbc)->fileinfo[fileID].gameinfo_child_bmp &= ~((1 << (child)));
+                ((MB_CommPWork *) mbc)->fileinfo[fileID].gameinfo_changed_bmp |= (1 << (child));
+                ((MB_CommPWork *) mbc)->fileid_of_child[child - 1] = -1;
+                ((MB_CommPWork *) mbc)->fileinfo[fileID].pollbmp &= ~(0x0001 << (child));
 
                 ((void) 0);
             }
 
-            if (((MB_CommPWork *) data_020415ec)->child_entry_bmp & (0x0001 << (sparg->aid))) {
-                ((MB_CommPWork *) data_020415ec)->child_num--;
-                ((MB_CommPWork *) data_020415ec)->child_entry_bmp &= ~(0x0001 << (sparg->aid));
+            if (((MB_CommPWork *) mbc)->child_entry_bmp & (0x0001 << (sparg->aid))) {
+                ((MB_CommPWork *) mbc)->child_num--;
+                ((MB_CommPWork *) mbc)->child_entry_bmp &= ~(0x0001 << (sparg->aid));
             }
 
-            if (((MB_CommPWork *) data_020415ec)->p_comm_state[sparg->aid - 1] == MB_COMM_PSTATE_BOOT_REQUEST) {
-                func_0201b1ec(sparg->aid, MB_COMM_PSTATE_BOOT_STARTABLE, ((void *) 0));
+            if (((MB_CommPWork *) mbc)->p_comm_state[sparg->aid - 1] == MB_COMM_PSTATE_BOOT_REQUEST) {
+                MBi_CommChangeParentState(sparg->aid, MB_COMM_PSTATE_BOOT_STARTABLE, ((void *) 0));
             }
 
-            func_0201b1ec(sparg->aid, MB_COMM_PSTATE_DISCONNECTED, arg);
-            ((MB_CommPWork *) data_020415ec)->p_comm_state[sparg->aid - 1] = MB_COMM_PSTATE_NONE;
+            MBi_CommChangeParentState(sparg->aid, MB_COMM_PSTATE_DISCONNECTED, arg);
+            ((MB_CommPWork *) mbc)->p_comm_state[sparg->aid - 1] = MB_COMM_PSTATE_NONE;
         } break;
         case 3:
-            func_0201bbe4(arg);
+            MBi_CommParentRecvData(arg);
             break;
         case 25:
             (void) func_0201c198();
@@ -660,19 +660,19 @@ void func_0201b260(u16 type, void *arg) {
             u8 i;
 
             for (i = 0; i < (16); i++) {
-                if (((MB_CommPWork *) data_020415ec)->fileinfo[i].active &&
-                    ((MB_CommPWork *) data_020415ec)->fileinfo[i].gameinfo_changed_bmp) {
-                    func_0201d2b4(&((MB_CommPWork *) data_020415ec)->fileinfo[i].game_info,
-                                  &((MB_CommPWork *) data_020415ec)->childUser[0],
-                                  ((MB_CommPWork *) data_020415ec)->fileinfo[i].gameinfo_child_bmp,
-                                  ((MB_CommPWork *) data_020415ec)->fileinfo[i].gameinfo_changed_bmp);
+                if (((MB_CommPWork *) mbc)->fileinfo[i].active &&
+                    ((MB_CommPWork *) mbc)->fileinfo[i].gameinfo_changed_bmp) {
+                    func_0201d2b4(&((MB_CommPWork *) mbc)->fileinfo[i].game_info,
+                                  &((MB_CommPWork *) mbc)->childUser[0],
+                                  ((MB_CommPWork *) mbc)->fileinfo[i].gameinfo_child_bmp,
+                                  ((MB_CommPWork *) mbc)->fileinfo[i].gameinfo_changed_bmp);
 
-                    ((MB_CommPWork *) data_020415ec)->fileinfo[i].gameinfo_changed_bmp = 0;
+                    ((MB_CommPWork *) mbc)->fileinfo[i].gameinfo_changed_bmp = 0;
                 }
             }
         }
 
-            func_0201d3e0(func_0201f488(), func_0201f49c(), func_0201f4b0());
+            MB_SendGameInfoBeacon(MBi_GetGgid(), MBi_GetTgid(), MBi_GetAttribute());
             break;
 
         case 255: {
@@ -688,7 +688,7 @@ void func_0201b260(u16 type, void *arg) {
                 case WM_ERRCODE_NO_DATASET:
                 case WM_ERRCODE_FIFO_ERROR:
                 case WM_ERRCODE_TIMEOUT:
-                    func_0201c3c0(0, MB_ERRCODE_FATAL);
+                    MBi_CommCallParentError(0, MB_ERRCODE_FATAL);
                     break;
                 case WM_ERRCODE_OPERATING:
                 case WM_ERRCODE_ILLEGAL_STATE:
@@ -700,7 +700,7 @@ void func_0201b260(u16 type, void *arg) {
                 case WM_ERRCODE_SEND_QUEUE_FULL:
                 case WM_ERRCODE_SEND_FAILED:
                 default:
-                    func_0201c3c0(0, MB_ERRCODE_WM_FAILURE);
+                    MBi_CommCallParentError(0, MB_ERRCODE_WM_FAILURE);
                     break;
             }
         } break;
@@ -718,27 +718,27 @@ void func_0201b260(u16 type, void *arg) {
                 case WM_APIID_SET_DCF_DATA:
                 case WM_APIID_DISCONNECT:
                 case WM_APIID_START_KS:
-                    func_0201c3c0(0, MB_ERRCODE_FATAL);
+                    MBi_CommCallParentError(0, MB_ERRCODE_FATAL);
                     break;
                 case WM_APIID_RESET:
                 case WM_APIID_END:
                 default:
-                    func_0201c3c0(0, MB_ERRCODE_WM_FAILURE);
+                    MBi_CommCallParentError(0, MB_ERRCODE_WM_FAILURE);
                     break;
             }
         } break;
     }
 
     if (type == 17) {
-        MBCommPStateCallback tmpCb = ((MB_CommPWork *) data_020415ec)->parent_callback;
+        MBCommPStateCallback tmpCb = ((MB_CommPWork *) mbc)->parent_callback;
 
-        MI_CpuClearFast(((MB_CommPWork *) data_020415ec), sizeof(MB_CommPWork));
-        ((MB_CommPWork *) data_020415ec) = ((void *) 0);
+        MI_CpuClearFast(((MB_CommPWork *) mbc), sizeof(MB_CommPWork));
+        ((MB_CommPWork *) mbc) = ((void *) 0);
         if (tmpCb) {
             (*tmpCb)(0, MB_COMM_PSTATE_END, ((void *) 0));
         }
     }
 }
-void func_0201bbe4(void *arg);
+void MBi_CommParentRecvData(void *arg);
 int func_0201c198(void);
-void func_0201c3c0(u16 aid, u16 errcode);
+void MBi_CommCallParentError(u16 aid, u16 errcode);

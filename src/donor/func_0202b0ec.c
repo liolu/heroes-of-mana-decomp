@@ -17,9 +17,9 @@ typedef struct decform {
     short digits;
 } decform;
 extern void func_0202b0ec(const decform *f, double x, decimal *d);
-extern void func_0202a458(decimal *d, int digits);
+extern void __rounddec(decimal *d, int digits);
 extern void func_0202af6c(decimal *d, double x);
-void func_0202a458(decimal *d, int digits);
+void __rounddec(decimal *d, int digits);
 void func_0202af6c(decimal *d, double x);
 void func_0202b0ec(const decform *form, double x, decimal *d) {
     short digits = form->digits;
@@ -35,7 +35,7 @@ void func_0202b0ec(const decform *form, double x, decimal *d) {
         digits = 32;
     }
 
-    func_0202a458(d, digits);
+    __rounddec(d, digits);
 
     while (d->sig.length < digits) {
         d->sig.text[d->sig.length++] = 0;

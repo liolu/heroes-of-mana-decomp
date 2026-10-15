@@ -7,15 +7,15 @@ typedef struct OSThreadSystemState {
     u32 reserved000;
     u32 rescheduleCount;
 } OSThreadSystemState;
-extern OSThreadSystemState data_0203863c;
+extern OSThreadSystemState OSi_SystemCallbackInSwitchThread;
 extern OSIntrMode func_0200fa98(void);
 extern OSIntrMode func_0200faac(OSIntrMode mode);
 u32 func_0200e1a4(void) {
     OSIntrMode interruptMode = func_0200fa98();
     u32 count;
 
-    if (data_0203863c.rescheduleCount < (u32) (0 - 1)) {
-        count = data_0203863c.rescheduleCount++;
+    if (OSi_SystemCallbackInSwitchThread.rescheduleCount < (u32) (0 - 1)) {
+        count = OSi_SystemCallbackInSwitchThread.rescheduleCount++;
     }
     (void) func_0200faac(interruptMode);
 

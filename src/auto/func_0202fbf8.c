@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-void *func_0202df18(void *, M2C_UNK *);             /* extern */
+void *func_0202df18(void *, M2C_UNK *);
 
 void func_0202fbf8(u8 *arg0) {
     M2C_UNK sp0;

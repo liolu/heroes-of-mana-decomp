@@ -1,0 +1,39 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+
+typedef unsigned int u32;
+typedef unsigned short u16;
+typedef unsigned char u8;
+typedef int s32;
+typedef volatile u32 vu32;
+
+/* func_0207d070 from https://github.com/GoldieLeGenie/DQIV-DECOMP libs/NitroSDK/src/wm/wm_system.c (license: none), reused by
+ * tools/donor_match.py */
+u16 WM_GetDispersionBeaconPeriod(void) {
+    u8 mac[6];
+    u16 sum;
+    s32 i;
+
+    OS_GetMacAddress(mac);
+    for (i = 0, sum = 0; i < 6; i++) {
+        sum += mac[i];
+    }
+    sum += *(vu32 *) 0x027ffc3c;
+    sum *= 7;
+    return (u16) (200 + (sum % 20));
+}
+
+/* func_0207d100 from https://github.com/GoldieLeGenie/DQIV-DECOMP libs/NitroSDK/src/wm/wm_system.c (license: none), reused by
+ * tools/donor_match.py */
+u16 WM_GetDispersionScanPeriod(void) {
+    u8 mac[6];
+    u16 sum;
+    s32 i;
+
+    OS_GetMacAddress(mac);
+    for (i = 0, sum = 0; i < 6; i++) {
+        sum += mac[i];
+    }
+    sum += *(vu32 *) 0x027ffc3c;
+    sum *= 13;
+    return (u16) (30 + (sum % 10));
+}

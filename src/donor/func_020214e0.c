@@ -2,9 +2,9 @@
 /* func_02001160 from https://github.com/GoldieLeGenie/DQIV-DECOMP libs/MSL/src/printf.c (license: none), reused by
  * tools/donor_match.py */
 typedef char *va_list;
-extern const unsigned short data_02035414[128];
+extern const unsigned short __ctype_mapC[128];
 static inline int printf_isdigit(int c) {
-    return ((c < 0) || (c >= 128)) ? 0 : (int) (data_02035414[c] & 0x008);
+    return ((c < 0) || (c >= 128)) ? 0 : (int) (__ctype_mapC[c] & 0x008);
 }
 enum justification_options {
     left_justification,

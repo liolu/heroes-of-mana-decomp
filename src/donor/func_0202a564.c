@@ -11,9 +11,9 @@ typedef struct decimal {
         unsigned char unused;
     } sig;
 } decimal;
-extern void func_0202a408(decimal *d, int digits);
+extern void __dorounddecup(decimal *d, int digits);
 extern void func_0202a564(decimal *result, const decimal *x, const decimal *y);
-void func_0202a408(decimal *d, int digits);
+void __dorounddecup(decimal *d, int digits);
 void func_0202a564(decimal *result, const decimal *x, const decimal *y) {
     unsigned long accumulator = 0;
     unsigned char mantissa[32 * 2];
@@ -79,6 +79,6 @@ void func_0202a564(decimal *result, const decimal *x, const decimal *y) {
             }
         }
     round:
-        func_0202a408(result, result->sig.length);
+        __dorounddecup(result, result->sig.length);
     }
 }

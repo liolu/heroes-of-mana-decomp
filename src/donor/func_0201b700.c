@@ -100,7 +100,7 @@ struct OSiAlarm {
     OSTick period;
     OSTick start;
 };
-extern void func_02010434(const void *src, void *dest, u32 size);
+extern void MI_CpuCopy8(const void *src, void *dest, u32 size);
 typedef struct WMMpRecvData {
     u16 length;
     u16 rate_rssi;
@@ -393,7 +393,7 @@ typedef struct {
     u32 data_buf[15][((29) + 1) / sizeof(u32) + 1];
     u32 data_bmp[15];
 } MbRequestPieceBuf;
-extern u8 *func_0201fb28(const u8 *recvbuf, MBCommChildBlockHeader *hdr, u16 child_id);
+extern u8 *MBi_SetRecvBufferFromChild(const u8 *recvbuf, MBCommChildBlockHeader *hdr, u16 child_id);
 typedef struct MbDownloadFileInfoHeader {
     u32 arm9EntryAddr;
     u32 arm7EntryAddr;
@@ -489,12 +489,12 @@ typedef struct MB_CommPWork {
     u8 task_work[2 * 1024];
     MBiTaskInfo cur_task;
 } MB_CommPWork;
-extern MB_CommCommonWork *data_020415ec;
-extern int data_0203bb20;
-extern void func_0201b1ec(u16 child, int state, void *arg);
+extern MB_CommCommonWork *mbc;
+extern int any_recv_bitmap;
+extern void MBi_CommChangeParentState(u16 child, int state, void *arg);
 extern void func_0201b700(void *arg, u16 child);
-extern u16 func_0201c394(u16 next_block, u16 next_block_req);
-void func_0201b1ec(u16 child, int state, void *arg);
+extern u16 MBi_calc_nextsendblock(u16 next_block, u16 next_block_req);
+void MBi_CommChangeParentState(u16 child, int state, void *arg);
 void func_0201b700(void *arg, u16 child) {
     MBCommChildBlockHeader hd;
     int state;
@@ -504,8 +504,8 @@ void func_0201b700(void *arg, u16 child) {
         return;
     }
 
-    p_data = func_0201fb28((u8 *) &((WMMpRecvData *) arg)->cdata[0], &hd, child);
-    state  = ((MB_CommPWork *) data_020415ec)->p_comm_state[child - 1];
+    p_data = MBi_SetRecvBufferFromChild((u8 *) &((WMMpRecvData *) arg)->cdata[0], &hd, child);
+    state  = ((MB_CommPWork *) mbc)->p_comm_state[child - 1];
 
     ((void) 0);
     ((void) 0);
@@ -519,82 +519,82 @@ void func_0201b700(void *arg, u16 child) {
                     break;
                 }
 
-                func_02010434(p_data, &req_data, (29));
+                MI_CpuCopy8(p_data, &req_data, (29));
 
-                ((MB_CommPWork *) data_020415ec)->childggid[child - 1]    = req_data.ggid;
-                ((MB_CommPWork *) data_020415ec)->childversion[child - 1] = req_data.version;
+                ((MB_CommPWork *) mbc)->childggid[child - 1]    = req_data.ggid;
+                ((MB_CommPWork *) mbc)->childversion[child - 1] = req_data.version;
 
                 ((void) 0);
-                func_02010434(&req_data.userinfo, &((MB_CommPWork *) data_020415ec)->childUser[child - 1], sizeof(MBUserInfo));
+                MI_CpuCopy8(&req_data.userinfo, &((MB_CommPWork *) mbc)->childUser[child - 1], sizeof(MBUserInfo));
 
-                ((MB_CommPWork *) data_020415ec)->childUser[child - 1].playerNo = child;
-                func_0201b1ec(child, MB_COMM_PSTATE_REQUESTED, &req_data.userinfo);
+                ((MB_CommPWork *) mbc)->childUser[child - 1].playerNo = child;
+                MBi_CommChangeParentState(child, MB_COMM_PSTATE_REQUESTED, &req_data.userinfo);
             }
 
             if (state == MB_COMM_PSTATE_REQUESTED) {
                 u8 i, entry_num = 0;
                 u8 fileid = ((MBCommRequestData *) p_data)->fileid;
 
-                if (fileid >= (16) || ((MB_CommPWork *) data_020415ec)->fileinfo[fileid].active == 0 ||
-                    ((MB_CommPWork *) data_020415ec)->childggid[child - 1] !=
-                        ((MB_CommPWork *) data_020415ec)->fileinfo[fileid].game_reg->ggid) {
-                    ((MB_CommPWork *) data_020415ec)->req2child[child - 1] = MB_COMM_USER_REQ_KICK;
+                if (fileid >= (16) || ((MB_CommPWork *) mbc)->fileinfo[fileid].active == 0 ||
+                    ((MB_CommPWork *) mbc)->childggid[child - 1] !=
+                        ((MB_CommPWork *) mbc)->fileinfo[fileid].game_reg->ggid) {
+                    ((MB_CommPWork *) mbc)->req2child[child - 1] = MB_COMM_USER_REQ_KICK;
                 } else {
                     for (i = 0; i < 15 + 1; i++) {
-                        if (((MB_CommPWork *) data_020415ec)->fileinfo[fileid].gameinfo_child_bmp & (0x0001 << i)) {
+                        if (((MB_CommPWork *) mbc)->fileinfo[fileid].gameinfo_child_bmp & (0x0001 << i)) {
                             entry_num++;
                         }
                     }
 
-                    if (entry_num >= ((MB_CommPWork *) data_020415ec)->fileinfo[fileid].game_reg->maxPlayerNum) {
+                    if (entry_num >= ((MB_CommPWork *) mbc)->fileinfo[fileid].game_reg->maxPlayerNum) {
                         ((void) 0);
 
-                        ((MB_CommPWork *) data_020415ec)->req2child[child - 1] = MB_COMM_USER_REQ_NONE;
-                        func_0201b1ec(child, MB_COMM_PSTATE_MEMBER_FULL, ((void *) 0));
+                        ((MB_CommPWork *) mbc)->req2child[child - 1] = MB_COMM_USER_REQ_NONE;
+                        MBi_CommChangeParentState(child, MB_COMM_PSTATE_MEMBER_FULL, ((void *) 0));
                         break;
                     }
                 }
 
-                switch (((MB_CommPWork *) data_020415ec)->req2child[child - 1]) {
+                switch (((MB_CommPWork *) mbc)->req2child[child - 1]) {
                     case MB_COMM_USER_REQ_ACCEPT: {
-                        if (0 == (((MB_CommPWork *) data_020415ec)->child_entry_bmp & (0x0001 << (child)))) {
-                            ((MB_CommPWork *) data_020415ec)->child_num++;
-                            ((MB_CommPWork *) data_020415ec)->child_entry_bmp |= (0x0001 << (child));
-                            ((MB_CommPWork *) data_020415ec)->fileid_of_child[child - 1] = (s8) fileid;
+                        if (0 == (((MB_CommPWork *) mbc)->child_entry_bmp & (0x0001 << (child)))) {
+                            ((MB_CommPWork *) mbc)->child_num++;
+                            ((MB_CommPWork *) mbc)->child_entry_bmp |= (0x0001 << (child));
+                            ((MB_CommPWork *) mbc)->fileid_of_child[child - 1] = (s8) fileid;
 
-                            ((MB_CommPWork *) data_020415ec)->fileinfo[fileid].gameinfo_child_bmp |= (1 << (child));
-                            ((MB_CommPWork *) data_020415ec)->fileinfo[fileid].gameinfo_changed_bmp |= (1 << (child));
+                            ((MB_CommPWork *) mbc)->fileinfo[fileid].gameinfo_child_bmp |= (1 << (child));
+                            ((MB_CommPWork *) mbc)->fileinfo[fileid].gameinfo_changed_bmp |= (1 << (child));
 
                             ((void) 0);
 
-                            ((MB_CommPWork *) data_020415ec)->req2child[child - 1] = MB_COMM_USER_REQ_NONE;
-                            func_0201b1ec(child, MB_COMM_PSTATE_REQ_ACCEPTED, ((void *) 0));
+                            ((MB_CommPWork *) mbc)->req2child[child - 1] = MB_COMM_USER_REQ_NONE;
+                            MBi_CommChangeParentState(child, MB_COMM_PSTATE_REQ_ACCEPTED, ((void *) 0));
                         }
                     } break;
                     case MB_COMM_USER_REQ_KICK:
                         ((void) 0);
-                        ((MB_CommPWork *) data_020415ec)->req2child[child - 1] = MB_COMM_USER_REQ_NONE;
-                        func_0201b1ec(child, MB_COMM_PSTATE_KICKED, ((void *) 0));
+                        ((MB_CommPWork *) mbc)->req2child[child - 1] = MB_COMM_USER_REQ_NONE;
+                        MBi_CommChangeParentState(child, MB_COMM_PSTATE_KICKED, ((void *) 0));
                         break;
                 }
             }
         } break;
         case MB_COMM_TYPE_CHILD_ACCEPT_FILEINFO:
             if (state == MB_COMM_PSTATE_REQ_ACCEPTED) {
-                func_0201b1ec(child, MB_COMM_PSTATE_WAIT_TO_SEND, ((void *) 0));
+                MBi_CommChangeParentState(child, MB_COMM_PSTATE_WAIT_TO_SEND, ((void *) 0));
             } else if (state == MB_COMM_PSTATE_WAIT_TO_SEND) {
-                if (((MB_CommPWork *) data_020415ec)->req2child[child - 1] == MB_COMM_USER_REQ_SEND_START) {
-                    u8 fid = (u8) ((MB_CommPWork *) data_020415ec)->fileid_of_child[child - 1];
-                    ((MB_CommPWork *) data_020415ec)->fileinfo[fid].pollbmp |= (0x0001 << (child));
-                    ((MB_CommPWork *) data_020415ec)->fileinfo[fid].currentb = 0;
-                    ((MB_CommPWork *) data_020415ec)->req2child[child - 1]   = MB_COMM_USER_REQ_NONE;
-                    func_0201b1ec(child, MB_COMM_PSTATE_SEND_PROCEED, ((void *) 0));
+                if (((MB_CommPWork *) mbc)->req2child[child - 1] == MB_COMM_USER_REQ_SEND_START) {
+                    u8 fid = (u8) ((MB_CommPWork *) mbc)->fileid_of_child[child - 1];
+                    ((MB_CommPWork *) mbc)->fileinfo[fid].pollbmp |= (0x0001 << (child));
+                    ((MB_CommPWork *) mbc)->fileinfo[fid].currentb = 0;
+                    ((MB_CommPWork *) mbc)->req2child[child - 1]   = MB_COMM_USER_REQ_NONE;
+                    MBi_CommChangeParentState(child, MB_COMM_PSTATE_SEND_PROCEED, ((void *) 0));
                 }
             }
             break;
         case MB_COMM_TYPE_CHILD_CONTINUE:
             if (state == MB_COMM_PSTATE_SEND_PROCEED) {
-                u8 fileid = (u8) ((MB_CommPWork *) data_020415ec)->fileid_of_child[child - 1];
+                u8 fileid = (u8) ((MB_CommPWork *) mbc)->fileid_of_child[child - 1];
 
                 if (fileid == (u8) -1) {
                     break;
@@ -603,14 +603,14 @@ void func_0201b700(void *arg, u16 child) {
                 ((void) 0);
                 ((void) 0);
 
-                ((MB_CommPWork *) data_020415ec)->fileinfo[fileid].nextb =
-                    func_0201c394(((MB_CommPWork *) data_020415ec)->fileinfo[fileid].nextb, hd.data.req);
-                data_0203bb20 |= (1 << fileid);
+                ((MB_CommPWork *) mbc)->fileinfo[fileid].nextb =
+                    MBi_calc_nextsendblock(((MB_CommPWork *) mbc)->fileinfo[fileid].nextb, hd.data.req);
+                any_recv_bitmap |= (1 << fileid);
             }
             break;
         case MB_COMM_TYPE_CHILD_STOPREQ:
             if (state == MB_COMM_PSTATE_SEND_PROCEED) {
-                u8 fileid = (u8) ((MB_CommPWork *) data_020415ec)->fileid_of_child[child - 1];
+                u8 fileid = (u8) ((MB_CommPWork *) mbc)->fileid_of_child[child - 1];
 
                 if (fileid == (u8) -1) {
                     break;
@@ -618,13 +618,13 @@ void func_0201b700(void *arg, u16 child) {
 
                 ((void) 0);
 
-                ((MB_CommPWork *) data_020415ec)->fileinfo[fileid].pollbmp &= ~(0x0001 << (child));
+                ((MB_CommPWork *) mbc)->fileinfo[fileid].pollbmp &= ~(0x0001 << (child));
 
-                func_0201b1ec(child, MB_COMM_PSTATE_SEND_COMPLETE, ((void *) 0));
+                MBi_CommChangeParentState(child, MB_COMM_PSTATE_SEND_COMPLETE, ((void *) 0));
             } else if (state == MB_COMM_PSTATE_SEND_COMPLETE) {
-                if (((MB_CommPWork *) data_020415ec)->req2child[child - 1] == MB_COMM_USER_REQ_BOOT) {
-                    ((MB_CommPWork *) data_020415ec)->req2child[child - 1] = MB_COMM_USER_REQ_NONE;
-                    func_0201b1ec(child, MB_COMM_PSTATE_BOOT_REQUEST, ((void *) 0));
+                if (((MB_CommPWork *) mbc)->req2child[child - 1] == MB_COMM_USER_REQ_BOOT) {
+                    ((MB_CommPWork *) mbc)->req2child[child - 1] = MB_COMM_USER_REQ_NONE;
+                    MBi_CommChangeParentState(child, MB_COMM_PSTATE_BOOT_REQUEST, ((void *) 0));
                     break;
                 }
             }
@@ -638,4 +638,4 @@ void func_0201b700(void *arg, u16 child) {
             break;
     }
 }
-u16 func_0201c394(u16 next_block, u16 next_block_req);
+u16 MBi_calc_nextsendblock(u16 next_block, u16 next_block_req);

@@ -51,7 +51,7 @@ typedef struct MB_CommCommonWork {
     BOOL is_started_ex;
     u8 padding[28];
 } MB_CommCommonWork;
-extern MB_CommCommonWork *data_020415ec;
+extern MB_CommCommonWork *mbc;
 BOOL func_0201ce74(MB_BlockInfo *bi, MB_BlockInfoTable *table, u32 block, MbDownloadFileInfoHeader *mdfi) {
     s8 i;
     u32 seg_block, block_adr_offset;
@@ -71,14 +71,14 @@ BOOL func_0201ce74(MB_BlockInfo *bi, MB_BlockInfoTable *table, u32 block, MbDown
     }
 
     seg_block        = block - table->seg_head_blockno[i];
-    block_adr_offset = seg_block * data_020415ec->block_size_max;
+    block_adr_offset = seg_block * mbc->block_size_max;
 
     {
         MbSegmentInfo *si = MBi_GetSegmentInfo(mdfi, i);
         bi->size          = si->size - block_adr_offset;
 
-        if (bi->size > data_020415ec->block_size_max) {
-            bi->size = (u32) data_020415ec->block_size_max;
+        if (bi->size > mbc->block_size_max) {
+            bi->size = (u32) mbc->block_size_max;
         }
 
         bi->offset        = (u32) (block_adr_offset + table->seg_src_offset[i]);

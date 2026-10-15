@@ -3,14 +3,14 @@
  * reused by tools/donor_match.py */
 typedef unsigned int u32;
 typedef unsigned char u8;
-extern void *func_0200ea04(u32 id);
-extern void *func_0200ea18(u32 id);
-extern void func_0200ebcc(u32 id, void *lo);
-void *func_0200ea04(u32 id);
-void *func_0200ea18(u32 id);
-void func_0200ebcc(u32 id, void *lo);
+extern void *OS_GetArenaHi(u32 id);
+extern void *OS_GetArenaLo(u32 id);
+extern void OS_SetArenaLo(u32 id, void *lo);
+void *OS_GetArenaHi(u32 id);
+void *OS_GetArenaLo(u32 id);
+void OS_SetArenaLo(u32 id, void *lo);
 void *func_0200ebe0(u32 id, u32 size, u32 align) {
-    void *ptr = func_0200ea18(id);
+    void *ptr = OS_GetArenaLo(id);
     u32 newLo;
 
     if (!ptr) {
@@ -20,9 +20,9 @@ void *func_0200ebe0(u32 id, u32 size, u32 align) {
     ptr   = (void *) (((u32) ptr + align - 1) & ~(align - 1));
     newLo = (u32) ((u8 *) ptr + size + align - 1) & ~(align - 1);
 
-    if (newLo > (u32) func_0200ea04(id)) {
+    if (newLo > (u32) OS_GetArenaHi(id)) {
         return 0;
     }
-    func_0200ebcc(id, (void *) newLo);
+    OS_SetArenaLo(id, (void *) newLo);
     return ptr;
 }

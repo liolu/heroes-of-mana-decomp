@@ -182,8 +182,8 @@ static inline BOOL FS_IsArchiveTableLoaded(volatile const FSArchive *p_arc) {
     return (p_arc->flag & 0x00000004) ? 1 : 0;
 }
 extern BOOL func_02012d48(struct FSArchive *p_arc);
-extern BOOL func_02012fb8(struct FSArchive *p_arc);
-extern BOOL func_02013054(struct FSArchive *p_arc);
+extern BOOL FS_SuspendArchive(struct FSArchive *p_arc);
+extern BOOL FS_ResumeArchive(struct FSArchive *p_arc);
 typedef struct FSDirPos {
     struct FSArchive *arc;
     u16 own_id;
@@ -280,7 +280,7 @@ typedef struct FSFile {
     } arg;
 } FSFile;
 extern FSResult (*const fsi_default_command[])(FSFile *);
-extern void func_02011a6c(FSFile *file, FSResult signal);
+extern void FSi_ReleaseCommand(FSFile *file, FSResult signal);
 BOOL func_02012d48(FSArchive *p_arc) {
     OSIntrMode bak_psr = func_0200fa98();
     if (FS_IsArchiveLoaded(p_arc)) {
@@ -289,15 +289,15 @@ BOOL func_02012d48(FSArchive *p_arc) {
         }
         {
             FSFile *p, *q;
-            BOOL bak_state = func_02012fb8(p_arc);
+            BOOL bak_state = FS_SuspendArchive(p_arc);
             p_arc->flag |= 0x00000080;
             for (p = p_arc->list.next; p; p = q) {
                 q = p->link.next;
-                func_02011a6c(p, FS_RESULT_CANCELED);
+                FSi_ReleaseCommand(p, FS_RESULT_CANCELED);
             }
             p_arc->list.next = ((void *) 0);
             if (bak_state) {
-                (void) func_02013054(p_arc);
+                (void) FS_ResumeArchive(p_arc);
             }
         }
         p_arc->base     = 0;
@@ -311,5 +311,5 @@ BOOL func_02012d48(FSArchive *p_arc) {
     (void) func_0200faac(bak_psr);
     return 1;
 }
-BOOL func_02012fb8(FSArchive *p_arc);
-BOOL func_02013054(FSArchive *p_arc);
+BOOL FS_SuspendArchive(FSArchive *p_arc);
+BOOL FS_ResumeArchive(FSArchive *p_arc);

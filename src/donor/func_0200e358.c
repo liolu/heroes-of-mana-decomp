@@ -3,8 +3,8 @@
  * reused by tools/donor_match.py */
 extern int func_0200fa98(void);
 extern void func_0200faac(int state);
-extern void func_0200dd50(void *queue);
-extern void func_0200dda0(void *queue);
+extern void OS_SleepThread(void *queue);
+extern void OS_WakeupThread(void *queue);
 extern long long func_0202d478(int a, int b);
 int func_0200e358(char *q, void *msg, int flags) {
     int enabled = func_0200fa98();
@@ -13,12 +13,12 @@ int func_0200e358(char *q, void *msg, int flags) {
             func_0200faac(enabled);
             return 0;
         }
-        func_0200dd50(q);
+        OS_SleepThread(q);
     }
     (*(void ***) (q + 0x10))[(int) (func_0202d478(*(int *) (q + 0x18) + *(int *) (q + 0x1c), *(int *) (q + 0x14)) >> 32)] =
         msg;
     *(int *) (q + 0x1c) = *(int *) (q + 0x1c) + 1;
-    func_0200dda0(q + 8);
+    OS_WakeupThread(q + 8);
     func_0200faac(enabled);
     return 1;
 }

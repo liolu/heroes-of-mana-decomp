@@ -102,7 +102,7 @@ struct OSiAlarm {
     OSTick period;
     OSTick start;
 };
-extern void func_02010434(const void *src, void *dest, u32 size);
+extern void MI_CpuCopy8(const void *src, void *dest, u32 size);
 enum {
     FS_ARCHIVE_NAME_LEN_MAX = 3
 };
@@ -299,7 +299,7 @@ BOOL func_0201f5e4(MBiCacheList *pl, u32 src, void *dst, u32 len) {
             if (pi->state >= 2) {
                 const int ofs = (int) (src - pi->src);
                 if ((ofs >= 0) && (ofs + len <= pi->len)) {
-                    func_02010434(pi->ptr + ofs, dst, len);
+                    MI_CpuCopy8(pi->ptr + ofs, dst, len);
                     pl->lifetime = 0;
                     ret          = 1;
                     break;

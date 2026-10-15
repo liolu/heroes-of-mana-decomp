@@ -1,7 +1,7 @@
 #include "m2c.h"
 
-M2C_UNK func_02017118();                            /* extern */
+M2C_UNK CARDi_TryWaitAsync();
 
 void func_0201783c(void) {
-    func_02017118();
+    CARDi_TryWaitAsync();
 }

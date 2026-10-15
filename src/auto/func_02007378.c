@@ -1,8 +1,8 @@
 #include "m2c.h"
 
-M2C_UNK func_02007264(M2C_UNK *, void *);           /* extern */
-M2C_UNK func_0200733c();                            /* extern */
-M2C_UNK func_02007478(void *);                      /* extern */
+M2C_UNK func_02007264(M2C_UNK *, void *);
+M2C_UNK func_0200733c();
+M2C_UNK FreePlayer(void *);
 extern s32 data_02037708;
 extern M2C_UNK data_02037fa0;
 
@@ -16,5 +16,5 @@ void func_02007378(void *arg0) {
     if (data_02037708 != 0) {
         func_02007264(data_02037708 + 0x4E0, arg0);
     }
-    func_02007478(arg0);
+    FreePlayer(arg0);
 }

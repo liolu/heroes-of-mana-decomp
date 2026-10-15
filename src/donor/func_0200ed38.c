@@ -23,9 +23,9 @@ typedef struct UnkHeapInfo {
     void *arenaEnd;
     UnkHeapDesc *heapArray;
 } UnkHeapInfo;
-extern UnkHeapInfo *data_020388c0[9];
-UnkHeapCell *func_0200ec4c(UnkHeapCell *list, UnkHeapCell *cell);
-UnkHeapCell *func_0200ec68(UnkHeapCell *list, UnkHeapCell *cell);
+extern UnkHeapInfo *OSiHeapInfo[9];
+UnkHeapCell *DLAddFront(UnkHeapCell *list, UnkHeapCell *cell);
+UnkHeapCell *DLExtract(UnkHeapCell *list, UnkHeapCell *cell);
 void *func_0200ed38(u32 id, s32 heap, s32 size) {
     UnkHeapInfo *heapInfo;
     UnkHeapDesc *hd;
@@ -34,7 +34,7 @@ void *func_0200ed38(u32 id, s32 heap, s32 size) {
     u32 leftoverSize;
     u32 prev = func_0200fa98();
 
-    heapInfo = data_020388c0[id];
+    heapInfo = OSiHeapInfo[id];
     if (heapInfo == 0) {
         func_0200faac(prev);
         return 0;
@@ -61,7 +61,7 @@ void *func_0200ed38(u32 id, s32 heap, s32 size) {
 
     leftoverSize = cell->size - size;
     if (leftoverSize < 0x40) {
-        hd->free = func_0200ec68(hd->free, cell);
+        hd->free = DLExtract(hd->free, cell);
     } else {
         cell->size    = size;
         newCell       = (UnkHeapCell *) ((char *) cell + size);
@@ -78,7 +78,7 @@ void *func_0200ed38(u32 id, s32 heap, s32 size) {
         }
     }
 
-    hd->allocated = func_0200ec4c(hd->allocated, cell);
+    hd->allocated = DLAddFront(hd->allocated, cell);
 
     func_0200faac(prev);
     return (char *) cell + 0x20;

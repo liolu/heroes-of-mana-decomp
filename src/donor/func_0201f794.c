@@ -82,8 +82,8 @@ struct _OSThread {
     void *userParameter;
     int systemErrno;
 };
-extern void func_0200d9a8(OSThread *thread, void (*func)(void *), void *arg, void *stack, u32 stackSize, u32 prio);
-extern void func_0200de08(OSThread *thread);
+extern void OS_CreateThread(OSThread *thread, void (*func)(void *), void *arg, void *stack, u32 stackSize, u32 prio);
+extern void OS_WakeupThreadDirect(OSThread *thread);
 struct OSMutex {
     OSThreadQueue queue;
     OSThread *thread;
@@ -114,33 +114,33 @@ typedef struct MBiTaskInfo_tag {
     u32 param[4];
 } MBiTaskInfo;
 extern void func_0201f794(void *p_work, u32 size);
-extern void func_0201f830(MBiTaskInfo *pt);
+extern void MBi_InitTaskInfo(MBiTaskInfo *pt);
 typedef struct {
     OSThread th[1];
     MBiTaskInfo *volatile list;
     MBiTaskInfo end_task;
 } MBiTaskWork;
-extern MBiTaskWork *data_02041620;
+extern MBiTaskWork *mbi_task_work;
 void func_0201f67c(void *arg);
 void func_0201f794(void *p_work, u32 size) {
     OSIntrMode bak_cpsr = func_0200fa98();
 
-    if (!data_02041620) {
+    if (!mbi_task_work) {
         MBiTaskWork *const p = (MBiTaskWork *) p_work;
 
         ((void) 0);
         ((void) 0);
 
-        data_02041620 = p;
-        func_0201f830(&p->end_task);
+        mbi_task_work = p;
+        MBi_InitTaskInfo(&p->end_task);
 
         p->list = 0;
         size    = (u32) ((size - sizeof(MBiTaskWork)) & ~3);
 
-        func_0200d9a8(p->th, func_0201f67c, p, (u8 *) (p + 1) + size, size, 0);
-        func_0200de08(p->th);
+        OS_CreateThread(p->th, func_0201f67c, p, (u8 *) (p + 1) + size, size, 0);
+        OS_WakeupThreadDirect(p->th);
     }
 
     (void) func_0200faac(bak_cpsr);
 }
-void func_0201f830(MBiTaskInfo *pt);
+void MBi_InitTaskInfo(MBiTaskInfo *pt);

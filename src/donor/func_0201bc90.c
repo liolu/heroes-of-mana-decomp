@@ -317,7 +317,7 @@ typedef struct MBGameInfo {
     struct MBGameInfo *nextp;
 } MBGameInfo, MbGameInfo;
 extern const u16(*ctrdgi_fl_maxtime);
-extern int func_0201d0a0(int body_len, u16 pollbmp, u32 *sendbuf);
+extern int MBi_BlockHeaderEnd(int body_len, u16 pollbmp, u32 *sendbuf);
 typedef struct {
     u8 type;
     u8 pad1[1];
@@ -424,13 +424,13 @@ typedef struct MB_CommPWork {
     u8 task_work[2 * 1024];
     MBiTaskInfo cur_task;
 } MB_CommPWork;
-extern MB_CommCommonWork *data_020415ec;
+extern MB_CommCommonWork *mbc;
 extern int func_0201bc90(u8 type, u16 pollbmp);
 int func_0201bc90(u8 type, u16 pollbmp) {
     MBCommParentBlockHeader hd;
 
     hd.type = type;
 
-    (void) func_0201faa4(&hd, (u8 *) ((MB_CommPWork *) data_020415ec)->common.sendbuf);
-    return func_0201d0a0((6), pollbmp, ((MB_CommPWork *) data_020415ec)->common.sendbuf);
+    (void) func_0201faa4(&hd, (u8 *) ((MB_CommPWork *) mbc)->common.sendbuf);
+    return MBi_BlockHeaderEnd((6), pollbmp, ((MB_CommPWork *) mbc)->common.sendbuf);
 }

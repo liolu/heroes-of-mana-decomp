@@ -416,24 +416,24 @@ typedef struct MB_CommPWork {
     u8 task_work[2 * 1024];
     MBiTaskInfo cur_task;
 } MB_CommPWork;
-extern MB_CommCommonWork *data_020415ec;
-extern int data_0203bb20;
+extern MB_CommCommonWork *mbc;
+extern int any_recv_bitmap;
 extern void func_0201c318(u8 file_id);
 void func_0201c318(u8 file_id) {
-    if ((data_0203bb20 & (1 << file_id)) == 0) {
+    if ((any_recv_bitmap & (1 << file_id)) == 0) {
         return;
     }
 
-    if (((MB_CommPWork *) data_020415ec)->fileinfo[file_id].active &&
-        ((MB_CommPWork *) data_020415ec)->fileinfo[file_id].pollbmp) {
-        if (((MB_CommPWork *) data_020415ec)->fileinfo[file_id].nextb <=
-                ((MB_CommPWork *) data_020415ec)->fileinfo[file_id].currentb &&
-            ((MB_CommPWork *) data_020415ec)->fileinfo[file_id].currentb <=
-                ((MB_CommPWork *) data_020415ec)->fileinfo[file_id].nextb + 2) {
-            ((MB_CommPWork *) data_020415ec)->fileinfo[file_id].currentb++;
+    if (((MB_CommPWork *) mbc)->fileinfo[file_id].active &&
+        ((MB_CommPWork *) mbc)->fileinfo[file_id].pollbmp) {
+        if (((MB_CommPWork *) mbc)->fileinfo[file_id].nextb <=
+                ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb &&
+            ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb <=
+                ((MB_CommPWork *) mbc)->fileinfo[file_id].nextb + 2) {
+            ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb++;
         } else {
-            ((MB_CommPWork *) data_020415ec)->fileinfo[file_id].currentb =
-                ((MB_CommPWork *) data_020415ec)->fileinfo[file_id].nextb;
+            ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb =
+                ((MB_CommPWork *) mbc)->fileinfo[file_id].nextb;
         }
         ((void) 0);
     }

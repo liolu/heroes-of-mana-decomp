@@ -100,7 +100,7 @@ struct OSiAlarm {
     OSTick period;
     OSTick start;
 };
-extern void func_0200e7cc(void *startAddr, u32 nBytes);
+extern void DC_InvalidateRange(void *startAddr, u32 nBytes);
 typedef enum WMApiid {
     WM_APIID_INITIALIZE = 0,
     WM_APIID_RESET,
@@ -453,15 +453,15 @@ typedef struct WMArm9Buf {
 } WMArm9Buf, WMarm9Buf;
 extern WMMpRecvData *func_02018ea0(const WMMpRecvHeader *header, u16 aid);
 extern const u16(*ctrdgi_fl_maxtime);
-extern WMArm9Buf *func_0201866c(void);
-extern WMErrCode func_0201867c(void);
+extern WMArm9Buf *WMi_GetSystemWork(void);
+extern WMErrCode WMi_CheckInitialized(void);
 WMMpRecvData *func_02018ea0(const WMMpRecvHeader *header, u16 aid) {
     int i;
     WMErrCode result;
     WMMpRecvData *recvdata_p[15];
-    WMArm9Buf *p = func_0201866c();
+    WMArm9Buf *p = WMi_GetSystemWork();
 
-    result = func_0201867c();
+    result = WMi_CheckInitialized();
 
     if (result != WM_ERRCODE_SUCCESS) {
         return ((void *) 0);
@@ -472,7 +472,7 @@ WMMpRecvData *func_02018ea0(const WMMpRecvHeader *header, u16 aid) {
         return ((void *) 0);
     }
 
-    func_0200e7cc(&(p->status->child_bitmap), 2);
+    DC_InvalidateRange(&(p->status->child_bitmap), 2);
 
     if (0 == (p->status->child_bitmap & (0x0001 << aid))) {
         return ((void *) 0);

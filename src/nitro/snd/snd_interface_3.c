@@ -1,0 +1,12 @@
+#include "m2c.h"
+#include "engine.h"
+
+void PushCommand_impl(s32, s32, s32, s32, s32);
+
+void SND_LockChannel(s32 arg0, s32 arg1) {
+    PushCommand_impl(0x1A, arg0, arg1, 0, 0);
+}
+
+void SND_UnlockChannel(s32 arg0, s32 arg1) {
+    PushCommand_impl(0x1B, arg0, arg1, 0, 0);
+}

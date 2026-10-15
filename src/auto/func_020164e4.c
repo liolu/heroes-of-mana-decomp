@@ -3,26 +3,26 @@
 
 M2C_UNK func_0200fa98(void);
 void func_0200faac(M2C_UNK);
-M2C_UNK func_02016c20(void);
+M2C_UNK RTCi_ReadRawDateAsync(void);
 
-extern M2C_UNK data_0203a6d4;
+extern M2C_UNK RTCi_Bss;
 
 s32 func_020164e4(s32 arg0, s32 arg1, s32 arg2) {
     s32 temp_r0;
 
     temp_r0 = func_0200fa98();
-    if (M2C_FIELD(&data_0203a6d4, s32 *, 4) != 0) {
+    if (M2C_FIELD(&RTCi_Bss, s32 *, 4) != 0) {
         func_0200faac(temp_r0);
         return 1;
     }
-    M2C_FIELD(&data_0203a6d4, s32 *, 4) = 1;
+    M2C_FIELD(&RTCi_Bss, s32 *, 4) = 1;
     func_0200faac(temp_r0);
-    M2C_FIELD(&data_0203a6d4, s32 *, 0x18) = 0;
-    M2C_FIELD(&data_0203a6d4, s32 *, 0x1C) = 0;
-    M2C_FIELD(&data_0203a6d4, s32 *, 0xC)  = arg0;
-    M2C_FIELD(&data_0203a6d4, s32 *, 8)    = arg1;
-    M2C_FIELD(&data_0203a6d4, s32 *, 0x14) = arg2;
-    if (func_02016c20() != 0) {
+    M2C_FIELD(&RTCi_Bss, s32 *, 0x18) = 0;
+    M2C_FIELD(&RTCi_Bss, s32 *, 0x1C) = 0;
+    M2C_FIELD(&RTCi_Bss, s32 *, 0xC)  = arg0;
+    M2C_FIELD(&RTCi_Bss, s32 *, 8)    = arg1;
+    M2C_FIELD(&RTCi_Bss, s32 *, 0x14) = arg2;
+    if (RTCi_ReadRawDateAsync() != 0) {
         return 0;
     }
     return 3;

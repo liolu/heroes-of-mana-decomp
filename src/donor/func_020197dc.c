@@ -32,14 +32,14 @@ typedef struct {
     u16 ssidMatchLength;
     u16 rsv2[2];
 } WMStartScanExReq;
-extern WMErrCode func_020186e0(s32 paramNum, ...);
-extern void func_020184e0(int apiid, WMCallbackFunc callback);
-extern WMErrCode func_020185fc(void *data, u32 length);
-extern void func_02010434(const void *src, void *dst, u32 size);
+extern WMErrCode WMi_CheckStateEx(s32 paramNum, ...);
+extern void WMi_SetCallbackTable(int apiid, WMCallbackFunc callback);
+extern WMErrCode WMi_SendCommandDirect(void *data, u32 length);
+extern void MI_CpuCopy8(const void *src, void *dst, u32 size);
 WMErrCode func_020197dc(WMCallbackFunc callback, const WMScanExParam *param) {
     WMErrCode result;
 
-    result = func_020186e0(3, 2, 3, 5);
+    result = WMi_CheckStateEx(3, 2, 3, 5);
     if (result != 0) {
         return result;
     }
@@ -63,7 +63,7 @@ WMErrCode func_020197dc(WMCallbackFunc callback, const WMScanExParam *param) {
         return 6;
     }
 
-    func_020184e0(0x26, callback);
+    WMi_SetCallbackTable(0x26, callback);
 
     {
         WMStartScanExReq Req;
@@ -73,13 +73,13 @@ WMErrCode func_020197dc(WMCallbackFunc callback, const WMScanExParam *param) {
         Req.scanBuf        = param->scanBuf;
         Req.scanBufSize    = param->scanBufSize;
         Req.maxChannelTime = param->maxChannelTime;
-        func_02010434(param->bssid, Req.bssid, 6);
+        MI_CpuCopy8(param->bssid, Req.bssid, 6);
         Req.scanType        = param->scanType;
         Req.ssidMatchLength = param->ssidMatchLength;
         Req.ssidLength      = param->ssidLength;
-        func_02010434(param->ssid, Req.ssid, 32);
+        MI_CpuCopy8(param->ssid, Req.ssid, 32);
 
-        result = func_020185fc(&Req, sizeof(Req));
+        result = WMi_SendCommandDirect(&Req, sizeof(Req));
         if (result != 0) {
             return result;
         }

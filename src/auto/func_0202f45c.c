@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-M2C_UNK func_02020c7c();                            /* extern */
+M2C_UNK func_02020c7c();
 
 void func_0202f45c(s32 arg0) {
     if (arg0 == 0) {

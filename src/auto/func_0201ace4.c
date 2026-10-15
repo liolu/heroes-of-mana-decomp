@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-M2C_UNK func_0201a380();                            /* extern */
+M2C_UNK func_0201a380();
 
 void func_0201ace4(void) {
     func_0201a380();

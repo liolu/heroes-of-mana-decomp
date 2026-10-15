@@ -274,7 +274,7 @@ static inline u32 FS_GetPosition(const FSFile *p_file) {
     return p_file->prop.file.pos - p_file->prop.file.top;
 }
 extern s32 func_0201360c(FSFile *p_file, void *dst, s32 len);
-extern BOOL func_0201361c(FSFile *p_file, s32 offset, FSSeekFileMode origin);
+extern BOOL FS_SeekFile(FSFile *p_file, s32 offset, FSSeekFileMode origin);
 extern u32 func_0201c3d8(FSFile *file);
 extern const u16(*ctrdgi_fl_maxtime);
 typedef struct {
@@ -350,7 +350,7 @@ u32 func_0201c3d8(FSFile *file) {
             p = (const RomHeader *) rom;
         }
 
-        (void) func_0201361c(file, (int) bak_pos, FS_SEEK_SET);
+        (void) FS_SeekFile(file, (int) bak_pos, FS_SEEK_SET);
     } else {
         p = (const RomHeader *) (0x02000000 + 0x007ffe00);
     }

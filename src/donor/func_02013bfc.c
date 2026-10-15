@@ -274,9 +274,9 @@ typedef struct FSFile {
 
 } FSFile;
 extern void func_02013190(FSFile *p_file);
-extern BOOL func_02013400(FSFile *p_file, FSFileID file_id);
+extern BOOL FS_OpenFileFast(FSFile *p_file, FSFileID file_id);
 extern BOOL func_020134b8(FSFile *p_file);
-extern s32 func_020135fc(FSFile *p_file, void *dst, s32 len);
+extern s32 FS_ReadFileAsync(FSFile *p_file, void *dst, s32 len);
 typedef void (*FSOverlayInitFunc)(void);
 typedef struct {
     u32 id;
@@ -298,21 +298,21 @@ static inline void *FS_GetOverlayAddress(const FSOverlayInfo *p_ovi) {
     return p_ovi->header.ram_address;
 }
 extern FSFileID func_020139e0(const FSOverlayInfo *p_ovi);
-extern void func_020139a4(FSOverlayInfo *p_ovi);
+extern void FS_ClearOverlayImage(FSOverlayInfo *p_ovi);
 extern BOOL func_02013bfc(FSOverlayInfo *p_ovi, FSFile *p_file);
-u32 func_02013988(const FSOverlayInfo *p_ovi);
-void func_020139a4(FSOverlayInfo *p_ovi);
+u32 FSi_GetOverlayBinarySize(const FSOverlayInfo *p_ovi);
+void FS_ClearOverlayImage(FSOverlayInfo *p_ovi);
 FSFileID func_020139e0(const FSOverlayInfo *p_ovi);
 BOOL func_02013bfc(FSOverlayInfo *p_ovi, FSFile *p_file) {
     func_02013190(p_file);
 
-    if (!func_02013400(p_file, func_020139e0(p_ovi))) {
+    if (!FS_OpenFileFast(p_file, func_020139e0(p_ovi))) {
         return 0;
     } else {
-        s32 size = (s32) func_02013988(p_ovi);
-        func_020139a4(p_ovi);
+        s32 size = (s32) FSi_GetOverlayBinarySize(p_ovi);
+        FS_ClearOverlayImage(p_ovi);
 
-        if (func_020135fc(p_file, FS_GetOverlayAddress(p_ovi), size) != size) {
+        if (FS_ReadFileAsync(p_file, FS_GetOverlayAddress(p_ovi), size) != size) {
             (void) func_020134b8(p_file);
             return 0;
         }

@@ -418,7 +418,7 @@ extern OSThread *OSi_GetIdleThread(void);
 extern void OS_InitThread(void);
 extern BOOL OS_IsThreadAvailable(void);
 extern void OS_CreateThread(OSThread *thread, void (*func)(void *), void *arg, void *stack, u32 stackSize, u32 prio);
-extern void func_0200daa4(void);
+extern void OS_ExitThread(void);
 extern void OS_DestroyThread(OSThread *thread);
 extern void OS_KillThread(OSThread *thread, void *arg);
 extern void OS_KillThreadWithPriority(OSThread *thread, void *arg, u32 prio);
@@ -427,7 +427,7 @@ extern BOOL OS_IsThreadTerminated(const OSThread *thread);
 extern OSThread *OS_SelectThread(void);
 extern void OS_RescheduleThread(void);
 extern void OS_YieldThread(void);
-extern void func_0200dd50(OSThreadQueue *queue);
+extern void OS_SleepThread(OSThreadQueue *queue);
 extern void OS_SleepThreadDirect(OSThread *thread, OSThreadQueue *queue);
 extern void OS_WakeupThread(OSThreadQueue *queue);
 extern void OS_WakeupThreadDirect(OSThread *thread);
@@ -469,8 +469,8 @@ static inline void OS_SetCurrentThread(OSThread *thread) {
 }
 extern void OS_SetThreadStackWarningOffset(OSThread *thread, u32 offset);
 extern OSStackStatus OS_GetStackStatus(const OSThread *thread);
-extern BOOL func_0200dff4(OSThread *thread, u32 prio);
-extern u32 func_0200e09c(const OSThread *thread);
+extern BOOL OS_SetThreadPriority(OSThread *thread, u32 prio);
+extern u32 OS_GetThreadPriority(const OSThread *thread);
 extern void OS_Sleep(u32 msec);
 extern OSSwitchThreadCallback OS_SetSwitchThreadCallback(OSSwitchThreadCallback callback);
 extern void OS_DumpThreadCallTrace(const OSThread *thread);
@@ -10495,14 +10495,14 @@ void func_0201f67c(void *arg) {
             OSIntrMode bak_cpsr = func_0200fa98();
 
             while (!p->list) {
-                (void) func_0200dff4(p->th, 0);
-                func_0200dd50(0);
+                (void) OS_SetThreadPriority(p->th, 0);
+                OS_SleepThread(0);
             }
 
             trg     = p->list;
             p->list = p->list->next;
 
-            (void) func_0200dff4(p->th, trg->priority);
+            (void) OS_SetThreadPriority(p->th, trg->priority);
             (void) func_0200faac(bak_cpsr);
         }
 
@@ -10514,7 +10514,7 @@ void func_0201f67c(void *arg) {
             OSIntrMode bak_cpsr   = func_0200fa98();
             MB_TASK_FUNC callback = trg->callback;
 
-            const u32 cur_priority = func_0200e09c(p->th);
+            const u32 cur_priority = OS_GetThreadPriority(p->th);
             u32 new_priority;
 
             if (!p->list) {
@@ -10526,7 +10526,7 @@ void func_0201f67c(void *arg) {
             }
 
             if (new_priority != cur_priority) {
-                (void) func_0200dff4(p->th, new_priority);
+                (void) OS_SetThreadPriority(p->th, new_priority);
             }
 
             trg->next = 0;
@@ -10545,7 +10545,7 @@ void func_0201f67c(void *arg) {
     }
 
     ((void) 0);
-    func_0200daa4();
+    OS_ExitThread();
 
     return;
 }

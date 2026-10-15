@@ -8,7 +8,7 @@ typedef unsigned char u8;
 typedef volatile u64 vu64;
 typedef volatile u32 vu32;
 typedef volatile u16 vu16;
-extern u32 func_0200f5b0(void);
+extern u32 OS_GetTickLo(void);
 typedef struct UnkSystemWork {
     u8 unk_000[0x3c];
     u32 unk_03c;
@@ -28,7 +28,7 @@ typedef struct UnkSystemWork {
     u16 unk_3aa;
     u16 unk_3ac;
 } UnkSystemWork;
-extern vu64 data_0203897c;
+extern vu64 OSi_TickCounter;
 static inline UnkSystemWork *GetSystemWork(void) {
     return (UnkSystemWork *) 0x027ffc00;
 }
@@ -38,10 +38,10 @@ void func_0200fd0c(u32 *buffer) {
     UnkSystemWork *work = GetSystemWork();
     UnkSystemWork *sys;
 
-    buffer[0] = func_0200f5b0() | (vcount << 16);
-    buffer[1] = (u32) ((work->unk_0f8 << 16) ^ data_0203897c);
+    buffer[0] = OS_GetTickLo() | (vcount << 16);
+    buffer[1] = (u32) ((work->unk_0f8 << 16) ^ OSi_TickCounter);
     sys       = GetSystemWork();
-    buffer[2] = sys->unk_03c ^ (u32) ((data_0203897c >> 32) ^ work->unk_0f4);
+    buffer[2] = sys->unk_03c ^ (u32) ((OSi_TickCounter >> 32) ^ work->unk_0f4);
     buffer[2] ^= *(vu32 *) 0x04000600;
     buffer[3] = sys->unk_1e8;
     buffer[4] = sys->unk_1ec;

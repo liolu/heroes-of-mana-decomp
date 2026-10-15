@@ -156,11 +156,11 @@ typedef struct UnkOverlayInfo {
     u32 filePos;
     u32 fileLen;
 } UnkOverlayInfo;
-extern FS_Record data_0203a5d4;
+extern FS_Record fsi_arc_rom;
 FS_FileIdentifier func_020139e0(UnkOverlayInfo *info) {
     FS_FileIdentifier iden;
 
-    iden.record = &data_0203a5d4;
+    iden.record = &fsi_arc_rom;
     iden.fileID = info->fileId;
     return iden;
 }

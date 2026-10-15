@@ -5,10 +5,10 @@ typedef struct {
     char *NextChar;
     int NullCharDetected;
 } __InStrCtrl;
-extern int func_020249f8(void *, int, int);
+extern int __StringRead(void *, int, int);
 extern int func_02024a7c(const char *, const char *, va_list);
-int func_02023ca4(int (*ReadProc)(void *, int, int), void *ReadProcArg, const char *format_str, va_list arg, int is_secure);
-int func_020249f8(void *isc, int ch, int Action);
+int __sformatter(int (*ReadProc)(void *, int, int), void *ReadProcArg, const char *format_str, va_list arg, int is_secure);
+int __StringRead(void *isc, int ch, int Action);
 int func_02024a7c(const char *restrict s, const char *restrict format, va_list arg) {
     __InStrCtrl isc;
     isc.NextChar = (char *) s;
@@ -17,5 +17,5 @@ int func_02024a7c(const char *restrict s, const char *restrict format, va_list a
     }
     isc.NullCharDetected = 0;
 
-    return func_02023ca4(&func_020249f8, (void *) &isc, format, arg, 0);
+    return __sformatter(&__StringRead, (void *) &isc, format, arg, 0);
 }

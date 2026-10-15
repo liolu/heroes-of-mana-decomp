@@ -1,7 +1,7 @@
 /* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
 /* raise from https://github.com/GoldieLeGenie/DQIV-DECOMP libs/MSL/src/signal.c (license: none), reused by
  * tools/donor_match.py */
-extern void func_02020ad8(int status);
+extern void exit(int status);
 typedef unsigned int u32;
 typedef unsigned short u16;
 typedef int s32;
@@ -62,9 +62,9 @@ typedef struct OSThread {
     void *userParam;
     s32 error;
 } OSThread;
-extern OSThreadInfo data_02038660;
+extern OSThreadInfo OSi_ThreadInfo;
 static inline OSThreadInfo *OS_GetThreadInfo(void) {
-    return &data_02038660;
+    return &OSi_ThreadInfo;
 }
 static inline OSThread *OS_GetCurrentThread(void) {
     return OS_GetThreadInfo()->current;
@@ -78,7 +78,7 @@ typedef struct OSMutex {
     s32 count;
     OSMutexLinkedList list;
 } OSMutex;
-extern void func_0200e5c0(OSMutex *mutex);
+extern void OS_LockMutex(OSMutex *mutex);
 extern void func_0200e644(OSMutex *mutex);
 extern BOOL func_0200e6dc(OSMutex *mutex);
 enum critical_regions {
@@ -93,35 +93,35 @@ enum critical_regions {
     thread_access         = 8,
     num_critical_regions  = 9
 };
-extern OSMutex data_02041d88[num_critical_regions];
-extern int data_02041d40[num_critical_regions];
-extern int data_02041d64[num_critical_regions];
+extern OSMutex __cs[num_critical_regions];
+extern int __cs_id[num_critical_regions];
+extern int __cs_ref[num_critical_regions];
 static inline void __begin_critical_region(int region) {
     OSThread *currentThread;
 
-    if (func_0200e6dc(&data_02041d88[region]) == 0) {
+    if (func_0200e6dc(&__cs[region]) == 0) {
         currentThread         = OS_GetCurrentThread();
-        data_02041d40[region] = OS_GetThreadId(currentThread);
-        data_02041d64[region] = 1;
+        __cs_id[region] = OS_GetThreadId(currentThread);
+        __cs_ref[region] = 1;
     } else {
         currentThread = OS_GetCurrentThread();
-        if (OS_GetThreadId(currentThread) == data_02041d40[region]) {
-            data_02041d64[region]++;
+        if (OS_GetThreadId(currentThread) == __cs_id[region]) {
+            __cs_ref[region]++;
         } else {
-            func_0200e5c0(&data_02041d88[region]);
+            OS_LockMutex(&__cs[region]);
             currentThread         = OS_GetCurrentThread();
-            data_02041d40[region] = OS_GetThreadId(currentThread);
-            data_02041d64[region] = 1;
+            __cs_id[region] = OS_GetThreadId(currentThread);
+            __cs_ref[region] = 1;
         }
     }
 }
 static inline void __end_critical_region(int region) {
-    if (--data_02041d64[region] == 0) {
-        func_0200e644(&data_02041d88[region]);
+    if (--__cs_ref[region] == 0) {
+        func_0200e644(&__cs[region]);
     }
 }
 typedef void (*sig_func)(int sig);
-extern sig_func data_02042164[7];
+extern sig_func signal_funcs[7];
 int func_02024af8(int sig) {
     sig_func signal_func;
 
@@ -131,10 +131,10 @@ int func_02024af8(int sig) {
 
     __begin_critical_region(signal_funcs_access);
 
-    signal_func = data_02042164[sig - 1];
+    signal_func = signal_funcs[sig - 1];
 
     if ((unsigned int) signal_func != 1) {
-        data_02042164[sig - 1] = 0;
+        signal_funcs[sig - 1] = 0;
     }
 
     __end_critical_region(signal_funcs_access);
@@ -144,7 +144,7 @@ int func_02024af8(int sig) {
     }
 
     if ((unsigned int) signal_func == 0) {
-        func_02020ad8(0);
+        exit(0);
     }
 
     signal_func(sig);

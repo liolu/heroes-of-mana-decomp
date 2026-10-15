@@ -8,8 +8,8 @@ typedef struct {
     size_t MaxCharCount;
     size_t CharsWritten;
 } __OutStrCtrl;
-int func_02022d00(void *(*WriteProc)(void *, const char *, size_t), void *WriteProcArg, const char *format_str, va_list arg);
-void *func_02023550(void *wosc, const char *buffer, size_t numchars);
+int __pformatter(void *(*WriteProc)(void *, const char *, size_t), void *WriteProcArg, const char *format_str, va_list arg);
+void *__StringWrite(void *wosc, const char *buffer, size_t numchars);
 int func_020236ac(char *s, unsigned int n, const char *format, va_list arg) {
     unsigned int end;
     __OutStrCtrl osc;
@@ -18,7 +18,7 @@ int func_020236ac(char *s, unsigned int n, const char *format, va_list arg) {
     osc.MaxCharCount = n;
     osc.CharsWritten = 0;
 
-    end = func_02022d00(&func_02023550, &osc, format, arg);
+    end = __pformatter(&__StringWrite, &osc, format, arg);
 
     if (s != 0) {
         if (end < n) {

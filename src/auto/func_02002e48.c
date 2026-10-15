@@ -1,10 +1,10 @@
 #include "m2c.h"
 
-s32 func_02002eb0();                                /* extern */
-s32 func_0200ed38(M2C_UNK, M2C_UNK, s32);           /* extern */
-M2C_UNK func_0200fddc();                            /* extern */
-M2C_UNK func_0201360c(M2C_UNK *, s32, s32);         /* extern */
-s32 func_0201361c(M2C_UNK *, s32, M2C_UNK);         /* extern */
+s32 func_02002eb0();
+s32 func_0200ed38(M2C_UNK, M2C_UNK, s32);
+M2C_UNK func_0200fddc();
+M2C_UNK func_0201360c(M2C_UNK *, s32, s32);
+s32 FS_SeekFile(M2C_UNK *, s32, M2C_UNK);
 extern M2C_UNK data_02036744;
 
 s32 func_02002e48(s32 arg0, s32 arg1, s32 *arg2) {
@@ -15,7 +15,7 @@ s32 func_02002e48(s32 arg0, s32 arg1, s32 *arg2) {
     if (*arg2 == 0) {
         return 0;
     }
-    if (func_0201361c(&data_02036744, temp_r1, 0) == 0) {
+    if (FS_SeekFile(&data_02036744, temp_r1, 0) == 0) {
         func_0200fddc();
     }
     temp_r0 = func_0200ed38(0, -1, *arg2);

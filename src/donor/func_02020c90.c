@@ -51,13 +51,13 @@ struct _FILE {
     __ref_con ref_con;
 };
 typedef struct _FILE FILE;
-extern FILE data_02035d04[];
+extern FILE __files[];
 extern int func_02020c90(void);
 extern int func_020210ac(FILE *file);
-extern FILE data_02035d04[3];
+extern FILE __files[3];
 int func_02020c90(void) {
     int result     = 0;
-    FILE *file     = &data_02035d04[0];
+    FILE *file     = &__files[0];
     int file_index = 1;
 
     do {
@@ -67,7 +67,7 @@ int func_02020c90(void) {
             }
         }
         if (file_index < 3) {
-            file = &data_02035d04[file_index++];
+            file = &__files[file_index++];
         } else {
             file = 0;
         }

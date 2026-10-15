@@ -15,7 +15,7 @@ typedef struct {
     BOOL needResetTimer;
     volatile u64 tickCounter;
 } OSiTickState;
-extern OSiTickState data_02038974;
+extern OSiTickState OSi_UseTick;
 extern OSIntrMode func_0200fa98(void);
 extern OSIntrMode func_0200faac(OSIntrMode state);
 OSTick func_0200f510(void) {
@@ -25,7 +25,7 @@ OSTick func_0200f510(void) {
     OSIntrMode prev = func_0200fa98();
 
     countL = *(u16 *) 0x04000100;
-    countH = data_02038974.tickCounter & 0xffffffffffffULL;
+    countH = OSi_UseTick.tickCounter & 0xffffffffffffULL;
 
     if ((*(volatile u32 *) 0x04000214) & 8 && !(countL & 0x8000)) {
         countH++;

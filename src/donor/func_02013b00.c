@@ -160,21 +160,21 @@ typedef struct UnkOverlayInfo {
     u32 filePos;
     u32 fileLen;
 } UnkOverlayInfo;
-extern FS_Record data_0203a5d4;
-extern CartridgeRegion data_0203a5c4;
-extern CartridgeRegion data_0203a5cc;
+extern FS_Record fsi_arc_rom;
+extern CartridgeRegion fsi_ovt9;
+extern CartridgeRegion fsi_ovt7;
 extern void func_02013190(FS_File *file);
-extern BOOL func_02013400(FS_File *file, FS_FileIdentifier iden);
+extern BOOL FS_OpenFileFast(FS_File *file, FS_FileIdentifier iden);
 extern BOOL func_020134b8(FS_File *file);
-extern void func_02010434(const void *src, void *dest, u32 count);
+extern void MI_CpuCopy8(const void *src, void *dest, u32 count);
 FS_FileIdentifier func_020139e0(UnkOverlayInfo *info);
-BOOL func_02013a08(UnkOverlayInfo *info, u32 target, u32 id, FS_Record *record, u32 offset9, u32 size9, u32 offset7,
+BOOL FSi_LoadOverlayInfoCore(UnkOverlayInfo *info, u32 target, u32 id, FS_Record *record, u32 offset9, u32 size9, u32 offset7,
                    u32 size7);
 BOOL func_02013b00(UnkOverlayInfo *info, u32 target, u32 id) {
     const CartridgeRegion *table;
     FS_File file[1];
 
-    table = (target == 0) ? &data_0203a5c4 : &data_0203a5cc;
+    table = (target == 0) ? &fsi_ovt9 : &fsi_ovt7;
 
     if (table->offset != 0) {
         const u32 pos = id * 0x20;
@@ -182,11 +182,11 @@ BOOL func_02013b00(UnkOverlayInfo *info, u32 target, u32 id) {
             return 0;
         }
 
-        func_02010434((u8 *) table->offset + pos, info, 0x20);
+        MI_CpuCopy8((u8 *) table->offset + pos, info, 0x20);
         info->target = target;
 
         func_02013190(file);
-        if (!func_02013400(file, func_020139e0(info))) {
+        if (!FS_OpenFileFast(file, func_020139e0(info))) {
             return 0;
         }
         info->filePos = file->startPosition;
@@ -195,6 +195,6 @@ BOOL func_02013b00(UnkOverlayInfo *info, u32 target, u32 id) {
         return 1;
     } else {
         const CartridgeRegion *rom = (const CartridgeRegion *) 0x027FFE50;
-        return func_02013a08(info, target, id, &data_0203a5d4, rom[0].offset, rom[0].size, rom[1].offset, rom[1].size);
+        return FSi_LoadOverlayInfoCore(info, target, id, &fsi_arc_rom, rom[0].offset, rom[0].size, rom[1].offset, rom[1].size);
     }
 }

@@ -1,0 +1,21 @@
+#include "m2c.h"
+
+M2C_UNK OSi_ExitThread(s32);
+
+M2C_UNK OS_InitContext(void *, M2C_UNK (*)(s32));
+
+M2C_UNK OS_LoadContext(void *);
+
+extern M2C_UNK OSi_SystemCallbackInSwitchThread;
+
+void OSi_ExitThread_ArgSpecified(void *arg0, s32 arg1) {
+    if (M2C_FIELD(&OSi_SystemCallbackInSwitchThread, s32 *, 0x1C) != 0) {
+        OS_InitContext(arg0, OSi_ExitThread);
+        M2C_FIELD(arg0, s32 *, 4)    = arg1;
+        M2C_FIELD(arg0, s32 *, 0)    = (s32) (M2C_FIELD(arg0, s32 *, 0) | 0x80);
+        M2C_FIELD(arg0, s32 *, 0x64) = 1;
+        OS_LoadContext(arg0);
+        return;
+    }
+    OSi_ExitThread(arg1);
+}

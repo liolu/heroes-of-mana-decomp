@@ -3,8 +3,8 @@
  * reused by tools/donor_match.py */
 extern int func_0200fa98(void);
 extern void func_0200faac(int state);
-extern void func_0200f5c0(void *alarm);
-extern char data_02038984;
+extern void OSi_SetTimer(void *alarm);
+extern char OSi_UseAlarm;
 void func_0200f8b4(char *alarm) {
     int enabled = func_0200fa98();
     char *next;
@@ -15,7 +15,7 @@ void func_0200f8b4(char *alarm) {
     }
     next = *(char **) (alarm + 0x18);
     if (next == 0) {
-        *(char **) ((char *) &data_02038984 + 8) = *(char **) (alarm + 0x14);
+        *(char **) ((char *) &OSi_UseAlarm + 8) = *(char **) (alarm + 0x14);
     } else {
         *(char **) (next + 0x14) = *(char **) (alarm + 0x14);
     }
@@ -23,9 +23,9 @@ void func_0200f8b4(char *alarm) {
     if (prev != 0) {
         *(char **) (prev + 0x18) = next;
     } else {
-        *(char **) ((char *) &data_02038984 + 4) = next;
+        *(char **) ((char *) &OSi_UseAlarm + 4) = next;
         if (next != 0) {
-            func_0200f5c0(next);
+            OSi_SetTimer(next);
         }
     }
     *(int *) alarm          = 0;

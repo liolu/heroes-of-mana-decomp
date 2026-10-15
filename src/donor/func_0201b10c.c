@@ -452,8 +452,8 @@ typedef struct MB_CommPWork {
     u8 task_work[2 * 1024];
     MBiTaskInfo cur_task;
 } MB_CommPWork;
-extern MB_CommCommonWork *data_020415ec;
-extern BOOL func_0201c3a4(u16 child_aid);
+extern MB_CommCommonWork *mbc;
+extern BOOL IsChildAidValid(u16 child_aid);
 BOOL func_0201b10c(u16 child_aid, MBCommResponseRequestType ack) {
     u16 req;
     int state;
@@ -485,9 +485,9 @@ BOOL func_0201b10c(u16 child_aid, MBCommResponseRequestType ack) {
             return 0;
     }
 
-    if (((MB_CommPWork *) data_020415ec) && func_0201c3a4(child_aid)) {
-        if (((MB_CommPWork *) data_020415ec)->p_comm_state[child_aid - 1] == state) {
-            ((MB_CommPWork *) data_020415ec)->req2child[child_aid - 1] = req;
+    if (((MB_CommPWork *) mbc) && IsChildAidValid(child_aid)) {
+        if (((MB_CommPWork *) mbc)->p_comm_state[child_aid - 1] == state) {
+            ((MB_CommPWork *) mbc)->req2child[child_aid - 1] = req;
             (void) func_0200faac(enabled);
             return 1;
         }
@@ -496,4 +496,4 @@ BOOL func_0201b10c(u16 child_aid, MBCommResponseRequestType ack) {
     (void) func_0200faac(enabled);
     return 0;
 }
-BOOL func_0201c3a4(u16 child_aid);
+BOOL IsChildAidValid(u16 child_aid);

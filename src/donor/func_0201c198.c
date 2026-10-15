@@ -100,12 +100,12 @@ struct OSiAlarm {
     OSTick period;
     OSTick start;
 };
-extern void func_0201027c(u16 data, void *destp, u32 size);
+extern void MIi_CpuClear16(u16 data, void *destp, u32 size);
 static inline void MI_CpuFill16(void *dest, u16 data, u32 size) {
     ((void) 0);
     ((void) 0);
 
-    func_0201027c(data, dest, size);
+    MIi_CpuClear16(data, dest, size);
 }
 static inline void MI_CpuClear16(void *dest, u32 size) {
     MI_CpuFill16(dest, 0, size);
@@ -482,13 +482,13 @@ typedef struct MB_CommPWork {
     u8 task_work[2 * 1024];
     MBiTaskInfo cur_task;
 } MB_CommPWork;
-extern MB_CommCommonWork *data_020415ec;
+extern MB_CommCommonWork *mbc;
 extern int func_0201bc90(u8 type, u16 pollbmp);
-extern int func_0201bcd0(void);
+extern int MBi_CommParentSendDLFileInfo(void);
 extern int func_0201befc(void);
 extern int func_0201c198(void);
 int func_0201bc90(u8 type, u16 pollbmp);
-int func_0201bcd0(void);
+int MBi_CommParentSendDLFileInfo(void);
 int func_0201befc(void);
 int func_0201c198(void) {
     struct bitmap {
@@ -505,7 +505,7 @@ int func_0201c198(void) {
     MI_CpuClear16(&bmp, sizeof(struct bitmap));
 
     for (child = 1; child <= 15; child++) {
-        switch (((MB_CommPWork *) data_020415ec)->p_comm_state[child - 1]) {
+        switch (((MB_CommPWork *) mbc)->p_comm_state[child - 1]) {
             case MB_COMM_PSTATE_CONNECTED:
                 bmp.connected |= (1 << child);
                 break;
@@ -537,7 +537,7 @@ int func_0201c198(void) {
     } else if (bmp.kick) {
         errcode = func_0201bc90(MB_COMM_TYPE_PARENT_KICKREQ, bmp.kick);
     } else if (bmp.req) {
-        errcode = func_0201bcd0();
+        errcode = MBi_CommParentSendDLFileInfo();
     } else {
         errcode = func_0201befc();
     }

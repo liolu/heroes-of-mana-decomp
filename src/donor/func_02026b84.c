@@ -5,10 +5,10 @@ typedef struct {
     char *NextChar;
     int NullCharDetected;
 } __InStrCtrl;
-extern unsigned long func_020262b8(int base, int max, int (*ReadProc)(void *, int, int), void *ReadProcArg, int *chars_scanned,
+extern unsigned long __strtoul(int base, int max, int (*ReadProc)(void *, int, int), void *ReadProcArg, int *chars_scanned,
                                    int *negative, int *overflow);
-extern int func_020249f8(void *isc, int ch, int action);
-extern int data_02042160;
+extern int __StringRead(void *isc, int ch, int action);
+extern int errno;
 long func_02026b84(const char *str, char **end, int base) {
     unsigned long value;
     int count, negative, overflow;
@@ -17,7 +17,7 @@ long func_02026b84(const char *str, char **end, int base) {
     isc.NextChar         = (char *) str;
     isc.NullCharDetected = 0;
 
-    value = func_020262b8(base, 0x7fffffff, func_020249f8, (void *) &isc, &count, &negative, &overflow);
+    value = __strtoul(base, 0x7fffffff, __StringRead, (void *) &isc, &count, &negative, &overflow);
 
     if (end) {
         *end = (char *) str + count;
@@ -25,7 +25,7 @@ long func_02026b84(const char *str, char **end, int base) {
 
     if (overflow || (!negative && value > 0x7fffffff) || (negative && value > 0x80000000)) {
         value         = (negative ? 0x80000000 : 0x7fffffff);
-        data_02042160 = 0x22;
+        errno = 0x22;
     } else if (negative) {
         value = -value;
     }

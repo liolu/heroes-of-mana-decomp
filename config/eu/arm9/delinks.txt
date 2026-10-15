@@ -6,23 +6,19 @@
     .data       start:0x02035880 end:0x02036720 kind:data align:32
     .bss        start:0x02036720 end:0x020421a0 kind:bss align:32
 
-src/auto/Entry.c:
+src/lib/crt0.c:
     complete
     .text       start:0x02000800 end:0x02000930
 
-src/auto/func_02000944.c:
+src/nitro/init/crt0_2.c:
     complete
-    .text       start:0x02000944 end:0x020009f0
-
-src/auto/func_020009f0.c:
-    complete
-    .text       start:0x020009f0 end:0x02000a68
+    .text       start:0x02000944 end:0x02000a68
 
 src/auto/AutoloadCallback.c:
     complete
     .text       start:0x02000a68 end:0x02000a6c
 
-src/auto/func_02000a6c.c:
+src/nitro/init/crt0_3.c:
     complete
     .text       start:0x02000a6c end:0x02000b54
 
@@ -30,7 +26,7 @@ src/auto/func_02000b54.c:
     complete
     .text       start:0x02000b54 end:0x02000b58
 
-src/auto/func_02000b58.c:
+src/auto/OSi_ReferSymbol.c:
     complete
     .text       start:0x02000b58 end:0x02000b5c
 
@@ -46,7 +42,7 @@ src/auto/func_02000f78.c:
     complete
     .text       start:0x02000f78 end:0x02000fa0
 
-src/auto/func_02000fa0.c:
+src/nitro/os/os_china.c:
     complete
     .text       start:0x02000fa0 end:0x02000fbc
 
@@ -126,55 +122,39 @@ src/auto/func_02003b7c.c:
     complete
     .text       start:0x02003b7c end:0x02003b88
 
-src/auto/func_02003b88.c:
+src/nnsys/snd/main.c:
     complete
     .text       start:0x02003b88 end:0x02003bc0
 
-src/auto/func_02003bec.c:
+src/nnsys/snd/main_2.c:
     complete
     .text       start:0x02003bec end:0x02003c1c
 
-src/auto/func_02003cbc.c:
+src/nnsys/snd/resource_mgr.c:
     complete
-    .text       start:0x02003cbc end:0x02003ce8
+    .text       start:0x02003cbc end:0x02003d54
 
-src/auto/func_02003ce8.c:
-    complete
-    .text       start:0x02003ce8 end:0x02003d08
-
-src/auto/func_02003d08.c:
-    complete
-    .text       start:0x02003d08 end:0x02003d24
-
-src/auto/func_02003d24.c:
-    complete
-    .text       start:0x02003d24 end:0x02003d54
-
-src/auto/func_02003d54.c:
+src/nnsys/snd/player.c:
     complete
     .text       start:0x02003d54 end:0x02003db4
 
-src/auto/func_02003db4.c:
+src/nnsys/snd/player_2.c:
     complete
     .text       start:0x02003db4 end:0x02003e04
 
-src/auto/func_02003f04.c:
+src/nnsys/snd/player_3.c:
     complete
     .text       start:0x02003f04 end:0x02003f3c
 
-src/auto/func_02003ff0.c:
+src/nnsys/snd/player_4.c:
     complete
-    .text       start:0x02003ff0 end:0x02004038
+    .text       start:0x02003ff0 end:0x0200408c
 
-src/auto/func_02004038.c:
-    complete
-    .text       start:0x02004038 end:0x0200408c
-
-src/auto/func_02004134.c:
+src/nnsys/snd/player_5.c:
     complete
     .text       start:0x02004134 end:0x02004140
 
-src/auto/func_02004420.c:
+src/nnsys/snd/player_6.c:
     complete
     .text       start:0x02004420 end:0x02004448
 
@@ -182,7 +162,7 @@ src/auto/func_02004448.c:
     complete
     .text       start:0x02004448 end:0x02004464
 
-src/auto/func_020044f0.c:
+src/nnsys/snd/player_7.c:
     complete
     .text       start:0x020044f0 end:0x02004500
 
@@ -202,15 +182,11 @@ src/auto/func_020045f8.c:
     complete
     .text       start:0x020045f8 end:0x02004608
 
-src/auto/func_0200469c.c:
+src/nnsys/snd/player_8.c:
     complete
-    .text       start:0x0200469c end:0x020046b4
+    .text       start:0x0200469c end:0x020046d4
 
-src/auto/func_020046b4.c:
-    complete
-    .text       start:0x020046b4 end:0x020046d4
-
-src/auto/func_020046d4.c:
+src/nnsys/snd/main_3.c:
     complete
     .text       start:0x020046d4 end:0x02004744
 
@@ -218,23 +194,19 @@ src/auto/func_02004744.c:
     complete
     .text       start:0x02004744 end:0x02004790
 
-src/auto/func_02004844.c:
+src/nnsys/snd/stream.c:
     complete
     .text       start:0x02004844 end:0x02004874
 
-src/auto/func_02004984.c:
+src/nnsys/snd/stream_2.c:
     complete
-    .text       start:0x02004984 end:0x020049d8
-
-src/auto/func_020049d8.c:
-    complete
-    .text       start:0x020049d8 end:0x02004a00
+    .text       start:0x02004984 end:0x02004a00
 
 src/auto/func_02004a00.c:
     complete
     .text       start:0x02004a00 end:0x02004a80
 
-src/auto/func_02004d64.c:
+src/nnsys/snd/capture.c:
     complete
     .text       start:0x02004d64 end:0x02004d84
 
@@ -254,35 +226,27 @@ src/auto/func_02004e30.c:
     complete
     .text       start:0x02004e30 end:0x02004e3c
 
-src/auto/func_02004e3c.c:
+src/nnsys/snd/sndarc.c:
     complete
-    .text       start:0x02004e3c end:0x02004e58
-
-src/auto/func_02004e58.c:
-    complete
-    .text       start:0x02004e58 end:0x02004e80
+    .text       start:0x02004e3c end:0x02004ea0
 
 src/auto/func_02004ea0.c:
     complete
     .text       start:0x02004ea0 end:0x02004f18
 
-src/auto/func_02004f18.c:
+src/nnsys/snd/sndarc_2.c:
     complete
-    .text       start:0x02004f18 end:0x02004f40
-
-src/auto/func_02004f40.c:
-    complete
-    .text       start:0x02004f40 end:0x02004f68
+    .text       start:0x02004f18 end:0x02004f68
 
 src/auto/func_02005224.c:
     complete
     .text       start:0x02005224 end:0x02005234
 
-src/auto/func_02005234.c:
+src/nnsys/snd/sndarc_3.c:
     complete
     .text       start:0x02005234 end:0x0200524c
 
-src/auto/func_0200558c.c:
+src/nnsys/snd/heap.c:
     complete
     .text       start:0x0200558c end:0x020055ac
 
@@ -290,15 +254,15 @@ src/auto/func_02005630.c:
     complete
     .text       start:0x02005630 end:0x02005640
 
-src/auto/func_02005640.c:
+src/nnsys/snd/heap_2.c:
     complete
     .text       start:0x02005640 end:0x020056a8
 
-src/auto/func_02005764.c:
+src/nnsys/snd/heap_3.c:
     complete
     .text       start:0x02005764 end:0x0200577c
 
-src/auto/func_020059f8.c:
+src/nnsys/snd/sndarc_loader.c:
     complete
     .text       start:0x020059f8 end:0x02005a18
 
@@ -306,7 +270,7 @@ src/auto/func_020065d0.c:
     complete
     .text       start:0x020065d0 end:0x020065d4
 
-src/auto/func_020065d4.c:
+src/nnsys/snd/sndarc_stream.c:
     complete
     .text       start:0x020065d4 end:0x020065f0
 
@@ -318,19 +282,11 @@ src/auto/func_020065f4.c:
     complete
     .text       start:0x020065f4 end:0x02006620
 
-src/auto/func_02006620.c:
+src/nnsys/snd/sndarc_stream_2.c:
     complete
-    .text       start:0x02006620 end:0x02006630
+    .text       start:0x02006620 end:0x02006678
 
-src/auto/func_02006630.c:
-    complete
-    .text       start:0x02006630 end:0x02006668
-
-src/auto/func_02006668.c:
-    complete
-    .text       start:0x02006668 end:0x02006678
-
-src/auto/func_02007214.c:
+src/nnsys/snd/sndarc_stream_3.c:
     complete
     .text       start:0x02007214 end:0x02007264
 
@@ -338,7 +294,7 @@ src/auto/func_02007378.c:
     complete
     .text       start:0x02007378 end:0x020073dc
 
-src/auto/func_02007478.c:
+src/nnsys/snd/sndarc_stream_4.c:
     complete
     .text       start:0x02007478 end:0x020074b4
 
@@ -350,17 +306,13 @@ src/auto/func_020077f0.c:
     complete
     .text       start:0x020077f0 end:0x02007808
 
-src/auto/func_02007808.c:
+src/nnsys/snd/fader.c:
     complete
     .text       start:0x02007808 end:0x0200783c
 
-src/auto/func_0200783c.c:
+src/nnsys/snd/fader_2.c:
     complete
-    .text       start:0x0200783c end:0x02007868
-
-src/auto/func_02007868.c:
-    complete
-    .text       start:0x02007868 end:0x02007888
+    .text       start:0x0200783c end:0x02007888
 
 src/auto/func_0200789c.c:
     complete
@@ -370,7 +322,7 @@ src/auto/func_02007a78.c:
     complete
     .text       start:0x02007a78 end:0x02007a90
 
-src/auto/func_02007a90.c:
+src/nnsys/fnd/heapcommon.c:
     complete
     .text       start:0x02007a90 end:0x02007aa8
 
@@ -378,7 +330,7 @@ src/auto/func_02007aa8.c:
     complete
     .text       start:0x02007aa8 end:0x02007b34
 
-src/auto/func_02007b34.c:
+src/nnsys/fnd/heapcommon_2.c:
     complete
     .text       start:0x02007b34 end:0x02007b5c
 
@@ -386,31 +338,23 @@ src/auto/func_02007c3c.c:
     complete
     .text       start:0x02007c3c end:0x02007c48
 
-src/auto/func_02008130.c:
+src/nnsys/fnd/expheap_3.c:
     complete
     .text       start:0x02008130 end:0x02008160
 
-src/auto/func_02008160.c:
+src/nnsys/fnd/expheap_4.c:
     complete
-    .text       start:0x02008160 end:0x02008188
+    .text       start:0x02008160 end:0x020081b4
 
-src/auto/func_02008188.c:
-    complete
-    .text       start:0x02008188 end:0x020081b4
-
-src/auto/func_0200822c.c:
+src/nnsys/fnd/frameheap.c:
     complete
     .text       start:0x0200822c end:0x02008238
 
-src/auto/func_02008e90.c:
+src/nitro/fx/fx_cp.c:
     complete
-    .text       start:0x02008e90 end:0x02008ea0
+    .text       start:0x02008e90 end:0x02008ef8
 
-src/auto/func_02008ea0.c:
-    complete
-    .text       start:0x02008ea0 end:0x02008ed4
-
-src/auto/func_02008f8c.c:
+src/nitro/fx/fx_cp_4.c:
     complete
     .text       start:0x02008f8c end:0x02008fb4
 
@@ -418,7 +362,7 @@ src/auto/func_0200940c.c:
     complete
     .text       start:0x0200940c end:0x02009410
 
-src/auto/func_020095c4.c:
+src/nitro/gx/gx_4.c:
     complete
     .text       start:0x020095c4 end:0x02009600
 
@@ -426,37 +370,29 @@ src/auto/func_020096b0.c:
     complete
     .text       start:0x020096b0 end:0x020096cc
 
-src/auto/func_020096cc.c:
+src/nitro/gx/gx_6.c:
     complete
     .text       start:0x020096cc end:0x020096f4
 
-src/auto/func_020096f4.c:
+src/nitro/gx/gxstate.c:
     complete
     .text       start:0x020096f4 end:0x02009754
 
-src/auto/func_0200a238.c:
+src/nitro/gx/gx_vramcnt_3.c:
     complete
     .text       start:0x0200a238 end:0x0200a258
 
-src/auto/func_0200a470.c:
+src/nitro/gx/gx_vramcnt_5.c:
     complete
     .text       start:0x0200a470 end:0x0200a4a4
 
-src/auto/func_0200a4a4.c:
+src/nitro/gx/gx_vramcnt_6.c:
     complete
     .text       start:0x0200a4a4 end:0x0200a4c8
 
-src/auto/func_0200a4c8.c:
+src/nitro/gx/gx_vramcnt_7.c:
     complete
-    .text       start:0x0200a4c8 end:0x0200a4ec
-
-src/auto/func_0200a4ec.c:
-    complete
-    .text       start:0x0200a4ec end:0x0200a500
-
-src/auto/func_0200a500.c:
-    complete
-    .text       start:0x0200a500 end:0x0200a514
+    .text       start:0x0200a4c8 end:0x0200a514
 
 src/auto/func_0200a514.c:
     complete
@@ -466,7 +402,7 @@ src/auto/func_0200a528.c:
     complete
     .text       start:0x0200a528 end:0x0200a53c
 
-src/auto/func_0200a53c.c:
+src/nitro/gx/gx_vramcnt_8.c:
     complete
     .text       start:0x0200a53c end:0x0200a564
 
@@ -546,73 +482,37 @@ src/auto/func_0200acd8.c:
     complete
     .text       start:0x0200acd8 end:0x0200acf4
 
-src/auto/func_0200ad1c.c:
+src/nitro/gx/g3imm.c:
     complete
-    .text       start:0x0200ad1c end:0x0200ad64
+    .text       start:0x0200ada8 end:0x0200adfc
 
-src/auto/func_0200ad64.c:
-    complete
-    .text       start:0x0200ad64 end:0x0200ada8
-
-src/auto/func_0200ada8.c:
-    complete
-    .text       start:0x0200ada8 end:0x0200adc4
-
-src/auto/func_0200adc4.c:
-    complete
-    .text       start:0x0200adc4 end:0x0200ade0
-
-src/auto/func_0200ade0.c:
-    complete
-    .text       start:0x0200ade0 end:0x0200adfc
-
-src/auto/func_0200adfc.c:
+src/nitro/gx/g3x.c:
     complete
     .text       start:0x0200adfc end:0x0200af08
 
-src/auto/func_0200b11c.c:
+src/nitro/gx/g3x_5.c:
     complete
     .text       start:0x0200b11c end:0x0200b134
 
-src/auto/func_0200b134.c:
+src/nitro/gx/g3x_6.c:
     complete
     .text       start:0x0200b134 end:0x0200b15c
 
-src/auto/func_0200b678.c:
+src/nitro/gx/g3_util_2.c:
     complete
     .text       start:0x0200b678 end:0x0200b6b4
 
-src/auto/func_0200b6b4.c:
+src/nitro/gx/g3_util_3.c:
     complete
     .text       start:0x0200b6b4 end:0x0200b6f0
 
-src/auto/func_0200b6f0.c:
+src/nitro/gx/g3_util_4.c:
     complete
     .text       start:0x0200b6f0 end:0x0200b72c
 
-src/auto/func_0200b72c.c:
+src/nitro/gx/gx_load2d.c:
     complete
-    .text       start:0x0200b72c end:0x0200b780
-
-src/auto/func_0200b780.c:
-    complete
-    .text       start:0x0200b780 end:0x0200b7d8
-
-src/auto/func_0200b7d8.c:
-    complete
-    .text       start:0x0200b7d8 end:0x0200b830
-
-src/auto/func_0200b830.c:
-    complete
-    .text       start:0x0200b830 end:0x0200b888
-
-src/auto/func_0200b888.c:
-    complete
-    .text       start:0x0200b888 end:0x0200b8dc
-
-src/auto/func_0200b8dc.c:
-    complete
-    .text       start:0x0200b8dc end:0x0200b934
+    .text       start:0x0200b72c end:0x0200b934
 
 src/auto/func_0200b9e4.c:
     complete
@@ -666,31 +566,27 @@ src/auto/func_0200be64.c:
     complete
     .text       start:0x0200be64 end:0x0200bec4
 
-src/auto/func_0200bfd4.c:
+src/nitro/gx/gx_load2d_5.c:
     complete
-    .text       start:0x0200bfd4 end:0x0200c01c
+    .text       start:0x0200bfd4 end:0x0200c064
 
-src/auto/func_0200c01c.c:
-    complete
-    .text       start:0x0200c01c end:0x0200c064
-
-src/auto/func_0200c0d0.c:
+src/nitro/gx/gx_load2d_7.c:
     complete
     .text       start:0x0200c0d0 end:0x0200c114
 
-src/auto/func_0200c114.c:
+src/nitro/gx/gx_load2d_8.c:
     complete
     .text       start:0x0200c114 end:0x0200c12c
 
-src/auto/func_0200c190.c:
+src/nitro/gx/gx_load2d_10.c:
     complete
     .text       start:0x0200c190 end:0x0200c1d0
 
-src/auto/func_0200c36c.c:
+src/nitro/gx/gx_load3d_2.c:
     complete
     .text       start:0x0200c36c end:0x0200c3b8
 
-src/auto/func_0200c458.c:
+src/nitro/gx/gx_load3d_4.c:
     complete
     .text       start:0x0200c458 end:0x0200c49c
 
@@ -698,39 +594,11 @@ src/auto/func_0200c560.c:
     complete
     .text       start:0x0200c560 end:0x0200c564
 
-src/auto/func_0200c5ec.c:
+src/nitro/os/os_irqTable.c:
     complete
-    .text       start:0x0200c5ec end:0x0200c5fc
+    .text       start:0x0200c5ec end:0x0200c66c
 
-src/auto/func_0200c5fc.c:
-    complete
-    .text       start:0x0200c5fc end:0x0200c60c
-
-src/auto/func_0200c60c.c:
-    complete
-    .text       start:0x0200c60c end:0x0200c61c
-
-src/auto/func_0200c61c.c:
-    complete
-    .text       start:0x0200c61c end:0x0200c62c
-
-src/auto/func_0200c62c.c:
-    complete
-    .text       start:0x0200c62c end:0x0200c63c
-
-src/auto/func_0200c63c.c:
-    complete
-    .text       start:0x0200c63c end:0x0200c64c
-
-src/auto/func_0200c64c.c:
-    complete
-    .text       start:0x0200c64c end:0x0200c65c
-
-src/auto/func_0200c65c.c:
-    complete
-    .text       start:0x0200c65c end:0x0200c66c
-
-src/auto/func_0200c66c.c:
+src/nitro/os/os_interrupt.c:
     complete
     .text       start:0x0200c66c end:0x0200c684
 
@@ -738,39 +606,23 @@ src/auto/func_0200ca2c.c:
     complete
     .text       start:0x0200ca2c end:0x0200ca3c
 
-src/auto/func_0200cab0.c:
+src/nitro/os/os_spinLock_2.c:
     complete
     .text       start:0x0200cab0 end:0x0200cac0
 
-src/auto/func_0200cb2c.c:
+src/nitro/os/os_spinLock_4.c:
     complete
-    .text       start:0x0200cb2c end:0x0200cb4c
+    .text       start:0x0200cb2c end:0x0200cb78
 
-src/auto/func_0200cb58.c:
+src/nitro/os/os_spinLock_5.c:
     complete
-    .text       start:0x0200cb58 end:0x0200cb78
-
-src/auto/func_0200cb78.c:
-    complete
-    .text       start:0x0200cb78 end:0x0200cb90
-
-src/auto/func_0200cb90.c:
-    complete
-    .text       start:0x0200cb90 end:0x0200cba8
-
-src/auto/func_0200cba8.c:
-    complete
-    .text       start:0x0200cba8 end:0x0200cbc4
-
-src/auto/func_0200cbc4.c:
-    complete
-    .text       start:0x0200cbc4 end:0x0200cbe0
+    .text       start:0x0200cb78 end:0x0200cbe0
 
 src/auto/func_0200cbe0.c:
     complete
     .text       start:0x0200cbe0 end:0x0200cbf8
 
-src/auto/func_0200cbf8.c:
+src/nitro/os/os_spinLock_6.c:
     complete
     .text       start:0x0200cbf8 end:0x0200cc10
 
@@ -778,177 +630,129 @@ src/auto/func_0200cc10.c:
     complete
     .text       start:0x0200cc10 end:0x0200cc18
 
-src/auto/func_0200cca0.c:
+src/nitro/os/os_printf.c:
     complete
     .text       start:0x0200cca0 end:0x0200ccd0
 
-src/auto/func_0200cda4.c:
+src/nitro/os/os_printf_5.c:
     complete
     .text       start:0x0200cda4 end:0x0200cdbc
 
-src/auto/func_0200d660.c:
+src/nitro/os/os_thread.c:
     complete
     .text       start:0x0200d660 end:0x0200d678
 
-src/auto/func_0200d6f0.c:
+src/nitro/os/os_thread_2.c:
     complete
     .text       start:0x0200d6f0 end:0x0200d724
 
-src/auto/func_0200d778.c:
+src/nitro/os/os_thread_3.c:
     complete
-    .text       start:0x0200d778 end:0x0200d7a8
+    .text       start:0x0200d778 end:0x0200d808
 
 src/auto/func_0200d998.c:
     complete
     .text       start:0x0200d998 end:0x0200d9a8
 
-src/auto/func_0200daa4.c:
+src/nitro/os/os_thread_4.c:
     complete
     .text       start:0x0200daa4 end:0x0200dac4
 
-src/auto/func_0200dac4.c:
+src/nitro/os/os_thread_5.c:
     complete
     .text       start:0x0200dac4 end:0x0200db20
 
-src/auto/func_0200db58.c:
+src/nitro/os/os_thread_7.c:
     complete
     .text       start:0x0200db58 end:0x0200dbb4
 
-src/auto/func_0200dc30.c:
+src/nitro/os/os_thread_8.c:
     complete
     .text       start:0x0200dc30 end:0x0200dc54
 
-src/auto/func_0200dc54.c:
+src/nitro/os/os_thread_9.c:
     complete
     .text       start:0x0200dc54 end:0x0200dcf4
 
-src/auto/func_0200dcf4.c:
+src/nitro/os/os_thread_10.c:
     complete
-    .text       start:0x0200dcf4 end:0x0200dd0c
-
-src/auto/func_0200dd0c.c:
-    complete
-    .text       start:0x0200dd0c end:0x0200dd3c
+    .text       start:0x0200dcf4 end:0x0200dd3c
 
 src/auto/func_0200dd3c.c:
     complete
     .text       start:0x0200dd3c end:0x0200dd50
 
-src/auto/func_0200dd50.c:
+src/nitro/os/os_thread_11.c:
     complete
     .text       start:0x0200dd50 end:0x0200dda0
 
-src/auto/func_0200de08.c:
+src/nitro/os/os_thread_12.c:
     complete
-    .text       start:0x0200de08 end:0x0200de30
+    .text       start:0x0200de08 end:0x0200de58
 
-src/auto/func_0200e09c.c:
+src/auto/OS_GetThreadPriority.c:
     complete
     .text       start:0x0200e09c end:0x0200e0a4
 
-src/auto/func_0200e14c.c:
+src/nitro/os/os_thread_14.c:
     complete
     .text       start:0x0200e14c end:0x0200e16c
 
-src/auto/func_0200e20c.c:
+src/auto/OS_SetThreadDestructor.c:
     complete
     .text       start:0x0200e20c end:0x0200e214
 
-src/auto/func_0200e280.c:
+src/nitro/os/os_context_2.c:
     complete
-    .text       start:0x0200e280 end:0x0200e2cc
+    .text       start:0x0200e280 end:0x0200e310
 
-src/auto/func_0200e2cc.c:
-    complete
-    .text       start:0x0200e2cc end:0x0200e310
-
-src/auto/func_0200e310.c:
+src/auto/OS_IsRunOnEmulator.c:
     complete
     .text       start:0x0200e310 end:0x0200e318
 
-src/auto/func_0200e318.c:
+src/nitro/os/os_emulator.c:
     complete
     .text       start:0x0200e318 end:0x0200e330
 
-src/auto/func_0200e330.c:
+src/nitro/os/os_message.c:
     complete
     .text       start:0x0200e330 end:0x0200e358
 
-src/auto/func_0200e5a8.c:
+src/nitro/os/os_mutex.c:
     complete
-    .text       start:0x0200e5a8 end:0x0200e5c0
+    .text       start:0x0200e5a8 end:0x0200e644
 
-src/auto/func_0200e5c0.c:
-    complete
-    .text       start:0x0200e5c0 end:0x0200e644
-
-src/auto/func_0200e6a0.c:
+src/nitro/os/os_mutex_2.c:
     complete
     .text       start:0x0200e6a0 end:0x0200e6dc
 
-src/auto/func_0200e750.c:
+src/nitro/os/os_mutex_3.c:
     complete
-    .text       start:0x0200e750 end:0x0200e774
+    .text       start:0x0200e750 end:0x0200e798
 
-src/auto/func_0200e774.c:
+src/nitro/os/os_cache.c:
     complete
-    .text       start:0x0200e774 end:0x0200e798
+    .text       start:0x0200e798 end:0x0200e850
 
-src/auto/func_0200e798.c:
-    complete
-    .text       start:0x0200e798 end:0x0200e7cc
-
-src/auto/func_0200e7cc.c:
-    complete
-    .text       start:0x0200e7cc end:0x0200e7e8
-
-src/auto/func_0200e7e8.c:
-    complete
-    .text       start:0x0200e7e8 end:0x0200e804
-
-src/auto/func_0200e804.c:
-    complete
-    .text       start:0x0200e804 end:0x0200e828
-
-src/auto/func_0200e834.c:
-    complete
-    .text       start:0x0200e834 end:0x0200e850
-
-src/auto/func_0200e850.c:
+src/nitro/os/os_init_2.c:
     complete
     .text       start:0x0200e850 end:0x0200e894
 
-src/auto/func_0200e894.c:
+src/nitro/os/os_arena.c:
     complete
     .text       start:0x0200e894 end:0x0200e998
 
-src/auto/func_0200e998.c:
+src/nitro/os/os_arena_2.c:
     complete
-    .text       start:0x0200e998 end:0x0200ea04
+    .text       start:0x0200e998 end:0x0200ea2c
 
-src/auto/func_0200ea04.c:
+src/nitro/os/os_arena_3.c:
     complete
-    .text       start:0x0200ea04 end:0x0200ea18
+    .text       start:0x0200ebb8 end:0x0200ebe0
 
-src/auto/func_0200ea18.c:
+src/nitro/os/os_alloc.c:
     complete
-    .text       start:0x0200ea18 end:0x0200ea2c
-
-src/auto/func_0200ebb8.c:
-    complete
-    .text       start:0x0200ebb8 end:0x0200ebcc
-
-src/auto/func_0200ebcc.c:
-    complete
-    .text       start:0x0200ebcc end:0x0200ebe0
-
-src/auto/func_0200ec4c.c:
-    complete
-    .text       start:0x0200ec4c end:0x0200ec68
-
-src/auto/func_0200ec68.c:
-    complete
-    .text       start:0x0200ec68 end:0x0200ec90
+    .text       start:0x0200ec4c end:0x0200ec90
 
 src/auto/func_0200f1bc.c:
     complete
@@ -958,19 +762,15 @@ src/auto/func_0200f1c0.c:
     complete
     .text       start:0x0200f1c0 end:0x0200f1d4
 
-src/auto/func_0200f320.c:
+src/nitro/os/os_exception_2.c:
     complete
-    .text       start:0x0200f320 end:0x0200f3b0
+    .text       start:0x0200f320 end:0x0200f404
 
-src/auto/func_0200f3b0.c:
-    complete
-    .text       start:0x0200f3b0 end:0x0200f404
-
-src/auto/func_0200f404.c:
+src/nitro/os/os_timer.c:
     complete
     .text       start:0x0200f404 end:0x0200f420
 
-src/auto/func_0200f420.c:
+src/nitro/os/os_tick.c:
     complete
     .text       start:0x0200f420 end:0x0200f498
 
@@ -978,11 +778,11 @@ src/auto/func_0200f498.c:
     complete
     .text       start:0x0200f498 end:0x0200f4a8
 
-src/auto/func_0200f5b0.c:
+src/nitro/os/os_tick_2.c:
     complete
     .text       start:0x0200f5b0 end:0x0200f5c0
 
-src/auto/func_0200f64c.c:
+src/nitro/os/os_alarm.c:
     complete
     .text       start:0x0200f64c end:0x0200f68c
 
@@ -990,15 +790,15 @@ src/auto/func_0200f68c.c:
     complete
     .text       start:0x0200f68c end:0x0200f69c
 
-src/auto/func_0200f69c.c:
+src/nitro/os/os_alarm_2.c:
     complete
     .text       start:0x0200f69c end:0x0200f6ac
 
-src/auto/func_0200fa3c.c:
+src/nitro/os/os_valarm.c:
     complete
     .text       start:0x0200fa3c end:0x0200fa84
 
-src/auto/func_0200fa84.c:
+src/nitro/os/os_system.c:
     complete
     .text       start:0x0200fa84 end:0x0200fa98
 
@@ -1010,13 +810,9 @@ src/auto/func_0200faac.c:
     complete
     .text       start:0x0200faac end:0x0200fac4
 
-src/auto/func_0200fac4.c:
+src/nitro/os/os_system_2.c:
     complete
-    .text       start:0x0200fac4 end:0x0200fad8
-
-src/auto/func_0200fad8.c:
-    complete
-    .text       start:0x0200fad8 end:0x0200faf0
+    .text       start:0x0200fac4 end:0x0200faf0
 
 src/auto/func_0200faf0.c:
     complete
@@ -1030,179 +826,119 @@ src/auto/func_0200fb28.c:
     complete
     .text       start:0x0200fb28 end:0x0200fb2c
 
-src/auto/func_0200fb2c.c:
+src/nitro/os/os_reset.c:
     complete
     .text       start:0x0200fb2c end:0x0200fb80
 
-src/auto/func_0200fb80.c:
+src/nitro/os/os_reset_2.c:
     complete
     .text       start:0x0200fb80 end:0x0200fbb4
 
-src/auto/func_0200fbb4.c:
+src/nitro/os/os_ownerInfo.c:
     complete
     .text       start:0x0200fbb4 end:0x0200fbd0
 
-src/auto/func_0200fdf8.c:
+src/nitro/mi/mi_wram.c:
     complete
     .text       start:0x0200fdf8 end:0x0200fe08
 
-src/auto/func_02010028.c:
+src/nitro/mi/mi_dma.c:
     complete
     .text       start:0x02010028 end:0x020100c0
 
-src/auto/func_02010228.c:
+src/nitro/mi/mi_dma_3.c:
     complete
     .text       start:0x02010228 end:0x0201027c
 
-src/auto/func_02010564.c:
+src/auto/MI_SwapWord.c:
     complete
     .text       start:0x02010564 end:0x0201056c
 
-src/auto/func_0201056c.c:
+src/nitro/mi/mi_uncompress.c:
     complete
     .text       start:0x0201056c end:0x02010600
 
-src/auto/func_02010674.c:
+src/nitro/mi/mi_init_2.c:
     complete
     .text       start:0x02010674 end:0x0201068c
 
-src/auto/func_0201068c.c:
+src/nitro/snd/snd_interface.c:
     complete
-    .text       start:0x0201068c end:0x020106ac
+    .text       start:0x0201068c end:0x02010790
 
-src/auto/func_020106ac.c:
-    complete
-    .text       start:0x020106ac end:0x020106d4
-
-src/auto/func_020106d4.c:
-    complete
-    .text       start:0x020106d4 end:0x020106f4
-
-src/auto/func_020106f4.c:
-    complete
-    .text       start:0x020106f4 end:0x0201070c
-
-src/auto/func_0201070c.c:
-    complete
-    .text       start:0x0201070c end:0x02010724
-
-src/auto/func_02010724.c:
-    complete
-    .text       start:0x02010724 end:0x02010740
-
-src/auto/func_02010740.c:
-    complete
-    .text       start:0x02010740 end:0x02010768
-
-src/auto/func_02010768.c:
-    complete
-    .text       start:0x02010768 end:0x02010790
-
-src/auto/func_020107f4.c:
+src/nitro/snd/snd_interface_2.c:
     complete
     .text       start:0x020107f4 end:0x02010834
 
-src/auto/func_02010874.c:
+src/nitro/snd/snd_interface_4.c:
     complete
     .text       start:0x02010874 end:0x0201089c
 
-src/auto/func_02010948.c:
+src/nitro/snd/snd_interface_6.c:
     complete
-    .text       start:0x02010948 end:0x02010970
+    .text       start:0x02010948 end:0x020109d8
 
-src/auto/func_02010970.c:
-    complete
-    .text       start:0x02010970 end:0x02010990
-
-src/auto/func_02010990.c:
-    complete
-    .text       start:0x02010990 end:0x020109b0
-
-src/auto/func_020109b0.c:
-    complete
-    .text       start:0x020109b0 end:0x020109d8
-
-src/auto/func_020109d8.c:
+src/nitro/snd/snd_interface_7.c:
     complete
     .text       start:0x020109d8 end:0x02010a00
 
-src/auto/func_02010a00.c:
+src/nitro/snd/snd_interface_8.c:
     complete
     .text       start:0x02010a00 end:0x02010a44
 
-src/auto/func_02010a44.c:
+src/nitro/snd/snd_main.c:
     complete
-    .text       start:0x02010a44 end:0x02010a7c
+    .text       start:0x02010a44 end:0x02010aa4
 
-src/auto/func_02010a7c.c:
-    complete
-    .text       start:0x02010a7c end:0x02010a90
-
-src/auto/func_02010a90.c:
-    complete
-    .text       start:0x02010a90 end:0x02010aa4
-
-src/auto/func_02010c88.c:
+src/nitro/snd/snd_command.c:
     complete
     .text       start:0x02010c88 end:0x02010d10
 
-src/auto/func_02010ea8.c:
+src/nitro/snd/snd_command_2.c:
     complete
-    .text       start:0x02010ea8 end:0x02010f14
+    .text       start:0x02010ea8 end:0x02010f40
 
-src/auto/func_02010f14.c:
-    complete
-    .text       start:0x02010f14 end:0x02010f40
-
-src/auto/func_02010f40.c:
+src/nitro/snd/snd_command_3.c:
     complete
     .text       start:0x02010f40 end:0x02010f90
 
-src/auto/func_02010f90.c:
+src/nitro/snd/snd_command_4.c:
     complete
     .text       start:0x02010f90 end:0x02010fcc
 
-src/auto/func_02010fcc.c:
+src/nitro/snd/snd_command_5.c:
     complete
-    .text       start:0x02010fcc end:0x02011008
+    .text       start:0x02010fcc end:0x02011024
 
-src/auto/func_02011008.c:
-    complete
-    .text       start:0x02011008 end:0x02011024
-
-src/auto/func_02011024.c:
+src/nitro/snd/snd_command_6.c:
     complete
     .text       start:0x02011024 end:0x02011048
 
-src/auto/func_02011048.c:
+src/nitro/snd/snd_command_7.c:
     complete
-    .text       start:0x02011048 end:0x020110a8
+    .text       start:0x02011048 end:0x020110d0
 
-src/auto/func_020110a8.c:
-    complete
-    .text       start:0x020110a8 end:0x020110d0
-
-src/auto/func_020110d0.c:
+src/nitro/snd/snd_command_8.c:
     complete
     .text       start:0x020110d0 end:0x02011118
 
-src/auto/func_02011188.c:
+src/nitro/snd/snd_alarm_2.c:
     complete
     .text       start:0x02011188 end:0x020111a8
 
-src/auto/func_020111d8.c:
+src/nitro/snd/snd_alarm_4.c:
     complete
     .text       start:0x020111d8 end:0x0201121c
 
-src/auto/func_0201121c.c:
+src/nitro/snd/snd_work.c:
     complete
     .text       start:0x0201121c end:0x02011248
 
-src/auto/func_02011248.c:
+src/nitro/snd/snd_work_2.c:
     complete
     .text       start:0x02011248 end:0x02011270
 
-src/auto/func_020114c0.c:
+src/nitro/snd/snd_bank.c:
     complete
     .text       start:0x020114c0 end:0x02011508
 
@@ -1210,19 +946,19 @@ src/auto/func_020116d8.c:
     complete
     .text       start:0x020116d8 end:0x020116e0
 
-src/auto/func_020116e0.c:
+src/nitro/snd/snd_bank_2.c:
     complete
     .text       start:0x020116e0 end:0x02011714
 
-src/auto/func_02011750.c:
+src/nitro/pxi/pxi_init_2.c:
     complete
     .text       start:0x02011750 end:0x0201175c
 
-src/auto/func_02011d68.c:
+src/nitro/fs/fs_command_default_2.c:
     complete
     .text       start:0x02011d68 end:0x02011d9c
 
-src/auto/func_020125c8.c:
+src/nitro/fs/fs_command_default_3.c:
     complete
     .text       start:0x020125c8 end:0x020125f0
 
@@ -1230,51 +966,47 @@ src/auto/func_020125f0.c:
     complete
     .text       start:0x020125f0 end:0x020125f8
 
-src/auto/func_02012650.c:
+src/nitro/fs/fs_archive_2.c:
     complete
     .text       start:0x02012650 end:0x0201266c
 
-src/auto/func_0201266c.c:
+src/nitro/fs/fs_archive_3.c:
     complete
     .text       start:0x0201266c end:0x0201268c
 
-src/auto/func_0201268c.c:
+src/nitro/fs/fs_archive_4.c:
     complete
     .text       start:0x0201268c end:0x020126a4
 
-src/auto/func_020128b8.c:
+src/nitro/fs/fs_archive_5.c:
     complete
     .text       start:0x020128b8 end:0x0201294c
 
-src/auto/func_0201294c.c:
+src/nitro/fs/fs_archive_6.c:
     complete
     .text       start:0x0201294c end:0x02012990
 
-src/auto/func_02012b34.c:
+src/nitro/fs/fs_archive_7.c:
     complete
     .text       start:0x02012b34 end:0x02012b60
 
-src/auto/func_02012ba0.c:
+src/nitro/fs/fs_archive_8.c:
     complete
     .text       start:0x02012ba0 end:0x02012c54
 
-src/auto/func_02012c54.c:
+src/nitro/fs/fs_archive_9.c:
     complete
     .text       start:0x02012c54 end:0x02012cd8
 
-src/auto/func_02012f2c.c:
+src/nitro/fs/fs_archive_10.c:
     complete
-    .text       start:0x02012f2c end:0x02012fb8
+    .text       start:0x02012f2c end:0x02013054
 
-src/auto/func_02012fb8.c:
-    complete
-    .text       start:0x02012fb8 end:0x02013054
-
-src/auto/func_020130c4.c:
+src/nitro/fs/fs_archive_11.c:
     complete
     .text       start:0x020130c4 end:0x020130e4
 
-src/auto/func_02013168.c:
+src/nitro/fs/fs_file.c:
     complete
     .text       start:0x02013168 end:0x02013190
 
@@ -1282,67 +1014,59 @@ src/auto/func_02013190.c:
     complete
     .text       start:0x02013190 end:0x020131b8
 
-src/auto/func_02013378.c:
+src/nitro/fs/fs_file_2.c:
     complete
-    .text       start:0x02013378 end:0x020133b8
-
-src/auto/func_020133b8.c:
-    complete
-    .text       start:0x020133b8 end:0x02013400
+    .text       start:0x02013378 end:0x02013400
 
 src/auto/func_020134b8.c:
     complete
     .text       start:0x020134b8 end:0x020134f4
 
-src/auto/func_020134f4.c:
+src/nitro/fs/fs_file_3.c:
     complete
     .text       start:0x020134f4 end:0x020135b4
 
-src/auto/func_020135b4.c:
+src/nitro/fs/fs_file_4.c:
     complete
-    .text       start:0x020135b4 end:0x020135fc
-
-src/auto/func_020135fc.c:
-    complete
-    .text       start:0x020135fc end:0x0201360c
+    .text       start:0x020135b4 end:0x0201360c
 
 src/auto/func_0201360c.c:
     complete
     .text       start:0x0201360c end:0x0201361c
 
-src/auto/func_020136e0.c:
+src/nitro/fs/fs_rom.c:
     complete
     .text       start:0x020136e0 end:0x02013704
 
-src/auto/func_0201374c.c:
+src/auto/FSi_WriteDummyCallback.c:
     complete
     .text       start:0x0201374c end:0x02013754
 
-src/auto/func_02013754.c:
+src/nitro/fs/fs_rom_2.c:
     complete
     .text       start:0x02013754 end:0x020137c0
 
-src/auto/func_020137c0.c:
+src/auto/FSi_ReadDummyCallback.c:
     complete
     .text       start:0x020137c0 end:0x020137c8
 
-src/auto/func_020137c8.c:
+src/lib/FSi_EmptyArchiveProc_2.c:
     complete
     .text       start:0x020137c8 end:0x020137d0
 
-src/auto/func_02013968.c:
+src/nitro/fs/fs_rom_4.c:
     complete
     .text       start:0x02013968 end:0x02013988
 
-src/auto/func_020139a4.c:
+src/nitro/fs/fs_overlay_2.c:
     complete
     .text       start:0x020139a4 end:0x020139e0
 
-src/auto/func_02013f00.c:
+src/nitro/fs/fs_overlay_4.c:
     complete
     .text       start:0x02013f00 end:0x02013f10
 
-src/auto/func_02013f10.c:
+src/nitro/fs/fs_overlay_5.c:
     complete
     .text       start:0x02013f10 end:0x02013f5c
 
@@ -1350,43 +1074,39 @@ src/auto/func_020144fc.c:
     complete
     .text       start:0x020144fc end:0x0201453c
 
-src/auto/func_020148c4.c:
+src/lib/DGT_Hash2SetSource_2.c:
     complete
     .text       start:0x020148c4 end:0x02014a20
 
-src/auto/func_02014a20.c:
+src/lib/DGT_Hash2Reset_2.c:
     complete
     .text       start:0x02014a20 end:0x02014a70
 
-src/auto/func_02015024.c:
+src/nitro/spi/tp_2.c:
     complete
     .text       start:0x02015024 end:0x0201509c
 
-src/auto/func_02015258.c:
+src/nitro/spi/tp_3.c:
     complete
     .text       start:0x02015258 end:0x02015278
 
-src/auto/func_02015278.c:
+src/nitro/spi/tp_4.c:
     complete
     .text       start:0x02015278 end:0x0201530c
 
-src/auto/func_02015358.c:
+src/nitro/spi/tp_5.c:
     complete
     .text       start:0x02015358 end:0x02015374
 
-src/auto/func_02015474.c:
+src/nitro/spi/tp_6.c:
     complete
-    .text       start:0x02015474 end:0x0201550c
-
-src/auto/func_0201550c.c:
-    complete
-    .text       start:0x0201550c end:0x020155a8
+    .text       start:0x02015474 end:0x020155a8
 
 src/auto/func_020155a8.c:
     complete
     .text       start:0x020155a8 end:0x020155b8
 
-src/auto/func_020158c8.c:
+src/nitro/spi/tp_7.c:
     complete
     .text       start:0x020158c8 end:0x020158e0
 
@@ -1398,45 +1118,41 @@ src/auto/func_020158f4.c:
     complete
     .text       start:0x020158f4 end:0x02015930
 
-src/auto/func_02015970.c:
+src/lib/PMi_DummyCallback_2.c:
     complete
     .text       start:0x02015970 end:0x02015978
 
-src/auto/func_02015c84.c:
+src/nitro/spi/pm.c:
     complete
     .text       start:0x02015c84 end:0x02015cac
 
-src/auto/func_02015cac.c:
+src/nitro/spi/pm_2.c:
     complete
     .text       start:0x02015cac end:0x02015d00
 
-src/auto/func_02015d00.c:
+src/nitro/spi/pm_3.c:
     complete
     .text       start:0x02015d00 end:0x02015d28
 
-src/auto/func_02015da4.c:
+src/nitro/spi/pm_4.c:
     complete
     .text       start:0x02015da4 end:0x02015dcc
 
-src/auto/func_02015dcc.c:
+src/nitro/spi/pm_5.c:
     complete
     .text       start:0x02015dcc end:0x02015e78
 
-src/auto/func_02015e78.c:
+src/nitro/spi/pm_6.c:
     complete
     .text       start:0x02015e78 end:0x02015ea0
 
-src/auto/func_02015efc.c:
+src/nitro/spi/pm_8.c:
     complete
     .text       start:0x02015efc end:0x02015f28
 
-src/auto/func_0201622c.c:
+src/nitro/spi/pm_9.c:
     complete
-    .text       start:0x0201622c end:0x0201624c
-
-src/auto/func_0201624c.c:
-    complete
-    .text       start:0x0201624c end:0x02016268
+    .text       start:0x0201622c end:0x02016268
 
 src/auto/func_02016268.c:
     complete
@@ -1458,21 +1174,13 @@ src/auto/func_02016348.c:
     complete
     .text       start:0x02016348 end:0x0201635c
 
-src/auto/func_0201635c.c:
+src/nitro/spi/pm_10.c:
     complete
-    .text       start:0x0201635c end:0x020163a8
+    .text       start:0x0201635c end:0x020163f0
 
-src/auto/func_020163f0.c:
+src/nitro/spi/pm_11.c:
     complete
-    .text       start:0x020163f0 end:0x02016418
-
-src/auto/func_02016418.c:
-    complete
-    .text       start:0x02016418 end:0x02016430
-
-src/auto/func_02016430.c:
-    complete
-    .text       start:0x02016430 end:0x02016448
+    .text       start:0x020163f0 end:0x02016448
 
 src/auto/func_02016448.c:
     complete
@@ -1482,7 +1190,7 @@ src/auto/func_02016460.c:
     complete
     .text       start:0x02016460 end:0x02016478
 
-src/auto/func_02016478.c:
+src/nitro/rtc/external.c:
     complete
     .text       start:0x02016478 end:0x020164e4
 
@@ -1498,147 +1206,87 @@ src/auto/func_0201658c.c:
     complete
     .text       start:0x0201658c end:0x02016600
 
-src/auto/func_02016600.c:
+src/nitro/rtc/external_2.c:
     complete
     .text       start:0x02016600 end:0x02016638
 
-src/auto/func_02016b88.c:
+src/nitro/rtc/external_3.c:
     complete
-    .text       start:0x02016b88 end:0x02016bf8
+    .text       start:0x02016b88 end:0x02016c08
 
-src/auto/func_02016bf8.c:
+src/nitro/rtc/internal.c:
     complete
-    .text       start:0x02016bf8 end:0x02016c08
+    .text       start:0x02016c20 end:0x02016c78
 
-src/auto/func_02016c20.c:
-    complete
-    .text       start:0x02016c20 end:0x02016c30
-
-src/auto/func_02016c30.c:
-    complete
-    .text       start:0x02016c30 end:0x02016c40
-
-src/auto/func_02016c40.c:
-    complete
-    .text       start:0x02016c40 end:0x02016c50
-
-src/auto/func_02016c50.c:
-    complete
-    .text       start:0x02016c50 end:0x02016c78
-
-src/auto/func_02016c78.c:
+src/nitro/rtc/convert.c:
     complete
     .text       start:0x02016c78 end:0x02016d0c
 
-src/auto/func_02016d0c.c:
+src/nitro/rtc/convert_2.c:
     complete
     .text       start:0x02016d0c end:0x02016d24
 
-src/auto/func_02017094.c:
+src/nitro/card/card_common.c:
     complete
-    .text       start:0x02017094 end:0x020170a4
-
-src/auto/func_020170a4.c:
-    complete
-    .text       start:0x020170a4 end:0x020170bc
+    .text       start:0x02017094 end:0x020170bc
 
 src/auto/func_020170bc.c:
     complete
     .text       start:0x020170bc end:0x020170cc
 
-src/auto/func_02017118.c:
+src/nitro/card/card_common_2.c:
     complete
     .text       start:0x02017118 end:0x02017134
 
-src/auto/func_02017134.c:
+src/nitro/card/card_common_3.c:
     complete
-    .text       start:0x02017134 end:0x02017148
+    .text       start:0x02017134 end:0x020171a0
 
-src/auto/func_02017148.c:
+src/nitro/card/card_backup.c:
     complete
-    .text       start:0x02017148 end:0x02017164
-
-src/auto/func_02017164.c:
-    complete
-    .text       start:0x02017164 end:0x02017180
-
-src/auto/func_02017180.c:
-    complete
-    .text       start:0x02017180 end:0x02017190
-
-src/auto/func_02017190.c:
-    complete
-    .text       start:0x02017190 end:0x020171a0
-
-src/auto/func_020176c8.c:
-    complete
-    .text       start:0x020176c8 end:0x020176dc
-
-src/auto/func_020176dc.c:
-    complete
-    .text       start:0x020176dc end:0x020176f0
-
-src/auto/func_020176f0.c:
-    complete
-    .text       start:0x020176f0 end:0x02017704
+    .text       start:0x020176c8 end:0x02017704
 
 src/auto/func_0201783c.c:
     complete
     .text       start:0x0201783c end:0x02017848
 
-src/auto/func_02017eec.c:
+src/nitro/card/card_rom_2.c:
     complete
-    .text       start:0x02017eec end:0x02017ef8
-
-src/auto/func_02017ef8.c:
-    complete
-    .text       start:0x02017ef8 end:0x02017f04
+    .text       start:0x02017eec end:0x02017f04
 
 src/auto/func_02017f90.c:
     complete
     .text       start:0x02017f90 end:0x020180e4
 
-src/auto/func_020180e4.c:
+src/nitro/card/card_pullOut.c:
     complete
     .text       start:0x020180e4 end:0x02018110
 
-src/auto/func_02018110.c:
+src/nitro/card/card_pullOut_2.c:
     complete
     .text       start:0x02018110 end:0x02018164
 
-src/auto/func_02018164.c:
+src/nitro/card/card_pullOut_3.c:
     complete
-    .text       start:0x02018164 end:0x02018174
-
-src/auto/func_02018174.c:
-    complete
-    .text       start:0x02018174 end:0x020181e0
+    .text       start:0x02018164 end:0x020181e0
 
 src/auto/func_02018490.c:
     complete
     .text       start:0x02018490 end:0x020184e0
 
-src/auto/func_020184e0.c:
+src/nitro/wm/wm_system_2.c:
     complete
-    .text       start:0x020184e0 end:0x020184f8
+    .text       start:0x020184e0 end:0x02018550
 
-src/auto/func_020184f8.c:
+src/nitro/wm/wm_system_3.c:
     complete
-    .text       start:0x020184f8 end:0x02018550
+    .text       start:0x020185fc end:0x0201867c
 
-src/auto/func_020185fc.c:
-    complete
-    .text       start:0x020185fc end:0x0201866c
-
-src/auto/func_0201866c.c:
-    complete
-    .text       start:0x0201866c end:0x0201867c
-
-src/auto/func_0201867c.c:
+src/nitro/wm/wm_system_4.c:
     complete
     .text       start:0x0201867c end:0x02018698
 
-src/auto/func_02018698.c:
+src/nitro/wm/wm_system_5.c:
     complete
     .text       start:0x02018698 end:0x020186e0
 
@@ -1646,19 +1294,11 @@ src/auto/func_02018b20.c:
     complete
     .text       start:0x02018b20 end:0x02018b3c
 
-src/auto/func_02018b3c.c:
+src/nitro/wm/wm_system_7.c:
     complete
-    .text       start:0x02018b3c end:0x02018b60
+    .text       start:0x02018b3c end:0x02018bc0
 
-src/auto/func_02018b60.c:
-    complete
-    .text       start:0x02018b60 end:0x02018b90
-
-src/auto/func_02018b90.c:
-    complete
-    .text       start:0x02018b90 end:0x02018bc0
-
-src/auto/func_02018c08.c:
+src/nitro/wm/wm_sync.c:
     complete
     .text       start:0x02018c08 end:0x02018c4c
 
@@ -1666,75 +1306,55 @@ src/auto/func_02018d24.c:
     complete
     .text       start:0x02018d24 end:0x02018d70
 
-src/auto/func_02018d70.c:
+src/nitro/wm/wm_sync_2.c:
     complete
     .text       start:0x02018d70 end:0x02018ddc
 
-src/auto/func_02018f84.c:
+src/nitro/wm/wm_sync_3.c:
     complete
     .text       start:0x02018f84 end:0x02018fa4
 
-src/auto/func_02019324.c:
+src/nitro/wm/wm_standard.c:
     complete
     .text       start:0x02019324 end:0x02019384
 
-src/auto/func_02019384.c:
+src/nitro/wm/wm_standard_2.c:
     complete
-    .text       start:0x02019384 end:0x020193c4
+    .text       start:0x02019384 end:0x02019444
 
-src/auto/func_020193c4.c:
-    complete
-    .text       start:0x020193c4 end:0x02019404
-
-src/auto/func_02019404.c:
-    complete
-    .text       start:0x02019404 end:0x02019444
-
-src/auto/func_02019444.c:
+src/nitro/wm/wm_standard_3.c:
     complete
     .text       start:0x02019444 end:0x020194a0
 
-src/auto/func_020194a0.c:
+src/nitro/wm/wm_standard_4.c:
     complete
-    .text       start:0x020194a0 end:0x020194d8
+    .text       start:0x020194a0 end:0x02019518
 
-src/auto/func_020194d8.c:
+src/nitro/wm/wm_standard_5.c:
     complete
-    .text       start:0x020194d8 end:0x02019518
+    .text       start:0x020195f4 end:0x020196b0
 
-src/auto/func_020195f4.c:
-    complete
-    .text       start:0x020195f4 end:0x02019644
-
-src/auto/func_02019644.c:
-    complete
-    .text       start:0x02019644 end:0x020196a0
-
-src/auto/func_020196a0.c:
-    complete
-    .text       start:0x020196a0 end:0x020196b0
-
-src/auto/func_020196b0.c:
+src/nitro/wm/wm_standard_6.c:
     complete
     .text       start:0x020196b0 end:0x020196f0
 
-src/auto/func_0201992c.c:
+src/nitro/wm/wm_standard_8.c:
     complete
     .text       start:0x0201992c end:0x0201996c
 
-src/auto/func_02019d88.c:
+src/nitro/wm/wm_mp.c:
     complete
     .text       start:0x02019d88 end:0x02019ee4
 
-src/auto/func_02019ee4.c:
+src/nitro/wm/wm_mp_2.c:
     complete
     .text       start:0x02019ee4 end:0x02019f54
 
-src/auto/func_02019f54.c:
+src/nitro/wm/wm_dcf.c:
     complete
     .text       start:0x02019f54 end:0x02019ff4
 
-src/auto/func_0201a0c0.c:
+src/nitro/wm/wm_dcf_2.c:
     complete
     .text       start:0x0201a0c0 end:0x0201a12c
 
@@ -1742,11 +1362,11 @@ src/auto/func_0201a380.c:
     complete
     .text       start:0x0201a380 end:0x0201a3e4
 
-src/auto/func_0201ac98.c:
+src/nitro/wm/wm_ds_2.c:
     complete
     .text       start:0x0201ac98 end:0x0201acc8
 
-src/auto/func_0201acc8.c:
+src/nitro/wm/wm_ks.c:
     complete
     .text       start:0x0201acc8 end:0x0201ace4
 
@@ -1754,259 +1374,175 @@ src/auto/func_0201ace4.c:
     complete
     .text       start:0x0201ace4 end:0x0201acf0
 
-src/auto/func_0201acf0.c:
+src/nitro/wm/wm_etc.c:
     complete
     .text       start:0x0201acf0 end:0x0201ad64
 
-src/auto/func_0201ad64.c:
+src/nitro/wm/wm_etc_2.c:
     complete
     .text       start:0x0201ad64 end:0x0201ade0
 
-src/auto/func_0201ade0.c:
+src/nitro/wm/wm_etc_3.c:
     complete
     .text       start:0x0201ade0 end:0x0201ae98
 
-src/auto/func_0201ae98.c:
+src/nitro/wm/wm_etc_4.c:
     complete
     .text       start:0x0201ae98 end:0x0201aee8
 
-src/auto/func_0201aee8.c:
+src/nitro/wm/wm_etc_5.c:
     complete
     .text       start:0x0201aee8 end:0x0201af48
 
-src/auto/func_0201afc0.c:
+src/nitro/wm/wm_etc_7.c:
     complete
     .text       start:0x0201afc0 end:0x0201b00c
 
-src/auto/func_0201b00c.c:
+src/nitro/mb/mb_parent.c:
     complete
     .text       start:0x0201b00c end:0x0201b034
 
-src/auto/func_0201b034.c:
+src/nitro/mb/mb_parent_2.c:
     complete
-    .text       start:0x0201b034 end:0x0201b0b8
+    .text       start:0x0201b034 end:0x0201b10c
 
-src/auto/func_0201b0b8.c:
-    complete
-    .text       start:0x0201b0b8 end:0x0201b10c
-
-src/auto/func_0201b1ec.c:
+src/nitro/mb/mb_parent_3.c:
     complete
     .text       start:0x0201b1ec end:0x0201b238
 
-src/auto/func_0201b238.c:
+src/nitro/mb/mb_parent_4.c:
     complete
     .text       start:0x0201b238 end:0x0201b260
 
-src/auto/func_0201bbe4.c:
+src/nitro/mb/mb_parent_5.c:
     complete
     .text       start:0x0201bbe4 end:0x0201bc90
 
-src/auto/func_0201c394.c:
+src/nitro/mb/mb_parent_6.c:
     complete
-    .text       start:0x0201c394 end:0x0201c3a4
+    .text       start:0x0201c394 end:0x0201c3d8
 
-src/auto/func_0201c3a4.c:
-    complete
-    .text       start:0x0201c3a4 end:0x0201c3c0
-
-src/auto/func_0201c3c0.c:
-    complete
-    .text       start:0x0201c3c0 end:0x0201c3d8
-
-src/auto/func_0201c8b4.c:
+src/nitro/mb/mb_fileinfo.c:
     complete
     .text       start:0x0201c8b4 end:0x0201c92c
 
-src/auto/func_0201d0a0.c:
+src/nitro/mb/mb_common.c:
     complete
     .text       start:0x0201d0a0 end:0x0201d0d8
 
-src/auto/func_0201d124.c:
+src/nitro/mb/mb_gameinfo.c:
     complete
     .text       start:0x0201d124 end:0x0201d214
 
-src/auto/func_0201d34c.c:
+src/nitro/mb/mb_gameinfo_2.c:
     complete
-    .text       start:0x0201d34c end:0x0201d390
+    .text       start:0x0201d34c end:0x0201d3bc
 
-src/auto/func_0201d390.c:
-    complete
-    .text       start:0x0201d390 end:0x0201d3bc
-
-src/auto/func_0201d3bc.c:
+src/nitro/mb/mb_gameinfo_3.c:
     complete
     .text       start:0x0201d3bc end:0x0201d3e0
 
-src/auto/func_0201d6c4.c:
+src/nitro/mb/mb_gameinfo_4.c:
     complete
     .text       start:0x0201d6c4 end:0x0201d6f4
 
-src/auto/func_0201d9d0.c:
+src/nitro/mb/mb_wm_base.c:
     complete
-    .text       start:0x0201d9d0 end:0x0201da30
+    .text       start:0x0201d9d0 end:0x0201da80
 
-src/auto/func_0201da30.c:
-    complete
-    .text       start:0x0201da30 end:0x0201da80
-
-src/auto/func_0201ece0.c:
+src/nitro/mb/mb_wm_base_2.c:
     complete
     .text       start:0x0201ece0 end:0x0201ed50
 
-src/auto/func_0201ede8.c:
+src/nitro/mb/mb_wm_base_3.c:
     complete
     .text       start:0x0201ede8 end:0x0201eebc
 
-src/auto/func_0201f0a0.c:
+src/nitro/mb/mb_wm_base_4.c:
     complete
-    .text       start:0x0201f0a0 end:0x0201f0c4
+    .text       start:0x0201f0a0 end:0x0201f108
 
-src/auto/func_0201f0c4.c:
+src/nitro/mb/mb_wm_base_5.c:
     complete
-    .text       start:0x0201f0c4 end:0x0201f0fc
+    .text       start:0x0201f108 end:0x0201f1c0
 
-src/auto/func_0201f0fc.c:
+src/nitro/mb/mb_wm_base_6.c:
     complete
-    .text       start:0x0201f0fc end:0x0201f108
+    .text       start:0x0201f34c end:0x0201f3a8
 
-src/auto/func_0201f108.c:
+src/nitro/mb/mb_wm_base_7.c:
     complete
-    .text       start:0x0201f108 end:0x0201f184
+    .text       start:0x0201f488 end:0x0201f530
 
-src/auto/func_0201f184.c:
-    complete
-    .text       start:0x0201f184 end:0x0201f1c0
-
-src/auto/func_0201f34c.c:
-    complete
-    .text       start:0x0201f34c end:0x0201f35c
-
-src/auto/func_0201f35c.c:
-    complete
-    .text       start:0x0201f35c end:0x0201f3a8
-
-src/auto/func_0201f488.c:
-    complete
-    .text       start:0x0201f488 end:0x0201f49c
-
-src/auto/func_0201f49c.c:
-    complete
-    .text       start:0x0201f49c end:0x0201f4b0
-
-src/auto/func_0201f4b0.c:
-    complete
-    .text       start:0x0201f4b0 end:0x0201f510
-
-src/auto/func_0201f510.c:
-    complete
-    .text       start:0x0201f510 end:0x0201f530
-
-src/auto/func_0201f568.c:
+src/nitro/mb/mb_cache.c:
     complete
     .text       start:0x0201f568 end:0x0201f57c
 
-src/auto/func_0201f814.c:
+src/nitro/mb/mb_task.c:
     complete
-    .text       start:0x0201f814 end:0x0201f830
+    .text       start:0x0201f814 end:0x0201f85c
 
-src/auto/func_0201f830.c:
-    complete
-    .text       start:0x0201f830 end:0x0201f844
-
-src/auto/func_0201f844.c:
-    complete
-    .text       start:0x0201f844 end:0x0201f85c
-
-src/auto/func_0201f9c8.c:
+src/nitro/mb/mb_task_2.c:
     complete
     .text       start:0x0201f9c8 end:0x0201fa10
 
-src/auto/func_0201fa10.c:
+src/nitro/mb/mb_block.c:
     complete
-    .text       start:0x0201fa10 end:0x0201fa40
+    .text       start:0x0201fa10 end:0x0201faa4
 
-src/auto/func_0201fa40.c:
-    complete
-    .text       start:0x0201fa40 end:0x0201fa60
-
-src/auto/func_0201fa60.c:
-    complete
-    .text       start:0x0201fa60 end:0x0201faa4
-
-src/auto/func_0201fd5c.c:
+src/nitro/ctrdg/ctrdg.c:
     complete
     .text       start:0x0201fd5c end:0x0201fd84
 
-src/auto/func_0201fea8.c:
+src/nitro/ctrdg/ctrdg_3.c:
     complete
     .text       start:0x0201fea8 end:0x0201fef0
 
-src/auto/func_0201ff80.c:
+src/nitro/ctrdg/ctrdg_5.c:
     complete
     .text       start:0x0201ff80 end:0x0201ffa4
 
-src/auto/func_0201fff4.c:
+src/nitro/ctrdg/ctrdg_6.c:
     complete
     .text       start:0x0201fff4 end:0x0202003c
 
-src/auto/func_0202003c.c:
+src/nitro/ctrdg/ctrdg_proc.c:
     complete
     .text       start:0x0202003c end:0x020200f0
 
-src/auto/func_020202a4.c:
+src/nitro/ctrdg/ctrdg_proc_2.c:
     complete
-    .text       start:0x020202a4 end:0x020202d0
+    .text       start:0x020202a4 end:0x0202032c
 
-src/auto/func_020202d0.c:
+src/nitro/ctrdg/ctrdg_proc_3.c:
     complete
-    .text       start:0x020202d0 end:0x0202032c
+    .text       start:0x0202032c end:0x02020354
 
-src/auto/func_0202032c.c:
-    complete
-    .text       start:0x0202032c end:0x02020340
-
-src/auto/func_02020340.c:
-    complete
-    .text       start:0x02020340 end:0x02020354
-
-src/auto/func_02020354.c:
+src/nitro/ctrdg/ctrdg_task.c:
     complete
     .text       start:0x02020354 end:0x020203e0
 
-src/auto/func_020203e0.c:
+src/nitro/ctrdg/ctrdg_task_2.c:
     complete
     .text       start:0x020203e0 end:0x020203f4
 
-src/auto/func_020204e4.c:
+src/nitro/math/math.c:
     complete
     .text       start:0x020204e4 end:0x02020528
 
-src/auto/func_020206a0.c:
+src/nitro/math/crc.c:
     complete
-    .text       start:0x020206a0 end:0x020206c8
+    .text       start:0x020206a0 end:0x0202071c
 
-src/auto/func_020206c8.c:
-    complete
-    .text       start:0x020206c8 end:0x020206f0
-
-src/auto/func_020206f0.c:
-    complete
-    .text       start:0x020206f0 end:0x0202071c
-
-src/auto/func_02020a8c.c:
+src/nitro/std/std_string.c:
     complete
     .text       start:0x02020a8c end:0x02020ab4
 
-src/auto/func_02020ab4.c:
+src/msl/abort_exit_arm_eabi.c:
     complete
-    .text       start:0x02020ab4 end:0x02020ad8
+    .text       start:0x02020ab4 end:0x02020b24
 
-src/auto/func_02020ad8.c:
-    complete
-    .text       start:0x02020ad8 end:0x02020b24
-
-src/auto/func_02020c4c.c:
+src/msl/math_2.c:
     complete
     .text       start:0x02020c4c end:0x02020c64
 
@@ -2026,15 +1562,15 @@ src/auto/func_02020d04.c:
     complete
     .text       start:0x02020d04 end:0x02020d40
 
-src/auto/func_02020d40.c:
+src/auto/__convert_from_newlines.c:
     complete
     .text       start:0x02020d40 end:0x02020d44
 
-src/auto/func_02020d44.c:
+src/msl/buffer_io.c:
     complete
     .text       start:0x02020d44 end:0x02020d74
 
-src/auto/func_020211b0.c:
+src/msl/mbstring.c:
     complete
     .text       start:0x020211b0 end:0x020211e8
 
@@ -2042,11 +1578,11 @@ src/auto/func_020211e8.c:
     complete
     .text       start:0x020211e8 end:0x020211fc
 
-src/auto/func_020211fc.c:
+src/msl/mbstring_2.c:
     complete
     .text       start:0x020211fc end:0x02021218
 
-src/auto/func_02021384.c:
+src/msl/mem.c:
     complete
     .text       start:0x02021384 end:0x02021398
 
@@ -2054,11 +1590,11 @@ src/auto/func_02023524.c:
     complete
     .text       start:0x02023524 end:0x02023550
 
-src/auto/func_02023550.c:
+src/msl/printf_2.c:
     complete
     .text       start:0x02023550 end:0x02023594
 
-src/auto/func_02023768.c:
+src/msl/rand_2.c:
     complete
     .text       start:0x02023768 end:0x0202379c
 
@@ -2078,11 +1614,11 @@ src/auto/func_02026c4c.c:
     complete
     .text       start:0x02026c4c end:0x02026c60
 
-src/auto/func_02026cd4.c:
+src/msl/wmem.c:
     complete
     .text       start:0x02026cd4 end:0x02026ce4
 
-src/auto/func_0202a390.c:
+src/msl/w_pow.c:
     complete
     .text       start:0x0202a390 end:0x0202a39c
 
@@ -2090,7 +1626,7 @@ src/auto/func_0202a454.c:
     complete
     .text       start:0x0202a454 end:0x0202a458
 
-src/auto/func_0202a458.c:
+src/msl/ansi_fp.c:
     complete
     .text       start:0x0202a458 end:0x0202a498
 
@@ -2098,7 +1634,7 @@ src/auto/func_0202b8fc.c:
     complete
     .text       start:0x0202b8fc end:0x0202b914
 
-src/auto/func_0202b914.c:
+src/lib/OSi_FreeStackAlloc_2.c:
     complete
     .text       start:0x0202b914 end:0x0202b92c
 
@@ -2162,19 +1698,15 @@ src/auto/func_0202cc50.c:
     complete
     .text       start:0x0202cc50 end:0x0202cc58
 
-src/auto/func_0202cc58.c:
+src/msl/fp_compare.c:
     complete
-    .text       start:0x0202cc58 end:0x0202ccf0
-
-src/auto/func_0202ccf0.c:
-    complete
-    .text       start:0x0202ccf0 end:0x0202cd94
+    .text       start:0x0202cc58 end:0x0202cd94
 
 src/auto/func_0202cd94.c:
     complete
     .text       start:0x0202cd94 end:0x0202ce30
 
-src/auto/func_0202ce30.c:
+src/msl/fp_compare_2.c:
     complete
     .text       start:0x0202ce30 end:0x0202cebc
 
@@ -2194,7 +1726,7 @@ src/auto/func_0202efe4.c:
     complete
     .text       start:0x0202efe4 end:0x0202efe8
 
-src/auto/func_0202f36c.c:
+src/auto/__end__catch.c:
     complete
     .text       start:0x0202f36c end:0x0202f394
 
@@ -2278,34 +1810,25 @@ src/auto/func_0202f8f4.c:
     complete
     .text       start:0x0202f8f4 end:0x0202f90c
 
-src/auto/func_0202f90c.c:
+src/msl/__register_global_object_2.c:
     complete
     .text       start:0x0202f90c end:0x0202f92c
-
 
 src/auto/func_0202fbf8.c:
     complete
     .text       start:0x0202fbf8 end:0x0202fc28
 
-src/auto/func_0202fcec.c:
+src/msl/__arm_eabi_init.c:
     complete
     .text       start:0x0202fcec end:0x0202fcf8
 
-src/auto/func_0200e828.c:
-    complete
-    .text       start:0x0200e828 end:0x0200e834
-
-src/auto/func_0200f208.c:
+src/auto/OS_SetProtectionRegion1.c:
     complete
     .text       start:0x0200f208 end:0x0200f210
 
-src/auto/func_0201027c.c:
+src/nitro/mi/mi_memory.c:
     complete
-    .text       start:0x0201027c end:0x02010294
-
-src/auto/func_02010294.c:
-    complete
-    .text       start:0x02010294 end:0x020102b0
+    .text       start:0x0201027c end:0x020102b0
 
 src/auto/func_02002708.c:
     complete
@@ -2315,33 +1838,17 @@ src/auto/func_02003948.c:
     complete
     .text       start:0x02003948 end:0x02003b68
 
-src/auto/func_02004e80.c:
-    complete
-    .text       start:0x02004e80 end:0x02004ea0
-
-src/auto/func_0200ccd0.c:
+src/nitro/os/os_printf_2.c:
     complete
     .text       start:0x0200ccd0 end:0x0200cd24
 
-src/auto/func_02010834.c:
+src/nitro/snd/snd_interface_3.c:
     complete
-    .text       start:0x02010834 end:0x02010854
+    .text       start:0x02010834 end:0x02010874
 
-src/auto/func_02010854.c:
+src/nitro/snd/snd_interface_5.c:
     complete
-    .text       start:0x02010854 end:0x02010874
-
-src/auto/func_020108e8.c:
-    complete
-    .text       start:0x020108e8 end:0x02010908
-
-src/auto/func_02010908.c:
-    complete
-    .text       start:0x02010908 end:0x02010928
-
-src/auto/func_02010928.c:
-    complete
-    .text       start:0x02010928 end:0x02010948
+    .text       start:0x020108e8 end:0x02010948
 
 src/auto/func_02020a50.c:
     complete
@@ -2351,32 +1858,27 @@ src/auto/func_02028c88.c:
     complete
     .text       start:0x02028c88 end:0x02028ca4
 
-
 src/auto/func_0202e110.c:
     complete
     .text       start:0x0202e110 end:0x0202e12c
 
-src/auto/func_0200acf4.c:
+src/nitro/gx/g2_2.c:
     complete
-    .text       start:0x0200acf4 end:0x0200ad1c
+    .text       start:0x0200acf4 end:0x0200ada8
 
 src/donor/func_020083e0.c:
     complete
     .text       start:0x020083e0 end:0x020083f8
 
-src/donor/func_0200e214.c:
+src/nitro/os/os_context.c:
     complete
     .text       start:0x0200e214 end:0x0200e280
 
-src/donor/func_020102c4.c:
+src/nitro/mi/mi_memory_2.c:
     complete
-    .text       start:0x020102c4 end:0x020102dc
+    .text       start:0x020102c4 end:0x02010564
 
-src/donor/func_02010360.c:
-    complete
-    .text       start:0x02010360 end:0x0201037c
-
-src/donor/func_0201fef0.c:
+src/nitro/ctrdg/ctrdg_4.c:
     complete
     .text       start:0x0201fef0 end:0x0201ff24
 
@@ -2412,7 +1914,7 @@ src/donor/func_0202b8d0.c:
     complete
     .text       start:0x0202b8d0 end:0x0202b8fc
 
-src/donor/func_0202bf10.c:
+src/donor/_d2f.c:
     complete
     .text       start:0x0202bf10 end:0x0202c014
 
@@ -2420,10 +1922,9 @@ src/donor/func_0202de50.c:
     complete
     .text       start:0x0202de50 end:0x0202de84
 
-src/donor/func_0202f4f4.c:
+src/msl/__destroy_global_chain_2.c:
     complete
     .text       start:0x0202f4f4 end:0x0202f538
-
 
 src/donor/func_020213c4.c:
     complete
@@ -2437,63 +1938,63 @@ src/donor/func_02004b7c.c:
     complete
     .text       start:0x02004b7c end:0x02004bd4
 
-src/donor/func_02004f68.c:
+src/donor/NNS_SndArcGetStrmPlayerInfo.c:
     complete
     .text       start:0x02004f68 end:0x02004fcc
 
-src/donor/func_02004fcc.c:
+src/donor/NNS_SndArcGetPlayerInfo.c:
     complete
     .text       start:0x02004fcc end:0x02005030
 
-src/donor/func_02005030.c:
+src/donor/NNS_SndArcGetStrmInfo.c:
     complete
     .text       start:0x02005030 end:0x02005094
 
-src/donor/func_02005094.c:
+src/donor/NNS_SndArcGetWaveArcInfo.c:
     complete
     .text       start:0x02005094 end:0x020050f8
 
-src/donor/func_020050f8.c:
+src/donor/NNS_SndArcGetBankInfo.c:
     complete
     .text       start:0x020050f8 end:0x0200515c
 
-src/donor/func_0200515c.c:
+src/donor/NNS_SndArcGetSeqArcInfo.c:
     complete
     .text       start:0x0200515c end:0x020051c0
 
-src/donor/func_020051c0.c:
+src/donor/NNS_SndArcGetSeqInfo.c:
     complete
     .text       start:0x020051c0 end:0x02005224
 
-src/donor/func_0200623c.c:
+src/nnsys/snd/sndarc_player.c:
     complete
     .text       start:0x0200623c end:0x02006300
 
-src/donor/func_02006570.c:
+src/donor/StrmThread.c:
     complete
     .text       start:0x02006570 end:0x020065d0
 
-src/donor/func_02007798.c:
+src/nnsys/snd/seqdata.c:
     complete
     .text       start:0x02007798 end:0x020077d8
 
-src/donor/func_02007888.c:
+src/nnsys/fnd/list.c:
     complete
     .text       start:0x02007888 end:0x0200789c
 
-src/donor/func_02007a4c.c:
+src/nnsys/fnd/list_2.c:
     complete
     .text       start:0x02007a4c end:0x02007a78
 
-src/donor/func_02007c8c.c:
+src/nnsys/fnd/expheap.c:
     complete
     .text       start:0x02007c8c end:0x02007d7c
 
-src/donor/func_02008100.c:
+src/nnsys/fnd/expheap_2.c:
     complete
     .text       start:0x02008100 end:0x02008130
 
-src/donor/func_0200827c.c:
+src/donor/FreeTail.c:
     complete
     .text       start:0x0200827c end:0x020082ac
 
@@ -2501,153 +2002,83 @@ src/donor/func_020082ac.c:
     complete
     .text       start:0x020082ac end:0x020082c4
 
-src/donor/func_02008410.c:
+src/nitro/fx/fx_mtx22.c:
     complete
     .text       start:0x02008410 end:0x020084c0
 
-src/donor/func_020084c0.c:
+src/donor/MTX_Identity33_.c:
     complete
     .text       start:0x020084c0 end:0x020084e4
 
-src/donor/func_020084e4.c:
+src/nitro/fx/fx_mtx33.c:
     complete
     .text       start:0x020084e4 end:0x020085a4
 
-src/donor/func_020085dc.c:
+src/nitro/fx/fx_mtx33_2.c:
     complete
     .text       start:0x020085dc end:0x02008658
 
-src/donor/func_02008658.c:
+src/nitro/fx/fx_mtx43.c:
     complete
     .text       start:0x02008658 end:0x02008704
 
-src/donor/func_02008704.c:
+src/nitro/fx/fx_mtx43_2.c:
     complete
     .text       start:0x02008704 end:0x02008738
 
-src/donor/func_02008b1c.c:
+src/nitro/fx/fx_mtx43_3.c:
     complete
-    .text       start:0x02008b1c end:0x02008df0
+    .text       start:0x02008b1c end:0x02008e90
 
-src/donor/func_02008df0.c:
+src/nitro/fx/fx_cp_2.c:
     complete
-    .text       start:0x02008df0 end:0x02008e90
+    .text       start:0x02008ef8 end:0x02008f60
 
-src/donor/func_02008ed4.c:
-    complete
-    .text       start:0x02008ed4 end:0x02008ef8
-
-src/donor/func_02008ef8.c:
-    complete
-    .text       start:0x02008ef8 end:0x02008f30
-
-src/donor/func_02008f30.c:
-    complete
-    .text       start:0x02008f30 end:0x02008f60
-
-src/donor/func_02008f60.c:
+src/nitro/fx/fx_cp_3.c:
     complete
     .text       start:0x02008f60 end:0x02008f8c
-
 
 src/donor/func_02008ff0.c:
     complete
     .text       start:0x02008ff0 end:0x0200902c
 
-src/donor/func_0200902c.c:
+src/nitro/fx/fx_vec.c:
     complete
-    .text       start:0x0200902c end:0x02009068
+    .text       start:0x0200902c end:0x02009264
 
-src/donor/func_02009068.c:
-    complete
-    .text       start:0x02009068 end:0x020090ec
-
-src/donor/func_020090ec.c:
-    complete
-    .text       start:0x020090ec end:0x0200914c
-
-src/donor/func_0200914c.c:
-    complete
-    .text       start:0x0200914c end:0x02009264
-
-src/donor/func_02009264.c:
+src/nitro/fx/fx_atanidx.c:
     complete
     .text       start:0x02009264 end:0x0200940c
 
-src/donor/func_02009410.c:
+src/nitro/gx/gx.c:
     complete
     .text       start:0x02009410 end:0x0200955c
 
-src/donor/func_0200955c.c:
+src/nitro/gx/gx_2.c:
     complete
     .text       start:0x0200955c end:0x02009590
 
-src/donor/func_02009590.c:
+src/nitro/gx/gx_3.c:
     complete
     .text       start:0x02009590 end:0x020095c4
 
-src/donor/func_02009600.c:
+src/nitro/gx/gx_5.c:
     complete
-    .text       start:0x02009600 end:0x02009648
+    .text       start:0x02009600 end:0x020096b0
 
-src/donor/func_02009648.c:
+src/nitro/gx/gx_vramcnt.c:
     complete
-    .text       start:0x02009648 end:0x020096b0
+    .text       start:0x02009754 end:0x0200a18c
 
-src/donor/func_02009754.c:
-    complete
-    .text       start:0x02009754 end:0x0200980c
-
-src/donor/func_0200980c.c:
-    complete
-    .text       start:0x0200980c end:0x02009a9c
-
-src/donor/func_02009a9c.c:
-    complete
-    .text       start:0x02009a9c end:0x02009bec
-
-src/donor/func_02009bec.c:
-    complete
-    .text       start:0x02009bec end:0x02009cec
-
-src/donor/func_02009cec.c:
-    complete
-    .text       start:0x02009cec end:0x02009d98
-
-src/donor/func_02009d98.c:
-    complete
-    .text       start:0x02009d98 end:0x02009f70
-
-src/donor/func_02009f70.c:
-    complete
-    .text       start:0x02009f70 end:0x0200a058
-
-src/donor/func_0200a058.c:
-    complete
-    .text       start:0x0200a058 end:0x0200a18c
-
-
-src/donor/func_0200a18c.c:
+src/nitro/gx/gx_vramcnt_2.c:
     complete
     .text       start:0x0200a18c end:0x0200a238
 
-src/donor/func_0200a258.c:
+src/nitro/gx/gx_vramcnt_4.c:
     complete
-    .text       start:0x0200a258 end:0x0200a300
+    .text       start:0x0200a258 end:0x0200a470
 
-src/donor/func_0200a300.c:
-    complete
-    .text       start:0x0200a300 end:0x0200a370
-
-src/donor/func_0200a370.c:
-    complete
-    .text       start:0x0200a370 end:0x0200a3f0
-
-src/donor/func_0200a3f0.c:
-    complete
-    .text       start:0x0200a3f0 end:0x0200a470
-
-src/donor/func_0200a58c.c:
+src/nitro/gx/gx_vramcnt_9.c:
     complete
     .text       start:0x0200a58c end:0x0200a66c
 
@@ -2655,169 +2086,117 @@ src/donor/func_0200a7b8.c:
     complete
     .text       start:0x0200a7b8 end:0x0200a7ec
 
-src/donor/func_0200a860.c:
+src/nitro/gx/gx_bgcnt.c:
     complete
-    .text       start:0x0200a860 end:0x0200a8e4
-
-src/donor/func_0200a8e4.c:
-    complete
-    .text       start:0x0200a8e4 end:0x0200a958
-
-src/donor/func_0200a958.c:
-    complete
-    .text       start:0x0200a958 end:0x0200a9dc
-
-src/donor/func_0200a9dc.c:
-    complete
-    .text       start:0x0200a9dc end:0x0200aa50
+    .text       start:0x0200a860 end:0x0200aa50
 
 src/donor/func_0200aa50.c:
     complete
     .text       start:0x0200aa50 end:0x0200aa84
 
-src/donor/func_0200aaf8.c:
+src/nitro/gx/gx_bgcnt_2.c:
     complete
-    .text       start:0x0200aaf8 end:0x0200ab48
+    .text       start:0x0200aaf8 end:0x0200ac28
 
-src/donor/func_0200ab48.c:
-    complete
-    .text       start:0x0200ab48 end:0x0200ab88
-
-src/donor/func_0200ab88.c:
-    complete
-    .text       start:0x0200ab88 end:0x0200abe0
-
-src/donor/func_0200abe0.c:
-    complete
-    .text       start:0x0200abe0 end:0x0200ac28
-
-src/donor/func_0200ac28.c:
+src/nitro/gx/g2.c:
     complete
     .text       start:0x0200ac28 end:0x0200acd8
 
-src/donor/func_0200af08.c:
+src/nitro/gx/g3x_2.c:
     complete
     .text       start:0x0200af08 end:0x0200af74
 
-src/donor/func_0200af74.c:
+src/donor/G3X_ClearFifo.c:
     complete
     .text       start:0x0200af74 end:0x0200af9c
 
-src/donor/func_0200af9c.c:
+src/nitro/gx/g3x_3.c:
     complete
-    .text       start:0x0200af9c end:0x0200b034
+    .text       start:0x0200af9c end:0x0200b0c4
 
-src/donor/func_0200b034.c:
-    complete
-    .text       start:0x0200b034 end:0x0200b0c4
-
-src/donor/func_0200b0c4.c:
+src/nitro/gx/g3x_4.c:
     complete
     .text       start:0x0200b0c4 end:0x0200b11c
 
-src/donor/func_0200b15c.c:
+src/nitro/gx/g3x_7.c:
     complete
     .text       start:0x0200b15c end:0x0200b1fc
 
-src/donor/func_0200b1fc.c:
+src/nitro/gx/g3x_8.c:
     complete
-    .text       start:0x0200b1fc end:0x0200b22c
+    .text       start:0x0200b1fc end:0x0200b288
 
-src/donor/func_0200b22c.c:
-    complete
-    .text       start:0x0200b22c end:0x0200b25c
-
-src/donor/func_0200b25c.c:
-    complete
-    .text       start:0x0200b25c end:0x0200b288
-
-src/donor/func_0200b288.c:
+src/donor/GXi_NopClearFifo128_.c:
     complete
     .text       start:0x0200b288 end:0x0200b31c
 
-src/donor/func_0200b4ec.c:
+src/nitro/gx/g3_util.c:
     complete
     .text       start:0x0200b4ec end:0x0200b678
 
-src/donor/func_0200b934.c:
+src/nitro/gx/gx_load2d_2.c:
     complete
     .text       start:0x0200b934 end:0x0200b98c
 
-src/donor/func_0200b98c.c:
+src/nitro/gx/gx_load2d_3.c:
     complete
     .text       start:0x0200b98c end:0x0200b9e4
 
-src/donor/func_0200bec4.c:
+src/nitro/gx/gx_load2d_4.c:
     complete
-    .text       start:0x0200bec4 end:0x0200bf64
+    .text       start:0x0200bec4 end:0x0200bfd4
 
-src/donor/func_0200bf64.c:
-    complete
-    .text       start:0x0200bf64 end:0x0200bfd4
-
-src/donor/func_0200c064.c:
+src/nitro/gx/gx_load2d_6.c:
     complete
     .text       start:0x0200c064 end:0x0200c0d0
 
-src/donor/func_0200c12c.c:
+src/nitro/gx/gx_load2d_9.c:
     complete
     .text       start:0x0200c12c end:0x0200c190
 
-src/donor/func_0200c1d0.c:
+src/nitro/gx/gx_load3d.c:
     complete
-    .text       start:0x0200c1d0 end:0x0200c22c
+    .text       start:0x0200c1d0 end:0x0200c36c
 
-src/donor/func_0200c22c.c:
+src/nitro/gx/gx_load3d_3.c:
     complete
-    .text       start:0x0200c22c end:0x0200c36c
+    .text       start:0x0200c3b8 end:0x0200c458
 
-src/donor/func_0200c3b8.c:
-    complete
-    .text       start:0x0200c3b8 end:0x0200c3ec
-
-src/donor/func_0200c3ec.c:
-    complete
-    .text       start:0x0200c3ec end:0x0200c458
-
-src/donor/func_0200c49c.c:
+src/donor/GX_SendFifo48B.c:
     complete
     .text       start:0x0200c49c end:0x0200c4c0
 
-src/donor/func_0200c4c0.c:
+src/donor/GX_SendFifo128B.c:
     complete
     .text       start:0x0200c4c0 end:0x0200c4ec
 
-src/donor/func_0200c798.c:
+src/nitro/os/os_interrupt_2.c:
     complete
     .text       start:0x0200c798 end:0x0200c7e0
 
-src/donor/func_0200c828.c:
+src/nitro/os/os_interrupt_3.c:
     complete
     .text       start:0x0200c828 end:0x0200c854
 
-src/donor/func_0200c854.c:
+src/nitro/os/os_interrupt_4.c:
     complete
     .text       start:0x0200c854 end:0x0200c884
 
-src/donor/func_0200c884.c:
+src/nitro/os/os_interrupt_5.c:
     complete
     .text       start:0x0200c884 end:0x0200c8b4
 
-src/donor/func_0200c8b4.c:
+src/nitro/os/os_interrupt_6.c:
     complete
     .text       start:0x0200c8b4 end:0x0200c8e0
 
-src/donor/func_0200ca3c.c:
+src/nitro/os/os_spinLock.c:
     complete
     .text       start:0x0200ca3c end:0x0200cab0
 
-src/donor/func_0200cac0.c:
+src/nitro/os/os_spinLock_3.c:
     complete
     .text       start:0x0200cac0 end:0x0200cb2c
-
-src/donor/func_0200cb4c.c:
-    complete
-    .text       start:0x0200cb4c end:0x0200cb58
 
 src/donor/func_0200cc18.c:
     complete
@@ -2827,11 +2206,11 @@ src/donor/func_0200cc70.c:
     complete
     .text       start:0x0200cc70 end:0x0200cca0
 
-src/donor/func_0200cd24.c:
+src/nitro/os/os_printf_3.c:
     complete
     .text       start:0x0200cd24 end:0x0200cd7c
 
-src/donor/func_0200cd7c.c:
+src/nitro/os/os_printf_4.c:
     complete
     .text       start:0x0200cd7c end:0x0200cda4
 
@@ -2839,7 +2218,7 @@ src/donor/func_0200cdbc.c:
     complete
     .text       start:0x0200cdbc end:0x0200cde4
 
-src/donor/func_0200d678.c:
+src/donor/OSi_InsertLinkToQueue.c:
     complete
     .text       start:0x0200d678 end:0x0200d6f0
 
@@ -2847,31 +2226,23 @@ src/donor/func_0200d724.c:
     complete
     .text       start:0x0200d724 end:0x0200d778
 
-src/donor/func_0200d7a8.c:
-    complete
-    .text       start:0x0200d7a8 end:0x0200d808
-
-src/donor/func_0200d9a8.c:
+src/donor/OS_CreateThread.c:
     complete
     .text       start:0x0200d9a8 end:0x0200daa4
 
-src/donor/func_0200db20.c:
+src/nitro/os/os_thread_6.c:
     complete
     .text       start:0x0200db20 end:0x0200db58
 
-src/donor/func_0200dda0.c:
+src/donor/OS_WakeupThread.c:
     complete
     .text       start:0x0200dda0 end:0x0200de08
-
-src/donor/func_0200de30.c:
-    complete
-    .text       start:0x0200de30 end:0x0200de58
 
 src/donor/func_0200dfd8.c:
     complete
     .text       start:0x0200dfd8 end:0x0200dff4
 
-src/donor/func_0200dff4.c:
+src/nitro/os/os_thread_13.c:
     complete
     .text       start:0x0200dff4 end:0x0200e09c
 
@@ -2879,19 +2250,15 @@ src/donor/func_0200e0a4.c:
     complete
     .text       start:0x0200e0a4 end:0x0200e14c
 
-src/donor/func_0200e16c.c:
+src/nitro/os/os_thread_15.c:
     complete
-    .text       start:0x0200e16c end:0x0200e194
-
-src/donor/func_0200e194.c:
-    complete
-    .text       start:0x0200e194 end:0x0200e1a4
+    .text       start:0x0200e16c end:0x0200e1a4
 
 src/donor/func_0200e1a4.c:
     complete
     .text       start:0x0200e1a4 end:0x0200e1d8
 
-src/donor/func_0200e1d8.c:
+src/nitro/os/os_thread_16.c:
     complete
     .text       start:0x0200e1d8 end:0x0200e20c
 
@@ -2907,7 +2274,7 @@ src/donor/func_0200e490.c:
     complete
     .text       start:0x0200e490 end:0x0200e52c
 
-src/donor/func_0200e52c.c:
+src/donor/OS_ReadMessage.c:
     complete
     .text       start:0x0200e52c end:0x0200e5a8
 
@@ -2923,7 +2290,7 @@ src/donor/func_0200ebe0.c:
     complete
     .text       start:0x0200ebe0 end:0x0200ec4c
 
-src/donor/func_0200ec90.c:
+src/donor/DLInsert.c:
     complete
     .text       start:0x0200ec90 end:0x0200ed38
 
@@ -2931,11 +2298,11 @@ src/donor/func_0200ed38.c:
     complete
     .text       start:0x0200ed38 end:0x0200ee40
 
-src/donor/func_0200ee40.c:
+src/donor/OS_FreeToHeap.c:
     complete
     .text       start:0x0200ee40 end:0x0200eea8
 
-src/donor/func_0200eea8.c:
+src/nitro/os/os_alloc_2.c:
     complete
     .text       start:0x0200eea8 end:0x0200eed8
 
@@ -2959,15 +2326,15 @@ src/donor/func_0200f1e4.c:
     complete
     .text       start:0x0200f1e4 end:0x0200f1f4
 
-src/donor/func_0200f1f4.c:
+src/nitro/os/os_protectionRegion.c:
     complete
     .text       start:0x0200f1f4 end:0x0200f208
 
-src/donor/func_0200f298.c:
+src/donor/OSi_ExceptionHandler.c:
     complete
     .text       start:0x0200f298 end:0x0200f30c
 
-src/donor/func_0200f30c.c:
+src/nitro/os/os_exception.c:
     complete
     .text       start:0x0200f30c end:0x0200f320
 
@@ -2979,11 +2346,11 @@ src/donor/func_0200f510.c:
     complete
     .text       start:0x0200f510 end:0x0200f5b0
 
-src/donor/func_0200f5c0.c:
+src/donor/OSi_SetTimer.c:
     complete
     .text       start:0x0200f5c0 end:0x0200f64c
 
-src/donor/func_0200f7d8.c:
+src/nitro/os/os_alarm_3.c:
     complete
     .text       start:0x0200f7d8 end:0x0200f844
 
@@ -2995,23 +2362,23 @@ src/donor/func_0200f8b4.c:
     complete
     .text       start:0x0200f8b4 end:0x0200f93c
 
-src/donor/func_0200f93c.c:
+src/nitro/os/os_alarm_4.c:
     complete
     .text       start:0x0200f93c end:0x0200f94c
 
-src/donor/func_0200fafc.c:
+src/nitro/os/os_system_3.c:
     complete
     .text       start:0x0200fafc end:0x0200fb08
 
-src/donor/func_0200fbd0.c:
+src/donor/OS_GetOwnerInfo.c:
     complete
     .text       start:0x0200fbd0 end:0x0200fc48
 
-src/donor/func_0200fc50.c:
+src/donor/OSi_InitVramExclusive.c:
     complete
     .text       start:0x0200fc50 end:0x0200fc84
 
-src/donor/func_0200fc84.c:
+src/nitro/os/os_vramExclusive.c:
     complete
     .text       start:0x0200fc84 end:0x0200fd0c
 
@@ -3023,47 +2390,19 @@ src/donor/func_0200fddc.c:
     complete
     .text       start:0x0200fddc end:0x0200fdec
 
-src/donor/func_0200fdec.c:
+src/donor/OS_Halt.c:
     complete
     .text       start:0x0200fdec end:0x0200fdf8
 
-src/donor/func_020100c0.c:
+src/nitro/mi/mi_dma_2.c:
     complete
-    .text       start:0x020100c0 end:0x02010128
+    .text       start:0x020100c0 end:0x02010228
 
-src/donor/func_02010128.c:
-    complete
-    .text       start:0x02010128 end:0x020101a4
-
-src/donor/func_020101a4.c:
-    complete
-    .text       start:0x020101a4 end:0x02010228
-
-src/donor/func_020102b0.c:
+src/donor/MIi_CpuClear32.c:
     complete
     .text       start:0x020102b0 end:0x020102c4
 
-src/donor/func_020102dc.c:
-    complete
-    .text       start:0x020102dc end:0x02010328
-
-src/donor/func_02010328.c:
-    complete
-    .text       start:0x02010328 end:0x02010360
-
-src/donor/func_0201037c.c:
-    complete
-    .text       start:0x0201037c end:0x020103a0
-
-src/donor/func_020103a0.c:
-    complete
-    .text       start:0x020103a0 end:0x02010434
-
-src/donor/func_02010434.c:
-    complete
-    .text       start:0x02010434 end:0x02010564
-
-src/donor/func_02010790.c:
+src/donor/SND_StopTimer.c:
     complete
     .text       start:0x02010790 end:0x020107f4
 
@@ -3075,55 +2414,55 @@ src/donor/func_02010d10.c:
     complete
     .text       start:0x02010d10 end:0x02010d48
 
-src/donor/func_02011118.c:
+src/nitro/snd/snd_command_9.c:
     complete
     .text       start:0x02011118 end:0x02011158
 
-src/donor/func_02011158.c:
+src/nitro/snd/snd_alarm.c:
     complete
     .text       start:0x02011158 end:0x02011188
 
-src/donor/func_020111a8.c:
+src/nitro/snd/snd_alarm_3.c:
     complete
     .text       start:0x020111a8 end:0x020111d8
 
-src/donor/func_02011270.c:
+src/nitro/snd/snd_work_3.c:
     complete
     .text       start:0x02011270 end:0x020112ec
 
-src/donor/func_020112ec.c:
+src/nitro/snd/snd_util.c:
     complete
     .text       start:0x020112ec end:0x0201135c
 
-src/donor/func_0201135c.c:
+src/donor/SND_AssignWaveArc.c:
     complete
     .text       start:0x0201135c end:0x02011428
 
-src/donor/func_02011428.c:
+src/donor/SND_DestroyBank.c:
     complete
     .text       start:0x02011428 end:0x020114c0
 
-src/donor/func_02011508.c:
+src/donor/SND_GetFirstInstDataPos.c:
     complete
     .text       start:0x02011508 end:0x02011528
 
-src/donor/func_02011528.c:
+src/donor/SND_GetNextInstData.c:
     complete
     .text       start:0x02011528 end:0x020116d8
 
-src/donor/func_02011714.c:
+src/donor/SND_GetWaveDataAddress.c:
     complete
     .text       start:0x02011714 end:0x02011750
 
-src/donor/func_0201175c.c:
+src/donor/PXI_InitFifo.c:
     complete
     .text       start:0x0201175c end:0x0201185c
 
-src/donor/func_0201185c.c:
+src/nitro/pxi/pxi_fifo.c:
     complete
     .text       start:0x0201185c end:0x020118a8
 
-src/donor/func_020118a8.c:
+src/nitro/pxi/pxi_fifo_2.c:
     complete
     .text       start:0x020118a8 end:0x020118cc
 
@@ -3135,59 +2474,59 @@ src/donor/func_02011954.c:
     complete
     .text       start:0x02011954 end:0x02011a6c
 
-src/donor/func_02011a6c.c:
+src/donor/FSi_ReleaseCommand.c:
     complete
     .text       start:0x02011a6c end:0x02011ac8
 
-src/donor/func_02011ac8.c:
+src/donor/FSi_TranslateCommand.c:
     complete
     .text       start:0x02011ac8 end:0x02011c58
 
-src/donor/func_02011c58.c:
+src/nitro/fs/fs_command_default.c:
     complete
     .text       start:0x02011c58 end:0x02011ca8
 
-src/donor/func_02011ca8.c:
+src/donor/FSi_ReadTable.c:
     complete
     .text       start:0x02011ca8 end:0x02011d68
 
-src/donor/func_02011d9c.c:
+src/donor/FSi_ReadFileCommand.c:
     complete
     .text       start:0x02011d9c end:0x02011dc8
 
-src/donor/func_02011dc8.c:
+src/donor/FSi_WriteFileCommand.c:
     complete
     .text       start:0x02011dc8 end:0x02011df4
 
-src/donor/func_02011df4.c:
+src/donor/FSi_SeekDirCommand.c:
     complete
     .text       start:0x02011df4 end:0x02011e8c
 
-src/donor/func_02011e8c.c:
+src/donor/FSi_ReadDirCommand.c:
     complete
     .text       start:0x02011e8c end:0x02011fb8
 
-src/donor/func_02012548.c:
+src/donor/FSi_OpenFileFastCommand.c:
     complete
     .text       start:0x02012548 end:0x020125c8
 
-src/donor/func_020125f8.c:
+src/nitro/fs/fs_archive.c:
     complete
     .text       start:0x020125f8 end:0x02012650
 
-src/donor/func_020126a4.c:
+src/donor/FSi_NextCommand.c:
     complete
     .text       start:0x020126a4 end:0x020128b8
 
-src/donor/func_02012990.c:
+src/donor/FSi_SendCommand.c:
     complete
     .text       start:0x02012990 end:0x02012b34
 
-src/donor/func_02012b60.c:
+src/donor/FS_FindArchive.c:
     complete
     .text       start:0x02012b60 end:0x02012ba0
 
-src/donor/func_02012cd8.c:
+src/donor/FS_LoadArchive.c:
     complete
     .text       start:0x02012cd8 end:0x02012d48
 
@@ -3195,35 +2534,35 @@ src/donor/func_02012d48.c:
     complete
     .text       start:0x02012d48 end:0x02012e08
 
-src/donor/func_02012e08.c:
+src/donor/FS_LoadArchiveTables.c:
     complete
     .text       start:0x02012e08 end:0x02012f2c
 
-src/donor/func_02013054.c:
+src/donor/FS_ResumeArchive.c:
     complete
     .text       start:0x02013054 end:0x020130c4
 
-src/donor/func_020130e4.c:
+src/donor/FS_NotifyArchiveAsyncEnd.c:
     complete
     .text       start:0x020130e4 end:0x02013168
 
-src/donor/func_020131b8.c:
+src/donor/FSi_FindPath.c:
     complete
     .text       start:0x020131b8 end:0x020132fc
 
-src/donor/func_020132fc.c:
+src/donor/FSi_ReadFileCore.c:
     complete
     .text       start:0x020132fc end:0x02013378
 
-src/donor/func_02013400.c:
+src/donor/FS_OpenFileFast.c:
     complete
     .text       start:0x02013400 end:0x02013470
 
-src/donor/func_02013470.c:
+src/donor/FS_OpenFile.c:
     complete
     .text       start:0x02013470 end:0x020134b8
 
-src/donor/func_0201361c.c:
+src/donor/FS_SeekFile.c:
     complete
     .text       start:0x0201361c end:0x02013688
 
@@ -3235,11 +2574,11 @@ src/donor/func_02013704.c:
     complete
     .text       start:0x02013704 end:0x0201374c
 
-src/donor/func_020137d0.c:
+src/nitro/fs/fs_rom_3.c:
     complete
     .text       start:0x020137d0 end:0x02013918
 
-src/donor/func_02013988.c:
+src/nitro/fs/fs_overlay.c:
     complete
     .text       start:0x02013988 end:0x020139a4
 
@@ -3247,7 +2586,7 @@ src/donor/func_020139e0.c:
     complete
     .text       start:0x020139e0 end:0x02013a08
 
-src/donor/func_02013a08.c:
+src/donor/FSi_LoadOverlayInfoCore.c:
     complete
     .text       start:0x02013a08 end:0x02013b00
 
@@ -3263,23 +2602,23 @@ src/donor/func_02013c88.c:
     complete
     .text       start:0x02013c88 end:0x02013d1c
 
-src/donor/func_02013e10.c:
+src/nitro/fs/fs_overlay_3.c:
     complete
     .text       start:0x02013e10 end:0x02013f00
 
-src/donor/func_020146c8.c:
+src/lib/DGT_Hash2GetDigest_2.c:
     complete
     .text       start:0x020146c8 end:0x020148c4
 
-src/donor/func_02014d04.c:
+src/nitro/cp/cp_context.c:
     complete
     .text       start:0x02014d04 end:0x02014d58
 
-src/donor/func_02014d58.c:
+src/nitro/cp/cp_context_2.c:
     complete
     .text       start:0x02014d58 end:0x02014da4
 
-src/donor/func_02014da4.c:
+src/nitro/spi/tp.c:
     complete
     .text       start:0x02014da4 end:0x02015024
 
@@ -3303,23 +2642,19 @@ src/donor/func_020157a4.c:
     complete
     .text       start:0x020157a4 end:0x020158c8
 
-src/donor/func_02015d28.c:
+src/donor/PM_SetBackLightAsync.c:
     complete
     .text       start:0x02015d28 end:0x02015da4
 
-src/donor/func_02015ea0.c:
+src/nitro/spi/pm_7.c:
     complete
     .text       start:0x02015ea0 end:0x02015efc
-
-src/donor/func_020163a8.c:
-    complete
-    .text       start:0x020163a8 end:0x020163f0
 
 src/donor/func_02016c08.c:
     complete
     .text       start:0x02016c08 end:0x02016c20
 
-src/donor/func_02016d24.c:
+src/nitro/rtc/convert_3.c:
     complete
     .text       start:0x02016d24 end:0x02016d88
 
@@ -3327,27 +2662,27 @@ src/donor/func_02016d88.c:
     complete
     .text       start:0x02016d88 end:0x02016e44
 
-src/donor/func_02016e44.c:
+src/donor/CARDi_SetTask.c:
     complete
     .text       start:0x02016e44 end:0x02016e80
 
-src/donor/func_02016e80.c:
+src/donor/CARDi_LockResource.c:
     complete
     .text       start:0x02016e80 end:0x02016f04
 
-src/donor/func_02016f04.c:
+src/donor/CARDi_UnlockResource.c:
     complete
     .text       start:0x02016f04 end:0x02016f90
 
-src/donor/func_020170cc.c:
+src/donor/CARDi_WaitAsync.c:
     complete
     .text       start:0x020170cc end:0x02017118
 
-src/donor/func_02017848.c:
+src/donor/CARDi_ReadFromCache.c:
     complete
     .text       start:0x02017848 end:0x020178d4
 
-src/donor/func_020178d4.c:
+src/nitro/card/card_rom.c:
     complete
     .text       start:0x020178d4 end:0x02017934
 
@@ -3359,11 +2694,11 @@ src/donor/func_02017988.c:
     complete
     .text       start:0x02017988 end:0x02017a58
 
-src/donor/func_02017bb8.c:
+src/donor/CARDi_ReadCard.c:
     complete
     .text       start:0x02017bb8 end:0x02017ca0
 
-src/donor/func_02017cf8.c:
+src/donor/CARDi_ReadRomSyncCore.c:
     complete
     .text       start:0x02017cf8 end:0x02017d90
 
@@ -3371,35 +2706,35 @@ src/donor/func_02017d90.c:
     complete
     .text       start:0x02017d90 end:0x02017e88
 
-src/donor/func_02017f04.c:
+src/donor/CARDi_OnFifoRecv.c:
     complete
     .text       start:0x02017f04 end:0x02017f38
 
-src/donor/func_02017f38.c:
+src/donor/CARDi_TaskThread.c:
     complete
     .text       start:0x02017f38 end:0x02017f90
 
-src/donor/func_020181e0.c:
+src/donor/CARDi_CheckPulledOutCore.c:
     complete
     .text       start:0x020181e0 end:0x02018240
 
-src/donor/func_02018290.c:
+src/nitro/wm/wm_system.c:
     complete
     .text       start:0x02018290 end:0x020182bc
 
-src/donor/func_02018550.c:
+src/donor/WMi_SendCommand.c:
     complete
     .text       start:0x02018550 end:0x020185fc
 
-src/donor/func_020186e0.c:
+src/nitro/wm/wm_system_6.c:
     complete
     .text       start:0x020186e0 end:0x02018774
 
-src/donor/func_02018c4c.c:
+src/donor/WM_SetPortCallback.c:
     complete
     .text       start:0x02018c4c end:0x02018d24
 
-src/donor/func_02018ddc.c:
+src/donor/WM_GetMPReceiveBufferSize.c:
     complete
     .text       start:0x02018ddc end:0x02018ea0
 
@@ -3407,31 +2742,27 @@ src/donor/func_02018ea0.c:
     complete
     .text       start:0x02018ea0 end:0x02018f84
 
-src/donor/func_02018fa4.c:
+src/donor/WM_GetLinkLevel.c:
     complete
     .text       start:0x02018fa4 end:0x02019034
 
-src/donor/func_02019034.c:
+src/nitro/wm/wm_sync_4.c:
     complete
-    .text       start:0x02019034 end:0x020190c4
-
-src/donor/func_020190c4.c:
-    complete
-    .text       start:0x020190c4 end:0x02019158
+    .text       start:0x02019034 end:0x02019158
 
 src/donor/func_02019158.c:
     complete
     .text       start:0x02019158 end:0x020192b0
 
-src/donor/func_020192b0.c:
+src/nitro/wm/wm_sync_5.c:
     complete
     .text       start:0x020192b0 end:0x02019324
 
-src/donor/func_02019518.c:
+src/donor/WM_SetParentParameter.c:
     complete
     .text       start:0x02019518 end:0x020195f4
 
-src/donor/func_020196f0.c:
+src/nitro/wm/wm_standard_7.c:
     complete
     .text       start:0x020196f0 end:0x020197dc
 
@@ -3439,13 +2770,9 @@ src/donor/func_020197dc.c:
     complete
     .text       start:0x020197dc end:0x0201992c
 
-src/donor/func_0201996c.c:
+src/nitro/wm/wm_standard_9.c:
     complete
-    .text       start:0x0201996c end:0x02019a38
-
-src/donor/func_02019a38.c:
-    complete
-    .text       start:0x02019a38 end:0x02019b20
+    .text       start:0x0201996c end:0x02019b20
 
 src/donor/func_02019b20.c:
     complete
@@ -3459,39 +2786,39 @@ src/donor/func_02019ff4.c:
     complete
     .text       start:0x02019ff4 end:0x0201a0c0
 
-src/donor/func_0201a12c.c:
+src/donor/WM_StartDataSharing.c:
     complete
     .text       start:0x0201a12c end:0x0201a380
 
-src/donor/func_0201a3e4.c:
+src/donor/WM_StepDataSharing.c:
     complete
     .text       start:0x0201a3e4 end:0x0201a72c
 
-src/donor/func_0201a72c.c:
+src/donor/WmDataSharingSetDataCallback.c:
     complete
     .text       start:0x0201a72c end:0x0201a804
 
-src/donor/func_0201a804.c:
+src/donor/WmDataSharingReceiveCallback_Parent.c:
     complete
     .text       start:0x0201a804 end:0x0201a930
 
-src/donor/func_0201a930.c:
+src/nitro/wm/wm_ds.c:
     complete
     .text       start:0x0201a930 end:0x0201aa24
 
-src/donor/func_0201aa24.c:
+src/donor/WmDataSharingReceiveData.c:
     complete
     .text       start:0x0201aa24 end:0x0201aaf0
 
-src/donor/func_0201aaf0.c:
+src/donor/WmDataSharingSendDataSet.c:
     complete
     .text       start:0x0201aaf0 end:0x0201ac44
 
-src/donor/func_0201ac44.c:
+src/donor/WM_GetSharedDataAddress.c:
     complete
     .text       start:0x0201ac44 end:0x0201ac98
 
-src/donor/func_0201af48.c:
+src/nitro/wm/wm_etc_6.c:
     complete
     .text       start:0x0201af48 end:0x0201afc0
 
@@ -3559,7 +2886,7 @@ src/donor/func_0201d2b4.c:
     complete
     .text       start:0x0201d2b4 end:0x0201d324
 
-src/donor/func_0201d324.c:
+src/donor/mystrlen.c:
     complete
     .text       start:0x0201d324 end:0x0201d34c
 
@@ -3591,7 +2918,7 @@ src/donor/func_0201faa4.c:
     complete
     .text       start:0x0201faa4 end:0x0201fb28
 
-src/donor/func_0201fd84.c:
+src/nitro/ctrdg/ctrdg_2.c:
     complete
     .text       start:0x0201fd84 end:0x0201fd9c
 
@@ -3599,35 +2926,35 @@ src/donor/func_0201fd9c.c:
     complete
     .text       start:0x0201fd9c end:0x0201fea8
 
-src/donor/func_020203f4.c:
+src/nitro/ctrdg/ctrdg_task_3.c:
     complete
     .text       start:0x020203f4 end:0x020204e4
 
-src/donor/func_02020528.c:
+src/donor/MATHi_CRC8InitTable.c:
     complete
     .text       start:0x02020528 end:0x02020568
 
-src/donor/func_02020568.c:
+src/donor/MATHi_CRC8Update.c:
     complete
     .text       start:0x02020568 end:0x020205a0
 
-src/donor/func_020205a0.c:
+src/donor/MATHi_CRC16InitTableRev.c:
     complete
     .text       start:0x020205a0 end:0x020205e4
 
-src/donor/func_020205e4.c:
+src/donor/MATHi_CRC16UpdateRev.c:
     complete
     .text       start:0x020205e4 end:0x02020624
 
-src/donor/func_02020624.c:
+src/donor/MATHi_CRC32InitTableRev.c:
     complete
     .text       start:0x02020624 end:0x02020664
 
-src/donor/func_02020664.c:
+src/donor/MATHi_CRC32UpdateRev.c:
     complete
     .text       start:0x02020664 end:0x020206a0
 
-src/donor/func_020209a4.c:
+src/lib/CTRDGi_IsAgbCartridge_2.c:
     complete
     .text       start:0x020209a4 end:0x02020a50
 
@@ -3647,7 +2974,7 @@ src/donor/func_02021194.c:
     complete
     .text       start:0x02021194 end:0x020211b0
 
-src/donor/func_020212a0.c:
+src/lib/acsvhl.c:
     complete
     .text       start:0x020212a0 end:0x02021318
 
@@ -3663,7 +2990,7 @@ src/donor/func_020214e0.c:
     complete
     .text       start:0x020214e0 end:0x02021a70
 
-src/donor/func_02022478.c:
+src/msl/printf.c:
     complete
     .text       start:0x02022478 end:0x0202259c
 
@@ -3671,11 +2998,11 @@ src/donor/func_020236ac.c:
     complete
     .text       start:0x020236ac end:0x02023714
 
-src/donor/func_02023714.c:
+src/donor/snprintf.c:
     complete
     .text       start:0x02023714 end:0x0202373c
 
-src/donor/func_020249f8.c:
+src/msl/scanf.c:
     complete
     .text       start:0x020249f8 end:0x02024a7c
 
@@ -3683,7 +3010,7 @@ src/donor/func_02024a7c.c:
     complete
     .text       start:0x02024a7c end:0x02024ad0
 
-src/donor/func_02024ad0.c:
+src/msl/scanf_2.c:
     complete
     .text       start:0x02024ad0 end:0x02024af8
 
@@ -3743,7 +3070,7 @@ src/donor/func_02028cc4.c:
     complete
     .text       start:0x02028cc4 end:0x02028cf8
 
-src/donor/func_0202a088.c:
+src/msl/s_frexp.c:
     complete
     .text       start:0x0202a088 end:0x0202a144
 
@@ -3755,7 +3082,7 @@ src/donor/func_0202a564.c:
     complete
     .text       start:0x0202a564 end:0x0202a6e8
 
-src/donor/func_0202a6e8.c:
+src/donor/__str2dec.c:
     complete
     .text       start:0x0202a6e8 end:0x0202a784
 
@@ -3783,11 +3110,11 @@ src/donor/func_0202c12c.c:
     complete
     .text       start:0x0202c12c end:0x0202c168
 
-src/donor/func_0202c168.c:
+src/msl/_dmul_2.c:
     complete
     .text       start:0x0202c168 end:0x0202c4cc
 
-src/donor/func_0202c4cc.c:
+src/donor/sqrt.c:
     complete
     .text       start:0x0202c4cc end:0x0202c668
 

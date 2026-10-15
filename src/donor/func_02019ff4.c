@@ -100,9 +100,9 @@ struct OSiAlarm {
     OSTick period;
     OSTick start;
 };
-extern void func_02010434(const void *src, void *dest, u32 size);
-extern void func_0200e7cc(void *startAddr, u32 nBytes);
-extern void func_0200e7e8(const void *startAddr, u32 nBytes);
+extern void MI_CpuCopy8(const void *src, void *dest, u32 size);
+extern void DC_InvalidateRange(void *startAddr, u32 nBytes);
+extern void DC_StoreRange(const void *startAddr, u32 nBytes);
 typedef enum WMApiid {
     WM_APIID_INITIALIZE = 0,
     WM_APIID_RESET,
@@ -453,16 +453,16 @@ typedef struct WMArm9Buf {
 } WMArm9Buf, WMarm9Buf;
 extern WMErrCode func_02019ff4(WMCallbackFunc callback, const u8 *destAdr, const u16 *sendData, u16 sendDataSize);
 extern const u16(*ctrdgi_fl_maxtime);
-extern void func_020184e0(WMApiid id, WMCallbackFunc callback);
-extern WMErrCode func_02018550(WMApiid id, u16 paramNum, ...);
-extern WMArm9Buf *func_0201866c(void);
-extern WMErrCode func_020186e0(s32 paramNum, ...);
+extern void WMi_SetCallbackTable(WMApiid id, WMCallbackFunc callback);
+extern WMErrCode WMi_SendCommand(WMApiid id, u16 paramNum, ...);
+extern WMArm9Buf *WMi_GetSystemWork(void);
+extern WMErrCode WMi_CheckStateEx(s32 paramNum, ...);
 static inline WMErrCode WMi_CheckState(u32 state) {
-    return func_020186e0(1, state);
+    return WMi_CheckStateEx(1, state);
 }
 WMErrCode func_02019ff4(WMCallbackFunc callback, const u8 *destAdr, const u16 *sendData, u16 sendDataSize) {
     WMErrCode result;
-    WMArm9Buf *p = func_0201866c();
+    WMArm9Buf *p = WMi_GetSystemWork();
     u32 wMac[2];
 
     result = WMi_CheckState(WM_STATE_DCF_CHILD);
@@ -470,7 +470,7 @@ WMErrCode func_02019ff4(WMCallbackFunc callback, const u8 *destAdr, const u16 *s
         return (result);
     };
 
-    func_0200e7cc(&(p->status->dcf_flag), 4);
+    DC_InvalidateRange(&(p->status->dcf_flag), 4);
     if (p->status->dcf_flag == 0) {
         ((void) 0);
         return WM_ERRCODE_ILLEGAL_STATE;
@@ -486,11 +486,11 @@ WMErrCode func_02019ff4(WMCallbackFunc callback, const u8 *destAdr, const u16 *s
         ((void) 0);
     }
 
-    func_0200e7e8((void *) sendData, sendDataSize);
-    func_020184e0(WM_APIID_SET_DCF_DATA, callback);
-    func_02010434(destAdr, wMac, 6);
+    DC_StoreRange((void *) sendData, sendDataSize);
+    WMi_SetCallbackTable(WM_APIID_SET_DCF_DATA, callback);
+    MI_CpuCopy8(destAdr, wMac, 6);
 
-    result = func_02018550(WM_APIID_SET_DCF_DATA, 4, (u32) wMac[0], (u32) wMac[1], (u32) sendData, (u32) sendDataSize);
+    result = WMi_SendCommand(WM_APIID_SET_DCF_DATA, 4, (u32) wMac[0], (u32) wMac[1], (u32) sendData, (u32) sendDataSize);
     if ((result) != WM_ERRCODE_SUCCESS) {
         return (result);
     };

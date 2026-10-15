@@ -19,20 +19,20 @@ typedef struct SNDCommandMgr {
     int sentBlockCount;
     unsigned int nextTag;
 } SNDCommandMgr;
-extern SNDCommandMgr data_020389e0;
+extern SNDCommandMgr sFreeList;
 void func_02010d10(SNDCommand *command) {
     SNDCommand *tail;
     int state;
 
     state = func_0200fa98();
-    tail  = data_020389e0.reservedTail;
+    tail  = sFreeList.reservedTail;
 
     if (tail == 0) {
-        data_020389e0.reservedHead = command;
-        data_020389e0.reservedTail = command;
+        sFreeList.reservedHead = command;
+        sFreeList.reservedTail = command;
     } else {
         tail->next                 = command;
-        data_020389e0.reservedTail = command;
+        sFreeList.reservedTail = command;
     }
     command->next = 0;
     func_0200faac(state);

@@ -1,18 +1,18 @@
 #include "m2c.h"
 
-M2C_UNK func_02004568(void *);                      /* extern */
-M2C_UNK func_02004580(void *);                      /* extern */
-M2C_UNK func_020045f8(void *, M2C_UNK);             /* extern */
-M2C_UNK func_02004d84(M2C_UNK);                     /* extern */
-s32 func_02005500(void *, M2C_UNK *, s32, M2C_UNK); /* extern */
-M2C_UNK func_02005764(s32);                         /* extern */
-s32 func_0200577c(s32, M2C_UNK);                    /* extern */
-M2C_UNK func_020061a0(u16, s32);                    /* extern */
-M2C_UNK func_020061d4(u16, s32);                    /* extern */
-M2C_UNK func_02006208(s32, s32);                    /* extern */
-s32 func_020064d0(s32);                             /* extern */
-M2C_UNK func_0200769c(M2C_UNK, s32);                /* extern */
-M2C_UNK func_0200fddc();                            /* extern */
+M2C_UNK func_02004568(void *);
+M2C_UNK func_02004580(void *);
+M2C_UNK func_020045f8(void *, M2C_UNK);
+M2C_UNK func_02004d84(M2C_UNK);
+s32 func_02005500(void *, M2C_UNK *, s32, M2C_UNK);
+M2C_UNK NNS_SndHeapDestroy(s32);
+s32 func_0200577c(s32, M2C_UNK);
+M2C_UNK func_020061a0(u16, s32);
+M2C_UNK func_020061d4(u16, s32);
+M2C_UNK func_02006208(s32, s32);
+s32 func_020064d0(s32);
+M2C_UNK func_0200769c(M2C_UNK, s32);
+M2C_UNK func_0200fddc();
 extern M2C_UNK data_02035a80;
 extern M2C_UNK data_02035a84;
 extern void *data_0203678c;
@@ -31,7 +31,7 @@ void func_02003948(s32 arg0, s32 arg1) {
         M2C_FIELD(data_0203678c, s32 *, 0xAC) = (s32) (M2C_FIELD(data_0203678c, s32 *, 0xAC) & ~0x8000);
     }
     if (((u32) (M2C_FIELD(data_0203678c, s32 *, 0xAC) << 0x11) >> 0x1F) != 0) {
-        func_02005764(M2C_FIELD(data_0203678c, s32 *, 0x9C));
+        NNS_SndHeapDestroy(M2C_FIELD(data_0203678c, s32 *, 0x9C));
         M2C_FIELD(data_0203678c, s32 *, 0xAC) = (s32) (M2C_FIELD(data_0203678c, s32 *, 0xAC) & ~0x4000);
     }
     M2C_FIELD(data_0203678c, s32 *, 0x9C) = func_0200577c(M2C_FIELD(data_0203678c, s32 *, 0x98), 0xB0000);
@@ -48,8 +48,8 @@ void func_02003948(s32 arg0, s32 arg1) {
         func_02006208(arg0, M2C_FIELD(data_0203678c, s32 *, 0x9C));
     }
     temp_r4 = arg1 * 2;
-    func_020061d4(*((u16 *)((s8 *)&data_02035a80 + (temp_r4 * 2))), M2C_FIELD(data_0203678c, s32 *, 0x9C));
-    func_020061a0(*((u16 *)((s8 *)&data_02035a80 + ((temp_r4 + 1) * 2))), M2C_FIELD(data_0203678c, s32 *, 0x9C));
+    func_020061d4(*((u16 *) ((s8 *) &data_02035a80 + (temp_r4 * 2))), M2C_FIELD(data_0203678c, s32 *, 0x9C));
+    func_020061a0(*((u16 *) ((s8 *) &data_02035a80 + ((temp_r4 + 1) * 2))), M2C_FIELD(data_0203678c, s32 *, 0x9C));
     M2C_FIELD(data_0203678c, s32 *, 0xA4) = arg1;
     if (arg0 != -1) {
         func_02004580(data_0203678c);

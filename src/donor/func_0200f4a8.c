@@ -18,18 +18,18 @@ extern struct {
     u16 pad;
     BOOL needResetTimer;
     volatile u64 tickCounter;
-} data_02038974;
-extern void func_0200c7e0(int timerNo, void (*callback)(void *), void *arg);
+} OSi_UseTick;
+extern void OSi_EnterTimerCallback(int timerNo, void (*callback)(void *), void *arg);
 void func_0200f4a8(void) {
-    data_02038974.tickCounter++;
+    OSi_UseTick.tickCounter++;
 
-    if (data_02038974.needResetTimer) {
+    if (OSi_UseTick.needResetTimer) {
         OS_SetTimerControl(0, 0);
         OS_SetTimerCount((OSTimer) 0, (u16) 0);
         OS_SetTimerControl(0, (u16) (0x0080 | 0x0040 | (1UL << 0)));
 
-        data_02038974.needResetTimer = 0;
+        OSi_UseTick.needResetTimer = 0;
     }
 
-    func_0200c7e0(0, (void (*)(void *)) func_0200f4a8, 0);
+    OSi_EnterTimerCallback(0, (void (*)(void *)) func_0200f4a8, 0);
 }

@@ -5,7 +5,7 @@ typedef unsigned int u32;
 typedef unsigned short u16;
 typedef unsigned char u8;
 typedef int s32;
-extern void func_020102b0(u32 value, void *dest, u32 size);
+extern void MIi_CpuClear32(u32 value, void *dest, u32 size);
 typedef void (*UnkWmCallbackFunc)(void *arg);
 extern u32 func_02019b20(UnkWmCallbackFunc callback, u16 *recvBuf, s32 recvBufSize, u16 *sendBuf, u16 sendBufSize,
                          void *tmpParam);
@@ -19,7 +19,7 @@ u32 func_02019b20(UnkWmCallbackFunc callback, u16 *recvBuf, s32 recvBufSize, u16
 u32 func_02019d20(UnkWmCallbackFunc callback, u16 *recvBuf, s32 recvBufSize, u16 *sendBuf, u16 sendBufSize, u16 mpFreq) {
     UnkWmMPTmpParam tmpParam;
 
-    func_020102b0(0, &tmpParam, sizeof(UnkWmMPTmpParam));
+    MIi_CpuClear32(0, &tmpParam, sizeof(UnkWmMPTmpParam));
     tmpParam.mask         = 3;
     tmpParam.minFrequency = mpFreq;
     tmpParam.frequency    = mpFreq;

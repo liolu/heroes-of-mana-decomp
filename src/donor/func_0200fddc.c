@@ -4,11 +4,11 @@
 typedef unsigned int u32;
 extern u32 func_0200fa98(void);
 extern void func_0200fddc(void);
-extern void func_0200fdec(void);
+extern void OS_Halt(void);
 void func_0200fddc(void) {
     while (1) {
         func_0200fa98();
-        func_0200fdec();
+        OS_Halt();
     }
 }
-void func_0200fdec(void);
+void OS_Halt(void);

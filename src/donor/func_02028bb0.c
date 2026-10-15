@@ -14,7 +14,7 @@ void *func_02028bb0(void *wosc, const wchar_t *buffer, size_t numchars) {
     __wOutStrCtrl *wOscp = (__wOutStrCtrl *) wosc;
     tobewritten =
         ((wOscp->CharsWritten + numchars) <= wOscp->MaxCharCount) ? numchars : wOscp->MaxCharCount - wOscp->CharsWritten;
-    res = (void *) func_02026cd4(wOscp->wCharStr + wOscp->CharsWritten, buffer, tobewritten);
+    res = (void *) wmemcpy(wOscp->wCharStr + wOscp->CharsWritten, buffer, tobewritten);
     wOscp->CharsWritten += tobewritten;
     return res;
 }

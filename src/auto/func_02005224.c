@@ -1,7 +1,7 @@
 #include "m2c.h"
 
-extern s32 data_020376c4;
+extern s32 sCurrent;
 
 s32 func_02005224(void) {
-    return data_020376c4;
+    return sCurrent;
 }

@@ -3,10 +3,10 @@
  * (license: CC0-1.0), reused by tools/donor_match.py */
 typedef unsigned long u32;
 typedef int BOOL;
-extern BOOL func_02010d48(u32 flags);
-extern void func_02010ea8(u32 tag);
-extern u32 func_02010f14(void);
-extern void func_02010790(u32 chBitMask, u32 capBitMask, u32 alarmBitMask, u32 flags);
+extern BOOL SND_FlushCommand(u32 flags);
+extern void SND_WaitForCommandProc(u32 tag);
+extern u32 SND_GetCurrentCommandTag(void);
+extern void SND_StopTimer(u32 chBitMask, u32 capBitMask, u32 alarmBitMask, u32 flags);
 typedef enum {
     NNS_SND_CAPTURE_FORMAT_PCM16,
     NNS_SND_CAPTURE_FORMAT_PCM8
@@ -54,9 +54,9 @@ void func_02004b7c(void) {
         return;
     }
 
-    func_02010790(cap->playChBitMask, cap->capBitMask, cap->alarmNo >= 0 ? (u32) (1 << cap->alarmNo) : 0, 0);
+    SND_StopTimer(cap->playChBitMask, cap->capBitMask, cap->alarmNo >= 0 ? (u32) (1 << cap->alarmNo) : 0, 0);
 
-    commandTag = func_02010f14();
-    (void) func_02010d48((1 << 0));
-    func_02010ea8(commandTag);
+    commandTag = SND_GetCurrentCommandTag();
+    (void) SND_FlushCommand((1 << 0));
+    SND_WaitForCommandProc(commandTag);
 }

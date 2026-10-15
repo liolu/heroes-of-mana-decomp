@@ -266,7 +266,7 @@ typedef struct FSFile {
 
 } FSFile;
 extern void func_02013190(FSFile *p_file);
-extern BOOL func_02013470(FSFile *p_file, const char *path);
+extern BOOL FS_OpenFile(FSFile *p_file, const char *path);
 extern BOOL func_020134b8(FSFile *p_file);
 static inline u32 FS_GetLength(const FSFile *p_file) {
     return p_file->prop.file.bottom - p_file->prop.file.top;
@@ -289,7 +289,7 @@ BOOL func_0201d214(const char *filePathp, MBIconInfo *iconp, BOOL char_flag) {
 
     func_02013190(&file);
 
-    if (func_02013470(&file, filePathp) == 0) {
+    if (FS_OpenFile(&file, filePathp) == 0) {
         ((void) 0);
         return 0;
     } else if ((u32) size != FS_GetLength(&file)) {

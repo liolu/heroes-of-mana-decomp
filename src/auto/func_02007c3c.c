@@ -1,7 +1,7 @@
 #include "m2c.h"
 
-M2C_UNK func_02007a90();                            /* extern */
+M2C_UNK NNSi_FndFinalizeHeap();
 
 void func_02007c3c(void) {
-    func_02007a90();
+    NNSi_FndFinalizeHeap();
 }

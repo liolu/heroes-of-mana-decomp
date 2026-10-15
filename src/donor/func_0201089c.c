@@ -3,10 +3,10 @@
  * reused by tools/donor_match.py */
 typedef unsigned int u32;
 typedef int s32;
-extern void func_02010a00(s32 id, u32 arg0, u32 arg1, u32 arg2, u32 arg3);
+extern void PushCommand_impl(s32 id, u32 arg0, u32 arg1, u32 arg2, u32 arg3);
 void func_0201089c(s32 chNo, s32 format, const void *dataAddr, s32 loop, s32 loopStart, s32 loopLen, s32 volume, s32 shift,
                    s32 timer, s32 pan) {
-    func_02010a00(14, chNo | (timer << 16), (u32) dataAddr, loopLen | ((volume << 24) | (shift << 22)),
+    PushCommand_impl(14, chNo | (timer << 16), (u32) dataAddr, loopLen | ((volume << 24) | (shift << 22)),
                   loopStart | ((loop << 26) | (format << 24) | (pan << 16)));
 }
-void func_02010a00(s32 id, u32 arg0, u32 arg1, u32 arg2, u32 arg3);
+void PushCommand_impl(s32 id, u32 arg0, u32 arg1, u32 arg2, u32 arg3);

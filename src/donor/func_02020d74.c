@@ -47,9 +47,9 @@ struct _FILE {
 };
 typedef struct _FILE FILE;
 extern int func_02020d74(FILE *file, size_t *length);
-extern void func_02020d44(FILE *file);
-void func_02020d40(unsigned char *p, int *n);
-void func_02020d44(FILE *file);
+extern void __prep_buffer(FILE *file);
+void __convert_from_newlines(unsigned char *p, int *n);
+void __prep_buffer(FILE *file);
 int func_02020d74(FILE *file, size_t *length) {
     size_t bufferLen;
     int writeCode;
@@ -59,7 +59,7 @@ int func_02020d74(FILE *file, size_t *length) {
         file->buffer_len = bufferLen;
 
         if (file->mode.binary_io == 0) {
-            func_02020d40(file->buffer, &file->buffer_len);
+            __convert_from_newlines(file->buffer, &file->buffer_len);
         }
 
         writeCode = file->write_proc(file->handle, file->buffer, &file->buffer_len, file->ref_con);
@@ -75,6 +75,6 @@ int func_02020d74(FILE *file, size_t *length) {
         file->position += file->buffer_len;
     }
 
-    func_02020d44(file);
+    __prep_buffer(file);
     return 0;
 }

@@ -1,8 +1,8 @@
 #include "m2c.h"
 
-s32 func_0201360c(void *, M2C_UNK, u32);            /* extern */
-s32 func_0201361c(void *, s32, M2C_UNK);            /* extern */
-extern void *data_020376c4;
+s32 func_0201360c(void *, M2C_UNK, u32);
+s32 FS_SeekFile(void *, s32, M2C_UNK);
+extern void *sCurrent;
 
 s32 func_02004ea0(u32 arg0, M2C_UNK arg1, u32 arg2, s32 arg3) {
     u32 temp_r0;
@@ -12,7 +12,7 @@ s32 func_02004ea0(u32 arg0, M2C_UNK arg1, u32 arg2, s32 arg3) {
     void *temp_r4;
 
     var_r5  = arg2;
-    temp_r4 = data_020376c4;
+    temp_r4 = sCurrent;
     temp_r2 = M2C_FIELD(temp_r4, void **, 0x84);
     if (arg0 >= (u32) M2C_FIELD(temp_r2, u32 *, 8)) {
         return -1;
@@ -22,7 +22,7 @@ s32 func_02004ea0(u32 arg0, M2C_UNK arg1, u32 arg2, s32 arg3) {
     if (var_r5 > temp_r0) {
         var_r5 = temp_r0;
     }
-    if (func_0201361c(temp_r4 + 0x34, M2C_FIELD(temp_r1, s32 *, 0) + arg3, 0) == 0) {
+    if (FS_SeekFile(temp_r4 + 0x34, M2C_FIELD(temp_r1, s32 *, 0) + arg3, 0) == 0) {
         return -1;
     }
     return func_0201360c(temp_r4 + 0x34, arg1, var_r5);

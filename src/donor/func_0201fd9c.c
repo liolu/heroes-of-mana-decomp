@@ -64,14 +64,14 @@ typedef struct CTRDGWork {
     vu16 subpInitialized;
     u16 lockID;
 } CTRDGWork;
-extern void func_0201ff24(int lockID, CTRDGLockByProc *info);
-extern void func_0201ff80(int lockID, CTRDGLockByProc *info);
-extern void func_0201fea8(CTRDGRomCycle *r);
-extern void func_0201fef0(CTRDGRomCycle *r);
+extern void CTRDGi_LockByProcessor(int lockID, CTRDGLockByProc *info);
+extern void CTRDGi_UnlockByProcessor(int lockID, CTRDGLockByProc *info);
+extern void CTRDGi_ChangeLatestAccessCycle(CTRDGRomCycle *r);
+extern void CTRDGi_RestoreAccessCycle(CTRDGRomCycle *r);
 extern struct {
     BOOL enableFlag;
     CTRDGWork work;
-} data_02041638;
+} CTRDGi_EnableFlag;
 BOOL func_0201fd9c(void) {
     BOOL retval = 1;
     CTRDGLockByProc lockInfo;
@@ -86,13 +86,13 @@ BOOL func_0201fd9c(void) {
     if (cip->detectPullOut == 1) {
         return 0;
     }
-    func_0201ff24(data_02041638.work.lockID, &lockInfo);
+    CTRDGi_LockByProcessor(CTRDGi_EnableFlag.work.lockID, &lockInfo);
 
     {
         CTRDGRomCycle rc;
         u8 isRomCode;
 
-        func_0201fea8(&rc);
+        CTRDGi_ChangeLatestAccessCycle(&rc);
         isRomCode = chp->isRomCode;
 
         if ((isRomCode == 0x96 && cip->moduleID.raw != chp->moduleID) ||
@@ -102,9 +102,9 @@ BOOL func_0201fd9c(void) {
             retval             = 0;
         }
 
-        func_0201fef0(&rc);
+        CTRDGi_RestoreAccessCycle(&rc);
     }
 
-    func_0201ff80(data_02041638.work.lockID, &lockInfo);
+    CTRDGi_UnlockByProcessor(CTRDGi_EnableFlag.work.lockID, &lockInfo);
     return retval;
 }

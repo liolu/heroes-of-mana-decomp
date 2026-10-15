@@ -9,9 +9,9 @@ typedef enum MbSegmentType {
     MB_SEG_ARM7STATIC,
     MB_SEG_ROMHEADER
 } MbSegmentType;
-extern const MbSegmentType data_020352f0[(3)];
+extern const MbSegmentType MBi_defaultLoadSegList[(3)];
 extern BOOL func_0201cf28(u8 segment_no, u32 address, u32 size);
-extern const MbSegmentType data_020352f0[(3)];
+extern const MbSegmentType MBi_defaultLoadSegList[(3)];
 extern BOOL func_0201cfd4(u8 segment_no, u32 address, u32 size);
 BOOL func_0201cf28(u8 segment_no, u32 address, u32 size);
 BOOL func_0201cfd4(u8 segment_no, u32 address, u32 size) {
@@ -19,7 +19,7 @@ BOOL func_0201cfd4(u8 segment_no, u32 address, u32 size) {
 
     ((void) 0);
 
-    seg_type = data_020352f0[segment_no];
+    seg_type = MBi_defaultLoadSegList[segment_no];
 
     switch (seg_type) {
         case MB_SEG_ROMHEADER:

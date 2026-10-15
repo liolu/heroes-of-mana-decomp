@@ -1,14 +1,14 @@
 #include "m2c.h"
 
-M2C_UNK func_0200dd50(M2C_UNK);                     /* extern */
-M2C_UNK func_0200e7cc(s32 *, M2C_UNK);              /* extern */
-M2C_UNK func_0200e804(s32 *, M2C_UNK);              /* extern */
-M2C_UNK func_0200e828();                            /* extern */
-s32 func_0200fa98();                                /* extern */
-M2C_UNK func_0200faac(s32);                         /* extern */
-M2C_UNK func_0200fafc(M2C_UNK);                     /* extern */
-s32 func_020118a8(M2C_UNK, M2C_UNK);                /* extern */
-s32 func_020118cc(M2C_UNK, s32 *, M2C_UNK);         /* extern */
+M2C_UNK OS_SleepThread(M2C_UNK);
+M2C_UNK DC_InvalidateRange(s32 *, M2C_UNK);
+M2C_UNK DC_FlushRange(s32 *, M2C_UNK);
+M2C_UNK DC_WaitWriteBufferEmpty();
+s32 func_0200fa98();
+M2C_UNK func_0200faac(s32);
+M2C_UNK OS_SpinWait(M2C_UNK);
+s32 PXI_IsCallbackReady(M2C_UNK, M2C_UNK);
+s32 func_020118cc(M2C_UNK, s32 *, M2C_UNK);
 
 s32 func_02017f90(void *arg0, s32 *arg1, s32 arg2) {
     s32 sp0;
@@ -20,15 +20,15 @@ s32 func_02017f90(void *arg0, s32 *arg1, s32 arg2) {
     sp0 = arg2;
     if (!(M2C_FIELD(arg0, volatile s32 *, 0x114) & 2)) {
         M2C_FIELD(arg0, volatile s32 *, 0x114) = (s32) (M2C_FIELD(arg0, volatile s32 *, 0x114) | 2);
-        if (func_020118a8(0xB, 1) == 0) {
+        if (PXI_IsCallbackReady(0xB, 1) == 0) {
             do {
-                func_0200fafc(0x64);
-            } while (func_020118a8(0xB, 1) == 0);
+                OS_SpinWait(0x64);
+            } while (PXI_IsCallbackReady(0xB, 1) == 0);
         }
         func_02017f90(arg0, NULL, 1);
     }
-    func_0200e804(M2C_FIELD(arg0, s32 **, 0), 0x60);
-    func_0200e828();
+    DC_FlushRange(M2C_FIELD(arg0, s32 **, 0), 0x60);
+    DC_WaitWriteBufferEmpty();
 loop_6:
     M2C_FIELD(arg0, s32 **, 4)             = arg1;
     M2C_FIELD(arg0, volatile s32 *, 0x114) = (s32) (M2C_FIELD(arg0, volatile s32 *, 0x114) | 0x20);
@@ -44,11 +44,11 @@ loop_6:
     temp_r8_2 = func_0200fa98();
     if (M2C_FIELD(arg0, volatile s32 *, 0x114) & 0x20) {
         do {
-            func_0200dd50(0);
+            OS_SleepThread(0);
         } while (M2C_FIELD(arg0, volatile s32 *, 0x114) & 0x20);
     }
     func_0200faac(temp_r8_2);
-    func_0200e7cc(M2C_FIELD(arg0, s32 **, 0), 0x60);
+    DC_InvalidateRange(M2C_FIELD(arg0, s32 **, 0), 0x60);
     temp_r1 = *M2C_FIELD(arg0, s32 **, 0);
     if (temp_r1 == 4) {
         temp_r0 = sp0 - 1;

@@ -8,13 +8,13 @@ typedef volatile u32 vu32;
 static inline vu32 OS_GetVBlankCount(void) {
     return *(vu32 *) (0x02000000 + 0x007ffc3c);
 }
-extern void func_0200fbb4(u8 *macAddress);
+extern void OS_GetMacAddress(u8 *macAddress);
 u32 func_0201eac0(void) {
     u8 mac[6];
     u32 ret;
     s32 i;
 
-    func_0200fbb4(mac);
+    OS_GetMacAddress(mac);
 
     for (i = 0, ret = 0; i < 6; i++) {
         ret += mac[i];

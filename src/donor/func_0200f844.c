@@ -16,7 +16,7 @@ typedef struct OSAlarm {
 extern u32 func_0200fa98(void);
 extern void func_0200faac(u32);
 extern void func_0200fddc(void);
-extern void func_0200f6ac(OSAlarm *alarm, OSTick fire);
+extern void OSi_InsertAlarm(OSAlarm *alarm, OSTick fire);
 void func_0200f844(OSAlarm *alarm, s64 fire, s64 period, OSAlarmHandler handler, void *arg) {
     u32 irq;
 
@@ -29,6 +29,6 @@ void func_0200f844(OSAlarm *alarm, s64 fire, s64 period, OSAlarmHandler handler,
     alarm->fire    = fire;
     alarm->handler = handler;
     alarm->arg     = arg;
-    func_0200f6ac(alarm, 0);
+    OSi_InsertAlarm(alarm, 0);
     func_0200faac(irq);
 }

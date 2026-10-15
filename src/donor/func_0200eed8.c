@@ -38,7 +38,7 @@ typedef struct {
     void *arenaEnd;
     HeapDesc *heapArray;
 } OSHeapInfo;
-extern void *data_020388c0[OS_ARENA_MAX];
+extern void *OSiHeapInfo[OS_ARENA_MAX];
 void *func_0200eed8(OSArenaId id, void *arenaStart, void *arenaEnd, int maxHeaps) {
     OSHeapInfo *heapInfo;
     u32 arraySize;
@@ -53,7 +53,7 @@ void *func_0200eed8(OSArenaId id, void *arenaStart, void *arenaEnd, int maxHeaps
     ((void) 0);
 
     heapInfo          = arenaStart;
-    data_020388c0[id] = heapInfo;
+    OSiHeapInfo[id] = heapInfo;
 
     arraySize           = sizeof(HeapDesc) * maxHeaps;
     heapInfo->heapArray = (void *) ((u32) arenaStart + sizeof(OSHeapInfo));
