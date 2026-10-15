@@ -44,7 +44,7 @@ void OSi_InsertThreadToList(OSThread *thread) {
     }
 
     if (previous == 0) {
-        thread->next       = OSi_SystemCallbackInSwitchThread.list;
+        thread->next                          = OSi_SystemCallbackInSwitchThread.list;
         OSi_SystemCallbackInSwitchThread.list = thread;
     } else {
         thread->next   = previous->next;

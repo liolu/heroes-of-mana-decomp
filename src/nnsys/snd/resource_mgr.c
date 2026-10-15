@@ -8,7 +8,7 @@ M2C_UNK SND_UnlockChannel(s32, M2C_UNK);
 void NNSi_SndInitResourceMgr(void) {
     sChannelLock = 0;
     sCaptureLock = 0;
-    sAlarmLock = 0;
+    sAlarmLock   = 0;
 }
 
 void NNS_SndFreeAlarm(s32 arg0) {

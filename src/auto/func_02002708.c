@@ -12,6 +12,6 @@ void func_02002708(void) {
     do {
         var_r1 += 1;
         *var_r2 &= ~0x200000;
-        var_r2 = (s32 *)((s8 *)var_r2 + 0x2D0);
+        var_r2 = (s32 *) ((s8 *) var_r2 + 0x2D0);
     } while (var_r1 < 4);
 }

@@ -536,8 +536,7 @@ void func_0201b700(void *arg, u16 child) {
                 u8 fileid = ((MBCommRequestData *) p_data)->fileid;
 
                 if (fileid >= (16) || ((MB_CommPWork *) mbc)->fileinfo[fileid].active == 0 ||
-                    ((MB_CommPWork *) mbc)->childggid[child - 1] !=
-                        ((MB_CommPWork *) mbc)->fileinfo[fileid].game_reg->ggid) {
+                    ((MB_CommPWork *) mbc)->childggid[child - 1] != ((MB_CommPWork *) mbc)->fileinfo[fileid].game_reg->ggid) {
                     ((MB_CommPWork *) mbc)->req2child[child - 1] = MB_COMM_USER_REQ_KICK;
                 } else {
                     for (i = 0; i < 15 + 1; i++) {

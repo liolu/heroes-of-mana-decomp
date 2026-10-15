@@ -17,7 +17,7 @@ u32 OS_EnableScheduler(void) {
     u32 count      = 0;
 
     if (OSi_SystemCallbackInSwitchThread.rescheduleCount != 0) {
-        count                         = OSi_SystemCallbackInSwitchThread.rescheduleCount;
+        count                                            = OSi_SystemCallbackInSwitchThread.rescheduleCount;
         OSi_SystemCallbackInSwitchThread.rescheduleCount = count - 1;
     }
     func_0200faac(savedState);

@@ -30,8 +30,8 @@ void CTRDGi_TaskThread(char *ctx) {
         if (job.run != 0) {
             job.result = job.run(&job);
         }
-        enabled                           = func_0200fa98();
-        done                              = job.done;
+        enabled                              = func_0200fa98();
+        done                                 = job.done;
         *((char *) &ctrdgi_task_work + 0x26) = 0;
         if (done != 0) {
             done(&job);

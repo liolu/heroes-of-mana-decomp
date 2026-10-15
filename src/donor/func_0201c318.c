@@ -424,16 +424,12 @@ void func_0201c318(u8 file_id) {
         return;
     }
 
-    if (((MB_CommPWork *) mbc)->fileinfo[file_id].active &&
-        ((MB_CommPWork *) mbc)->fileinfo[file_id].pollbmp) {
-        if (((MB_CommPWork *) mbc)->fileinfo[file_id].nextb <=
-                ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb &&
-            ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb <=
-                ((MB_CommPWork *) mbc)->fileinfo[file_id].nextb + 2) {
+    if (((MB_CommPWork *) mbc)->fileinfo[file_id].active && ((MB_CommPWork *) mbc)->fileinfo[file_id].pollbmp) {
+        if (((MB_CommPWork *) mbc)->fileinfo[file_id].nextb <= ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb &&
+            ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb <= ((MB_CommPWork *) mbc)->fileinfo[file_id].nextb + 2) {
             ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb++;
         } else {
-            ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb =
-                ((MB_CommPWork *) mbc)->fileinfo[file_id].nextb;
+            ((MB_CommPWork *) mbc)->fileinfo[file_id].currentb = ((MB_CommPWork *) mbc)->fileinfo[file_id].nextb;
         }
         ((void) 0);
     }

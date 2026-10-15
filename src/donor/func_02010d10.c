@@ -31,7 +31,7 @@ void func_02010d10(SNDCommand *command) {
         sFreeList.reservedHead = command;
         sFreeList.reservedTail = command;
     } else {
-        tail->next                 = command;
+        tail->next             = command;
         sFreeList.reservedTail = command;
     }
     command->next = 0;

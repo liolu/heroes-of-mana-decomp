@@ -16,7 +16,7 @@ s32 AllocCommand(void) {
         func_0200faac(temp_r0);
         return 0;
     }
-    temp_r2                                  = *temp_r4;
+    temp_r2                              = *temp_r4;
     M2C_FIELD(&sFreeList, M2C_UNK **, 0) = temp_r2;
     if (temp_r2 == NULL) {
         M2C_FIELD(&sFreeList, s32 *, 0x10) = 0;

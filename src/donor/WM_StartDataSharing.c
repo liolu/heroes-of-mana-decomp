@@ -36,7 +36,7 @@ extern u16 WM_GetAID(void);
 extern u16 WMi_GetMPReadyAIDs(void);
 extern u32 WM_SetPortCallback(u16 port, UnkWmCallbackFunc callback, void *arg);
 extern u32 WM_SetMPDataToPortEx(UnkWmCallbackFunc callback, void *arg, const u16 *sendData, u16 sendDataSize, u16 destBitmap,
-                         u16 port, u16 prio);
+                                u16 port, u16 prio);
 extern u32 WM_StartDataSharing(UnkWmDataSharingInfo *dsInfo, u16 port, u16 aidBitmap, u16 dataLength, BOOL doubleMode);
 extern void WmDataSharingSetDataCallback(void *arg);
 extern void WmDataSharingReceiveCallback_Parent(void *arg);
@@ -94,8 +94,8 @@ u32 WM_StartDataSharing(UnkWmDataSharingInfo *dsInfo, u16 port, u16 aidBitmap, u
 
         for (i = 0; i < ((dsInfo->doubleMode == 1) ? 2 : 1); i++) {
             dsInfo->writeIndex = (u16) ((dsInfo->writeIndex + 1) & 3);
-            result             = WM_SetMPDataToPortEx(WmDataSharingSetDataCallback, dsInfo, (u16 *) &dsInfo->ds[i], dsInfo->dataSetLength,
-                                               (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
+            result = WM_SetMPDataToPortEx(WmDataSharingSetDataCallback, dsInfo, (u16 *) &dsInfo->ds[i], dsInfo->dataSetLength,
+                                          (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
             if (result == 7) {
                 dsInfo->seqNum[i] = 0xffff;
                 dsInfo->sendIndex = (u16) ((dsInfo->sendIndex + 1) & 3);

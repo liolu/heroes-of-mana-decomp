@@ -8,7 +8,7 @@ M2C_UNK MI_CpuFill8(s32, M2C_UNK, M2C_UNK);
 void MBi_SetChildMPMaxSize(s32 arg0) {
     s32 temp_r1;
 
-    temp_r1                                = arg0 - 2;
+    temp_r1                                     = arg0 - 2;
     M2C_FIELD(&req_data_piece_idx, s32 *, 8)    = temp_r1;
     M2C_FIELD(&req_data_piece_idx, s32 *, 0xC)  = func_0202d478(0x1E, temp_r1);
     M2C_FIELD(&req_data_piece_idx, s32 *, 0x10) = 0x1E;

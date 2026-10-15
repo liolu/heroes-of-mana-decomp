@@ -7,9 +7,9 @@ typedef struct {
 } __InStrCtrl;
 extern int __StringRead(void *, int, int);
 extern unsigned long __strtoul(int base, int max_width, int (*ReadProc)(void *, int, int), void *ReadProcArg,
-                                   int *chars_scanned, int *negative, int *overflow);
+                               int *chars_scanned, int *negative, int *overflow);
 unsigned long __strtoul(int base, int max_width, int (*ReadProc)(void *, int, int), void *ReadProcArg, int *chars_scanned,
-                            int *negative, int *overflow);
+                        int *negative, int *overflow);
 unsigned long func_02026aec(const char *restrict str, char **restrict end, int base) {
     unsigned long value;
     int count, negative, overflow;
@@ -25,7 +25,7 @@ unsigned long func_02026aec(const char *restrict str, char **restrict end, int b
     }
 
     if (overflow) {
-        value         = ~0;
+        value = ~0;
         errno = 34;
     } else if (negative) {
         value = -value;

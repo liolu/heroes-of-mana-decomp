@@ -100,8 +100,8 @@ static inline void __begin_critical_region(int region) {
     OSThread *currentThread;
 
     if (func_0200e6dc(&__cs[region]) == 0) {
-        currentThread         = OS_GetCurrentThread();
-        __cs_id[region] = OS_GetThreadId(currentThread);
+        currentThread    = OS_GetCurrentThread();
+        __cs_id[region]  = OS_GetThreadId(currentThread);
         __cs_ref[region] = 1;
     } else {
         currentThread = OS_GetCurrentThread();
@@ -109,8 +109,8 @@ static inline void __begin_critical_region(int region) {
             __cs_ref[region]++;
         } else {
             OS_LockMutex(&__cs[region]);
-            currentThread         = OS_GetCurrentThread();
-            __cs_id[region] = OS_GetThreadId(currentThread);
+            currentThread    = OS_GetCurrentThread();
+            __cs_id[region]  = OS_GetThreadId(currentThread);
             __cs_ref[region] = 1;
         }
     }

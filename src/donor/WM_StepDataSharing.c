@@ -33,7 +33,7 @@ extern u32 WMi_CheckStateEx(s32 paramNum, ...);
 extern u16 WM_GetAID(void);
 extern u16 WMi_GetMPReadyAIDs(void);
 extern u32 WM_SetMPDataToPortEx(UnkWmCallbackFunc callback, void *arg, const u16 *sendData, u16 sendDataSize, u16 destBitmap,
-                         u16 port, u16 prio);
+                                u16 port, u16 prio);
 extern void WmDataSharingSetDataCallback(void *arg);
 extern void WmDataSharingReceiveData(UnkWmDataSharingInfo *dsInfo, u16 aid, u16 *data);
 extern void WmDataSharingSendDataSet(UnkWmDataSharingInfo *dsInfo, BOOL delayed);
@@ -83,8 +83,8 @@ u32 WM_StepDataSharing(UnkWmDataSharingInfo *dsInfo, const u16 *sendData, UnkWmD
 
             dsInfo->state = 1;
             index         = (u16) ((dsInfo->writeIndex + 3) & 3);
-            ret           = WM_SetMPDataToPortEx(WmDataSharingSetDataCallback, dsInfo, (u16 *) &dsInfo->ds[index], dsInfo->dataSetLength,
-                                          (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
+            ret = WM_SetMPDataToPortEx(WmDataSharingSetDataCallback, dsInfo, (u16 *) &dsInfo->ds[index], dsInfo->dataSetLength,
+                                       (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
             if (ret == 7) {
                 dsInfo->seqNum[index] = 0xffff;
                 dsInfo->sendIndex     = (u16) ((dsInfo->sendIndex + 1) & 3);
@@ -137,7 +137,8 @@ u32 WM_StepDataSharing(UnkWmDataSharingInfo *dsInfo, const u16 *sendData, UnkWmD
             UnkWmDataSet *ds = &dsInfo->ds[dsInfo->sendIndex];
 
             MIi_CpuCopy16(sendData, ds->childData, dsInfo->dataLength);
-            ret = WM_SetMPDataToPortEx(WmDataSharingSetDataCallback, dsInfo, ds->childData, dsInfo->dataLength, dsInfo->aidBitmap, dsInfo->port, 1);
+            ret               = WM_SetMPDataToPortEx(WmDataSharingSetDataCallback, dsInfo, ds->childData, dsInfo->dataLength,
+                                                     dsInfo->aidBitmap, dsInfo->port, 1);
             dsInfo->sendIndex = (u16) ((dsInfo->sendIndex + 1) & 3);
             if (ret != 2 && ret != 0) {
                 dsInfo->state = 5;

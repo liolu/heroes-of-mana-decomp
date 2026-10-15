@@ -52,7 +52,7 @@ void *func_0200eed8(OSArenaId id, void *arenaStart, void *arenaEnd, int maxHeaps
     ((void) 0);
     ((void) 0);
 
-    heapInfo          = arenaStart;
+    heapInfo        = arenaStart;
     OSiHeapInfo[id] = heapInfo;
 
     arraySize           = sizeof(HeapDesc) * maxHeaps;

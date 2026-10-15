@@ -25,7 +25,7 @@ extern void MI_DmaCopy32Async(u32 dmaNo, const void *src, void *dest, u32 size, 
 /* func_02005c4c from projets/blue-dragon-awakened-shadow/src/donor/func_02005c4c.c (same code in another game of this
  * workspace), reused by tools/donor_match.py */
 void GX_BeginLoadTex(void) {
-    s32 bank                    = GX_ResetBankForTex();
+    s32 bank              = GX_ResetBankForTex();
     sClrImg.texBank       = bank;
     sClrImg.texStartAddr  = sTexStartAddrTable[bank][0] << 12;
     sClrImg.texStartAddr2 = sTexStartAddrTable[bank][1] << 12;

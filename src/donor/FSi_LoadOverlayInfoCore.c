@@ -167,7 +167,7 @@ extern BOOL func_020134b8(FS_File *file);
 extern s32 func_0201360c(FS_File *file, void *dest, s32 size);
 FS_FileIdentifier func_020139e0(UnkOverlayInfo *info);
 BOOL FSi_LoadOverlayInfoCore(UnkOverlayInfo *info, u32 target, u32 id, FS_Record *record, u32 offset9, u32 size9, u32 offset7,
-                   u32 size7) {
+                             u32 size7) {
     CartridgeRegion pr[1];
     FS_File file[1];
     u32 pos;

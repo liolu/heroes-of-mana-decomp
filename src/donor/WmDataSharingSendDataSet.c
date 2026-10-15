@@ -33,7 +33,7 @@ typedef struct UnkWmDataSharingInfo {
 } UnkWmDataSharingInfo;
 extern u16 WMi_GetMPReadyAIDs(void);
 extern u32 WM_SetMPDataToPortEx(UnkWmCallbackFunc callback, void *arg, const u16 *sendData, u16 sendDataSize, u16 destBitmap,
-                         u16 port, u16 prio);
+                                u16 port, u16 prio);
 extern void WmDataSharingSetDataCallback(void *arg);
 extern void WmDataSharingSendDataSet(UnkWmDataSharingInfo *dsInfo, BOOL delayed);
 void WmDataSharingSetDataCallback(void *arg);
@@ -62,7 +62,7 @@ void WmDataSharingSendDataSet(UnkWmDataSharingInfo *dsInfo, BOOL delayed) {
         func_0200faac(enabled);
 
         result = WM_SetMPDataToPortEx(WmDataSharingSetDataCallback, dsInfo, (u16 *) &dsInfo->ds[oldWI], dsInfo->dataSetLength,
-                               (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
+                                      (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
         if (result == 7) {
             dsInfo->seqNum[oldWI] = 0xffff;
             dsInfo->sendIndex     = (u16) ((dsInfo->sendIndex + 1) & 3);

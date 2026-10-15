@@ -660,10 +660,8 @@ void func_0201b260(u16 type, void *arg) {
             u8 i;
 
             for (i = 0; i < (16); i++) {
-                if (((MB_CommPWork *) mbc)->fileinfo[i].active &&
-                    ((MB_CommPWork *) mbc)->fileinfo[i].gameinfo_changed_bmp) {
-                    func_0201d2b4(&((MB_CommPWork *) mbc)->fileinfo[i].game_info,
-                                  &((MB_CommPWork *) mbc)->childUser[0],
+                if (((MB_CommPWork *) mbc)->fileinfo[i].active && ((MB_CommPWork *) mbc)->fileinfo[i].gameinfo_changed_bmp) {
+                    func_0201d2b4(&((MB_CommPWork *) mbc)->fileinfo[i].game_info, &((MB_CommPWork *) mbc)->childUser[0],
                                   ((MB_CommPWork *) mbc)->fileinfo[i].gameinfo_child_bmp,
                                   ((MB_CommPWork *) mbc)->fileinfo[i].gameinfo_changed_bmp);
 

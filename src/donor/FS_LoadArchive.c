@@ -905,7 +905,7 @@ void FS_RecordInit(FS_Record *record);
 FS_Record *func_02060ab0(const char *name, s32 name_len);
 BOOL FS_RecordRegister(FS_Record *record, const char *name, u32 name_len);
 BOOL FS_LoadArchive(FS_Record *record, u32 baseOffset, u32 fat, u32 fatSize, u32 fnt, u32 fntSize, FS_RecordReadCB readCB,
-                   FS_RecordWriteCB writeCB) {
+                    FS_RecordWriteCB writeCB) {
     record->baseOffset = baseOffset;
     record->fatSize    = fatSize;
     record->fatOffset = record->fatBase = fat;

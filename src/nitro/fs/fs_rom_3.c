@@ -242,7 +242,7 @@ extern void FS_InitArchive(FSArchive *p_arc);
 extern BOOL FS_RegisterArchiveName(FSArchive *p_arc, const char *name, u32 name_len);
 extern void FS_SetArchiveProc(struct FSArchive *p_arc, FS_ARCHIVE_PROC_FUNC proc, u32 flags);
 extern BOOL FS_LoadArchive(FSArchive *p_arc, u32 base, u32 fat, u32 fat_size, u32 fnt, u32 fnt_size,
-                          FS_ARCHIVE_READ_FUNC read_func, FS_ARCHIVE_WRITE_FUNC write_func);
+                           FS_ARCHIVE_READ_FUNC read_func, FS_ARCHIVE_WRITE_FUNC write_func);
 extern FSResult FSi_EmptyArchiveProc(FSFile *p_file, FSCommandType cmd);
 extern FSResult FSi_RomArchiveProc(FSFile *p_file, FSCommandType cmd);
 extern FSResult func_02013704(FSArchive *p_arc, void *dst, u32 src, u32 len);
@@ -379,13 +379,13 @@ void FSi_InitRom(u32 default_dma_no) {
         const CARDRomRegion *const fat = CARD_GetRomRegionFAT();
 
         FS_SetArchiveProc(&fsi_arc_rom, FSi_RomArchiveProc,
-                      (1 << FS_COMMAND_WRITEFILE) | (1 << FS_COMMAND_ACTIVATE) | (1 << FS_COMMAND_IDLE));
+                          (1 << FS_COMMAND_WRITEFILE) | (1 << FS_COMMAND_ACTIVATE) | (1 << FS_COMMAND_IDLE));
 
         if ((fnt->offset == 0xFFFFFFFF) || (fnt->offset == 0x00000000) || (fat->offset == 0xFFFFFFFF) ||
             (fat->offset == 0x00000000)) {
         } else {
             (void) FS_LoadArchive(&fsi_arc_rom, 0x00000000, fat->offset, fat->length, fnt->offset, fnt->length, func_02013704,
-                                 FSi_WriteDummyCallback);
+                                  FSi_WriteDummyCallback);
         }
     }
 }

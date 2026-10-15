@@ -13,8 +13,8 @@ extern void OSi_IdleThreadProc(void *arg);
 int OS_SetSwitchThreadCallback(int arg0) {
     int mask;
     int old;
-    mask               = func_0200fa98();
-    old                = OSi_SystemCallbackInSwitchThread[0xc];
+    mask                                  = func_0200fa98();
+    old                                   = OSi_SystemCallbackInSwitchThread[0xc];
     OSi_SystemCallbackInSwitchThread[0xc] = arg0;
     func_0200faac(mask);
     return old;

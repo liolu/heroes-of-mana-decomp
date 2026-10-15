@@ -10891,10 +10891,9 @@ int func_0201befc(void) {
 
     func_0201c318(((MB_CommPWork *) mbc)->cur_fileid);
 
-    if (!func_0201ce74(
-            &bi, &((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].blockinfo_table,
-            ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].currentb,
-            &((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].dl_fileinfo.header)) {
+    if (!func_0201ce74(&bi, &((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].blockinfo_table,
+                       ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].currentb,
+                       &((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].dl_fileinfo.header)) {
         return (WM_ERRCODE_MAX + 1);
     }
 
@@ -10905,16 +10904,14 @@ int func_0201befc(void) {
     databuf = func_0201faa4(&hd, (u8 *) ((MB_CommPWork *) mbc)->common.sendbuf);
 
     {
-        u32 card_addr = (u32) (bi.offset -
-                               ((MB_CommPWork *) mbc)
-                                   ->fileinfo[((MB_CommPWork *) mbc)->cur_fileid]
-                                   .blockinfo_table.seg_src_offset[bi.segment_no] +
-                               ((MB_CommPWork *) mbc)
-                                   ->fileinfo[((MB_CommPWork *) mbc)->cur_fileid]
-                                   .card_mapping[bi.segment_no]);
+        u32 card_addr =
+            (u32) (bi.offset -
+                   ((MB_CommPWork *) mbc)
+                       ->fileinfo[((MB_CommPWork *) mbc)->cur_fileid]
+                       .blockinfo_table.seg_src_offset[bi.segment_no] +
+                   ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].card_mapping[bi.segment_no]);
 
-        MBiCacheList *const pl =
-            ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].cache_list;
+        MBiCacheList *const pl = ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].cache_list;
 
         if (!func_0201f5e4(pl, card_addr, databuf, bi.size)) {
             MBiTaskInfo *const p_task = &((MB_CommPWork *) mbc)->cur_task;
@@ -10956,8 +10953,8 @@ int func_0201befc(void) {
     }
 
     return MBi_BlockHeaderEnd((int) (bi.size + (6)),
-                         ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].pollbmp,
-                         ((MB_CommPWork *) mbc)->common.sendbuf);
+                              ((MB_CommPWork *) mbc)->fileinfo[((MB_CommPWork *) mbc)->cur_fileid].pollbmp,
+                              ((MB_CommPWork *) mbc)->common.sendbuf);
 }
 int MBi_CommParentSendData(void);
 void func_0201c318(u8 file_id);

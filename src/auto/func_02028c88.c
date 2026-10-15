@@ -9,7 +9,7 @@ s32 func_02028c88(u16 *arg0) {
     var_r2 = -1;
     do {
         temp_r1 = *var_r0;
-        var_r0 = (u16 *)((s8 *)var_r0 + 2);
+        var_r0  = (u16 *) ((s8 *) var_r0 + 2);
         var_r2 += 1;
     } while (temp_r1 != 0);
     return var_r2;

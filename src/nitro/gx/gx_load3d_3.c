@@ -23,7 +23,7 @@ extern void MI_DmaCopy32Async(u32 dmaNo, const void *src, void *dest, u32 size, 
 /* func_02005e34 from projets/blue-dragon-awakened-shadow/src/donor/func_02005e34.c (same code in another game of this
  * workspace), reused by tools/donor_match.py */
 void GX_BeginLoadTexPltt(void) {
-    s32 bank                       = GX_ResetBankForTexPltt();
+    s32 bank                 = GX_ResetBankForTexPltt();
     sClrImg.texPlttBank      = bank;
     sClrImg.texPlttStartAddr = sTexPlttStartAddrTable[bank >> 4] << 12;
 }

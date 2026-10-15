@@ -26,12 +26,12 @@ extern void NNS_SndPlayerSetInitialVolume(void *handle, int volume);
 extern void NNS_SndPlayerSetChannelPriority(void *handle, int prio);
 extern void NNS_SndPlayerSetSeqArcNo(void *handle, int seqArcNo, int index);
 extern BOOL StartSeqArc(void *handle, int playerNo, int bankNo, int playerPrio, UnkSndSeqParam *param, UnkSndSeqData *seqArc,
-                          int seqArcNo, int index);
+                        int seqArcNo, int index);
 
 /* func_020759e0 from https://github.com/GoldieLeGenie/DQIV-DECOMP libs/NitroSystem/src/snd/snd_arcplayer.c (license: none),
  * reused by tools/donor_match.py */
 BOOL StartSeqArc(void *handle, int playerNo, int bankNo, int playerPrio, UnkSndSeqParam *param, UnkSndSeqData *seqArc,
-                   int seqArcNo, int index) {
+                 int seqArcNo, int index) {
     void *seqPlayer;
     void *heap;
     void *bank;

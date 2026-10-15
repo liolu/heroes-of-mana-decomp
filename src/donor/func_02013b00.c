@@ -169,7 +169,7 @@ extern BOOL func_020134b8(FS_File *file);
 extern void MI_CpuCopy8(const void *src, void *dest, u32 count);
 FS_FileIdentifier func_020139e0(UnkOverlayInfo *info);
 BOOL FSi_LoadOverlayInfoCore(UnkOverlayInfo *info, u32 target, u32 id, FS_Record *record, u32 offset9, u32 size9, u32 offset7,
-                   u32 size7);
+                             u32 size7);
 BOOL func_02013b00(UnkOverlayInfo *info, u32 target, u32 id) {
     const CartridgeRegion *table;
     FS_File file[1];
