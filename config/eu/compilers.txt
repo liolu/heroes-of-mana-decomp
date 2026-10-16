@@ -402,3 +402,9 @@ src/auto/func_02007bc4.c 1.2/sp3
 src/auto/func_02007264.c 1.2/sp3
 src/auto/func_02006678.c 1.2/sp3
 src/auto/func_02021338.c 1.2/sp3
+src/auto/func_0200769c.c 1.2/sp3
+src/auto/func_0200408c.c 1.2/sp3
+src/auto/func_02007c00.c 1.2/sp3
+src/auto/func_02004510.c 1.2/sp3
+src/auto/NNS_FndAllocFromFrmHeapEx.c 1.2/sp3
+src/auto/func_0200458c.c 1.2/sp3

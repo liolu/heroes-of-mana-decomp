@@ -3482,3 +3482,99 @@ src/auto/func_02006678.c:
 src/auto/func_02021338.c:
     complete
     .text       start:0x02021338 end:0x02021384
+
+src/auto/OS_SetProtectionRegion2.c:
+    complete
+    .text       start:0x0200f210 end:0x0200f218
+
+src/auto/FS_SetDefaultDMA.c:
+    complete
+    .text       start:0x02013918 end:0x02013968
+
+src/auto/func_02015978.c:
+    complete
+    .text       start:0x02015978 end:0x020159b8
+
+src/auto/func_02002954.c:
+    complete
+    .text       start:0x02002954 end:0x02002994
+
+src/auto/MB_SetParentCommParam.c:
+    complete
+    .text       start:0x0201ed50 end:0x0201ede8
+
+src/auto/MIi_CardDmaCopy32.c:
+    complete
+    .text       start:0x02010600 end:0x02010674
+
+src/auto/OS_GetIrqFunction.c:
+    complete
+    .text       start:0x0200c70c end:0x0200c798
+
+src/auto/func_0200769c.c:
+    complete
+    .text       start:0x0200769c end:0x02007798
+
+src/auto/WMi_GetMPReadyAIDs.c:
+    complete
+    .text       start:0x02018bc0 end:0x02018c08
+
+src/auto/OSi_RemoveThreadFromList.c:
+    complete
+    .text       start:0x0200d808 end:0x0200d850
+
+src/auto/IsGetAllRequestData.c:
+    complete
+    .text       start:0x0201fcd0 end:0x0201fd24
+
+src/auto/func_0200408c.c:
+    complete
+    .text       start:0x0200408c end:0x020040dc
+
+src/auto/func_02007c00.c:
+    complete
+    .text       start:0x02007c00 end:0x02007c3c
+
+src/auto/func_02004510.c:
+    complete
+    .text       start:0x02004510 end:0x02004568
+
+src/auto/MI_DmaFill32.c:
+    complete
+    .text       start:0x0200fe08 end:0x0200fe88
+
+src/auto/MI_DmaCopy16.c:
+    complete
+    .text       start:0x0200fef8 end:0x0200ff64
+
+src/auto/MI_DmaCopy32.c:
+    complete
+    .text       start:0x0200fe88 end:0x0200fef8
+
+src/auto/func_020029dc.c:
+    complete
+    .text       start:0x020029dc end:0x02002a5c
+
+src/auto/NNS_FndAllocFromFrmHeapEx.c:
+    complete
+    .text       start:0x020081ec end:0x0200822c
+
+src/auto/func_0200458c.c:
+    complete
+    .text       start:0x0200458c end:0x020045f8
+
+src/auto/func_0202b9b8.c:
+    complete
+    .text       start:0x0202b9b8 end:0x0202ba2c
+
+src/auto/func_0202ba2c.c:
+    complete
+    .text       start:0x0202ba2c end:0x0202baa8
+
+src/auto/func_02001598.c:
+    complete
+    .text       start:0x02001598 end:0x020015cc
+
+src/auto/CARDi_ReadRomIDCore.c:
+    complete
+    .text       start:0x02017ca0 end:0x02017cf8
