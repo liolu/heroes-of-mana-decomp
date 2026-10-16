@@ -334,3 +334,5 @@ src/msl/scanf_2.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/msl/s_frexp.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/msl/_dmul_2.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/msl/__destroy_global_chain_2.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02008fb4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/OSi_EnterTimerCallback.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto

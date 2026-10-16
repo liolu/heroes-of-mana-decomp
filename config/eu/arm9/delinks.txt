@@ -3174,3 +3174,15 @@ src/donor/func_0202fc28.c:
     complete
     .text       start:0x0202fc28 end:0x0202fc58
 
+
+src/auto/func_02008fb4.c:
+    complete
+    .text       start:0x02008fb4 end:0x02008ff0
+
+src/auto/OSi_EnterTimerCallback.c:
+    complete
+    .text       start:0x0200c7e0 end:0x0200c828
+
+src/auto/OsCountZeroBits.c:
+    complete
+    .text       start:0x0200fc48 end:0x0200fc50
