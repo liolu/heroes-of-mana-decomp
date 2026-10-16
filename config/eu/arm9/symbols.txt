@@ -1574,6 +1574,7 @@ data_020366c0 kind:data(any) addr:0x020366c0
 data_020366e8 kind:data(any) addr:0x020366e8
 data_02036718 kind:data(any) addr:0x02036718
 data_02036720 kind:bss addr:0x02036720
+data_02036720_end kind:bss addr:0x02036720
 data_02036724 kind:bss addr:0x02036724
 data_02036734 kind:bss addr:0x02036734
 data_02036738 kind:bss addr:0x02036738
