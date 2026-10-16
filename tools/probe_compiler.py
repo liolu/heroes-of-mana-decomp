@@ -79,6 +79,8 @@ def compare(target: bytes, cand: bytes) -> tuple[int, int]:
     for i, (a, b) in enumerate(zip(tw, cw)):
         if i in pool:
             continue
+        if (a & 0xFE000000) == 0xFA000000:  # blx (ARM -> Thumb callee): the linker turns a bl into it
+            a = 0xEB000000
         if (a & 0x0F000000) == 0x0B000000:  # bl: only compare condition/opcode
             a &= 0xFF000000
             b &= 0xFF000000

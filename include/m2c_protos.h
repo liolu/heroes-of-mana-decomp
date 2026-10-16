@@ -1719,6 +1719,9 @@ void func_02007c3c(void);
 #ifndef M2C_SELF_func_020082ac
 void func_020082ac(void *);
 #endif
+#ifndef M2C_SELF_func_02008fb4
+fx32 func_02008fb4(fx32, fx32);
+#endif
 #ifndef M2C_SELF_func_02008ff0
 fx32 func_02008ff0(fx32, fx32);
 #endif
@@ -1779,6 +1782,9 @@ void *func_0200a7b8(void);
 #ifndef M2C_SELF_func_0200a7ec
 s32 func_0200a7ec(void);
 #endif
+#ifndef M2C_SELF_func_0200a80c
+void *func_0200a80c(void);
+#endif
 #ifndef M2C_SELF_func_0200a840
 s32 func_0200a840(void);
 #endif
@@ -1787,6 +1793,9 @@ void *func_0200aa50(void);
 #endif
 #ifndef M2C_SELF_func_0200aa84
 s32 func_0200aa84(void);
+#endif
+#ifndef M2C_SELF_func_0200aaa4
+void *func_0200aaa4(void);
 #endif
 #ifndef M2C_SELF_func_0200aad8
 s32 func_0200aad8(void);
@@ -2568,9 +2577,6 @@ void OS_YieldThread(void);
 #ifndef M2C_SELF_OSi_ArrangeTimer
 void OSi_ArrangeTimer(void);
 #endif
-#ifndef M2C_SELF_OSi_EnterTimerCallback
-void OSi_EnterTimerCallback(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_OSi_InsertAlarm
 void OSi_InsertAlarm(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -2582,9 +2588,6 @@ void OSi_RemoveThreadFromList(void);
 #endif
 #ifndef M2C_SELF_OSi_RescheduleThread
 void OSi_RescheduleThread(void);
-#endif
-#ifndef M2C_SELF_OsCountZeroBits
-void OsCountZeroBits(M2C_UNK);
 #endif
 #ifndef M2C_SELF_PM_Init
 void PM_Init(void);
@@ -3926,15 +3929,6 @@ void func_02008330(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02008394
 void func_02008394(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02008fb4
-M2C_UNK func_02008fb4(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200a80c
-M2C_UNK func_0200a80c(void);
-#endif
-#ifndef M2C_SELF_func_0200aaa4
-M2C_UNK func_0200aaa4(void);
 #endif
 #ifndef M2C_SELF_func_0200b31c
 void func_0200b31c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
