@@ -3362,3 +3362,119 @@ src/auto/func_020081b4.c:
 src/auto/func_02008394.c:
     complete
     .text       start:0x02008394 end:0x020083e0
+
+src/auto/DisposeCallback.c:
+    complete
+    .text       start:0x02005ab8 end:0x02005b1c
+
+src/auto/CTRDGi_LockByProcessor.c:
+    complete
+    .text       start:0x0201ff24 end:0x0201ff80
+
+src/auto/func_020078b4.c:
+    complete
+    .text       start:0x020078b4 end:0x0200791c
+
+src/auto/func_02008330.c:
+    complete
+    .text       start:0x02008330 end:0x02008394
+
+src/auto/func_020082c4.c:
+    complete
+    .text       start:0x020082c4 end:0x02008330
+
+src/auto/func_02003e90.c:
+    complete
+    .text       start:0x02003e90 end:0x02003f04
+
+src/auto/func_02024f10.c:
+    complete
+    .text       start:0x02024f10 end:0x02024f7c
+
+src/auto/ShutdownPlayer.c:
+    complete
+    .text       start:0x02003e04 end:0x02003e90
+
+src/auto/func_02004b00.c:
+    complete
+    .text       start:0x02004b00 end:0x02004b7c
+
+src/auto/func_02004608.c:
+    complete
+    .text       start:0x02004608 end:0x0200469c
+
+src/auto/func_0202eeb8.c:
+    complete
+    .text       start:0x0202eeb8 end:0x0202ef3c
+
+src/auto/func_02008080.c:
+    complete
+    .text       start:0x02008080 end:0x02008100
+
+src/auto/func_02003c1c.c:
+    complete
+    .text       start:0x02003c1c end:0x02003cbc
+
+src/auto/func_0200436c.c:
+    complete
+    .text       start:0x0200436c end:0x02004420
+
+src/auto/NNSi_SndCaptureMain.c:
+    complete
+    .text       start:0x02004cc8 end:0x02004d64
+
+src/auto/FindContainHeap.c:
+    complete
+    .text       start:0x02007b5c end:0x02007bc4
+
+src/auto/func_02004bd4.c:
+    complete
+    .text       start:0x02004bd4 end:0x02004cc8
+
+src/auto/func_020064d0.c:
+    complete
+    .text       start:0x020064d0 end:0x02006570
+
+src/auto/func_0202ab08.c:
+    complete
+    .text       start:0x0202ab08 end:0x0202abe8
+
+src/auto/func_02007990.c:
+    complete
+    .text       start:0x02007990 end:0x020079ec
+
+src/auto/NNS_FndAppendListObject.c:
+    complete
+    .text       start:0x020079ec end:0x02007a4c
+
+src/auto/OS_InitException.c:
+    complete
+    .text       start:0x0200f218 end:0x0200f298
+
+src/auto/PMi_WaitBusy.c:
+    complete
+    .text       start:0x02015930 end:0x02015970
+
+src/auto/func_020038ac.c:
+    complete
+    .text       start:0x020038ac end:0x02003914
+
+src/auto/func_02003864.c:
+    complete
+    .text       start:0x02003864 end:0x020038ac
+
+src/auto/func_02007bc4.c:
+    complete
+    .text       start:0x02007bc4 end:0x02007c00
+
+src/auto/func_02002414.c:
+    complete
+    .text       start:0x02002414 end:0x02002474
+
+src/auto/func_02007264.c:
+    complete
+    .text       start:0x02007264 end:0x020072d4
+
+src/auto/func_02006678.c:
+    complete
+    .text       start:0x02006678 end:0x020066ec
