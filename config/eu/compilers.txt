@@ -522,3 +522,38 @@ src/auto/func_ov123_0206fa80.c 1.2/sp2p3
 src/auto/func_ov123_02067a7c.c 1.2/sp2p3
 src/auto/func_ov123_02074d7c.c 1.2/sp2p3
 src/auto/func_ov123_020678c4.c 1.2/sp2p3
+src/auto/func_ov123_020a66e8.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a6778.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a682c.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a6840.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a7290.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a7738.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a7bc0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a7c7c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a7cb4.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a7ff4.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a8000.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a800c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a8060.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a8cf0.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a9254.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9268.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9bb8.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020aa8b8.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020aba24.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad028.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad14c.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a6910.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9360.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9458.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9508.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9570.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a95b0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9ba0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9e70.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ac3cc.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020acd44.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad158.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad250.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad300.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad368.c 1.2/sp2p3 -thumb
