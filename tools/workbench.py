@@ -307,7 +307,7 @@ def cmd_info(a) -> None:
         draft, origin = starting_draft(a.name)
     out({"name": f["name"], "addr": f"0x{f['addr']:08x}", "size": size, "mode": f["mode"],
          "matched": bool(src_file), "file": src_file, "auto_tools": f["mode"] == "arm",
-         "profiles": [f"{v} {e}".strip() for v, e in am.profiles_for(f["name"], size, f["addr"])],
+         "profiles": ([f"{v} {e} -thumb".replace("  ", " ") for v, e in am.COMPILERS] if f["mode"] == "thumb" else [f"{v} {e}".strip() for v, e in am.profiles_for(f["name"], size, f["addr"])]),
          "asm_only": bool(am.ASM_ONLY.search(am.function_asm(f["name"]) or "")),
          "asm": am.function_asm(f["name"]) or "", "draft": draft or "", "draft_from": origin,
          "lines": pc.disasm(pc.target_bytes(f["addr"], size), f["addr"]),  # objdump text: look-alike search
@@ -365,7 +365,11 @@ def judge(name: str, source: str, profile: str | None = None) -> dict:
         why = fake_match(source, base + "\n" + STD_HEAD + f"#define M2C_SELF_{name}\n")
         if why:
             return {"status": "refused", "match": False, "why": f"fake match: {why}. Write plain C only."}
-    profiles = [profile] if profile else [f"{v} {e}".strip() for v, e in am.profiles_for(name, size, addr)]
+    thumb = f["mode"] == "thumb"
+    if thumb:
+        profiles = [profile] if profile else [f"{v} {e} -thumb".replace("  ", " ") for v, e in am.COMPILERS]
+    else:
+        profiles = [profile] if profile else [f"{v} {e}".strip() for v, e in am.profiles_for(name, size, addr)]
     target = pc.target_bytes(addr, size)
     best = None
     for prof in profiles:
@@ -379,12 +383,12 @@ def judge(name: str, source: str, profile: str | None = None) -> dict:
                     r = {"status": "compile", "match": False, "profile": prof,
                          "errors": f"{name} is not in the object (renamed? static?)"}
                 else:
-                    bad, n = pc.compare(target, cand)
+                    bad, n = pc.compare_thumb(target, cand, addr) if thumb else pc.compare(target, cand)
                     st = "match" if bad == 0 else ("near" if len(cand) == size else "size")
                     r = {"status": st, "match": bad == 0, "profile": prof, "diffs": bad, "total": n,
                          "size": len(cand), "target_size": size}
                     if bad:
-                        r["diff"] = compact_diff(pc.disasm(target, addr), pc.disasm(cand, addr))
+                        r["diff"] = compact_diff(pc.disasm(target, addr, thumb), pc.disasm(cand, addr, thumb))
         finally:
             tmp.cleanup()
         rank = lambda x: ({"match": 0, "near": 1, "size": 2, "compile": 3}[x["status"]], x.get("diffs", 0))  # noqa

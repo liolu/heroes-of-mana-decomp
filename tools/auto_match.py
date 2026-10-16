@@ -145,7 +145,7 @@ def function_asm(name: str) -> str | None:
     global _ASM
     if _ASM is None:
         _ASM = "\n".join(f.read_text(encoding="utf-8") for f in ASM_DIR.glob("*.s"))
-    m = re.search(rf"^{re.escape(name)}: .*?^\s+arm_func_end {re.escape(name)}$", _ASM, re.S | re.M)
+    m = re.search(rf"^{re.escape(name)}: .*?^\s+(?:arm|thumb)_func_end {re.escape(name)}$", _ASM, re.S | re.M)
     return m.group(0) if m else None
 
 
@@ -153,7 +153,7 @@ def neighbours(names: set[str]) -> set[str]:
     """Functions calling or called by `names` (bl / b / blx to a symbol, from the disassembly)."""
     function_asm("")  # loads the disassembly
     out = set()
-    for m in re.finditer(r"^(\w+): ; 0x[0-9a-f]+\n(.*?)^\s+arm_func_end \1$", _ASM, re.S | re.M):
+    for m in re.finditer(r"^(\w+): ; 0x[0-9a-f]+\n(.*?)^\s+(?:arm|thumb)_func_end \1$", _ASM, re.S | re.M):
         callees = set(re.findall(r"^\s+(?:blx|bl|b)(?:eq|ne|cs|hs|cc|lo|mi|pl|vs|vc|hi|ls|ge|lt|gt|le)?\s+(\w+)\s*$",
                                  m.group(2), re.M))
         callees = {c for c in callees if not re.fullmatch(r"r\d+|lr|ip|sp|pc", c) and not c.startswith("_L")}
