@@ -1,0 +1,16 @@
+#include "m2c.h"
+
+M2C_UNK func_ov123_020cf8bc(s32);                   /* extern */
+M2C_UNK func_ov123_020cfaec(void *);                /* extern */
+extern M2C_UNK data_ov123_020deb04;
+
+void *func_ov123_020cfc58(void *arg0) {
+    M2C_FIELD(arg0, M2C_UNK **, 0) = &data_ov123_020deb04;
+    func_ov123_020cf8bc(arg0 + 4);
+    func_ov123_020cfaec(arg0 + 0x18);
+    func_ov123_020cfaec(arg0 + 0xE8);
+    M2C_FIELD(arg0, s16 *, 0x10) = 0x7F;
+    M2C_FIELD(arg0, s16 *, 0x12) = 0;
+    M2C_FIELD(arg0, s32 *, 0x14) = 0;
+    return arg0;
+}

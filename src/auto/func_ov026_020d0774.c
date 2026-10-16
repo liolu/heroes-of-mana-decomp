@@ -1,0 +1,24 @@
+#include "m2c.h"
+
+s32 func_ov003_0209fb2c();                          /* extern */
+extern void *data_ov000_02051548;
+
+void func_ov026_020d0774(void) {
+    s32 temp_r0;
+
+    temp_r0 = func_ov003_0209fb2c();
+    switch (temp_r0) {                              /* irregular */
+        case 0:
+            M2C_FIELD(data_ov000_02051548, s32 *, 0x6C) = 2;
+            M2C_FIELD(data_ov000_02051548, s32 *, 0x70) = 0x19;
+            M2C_FIELD(data_ov000_02051548, s32 *, 0x74) = 1;
+            M2C_FIELD(data_ov000_02051548, s32 *, 0x78) = 5;
+            return;
+        case 1:
+            M2C_FIELD(data_ov000_02051548, s32 *, 0x6C) = 1;
+            M2C_FIELD(data_ov000_02051548, s32 *, 0x70) = 0x19;
+            M2C_FIELD(data_ov000_02051548, s32 *, 0x74) = 1;
+            M2C_FIELD(data_ov000_02051548, s32 *, 0x78) = 3;
+            return;
+    }
+}

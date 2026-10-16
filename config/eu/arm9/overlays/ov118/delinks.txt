@@ -2,3 +2,59 @@
     .ctor       start:0x020e308c end:0x020e308c kind:rodata align:4
     .data       start:0x020e30a0 end:0x020e31e0 kind:data align:32
     .bss        start:0x020e31e0 end:0x020e3740 kind:bss align:32
+
+src/auto/func_ov118_020e1b3c.c:
+    complete
+    .text       start:0x020e1b3c end:0x020e1b54
+
+src/auto/func_ov118_020e1b54.c:
+    complete
+    .text       start:0x020e1b54 end:0x020e1b6c
+
+src/auto/func_ov118_020e1c80.c:
+    complete
+    .text       start:0x020e1c80 end:0x020e1c9c
+
+src/auto/func_ov118_020e2428.c:
+    complete
+    .text       start:0x020e2428 end:0x020e2448
+
+src/auto/func_ov118_020e1b10.c:
+    complete
+    .text       start:0x020e1b10 end:0x020e1b3c
+
+src/auto/func_ov118_020e1dd0.c:
+    complete
+    .text       start:0x020e1dd0 end:0x020e1dfc
+
+src/auto/func_ov118_020e1adc.c:
+    complete
+    .text       start:0x020e1adc end:0x020e1b10
+
+src/auto/func_ov118_020e1c9c.c:
+    complete
+    .text       start:0x020e1c9c end:0x020e1cd4
+
+src/auto/func_ov118_020e157c.c:
+    complete
+    .text       start:0x020e157c end:0x020e15c0
+
+src/auto/func_ov118_020e1c14.c:
+    complete
+    .text       start:0x020e1c14 end:0x020e1c7c
+
+src/auto/func_ov118_020e15c8.c:
+    complete
+    .text       start:0x020e15c8 end:0x020e1634
+
+src/auto/func_ov118_020e1500.c:
+    complete
+    .text       start:0x020e1500 end:0x020e157c
+
+src/auto/func_ov118_020e1b6c.c:
+    complete
+    .text       start:0x020e1b6c end:0x020e1c14
+
+src/auto/func_ov118_020e2c60.c:
+    complete
+    .text       start:0x020e2c60 end:0x020e2d0c

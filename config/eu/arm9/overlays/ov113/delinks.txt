@@ -3,3 +3,79 @@
     .ctor       start:0x020e48a8 end:0x020e48a8 kind:rodata align:4
     .data       start:0x020e48c0 end:0x020e4940 kind:data align:32
     .bss        start:0x020e4940 end:0x020e53c0 kind:bss align:32
+
+src/auto/func_ov113_020e22bc.c:
+    complete
+    .text       start:0x020e22bc end:0x020e22cc
+
+src/auto/func_ov113_020e21e8.c:
+    complete
+    .text       start:0x020e21e8 end:0x020e2200
+
+src/auto/func_ov113_020e2200.c:
+    complete
+    .text       start:0x020e2200 end:0x020e2218
+
+src/auto/func_ov113_020e2c90.c:
+    complete
+    .text       start:0x020e2c90 end:0x020e2cac
+
+src/auto/func_ov113_020e2cac.c:
+    complete
+    .text       start:0x020e2cac end:0x020e2cc8
+
+src/auto/func_ov113_020e3768.c:
+    complete
+    .text       start:0x020e3768 end:0x020e3788
+
+src/auto/func_ov113_020e21bc.c:
+    complete
+    .text       start:0x020e21bc end:0x020e21e8
+
+src/auto/func_ov113_020e2750.c:
+    complete
+    .text       start:0x020e2750 end:0x020e277c
+
+src/auto/func_ov113_020e277c.c:
+    complete
+    .text       start:0x020e277c end:0x020e27ac
+
+src/auto/func_ov113_020e2188.c:
+    complete
+    .text       start:0x020e2188 end:0x020e21bc
+
+src/auto/func_ov113_020e2e68.c:
+    complete
+    .text       start:0x020e2e68 end:0x020e2ea0
+
+src/auto/func_ov113_020e2ea0.c:
+    complete
+    .text       start:0x020e2ea0 end:0x020e2ed8
+
+src/auto/func_ov113_020e2ed8.c:
+    complete
+    .text       start:0x020e2ed8 end:0x020e2f34
+
+src/auto/func_ov113_020e22cc.c:
+    complete
+    .text       start:0x020e22cc end:0x020e2334
+
+src/auto/func_ov113_020e2dfc.c:
+    complete
+    .text       start:0x020e2dfc end:0x020e2e68
+
+src/auto/func_ov113_020e2218.c:
+    complete
+    .text       start:0x020e2218 end:0x020e22bc
+
+src/auto/func_ov113_020e1d60.c:
+    complete
+    .text       start:0x020e1d60 end:0x020e1e0c
+
+src/auto/func_ov113_020e15ec.c:
+    complete
+    .text       start:0x020e15ec end:0x020e16c8
+
+src/auto/func_ov113_020e1500.c:
+    complete
+    .text       start:0x020e1500 end:0x020e15ec

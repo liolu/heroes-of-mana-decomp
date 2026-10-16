@@ -2,3 +2,35 @@
     .rodata     start:0x020d2354 end:0x020d23c4 kind:rodata align:4
     .ctor       start:0x020d23c4 end:0x020d23c4 kind:rodata align:4
     .bss        start:0x020d23e0 end:0x020d23e0 kind:bss align:32
+
+src/auto/func_ov016_020d0828.c:
+    complete
+    .text       start:0x020d0828 end:0x020d0848
+
+src/auto/func_ov016_020d0848.c:
+    complete
+    .text       start:0x020d0848 end:0x020d086c
+
+src/auto/func_ov016_020d086c.c:
+    complete
+    .text       start:0x020d086c end:0x020d08d8
+
+src/auto/func_ov016_020d08d8.c:
+    complete
+    .text       start:0x020d08d8 end:0x020d0944
+
+src/auto/func_ov016_020d0944.c:
+    complete
+    .text       start:0x020d0944 end:0x020d09b8
+
+src/auto/func_ov016_020d09b8.c:
+    complete
+    .text       start:0x020d09b8 end:0x020d0a2c
+
+src/auto/func_ov016_020d0798.c:
+    complete
+    .text       start:0x020d0798 end:0x020d0828
+
+src/auto/func_ov016_020d0a2c.c:
+    complete
+    .text       start:0x020d0a2c end:0x020d0adc

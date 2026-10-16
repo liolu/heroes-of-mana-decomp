@@ -1,0 +1,13 @@
+#include "m2c.h"
+
+M2C_UNK func_ov120_020eb20c();                      /* extern */
+
+void func_ov120_020eb0e4(s32 arg0) {
+    s32 var_r4;
+
+    var_r4 = arg0;
+    do {
+        func_ov120_020eb20c();
+        var_r4 -= 1;
+    } while (var_r4 != 0);
+}

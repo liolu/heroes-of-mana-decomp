@@ -1,0 +1,21 @@
+#include "m2c.h"
+
+void func_ov004_020b97ec(void *arg0, s32 arg1, void *arg2) {
+    switch (arg1) {                                 /* irregular */
+        case 0:
+            M2C_FIELD(arg0, s32 *, 0)    = (s32) M2C_FIELD(arg2, s32 *, 0);
+            M2C_FIELD(arg0, s32 *, 0xC)  = (s32) M2C_FIELD(arg2, s32 *, 4);
+            M2C_FIELD(arg0, s32 *, 0x18) = (s32) M2C_FIELD(arg2, s32 *, 8);
+            return;
+        case 1:
+            M2C_FIELD(arg0, s32 *, 4)    = (s32) M2C_FIELD(arg2, s32 *, 0);
+            M2C_FIELD(arg0, s32 *, 0x10) = (s32) M2C_FIELD(arg2, s32 *, 4);
+            M2C_FIELD(arg0, s32 *, 0x1C) = (s32) M2C_FIELD(arg2, s32 *, 8);
+            return;
+        case 2:
+            M2C_FIELD(arg0, s32 *, 8)    = (s32) M2C_FIELD(arg2, s32 *, 0);
+            M2C_FIELD(arg0, s32 *, 0x14) = (s32) M2C_FIELD(arg2, s32 *, 4);
+            M2C_FIELD(arg0, s32 *, 0x20) = (s32) M2C_FIELD(arg2, s32 *, 8);
+            return;
+    }
+}
