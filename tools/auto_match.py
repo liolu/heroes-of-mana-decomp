@@ -198,7 +198,7 @@ def fix_byte_offsets(source: str) -> str:
 
 
 # Instructions the compiler never generates: functions using them were written in assembly
-ASM_ONLY = re.compile(r"^\s+(swpb?|mrs|msr|mcr|mrc|ldc|stc|cdp)\b", re.M)
+ASM_ONLY = re.compile(r"^\s+(swpb?|mrs|msr|mcr|mrc|ldc|stc|cdp|svc|swi)\b", re.M)
 
 
 def asm_function(name: str, asm: str) -> str | None:
