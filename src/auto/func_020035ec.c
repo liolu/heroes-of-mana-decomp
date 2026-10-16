@@ -12,7 +12,7 @@ void func_020035ec(void) {
         } while (PM_SetLCDPower(0) != 1);
     }
 loop_4:
-    temp_r0 = (s32) (*(u16 *)0x027FFFA8 & 0x8000) >> 0xF;
+    temp_r0 = (s32) (*(u16 *) 0x027FFFA8 & 0x8000) >> 0xF;
     if (temp_r0 != 0) {
         VBlankIntrWait(temp_r0);
         goto loop_4;

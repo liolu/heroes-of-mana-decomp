@@ -15,9 +15,9 @@ void func_0200229c(void) {
     do {
         temp_ip = M2C_FIELD(data_0203673c, s32 *, 0x24);
         temp_lr = temp_ip + var_r1;
-        if (((u32) (*(s32 *)(temp_ip + var_r1) << 0x1F) >> 0x1F) == 0) {
+        if (((u32) (*(s32 *) (temp_ip + var_r1) << 0x1F) >> 0x1F) == 0) {
             temp_ip_2 = M2C_FIELD(temp_lr, s32 *, 8);
-            temp_r3 = (u32) (temp_ip_2 * 4) >> 0x1B;
+            temp_r3   = (u32) (temp_ip_2 * 4) >> 0x1B;
             if (temp_r3 != 0) {
                 M2C_FIELD(temp_lr, s32 *, 8) = (s32) ((temp_ip_2 & ~0x3E000000) | ((u32) ((temp_r3 - 1) << 0x1B) >> 2));
             }
