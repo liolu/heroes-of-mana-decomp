@@ -3610,3 +3610,35 @@ src/auto/PMi_SetLCDPower.c:
 src/auto/FS_StartOverlay.c:
     complete
     .text       start:0x02013d1c end:0x02013e10
+
+src/auto/LZ77UnCompReadNormalWrite8bit.c:
+    complete
+    .text       start:0x0200006c end:0x02000070
+
+src/auto/LZ77UnCompReadByCallbackWrite16bit.c:
+    complete
+    .text       start:0x02000198 end:0x0200019c
+
+src/auto/BitUnPack.c:
+    complete
+    .text       start:0x0200026c end:0x02000270
+
+src/auto/HuffUnCompReadByCallback.c:
+    complete
+    .text       start:0x020002dc end:0x020002e0
+
+src/auto/SoftReset.c:
+    complete
+    .text       start:0x02000344 end:0x02000348
+
+src/auto/RLUnCompReadNormalWrite8bit.c:
+    complete
+    .text       start:0x020003b0 end:0x020003b4
+
+src/auto/GetCRC16.c:
+    complete
+    .text       start:0x02000638 end:0x0200063c
+
+src/auto/WaitByLoop.c:
+    complete
+    .text       start:0x0200070c end:0x02000710

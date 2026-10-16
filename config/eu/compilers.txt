@@ -557,3 +557,11 @@ src/auto/func_ov123_020ad158.c 1.2/sp2p3 -thumb
 src/auto/func_ov123_020ad250.c 1.2/sp2p3 -thumb
 src/auto/func_ov123_020ad300.c 1.2/sp2p3 -thumb
 src/auto/func_ov123_020ad368.c 1.2/sp2p3 -thumb
+src/auto/LZ77UnCompReadNormalWrite8bit.c 2.0/sp1p5 -thumb
+src/auto/LZ77UnCompReadByCallbackWrite16bit.c 2.0/sp1p5 -thumb
+src/auto/BitUnPack.c 2.0/sp1p5 -thumb
+src/auto/HuffUnCompReadByCallback.c 2.0/sp1p5 -thumb
+src/auto/SoftReset.c 2.0/sp1p5 -thumb
+src/auto/RLUnCompReadNormalWrite8bit.c 2.0/sp1p5 -thumb
+src/auto/GetCRC16.c 2.0/sp1p5 -thumb
+src/auto/WaitByLoop.c 2.0/sp1p5 -thumb
