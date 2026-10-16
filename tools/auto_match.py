@@ -52,6 +52,10 @@ MWCC_ROOT = Path(os.environ.get("MWCCARM", ROOT / "tools" / "mwccarm"))
 # Main compiler first, then the one used for some libraries (see docs/compiler.md)
 # (version, extra flags): profiles found in this game, most common first (see docs/compiler.md)
 COMPILERS = [("2.0/sp1p5", ""), ("1.2/sp2p3", ""), ("1.2/sp2p3", "-proc arm7tdmi")]
+# Other mwccarm builds to try, e.g. AUTO_EXTRA_PROFILES="1.2/sp3,1.2/sp4" (Heroes of Mana: 1.2/sp3 builds code that ends in
+# `pop {.., pc}` and keeps `sub sp` instead of the `push r3` pad, which 2.0 and 1.2/sp2p3 do not produce).
+EXTRA_PROFILES = [(v.strip(), "") for v in os.environ.get("AUTO_EXTRA_PROFILES", "").split(",") if v.strip()]
+COMPILERS += [c for c in EXTRA_PROFILES if c not in COMPILERS]
 MWCC = MWCC_ROOT / COMPILERS[0][0] / "mwccarm.exe"
 COMPILERS_TXT = project.COMPILERS_TXT
 MARKER = "/* compiler: "
@@ -289,9 +293,9 @@ def profiles_for(name: str, size: int, addr: int) -> list[tuple[str, str]]:
         return COMPILERS
     style = code_style(addr, size)
     if style == "v20":
-        return [c for c in COMPILERS if c[0].startswith("2.")]
+        return [c for c in COMPILERS if c[0].startswith("2.") or c in EXTRA_PROFILES]
     if style == "v12":
-        return [c for c in COMPILERS if c[0].startswith("1.")]
+        return [c for c in COMPILERS if c[0].startswith("1.") and c not in EXTRA_PROFILES or c in EXTRA_PROFILES]
     return COMPILERS
 
 

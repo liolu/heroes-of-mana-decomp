@@ -346,3 +346,39 @@ src/auto/func_0200fb08.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_020035ec.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0200229c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0200223c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02003bc0.c 1.2/sp3
+src/auto/InsertPrioList.c 1.2/sp3
+src/auto/InsertPlayerList.c 1.2/sp3
+src/auto/func_02004464.c 1.2/sp3
+src/auto/NNS_SndPlayerSetChannelPriority.c 1.2/sp3
+src/auto/func_020044b4.c 1.2/sp3
+src/auto/func_02004874.c 1.2/sp3
+src/auto/func_0200495c.c 1.2/sp3
+src/auto/func_020055ac.c 1.2/sp3
+src/auto/func_020055f4.c 1.2/sp3
+src/auto/func_0200577c.c 1.2/sp3
+src/auto/func_020059a8.c 1.2/sp3
+src/auto/func_02005a18.c 1.2/sp3
+src/auto/func_02005a50.c 1.2/sp3
+src/auto/func_02005a88.c 1.2/sp3
+src/auto/func_02005c3c.c 1.2/sp3
+src/auto/func_02005cb4.c 1.2/sp3
+src/auto/func_02005d2c.c 1.2/sp3
+src/auto/func_02005da4.c 1.2/sp3
+src/auto/func_02005e1c.c 1.2/sp3
+src/auto/func_02005ebc.c 1.2/sp3
+src/auto/func_020060a0.c 1.2/sp3
+src/auto/func_02006104.c 1.2/sp3
+src/auto/func_020061a0.c 1.2/sp3
+src/auto/func_020061d4.c 1.2/sp3
+src/auto/func_02006208.c 1.2/sp3
+src/auto/func_020063fc.c 1.2/sp3
+src/auto/func_02006484.c 1.2/sp3
+src/auto/func_020066ec.c 1.2/sp3
+src/auto/func_02007140.c 1.2/sp3
+src/auto/FreeCommandBuffer.c 1.2/sp3
+src/auto/func_020072d4.c 1.2/sp3
+src/auto/func_0200733c.c 1.2/sp3
+src/auto/func_020073dc.c 1.2/sp3
+src/auto/func_020081b4.c 1.2/sp3
+src/auto/func_02008394.c 1.2/sp3
