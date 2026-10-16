@@ -3194,3 +3194,27 @@ src/auto/func_0200a80c.c:
 src/auto/func_0200aaa4.c:
     complete
     .text       start:0x0200aaa4 end:0x0200aad8
+src/auto/CARDi_SendtoPxi.c:
+    complete
+    .text       start:0x02018240 end:0x02018290
+src/auto/CTRDGi_SendtoPxi.c:
+    complete
+    .text       start:0x0201ffa4 end:0x0201fff4
+src/auto/CTRDGi_InitCommon.c:
+    complete
+    .text       start:0x0201fd24 end:0x0201fd5c
+src/auto/func_0200c9e0.c:
+    complete
+    .text       start:0x0200c9e0 end:0x0200ca2c
+src/auto/func_0200fb08.c:
+    complete
+    .text       start:0x0200fb08 end:0x0200fb24
+src/auto/func_020035ec.c:
+    complete
+    .text       start:0x020035ec end:0x02003664
+src/auto/func_0200229c.c:
+    complete
+    .text       start:0x0200229c end:0x02002304
+src/auto/func_0200223c.c:
+    complete
+    .text       start:0x0200223c end:0x0200229c

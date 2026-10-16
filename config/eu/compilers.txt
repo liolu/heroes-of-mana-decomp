@@ -338,3 +338,11 @@ src/auto/func_02008fb4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/OSi_EnterTimerCallback.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0200a80c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0200aaa4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/CARDi_SendtoPxi.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/CTRDGi_SendtoPxi.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/CTRDGi_InitCommon.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200c9e0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200fb08.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020035ec.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200229c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200223c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
