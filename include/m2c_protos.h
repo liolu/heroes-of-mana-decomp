@@ -72,6 +72,9 @@ void CARDi_PulledOutCallback(s32, s32);
 #ifndef M2C_SELF_CARDi_ReadCard
 void CARDi_ReadCard(void *);
 #endif
+#ifndef M2C_SELF_CARDi_ReadRomIDCore
+u32 CARDi_ReadRomIDCore(void);
+#endif
 #ifndef M2C_SELF_CARDi_ReadRomSyncCore
 void CARDi_ReadRomSyncCore(void *);
 #endif
@@ -221,6 +224,9 @@ void FS_ReleaseArchiveName(s32);
 #endif
 #ifndef M2C_SELF_FS_SetArchiveProc
 void FS_SetArchiveProc(void *, s32, s32);
+#endif
+#ifndef M2C_SELF_FS_SetDefaultDMA
+u32 FS_SetDefaultDMA(u32);
 #endif
 #ifndef M2C_SELF_FS_SuspendArchive
 s32 FS_SuspendArchive(void *);
@@ -585,6 +591,9 @@ void InsertPrioList(void *);
 #ifndef M2C_SELF_IsChildAidValid
 s32 IsChildAidValid(u32);
 #endif
+#ifndef M2C_SELF_IsGetAllRequestData
+s32 IsGetAllRequestData(s32);
+#endif
 #ifndef M2C_SELF_MATH_CalcCRC16
 u16 MATH_CalcCRC16(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -632,6 +641,9 @@ void MB_EndToIdle(void);
 #endif
 #ifndef M2C_SELF_MB_InitSendGameInfoStatus
 void MB_InitSendGameInfoStatus(void);
+#endif
+#ifndef M2C_SELF_MB_SetParentCommParam
+s32 MB_SetParentCommParam(s16, s16);
 #endif
 #ifndef M2C_SELF_MB_StartParentFromIdle
 void MB_StartParentFromIdle(s32);
@@ -729,6 +741,15 @@ s32 MBi_StartCommon(void);
 #ifndef M2C_SELF_MBi_calc_nextsendblock
 u32 MBi_calc_nextsendblock(u32, u32);
 #endif
+#ifndef M2C_SELF_MI_DmaCopy16
+void MI_DmaCopy16(s32, M2C_UNK, M2C_UNK, u32);
+#endif
+#ifndef M2C_SELF_MI_DmaCopy32
+void MI_DmaCopy32(s32, M2C_UNK, M2C_UNK, u32);
+#endif
+#ifndef M2C_SELF_MI_DmaFill32
+void MI_DmaFill32(s32, u32, u32, u32);
+#endif
 #ifndef M2C_SELF_MI_Init
 void MI_Init(void);
 #endif
@@ -740,6 +761,9 @@ void MI_StopDma(u32);
 #endif
 #ifndef M2C_SELF_MI_WaitDma
 void MI_WaitDma(u32);
+#endif
+#ifndef M2C_SELF_MIi_CardDmaCopy32
+void MIi_CardDmaCopy32(s32, M2C_UNK, M2C_UNK, s32);
 #endif
 #ifndef M2C_SELF_MIi_CheckAnotherAutoDMA
 void MIi_CheckAnotherAutoDMA(u32, u32);
@@ -773,6 +797,9 @@ void MTX_ScaleApply43(void *, void *, s32, s32, s32);
 #endif
 #ifndef M2C_SELF_MTX_TransApply43
 void MTX_TransApply43(void *, void *, fx32, fx32, fx32);
+#endif
+#ifndef M2C_SELF_NNS_FndAllocFromFrmHeapEx
+void *NNS_FndAllocFromFrmHeapEx(u8 *, u32, s32);
 #endif
 #ifndef M2C_SELF_NNS_FndAppendListObject
 void NNS_FndAppendListObject(void *, void *);
@@ -924,6 +951,9 @@ s32 OS_GetArenaLo(s32);
 #ifndef M2C_SELF_OS_GetConsoleType
 s32 OS_GetConsoleType(void);
 #endif
+#ifndef M2C_SELF_OS_GetIrqFunction
+s32 OS_GetIrqFunction(u32);
+#endif
 #ifndef M2C_SELF_OS_GetMacAddress
 void OS_GetMacAddress(M2C_UNK);
 #endif
@@ -1007,6 +1037,9 @@ u32 OS_SetIrqMask(u32);
 #endif
 #ifndef M2C_SELF_OS_SetProtectionRegion1
 void OS_SetProtectionRegion1(void);
+#endif
+#ifndef M2C_SELF_OS_SetProtectionRegion2
+void OS_SetProtectionRegion2(void);
 #endif
 #ifndef M2C_SELF_OS_SetSwitchThreadCallback
 int OS_SetSwitchThreadCallback(int);
@@ -1118,6 +1151,9 @@ void *OSi_RemoveLinkFromQueue(void *);
 #endif
 #ifndef M2C_SELF_OSi_RemoveMutexLinkFromQueue
 void *OSi_RemoveMutexLinkFromQueue(void *);
+#endif
+#ifndef M2C_SELF_OSi_RemoveThreadFromList
+void OSi_RemoveThreadFromList(u8 *);
 #endif
 #ifndef M2C_SELF_OSi_SetTimer
 void OSi_SetTimer(void *);
@@ -1539,6 +1575,9 @@ s32 WMi_CheckIdle(void);
 #ifndef M2C_SELF_WMi_CheckInitialized
 s32 WMi_CheckInitialized(void);
 #endif
+#ifndef M2C_SELF_WMi_GetMPReadyAIDs
+u16 WMi_GetMPReadyAIDs(void);
+#endif
 #ifndef M2C_SELF_WMi_GetStatusAddress
 s32 WMi_GetStatusAddress(void);
 #endif
@@ -1641,6 +1680,9 @@ void func_020011dc(void);
 #ifndef M2C_SELF_func_020013ac
 void func_020013ac(void);
 #endif
+#ifndef M2C_SELF_func_02001598
+s32 func_02001598(u32, s32 *);
+#endif
 #ifndef M2C_SELF_func_02001a80
 void func_02001a80(void);
 #endif
@@ -1665,8 +1707,14 @@ void func_020026d4(void);
 #ifndef M2C_SELF_func_02002708
 void func_02002708(void);
 #endif
+#ifndef M2C_SELF_func_02002954
+s32 func_02002954(s32);
+#endif
 #ifndef M2C_SELF_func_02002994
 void func_02002994(s32, u8);
+#endif
+#ifndef M2C_SELF_func_020029dc
+void func_020029dc(u8 *, u8);
 #endif
 #ifndef M2C_SELF_func_02002d98
 void func_02002d98(void);
@@ -1719,6 +1767,9 @@ void func_02003c1c(void);
 #ifndef M2C_SELF_func_02003e90
 u8 *func_02003e90(s32);
 #endif
+#ifndef M2C_SELF_func_0200408c
+void func_0200408c(u8 *, s32);
+#endif
 #ifndef M2C_SELF_func_0200436c
 void func_0200436c(void);
 #endif
@@ -1734,11 +1785,17 @@ void func_020044b4(void **, s32, s32);
 #ifndef M2C_SELF_func_02004500
 void func_02004500(void **, s8);
 #endif
+#ifndef M2C_SELF_func_02004510
+s32 func_02004510(u32);
+#endif
 #ifndef M2C_SELF_func_02004568
 void func_02004568(s32 **);
 #endif
 #ifndef M2C_SELF_func_02004580
 void func_02004580(s32 *);
+#endif
+#ifndef M2C_SELF_func_0200458c
+void func_0200458c(s32, s32, s32);
 #endif
 #ifndef M2C_SELF_func_020045f8
 void func_020045f8(s32 *);
@@ -1878,6 +1935,9 @@ void func_02007378(void *);
 #ifndef M2C_SELF_func_020073dc
 void func_020073dc(void *);
 #endif
+#ifndef M2C_SELF_func_0200769c
+void func_0200769c(M2C_UNK, M2C_UNK);
+#endif
 #ifndef M2C_SELF_func_020077d8
 s32 func_020077d8(void *);
 #endif
@@ -1901,6 +1961,9 @@ void func_02007aa8(void *, s32, s32, s32, u16);
 #endif
 #ifndef M2C_SELF_func_02007bc4
 void func_02007bc4(u8 *, u8 *);
+#endif
+#ifndef M2C_SELF_func_02007c00
+void func_02007c00(u32, s32, s32);
 #endif
 #ifndef M2C_SELF_func_02007c3c
 void func_02007c3c(void);
@@ -2166,6 +2229,9 @@ s32 func_020158e0(s32);
 #ifndef M2C_SELF_func_020158f4
 s32 func_020158f4(void);
 #endif
+#ifndef M2C_SELF_func_02015978
+void func_02015978(u32);
+#endif
 #ifndef M2C_SELF_func_02016268
 s32 func_02016268(s32, s32, s32);
 #endif
@@ -2412,6 +2478,12 @@ void func_0202b994(void);
 #ifndef M2C_SELF_func_0202b9a0
 s32 func_0202b9a0(s32);
 #endif
+#ifndef M2C_SELF_func_0202b9b8
+void *func_0202b9b8(u8 *);
+#endif
+#ifndef M2C_SELF_func_0202ba2c
+void *func_0202ba2c(u8 *);
+#endif
 #ifndef M2C_SELF_func_0202baa8
 s32 func_0202baa8(void *);
 #endif
@@ -2571,9 +2643,6 @@ void CARDi_IdentifyBackupCore(M2C_UNK);
 #ifndef M2C_SELF_CARDi_InitCommon
 void CARDi_InitCommon(void);
 #endif
-#ifndef M2C_SELF_CARDi_ReadRomIDCore
-void CARDi_ReadRomIDCore(void);
-#endif
 #ifndef M2C_SELF_CARDi_RequestStreamCommand
 M2C_UNK CARDi_RequestStreamCommand(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -2592,9 +2661,6 @@ void DGT_Hash2CalcHmac(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_DGTi_Hash2ProcessBlock
 void DGTi_Hash2ProcessBlock(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_FS_SetDefaultDMA
-void FS_SetDefaultDMA(M2C_UNK);
-#endif
 #ifndef M2C_SELF_FS_StartOverlay
 void FS_StartOverlay(M2C_UNK);
 #endif
@@ -2604,9 +2670,6 @@ void FSi_FindPathCommand(M2C_UNK);
 #ifndef M2C_SELF_FSi_GetPathCommand
 void FSi_GetPathCommand(M2C_UNK);
 #endif
-#ifndef M2C_SELF_IsGetAllRequestData
-M2C_UNK IsGetAllRequestData(void);
-#endif
 #ifndef M2C_SELF_MB_DisconnectChild
 void MB_DisconnectChild(M2C_UNK);
 #endif
@@ -2615,9 +2678,6 @@ M2C_UNK MB_RegisterFile(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_MB_SendGameInfoBeacon
 void MB_SendGameInfoBeacon(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_MB_SetParentCommParam
-void MB_SetParentCommParam(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_MBi_CheckWmErrcode
 void MBi_CheckWmErrcode(M2C_UNK, M2C_UNK);
@@ -2667,20 +2727,8 @@ void MBi_SetTask(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_MBi_StartParentCore
 void MBi_StartParentCore(M2C_UNK);
 #endif
-#ifndef M2C_SELF_MI_DmaCopy16
-void MI_DmaCopy16(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_MI_DmaCopy32
-void MI_DmaCopy32(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_MI_DmaFill32
-void MI_DmaFill32(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_MI_DmaFill32Async
 void MI_DmaFill32Async(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_MIi_CardDmaCopy32
-void MIi_CardDmaCopy32(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_MIi_DmaSetParams
 void MIi_DmaSetParams(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -2693,9 +2741,6 @@ M2C_UNK MTX_Inverse43(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_MakeWaveData
 void MakeWaveData(M2C_UNK);
-#endif
-#ifndef M2C_SELF_NNS_FndAllocFromFrmHeapEx
-void NNS_FndAllocFromFrmHeapEx(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_NNS_SndHeapClear
 void NNS_SndHeapClear(M2C_UNK);
@@ -2724,9 +2769,6 @@ void OS_GetInitArenaHi(M2C_UNK);
 #ifndef M2C_SELF_OS_GetInitArenaLo
 void OS_GetInitArenaLo(M2C_UNK);
 #endif
-#ifndef M2C_SELF_OS_GetIrqFunction
-M2C_UNK OS_GetIrqFunction(M2C_UNK);
-#endif
 #ifndef M2C_SELF_OS_InitLock
 void OS_InitLock(void);
 #endif
@@ -2745,9 +2787,6 @@ void OS_SetIrqFunction(M2C_UNK);
 #ifndef M2C_SELF_OS_SetIrqStackChecker
 void OS_SetIrqStackChecker(void);
 #endif
-#ifndef M2C_SELF_OS_SetProtectionRegion2
-void OS_SetProtectionRegion2(void);
-#endif
 #ifndef M2C_SELF_OS_VSNPrintf
 void OS_VSNPrintf(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -2765,9 +2804,6 @@ void OSi_InsertAlarm(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_OSi_IrqCallback
 void OSi_IrqCallback(M2C_UNK);
-#endif
-#ifndef M2C_SELF_OSi_RemoveThreadFromList
-void OSi_RemoveThreadFromList(void);
 #endif
 #ifndef M2C_SELF_OSi_RescheduleThread
 void OSi_RescheduleThread(void);
@@ -2798,9 +2834,6 @@ void StrmCallback(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_TP_GetCalibratedResult
 void TP_GetCalibratedResult(void);
-#endif
-#ifndef M2C_SELF_WMi_GetMPReadyAIDs
-void WMi_GetMPReadyAIDs(void);
 #endif
 #ifndef M2C_SELF_WmInitCore
 void WmInitCore(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -3828,9 +3861,6 @@ M2C_UNK func_01ffea88(M2C_UNK);
 #ifndef M2C_SELF_func_0200109c
 void func_0200109c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02001598
-M2C_UNK func_02001598(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020015cc
 void func_020015cc(void);
 #endif
@@ -3858,12 +3888,6 @@ M2C_UNK func_02002650(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0200273c
 void func_0200273c(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02002954
-void func_02002954(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020029dc
-void func_020029dc(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_02002a5c
 void func_02002a5c(void);
 #endif
@@ -3881,15 +3905,6 @@ void func_02003040(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020037e8
 void func_020037e8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200408c
-void func_0200408c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02004510
-M2C_UNK func_02004510(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0200458c
-void func_0200458c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020048f0
 void func_020048f0(M2C_UNK, M2C_UNK);
@@ -3924,14 +3939,8 @@ void func_02006ff8(M2C_UNK);
 #ifndef M2C_SELF_func_020075c8
 void func_020075c8(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0200769c
-void func_0200769c(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0200791c
 void func_0200791c(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02007c00
-M2C_UNK func_02007c00(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02007c48
 M2C_UNK func_02007c48(M2C_UNK, M2C_UNK);
@@ -3959,9 +3968,6 @@ void func_02014344(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_02014408
 void func_02014408(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02015978
-void func_02015978(void);
 #endif
 #ifndef M2C_SELF_func_02015a5c
 void func_02015a5c(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -4043,12 +4049,6 @@ void func_0202af6c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202b92c
 void func_0202b92c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202b9b8
-void func_0202b9b8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202ba2c
-void func_0202ba2c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202bb24
 void func_0202bb24(M2C_UNK);
