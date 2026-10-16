@@ -3478,3 +3478,7 @@ src/auto/func_02007264.c:
 src/auto/func_02006678.c:
     complete
     .text       start:0x02006678 end:0x020066ec
+
+src/auto/func_02021338.c:
+    complete
+    .text       start:0x02021338 end:0x02021384

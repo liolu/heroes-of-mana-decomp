@@ -401,3 +401,4 @@ src/auto/NNS_FndAppendListObject.c 1.2/sp3
 src/auto/func_02007bc4.c 1.2/sp3
 src/auto/func_02007264.c 1.2/sp3
 src/auto/func_02006678.c 1.2/sp3
+src/auto/func_02021338.c 1.2/sp3
