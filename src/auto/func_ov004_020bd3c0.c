@@ -1,0 +1,3 @@
+#include "m2c.h"
+
+void func_ov004_020bd3c0(void) {}

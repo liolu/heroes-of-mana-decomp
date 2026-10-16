@@ -58,3 +58,11 @@ src/auto/func_ov118_020e1b6c.c:
 src/auto/func_ov118_020e2c60.c:
     complete
     .text       start:0x020e2c60 end:0x020e2d0c
+
+src/auto/func_ov118_020e1c7c.c:
+    complete
+    .text       start:0x020e1c7c end:0x020e1c80
+
+src/auto/func_ov118_020e15c0.c:
+    complete
+    .text       start:0x020e15c0 end:0x020e15c8

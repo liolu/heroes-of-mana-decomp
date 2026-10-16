@@ -6,3 +6,7 @@
 src/auto/func_ov077_020d0510.c:
     complete
     .text       start:0x020d0510 end:0x020d0540
+
+src/auto/func_ov077_020d0338.c:
+    complete
+    .text       start:0x020d0338 end:0x020d0510

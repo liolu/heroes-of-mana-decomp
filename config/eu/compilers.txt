@@ -516,3 +516,9 @@ src/auto/func_ov123_0206ecf8.c 1.2/sp2p3
 src/auto/func_ov123_0206de48.c 1.2/sp2p3
 src/auto/func_ov123_0206e270.c 1.2/sp2p3
 src/auto/func_ov123_0206b8d0.c 1.2/sp2p3
+src/auto/func_ov123_02070508.c 1.2/sp2p3
+src/auto/func_ov123_020701a0.c 1.2/sp2p3
+src/auto/func_ov123_0206fa80.c 1.2/sp2p3
+src/auto/func_ov123_02067a7c.c 1.2/sp2p3
+src/auto/func_ov123_02074d7c.c 1.2/sp2p3
+src/auto/func_ov123_020678c4.c 1.2/sp2p3

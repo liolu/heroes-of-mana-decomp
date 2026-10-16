@@ -5,3 +5,7 @@
 src/auto/func_ov085_020d0300.c:
     complete
     .text       start:0x020d0300 end:0x020d0350
+
+src/auto/func_ov085_020d0160.c:
+    complete
+    .text       start:0x020d0160 end:0x020d0300
