@@ -3578,3 +3578,15 @@ src/auto/func_02001598.c:
 src/auto/CARDi_ReadRomIDCore.c:
     complete
     .text       start:0x02017ca0 end:0x02017cf8
+
+src/auto/OSi_RescheduleThread.c:
+    complete
+    .text       start:0x0200de58 end:0x0200df20
+
+src/auto/OS_DestroyThread.c:
+    complete
+    .text       start:0x0200dbb4 end:0x0200dc30
+
+src/auto/MBi_InitSendFixedBeacon.c:
+    complete
+    .text       start:0x0201d50c end:0x0201d560
