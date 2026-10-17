@@ -155,3 +155,15 @@ src/auto/func_ov121_020ec77c.c:
 src/auto/func_ov121_020eca94.c:
     complete
     .text       start:0x020eca94 end:0x020ecb60
+
+src/auto/func_ov121_020eb5a4.c:
+    complete
+    .text       start:0x020eb5a4 end:0x020eb608
+
+src/auto/func_ov121_020eb608.c:
+    complete
+    .text       start:0x020eb608 end:0x020eb66c
+
+src/auto/func_ov121_020eb66c.c:
+    complete
+    .text       start:0x020eb66c end:0x020eb6d0

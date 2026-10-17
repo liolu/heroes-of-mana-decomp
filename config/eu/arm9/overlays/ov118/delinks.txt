@@ -78,3 +78,7 @@ src/auto/func_ov118_020e20e8.c:
 src/auto/func_ov118_020e2bb4.c:
     complete
     .text       start:0x020e2bb4 end:0x020e2c60
+
+src/auto/func_ov118_020e2448.c:
+    complete
+    .text       start:0x020e2448 end:0x020e24a8

@@ -1,0 +1,31 @@
+#include "m2c.h"
+
+s32 func_0202d478(s32, u16);                        /* extern */
+u32 func_ov003_02053e50();                          /* extern */
+
+s32 func_ov108_020d97a0(void *arg0) {
+    s32 var_r0;
+    s32 temp_r0;
+    s32 temp_r0_2;
+    s32 temp_ret;
+    s32 temp_ret_2;
+    void *temp_r1;
+
+    temp_r1 = M2C_FIELD(arg0, void **, 0xE8);
+    if (func_0202d478(M2C_FIELD(temp_r1, u16 *, 0x10) * 0x64, M2C_FIELD(temp_r1, u16 *, 0x12)) >= 0x32) {
+        temp_ret = func_ov003_02053e50();
+        temp_r0  = temp_ret;
+        if ((temp_ret % 100) >= 0x14) {
+            var_r0 = 1;
+        } else {
+            var_r0 = 0;
+        }
+        return var_r0;
+    }
+    temp_ret_2 = func_ov003_02053e50();
+    temp_r0_2  = temp_ret_2;
+    if ((temp_ret_2 % 100) >= 0x4B) {
+        return 1;
+    }
+    return 0;
+}

@@ -119,3 +119,39 @@ src/auto/func_ov120_020eb498.c:
 src/auto/func_ov120_020eb20c.c:
     complete
     .text       start:0x020eb20c end:0x020eb2b8
+
+src/auto/func_ov120_020ec734.c:
+    complete
+    .text       start:0x020ec734 end:0x020ec798
+
+src/auto/func_ov120_020ec798.c:
+    complete
+    .text       start:0x020ec798 end:0x020ec7fc
+
+src/auto/func_ov120_020ec7fc.c:
+    complete
+    .text       start:0x020ec7fc end:0x020ec860
+
+src/auto/func_ov120_020ec860.c:
+    complete
+    .text       start:0x020ec860 end:0x020ec8c0
+
+src/auto/func_ov120_020ec8c0.c:
+    complete
+    .text       start:0x020ec8c0 end:0x020ec924
+
+src/auto/func_ov120_020ec924.c:
+    complete
+    .text       start:0x020ec924 end:0x020ec988
+
+src/auto/func_ov120_020ec988.c:
+    complete
+    .text       start:0x020ec988 end:0x020ec9ec
+
+src/auto/func_ov120_020ec9ec.c:
+    complete
+    .text       start:0x020ec9ec end:0x020eca50
+
+src/auto/func_ov120_020eca50.c:
+    complete
+    .text       start:0x020eca50 end:0x020ecab0

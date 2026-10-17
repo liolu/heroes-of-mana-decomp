@@ -134,3 +134,27 @@ src/auto/func_ov108_020d93ec.c:
 src/auto/func_ov108_020d77dc.c:
     complete
     .text       start:0x020d77dc end:0x020d7904
+
+src/auto/func_ov108_020d6f30.c:
+    complete
+    .text       start:0x020d6f30 end:0x020d6fb8
+
+src/auto/func_ov108_020d9618.c:
+    complete
+    .text       start:0x020d9618 end:0x020d9674
+
+src/auto/func_ov108_020d97a0.c:
+    complete
+    .text       start:0x020d97a0 end:0x020d9828
+
+src/auto/func_ov108_020d9b10.c:
+    complete
+    .text       start:0x020d9b10 end:0x020d9b70
+
+src/auto/func_ov108_020d9d44.c:
+    complete
+    .text       start:0x020d9d44 end:0x020d9d98
+
+src/auto/func_ov108_020da1d0.c:
+    complete
+    .text       start:0x020da1d0 end:0x020da208

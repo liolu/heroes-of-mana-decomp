@@ -123,3 +123,35 @@ src/auto/func_ov115_020e28d4.c:
 src/auto/func_ov115_020e17e0.c:
     complete
     .text       start:0x020e17e0 end:0x020e188c
+
+src/auto/func_ov115_020e675c.c:
+    complete
+    .text       start:0x020e675c end:0x020e67c0
+
+src/auto/func_ov115_020e67c0.c:
+    complete
+    .text       start:0x020e67c0 end:0x020e6824
+
+src/auto/func_ov115_020e6824.c:
+    complete
+    .text       start:0x020e6824 end:0x020e6890
+
+src/auto/func_ov115_020e6890.c:
+    complete
+    .text       start:0x020e6890 end:0x020e68fc
+
+src/auto/func_ov115_020e68fc.c:
+    complete
+    .text       start:0x020e68fc end:0x020e696c
+
+src/auto/func_ov115_020e696c.c:
+    complete
+    .text       start:0x020e696c end:0x020e69d0
+
+src/auto/func_ov115_020e69d0.c:
+    complete
+    .text       start:0x020e69d0 end:0x020e6a34
+
+src/auto/func_ov115_020e6a34.c:
+    complete
+    .text       start:0x020e6a34 end:0x020e6a98
