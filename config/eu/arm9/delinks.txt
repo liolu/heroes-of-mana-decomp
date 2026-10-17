@@ -3699,3 +3699,15 @@ src/auto/MBi_ReceiveRequestDataPiece.c:
 src/auto/TP_GetCalibratedResult.c:
     complete
     .text       start:0x0201530c end:0x02015358
+
+src/auto/CARD_Init.c:
+    complete
+    .text       start:0x02017e88 end:0x02017eec
+
+src/auto/func_02015a5c.c:
+    complete
+    .text       start:0x02015a5c end:0x02015b24
+
+src/auto/func_02015c18.c:
+    complete
+    .text       start:0x02015c18 end:0x02015c84
