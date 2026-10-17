@@ -307,3 +307,19 @@ src/auto/func_ov122_0205594c.c:
 src/auto/func_ov122_02055808.c:
     complete
     .text       start:0x02055808 end:0x020558b0
+
+src/auto/func_ov122_0205a8e0.c:
+    complete
+    .text       start:0x0205a8e0 end:0x0205a9a0
+
+src/auto/func_ov122_0205adac.c:
+    complete
+    .text       start:0x0205adac end:0x0205ae6c
+
+src/auto/func_ov122_0205ae6c.c:
+    complete
+    .text       start:0x0205ae6c end:0x0205af2c
+
+src/auto/func_ov122_0205a198.c:
+    complete
+    .text       start:0x0205a198 end:0x0205a274
