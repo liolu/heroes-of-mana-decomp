@@ -71,3 +71,47 @@ src/auto/func_ov110_020e1e08.c:
 src/auto/func_ov110_020e1e10.c:
     complete
     .text       start:0x020e1e10 end:0x020e1e18
+
+src/auto/func_ov110_020e1560.c:
+    complete
+    .text       start:0x020e1560 end:0x020e1584
+
+src/auto/func_ov110_020e1644.c:
+    complete
+    .text       start:0x020e1644 end:0x020e1668
+
+src/auto/func_ov110_020e1668.c:
+    complete
+    .text       start:0x020e1668 end:0x020e168c
+
+src/auto/func_ov110_020e168c.c:
+    complete
+    .text       start:0x020e168c end:0x020e16b0
+
+src/auto/func_ov110_020e16b0.c:
+    complete
+    .text       start:0x020e16b0 end:0x020e16d4
+
+src/auto/func_ov110_020e1530.c:
+    complete
+    .text       start:0x020e1530 end:0x020e1560
+
+src/auto/func_ov110_020e1584.c:
+    complete
+    .text       start:0x020e1584 end:0x020e15b4
+
+src/auto/func_ov110_020e15b4.c:
+    complete
+    .text       start:0x020e15b4 end:0x020e15e4
+
+src/auto/func_ov110_020e15e4.c:
+    complete
+    .text       start:0x020e15e4 end:0x020e1614
+
+src/auto/func_ov110_020e1614.c:
+    complete
+    .text       start:0x020e1614 end:0x020e1644
+
+src/auto/func_ov110_020e17fc.c:
+    complete
+    .text       start:0x020e17fc end:0x020e183c

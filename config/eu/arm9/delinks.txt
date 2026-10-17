@@ -3711,3 +3711,11 @@ src/auto/func_02015a5c.c:
 src/auto/func_02015c18.c:
     complete
     .text       start:0x02015c18 end:0x02015c84
+
+src/auto/func_02008404.c:
+    complete
+    .text       start:0x02008404 end:0x02008410
+
+src/auto/func_020085a4.c:
+    complete
+    .text       start:0x020085a4 end:0x020085c0
