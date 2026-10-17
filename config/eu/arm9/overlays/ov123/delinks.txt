@@ -3428,3 +3428,83 @@ src/auto/func_ov123_020ad300.c:
 src/auto/func_ov123_020ad368.c:
     complete
     .text       start:0x020ad368 end:0x020ad3a8
+
+src/auto/func_ov123_0209a8ec.c:
+    complete
+    .text       start:0x0209a8ec end:0x0209a8fc
+
+src/auto/func_ov123_020a6834.c:
+    complete
+    .text       start:0x020a6834 end:0x020a6840
+
+src/auto/func_ov123_0209a970.c:
+    complete
+    .text       start:0x0209a970 end:0x0209a980
+
+src/auto/func_ov123_02070d2c.c:
+    complete
+    .text       start:0x02070d2c end:0x02070d48
+
+src/auto/func_ov123_02070ddc.c:
+    complete
+    .text       start:0x02070ddc end:0x02070df8
+
+src/auto/func_ov123_02073434.c:
+    complete
+    .text       start:0x02073434 end:0x02073454
+
+src/auto/func_ov123_02073e18.c:
+    complete
+    .text       start:0x02073e18 end:0x02073e58
+
+src/auto/func_ov123_0207c790.c:
+    complete
+    .text       start:0x0207c790 end:0x0207c7ac
+
+src/auto/func_ov123_0207caec.c:
+    complete
+    .text       start:0x0207caec end:0x0207cb10
+
+src/auto/func_ov123_020835ec.c:
+    complete
+    .text       start:0x020835ec end:0x02083618
+
+src/auto/func_ov123_02090b74.c:
+    complete
+    .text       start:0x02090b74 end:0x02090ba8
+
+src/auto/func_ov123_02096150.c:
+    complete
+    .text       start:0x02096150 end:0x02096190
+
+src/auto/func_ov123_020a4904.c:
+    complete
+    .text       start:0x020a4904 end:0x020a492c
+
+src/auto/func_ov123_020a69a0.c:
+    complete
+    .text       start:0x020a69a0 end:0x020a69b8
+
+src/auto/func_ov123_020a69b8.c:
+    complete
+    .text       start:0x020a69b8 end:0x020a69dc
+
+src/auto/func_ov123_020ad0e4.c:
+    complete
+    .text       start:0x020ad0e4 end:0x020ad114
+
+src/auto/func_ov123_020ad114.c:
+    complete
+    .text       start:0x020ad114 end:0x020ad14c
+
+src/auto/func_ov123_020cf004.c:
+    complete
+    .text       start:0x020cf004 end:0x020cf040
+
+src/auto/func_ov123_020d2988.c:
+    complete
+    .text       start:0x020d2988 end:0x020d29bc
+
+src/auto/func_ov123_020d29bc.c:
+    complete
+    .text       start:0x020d29bc end:0x020d29ec

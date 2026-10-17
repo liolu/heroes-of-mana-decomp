@@ -99,3 +99,7 @@ src/auto/func_ov120_020f110c.c:
 src/auto/func_ov120_020eb208.c:
     complete
     .text       start:0x020eb208 end:0x020eb20c
+
+src/auto/func_ov120_020ec290.c:
+    complete
+    .text       start:0x020ec290 end:0x020ec2ac

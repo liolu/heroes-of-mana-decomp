@@ -565,3 +565,14 @@ src/auto/SoftReset.c 2.0/sp1p5 -thumb
 src/auto/RLUnCompReadNormalWrite8bit.c 2.0/sp1p5 -thumb
 src/auto/GetCRC16.c 2.0/sp1p5 -thumb
 src/auto/WaitByLoop.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a6834.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_02070d2c.c 1.2/sp2p3
+src/auto/func_ov123_02070ddc.c 1.2/sp2p3
+src/auto/func_ov123_02073434.c 1.2/sp2p3
+src/auto/func_ov123_02073e18.c 1.2/sp2p3
+src/auto/func_ov123_020a69a0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a69b8.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad0e4.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad114.c 1.2/sp2p3 -thumb
+src/auto/func_ov111_020e5d24.c 1.2/sp2p3
+src/auto/func_ov119_020edf04.c 1.2/sp2p3
