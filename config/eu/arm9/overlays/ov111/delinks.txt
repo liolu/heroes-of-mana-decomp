@@ -255,3 +255,7 @@ src/auto/func_ov111_020e68b0.c:
 src/auto/func_ov111_020ea640.c:
     complete
     .text       start:0x020ea640 end:0x020ea6dc
+
+src/auto/func_ov111_020eaeb8.c:
+    complete
+    .text       start:0x020eaeb8 end:0x020eaf64
