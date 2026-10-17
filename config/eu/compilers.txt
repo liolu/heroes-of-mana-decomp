@@ -1326,3 +1326,15 @@ src/auto/WH_SendData.c 2.0/sp1p5 -profile
 src/auto/WH_StateOutEndChild.c 2.0/sp1p5 -profile
 src/auto/ClearTensouBuff.c 1.2/sp3 -profile
 src/auto/putMode2NormalP_Obj.c 2.0/sp1p5 -profile
+src/auto/CopyVecFx16.c 1.2/sp3 -profile
+src/auto/CopyVecFx32.c 1.2/sp3 -profile
+src/auto/DisconnectOneParent.c 2.0/sp1p5 -profile
+src/auto/SetHikusenScale.c 1.2/sp3 -profile
+src/auto/SetWazaBySpOrNormal.c 2.0/sp1p5 -profile
+src/auto/ClearObjGraData.c 2.0/sp1p5 -profile
+src/auto/CloseNowInputScMode.c 2.0/sp1p5 -profile
+src/auto/DeleteAllObjPal.c 2.0/sp1p5 -profile
+src/auto/DeleteAllObjPat.c 2.0/sp1p5 -profile
+src/auto/ReleaseNoneAnimeTex.c 2.0/sp1p5 -profile
+src/auto/ReleaseStock_VSMotoData.c 2.0/sp1p5 -profile
+src/auto/ReleaseWorkForMapChange.c 2.0/sp1p5 -profile

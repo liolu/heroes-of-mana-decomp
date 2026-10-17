@@ -373,3 +373,63 @@ src/auto/putMode2NormalP_Obj.c:
     complete
     .text       start:0x02058814 end:0x020588a0
     .data       start:0x020a80a0 end:0x020a80b4
+
+src/auto/CopyVecFx16.c:
+    complete
+    .text       start:0x02074254 end:0x02074298
+    .data       start:0x020a9e34 end:0x020a9e40
+
+src/auto/CopyVecFx32.c:
+    complete
+    .text       start:0x02074210 end:0x02074254
+    .data       start:0x020a9e28 end:0x020a9e34
+
+src/auto/DisconnectOneParent.c:
+    complete
+    .text       start:0x0207f8b4 end:0x0207f918
+    .data       start:0x020aab08 end:0x020aab1c
+
+src/auto/SetHikusenScale.c:
+    complete
+    .text       start:0x0207669c end:0x020766dc
+    .data       start:0x020aa0fc end:0x020aa10c
+
+src/auto/SetWazaBySpOrNormal.c:
+    complete
+    .text       start:0x02090a7c end:0x02090aac
+    .data       start:0x020abacc end:0x020abae0
+
+src/auto/ClearObjGraData.c:
+    complete
+    .text       start:0x02055468 end:0x02055630
+    .data       start:0x020a7ea8 end:0x020a7eb8
+
+src/auto/CloseNowInputScMode.c:
+    complete
+    .text       start:0x0208837c end:0x02088518
+    .data       start:0x020ab3e4 end:0x020ab3f8
+
+src/auto/DeleteAllObjPal.c:
+    complete
+    .text       start:0x0205f4e8 end:0x0205f560
+    .data       start:0x020a870c end:0x020a871c
+
+src/auto/DeleteAllObjPat.c:
+    complete
+    .text       start:0x0205f424 end:0x0205f4e8
+    .data       start:0x020a86fc end:0x020a870c
+
+src/auto/ReleaseNoneAnimeTex.c:
+    complete
+    .text       start:0x02064fe0 end:0x0206503c
+    .data       start:0x020a8cc8 end:0x020a8cdc
+
+src/auto/ReleaseStock_VSMotoData.c:
+    complete
+    .text       start:0x0207a47c end:0x0207a53c
+    .data       start:0x020aa4dc end:0x020aa4f4
+
+src/auto/ReleaseWorkForMapChange.c:
+    complete
+    .text       start:0x020767e8 end:0x020768c0
+    .data       start:0x020aa134 end:0x020aa14c
