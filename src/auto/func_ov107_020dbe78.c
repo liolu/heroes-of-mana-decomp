@@ -1,7 +1,7 @@
 #include "m2c.h"
 
-u32 func_ov003_02053e50();                          /* extern */
-s32 func_ov003_0206c77c(void *);                    /* extern */
+u32 GetRnd();                          /* extern */
+s32 HowManyEnemyInSpWaza(void *);                    /* extern */
 extern void *data_0203673c;
 
 s32 func_ov107_020dbe78(void *arg0) {
@@ -23,8 +23,8 @@ s32 func_ov107_020dbe78(void *arg0) {
     } else {
         var_r0_2 = 0;
     }
-    if ((var_r0_2 == 0) && (func_ov003_0206c77c(arg0) < 2)) {
-        temp_ret = func_ov003_02053e50();
+    if ((var_r0_2 == 0) && (HowManyEnemyInSpWaza(arg0) < 2)) {
+        temp_ret = GetRnd();
         temp_r0  = temp_ret;
         if ((temp_ret % 100) <= 0x14) {
             var_r0 = 1;
@@ -33,7 +33,7 @@ s32 func_ov107_020dbe78(void *arg0) {
         }
         return var_r0;
     }
-    temp_ret_2 = func_ov003_02053e50();
+    temp_ret_2 = GetRnd();
     temp_r0_2  = temp_ret_2;
     if ((temp_ret_2 % 100) > (u32) ((u32) (M2C_FIELD(((M2C_FIELD(M2C_FIELD(arg0, void **, 0xE8), u16 *, 0x16) * 0x14) +
                                                       M2C_FIELD(data_0203673c, s32 *, 8)),

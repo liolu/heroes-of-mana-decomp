@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-u32 func_ov003_02053e50(u32);                       /* extern */
+u32 GetRnd(u32);                       /* extern */
 extern void *data_ov000_02051548;
 
 s32 func_ov107_020dde5c(void) {
@@ -15,7 +15,7 @@ s32 func_ov107_020dde5c(void) {
     } else {
         var_r4 = 0x1E;
     }
-    temp_ret  = func_ov003_02053e50(temp_r0);
+    temp_ret  = GetRnd(temp_r0);
     temp_r0_2 = temp_ret;
     if ((temp_ret % 100) > var_r4) {
         return 0;

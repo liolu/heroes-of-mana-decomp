@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-M2C_UNK func_ov000_020464a8();                      /* extern */
+M2C_UNK VBlankIntrWaitInGame();                      /* extern */
 typedef struct {
     u32 a : 24;
     u32 b : 1;
@@ -13,7 +13,7 @@ typedef struct {
 extern D_data_ov117_020f23e0 data_ov117_020f23e0;
 
 void func_ov117_020eb988(void) {
-    func_ov000_020464a8();
+    VBlankIntrWaitInGame();
     *(u16 *) 0x04000304           = (u16) ((data_ov117_020f23e0.f.b << 15) | (*(u16 *) 0x04000304 & ~0x8000));
     *(u32 *) (0x04000304 - 0x2EC) = 0x01FF0000 & (data_ov117_020f23e0.f.b << 24);
     *(u32 *) (0x04000304 - 0x2E8) = 0x01FF0000 & (data_ov117_020f23e0.f.b << 24);

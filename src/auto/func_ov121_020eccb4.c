@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-s32 func_ov003_0207dc6c();                          /* extern */
+s32 CallTrsForLoop();                          /* extern */
 s32 func_ov121_020ece28();                          /* extern */
 extern M2C_UNK data_ov121_020f6d60;
 
@@ -13,7 +13,7 @@ loop_1:
     if (temp_r0 != 0) {
         return temp_r0;
     }
-    if (func_ov003_0207dc6c() == 0) {
+    if (CallTrsForLoop() == 0) {
         return 0xF;
     }
     goto loop_1;

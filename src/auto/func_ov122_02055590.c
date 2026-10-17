@@ -1,7 +1,7 @@
 #include "m2c.h"
 
 u32 func_02015f28(M2C_UNK, M2C_UNK, M2C_UNK);       /* extern */
-u32 func_ov000_02046788(u32);                       /* extern */
+u32 panelOpenRoutine(u32);                       /* extern */
 extern M2C_UNK data_ov122_02065604;
 
 u32 func_ov122_02055590(void) {
@@ -19,7 +19,7 @@ u32 func_ov122_02055590(void) {
     }
     temp_r0 = (u32) (M2C_FIELD(&data_ov122_02065604, s32 *, 0xDE0) << 0x15) >> 0x1F;
     if (temp_r0 == 0) {
-        return func_ov000_02046788(temp_r0);
+        return panelOpenRoutine(temp_r0);
     }
     return func_02015f28(0xC, 0, 0);
 }

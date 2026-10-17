@@ -1,17 +1,17 @@
 #include "m2c.h"
 
-M2C_UNK func_ov003_02099b2c(M2C_UNK);               /* extern */
-M2C_UNK func_ov003_0209a0ec(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK, s32, s32, s32); /* extern */
-M2C_UNK func_ov003_0209a25c(s32);                   /* extern */
-M2C_UNK func_ov003_020a2a88();                      /* extern */
-M2C_UNK func_ov003_020a2d58(M2C_UNK, s32);          /* extern */
+M2C_UNK WaitSyncCounter(M2C_UNK);               /* extern */
+M2C_UNK CameraMoveAndWait(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK, s32, s32, s32); /* extern */
+M2C_UNK MessagePutAndWait(s32);                   /* extern */
+M2C_UNK MTG_StartEvent();                      /* extern */
+M2C_UNK MTG_GameOver(M2C_UNK, s32);          /* extern */
 
 void func_ov032_020d4200(void) {
-    func_ov003_020a2a88();
-    func_ov003_02099b2c(0x1E);
-    func_ov003_0209a0ec(0x3C, 1, 0, 0, -1, -1, -1);
-    func_ov003_02099b2c(0x3C);
-    func_ov003_0209a25c(0xAEE);
-    func_ov003_02099b2c(0x3C);
-    func_ov003_020a2d58(0x1B, 0xA8C);
+    MTG_StartEvent();
+    WaitSyncCounter(0x1E);
+    CameraMoveAndWait(0x3C, 1, 0, 0, -1, -1, -1);
+    WaitSyncCounter(0x3C);
+    MessagePutAndWait(0xAEE);
+    WaitSyncCounter(0x3C);
+    MTG_GameOver(0x1B, 0xA8C);
 }

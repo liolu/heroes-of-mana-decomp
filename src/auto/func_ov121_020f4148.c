@@ -1,12 +1,12 @@
 #include "m2c.h"
 
-u32 func_ov003_0207a754();                          /* extern */
+u32 GetCanUseSeireiByKazu();                          /* extern */
 
 s32 func_ov121_020f4148(void) {
     s32 var_r2;
     u32 var_r0;
 
-    var_r0 = func_ov003_0207a754();
+    var_r0 = GetCanUseSeireiByKazu();
     if (var_r0 == 0) {
         return 8;
     }

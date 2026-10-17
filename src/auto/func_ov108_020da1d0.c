@@ -1,12 +1,12 @@
 #include "m2c.h"
 
-u32 func_ov003_02053e50();                          /* extern */
+u32 GetRnd();                          /* extern */
 
 s32 func_ov108_020da1d0(void) {
     s32 temp_r0;
     s32 temp_ret;
 
-    temp_ret = func_ov003_02053e50();
+    temp_ret = GetRnd();
     temp_r0  = temp_ret;
     if ((temp_ret % 100) <= 0x5A) {
         return 1;

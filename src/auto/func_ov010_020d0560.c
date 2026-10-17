@@ -1,11 +1,11 @@
 #include "m2c.h"
 
-u32 func_ov003_0209fb2c();                          /* extern */
+u32 GetGameLevelMode();                          /* extern */
 
 s32 func_ov010_020d0560(void) {
     u32 temp_r0;
 
-    temp_r0 = func_ov003_0209fb2c();
+    temp_r0 = GetGameLevelMode();
     switch (temp_r0) {
         case 0:
             return 0x168;

@@ -1,9 +1,9 @@
 #include "m2c.h"
 
-M2C_UNK func_ov003_0209b9d4(M2C_UNK, M2C_UNK);      /* extern */
-M2C_UNK func_ov003_0209d244(M2C_UNK, M2C_UNK);      /* extern */
-M2C_UNK func_ov003_0209ebb4(M2C_UNK);               /* extern */
-u32 func_ov003_0209fb2c();                          /* extern */
+M2C_UNK SetShisetuLevel(M2C_UNK, M2C_UNK);      /* extern */
+M2C_UNK SetLogicNoForShipIn(M2C_UNK, M2C_UNK);      /* extern */
+M2C_UNK SetDropItemBySetNo(M2C_UNK);               /* extern */
+u32 GetGameLevelMode();                          /* extern */
 extern void *data_0203673c;
 extern void *data_ov000_02051548;
 
@@ -21,7 +21,7 @@ u32 func_ov030_020d0190(void) {
     u32 temp_r0;
     u32 var_r0;
 
-    temp_r0 = func_ov003_0209fb2c();
+    temp_r0 = GetGameLevelMode();
     switch (temp_r0) {
         case 0:
             temp_lr_2 = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) +
@@ -30,7 +30,7 @@ u32 func_ov030_020d0190(void) {
             temp_r3 = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) +
                       M2C_FIELD(data_0203673c, s32 *, 0x28);
             M2C_FIELD(temp_r3, s32 *, 0x210) = (s32) ((M2C_FIELD(temp_r3, s32 *, 0x210) & 0xF0003FFF) | 0x2C000);
-            func_ov003_0209ebb4(0x19);
+            SetDropItemBySetNo(0x19);
             break;
         case 1:
             temp_lr_3 = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) +
@@ -39,7 +39,7 @@ u32 func_ov030_020d0190(void) {
             temp_r3_2 = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) +
                         M2C_FIELD(data_0203673c, s32 *, 0x28);
             M2C_FIELD(temp_r3_2, s32 *, 0x210) = (s32) ((M2C_FIELD(temp_r3_2, s32 *, 0x210) & 0xF0003FFF) | 0x10000);
-            func_ov003_0209ebb4(0x33);
+            SetDropItemBySetNo(0x33);
             break;
         case 2:
             temp_lr_4 = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) +
@@ -66,23 +66,23 @@ u32 func_ov030_020d0190(void) {
             M2C_FIELD(temp_r2, s32 *, 0x210) = (s32) ((M2C_FIELD(temp_r2, s32 *, 0x210) & 0xF0003FFF) | 0x2C000);
             break;
     }
-    func_ov003_0209b9d4(0, 6);
-    func_ov003_0209b9d4(1, 5);
-    func_ov003_0209b9d4(2, 5);
-    func_ov003_0209b9d4(3, 5);
-    func_ov003_0209b9d4(4, 1);
-    func_ov003_0209b9d4(5, 3);
-    func_ov003_0209b9d4(6, 1);
-    func_ov003_0209b9d4(7, 4);
-    func_ov003_0209b9d4(0xC, 1);
-    func_ov003_0209b9d4(0xA, 1);
-    func_ov003_0209b9d4(0xF, 1);
-    func_ov003_0209b9d4(8, 1);
-    func_ov003_0209b9d4(0xB, 1);
-    func_ov003_0209b9d4(0xD, 1);
-    func_ov003_0209b9d4(0xE, 1);
-    func_ov003_0209b9d4(9, 1);
-    func_ov003_0209d244(1, 0);
+    SetShisetuLevel(0, 6);
+    SetShisetuLevel(1, 5);
+    SetShisetuLevel(2, 5);
+    SetShisetuLevel(3, 5);
+    SetShisetuLevel(4, 1);
+    SetShisetuLevel(5, 3);
+    SetShisetuLevel(6, 1);
+    SetShisetuLevel(7, 4);
+    SetShisetuLevel(0xC, 1);
+    SetShisetuLevel(0xA, 1);
+    SetShisetuLevel(0xF, 1);
+    SetShisetuLevel(8, 1);
+    SetShisetuLevel(0xB, 1);
+    SetShisetuLevel(0xD, 1);
+    SetShisetuLevel(0xE, 1);
+    SetShisetuLevel(9, 1);
+    SetLogicNoForShipIn(1, 0);
     var_r0 = (u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0xD0) << 0x1A) >> 0x1F;
     if (var_r0 != 0) {
         var_r0                                      = 0x18;

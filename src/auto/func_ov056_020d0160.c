@@ -1,10 +1,10 @@
 #include "m2c.h"
 
-M2C_UNK func_ov003_0209b898(M2C_UNK, M2C_UNK);      /* extern */
-M2C_UNK func_ov003_0209b8f4(M2C_UNK);               /* extern */
-M2C_UNK func_ov003_0209d244(M2C_UNK, M2C_UNK);      /* extern */
-M2C_UNK func_ov003_0209ebb4(M2C_UNK);               /* extern */
-M2C_UNK func_ov003_020a2278();                      /* extern */
+M2C_UNK UnitSelCanOrNot(M2C_UNK, M2C_UNK);      /* extern */
+M2C_UNK ShipUnitSelCanOrNot(M2C_UNK);               /* extern */
+M2C_UNK SetLogicNoForShipIn(M2C_UNK, M2C_UNK);      /* extern */
+M2C_UNK SetDropItemBySetNo(M2C_UNK);               /* extern */
+M2C_UNK SG_setSisetuFree();                      /* extern */
 extern void *data_0203673c;
 extern void *data_ov000_02051548;
 
@@ -26,11 +26,11 @@ void func_ov056_020d0160(void) {
     temp_r2 = ((((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) ^ 1) * 0x2D0) +
               M2C_FIELD(data_0203673c, s32 *, 0x28);
     M2C_FIELD(temp_r2, s32 *, 0x210) = (s32) ((M2C_FIELD(temp_r2, s32 *, 0x210) & 0xF0003FFF) | 0xC000);
-    func_ov003_0209ebb4(0x37);
-    func_ov003_020a2278();
-    func_ov003_0209d244(1, 0);
-    func_ov003_0209b8f4(0);
-    func_ov003_0209b898(0xB, 0);
+    SetDropItemBySetNo(0x37);
+    SG_setSisetuFree();
+    SetLogicNoForShipIn(1, 0);
+    ShipUnitSelCanOrNot(0);
+    UnitSelCanOrNot(0xB, 0);
     M2C_FIELD(data_ov000_02051548, s32 *, 0x7C) = 0xA;
     M2C_FIELD(data_ov000_02051548, s32 *, 0x80) = 0x13;
     M2C_FIELD(data_ov000_02051548, s32 *, 0x84) = 5;

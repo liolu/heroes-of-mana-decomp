@@ -1,7 +1,7 @@
 #include "m2c.h"
 
 s32 func_0202d478(s32, u16);                        /* extern */
-u32 func_ov003_02053e50();                          /* extern */
+u32 GetRnd();                          /* extern */
 
 s32 func_ov107_020e0b3c(void *arg0) {
     s32 var_r0;
@@ -11,7 +11,7 @@ s32 func_ov107_020e0b3c(void *arg0) {
 
     temp_r1 = M2C_FIELD(arg0, void **, 0xE8);
     if (func_0202d478(M2C_FIELD(temp_r1, u16 *, 0x10) * 0x64, M2C_FIELD(temp_r1, u16 *, 0x12)) < 5) {
-        temp_ret = func_ov003_02053e50();
+        temp_ret = GetRnd();
         temp_r0  = temp_ret;
         if ((temp_ret % 100) > 0x32) {
             var_r0 = 1;

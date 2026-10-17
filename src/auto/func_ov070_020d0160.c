@@ -1,9 +1,9 @@
 #include "m2c.h"
 
-M2C_UNK func_ov003_0209d244(M2C_UNK, M2C_UNK);      /* extern */
-M2C_UNK func_ov003_0209d3a8(M2C_UNK, M2C_UNK);      /* extern */
-M2C_UNK func_ov003_0209ebb4(M2C_UNK);               /* extern */
-M2C_UNK func_ov003_020a2278();                      /* extern */
+M2C_UNK SetLogicNoForShipIn(M2C_UNK, M2C_UNK);      /* extern */
+M2C_UNK SetLogicParaNoForShipIn(M2C_UNK, M2C_UNK);      /* extern */
+M2C_UNK SetDropItemBySetNo(M2C_UNK);               /* extern */
+M2C_UNK SG_setSisetuFree();                      /* extern */
 extern void *data_0203673c;
 extern void *data_ov000_02051548;
 
@@ -25,10 +25,10 @@ void func_ov070_020d0160(void) {
     temp_r2 = ((((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) ^ 1) * 0x2D0) +
               M2C_FIELD(data_0203673c, s32 *, 0x28);
     M2C_FIELD(temp_r2, s32 *, 0x210) = (s32) ((M2C_FIELD(temp_r2, s32 *, 0x210) & 0xF0003FFF) | 0x60000);
-    func_ov003_0209ebb4(0x45);
-    func_ov003_020a2278();
-    func_ov003_0209d244(1, 1);
-    func_ov003_0209d3a8(1, 0x3A);
+    SetDropItemBySetNo(0x45);
+    SG_setSisetuFree();
+    SetLogicNoForShipIn(1, 1);
+    SetLogicParaNoForShipIn(1, 0x3A);
     M2C_FIELD(data_ov000_02051548, s32 *, 0x7C) = 5;
     M2C_FIELD(data_ov000_02051548, s32 *, 0x80) = 0x1D;
     M2C_FIELD(data_ov000_02051548, s32 *, 0x84) = 0;

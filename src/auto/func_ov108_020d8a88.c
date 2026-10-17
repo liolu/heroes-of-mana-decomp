@@ -1,8 +1,8 @@
 #include "m2c.h"
 
-s32 func_ov003_0206c2d4(s32);                       /* extern */
-s32 func_ov003_02090978(s32, void *);               /* extern */
-M2C_UNK func_ov003_02090a7c(void *, M2C_UNK);       /* extern */
+s32 GetAooNoFromCharNo(s32);                       /* extern */
+s32 distanceForBattle(s32, void *);               /* extern */
+M2C_UNK SetWazaBySpOrNormal(void *, M2C_UNK);       /* extern */
 extern void *data_0203673c;
 
 s32 func_ov108_020d8a88(void *arg0) {
@@ -10,8 +10,8 @@ s32 func_ov108_020d8a88(void *arg0) {
     s32 var_r5;
     void *temp_r1;
 
-    func_ov003_02090a7c(arg0, 1);
-    if (func_ov003_02090978(func_ov003_0206c2d4(3), arg0) == 1) {
+    SetWazaBySpOrNormal(arg0, 1);
+    if (distanceForBattle(GetAooNoFromCharNo(3), arg0) == 1) {
         return 1;
     }
     temp_r1 = M2C_FIELD(arg0, void **, 0xE8);
@@ -29,7 +29,7 @@ s32 func_ov108_020d8a88(void *arg0) {
     }
     var_r5 = 0;
 loop_10:
-    if (func_ov003_02090978(func_ov003_0206c2d4(var_r5 + 0xF1B), arg0) == 1) {
+    if (distanceForBattle(GetAooNoFromCharNo(var_r5 + 0xF1B), arg0) == 1) {
         return 1;
     }
     var_r5 += 1;

@@ -1,13 +1,13 @@
 #include "m2c.h"
 
-s32 func_ov003_0209fc10(M2C_UNK);                   /* extern */
-M2C_UNK func_ov003_020a03f4(M2C_UNK, M2C_UNK);      /* extern */
+s32 GetFreeScenarioOnOff(M2C_UNK);                   /* extern */
+M2C_UNK MemoPersonFlag(M2C_UNK, M2C_UNK);      /* extern */
 
 void func_ov014_020d018c(void) {
-    if (func_ov003_0209fc10(0x19) != 0) {
+    if (GetFreeScenarioOnOff(0x19) != 0) {
         return;
     }
-    func_ov003_020a03f4(6, 0);
-    func_ov003_020a03f4(8, 0);
-    func_ov003_020a03f4(0x86, 0);
+    MemoPersonFlag(6, 0);
+    MemoPersonFlag(8, 0);
+    MemoPersonFlag(0x86, 0);
 }

@@ -5,7 +5,7 @@ M2C_UNK func_02003734(M2C_UNK, M2C_UNK);            /* extern */
 M2C_UNK func_0200378c(M2C_UNK, M2C_UNK);            /* extern */
 M2C_UNK func_020038ac(M2C_UNK);                     /* extern */
 M2C_UNK func_02003948(M2C_UNK, M2C_UNK);            /* extern */
-M2C_UNK func_ov000_02046418(M2C_UNK);               /* extern */
+M2C_UNK BGM_Fade(M2C_UNK);               /* extern */
 M2C_UNK func_ov113_020e16c8();                      /* extern */
 s32 func_ov113_020e1740();                          /* extern */
 M2C_UNK func_ov113_020e17f8();                      /* extern */
@@ -27,7 +27,7 @@ s32 func_ov113_020e1500(void) {
     func_ov113_020e1d60();
     func_ov113_020e1e0c();
     if (M2C_FIELD(data_0203678c, s32 *, 0xA0) != 3) {
-        func_ov000_02046418(1);
+        BGM_Fade(1);
         func_02003948(3, 0);
         func_020038ac(3);
     }

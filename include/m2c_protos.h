@@ -11185,3949 +11185,3949 @@ void func_0202fb38(M2C_UNK, M2C_UNK);
 void func_0202fc58(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov000_020421a0
-void func_ov000_020421a0(void);
+void Ds_initBeforeOverLay(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020421dc
-void func_ov000_020421dc(void);
+void OverLayControl(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02043c6c
-void func_ov000_02043c6c(void);
+void CutFromPartner(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02043c98
-void func_ov000_02043c98(void);
+void appearChild(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02043df4
-void func_ov000_02043df4(void);
+void GetOkFromParent(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02043e30
-void func_ov000_02043e30(void);
+void UpDateParamVSByParent(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02043fb4
-void func_ov000_02043fb4(void);
+void UpDateParamVSByChild(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02044060
-void func_ov000_02044060(void);
+void GetVSErrorByError_Link(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204417c
-void func_ov000_0204417c(void);
+void GetVSErrorByError_WireLessBad(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02044258
-void func_ov000_02044258(void);
+void GetEndSelNoFromKO(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02044284
-void func_ov000_02044284(void);
+void GetEndSelNoFromOYA(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020442b0
-void func_ov000_020442b0(void);
+void LocGetUpdateParent(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020442ec
-void func_ov000_020442ec(void);
+void CallMenuRoutine(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020443ec
-void func_ov000_020443ec(void);
+void InformationCuttingTrs(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204445c
-void func_ov000_0204445c(void);
+void SetCutTrsMode(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204449c
-void func_ov000_0204449c(void);
+void AnaGameLoadAndWorkInit(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020445c8
-void func_ov000_020445c8(void);
+void AnaGameUnLoad(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02044614
-M2C_UNK func_ov000_02044614(void);
+M2C_UNK Sample_SeparateOfAfterBattle(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020448e4
-M2C_UNK func_ov000_020448e4(void);
+M2C_UNK Sample_VsInvitation(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02044a50
-M2C_UNK func_ov000_02044a50(void);
+M2C_UNK SubWindowMessageSet(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02044b4c
-M2C_UNK func_ov000_02044b4c(void);
+M2C_UNK Sample_WaitingConsentVS(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02044cec
-M2C_UNK func_ov000_02044cec(void);
+M2C_UNK Sample_SetUp2PlayerVS(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02045240
-M2C_UNK func_ov000_02045240(void);
+M2C_UNK CorrectData2PlayerVS(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02045600
-void func_ov000_02045600(void);
+void ReleaseSenarioScript(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02045694
-void func_ov000_02045694(void);
+void InitAnaGlobalWork(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204587c
-void func_ov000_0204587c(void);
+void release_AnaGlobalWork(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02045c28
-M2C_UNK func_ov000_02045c28(void);
+M2C_UNK PlayMovieRoutine(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02045dbc
-void func_ov000_02045dbc(void);
+void ana_InitCommon(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02045e98
-void func_ov000_02045e98(void);
+void SetAnaIntr(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02045f0c
-void func_ov000_02045f0c(void);
+void new_LowLevelWork(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02045fac
-void func_ov000_02045fac(void);
+void ana_ReadKey(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046038
-void func_ov000_02046038(void);
+void GetKeyAndTouch(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046060
-void func_ov000_02046060(void);
+void GetPanelTouch(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020460f0
-void func_ov000_020460f0(void);
+void SetTouchPadCali(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046138
-void func_ov000_02046138(void);
+void TouchWorkClear(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204618c
-M2C_UNK func_ov000_0204618c(void);
+M2C_UNK GetTouchPanelStatus(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046228
-void func_ov000_02046228(void);
+void BGM_Change(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204629c
-void func_ov000_0204629c(void);
+void Ring_SoundEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020462c0
-void func_ov000_020462c0(void);
+void Stop_SoundEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020462e4
-void func_ov000_020462e4(void);
+void BGM_volume(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046308
-void func_ov000_02046308(void);
+void GameSoftReset(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046334
 void func_ov000_02046334(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020463c8
-void func_ov000_020463c8(void);
+void HBlankIntr(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046418
-void func_ov000_02046418(void);
+void BGM_Fade(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020464a8
-void func_ov000_020464a8(void);
+void VBlankIntrWaitInGame(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020466d4
-void func_ov000_020466d4(void);
+void ReflectSystemConfig(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046788
-void func_ov000_02046788(void);
+void panelOpenRoutine(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046904
-void func_ov000_02046904(void);
+void ReleaseShipInPara(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046984
-M2C_UNK func_ov000_02046984(void);
+M2C_UNK ReadAnaFile(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046a14
-void func_ov000_02046a14(void);
+void ReadAnaFileOfsSize(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046a98
-void func_ov000_02046a98(void);
+void ReadAnaFileNowSeekPos(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046ae0
-M2C_UNK func_ov000_02046ae0(void);
+M2C_UNK GetFilePosForSkana(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046c74
-M2C_UNK func_ov000_02046c74(void);
+M2C_UNK CountFileKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046e20
-M2C_UNK func_ov000_02046e20(void);
+M2C_UNK ReadFileAndUncomp(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046ed0
-M2C_UNK func_ov000_02046ed0(void);
+M2C_UNK getIconObjPalData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046f24
-M2C_UNK func_ov000_02046f24(void);
+M2C_UNK getIconObjAnimeData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02046f78
-void func_ov000_02046f78(void);
+void ReadAreaMapSiteMask(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02047008
-M2C_UNK func_ov000_02047008(void);
+M2C_UNK changePosNoForOverSea(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02047368
-M2C_UNK func_ov000_02047368(void);
+M2C_UNK GetSaveGameData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02047d24
-void func_ov000_02047d24(void);
+void RestoreLoadGameDataWithoutResult(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02047e2c
-void func_ov000_02047e2c(void);
+void AddDiscoveryItemToBag(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02047f7c
-void func_ov000_02047f7c(void);
+void RestoreLoadGameDataOnlyKuni0Item(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02047fb8
-void func_ov000_02047fb8(void);
+void RestoreLoadGameData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204888c
-void func_ov000_0204888c(void);
+void StockRetryData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020488d4
-void func_ov000_020488d4(void);
+void RestoreRetryData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02048914
-void func_ov000_02048914(void);
+void ReleaseRetryData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204897c
-M2C_UNK func_ov000_0204897c(void);
+M2C_UNK GetItemAdrsForRetry(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020489c4
-M2C_UNK func_ov000_020489c4(void);
+M2C_UNK GetCompressDataForRetry(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02048edc
-void func_ov000_02048edc(void);
+void GetUncompressDataForRetry(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02049440
-M2C_UNK func_ov000_02049440(void);
+M2C_UNK CountSetUpEventOccur(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02049498
-void func_ov000_02049498(void);
+void InitMessageWorkForDS(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02049594
-void func_ov000_02049594(void);
+void InitMessageScreenForDS(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02049c14
-void func_ov000_02049c14(void);
+void EndMessageScreenForDS(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02049e74
-void func_ov000_02049e74(void);
+void MessageFramePut(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02049f18
-void func_ov000_02049f18(void);
+void MessageFramePutWriteSub(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a058
-void func_ov000_0204a058(void);
+void SetWinBGscrolOut(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a0c4
-M2C_UNK func_ov000_0204a0c4(void);
+M2C_UNK CheckMoveWinBGscrol(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a124
-M2C_UNK func_ov000_0204a124(void);
+M2C_UNK DoingScrolWindow(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a170
-void func_ov000_0204a170(void);
+void winBGscrolControl(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a310
-void func_ov000_0204a310(void);
+void MesFrameChrLoad(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a4d4
-void func_ov000_0204a4d4(void);
+void putOneSomeFrame(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a654
-void func_ov000_0204a654(void);
+void ClearFrameInner(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a7b4
-void func_ov000_0204a7b4(void);
+void ReadFontheaderAndHaba(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204a904
-void func_ov000_0204a904(void);
+void SetUpStringReadHeaderPos(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204aa54
-void func_ov000_0204aa54(void);
+void SetWindowPaletteDataToVram(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204aae0
-void func_ov000_0204aae0(void);
+void SetPaletteDataToVram(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204abb4
-void func_ov000_0204abb4(void);
+void PutMessageStart(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204ad1c
-M2C_UNK func_ov000_0204ad1c(void);
+M2C_UNK SetNormalMessageFrame(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204ae88
-void func_ov000_0204ae88(void);
+void DeleteFrameMes(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204afb4
-M2C_UNK func_ov000_0204afb4(void);
+M2C_UNK MesWindowScrollIn(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204b0d8
-void func_ov000_0204b0d8(void);
+void MessageOneSet(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204b27c
-void func_ov000_0204b27c(void);
+void PutMessageEnd(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204b67c
-void func_ov000_0204b67c(void);
+void MessageRectChangeForInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204b878
-void func_ov000_0204b878(void);
+void MessageRectChange(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204ba74
-void func_ov000_0204ba74(void);
+void SyncPutMessageOneChar(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204bb50
-void func_ov000_0204bb50(void);
+void SyncPutMessageOneCharONE(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204c864
-void func_ov000_0204c864(void);
+void WindowVramUpdate(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204c8f4
-M2C_UNK func_ov000_0204c8f4(void);
+M2C_UNK GetOneStringBitData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204c980
-void func_ov000_0204c980(void);
+void PutStringByObj(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204cd14
-void func_ov000_0204cd14(void);
+void ChangePaletteOfNameByID(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204cda8
-void func_ov000_0204cda8(void);
+void DeleteNameByNoAnimeObj(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204ce58
-void func_ov000_0204ce58(void);
+void DeleteNameByNoAnimeObjByID(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204cf10
-void func_ov000_0204cf10(void);
+void setStringToObj(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204d270
-void func_ov000_0204d270(void);
+void deleteUseStringSt(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204d2b8
-void func_ov000_0204d2b8(void);
+void deleteUseStringStOne(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204d458
-void func_ov000_0204d458(void);
+void StringToChrData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204dec0
-M2C_UNK func_ov000_0204dec0(void);
+M2C_UNK setOneMojiChr(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204e0c4
-void func_ov000_0204e0c4(void);
+void setOneMojiChr1_x(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204e488
-void func_ov000_0204e488(void);
+void SearchCanUseBtlBgVramNo(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204e5a4
-void func_ov000_0204e5a4(void);
+void ClearBtlBgVramMap(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204e604
-M2C_UNK func_ov000_0204e604(void);
+M2C_UNK ReadOneFontData(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204e690
-M2C_UNK func_ov000_0204e690(void);
+M2C_UNK getNameString(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204e6e0
-M2C_UNK func_ov000_0204e6e0(void);
+M2C_UNK ReadOneString(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204e818
-M2C_UNK func_ov000_0204e818(void);
+M2C_UNK getMessString(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204e870
-void func_ov000_0204e870(void);
+void FaceSetInMessage(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204ec54
-void func_ov000_0204ec54(void);
+void FaceReleaseInMessage(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204edc0
-void func_ov000_0204edc0(void);
+void AllFaceReleaseInMessage(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204ee20
-void func_ov000_0204ee20(void);
+void PutMessageNextIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204ef7c
-void func_ov000_0204ef7c(void);
+void DeleteMessageNextIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204efe4
-M2C_UNK func_ov000_0204efe4(void);
+M2C_UNK MessageCodeControl(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204fc1c
-M2C_UNK func_ov000_0204fc1c(void);
+M2C_UNK CheckTouchMesFrame(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204fca0
-void func_ov000_0204fca0(void);
+void changeFrameUpDown(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204fddc
-void func_ov000_0204fddc(void);
+void SetCenteringStr(void);
 #endif
 #ifndef M2C_SELF_func_ov000_0204fea8
-void func_ov000_0204fea8(void);
+void GetOneLineDot(void);
 #endif
 #ifndef M2C_SELF_func_ov000_020501e0
-M2C_UNK func_ov000_020501e0(void);
+M2C_UNK GetOneMojiHaba(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02050290
-void func_ov000_02050290(void);
+void PutSelectIconInMes(void);
 #endif
 #ifndef M2C_SELF_func_ov000_02050340
-M2C_UNK func_ov000_02050340(void);
+M2C_UNK ChgNumIPLtoUseFont(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051560
-void func_ov003_02051560(void);
+void AnaInitialize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205168c
-void func_ov003_0205168c(void);
+void AnaMain(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051800
-M2C_UNK func_ov003_02051800(void);
+M2C_UNK GetType_TexSizeS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051880
-M2C_UNK func_ov003_02051880(void);
+M2C_UNK GetType_TexSizeT(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051900
-void func_ov003_02051900(void);
+void ModelWorkInit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051958
-M2C_UNK func_ov003_02051958(void);
+M2C_UNK AddModel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051c00
-M2C_UNK func_ov003_02051c00(void);
+M2C_UNK GetEmptyModelId(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051cc8
-M2C_UNK func_ov003_02051cc8(void);
+M2C_UNK AddModelTypeSt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051e04
-void func_ov003_02051e04(void);
+void RestoreModelTextureAndPalette(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02051f98
-void func_ov003_02051f98(void);
+void SetVRamFor3D(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052180
-void func_ov003_02052180(void);
+void DrawModel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020523e8
-void func_ov003_020523e8(void);
+void Set3DDefaultMaterial(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205245c
-void func_ov003_0205245c(void);
+void Set3DDefaultShininessTable(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020524f0
-M2C_UNK func_ov003_020524f0(void);
+M2C_UNK getNewPattern(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052680
-M2C_UNK func_ov003_02052680(void);
+M2C_UNK getNewPatternPalette(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020527f4
-void func_ov003_020527f4(void);
+void MoveActionAllP_Obj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020528e0
-void func_ov003_020528e0(void);
+void TrsMoveAction(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052a24
-void func_ov003_02052a24(void);
+void TrsSetWorkEtc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052ac0
-void func_ov003_02052ac0(void);
+void TrsAnchorCondition(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052b30
-void func_ov003_02052b30(void);
+void TrsFlyArmWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052c00
-void func_ov003_02052c00(void);
+void TrsEtcDataWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052cf0
-void func_ov003_02052cf0(void);
+void ClearTensouBuff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052d3c
-void func_ov003_02052d3c(void);
+void SetGameConditionForChild(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052d80
-void func_ov003_02052d80(void);
+void SetGameConditionForParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052dc4
-void func_ov003_02052dc4(void);
+void ReleaseTrsData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052e40
-M2C_UNK func_ov003_02052e40(void);
+M2C_UNK SetTrsDataFirstForParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052eb0
-M2C_UNK func_ov003_02052eb0(void);
+M2C_UNK SetTrsDataFirst(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02052f58
-void func_ov003_02052f58(void);
+void SetObjTrsDataOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205306c
-void func_ov003_0205306c(void);
+void SetObjTrsDataOne_forMove(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053140
-void func_ov003_02053140(void);
+void SetAnchorTrs(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020531fc
-void func_ov003_020531fc(void);
+void ObjParaSetFirstForParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053304
-void func_ov003_02053304(void);
+void ObjParaSetFirst(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020533b4
-void func_ov003_020533b4(void);
+void SetColorRoll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053470
-void func_ov003_02053470(void);
+void ResetColorRoll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205350c
-void func_ov003_0205350c(void);
+void ReleaseAllColorRoll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205358c
-void func_ov003_0205358c(void);
+void MoveColorRoll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020536e4
-void func_ov003_020536e4(void);
+void FadeOutScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053710
-void func_ov003_02053710(void);
+void FadeOutScreenByCount(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205381c
-void func_ov003_0205381c(void);
+void FadeOutScreenX2X(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053850
-void func_ov003_02053850(void);
+void FadeOutScreenByCountWithX2X(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053960
-void func_ov003_02053960(void);
+void FadeInScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205398c
-void func_ov003_0205398c(void);
+void FadeInScreenByCount(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053ad8
-void func_ov003_02053ad8(void);
+void SetBrightnessEng(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053b3c
-void func_ov003_02053b3c(void);
+void HighLightUpDown(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053bac
-void func_ov003_02053bac(void);
+void ClearCanUseVramMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053c08
-void func_ov003_02053c08(void);
+void ClearCanUseObjPalMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053c54
-M2C_UNK func_ov003_02053c54(void);
+M2C_UNK SearchCanUseObjPalNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053d28
-M2C_UNK func_ov003_02053d28(void);
+M2C_UNK SearchCanUseVramNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053e50
-M2C_UNK func_ov003_02053e50(void);
+M2C_UNK GetRnd(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053ed8
-void func_ov003_02053ed8(void);
+void ResetTexPalMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02053f18
-M2C_UNK func_ov003_02053f18(void);
+M2C_UNK SearchTexPalMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02054004
-void func_ov003_02054004(void);
+void DeleteTexPalMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205407c
-M2C_UNK func_ov003_0205407c(void);
+M2C_UNK countNoUseTexPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020540d8
-M2C_UNK func_ov003_020540d8(void);
+M2C_UNK GetTexArea(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020541e0
-void func_ov003_020541e0(void);
+void ReleaseTexAreaOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020542f4
-void func_ov003_020542f4(void);
+void ResetObjPalMapX(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02054374
-void func_ov003_02054374(void);
+void ResetVramMapX(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205441c
-void func_ov003_0205441c(void);
+void deleteObjCharDataInVBlank(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02054504
-void func_ov003_02054504(void);
+void ReleaseDeleteObjST(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02054584
-void func_ov003_02054584(void);
+void ClearTensouOam(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020545cc
-void func_ov003_020545cc(void);
+void TensouOam(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020548c4
-void func_ov003_020548c4(void);
+void setPutObjData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02054a04
-void func_ov003_02054a04(void);
+void setPutObjData2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02054b9c
-void func_ov003_02054b9c(void);
+void mtx_Copy(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02054c30
-void func_ov003_02054c30(void);
+void mtx_Concat(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055018
-void func_ov003_02055018(void);
+void mtx_Scale(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055078
-void func_ov003_02055078(void);
+void mtx_Translate(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020550d0
-void func_ov003_020550d0(void);
+void mtx_RotateX(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055150
-void func_ov003_02055150(void);
+void mtx_RotateY(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020551dc
-void func_ov003_020551dc(void);
+void mtx_RotateZ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055264
-void func_ov003_02055264(void);
+void ReleaseObjWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020553e4
-void func_ov003_020553e4(void);
+void ReleaseObjWorkOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055468
-void func_ov003_02055468(void);
+void ClearObjGraData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055630
-void func_ov003_02055630(void);
+void SetKageTexAndPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205573c
-void func_ov003_0205573c(void);
+void TensouKagePatPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020558ec
-void func_ov003_020558ec(void);
+void SetNextKisekiPointAndDire(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055b4c
-void func_ov003_02055b4c(void);
+void changeDireForMove(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055be0
-M2C_UNK func_ov003_02055be0(void);
+M2C_UNK GetDirectionByAddXZ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055c48
-M2C_UNK func_ov003_02055c48(void);
+M2C_UNK ChangeScriptAlphaChg(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055ca0
-void func_ov003_02055ca0(void);
+void MoveScriptAlphaChg(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055d84
-void func_ov003_02055d84(void);
+void ScriptAlphaToDis(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055e6c
-void func_ov003_02055e6c(void);
+void ScriptAlphaNormal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055f2c
-void func_ov003_02055f2c(void);
+void FinishScriptAlpha(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02055fc0
-M2C_UNK func_ov003_02055fc0(void);
+M2C_UNK GetUsualAlpha(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02056004
-void func_ov003_02056004(void);
+void MoveScriptAlphaChgAll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02056068
-void func_ov003_02056068(void);
+void RagTimeSetToX(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020560f8
-void func_ov003_020560f8(void);
+void changeAnchoMode(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020561a4
-void func_ov003_020561a4(void);
+void MoveActionsObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02057970
-M2C_UNK func_ov003_02057970(void);
+M2C_UNK changeAnimationObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02057af4
-void func_ov003_02057af4(void);
+void ChgObjAnimeDirect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02057b9c
-void func_ov003_02057b9c(void);
+void changeAnimationObjByMoveLook(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02057c8c
-void func_ov003_02057c8c(void);
+void OnceDrawObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02057dec
-void func_ov003_02057dec(void);
+void oneStatueSetDireByEyePos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02057ec4
-void func_ov003_02057ec4(void);
+void changePutObjByRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02057f28
-void func_ov003_02057f28(void);
+void SetObjsOnOff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205810c
-M2C_UNK func_ov003_0205810c(void);
+M2C_UNK SetObjsY2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02058488
-M2C_UNK func_ov003_02058488(void);
+M2C_UNK GetTakasaXZ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02058524
-M2C_UNK func_ov003_02058524(void);
+M2C_UNK SetObjsY2forFly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02058814
-void func_ov003_02058814(void);
+void putMode2NormalP_Obj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020588a0
-void func_ov003_020588a0(void);
+void changePutModeP_Obj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205890c
-void func_ov003_0205890c(void);
+void getAnimation(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02058994
-void func_ov003_02058994(void);
+void putAllP_Obj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02059054
-void func_ov003_02059054(void);
+void EscapeAndShipInSet(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02059110
-void func_ov003_02059110(void);
+void SetGXGYforModel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020591ac
-void func_ov003_020591ac(void);
+void animationAllP_Obj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02059218
-void func_ov003_02059218(void);
+void Animation_aONEOBJ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020593b0
-void func_ov003_020593b0(void);
+void changeUnitPatNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020594a0
-void func_ov003_020594a0(void);
+void setP_ObjTexture(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02059598
-void func_ov003_02059598(void);
+void putOneP_Obj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02059c64
-M2C_UNK func_ov003_02059c64(void);
+M2C_UNK GetObjAlpha(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02059cc0
-void func_ov003_02059cc0(void);
+void Set_TrsRotScale_forOBJ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a1fc
-void func_ov003_0205a1fc(void);
+void MakeTexCoord(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a2b8
-void func_ov003_0205a2b8(void);
+void MakeTexCoordXYsize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a364
-void func_ov003_0205a364(void);
+void PutOrderingInitialize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a3a8
-void func_ov003_0205a3a8(void);
+void PutOrderingDelete(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a400
-void func_ov003_0205a400(void);
+void AddPutOrder(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a43c
-void func_ov003_0205a43c(void);
+void AddPutOrderSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a4e4
-M2C_UNK func_ov003_0205a4e4(void);
+M2C_UNK SearchXYforObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a524
-void func_ov003_0205a524(void);
+void SearchXYforObjSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205a6a0
-void func_ov003_0205a6a0(void);
+void changeMoveAction(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205aa5c
-void func_ov003_0205aa5c(void);
+void ObjAZtoAreaAZ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205aab8
-void func_ov003_0205aab8(void);
+void AreaAZtoObjAZ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ab04
-M2C_UNK func_ov003_0205ab04(void);
+M2C_UNK checkBoxIn(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ab90
-M2C_UNK func_ov003_0205ab90(void);
+M2C_UNK SetNowDownId_a2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ac38
-M2C_UNK func_ov003_0205ac38(void);
+M2C_UNK SetNowDownId_a(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ac98
-M2C_UNK func_ov003_0205ac98(void);
+M2C_UNK SetNowDownId_i2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205acec
-M2C_UNK func_ov003_0205acec(void);
+M2C_UNK SetNowDownId_i(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ada8
-void func_ov003_0205ada8(void);
+void objSetDistanceForOrder(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ae4c
-void func_ov003_0205ae4c(void);
+void MoveSetOneUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205af4c
-void func_ov003_0205af4c(void);
+void setConsiderTypeByXZ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205b00c
-M2C_UNK func_ov003_0205b00c(void);
+M2C_UNK objSetDistance(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205b4b8
-void func_ov003_0205b4b8(void);
+void objSetDistanceForFly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205b62c
-M2C_UNK func_ov003_0205b62c(void);
+M2C_UNK setBlankPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205b8c8
-void func_ov003_0205b8c8(void);
+void SetTableUnitThere(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205b960
-M2C_UNK func_ov003_0205b960(void);
+M2C_UNK searchSamePosObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ba2c
-M2C_UNK func_ov003_0205ba2c(void);
+M2C_UNK searchSamePosObjWithoutShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205bbb8
-M2C_UNK func_ov003_0205bbb8(void);
+M2C_UNK searchSamePosObjWithoutFloor(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205bc40
-M2C_UNK func_ov003_0205bc40(void);
+M2C_UNK searchHookSamePosObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205bcdc
-void func_ov003_0205bcdc(void);
+void SetWaterCantEnter(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205bd78
-void func_ov003_0205bd78(void);
+void SetObjBitMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205bf20
-void func_ov003_0205bf20(void);
+void getPolForKage(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c054
-void func_ov003_0205c054(void);
+void putOneP_ObjsKage(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c448
-M2C_UNK func_ov003_0205c448(void);
+M2C_UNK GetHighPlace(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c4f0
-void func_ov003_0205c4f0(void);
+void ObjTexGetInit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c578
-void func_ov003_0205c578(void);
+void ReleaseTexGet(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c5bc
-void func_ov003_0205c5bc(void);
+void ReleaseTexGetSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c61c
-void func_ov003_0205c61c(void);
+void OnlyDeleteDelTex(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c660
-void func_ov003_0205c660(void);
+void OnlyDeleteDelTexOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c6c0
-void func_ov003_0205c6c0(void);
+void ReleaseTexBefore(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c72c
-void func_ov003_0205c72c(void);
+void deleteTexByBefore(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c770
-void func_ov003_0205c770(void);
+void deleteTexByBeforeSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c7d8
-void func_ov003_0205c7d8(void);
+void SetTex(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c854
-void func_ov003_0205c854(void);
+void TransTex2Vram(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c8a4
-void func_ov003_0205c8a4(void);
+void TransTex2VramSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c968
-void func_ov003_0205c968(void);
+void CancelTransTex2Vram(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205c9a0
-void func_ov003_0205c9a0(void);
+void CancelTransTex2VramSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ca30
-void func_ov003_0205ca30(void);
+void CancelTransTex2VramForArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ca68
-void func_ov003_0205ca68(void);
+void CancelTransTex2VramSubForArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205caf8
-void func_ov003_0205caf8(void);
+void ClsTransTex2Vram(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205cb3c
-void func_ov003_0205cb3c(void);
+void ClsTransTex2VramSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205cb9c
-M2C_UNK func_ov003_0205cb9c(void);
+M2C_UNK objZahyou2ScreenZahyou(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ccf4
-void func_ov003_0205ccf4(void);
+void SetDamagePutWithID(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205d700
-void func_ov003_0205d700(void);
+void SetDamageForDamageSense(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205d7e8
-void func_ov003_0205d7e8(void);
+void SetHitMarkForDamageSense(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205d890
-void func_ov003_0205d890(void);
+void Obj2DeadStatus(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205d8d8
-void func_ov003_0205d8d8(void);
+void TrsDeathToChild(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205d974
-void func_ov003_0205d974(void);
+void PutOneDamageHpRecover(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205db6c
-void func_ov003_0205db6c(void);
+void changeHpUpDown(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205dc50
-void func_ov003_0205dc50(void);
+void AllUnitStatusToNormal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205dcdc
-void func_ov003_0205dcdc(void);
+void SetUnitStatus(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205de98
-void func_ov003_0205de98(void);
+void PutStatusGra(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205e1c8
-void func_ov003_0205e1c8(void);
+void UnitStatusEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205e3c4
-void func_ov003_0205e3c4(void);
+void Status2Normal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205e5bc
-void func_ov003_0205e5bc(void);
+void SetUnitStatusIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205e60c
-void func_ov003_0205e60c(void);
+void PutOneHITmark(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205e90c
-void func_ov003_0205e90c(void);
+void ObjToDeath(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205eff0
-void func_ov003_0205eff0(void);
+void SetTrsDataForEtc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f0a0
-M2C_UNK func_ov003_0205f0a0(void);
+M2C_UNK SearchObjPat(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f0e8
-M2C_UNK func_ov003_0205f0e8(void);
+M2C_UNK SearchObjPatSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f138
-M2C_UNK func_ov003_0205f138(void);
+M2C_UNK SearchObjPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f180
-M2C_UNK func_ov003_0205f180(void);
+M2C_UNK SearchObjPalSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f1d0
-void func_ov003_0205f1d0(void);
+void DeleteObjPatOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f1f4
-void func_ov003_0205f1f4(void);
+void DeleteObjPatOneSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f320
-void func_ov003_0205f320(void);
+void DeleteObjPalOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f344
-void func_ov003_0205f344(void);
+void DeleteObjPalOneSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f424
-void func_ov003_0205f424(void);
+void DeleteAllObjPat(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f4e8
-void func_ov003_0205f4e8(void);
+void DeleteAllObjPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f560
-M2C_UNK func_ov003_0205f560(void);
+M2C_UNK ChangeDireOneByOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f6c0
-void func_ov003_0205f6c0(void);
+void ObjInitializeByFirstPara(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f964
-M2C_UNK func_ov003_0205f964(void);
+M2C_UNK SetUpOneObjByFirstPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205f9f0
-M2C_UNK func_ov003_0205f9f0(void);
+M2C_UNK SetUpOneObjByFirstPosByCntUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0205ffb0
-void func_ov003_0205ffb0(void);
+void SetFirstUNITOnOff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02060010
-void func_ov003_02060010(void);
+void SetUnitBaseNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206023c
-M2C_UNK func_ov003_0206023c(void);
+M2C_UNK SetUpOneMapObjByFirstPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02060634
-M2C_UNK func_ov003_02060634(void);
+M2C_UNK SetUpOneFlyShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02060acc
-void func_ov003_02060acc(void);
+void SetConsiderFromData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02060be4
-void func_ov003_02060be4(void);
+void UseObjectSetUp(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02060c10
-void func_ov003_02060c10(void);
+void SetSnowAndStonePal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02060d90
-void func_ov003_02060d90(void);
+void MakeObjWorkByOBJTRS_PARA_0(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061598
-void func_ov003_02061598(void);
+void MakeKYOTEN_SET_GND_ByKyotenNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020615e8
-void func_ov003_020615e8(void);
+void OutPutFlyArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020617a4
-void func_ov003_020617a4(void);
+void TrsAikyoEffectToChild(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020618a0
-void func_ov003_020618a0(void);
+void WazaRingSound(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061994
-void func_ov003_02061994(void);
+void SetTexPaletteData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061a58
-void func_ov003_02061a58(void);
+void TexPaletteTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061abc
-void func_ov003_02061abc(void);
+void TexPaletteTransSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061b54
-void func_ov003_02061b54(void);
+void ReleaseTexPaletteTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061ba0
-void func_ov003_02061ba0(void);
+void ReleaseTexPaletteTransSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061c20
-void func_ov003_02061c20(void);
+void ChangeCamera2MyKuniLeader(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061cac
-M2C_UNK func_ov003_02061cac(void);
+M2C_UNK searchGundanLeaderObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061d30
-M2C_UNK func_ov003_02061d30(void);
+M2C_UNK GetKisekiTable(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02061e30
-void func_ov003_02061e30(void);
+void SetShipXYZandRot(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206204c
-void func_ov003_0206204c(void);
+void GetObjCenter2D(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020620e0
-M2C_UNK func_ov003_020620e0(void);
+M2C_UNK Get_aONEOBJadrsByCharno(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206214c
-M2C_UNK func_ov003_0206214c(void);
+M2C_UNK GetEmptyObjWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020621a8
-void func_ov003_020621a8(void);
+void HikusenChainAnchorPut(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02062480
-void func_ov003_02062480(void);
+void CheckAndSetGoingHook(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206259c
-void func_ov003_0206259c(void);
+void ChainAndAnchorSetOFF(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020625f4
-M2C_UNK func_ov003_020625f4(void);
+M2C_UNK CheckNearHook(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206268c
-M2C_UNK func_ov003_0206268c(void);
+M2C_UNK CheckDamageGet(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020627b4
-void func_ov003_020627b4(void);
+void RestoreObjPalette(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02062a08
-void func_ov003_02062a08(void);
+void RestoreObjTex(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02062be0
-void func_ov003_02062be0(void);
+void NoAnimeTexToVram(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02062d5c
-void func_ov003_02062d5c(void);
+void SetObjActionToNONE(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02062da8
-void func_ov003_02062da8(void);
+void SetETC_TexAndPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02062e48
-void func_ov003_02062e48(void);
+void ChangeObjPicture(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206302c
-M2C_UNK func_ov003_0206302c(void);
+M2C_UNK IsThereHookPosition(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020630e8
-M2C_UNK func_ov003_020630e8(void);
+M2C_UNK GetShipAooSt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020631b4
-M2C_UNK func_ov003_020631b4(void);
+M2C_UNK IsThereHookCondition(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063234
-M2C_UNK func_ov003_02063234(void);
+M2C_UNK MakeBlankPosWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020636d0
-M2C_UNK func_ov003_020636d0(void);
+M2C_UNK GetBlankPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063818
-M2C_UNK func_ov003_02063818(void);
+M2C_UNK CheckGundanGetOutFinish(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020638a8
-M2C_UNK func_ov003_020638a8(void);
+M2C_UNK GetAooByUnitno(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063930
-M2C_UNK func_ov003_02063930(void);
+M2C_UNK GetAooBySelectLittleNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063a00
-M2C_UNK func_ov003_02063a00(void);
+M2C_UNK GetJunbanKuniUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063a70
-void func_ov003_02063a70(void);
+void SetClearShipSortieTiming(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063ad4
-M2C_UNK func_ov003_02063ad4(void);
+M2C_UNK CheckHook2Ship(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063bc4
-M2C_UNK func_ov003_02063bc4(void);
+M2C_UNK CheckHookUnderShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063cb4
-void func_ov003_02063cb4(void);
+void SetShipAnchor(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063df0
-M2C_UNK func_ov003_02063df0(void);
+M2C_UNK CheckShipMoveTiming(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063e78
-void func_ov003_02063e78(void);
+void InitNowSelectUnitInAreaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063f00
-void func_ov003_02063f00(void);
+void releaseUnitIconWorkOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02063f60
-void func_ov003_02063f60(void);
+void SelectUnitInAreaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020640bc
-M2C_UNK func_ov003_020640bc(void);
+M2C_UNK GetAreaMapIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206431c
-void func_ov003_0206431c(void);
+void SetUnitIconByAreaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206442c
-void func_ov003_0206442c(void);
+void ChangeUnitIconOnBengine(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02064528
-void func_ov003_02064528(void);
+void SetPartysIconInAreaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206464c
-void func_ov003_0206464c(void);
+void PutOneAreaIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02064800
-void func_ov003_02064800(void);
+void MovePartysIconInAreaMapByMapXY(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020648a8
-void func_ov003_020648a8(void);
+void OneMovePartysIconInAreaMapByMapXY(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020649d0
-void func_ov003_020649d0(void);
+void ChangeXYtoAreaMapScreenXY2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02064a44
-void func_ov003_02064a44(void);
+void AreaMapScreenXYtoAreaXY(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02064ac0
-void func_ov003_02064ac0(void);
+void SetHataXYfor3D(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02064b30
-void func_ov003_02064b30(void);
+void GetHata3Dto2DZahyou(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02064bac
-void func_ov003_02064bac(void);
+void PutNoneAnimeTex(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02064fe0
-void func_ov003_02064fe0(void);
+void ReleaseNoneAnimeTex(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206503c
-void func_ov003_0206503c(void);
+void SetNoneAnimeTex(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206523c
-void func_ov003_0206523c(void);
+void ChangeSelObjIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020652bc
-void func_ov003_020652bc(void);
+void objSetDistanceForOrderForSelObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065404
-M2C_UNK func_ov003_02065404(void);
+M2C_UNK GetCanIsThereBoard(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065604
-M2C_UNK func_ov003_02065604(void);
+M2C_UNK CheckCanIsTherePos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065724
-M2C_UNK func_ov003_02065724(void);
+M2C_UNK GetCanMoveDisPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065a3c
-M2C_UNK func_ov003_02065a3c(void);
+M2C_UNK GetNikoCyanIconNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065b48
-M2C_UNK func_ov003_02065b48(void);
+M2C_UNK getOneSelUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065be0
-M2C_UNK func_ov003_02065be0(void);
+M2C_UNK GetSelectKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065c78
-void func_ov003_02065c78(void);
+void ClearCarisumaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065ccc
-void func_ov003_02065ccc(void);
+void SetCarisumaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065d98
-void func_ov003_02065d98(void);
+void SetCarisumaMapAllObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065ef4
-M2C_UNK func_ov003_02065ef4(void);
+M2C_UNK GetCarisumaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02065fa0
-void func_ov003_02065fa0(void);
+void SetCarisumaEffect4Obj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066150
-void func_ov003_02066150(void);
+void SetActionToATTACK(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066230
-void func_ov003_02066230(void);
+void AutoRecoveryHP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066424
-M2C_UNK func_ov003_02066424(void);
+M2C_UNK IsItEnemy(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206658c
-void func_ov003_0206658c(void);
+void GetObjNoInDestination(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020665b8
-void func_ov003_020665b8(void);
+void SetDestination(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020665e4
-void func_ov003_020665e4(void);
+void SetObjGo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066728
-void func_ov003_02066728(void);
+void SetObjWaitAndGo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020667bc
-void func_ov003_020667bc(void);
+void GetNearDestination(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066888
-M2C_UNK func_ov003_02066888(void);
+M2C_UNK GetUnitBaseNoByAoo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020668d0
-M2C_UNK func_ov003_020668d0(void);
+M2C_UNK ShipIsAtHook(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066900
-void func_ov003_02066900(void);
+void ShipIsAtHookByKuni(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206695c
-M2C_UNK func_ov003_0206695c(void);
+M2C_UNK GetHookObjNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020669f8
-M2C_UNK func_ov003_020669f8(void);
+M2C_UNK GetGaiaTrentFromShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066a24
-void func_ov003_02066a24(void);
+void GetGaiaFromShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066a50
-void func_ov003_02066a50(void);
+void GetTrentFromShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066a7c
-void func_ov003_02066a7c(void);
+void GetResourceNoFromShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066bcc
-void func_ov003_02066bcc(void);
+void CountingMapObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066cbc
-M2C_UNK func_ov003_02066cbc(void);
+M2C_UNK CanIUseSPwaza(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066d7c
-void func_ov003_02066d7c(void);
+void SetOrderUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066db0
-void func_ov003_02066db0(void);
+void ReOrderOrderUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02066ee4
-M2C_UNK func_ov003_02066ee4(void);
+M2C_UNK GetUnitForAttack(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02067510
-M2C_UNK func_ov003_02067510(void);
+M2C_UNK isItOkTargetOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020675c0
-M2C_UNK func_ov003_020675c0(void);
+M2C_UNK GetBetterDireForAttack(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020677f0
-M2C_UNK func_ov003_020677f0(void);
+M2C_UNK CheckEfTakasa(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02067938
-void func_ov003_02067938(void);
+void GetType_Front(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02067a8c
-void func_ov003_02067a8c(void);
+void GetType_fun(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02067cb0
-void func_ov003_02067cb0(void);
+void GetType_3Grid(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02067de0
-void func_ov003_02067de0(void);
+void GetType_around2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02067f30
-void func_ov003_02067f30(void);
+void GetType_bomb(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068004
-void func_ov003_02068004(void);
+void GetType_around(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206816c
-void func_ov003_0206816c(void);
+void GetType_cross(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020682d4
-M2C_UNK func_ov003_020682d4(void);
+M2C_UNK GetUnitNoFromOrder(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020682fc
-M2C_UNK func_ov003_020682fc(void);
+M2C_UNK GetUnitNoFromConsider(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020683f4
-M2C_UNK func_ov003_020683f4(void);
+M2C_UNK CheckObjIsResource(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068484
-M2C_UNK func_ov003_02068484(void);
+M2C_UNK IsThereRecoverHouse(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020684e0
-void func_ov003_020684e0(void);
+void ClearRecoverHpSw(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206853c
-void func_ov003_0206853c(void);
+void SetHookRecover(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068624
-M2C_UNK func_ov003_02068624(void);
+M2C_UNK distanceForRecover(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068704
-void func_ov003_02068704(void);
+void RestoreUpDownParaUD_ST(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068778
-void func_ov003_02068778(void);
+void setOneAooByUD_ST(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068ab0
-void func_ov003_02068ab0(void);
+void UnitConsiderContinue(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068c54
-M2C_UNK func_ov003_02068c54(void);
+M2C_UNK searchUnitNumberInKuni(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068d44
-M2C_UNK func_ov003_02068d44(void);
+M2C_UNK GetNoInCanOut(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068e00
-M2C_UNK func_ov003_02068e00(void);
+M2C_UNK covertVCtoPlane1bit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068ea8
-M2C_UNK func_ov003_02068ea8(void);
+M2C_UNK MakeOnePlane1bit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068f00
-void func_ov003_02068f00(void);
+void convertPlane1bitToFULL(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068f34
-void func_ov003_02068f34(void);
+void convertPlane1bitToVC(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02068fcc
-M2C_UNK func_ov003_02068fcc(void);
+M2C_UNK compressPlane(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02069110
-void func_ov003_02069110(void);
+void UncompressPlane(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020691d8
-M2C_UNK func_ov003_020691d8(void);
+M2C_UNK GetNowBuildHouseKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02069234
-void func_ov003_02069234(void);
+void SetCreateInShipPara(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020693f4
-M2C_UNK func_ov003_020693f4(void);
+M2C_UNK GetCanBuildHouse(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020694e4
-M2C_UNK func_ov003_020694e4(void);
+M2C_UNK GetCanBuildHouseDetail(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02069838
-M2C_UNK func_ov003_02069838(void);
+M2C_UNK DecideBuildHouse(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02069a18
-void func_ov003_02069a18(void);
+void BuildHouse(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02069bdc
-M2C_UNK func_ov003_02069bdc(void);
+M2C_UNK GetCanMakeUnitType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02069e7c
-M2C_UNK func_ov003_02069e7c(void);
+M2C_UNK DecideMakeUnitType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206a068
-M2C_UNK func_ov003_0206a068(void);
+M2C_UNK DecideMakeUnitFromType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206a28c
-M2C_UNK func_ov003_0206a28c(void);
+M2C_UNK GetUnitNoByBaseNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206a320
-void func_ov003_0206a320(void);
+void RelifeCarisumaOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206a5f0
-void func_ov003_0206a5f0(void);
+void MakeUnitOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206aa3c
-M2C_UNK func_ov003_0206aa3c(void);
+M2C_UNK GetNowUnitKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ab0c
-M2C_UNK func_ov003_0206ab0c(void);
+M2C_UNK GetNowUnitKazuByUnitType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206abf0
-M2C_UNK func_ov003_0206abf0(void);
+M2C_UNK GetKazeSortieWaitFromShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ace8
-void func_ov003_0206ace8(void);
+void SortieCheckFromShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206b064
-M2C_UNK func_ov003_0206b064(void);
+M2C_UNK Make2WaitCondForUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206b190
-M2C_UNK func_ov003_0206b190(void);
+M2C_UNK countingWaitCondForUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206b254
-void func_ov003_0206b254(void);
+void Make2DeleteForUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206b3a4
-void func_ov003_0206b3a4(void);
+void Make2DeleteForCarisuma(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206b508
-M2C_UNK func_ov003_0206b508(void);
+M2C_UNK CheckCanTargetting(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206b578
-void func_ov003_0206b578(void);
+void CanMakeUnitDetail(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206b994
-void func_ov003_0206b994(void);
+void SetExtObjPaletteData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ba40
-void func_ov003_0206ba40(void);
+void ExtObjPaletteTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206baa4
-void func_ov003_0206baa4(void);
+void ExtObjPaletteTransSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bb3c
-void func_ov003_0206bb3c(void);
+void ReleaseExtObjPaletteTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bb88
-void func_ov003_0206bb88(void);
+void ReleaseExtObjPaletteTransSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bc08
-void func_ov003_0206bc08(void);
+void SetExtBGPaletteData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bcb4
-void func_ov003_0206bcb4(void);
+void ExtBGPaletteTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bd18
-void func_ov003_0206bd18(void);
+void ExtBGPaletteTransSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bdb0
-void func_ov003_0206bdb0(void);
+void ReleaseExtBGPaletteTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bdfc
-void func_ov003_0206bdfc(void);
+void ReleaseExtBGPaletteTransSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206be7c
-void func_ov003_0206be7c(void);
+void SetObjPaletteData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bf28
-void func_ov003_0206bf28(void);
+void ObjPaletteTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206bf84
-void func_ov003_0206bf84(void);
+void ObjPaletteTransSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c01c
-void func_ov003_0206c01c(void);
+void ReleaseObjPaletteTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c068
-void func_ov003_0206c068(void);
+void ReleaseObjPaletteTransSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c0e8
-void func_ov003_0206c0e8(void);
+void ReleaseObjPaletteTransByNoAndSize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c134
-void func_ov003_0206c134(void);
+void ReleaseObjPaletteTransSubByNoAndSize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c1dc
-void func_ov003_0206c1dc(void);
+void countDeathByCharNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c22c
-M2C_UNK func_ov003_0206c22c(void);
+M2C_UNK GetAooFromUnitBaseNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c2a4
-M2C_UNK func_ov003_0206c2a4(void);
+M2C_UNK GetAooNoFromUnitBaseNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c2d4
-M2C_UNK func_ov003_0206c2d4(void);
+M2C_UNK GetAooNoFromCharNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c328
-M2C_UNK func_ov003_0206c328(void);
+M2C_UNK CanChangeAction(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c3ac
-void func_ov003_0206c3ac(void);
+void SetATTACK_RagTime(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c43c
-void func_ov003_0206c43c(void);
+void ActionWazaByLogic(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c568
-void func_ov003_0206c568(void);
+void OneAooGetDamage(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c6e0
-void func_ov003_0206c6e0(void);
+void chgUpDownIconBrightBengine(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c77c
-M2C_UNK func_ov003_0206c77c(void);
+M2C_UNK HowManyEnemyInSpWaza(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c814
-void func_ov003_0206c814(void);
+void SetDamageForNoFlyArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c8bc
-void func_ov003_0206c8bc(void);
+void SetDamageAfterEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206c958
-void func_ov003_0206c958(void);
+void SetDamageAfterEffectWithAttackID(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206cae8
-M2C_UNK func_ov003_0206cae8(void);
+M2C_UNK CheckDropItem(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206cb6c
-void func_ov003_0206cb6c(void);
+void GetItemFromMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206cc60
-void func_ov003_0206cc60(void);
+void PickUpItem(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ccc8
-void func_ov003_0206ccc8(void);
+void CheckDownGrid(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206cd38
-M2C_UNK func_ov003_0206cd38(void);
+M2C_UNK checkCanSeeUnitByUser(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206cdc4
-void func_ov003_0206cdc4(void);
+void SetUnitsGraYofs(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ce2c
-void func_ov003_0206ce2c(void);
+void ChgPalletToDarkByHP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206cf64
-M2C_UNK func_ov003_0206cf64(void);
+M2C_UNK checkCanMoveTo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d1c4
-void func_ov003_0206d1c4(void);
+void SetCarisumaSkillInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d304
-M2C_UNK func_ov003_0206d304(void);
+M2C_UNK GetHouseBuildCost(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d368
-M2C_UNK func_ov003_0206d368(void);
+M2C_UNK GetHouseBuildSpeed(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d3e4
-M2C_UNK func_ov003_0206d3e4(void);
+M2C_UNK GetCreateUnitSpeed(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d4a4
-void func_ov003_0206d4a4(void);
+void SetUnitXZposition(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d5a4
-M2C_UNK func_ov003_0206d5a4(void);
+M2C_UNK GetUnitType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d624
-M2C_UNK func_ov003_0206d624(void);
+M2C_UNK GetUnitTypeByNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d6c8
-M2C_UNK func_ov003_0206d6c8(void);
+M2C_UNK IsThereSomeChoice(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d764
-M2C_UNK func_ov003_0206d764(void);
+M2C_UNK DoSameRaceChoice(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d838
-void func_ov003_0206d838(void);
+void GetTargetObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206d9f0
-void func_ov003_0206d9f0(void);
+void SelectOneRace(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206db28
-M2C_UNK func_ov003_0206db28(void);
+M2C_UNK GetTaisouFlag(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206dbdc
-M2C_UNK func_ov003_0206dbdc(void);
+M2C_UNK CheckAttackTarget(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206dcf4
-M2C_UNK func_ov003_0206dcf4(void);
+M2C_UNK GetNearerHOOKFromShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ddd8
-void func_ov003_0206ddd8(void);
+void SetAikyoWaza(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206df3c
-void func_ov003_0206df3c(void);
+void TrsGodbeastCallToChild(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206dfb8
-M2C_UNK func_ov003_0206dfb8(void);
+M2C_UNK CanPutMagicIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e07c
-M2C_UNK func_ov003_0206e07c(void);
+M2C_UNK GetNearDistance(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e110
-void func_ov003_0206e110(void);
+void InitializeMap_Object(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e154
-void func_ov003_0206e154(void);
+void ReleaseMap_ObjectAll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e1bc
-void func_ov003_0206e1bc(void);
+void DeleteMap_ObjectOneByIDandOpt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e1f8
-void func_ov003_0206e1f8(void);
+void DeleteMap_ObjectOneByIDandOptSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e284
-void func_ov003_0206e284(void);
+void AnimationAllMap_Object(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e2bc
-void func_ov003_0206e2bc(void);
+void AnimationAllMap_ObjectSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e568
-void func_ov003_0206e568(void);
+void putAllMap_Object(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e59c
-void func_ov003_0206e59c(void);
+void putAllMap_ObjectSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e6a8
-void func_ov003_0206e6a8(void);
+void SetObjsOnOffForMapObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206e7f0
-void func_ov003_0206e7f0(void);
+void AddMap_Objects(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206eb78
-M2C_UNK func_ov003_0206eb78(void);
+M2C_UNK ShitaToShita(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ebf0
-void func_ov003_0206ebf0(void);
+void InitObjectETC(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ec58
-void func_ov003_0206ec58(void);
+void ObjWorkInitialize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206edb4
-void func_ov003_0206edb4(void);
+void KihonPalTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206eea4
-void func_ov003_0206eea4(void);
+void IconPalTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206f090
-void func_ov003_0206f090(void);
+void TensouICON_pallet_B(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206f148
-void func_ov003_0206f148(void);
+void MesPalTransToObjPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206f1f4
-M2C_UNK func_ov003_0206f1f4(void);
+M2C_UNK SetKazuByObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206f6c0
-M2C_UNK func_ov003_0206f6c0(void);
+M2C_UNK SetNoAnimeObject(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206f880
-void func_ov003_0206f880(void);
+void DeleteNoAnimeObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206f90c
-void func_ov003_0206f90c(void);
+void DeleteNoAnimeObjOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206f984
-void func_ov003_0206f984(void);
+void DeleteNoAnimeObjOnlyOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206f9c0
-void func_ov003_0206f9c0(void);
+void DeleteNoAnimeObjOnlyOneSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206fa64
-void func_ov003_0206fa64(void);
+void NoAnimeObjIncCount(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206fb80
-void func_ov003_0206fb80(void);
+void NoAnimeObjPutSync(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206fec0
-M2C_UNK func_ov003_0206fec0(void);
+M2C_UNK SetGageKazuOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0206ff64
-void func_ov003_0206ff64(void);
+void PutShapeForAob2data(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02070b44
-void func_ov003_02070b44(void);
+void DeletePalDataFromVram(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02070ba8
-void func_ov003_02070ba8(void);
+void DeleteAob2Data(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02070c50
-void func_ov003_02070c50(void);
+void Aob2DataAnimation(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02070d78
-M2C_UNK func_ov003_02070d78(void);
+M2C_UNK GetAnimeParasAob2Data(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02070e00
-void func_ov003_02070e00(void);
+void SetWirelessIconPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02070f10
-void func_ov003_02070f10(void);
+void ReleaseWirelessIconPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02070fac
-void func_ov003_02070fac(void);
+void SetWirelessIconBit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020710dc
-void func_ov003_020710dc(void);
+void ResetWirelessIconBit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02071178
-void func_ov003_02071178(void);
+void PutWirelessIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207125c
-void func_ov003_0207125c(void);
+void DeleteWirelessIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020712e4
-void func_ov003_020712e4(void);
+void Initial_polygon_work(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207134c
-void func_ov003_0207134c(void);
+void QuadArrow(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207144c
-void func_ov003_0207144c(void);
+void putBoxArrow(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020714f0
-void func_ov003_020714f0(void);
+void putBoxArrowBox(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020715a8
-void func_ov003_020715a8(void);
+void ClearPolWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02071600
-void func_ov003_02071600(void);
+void ClearPolWorkOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207167c
-void func_ov003_0207167c(void);
+void ClearPolWorkOnMDA(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02071720
-void func_ov003_02071720(void);
+void SetCheckMtx(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02071888
-void func_ov003_02071888(void);
+void CutAndMakePolygonType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02071a6c
-void func_ov003_02071a6c(void);
+void DrawModelType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02071c4c
-void func_ov003_02071c4c(void);
+void CutAndMakePolygon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02071d24
-void func_ov003_02071d24(void);
+void CalcModelMatrix(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02072278
-void func_ov003_02072278(void);
+void CalcModelMatrix2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020722cc
-void func_ov003_020722cc(void);
+void MakePolygon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02072654
-M2C_UNK func_ov003_02072654(void);
+M2C_UNK CheckPolyInBox(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207279c
-M2C_UNK func_ov003_0207279c(void);
+M2C_UNK rectCutModel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02072aa8
-M2C_UNK func_ov003_02072aa8(void);
+M2C_UNK check3pointRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02072e08
-M2C_UNK func_ov003_02072e08(void);
+M2C_UNK SearchAXAZnowTouch(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02072f30
-void func_ov003_02072f30(void);
+void SearchXZinCutModel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207341c
-void func_ov003_0207341c(void);
+void PutNowCurSorIn3D(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020735d0
-void func_ov003_020735d0(void);
+void GetGridKazuFromKiseki(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02073650
-void func_ov003_02073650(void);
+void PutOneGridPol(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02073820
-M2C_UNK func_ov003_02073820(void);
+M2C_UNK GetNextId(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020738d8
-void func_ov003_020738d8(void);
+void PutKisekiRoadIn3D(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02073b84
-void func_ov003_02073b84(void);
+void QuadAddSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02073de0
-void func_ov003_02073de0(void);
+void putBoxShadowAddSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02073ecc
-void func_ov003_02073ecc(void);
+void setMaskShadow(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02073f24
-void func_ov003_02073f24(void);
+void setShadowPol(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02073fb0
-void func_ov003_02073fb0(void);
+void SetCameraPoint(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074210
-void func_ov003_02074210(void);
+void CopyVecFx32(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074254
-void func_ov003_02074254(void);
+void CopyVecFx16(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074298
-void func_ov003_02074298(void);
+void MoveModelShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207433c
-void func_ov003_0207433c(void);
+void SetAdrsOfModel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207445c
-M2C_UNK func_ov003_0207445c(void);
+M2C_UNK SearchModelTypeSt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074490
-void func_ov003_02074490(void);
+void SearchModelTypeStSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020744e0
-void func_ov003_020744e0(void);
+void DeleteModelType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074514
-void func_ov003_02074514(void);
+void DeleteModelTypeSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020745cc
-void func_ov003_020745cc(void);
+void ModelWorkReleaseAll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074638
-void func_ov003_02074638(void);
+void ModelWorkReleaseAllSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020746f8
-void func_ov003_020746f8(void);
+void ModelWorkReleaseOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074730
-void func_ov003_02074730(void);
+void ModelWorkReleaseOneSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074860
-void func_ov003_02074860(void);
+void ModelTypeReleaseAllSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020748d8
-void func_ov003_020748d8(void);
+void materialAlphaForShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074938
-M2C_UNK func_ov003_02074938(void);
+M2C_UNK SetMaterial(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074bc0
-void func_ov003_02074bc0(void);
+void SetImage(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074cb4
-void func_ov003_02074cb4(void);
+void SetPalette(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074d64
-M2C_UNK func_ov003_02074d64(void);
+M2C_UNK GetType_TexRepeat(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074db4
-M2C_UNK func_ov003_02074db4(void);
+M2C_UNK GetType_TexFlip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074e04
-void func_ov003_02074e04(void);
+void SetPolygonAttributeForGame(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074e58
-void func_ov003_02074e58(void);
+void ChangeChain(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02074f44
-M2C_UNK func_ov003_02074f44(void);
+M2C_UNK TexAnimeMove(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207501c
-void func_ov003_0207501c(void);
+void AreaMapRoll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207506c
-void func_ov003_0207506c(void);
+void MapScrolByKey(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02075090
-void func_ov003_02075090(void);
+void MapScrolByPress(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02075644
-void func_ov003_02075644(void);
+void SetMapCanThere(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02075720
-void func_ov003_02075720(void);
+void ana_InitVRAM(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020757a8
-void func_ov003_020757a8(void);
+void AengineScreenSetUp(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02075930
-void func_ov003_02075930(void);
+void Set3DAREAmapVIEW(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207599c
-void func_ov003_0207599c(void);
+void BengineScreenSetUp(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02075b00
-void func_ov003_02075b00(void);
+void InitOfAreaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02075b94
-void func_ov003_02075b94(void);
+void MoveViewPoint(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02075d20
-void func_ov003_02075d20(void);
+void MoveChangeLookPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02075fe0
-M2C_UNK func_ov003_02075fe0(void);
+M2C_UNK GetCompasIconAtai(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020760e8
-M2C_UNK func_ov003_020760e8(void);
+M2C_UNK CheckMoveLookPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076150
-void func_ov003_02076150(void);
+void SetFirstEyePosition(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020762b0
-void func_ov003_020762b0(void);
+void SetTEST_Model(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076604
-M2C_UNK func_ov003_02076604(void);
+M2C_UNK SetHikusenMdl(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207669c
-void func_ov003_0207669c(void);
+void SetHikusenScale(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020766dc
-M2C_UNK func_ov003_020766dc(void);
+M2C_UNK SetHikusenChainMdl(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076760
-M2C_UNK func_ov003_02076760(void);
+M2C_UNK SetHikusenAnchorMdl(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020767e8
-void func_ov003_020767e8(void);
+void ReleaseWorkForMapChange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020768c0
-void func_ov003_020768c0(void);
+void ReadUnitLogic(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076998
-void func_ov003_02076998(void);
+void UnReadUnitLogic(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076a0c
-void func_ov003_02076a0c(void);
+void ChangeGamenMode(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076c68
-void func_ov003_02076c68(void);
+void SetUnitPos4VS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076cc8
-void func_ov003_02076cc8(void);
+void ChangeKyotenNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076d70
-void func_ov003_02076d70(void);
+void CameraFlowAfterObject(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076e0c
-void func_ov003_02076e0c(void);
+void SetCameraObject(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076e90
-void func_ov003_02076e90(void);
+void CameraPosToObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076ef4
-void func_ov003_02076ef4(void);
+void ShakeControl(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02076f84
-void func_ov003_02076f84(void);
+void SetTouchPosThere(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020770b8
-void func_ov003_020770b8(void);
+void deleteTouchPosIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02077108
-void func_ov003_02077108(void);
+void PutTargetOnCameraObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207723c
-void func_ov003_0207723c(void);
+void MakeGameScreenOn(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020772d0
-M2C_UNK func_ov003_020772d0(void);
+M2C_UNK CallOtherPersonProgramOnStandAlone(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207744c
-void func_ov003_0207744c(void);
+void MakeScreenAfterOverLay(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020777dc
-M2C_UNK func_ov003_020777dc(void);
+M2C_UNK IntoShipInner(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020779e4
-M2C_UNK func_ov003_020779e4(void);
+M2C_UNK CallGodBeast(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02077b7c
-void func_ov003_02077b7c(void);
+void SiteStockMaskMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02077c04
-void func_ov003_02077c04(void);
+void SiteRestoreMaskMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02077d04
-void func_ov003_02077d04(void);
+void OneSyncUpDate(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02078074
-void func_ov003_02078074(void);
+void SetScreenRGB_AengineOn(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020782a0
-void func_ov003_020782a0(void);
+void SetScreenRGB_AengineOff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207839c
-void func_ov003_0207839c(void);
+void SetScreenRGB_AengineChangeRGB(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02078448
-void func_ov003_02078448(void);
+void SetScreenRGB_AengineChangePower(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02078520
-void func_ov003_02078520(void);
+void MoveScreenRGB_Aengine(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02078930
-void func_ov003_02078930(void);
+void Ana_TPRecvCallback(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02078a2c
-void func_ov003_02078a2c(void);
+void changeToModeOfGetSomeUNIT(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020791e8
-void func_ov003_020791e8(void);
+void ClearAreaMapMaskForEnemy(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079224
-void func_ov003_02079224(void);
+void SetAreaMapMaskForEnemy(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020792f0
-void func_ov003_020792f0(void);
+void SetAreaMapMaskDot(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079668
-M2C_UNK func_ov003_02079668(void);
+M2C_UNK CheckAreaMapMaskDot(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079738
-void func_ov003_02079738(void);
+void CheckAreaMapMaskForEnemy(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020797a4
-M2C_UNK func_ov003_020797a4(void);
+M2C_UNK GetSenkyou(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079880
-M2C_UNK func_ov003_02079880(void);
+M2C_UNK GetUnitKazuInBoard(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079924
-void func_ov003_02079924(void);
+void ana_InitDisplay3D(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079950
-void func_ov003_02079950(void);
+void BengineAreaMapTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079ad0
-void func_ov003_02079ad0(void);
+void PutOnePlanePicUPlcd(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079c44
-void func_ov003_02079c44(void);
+void ReleaseWorkBeforeChangeMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079d14
-void func_ov003_02079d14(void);
+void choiceUnitDataForVS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079e78
-void func_ov003_02079e78(void);
+void InitKuniDataForVS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02079f98
-void func_ov003_02079f98(void);
+void gameDataControlVS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a2a4
-void func_ov003_0207a2a4(void);
+void SetStock_VSMotoData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a3c4
-void func_ov003_0207a3c4(void);
+void RestoreStock_VSMotoData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a47c
-void func_ov003_0207a47c(void);
+void ReleaseStock_VSMotoData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a53c
-void func_ov003_0207a53c(void);
+void GetSeireiKazu_ShisetuLevTable(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a57c
-void func_ov003_0207a57c(void);
+void ReleaseSeireiKazu_ShisetuLevTable(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a5e4
-M2C_UNK func_ov003_0207a5e4(void);
+M2C_UNK GetSeireiKazu_ShisetuLevTableSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a65c
-void func_ov003_0207a65c(void);
+void SetShisetuLevelBySeireiKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a754
-void func_ov003_0207a754(void);
+void GetCanUseSeireiByKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a7bc
-M2C_UNK func_ov003_0207a7bc(void);
+M2C_UNK GetCanSelMapInVS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a8c0
-M2C_UNK func_ov003_0207a8c0(void);
+M2C_UNK GetCanSelMapNoVS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207a944
-M2C_UNK func_ov003_0207a944(void);
+M2C_UNK VsParaUpDown(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207abbc
-void func_ov003_0207abbc(void);
+void StockNowGameData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207ac68
-void func_ov003_0207ac68(void);
+void StoreNowGameData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207aca8
-void func_ov003_0207aca8(void);
+void StoreNowGameDataWithoutResult(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207ace8
-void func_ov003_0207ace8(void);
+void ReleaseNowGameData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207ad50
-void func_ov003_0207ad50(void);
+void StartForFreeBattle(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207adec
-M2C_UNK func_ov003_0207adec(void);
+M2C_UNK CheckSavePossible(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207ae38
-void func_ov003_0207ae38(void);
+void EffectEndCallBackForAna(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207b018
-void func_ov003_0207b018(void);
+void StopAllAikyoEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207b0d8
-M2C_UNK func_ov003_0207b0d8(void);
+M2C_UNK CheckAikyoEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207b178
-void func_ov003_0207b178(void);
+void SetLoopFlagAikyoEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207b26c
-void func_ov003_0207b26c(void);
+void SetAndGoLoopFlag(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207b2bc
-void func_ov003_0207b2bc(void);
+void GoAikyoEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207b7a0
-void func_ov003_0207b7a0(void);
+void StockAikyoEffectWithAttackID(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207b7e0
-M2C_UNK func_ov003_0207b7e0(void);
+M2C_UNK StockAikyoEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207b8d4
-void func_ov003_0207b8d4(void);
+void DeleteShisetuInShipByShisetu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207ba30
-void func_ov003_0207ba30(void);
+void TrsGameWorkInit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207baa4
-void func_ov003_0207baa4(void);
+void TrsGameWorkRelease(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207baf0
-void func_ov003_0207baf0(void);
+void InitTrsCommand(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207bb58
-void func_ov003_0207bb58(void);
+void ResetRequestTRS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207bc0c
-void func_ov003_0207bc0c(void);
+void trsCommandNeedInit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207bcb0
-void func_ov003_0207bcb0(void);
+void trsCommandNeed(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207bd54
-void func_ov003_0207bd54(void);
+void ReleaseTrsCommand(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207bda8
-void func_ov003_0207bda8(void);
+void SetTrsObjCommand(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207bdfc
-void func_ov003_0207bdfc(void);
+void GoTrsObjCommand(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207be68
-void func_ov003_0207be68(void);
+void commandToMove(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207c754
-void func_ov003_0207c754(void);
+void MakeObjTrsDataOneWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207c7e4
-void func_ov003_0207c7e4(void);
+void ReleaseObjTrsDataOneWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207c838
-void func_ov003_0207c838(void);
+void SetGetObjTrsDataOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207c93c
-void func_ov003_0207c93c(void);
+void ObjOneParaSet1(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207c968
-void func_ov003_0207c968(void);
+void ObjOneParaSet2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207c994
-void func_ov003_0207c994(void);
+void ObjOneParaSet(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207dc10
-M2C_UNK func_ov003_0207dc10(void);
+M2C_UNK CallTrsForMainLoop(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207dc6c
-M2C_UNK func_ov003_0207dc6c(void);
+M2C_UNK CallTrsForLoop(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207dca8
-M2C_UNK func_ov003_0207dca8(void);
+M2C_UNK CallTrsForLoopVBlank(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207de80
-void func_ov003_0207de80(void);
+void PutWirelessLevel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207df2c
-void func_ov003_0207df2c(void);
+void WH_InitializeForAna(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e030
-void func_ov003_0207e030(void);
+void ParentModeConnect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e080
-void func_ov003_0207e080(void);
+void ModeConnect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e0cc
-M2C_UNK func_ov003_0207e0cc(void);
+M2C_UNK checkConnect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e130
-void func_ov003_0207e130(void);
+void setFirstGameCondition(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e1d4
-void func_ov003_0207e1d4(void);
+void setObjParaAllFirst(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e278
-void func_ov003_0207e278(void);
+void SetKUNI_paras(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e33c
-void func_ov003_0207e33c(void);
+void SetUD_ST_paras(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e400
-void func_ov003_0207e400(void);
+void changeParamVS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e5d0
-void func_ov003_0207e5d0(void);
+void Clear_wmwork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e608
-void func_ov003_0207e608(void);
+void SetBigTrans(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e6fc
-void func_ov003_0207e6fc(void);
+void SyncBigTransGo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e770
-void func_ov003_0207e770(void);
+void InitTransBigSizeData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e818
-void func_ov003_0207e818(void);
+void ReleaseWmWorks(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e840
-void func_ov003_0207e840(void);
+void ReleaseWmWorksTrnsWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e910
-void func_ov003_0207e910(void);
+void ReleaseWmWorkDataw(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207e9a0
-M2C_UNK func_ov003_0207e9a0(void);
+M2C_UNK SyncCallTransBigSizeData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207ebb4
-M2C_UNK func_ov003_0207ebb4(void);
+M2C_UNK TransBigSizeData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207ec54
-void func_ov003_0207ec54(void);
+void SendOnePack(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207ee08
-void func_ov003_0207ee08(void);
+void GetDataMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207efe0
-void func_ov003_0207efe0(void);
+void OkSend(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f06c
-void func_ov003_0207f06c(void);
+void TransEnddingPhase(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f1d8
-M2C_UNK func_ov003_0207f1d8(void);
+M2C_UNK EndTransCheck(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f278
-M2C_UNK func_ov003_0207f278(void);
+M2C_UNK EndGiveDataCheck(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f2d0
-M2C_UNK func_ov003_0207f2d0(void);
+M2C_UNK Send_startTrsTrig(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f314
-void func_ov003_0207f314(void);
+void OkSend2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f340
-void func_ov003_0207f340(void);
+void SetParentTgid(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f370
-void func_ov003_0207f370(void);
+void SetParentChannel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f3b0
-void func_ov003_0207f3b0(void);
+void MakeDataForParentBeacon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f528
-void func_ov003_0207f528(void);
+void getErrForSetEntry(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f554
-void func_ov003_0207f554(void);
+void SetEntryflagBeacon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f59c
-M2C_UNK func_ov003_0207f59c(void);
+M2C_UNK GetChannelMain(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f618
-void func_ov003_0207f618(void);
+void ScanParentBeacon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f670
-void func_ov003_0207f670(void);
+void ScanParentCallback(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f81c
-void func_ov003_0207f81c(void);
+void ScanParentLifeDec(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f8b4
-void func_ov003_0207f8b4(void);
+void DisconnectOneParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f918
-void func_ov003_0207f918(void);
+void ScanParentBeaconInit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f96c
-M2C_UNK func_ov003_0207f96c(void);
+M2C_UNK GetEmptyBssDesc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207f9dc
-void func_ov003_0207f9dc(void);
+void SetCallBackForVS_Trs(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207fa14
-void func_ov003_0207fa14(void);
+void TrsModeSet(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207fcdc
-void func_ov003_0207fcdc(void);
+void SafeDisconnect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207fdf0
-void func_ov003_0207fdf0(void);
+void SetBssDescNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207fe38
-M2C_UNK func_ov003_0207fe38(void);
+M2C_UNK checkConnectParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207febc
-void func_ov003_0207febc(void);
+void ModeError(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0207fefc
-void func_ov003_0207fefc(void);
+void SetMyParemForVS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208012c
-void func_ov003_0208012c(void);
+void deleteComObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208016c
-void func_ov003_0208016c(void);
+void deleteComObjOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020801c8
-M2C_UNK func_ov003_020801c8(void);
+M2C_UNK SetStatusIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080328
-void func_ov003_02080328(void);
+void AddIconPutSt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080360
-void func_ov003_02080360(void);
+void AddObjForCom(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080400
-void func_ov003_02080400(void);
+void ObjAnimePatWorkSetForAob2Data(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020804e4
-void func_ov003_020804e4(void);
+void KeepMaxChr(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020805ac
-void func_ov003_020805ac(void);
+void GetUsePalNoAob2data(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208061c
-void func_ov003_0208061c(void);
+void deleteComObjByComnoOther(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080640
-void func_ov003_02080640(void);
+void deleteComObjOneByComnoOther(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020806c4
-void func_ov003_020806c4(void);
+void deleteComObjByComno(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020806e8
-void func_ov003_020806e8(void);
+void deleteComObjOneByComno(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080758
-void func_ov003_02080758(void);
+void deleteComObjByComnoRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208077c
-void func_ov003_0208077c(void);
+void deleteComObjOneByComnoRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020807f4
-M2C_UNK func_ov003_020807f4(void);
+M2C_UNK SearchComObjByComno(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080818
-void func_ov003_02080818(void);
+void SearchComObjOneByComno(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208086c
-void func_ov003_0208086c(void);
+void DeleteOneObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020808f0
-void func_ov003_020808f0(void);
+void ChangeComObjByFunc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080914
-void func_ov003_02080914(void);
+void ChangeComObjOneByFunc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080984
-void func_ov003_02080984(void);
+void ChangeComObjByFuncAndNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020809a8
-void func_ov003_020809a8(void);
+void ChangeComObjOneByFuncAndNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080a28
-void func_ov003_02080a28(void);
+void deleteComObjByPutflag(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080a4c
-void func_ov003_02080a4c(void);
+void deleteComObjOneByPutflag(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080abc
-void func_ov003_02080abc(void);
+void deleteComObjBySt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080ae0
-M2C_UNK func_ov003_02080ae0(void);
+M2C_UNK deleteComObjOneBySt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080b64
-M2C_UNK func_ov003_02080b64(void);
+M2C_UNK IsThereIconByComno(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080bb4
-M2C_UNK func_ov003_02080bb4(void);
+M2C_UNK getComIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080cb0
-M2C_UNK func_ov003_02080cb0(void);
+M2C_UNK getComIconRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02080dbc
-void func_ov003_02080dbc(void);
+void ComIcomPut(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208162c
-void func_ov003_0208162c(void);
+void UpDownColor(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02081798
-void func_ov003_02081798(void);
+void ComIcomMoveOnly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02081d98
-M2C_UNK func_ov003_02081d98(void);
+M2C_UNK iconCommandEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02081eb8
-M2C_UNK func_ov003_02081eb8(void);
+M2C_UNK SelectByGameOver(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02081f0c
-void func_ov003_02081f0c(void);
+void MomentTouchPanelActionByGameOver(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02082298
-void func_ov003_02082298(void);
+void LeaveTouchPanelActionByGameOver(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020822e4
-void func_ov003_020822e4(void);
+void MomentTouchPanelAction(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02083064
-void func_ov003_02083064(void);
+void KeepTouchPanelAction(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02083870
-void func_ov003_02083870(void);
+void LeaveTouchPanelAction(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208441c
-void func_ov003_0208441c(void);
+void changeAreaCenterPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020844e4
-void func_ov003_020844e4(void);
+void PutIconInit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084658
-void func_ov003_02084658(void);
+void setHataPat3D(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208488c
-void func_ov003_0208488c(void);
+void ChgIconsAnime_Aengine(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020848d8
-M2C_UNK func_ov003_020848d8(void);
+M2C_UNK ScrollCheckScreenEdge(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020849e0
-void func_ov003_020849e0(void);
+void PutCompasIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084af0
-void func_ov003_02084af0(void);
+void ChangeCompasIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084b1c
-void func_ov003_02084b1c(void);
+void deleteCompasIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084b5c
-void func_ov003_02084b5c(void);
+void deleteUPDOWNIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084b9c
-void func_ov003_02084b9c(void);
+void PutChangeUpDownIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084c4c
-void func_ov003_02084c4c(void);
+void redrawUnitConditionHpKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084cc0
-void func_ov003_02084cc0(void);
+void SetUnitConditionHpKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084d48
-void func_ov003_02084d48(void);
+void putKisekiToDistance(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02084f60
-void func_ov003_02084f60(void);
+void MakeIconSetScreenOnVBlank(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085258
-void func_ov003_02085258(void);
+void SetNow3Dhata(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085454
-void func_ov003_02085454(void);
+void DelCheckWindowByGunUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020854c0
-void func_ov003_020854c0(void);
+void ResetUnitSelect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085524
-void func_ov003_02085524(void);
+void SetUpUnitSymbol(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020857f8
-void func_ov003_020857f8(void);
+void PutTrentoIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208592c
-void func_ov003_0208592c(void);
+void RedrawTrentSeedKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085a5c
-void func_ov003_02085a5c(void);
+void deleteTrentoIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085ac4
-void func_ov003_02085ac4(void);
+void PutGaiaIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085bf8
-void func_ov003_02085bf8(void);
+void RedrawGaiaStoneKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085d28
-void func_ov003_02085d28(void);
+void deleteGaiaIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085d90
-void func_ov003_02085d90(void);
+void PutTouchWaitIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085e54
-void func_ov003_02085e54(void);
+void deleteTouchWaitIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085eac
-void func_ov003_02085eac(void);
+void PutSelectCancelBtn(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085f3c
-void func_ov003_02085f3c(void);
+void deleteSelectCancelBtn(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02085f7c
-void func_ov003_02085f7c(void);
+void PutShipIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208620c
-void func_ov003_0208620c(void);
+void deleteShipIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208624c
-void func_ov003_0208624c(void);
+void PutGetRECTIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020862e8
-void func_ov003_020862e8(void);
+void deleteGetRECTIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086328
-void func_ov003_02086328(void);
+void changePosByPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086404
-void func_ov003_02086404(void);
+void PutSituationGageIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208669c
-void func_ov003_0208669c(void);
+void deleteSituationGageIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020866dc
-void func_ov003_020866dc(void);
+void deleteHataIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086748
-void func_ov003_02086748(void);
+void PutHataIconFor3D(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086830
-void func_ov003_02086830(void);
+void newHPbarMake(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020869f8
-void func_ov003_020869f8(void);
+void SituationbarMake(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086b18
-void func_ov003_02086b18(void);
+void PutF_AllUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086c70
-M2C_UNK func_ov003_02086c70(void);
+M2C_UNK IsThereShipIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086cb8
-void func_ov003_02086cb8(void);
+void RedrawShipIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086d24
-void func_ov003_02086d24(void);
+void SetUpNikoChanIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02086f18
-void func_ov003_02086f18(void);
+void PutNikoCyanIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087290
-void func_ov003_02087290(void);
+void DeleteUnitStatusParam(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087304
-M2C_UNK func_ov003_02087304(void);
+M2C_UNK GetHowManyCariSt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087358
-M2C_UNK func_ov003_02087358(void);
+M2C_UNK GetNoCariStByJunban(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020873b8
-void func_ov003_020873b8(void);
+void changePatBySync(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087494
-void func_ov003_02087494(void);
+void PutK_UNITstatus(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087b6c
-M2C_UNK func_ov003_02087b6c(void);
+M2C_UNK IsThereMagicIcom(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087bb4
-void func_ov003_02087bb4(void);
+void DeleteMagicIcom(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087bf4
-M2C_UNK func_ov003_02087bf4(void);
+M2C_UNK MagicIcomPut(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087ca8
-M2C_UNK func_ov003_02087ca8(void);
+M2C_UNK IsThereInShipIcom(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087cf0
-void func_ov003_02087cf0(void);
+void DeleteInShipIcom(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087d30
-M2C_UNK func_ov003_02087d30(void);
+M2C_UNK InShipIcomPut(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087de4
-void func_ov003_02087de4(void);
+void PutWin_HookTakeOff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02087f14
-void func_ov003_02087f14(void);
+void PutYesNoIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208804c
-void func_ov003_0208804c(void);
+void DeleteWin_HookTakeOff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088098
-void func_ov003_02088098(void);
+void DeleteYesNoIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020880f4
-void func_ov003_020880f4(void);
+void ChgYesNoButton(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088204
-void func_ov003_02088204(void);
+void ChgIconButton(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088288
-void func_ov003_02088288(void);
+void ReleaseKaoGraCommon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020882cc
-void func_ov003_020882cc(void);
+void ReleaseKaoGraCommonSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208837c
-void func_ov003_0208837c(void);
+void CloseNowInputScMode(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088518
-void func_ov003_02088518(void);
+void ChangeNikoOrRace(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208862c
-void func_ov003_0208862c(void);
+void Put_MissionStartCompleteWinLose(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088740
-void func_ov003_02088740(void);
+void Delete_MissionStartCompleteWinLose(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020887a0
-void func_ov003_020887a0(void);
+void MoveOut_MissionStartAndComplete(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088800
-void func_ov003_02088800(void);
+void Put_MissionGameOver(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088ae8
-void func_ov003_02088ae8(void);
+void Delete_MissionGameOver(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088ba0
-M2C_UNK func_ov003_02088ba0(void);
+M2C_UNK LoadNclNceNcg2Table(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088df8
-void func_ov003_02088df8(void);
+void ReleaseObjectGraCommon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088e3c
-void func_ov003_02088e3c(void);
+void ReleaseObjectGraCommonSub(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088f08
-void func_ov003_02088f08(void);
+void PutAll_HaibokuJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02088fe4
-void func_ov003_02088fe4(void);
+void PutAll_SyouriJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020890c0
-void func_ov003_020890c0(void);
+void PutAll_Anything_SyouriHaibokuJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089194
-void func_ov003_02089194(void);
+void DeleteAll_SyouriHaibokuJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089228
-void func_ov003_02089228(void);
+void PutSyouriHaibokuBoard(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020894d0
-void func_ov003_020894d0(void);
+void SetSyouriHaibokuMesNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020895c0
-void func_ov003_020895c0(void);
+void PutUnitRaceIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089840
-void func_ov003_02089840(void);
+void DeleteUnitRaceIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089880
-void func_ov003_02089880(void);
+void ChgRaceIconOff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020898c8
-void func_ov003_020898c8(void);
+void ChgRaceIconOffOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089908
-void func_ov003_02089908(void);
+void DeleteTimerOnScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089954
-void func_ov003_02089954(void);
+void PutTimerOnScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089a24
-void func_ov003_02089a24(void);
+void SetFlyArmTexAndPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089cd0
-void func_ov003_02089cd0(void);
+void SetFlyArmPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02089d30
-void func_ov003_02089d30(void);
+void SetOneFlyArmWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a058
-void func_ov003_0208a058(void);
+void SetFlyAnimation(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a0dc
-void func_ov003_0208a0dc(void);
+void FlyArmAllAnime(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a110
-void func_ov003_0208a110(void);
+void FlyArmOneAnime(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a600
-void func_ov003_0208a600(void);
+void Animation_FLYARMWORK(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a7ac
-void func_ov003_0208a7ac(void);
+void CancelTransTex2VramArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a7e4
-void func_ov003_0208a7e4(void);
+void CancelTransTex2VramSubArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a874
-void func_ov003_0208a874(void);
+void setP_ObjTextureFlyArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a968
-void func_ov003_0208a968(void);
+void FlyArmAllPut(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a99c
-void func_ov003_0208a99c(void);
+void FlyArmOnePut(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208a9e4
-M2C_UNK func_ov003_0208a9e4(void);
+M2C_UNK Move_FlyArms(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208b158
-void func_ov003_0208b158(void);
+void CheckThereGrid(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208b230
-void func_ov003_0208b230(void);
+void SetDamageAiteInGrid(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208b414
-void func_ov003_0208b414(void);
+void putOne_FlyArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208c1d0
-void func_ov003_0208c1d0(void);
+void MakeTexCoordFLYARMWORK(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208c28c
-void func_ov003_0208c28c(void);
+void AddFlyArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208c314
-void func_ov003_0208c314(void);
+void ReleaseFlyArmAll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208c39c
-void func_ov003_0208c39c(void);
+void ReleaseFlyArmWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208c3e0
-void func_ov003_0208c3e0(void);
+void ReleaseFlyArmOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208c4c4
-void func_ov003_0208c4c4(void);
+void GetVecPlane(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208c70c
-void func_ov003_0208c70c(void);
+void SetAroundwork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208c8a8
-void func_ov003_0208c8a8(void);
+void SetAroundworkBoth(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208ca38
-void func_ov003_0208ca38(void);
+void SetFlyArmAOM(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208cb20
-void func_ov003_0208cb20(void);
+void SetKAKUTOUwork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208cc78
-void func_ov003_0208cc78(void);
+void SetKAKUTOUworkBoth(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208ce88
-void func_ov003_0208ce88(void);
+void SetSLASHwork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208d024
-void func_ov003_0208d024(void);
+void SetSLASHworkBoth(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208d11c
-void func_ov003_0208d11c(void);
+void SetBOWGUNwork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208d2d0
-void func_ov003_0208d2d0(void);
+void SetBOWGUNworkBoth(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208d440
-void func_ov003_0208d440(void);
+void Set3DireWazawork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208d5dc
-void func_ov003_0208d5dc(void);
+void Set3DireWazaworkBoth(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208d860
-void func_ov003_0208d860(void);
+void SetYUMIwork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208da14
-void func_ov003_0208da14(void);
+void GetDisPosByDire(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208db44
-void func_ov003_0208db44(void);
+void SetYUMIworkBoth(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208dcf8
-void func_ov003_0208dcf8(void);
+void SetBOMBwork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208df68
-void func_ov003_0208df68(void);
+void SetTrsFlyArm(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208dfdc
-void func_ov003_0208dfdc(void);
+void GetArmOutInPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208e2d4
-M2C_UNK func_ov003_0208e2d4(void);
+M2C_UNK GetArmOutByUnitType(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208e4fc
-void func_ov003_0208e4fc(void);
+void SprendBomb(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208e624
-void func_ov003_0208e624(void);
+void SelectUnitByDrawRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208e7dc
-void func_ov003_0208e7dc(void);
+void DrawLine(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208ea74
-void func_ov003_0208ea74(void);
+void putOnePoint(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208eaec
-void func_ov003_0208eaec(void);
+void PaintScreenOutRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208ed8c
-void func_ov003_0208ed8c(void);
+void putMode2SelectRect_Obj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208ef30
-void func_ov003_0208ef30(void);
+void checkPoint(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208f55c
-void func_ov003_0208f55c(void);
+void SetHitMarkTexAndPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208f6c4
-void func_ov003_0208f6c4(void);
+void SetHitMarkPal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208f720
-void func_ov003_0208f720(void);
+void ReleaseHitMarkSt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208f784
-M2C_UNK func_ov003_0208f784(void);
+M2C_UNK SetOneHitMarkWork(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208fa20
-void func_ov003_0208fa20(void);
+void ObjConsiderAll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208fb80
-M2C_UNK func_ov003_0208fb80(void);
+M2C_UNK is_thereEnemy(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0208fe4c
-void func_ov003_0208fe4c(void);
+void is_thereEnemyInSite(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020900e4
-void func_ov003_020900e4(void);
+void changeOcc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209014c
-void func_ov003_0209014c(void);
+void changeOccWithKihon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020901cc
-void func_ov003_020901cc(void);
+void changeOccasion(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090864
-void func_ov003_02090864(void);
+void SetObjIdling(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020908e8
-M2C_UNK func_ov003_020908e8(void);
+M2C_UNK GetObj2ObjDire(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090978
-M2C_UNK func_ov003_02090978(void);
+M2C_UNK distanceForBattle(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020909c8
-void func_ov003_020909c8(void);
+void ReadySetUpWaza(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020909ec
-void func_ov003_020909ec(void);
+void ReadySetUpWazaAt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090a7c
-void func_ov003_02090a7c(void);
+void SetWazaBySpOrNormal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090aac
-void func_ov003_02090aac(void);
+void SetUseWaza(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090b20
-M2C_UNK func_ov003_02090b20(void);
+M2C_UNK GetLogicNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090bc8
-void func_ov003_02090bc8(void);
+void Logic_separate(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090c98
-void func_ov003_02090c98(void);
+void Logic_separateForBtl(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090da0
-M2C_UNK func_ov003_02090da0(void);
+M2C_UNK Logic_separateInSite(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090ec8
-void func_ov003_02090ec8(void);
+void Logic_separateForObstacle(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02090fd0
-void func_ov003_02090fd0(void);
+void Logic_separateForSelWaza(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091128
-void func_ov003_02091128(void);
+void MakeHouseAndUnitInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091250
-void func_ov003_02091250(void);
+void CountingTimeInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020916a4
-void func_ov003_020916a4(void);
+void Logic_createHouseAndUnitInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091778
-M2C_UNK func_ov003_02091778(void);
+M2C_UNK GetEnemyInOneUnitSite(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091850
-M2C_UNK func_ov003_02091850(void);
+M2C_UNK GetEnemyInSite(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209193c
-M2C_UNK func_ov003_0209193c(void);
+M2C_UNK SetToGoThere(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091be0
-M2C_UNK func_ov003_02091be0(void);
+M2C_UNK GetFriendOfHalfHP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091c58
-void func_ov003_02091c58(void);
+void GetFriendOfHalfHPInSite(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091cd0
-void func_ov003_02091cd0(void);
+void is_thereFriendOfHalfHP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091e34
-void func_ov003_02091e34(void);
+void is_thereFriendOfHalfHPInSite(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02091fb0
-M2C_UNK func_ov003_02091fb0(void);
+M2C_UNK GetFriendOfAbnormal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02092028
-void func_ov003_02092028(void);
+void GetFriendOfAbnormalInSite(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020920a0
-void func_ov003_020920a0(void);
+void is_thereFriendOfAbnormal(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02092204
-void func_ov003_02092204(void);
+void is_thereFriendOfAbnormalInSite(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209237c
-void func_ov003_0209237c(void);
+void checkEndOrderPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02092440
-M2C_UNK func_ov003_02092440(void);
+M2C_UNK GetUnitOfFunc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020924cc
-void func_ov003_020924cc(void);
+void SearchUnitFunc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02092524
-void func_ov003_02092524(void);
+void SearchGoddessOrHookWithShipFunc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020925c0
-void func_ov003_020925c0(void);
+void get_UnitOfFunc(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020929dc
-void func_ov003_020929dc(void);
+void GetHookAooNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02092cd0
-void func_ov003_02092cd0(void);
+void SetHookCondSt(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02092dfc
-void func_ov003_02092dfc(void);
+void researchHookObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02092f4c
-void func_ov003_02092f4c(void);
+void checkUnitKazuInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209300c
-void func_ov003_0209300c(void);
+void GetShipDamageWhenInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02093080
-M2C_UNK func_ov003_02093080(void);
+M2C_UNK checkHookStatus(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02093174
-M2C_UNK func_ov003_02093174(void);
+M2C_UNK GetDisPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02093354
-void func_ov003_02093354(void);
+void OnStartcul2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02093a54
-M2C_UNK func_ov003_02093a54(void);
+M2C_UNK changeKiseki2short(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02093b9c
-void func_ov003_02093b9c(void);
+void CheckOneLine(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02093ce4
-void func_ov003_02093ce4(void);
+void CheckBoxAround(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02093e48
-M2C_UNK func_ov003_02093e48(void);
+M2C_UNK CheckOneYOKOline(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02094054
-M2C_UNK func_ov003_02094054(void);
+M2C_UNK CheckOneTATEline(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02094258
-M2C_UNK func_ov003_02094258(void);
+M2C_UNK GetBoxSize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02094728
-M2C_UNK func_ov003_02094728(void);
+M2C_UNK OnStartFly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02094dfc
-void func_ov003_02094dfc(void);
+void CheckOneLine4fly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02094f08
-void func_ov003_02094f08(void);
+void CheckBoxAround4fly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209504c
-M2C_UNK func_ov003_0209504c(void);
+M2C_UNK CheckOneYOKOline4fly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02095168
-M2C_UNK func_ov003_02095168(void);
+M2C_UNK CheckOneTATEline4fly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209528c
-M2C_UNK func_ov003_0209528c(void);
+M2C_UNK GetBoxSize4fly(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209563c
-void func_ov003_0209563c(void);
+void OnStartcul2ninja(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02095dd4
-void func_ov003_02095dd4(void);
+void CheckOneLineNinja(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02095f3c
-void func_ov003_02095f3c(void);
+void CheckBoxAroundNinja(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020960e0
-M2C_UNK func_ov003_020960e0(void);
+M2C_UNK CheckOneYOKOlineNinja(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02096330
-M2C_UNK func_ov003_02096330(void);
+M2C_UNK CheckOneTATElineNinja(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02096588
-M2C_UNK func_ov003_02096588(void);
+M2C_UNK GetBoxSizeNinja(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02096c2c
-M2C_UNK func_ov003_02096c2c(void);
+M2C_UNK GetID_takasa(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02096cac
-M2C_UNK func_ov003_02096cac(void);
+M2C_UNK GetCanThroughKai(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02096e1c
-void func_ov003_02096e1c(void);
+void OnStartcul4onlyWater(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02097570
-M2C_UNK func_ov003_02097570(void);
+M2C_UNK calcHitRate(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020975b4
-void func_ov003_020975b4(void);
+void calcDamage(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02098060
-M2C_UNK func_ov003_02098060(void);
+M2C_UNK calcUnitSikai(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020980b8
-void func_ov003_020980b8(void);
+void DropItemBySetNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209814c
-void func_ov003_0209814c(void);
+void DropItemBySetNoOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020981f4
-void func_ov003_020981f4(void);
+void SetDropItemByData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02098268
-void func_ov003_02098268(void);
+void DropItemByNO(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02098318
-M2C_UNK func_ov003_02098318(void);
+M2C_UNK onceLoopOnAna(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02098d1c
-void func_ov003_02098d1c(void);
+void MoveUnitAndAnime(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02098ec8
-void func_ov003_02098ec8(void);
+void SetUpSenarioScript(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02098fdc
-void func_ov003_02098fdc(void);
+void scscstParameterInit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209908c
-void func_ov003_0209908c(void);
+void DummyCallScript(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020990b8
-M2C_UNK func_ov003_020990b8(void);
+M2C_UNK ScenarioScriptMove(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020995a0
-void func_ov003_020995a0(void);
+void InitializeKuniAndUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020995ec
-void func_ov003_020995ec(void);
+void InitializeOtherKuniAndUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209962c
-void func_ov003_0209962c(void);
+void ClearDropItemExist(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209968c
-M2C_UNK func_ov003_0209968c(void);
+M2C_UNK Routine_FadeOutAll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020996b4
-void func_ov003_020996b4(void);
+void Routine_FadeInAll(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020996dc
-void func_ov003_020996dc(void);
+void Routine_FadeOutAllByCount(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209970c
-void func_ov003_0209970c(void);
+void Routine_FadeInAllByCount(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209973c
-void func_ov003_0209973c(void);
+void Routine_FadeOutAllWithMoveByCount(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209976c
-void func_ov003_0209976c(void);
+void Routine_FadeInAllWithMoveByCount(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209979c
-void func_ov003_0209979c(void);
+void Routine_FadeOutAllWithUpDown(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020997c0
-void func_ov003_020997c0(void);
+void Routine_FadeInAllWithUpDown(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020997e4
-void func_ov003_020997e4(void);
+void Routine_PutEventTitle(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209981c
-void func_ov003_0209981c(void);
+void WaitSyncUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209989c
-void func_ov003_0209989c(void);
+void WaitSyncAikyoEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099910
-void func_ov003_02099910(void);
+void WaitSyncTouch(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209993c
-void func_ov003_0209993c(void);
+void WaitSyncTouchXY(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099a08
-void func_ov003_02099a08(void);
+void WaitSyncCounterTouch(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099b2c
-M2C_UNK func_ov003_02099b2c(void);
+M2C_UNK WaitSyncCounter(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099be8
-void func_ov003_02099be8(void);
+void WaitSyncCase(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099c50
-void func_ov003_02099c50(void);
+void WaitSyncCaseWithTwoPara(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099cc0
-void func_ov003_02099cc0(void);
+void Routine_KyotenChange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099d14
-void func_ov003_02099d14(void);
+void StockCameraPositon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099da8
-void func_ov003_02099da8(void);
+void RestoreCameraPositon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099e18
-void func_ov003_02099e18(void);
+void ObjSet_allclear(void);
 #endif
 #ifndef M2C_SELF_func_ov003_02099e9c
-void func_ov003_02099e9c(void);
+void CameraMove(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a0ec
-void func_ov003_0209a0ec(void);
+void CameraMoveAndWait(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a134
-void func_ov003_0209a134(void);
+void Routine_MessageRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a178
-void func_ov003_0209a178(void);
+void Routine_MessageRectForInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a1bc
-void func_ov003_0209a1bc(void);
+void WaitSyncMessageEnd(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a25c
-void func_ov003_0209a25c(void);
+void MessagePutAndWait(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a284
-void func_ov003_0209a284(void);
+void WaitSyncCamera(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a2f0
-void func_ov003_0209a2f0(void);
+void WaitSyncBattle(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a380
-M2C_UNK func_ov003_0209a380(void);
+M2C_UNK MessagePut(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a450
-void func_ov003_0209a450(void);
+void MessageClose(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a4e8
-M2C_UNK func_ov003_0209a4e8(void);
+M2C_UNK SearchSetUpEventOccur(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a590
-void func_ov003_0209a590(void);
+void PutEventTitle(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a964
-void func_ov003_0209a964(void);
+void EventDurringTitle(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209a9c4
-void func_ov003_0209a9c4(void);
+void SetTitleNameNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209aa18
-void func_ov003_0209aa18(void);
+void Routine_BattleStart(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209aab0
-void func_ov003_0209aab0(void);
+void StopMovingGame(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209abec
-void func_ov003_0209abec(void);
+void MovingGameGo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209add4
-void func_ov003_0209add4(void);
+void ContinueSameUnitConsider(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ae64
-void func_ov003_0209ae64(void);
+void Routine_SetEvPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ae88
-void func_ov003_0209ae88(void);
+void SetEventObjPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209af28
-void func_ov003_0209af28(void);
+void SetEventObjPosOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209afd0
-void func_ov003_0209afd0(void);
+void AppearOneUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b6c0
-void func_ov003_0209b6c0(void);
+void Routine_DeleteEvPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b6e4
-void func_ov003_0209b6e4(void);
+void DeleteEventObjPos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b784
-void func_ov003_0209b784(void);
+void DeleteEventObjPosOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b818
-void func_ov003_0209b818(void);
+void CountGaiaFind(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b858
-void func_ov003_0209b858(void);
+void CountTrentFind(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b898
-void func_ov003_0209b898(void);
+void UnitSelCanOrNot(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b8f4
-void func_ov003_0209b8f4(void);
+void ShipUnitSelCanOrNot(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b940
-M2C_UNK func_ov003_0209b940(void);
+M2C_UNK CountEnemyUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209b9d4
-void func_ov003_0209b9d4(void);
+void SetShisetuLevel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ba10
-void func_ov003_0209ba10(void);
+void SetShisetuLevelByKuniNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209bca4
-M2C_UNK func_ov003_0209bca4(void);
+M2C_UNK ObjSet(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c684
-void func_ov003_0209c684(void);
+void Routine_CameraFixed(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c6c8
-void func_ov003_0209c6c8(void);
+void Routine_CameraFree(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c70c
-void func_ov003_0209c70c(void);
+void Routine_SaveGo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c798
-void func_ov003_0209c798(void);
+void Routine_WorldMap2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c82c
-void func_ov003_0209c82c(void);
+void Routine_ScreenRGB_ON(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c850
-void func_ov003_0209c850(void);
+void Routine_ScreenRGB_rgb(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c898
-void func_ov003_0209c898(void);
+void Routine_ScreenRGB_alpha(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c8cc
-void func_ov003_0209c8cc(void);
+void Routine_ScreenRGB_OFF(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c8f0
-void func_ov003_0209c8f0(void);
+void Routine_SoundEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c914
-void func_ov003_0209c914(void);
+void Routine_StopSoundEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c938
-void func_ov003_0209c938(void);
+void Routine_BGMchange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c974
-void func_ov003_0209c974(void);
+void Routine_BGMvolChange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209c9d8
-void func_ov003_0209c9d8(void);
+void Routine_DownLCD_Is3DMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ca74
-M2C_UNK func_ov003_0209ca74(void);
+M2C_UNK checkIsThereShip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209cb30
-M2C_UNK func_ov003_0209cb30(void);
+M2C_UNK GetUnitStatus(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209cbac
-M2C_UNK func_ov003_0209cbac(void);
+M2C_UNK GetUnitStatusRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209cc34
-M2C_UNK func_ov003_0209cc34(void);
+M2C_UNK CheckAllDeathStatusRect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ccc0
-M2C_UNK func_ov003_0209ccc0(void);
+M2C_UNK checkCanSeeUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ccf4
-M2C_UNK func_ov003_0209ccf4(void);
+M2C_UNK checkRectPosUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209cd70
-M2C_UNK func_ov003_0209cd70(void);
+M2C_UNK checkRectPosCamp(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ce24
-void func_ov003_0209ce24(void);
+void SiteSwitching(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209cf74
-M2C_UNK func_ov003_0209cf74(void);
+M2C_UNK GetHpOrResource(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209cfc4
-void func_ov003_0209cfc4(void);
+void GetHpOrResourceAndMax(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d04c
-void func_ov003_0209d04c(void);
+void RecoverHpOrResourceByPer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d14c
-M2C_UNK func_ov003_0209d14c(void);
+M2C_UNK GetMapSitePer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d244
-void func_ov003_0209d244(void);
+void SetLogicNoForShipIn(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d3a8
-void func_ov003_0209d3a8(void);
+void SetLogicParaNoForShipIn(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d400
-void func_ov003_0209d400(void);
+void KuniNameSet(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d474
-M2C_UNK func_ov003_0209d474(void);
+M2C_UNK CalRnd(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d498
-void func_ov003_0209d498(void);
+void GettingItemOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d4d4
-void func_ov003_0209d4d4(void);
+void GettingItemOneForFree(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d4f8
-M2C_UNK func_ov003_0209d4f8(void);
+M2C_UNK GetKazuOfItem(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d534
-void func_ov003_0209d534(void);
+void GetKazuOfItemKuni(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d634
-void func_ov003_0209d634(void);
+void DeleteItemOne(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d670
-void func_ov003_0209d670(void);
+void DeleteItemKuni(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d7d8
-void func_ov003_0209d7d8(void);
+void EquipItem(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d864
-void func_ov003_0209d864(void);
+void PutOnItem(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d8ec
-void func_ov003_0209d8ec(void);
+void PutOffItem(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209d958
-void func_ov003_0209d958(void);
+void EquipSeirei(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209da3c
-void func_ov003_0209da3c(void);
+void WhatNoEquipSeirei(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209da9c
-void func_ov003_0209da9c(void);
+void ChangeKuniNoForUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209dbe8
-void func_ov003_0209dbe8(void);
+void SetUpCarisumaSally(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209dcac
-void func_ov003_0209dcac(void);
+void SetUpSallyForCharNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209dd38
-void func_ov003_0209dd38(void);
+void AddCarisumaToParty(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ded8
-void func_ov003_0209ded8(void);
+void Routine_SetEvPosMode(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209df24
-void func_ov003_0209df24(void);
+void SelectCarisumaChar(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209dfb0
-void func_ov003_0209dfb0(void);
+void Routine_ShakeScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e004
-void func_ov003_0209e004(void);
+void cameraTargetIconON(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e048
-void func_ov003_0209e048(void);
+void cameraTargetIconOFF(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e0ac
-void func_ov003_0209e0ac(void);
+void CancelPutShipInner(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e154
-void func_ov003_0209e154(void);
+void WaitInShipMode(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e1bc
-void func_ov003_0209e1bc(void);
+void PutTutorialIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e2dc
-void func_ov003_0209e2dc(void);
+void DeleteTutorialIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e344
-void func_ov003_0209e344(void);
+void SetTutorialModeON(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e388
-void func_ov003_0209e388(void);
+void SetTutorialModeOFF(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e3cc
-void func_ov003_0209e3cc(void);
+void WaitSyncTouchOrder(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e444
-void func_ov003_0209e444(void);
+void WaitShipInnerToBtlField(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e4ac
-void func_ov003_0209e4ac(void);
+void HpBar_Status_IconON(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e4f0
-void func_ov003_0209e4f0(void);
+void HpBar_Status_IconOFF(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e534
-void func_ov003_0209e534(void);
+void InitResultData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e688
-void func_ov003_0209e688(void);
+void SetScenarioNoForResult(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e6d8
-void func_ov003_0209e6d8(void);
+void PutBtlResult(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e788
-void func_ov003_0209e788(void);
+void PutBtlResultForFree(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e838
-void func_ov003_0209e838(void);
+void PutBtlResultForFreeWithoutSave(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e8e8
-void func_ov003_0209e8e8(void);
+void MoveOnClearTimer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e92c
-void func_ov003_0209e92c(void);
+void StopClearTimer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e970
-M2C_UNK func_ov003_0209e970(void);
+M2C_UNK GetClearTimer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209e9c0
-void func_ov003_0209e9c0(void);
+void MoveOnPlanTimer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ea04
-void func_ov003_0209ea04(void);
+void StopPlanTimer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ea48
-void func_ov003_0209ea48(void);
+void SetPlanTimer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ea8c
-M2C_UNK func_ov003_0209ea8c(void);
+M2C_UNK GetPlanTimer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ead8
-void func_ov003_0209ead8(void);
+void SetGameTimeMax(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209eb20
-void func_ov003_0209eb20(void);
+void PutOnOffTimer(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209eb6c
-void func_ov003_0209eb6c(void);
+void SetResultMapReferenceRate(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ebb4
-void func_ov003_0209ebb4(void);
+void SetDropItemBySetNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ebd8
-void func_ov003_0209ebd8(void);
+void SetDropItemByNO(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ebfc
-void func_ov003_0209ebfc(void);
+void Routine_SetEvPosFadeIn(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ec40
-void func_ov003_0209ec40(void);
+void Put__MISSION_START(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ec68
-void func_ov003_0209ec68(void);
+void Put__MISSION_COMPLETE(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ec90
-void func_ov003_0209ec90(void);
+void Put__MISSION_WIN(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209edac
-void func_ov003_0209edac(void);
+void Put__MISSION_LOSE(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209eec8
-void func_ov003_0209eec8(void);
+void Put__MISSION_DRAW(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ef88
-void func_ov003_0209ef88(void);
+void Put__MISSION_TIMEUP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209efb0
-void func_ov003_0209efb0(void);
+void delete__MISSION_START(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f048
-void func_ov003_0209f048(void);
+void delete__MISSION_COMPLETE(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f06c
-void func_ov003_0209f06c(void);
+void delete__MISSION_WINLOSEDRAW(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f090
-void func_ov003_0209f090(void);
+void Put__MISSION_GAMEOVER(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f0b4
-void func_ov003_0209f0b4(void);
+void delete__MISSION_GAMEOVER(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f0e0
-void func_ov003_0209f0e0(void);
+void WaitSyncSelectForGameOver(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f154
-void func_ov003_0209f154(void);
+void GotoLoadData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f1e0
-void func_ov003_0209f1e0(void);
+void GotoTitleScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f26c
-M2C_UNK func_ov003_0209f26c(void);
+M2C_UNK GetNumberChoicePos(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f2b0
-void func_ov003_0209f2b0(void);
+void EndScriptRoutine(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f33c
-void func_ov003_0209f33c(void);
+void SetHaibokuJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f390
-void func_ov003_0209f390(void);
+void SetSyouriJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f3e4
-void func_ov003_0209f3e4(void);
+void PutHaibokuJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f408
-void func_ov003_0209f408(void);
+void PutSyouriJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f42c
-void func_ov003_0209f42c(void);
+void Put_Any_SyouriHaibokuJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f4a4
-void func_ov003_0209f4a4(void);
+void delete_SyouriHaibokuJouken(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f4c8
-M2C_UNK func_ov003_0209f4c8(void);
+M2C_UNK GetPosNoByShisetu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f548
-M2C_UNK func_ov003_0209f548(void);
+M2C_UNK GetConditionShisetu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f5bc
-void func_ov003_0209f5bc(void);
+void CancelUnitSelect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f5e0
-void func_ov003_0209f5e0(void);
+void checkMakeEndShisetu(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f610
-void func_ov003_0209f610(void);
+void Goto_EventNoAndTitleNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f6cc
-void func_ov003_0209f6cc(void);
+void SetBright3DScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f7c0
-M2C_UNK func_ov003_0209f7c0(void);
+M2C_UNK GetNowBGM_No(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f7e4
-void func_ov003_0209f7e4(void);
+void StartMovie(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f884
-void func_ov003_0209f884(void);
+void StartPictureEvent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f918
-void func_ov003_0209f918(void);
+void InitializeSiteOfAreaMap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f93c
-void func_ov003_0209f93c(void);
+void SetLogicNoForCreateUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209f9e4
-M2C_UNK func_ov003_0209f9e4(void);
+M2C_UNK GetDireOfUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fa20
-void func_ov003_0209fa20(void);
+void GetXZOfUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fa7c
-void func_ov003_0209fa7c(void);
+void SetUnitTypeMax(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fae4
-void func_ov003_0209fae4(void);
+void PutOnePlanePicUP_LCD(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fb08
-M2C_UNK func_ov003_0209fb08(void);
+M2C_UNK PutAreaMapUP_LCD(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fb2c
-M2C_UNK func_ov003_0209fb2c(void);
+M2C_UNK GetGameLevelMode(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fb70
-void func_ov003_0209fb70(void);
+void SetFreeScenarioOnOff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fc10
-M2C_UNK func_ov003_0209fc10(void);
+M2C_UNK GetFreeScenarioOnOff(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fc68
-void func_ov003_0209fc68(void);
+void TellToChild_VS_Battle_Endding(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fd0c
-void func_ov003_0209fd0c(void);
+void VS_Battle_Endding(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fd98
-M2C_UNK func_ov003_0209fd98(void);
+M2C_UNK GetVSGameTimerMax(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fdf0
-void func_ov003_0209fdf0(void);
+void SetRoutineByCallGodBeast(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fe2c
-void func_ov003_0209fe2c(void);
+void StockDataForRetry(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fe50
-void func_ov003_0209fe50(void);
+void SetDeathCheckForVS(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fe9c
-M2C_UNK func_ov003_0209fe9c(void);
+M2C_UNK GetCountCallByUnitBaseNo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209fee8
-M2C_UNK func_ov003_0209fee8(void);
+M2C_UNK GetShipAooStByScript(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ff0c
-M2C_UNK func_ov003_0209ff0c(void);
+M2C_UNK Routine_GetPosNoInShisetuIconList(void);
 #endif
 #ifndef M2C_SELF_func_ov003_0209ff50
-void func_ov003_0209ff50(void);
+void SetAikyoEffectWithXYZ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a001c
-void func_ov003_020a001c(void);
+void SetAikyoEffectXYZ(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a010c
-M2C_UNK func_ov003_020a010c(void);
+M2C_UNK IsThereAikyoEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0168
-void func_ov003_020a0168(void);
+void SetLoopFlagForAikyoEffect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a01d4
-void func_ov003_020a01d4(void);
+void WaitSyncAlphaChange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0250
-void func_ov003_020a0250(void);
+void CarisumaUnitParamUpDownByEquip(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a030c
-M2C_UNK func_ov003_020a030c(void);
+M2C_UNK Search_UNIT_INFO(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0388
-M2C_UNK func_ov003_020a0388(void);
+M2C_UNK GetBlank_UNIT_INFO(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a03f4
-void func_ov003_020a03f4(void);
+void MemoPersonFlag(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0498
-void func_ov003_020a0498(void);
+void MemoPersonChange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0534
-void func_ov003_020a0534(void);
+void MemoStoryFlag(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a05b8
-void func_ov003_020a05b8(void);
+void SetMissonFlag(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0610
-M2C_UNK func_ov003_020a0610(void);
+M2C_UNK Search_KEYWORD_INFO(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0688
-M2C_UNK func_ov003_020a0688(void);
+M2C_UNK GetBlank_KEYWORD_INFO(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a06f0
-void func_ov003_020a06f0(void);
+void MemoKeywordFlag(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a078c
-void func_ov003_020a078c(void);
+void MemoKeywordChange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0828
-void func_ov003_020a0828(void);
+void SystemHelpMessageMaxSet(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0884
-void func_ov003_020a0884(void);
+void Local2Global_ObjPara(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0a0c
-void func_ov003_020a0a0c(void);
+void Global2Local_ObjPara(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0b08
-M2C_UNK func_ov003_020a0b08(void);
+M2C_UNK evenOrOdd(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0b40
-void func_ov003_020a0b40(void);
+void TG_eventTitle(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0b8c
-void func_ov003_020a0b8c(void);
+void TG_BattleRestart(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a0c7c
-void func_ov003_020a0c7c(void);
+void TG_setObjDirection_withRelay(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a1bd4
-void func_ov003_020a1bd4(void);
+void TG_objLookObj_withRelay(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a1ca8
-void func_ov003_020a1ca8(void);
+void TG_partyLookObj(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a1d34
-void func_ov003_020a1d34(void);
+void TG_partyLookObj_withRelay(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a1db8
-void func_ov003_020a1db8(void);
+void TG_setPartyDirection(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a1e38
-void func_ov003_020a1e38(void);
+void TG_setPartyDirection_withRelay(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a1eb4
-void func_ov003_020a1eb4(void);
+void TG_deadMotionForEvent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a1f58
-void func_ov003_020a1f58(void);
+void TG_setPartyBeforeWorldmap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2060
-void func_ov003_020a2060(void);
+void TG_setElementsBeforeWorldmap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2134
-void func_ov003_020a2134(void);
+void SG_setParty(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2278
-void func_ov003_020a2278(void);
+void SG_setSisetuFree(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a24e0
-void func_ov003_020a24e0(void);
+void SG_judgeAdvantage(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a26bc
-void func_ov003_020a26bc(void);
+void ScCommonTestRoutine(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a26e8
-void func_ov003_020a26e8(void);
+void MTG_SaveParaReset(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a278c
-void func_ov003_020a278c(void);
+void MTG_CarisumaPosArrange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a297c
-void func_ov003_020a297c(void);
+void MTG_BGM_FadeOutAndChange(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a29e8
-void func_ov003_020a29e8(void);
+void MTG_BecomeDarkScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2a38
-void func_ov003_020a2a38(void);
+void MTG_ReturnDarkScreen(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2a88
-void func_ov003_020a2a88(void);
+void MTG_StartEvent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2ae4
-void func_ov003_020a2ae4(void);
+void MTG_StartLastEvent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2c04
-void func_ov003_020a2c04(void);
+void MTG_EndEvent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2c48
-void func_ov003_020a2c48(void);
+void MTG_BattleStart(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2d58
-void func_ov003_020a2d58(void);
+void MTG_GameOver(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2e54
-M2C_UNK func_ov003_020a2e54(void);
+M2C_UNK MTG_Check_Live_No(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2ec0
-void func_ov003_020a2ec0(void);
+void MTG_FreeBattleEnd1(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2f4c
-void func_ov003_020a2f4c(void);
+void MTG_FreeBattleEnd2(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2f98
-M2C_UNK func_ov003_020a2f98(void);
+M2C_UNK WH_GetWMErrCodeName(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a2fe8
-M2C_UNK func_ov003_020a2fe8(void);
+M2C_UNK WH_GetWMStateCodeName(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a302c
-void func_ov003_020a302c(void);
+void WH_ChangeSysState(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a30b8
-void func_ov003_020a30b8(void);
+void WH_SetError(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a30fc
-void func_ov003_020a30fc(void);
+void WH_StateInSetParentParam(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3154
-void func_ov003_020a3154(void);
+void WH_StateOutSetParentParam(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a31d0
-M2C_UNK func_ov003_020a31d0(void);
+M2C_UNK WH_StateInSetParentWEPKey(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3248
-void func_ov003_020a3248(void);
+void WH_StateOutSetParentWEPKey(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3298
-M2C_UNK func_ov003_020a3298(void);
+M2C_UNK WH_StateInStartParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3308
-void func_ov003_020a3308(void);
+void WH_StateOutStartParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a34b8
-M2C_UNK func_ov003_020a34b8(void);
+M2C_UNK WH_StateInStartParentMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a355c
-void func_ov003_020a355c(void);
+void WH_StateOutStartParentMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3698
-M2C_UNK func_ov003_020a3698(void);
+M2C_UNK WH_StateInStartParentKeyShare(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a36e4
-M2C_UNK func_ov003_020a36e4(void);
+M2C_UNK WH_StateInEndParentKeyShare(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3760
-M2C_UNK func_ov003_020a3760(void);
+M2C_UNK WH_StateInEndParentMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a37a8
-void func_ov003_020a37a8(void);
+void WH_StateOutEndParentMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3810
-M2C_UNK func_ov003_020a3810(void);
+M2C_UNK WH_StateInEndParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3850
-void func_ov003_020a3850(void);
+void WH_StateOutEndParent(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a388c
-M2C_UNK func_ov003_020a388c(void);
+M2C_UNK WH_StartScan(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3938
-M2C_UNK func_ov003_020a3938(void);
+M2C_UNK WH_StateInStartScan(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3a30
-void func_ov003_020a3a30(void);
+void WH_StateOutStartScan(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3c6c
-M2C_UNK func_ov003_020a3c6c(void);
+M2C_UNK WH_EndScan(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3cb8
-M2C_UNK func_ov003_020a3cb8(void);
+M2C_UNK WH_StateInEndScan(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3cf8
-void func_ov003_020a3cf8(void);
+void WH_StateOutEndScan(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3d9c
-M2C_UNK func_ov003_020a3d9c(void);
+M2C_UNK WH_StateInSetChildWEPKey(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3e14
-void func_ov003_020a3e14(void);
+void WH_StateOutSetChildWEPKey(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3e84
-M2C_UNK func_ov003_020a3e84(void);
+M2C_UNK WH_StateInStartChild(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a3f40
-void func_ov003_020a3f40(void);
+void WH_StateOutStartChild(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a40d0
-M2C_UNK func_ov003_020a40d0(void);
+M2C_UNK WH_StateInStartChildMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4150
-void func_ov003_020a4150(void);
+void WH_StateOutStartChildMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a42ac
-M2C_UNK func_ov003_020a42ac(void);
+M2C_UNK WH_StateInStartChildKeyShare(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a431c
-M2C_UNK func_ov003_020a431c(void);
+M2C_UNK WH_StateInEndChildKeyShare(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a438c
-M2C_UNK func_ov003_020a438c(void);
+M2C_UNK WH_StateInEndChildMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a43d4
-void func_ov003_020a43d4(void);
+void WH_StateOutEndChildMP(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4420
-M2C_UNK func_ov003_020a4420(void);
+M2C_UNK WH_StateInEndChild(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4470
-void func_ov003_020a4470(void);
+void WH_StateOutEndChild(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a44ac
-M2C_UNK func_ov003_020a44ac(void);
+M2C_UNK WH_StateInReset(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a44f4
-void func_ov003_020a44f4(void);
+void WH_StateOutReset(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4550
-void func_ov003_020a4550(void);
+void WH_StateInSetMPData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4620
-void func_ov003_020a4620(void);
+void WH_StateOutSetMPData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4678
-void func_ov003_020a4678(void);
+void WH_PortReceiveCallback(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a46fc
-void func_ov003_020a46fc(void);
+void WH_StateOutEnd(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a473c
-void func_ov003_020a473c(void);
+void WH_SetGgid(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4774
-void func_ov003_020a4774(void);
+void WH_SetUserGameInfo(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a47b0
-M2C_UNK func_ov003_020a47b0(void);
+M2C_UNK WH_GetLinkLevel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a47d4
-M2C_UNK func_ov003_020a47d4(void);
+M2C_UNK WH_GetBitmap(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a480c
-M2C_UNK func_ov003_020a480c(void);
+M2C_UNK WH_GetSystemState(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4844
-M2C_UNK func_ov003_020a4844(void);
+M2C_UNK WH_GetLastError(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a487c
-void func_ov003_020a487c(void);
+void WH_StartMeasureChannel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a494c
-M2C_UNK func_ov003_020a494c(void);
+M2C_UNK WH_StateInMeasureChannel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4a10
-void func_ov003_020a4a10(void);
+void WH_StateOutMeasureChannel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4b04
-M2C_UNK func_ov003_020a4b04(void);
+M2C_UNK WHi_MeasureChannel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4b3c
-void func_ov003_020a4b3c(void);
+void WH_GetMeasureChannel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4bb4
-M2C_UNK func_ov003_020a4bb4(void);
+M2C_UNK SelectChannel(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4ca8
-void func_ov003_020a4ca8(void);
+void WH_Initialize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4d24
-void func_ov003_020a4d24(void);
+void WH_IndicateHandler(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4d5c
-M2C_UNK func_ov003_020a4d5c(void);
+M2C_UNK WH_StateInInitialize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4db8
-void func_ov003_020a4db8(void);
+void WH_StateOutInitialize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4e20
-void func_ov003_020a4e20(void);
+void WH_ParentConnect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a4f5c
-void func_ov003_020a4f5c(void);
+void WH_ChildConnect(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a5084
-void func_ov003_020a5084(void);
+void WH_SetReceiver(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a50f0
-M2C_UNK func_ov003_020a50f0(void);
+M2C_UNK WH_SendData(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a5114
-void func_ov003_020a5114(void);
+void WH_Reset(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a5174
-void func_ov003_020a5174(void);
+void WH_Finalize(void);
 #endif
 #ifndef M2C_SELF_func_ov003_020a52d0
-void func_ov003_020a52d0(void);
+void WH_End(void);
 #endif
 #ifndef M2C_SELF_func_ov004_020b8dc0
 M2C_UNK func_ov004_020b8dc0(void);
@@ -15181,7 +15181,7 @@ M2C_UNK func_ov004_020b9640(M2C_UNK, M2C_UNK, M2C_UNK);
 void func_ov004_020b98d8(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov004_020b9a20
-M2C_UNK func_ov004_020b9a20(M2C_UNK);
+M2C_UNK null(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov004_020b9c84
 void func_ov004_020b9c84(M2C_UNK, M2C_UNK);
@@ -17335,286 +17335,286 @@ void func_ov108_020da1d0(void);
 void func_ov108_020da208(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov109_020e1500
-void func_ov109_020e1500(void);
+void InShipRoutine(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e1af0
-void func_ov109_020e1af0(void);
+void FinishMakeUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e1b5c
-void func_ov109_020e1b5c(void);
+void FinishMakeUnit2(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e1be4
-void func_ov109_020e1be4(void);
+void FinishMakeUnitBefore(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e1c30
-M2C_UNK func_ov109_020e1c30(void);
+M2C_UNK GetMakingUnit(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e1ce4
-M2C_UNK func_ov109_020e1ce4(void);
+M2C_UNK oneLoopInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e1edc
-void func_ov109_020e1edc(void);
+void AengineSetUpForShipInner(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e235c
-void func_ov109_020e235c(void);
+void BengineSetUpForShipInner(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e268c
-void func_ov109_020e268c(void);
+void PutHelpInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e27e4
-void func_ov109_020e27e4(void);
+void DeleteHelpInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e28e4
-void func_ov109_020e28e4(void);
+void PutConfirmationInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e2b1c
-void func_ov109_020e2b1c(void);
+void DeleteConfirmationInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e2c34
-void func_ov109_020e2c34(void);
+void SetUpDataInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e2ed4
-void func_ov109_020e2ed4(void);
+void ReleaseDataInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3160
-void func_ov109_020e3160(void);
+void IconPalTransInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e32b8
-M2C_UNK func_ov109_020e32b8(void);
+M2C_UNK ReadShipsFile(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3304
-M2C_UNK func_ov109_020e3304(void);
+M2C_UNK ReadShipsCompFile(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3350
-void func_ov109_020e3350(void);
+void PutUnitStatusInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3730
-void func_ov109_020e3730(void);
+void DeleteUnitStatusInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3880
-M2C_UNK func_ov109_020e3880(void);
+M2C_UNK SetUpUnitSymbolInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3b08
-void func_ov109_020e3b08(void);
+void PutDeleteWinInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3c3c
-void func_ov109_020e3c3c(void);
+void DeleteDeleteWinInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3d44
-void func_ov109_020e3d44(void);
+void PutCancelButtonInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3de0
-void func_ov109_020e3de0(void);
+void DeleteCancelButtonInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3e3c
-void func_ov109_020e3e3c(void);
+void PutIconListWinInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e3fd8
-void func_ov109_020e3fd8(void);
+void DeleteIconListWinInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e40e4
-void func_ov109_020e40e4(void);
+void PutCommonIconInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e440c
-void func_ov109_020e440c(void);
+void DeleteCommonIconInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e44bc
-void func_ov109_020e44bc(void);
+void PutShisetuIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e4590
-void func_ov109_020e4590(void);
+void GetPosNoInShisetuIconList(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e464c
-void func_ov109_020e464c(void);
+void putOneShisetuIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e470c
-void func_ov109_020e470c(void);
+void DeleteShisetuIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e474c
-M2C_UNK func_ov109_020e474c(void);
+M2C_UNK checkMakeUnitKazuByRace(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e47f0
-M2C_UNK func_ov109_020e47f0(void);
+M2C_UNK checkMakeUnitKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e4854
-void func_ov109_020e4854(void);
+void PutSelUnitKazuIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e4a70
-void func_ov109_020e4a70(void);
+void PutListBlackPlane(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e4af4
-void func_ov109_020e4af4(void);
+void putOneSelUnitKazuIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e4bb0
-void func_ov109_020e4bb0(void);
+void forShipHPbarMake(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e4d34
-void func_ov109_020e4d34(void);
+void changeShisetuPosBoard(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e4eb0
-void func_ov109_020e4eb0(void);
+void SetUpFactoryData(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e5000
-void func_ov109_020e5000(void);
+void ChgShisetuKido(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e50d0
-void func_ov109_020e50d0(void);
+void ChgColorShisetu(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e518c
-void func_ov109_020e518c(void);
+void chgPalData(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e5298
-void func_ov109_020e5298(void);
+void ReleaseUpFactoryData(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e5380
-void func_ov109_020e5380(void);
+void SetUpEffectForCreate(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e5484
-void func_ov109_020e5484(void);
+void SetUpUnit256Data(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e568c
-M2C_UNK func_ov109_020e568c(void);
+M2C_UNK GetEmptyUnitWorkInShipWithPos(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e56f0
-void func_ov109_020e56f0(void);
+void ReleaseUpUnit256Data(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e580c
-void func_ov109_020e580c(void);
+void MoveUnitAllInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e5c28
-void func_ov109_020e5c28(void);
+void UpDownColorShisetu(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e5cf8
-M2C_UNK func_ov109_020e5cf8(void);
+M2C_UNK GetShisetuNo(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e5dbc
-M2C_UNK func_ov109_020e5dbc(void);
+M2C_UNK GetShisetuNoWithGodBeast(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e5e9c
-void func_ov109_020e5e9c(void);
+void SetFactoryMakeInWorld(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e60a4
-void func_ov109_020e60a4(void);
+void PutShisetuUnitName(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e61e4
-void func_ov109_020e61e4(void);
+void DeleteShisetuUnitName(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6258
-void func_ov109_020e6258(void);
+void PutSecchiIconGaiaKazuKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e644c
-void func_ov109_020e644c(void);
+void RedrawCoseByKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e64f0
-void func_ov109_020e64f0(void);
+void DeleteSecchiIconGaiaKazuKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6590
-void func_ov109_020e6590(void);
+void ChangeObjAnimeInShipAeng(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6600
-void func_ov109_020e6600(void);
+void PutListUnitIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e66e4
-void func_ov109_020e66e4(void);
+void PutListRelifeIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6884
-void func_ov109_020e6884(void);
+void putOneUnitIcon(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6a44
-void func_ov109_020e6a44(void);
+void ReleaseUnitListGraData(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6a8c
-void func_ov109_020e6a8c(void);
+void ReleaseUnitListGraDataOne(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6b5c
-void func_ov109_020e6b5c(void);
+void changeUnitListSel(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6c0c
-void func_ov109_020e6c0c(void);
+void UpDownColorUnitList(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6cdc
-void func_ov109_020e6cdc(void);
+void PutMakingGage(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e6fc0
-void func_ov109_020e6fc0(void);
+void DeleteMakingGageByPos(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7060
-void func_ov109_020e7060(void);
+void DeleteMakingGage(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e70f0
-void func_ov109_020e70f0(void);
+void SetUnitMakeInWorld(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e722c
-void func_ov109_020e722c(void);
+void SetCarismaUnitRelifeInWorld(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e72c4
-void func_ov109_020e72c4(void);
+void PutShinjuHouseSel(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e73b8
-void func_ov109_020e73b8(void);
+void DeleteShinjuHouseSel(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e741c
-void func_ov109_020e741c(void);
+void PutTouchWaitIconInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e74a4
-void func_ov109_020e74a4(void);
+void deleteTouchWaitIconInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e74e0
-void func_ov109_020e74e0(void);
+void PutCarisumaSkill(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7580
-void func_ov109_020e7580(void);
+void PutNowCanMakeUnitKazu(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e76c4
-void func_ov109_020e76c4(void);
+void PutCarisumaSkillNamePlate(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7748
-void func_ov109_020e7748(void);
+void PutCarisumaSkillName(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7848
-void func_ov109_020e7848(void);
+void MoveShipShake(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e794c
-void func_ov109_020e794c(void);
+void SetTouchPosThereInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7a3c
-void func_ov109_020e7a3c(void);
+void deleteTouchPosIconInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7a8c
-void func_ov109_020e7a8c(void);
+void touchIconEffectInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7ad0
-M2C_UNK func_ov109_020e7ad0(void);
+M2C_UNK touchIconEffectInShipCom(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7bec
-void func_ov109_020e7bec(void);
+void MomentTouchPanelActionInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e7f88
-void func_ov109_020e7f88(void);
+void KeepTouchPanelActionInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e89cc
-void func_ov109_020e89cc(void);
+void ResetIconBright(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e8a24
-void func_ov109_020e8a24(void);
+void LeaveTouchPanelActionInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e9734
-void func_ov109_020e9734(void);
+void PutOffButton(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e97ac
-void func_ov109_020e97ac(void);
+void changeMoveLeftOneChar(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e985c
-void func_ov109_020e985c(void);
+void changeMoveRightOneChar(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e98d0
-M2C_UNK func_ov109_020e98d0(void);
+M2C_UNK GetShisetuBoardPos(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e9974
-void func_ov109_020e9974(void);
+void DeleteShisetuInShip(void);
 #endif
 #ifndef M2C_SELF_func_ov109_020e99c8
-void func_ov109_020e99c8(void);
+void TouchSoundByShisetu(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e1530
 void func_ov110_020e1530(M2C_UNK);
@@ -17695,46 +17695,46 @@ void func_ov110_020e26d8(M2C_UNK, M2C_UNK, M2C_UNK);
 void func_ov110_020e2744(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov110_020e27ec
-void func_ov110_020e27ec(void);
+void DummyCall(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2818
-M2C_UNK func_ov110_020e2818(void);
+M2C_UNK VX_Malloc(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2848
-void func_ov110_020e2848(void);
+void VX_Free(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e287c
-void func_ov110_020e287c(void);
+void VXmovie_SoundCallbackFunction(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e28cc
-void func_ov110_020e28cc(void);
+void VXmovie_StartSoundStream(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2bcc
-void func_ov110_020e2bcc(void);
+void VXmovie_StopSound(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2c14
-void func_ov110_020e2c14(void);
+void VBlankIntrForMovie(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2c60
-M2C_UNK func_ov110_020e2c60(void);
+M2C_UNK VXmovie_GetBackBuffer(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2cc4
-M2C_UNK func_ov110_020e2cc4(void);
+M2C_UNK VXmovie_GetSubBackBuffer(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2d28
-void func_ov110_020e2d28(void);
+void VXmovie_Flip(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2e90
-void func_ov110_020e2e90(void);
+void AlarmIntrForMovie(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2ed4
-M2C_UNK func_ov110_020e2ed4(void);
+M2C_UNK FadeOutInMovie(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e2fb0
-void func_ov110_020e2fb0(void);
+void VXmovie_PlayMovieFile(void);
 #endif
 #ifndef M2C_SELF_func_ov110_020e3870
-void func_ov110_020e3870(void);
+void MovieMoveGo(void);
 #endif
 #ifndef M2C_SELF_func_ov111_020e15e4
 void func_ov111_020e15e4(void);
@@ -18325,7 +18325,7 @@ M2C_UNK func_ov112_020e975c(M2C_UNK, M2C_UNK);
 M2C_UNK func_ov112_020e9858(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov112_020e9978
-M2C_UNK func_ov112_020e9978(M2C_UNK, M2C_UNK);
+M2C_UNK i(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov112_020e9abc
 void func_ov112_020e9abc(void);
@@ -19855,7 +19855,7 @@ void func_ov121_020ef00c(void);
 void func_ov121_020ef73c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov121_020ef838
-void func_ov121_020ef838(M2C_UNK);
+void h(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov121_020ef9dc
 void func_ov121_020ef9dc(void);

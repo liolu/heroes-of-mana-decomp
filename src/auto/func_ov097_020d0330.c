@@ -1,27 +1,27 @@
 #include "m2c.h"
 
-M2C_UNK func_ov003_02099b2c(M2C_UNK);               /* extern */
-M2C_UNK func_ov003_0209d400(M2C_UNK, M2C_UNK);      /* extern */
-M2C_UNK func_ov003_0209e92c();                      /* extern */
-M2C_UNK func_ov003_0209ea04();                      /* extern */
-M2C_UNK func_ov003_0209eb6c();                      /* extern */
-M2C_UNK func_ov003_0209ec90();                      /* extern */
-M2C_UNK func_ov003_0209edac();                      /* extern */
-M2C_UNK func_ov003_0209f06c();                      /* extern */
-M2C_UNK func_ov003_020a297c(M2C_UNK);               /* extern */
+M2C_UNK WaitSyncCounter(M2C_UNK);               /* extern */
+M2C_UNK KuniNameSet(M2C_UNK, M2C_UNK);      /* extern */
+M2C_UNK StopClearTimer();                      /* extern */
+M2C_UNK StopPlanTimer();                      /* extern */
+M2C_UNK SetResultMapReferenceRate();                      /* extern */
+M2C_UNK Put__MISSION_WIN();                      /* extern */
+M2C_UNK Put__MISSION_LOSE();                      /* extern */
+M2C_UNK delete__MISSION_WINLOSEDRAW();                      /* extern */
+M2C_UNK MTG_BGM_FadeOutAndChange(M2C_UNK);               /* extern */
 
 void func_ov097_020d0330(s32 arg0) {
     if (arg0 == 1) {
-        func_ov003_020a297c(5);
-        func_ov003_0209ec90();
-        func_ov003_0209e92c();
-        func_ov003_0209ea04();
-        func_ov003_0209d400(1, 0);
-        func_ov003_0209eb6c();
+        MTG_BGM_FadeOutAndChange(5);
+        Put__MISSION_WIN();
+        StopClearTimer();
+        StopPlanTimer();
+        KuniNameSet(1, 0);
+        SetResultMapReferenceRate();
     } else {
-        func_ov003_020a297c(6);
-        func_ov003_0209edac();
+        MTG_BGM_FadeOutAndChange(6);
+        Put__MISSION_LOSE();
     }
-    func_ov003_02099b2c(0x5A);
-    func_ov003_0209f06c();
+    WaitSyncCounter(0x5A);
+    delete__MISSION_WINLOSEDRAW();
 }

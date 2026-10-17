@@ -1,12 +1,12 @@
 #include "m2c.h"
 
-s32 func_ov003_0209fb2c();                          /* extern */
+s32 GetGameLevelMode();                          /* extern */
 extern void *data_ov000_02051548;
 
 void func_ov022_020d07e8(void) {
     s32 temp_r0;
 
-    temp_r0 = func_ov003_0209fb2c();
+    temp_r0 = GetGameLevelMode();
     switch (temp_r0) {                              /* irregular */
         case 0:
             M2C_FIELD(data_ov000_02051548, s32 *, 0x6C) = 3;

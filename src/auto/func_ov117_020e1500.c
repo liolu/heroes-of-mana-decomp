@@ -3,7 +3,7 @@
 M2C_UNK GX_SetBankForBG(M2C_UNK);                   /* extern */
 M2C_UNK func_020038ac(s32);                         /* extern */
 M2C_UNK func_02003948(s32, M2C_UNK);                /* extern */
-M2C_UNK func_ov000_02046418(M2C_UNK);               /* extern */
+M2C_UNK BGM_Fade(M2C_UNK);               /* extern */
 M2C_UNK func_ov117_020e16fc();                      /* extern */
 M2C_UNK func_ov117_020e17c8();                      /* extern */
 M2C_UNK func_ov117_020e1b48();                      /* extern */
@@ -23,10 +23,10 @@ void func_ov117_020e1500(void) {
 
     temp_r4 = M2C_FIELD(data_0203678c, s32 *, 0xA0);
     if (temp_r4 != 0x26) {
-        func_ov000_02046418(1);
+        BGM_Fade(1);
         func_02003948(0x26, 0);
         func_020038ac(0x26);
-        func_ov000_02046418(0);
+        BGM_Fade(0);
     }
     func_ov117_020e16fc();
     func_ov117_020e17c8();
@@ -47,8 +47,8 @@ void func_ov117_020e1500(void) {
     if (M2C_FIELD(data_0203678c, s32 *, 0xA0) == temp_r4) {
         return;
     }
-    func_ov000_02046418(1);
+    BGM_Fade(1);
     func_02003948(temp_r4, 0);
     func_020038ac(temp_r4);
-    func_ov000_02046418(0);
+    BGM_Fade(0);
 }
