@@ -208,3 +208,168 @@ src/auto/WH_StateInReset.c:
     complete
     .text       start:0x020a44ac end:0x020a44f4
     .data       start:0x020ae794 end:0x020ae7a4
+
+src/auto/AddPutOrder.c:
+    complete
+    .text       start:0x0205a400 end:0x0205a43c
+    .data       start:0x020a81d0 end:0x020a81dc
+
+src/auto/CancelTransTex2Vram.c:
+    complete
+    .text       start:0x0205c968 end:0x0205c9a0
+    .data       start:0x020a849c end:0x020a84b0
+
+src/auto/ChangeComObjByFuncAndNo.c:
+    complete
+    .text       start:0x02080984 end:0x020809a8
+    .data       start:0x020aad48 end:0x020aad60
+
+src/auto/checkCanSeeUnit.c:
+    complete
+    .text       start:0x0209ccc0 end:0x0209ccf4
+    .data       start:0x020ac668 end:0x020ac678
+
+src/auto/checkMakeEndShisetu.c:
+    complete
+    .text       start:0x0209f5e0 end:0x0209f610
+    .data       start:0x020accec end:0x020acd00
+
+src/auto/deleteComObjByComno.c:
+    complete
+    .text       start:0x020806c4 end:0x020806e8
+    .data       start:0x020aac80 end:0x020aac94
+
+src/auto/deleteComObjByComnoRect.c:
+    complete
+    .text       start:0x02080758 end:0x0208077c
+    .data       start:0x020aacac end:0x020aacc4
+
+src/auto/DeleteNoAnimeObjOnlyOne.c:
+    complete
+    .text       start:0x0206f984 end:0x0206f9c0
+    .data       start:0x020a99f0 end:0x020a9a08
+
+src/auto/DeleteObjPalOne.c:
+    complete
+    .text       start:0x0205f320 end:0x0205f344
+    .data       start:0x020a86d8 end:0x020a86e8
+
+src/auto/DeleteObjPatOne.c:
+    complete
+    .text       start:0x0205f1d0 end:0x0205f1f4
+    .data       start:0x020a86b4 end:0x020a86c4
+
+src/auto/delete__MISSION_WINLOSEDRAW.c:
+    complete
+    .text       start:0x0209f06c end:0x0209f090
+    .data       start:0x020acb7c end:0x020acb98
+
+src/auto/GetGaiaFromShip.c:
+    complete
+    .text       start:0x02066a24 end:0x02066a50
+    .data       start:0x020a8edc end:0x020a8eec
+
+src/auto/GetHpOrResource.c:
+    complete
+    .text       start:0x0209cf74 end:0x0209cfc4
+    .data       start:0x020ac6b0 end:0x020ac6c0
+
+src/auto/InitializeSiteOfAreaMap.c:
+    complete
+    .text       start:0x0209f918 end:0x0209f93c
+    .data       start:0x020acd5c end:0x020acd74
+
+src/auto/IsThereRecoverHouse.c:
+    complete
+    .text       start:0x02068484 end:0x020684e0
+    .data       start:0x020a9054 end:0x020a9068
+
+src/auto/ModelWorkReleaseOne.c:
+    complete
+    .text       start:0x020746f8 end:0x02074730
+    .data       start:0x020a9edc end:0x020a9ef0
+
+src/auto/PutBtlResultForFree.c:
+    complete
+    .text       start:0x0209e788 end:0x0209e838
+    .data       start:0x020ac9ac end:0x020ac9c0
+
+src/auto/PutSyouriJouken.c:
+    complete
+    .text       start:0x0209f408 end:0x0209f42c
+    .data       start:0x020acc68 end:0x020acc78
+
+src/auto/ResetUnitSelect.c:
+    complete
+    .text       start:0x020854c0 end:0x02085524
+    .data       start:0x020ab030 end:0x020ab040
+
+src/auto/Routine_DeleteEvPos.c:
+    complete
+    .text       start:0x0209b6c0 end:0x0209b6e4
+    .data       start:0x020ac438 end:0x020ac44c
+
+src/auto/Routine_FadeInAllWithUpDown.c:
+    complete
+    .text       start:0x020997c0 end:0x020997e4
+    .data       start:0x020ac180 end:0x020ac19c
+
+src/auto/Routine_SoundEffect.c:
+    complete
+    .text       start:0x0209c8f0 end:0x0209c914
+    .data       start:0x020ac5a8 end:0x020ac5bc
+
+src/auto/Routine_StopSoundEffect.c:
+    complete
+    .text       start:0x0209c914 end:0x0209c938
+    .data       start:0x020ac5bc end:0x020ac5d4
+
+src/auto/SearchComObjByComno.c:
+    complete
+    .text       start:0x020807f4 end:0x02080818
+    .data       start:0x020aace0 end:0x020aacf4
+
+src/auto/SetDropItemByNO.c:
+    complete
+    .text       start:0x0209ebd8 end:0x0209ebfc
+    .data       start:0x020acaa4 end:0x020acab4
+
+src/auto/SetSyouriJouken.c:
+    complete
+    .text       start:0x0209f390 end:0x0209f3e4
+    .data       start:0x020acc44 end:0x020acc54
+
+src/auto/ShipUnitSelCanOrNot.c:
+    complete
+    .text       start:0x0209b8f4 end:0x0209b940
+    .data       start:0x020ac4a8 end:0x020ac4bc
+
+src/auto/SystemHelpMessageMaxSet.c:
+    complete
+    .text       start:0x020a0828 end:0x020a0884
+    .data       start:0x020ad058 end:0x020ad070
+
+src/auto/WH_GetLinkLevel.c:
+    complete
+    .text       start:0x020a47b0 end:0x020a47d4
+    .data       start:0x020ae850 end:0x020ae860
+
+src/auto/WH_SendData.c:
+    complete
+    .text       start:0x020a50f0 end:0x020a5114
+    .data       start:0x020aea0c end:0x020aea18
+
+src/auto/WH_StateOutEndChild.c:
+    complete
+    .text       start:0x020a4470 end:0x020a44ac
+    .data       start:0x020ae780 end:0x020ae794
+
+src/auto/ClearTensouBuff.c:
+    complete
+    .text       start:0x02052cf0 end:0x02052d3c
+    .data       start:0x020a639c end:0x020a63ac
+
+src/auto/putMode2NormalP_Obj.c:
+    complete
+    .text       start:0x02058814 end:0x020588a0
+    .data       start:0x020a80a0 end:0x020a80b4
