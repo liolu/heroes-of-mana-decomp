@@ -2,3 +2,13 @@
     .ctor       start:0x020e9a9c end:0x020e9a9c kind:rodata align:4
     .data       start:0x020e9aa0 end:0x020ea340 kind:data align:32
     .bss        start:0x020ea340 end:0x020ea360 kind:bss align:32
+
+src/auto/SetCarismaUnitRelifeInWorld.c:
+    complete
+    .text       start:0x020e722c end:0x020e72c4
+    .data       start:0x020ea0ac end:0x020ea0c8
+
+src/auto/UpDownColorUnitList.c:
+    complete
+    .text       start:0x020e6c0c end:0x020e6cdc
+    .data       start:0x020ea048 end:0x020ea05c

@@ -3,3 +3,208 @@
     .ctor       start:0x020a621c end:0x020a621c kind:rodata align:4
     .data       start:0x020a6220 end:0x020aea80 kind:data align:32
     .bss        start:0x020aea80 end:0x020b8dc0 kind:bss align:32
+
+src/auto/cameraTargetIconOFF.c:
+    complete
+    .text       start:0x0209e048 end:0x0209e0ac
+    .data       start:0x020ac898 end:0x020ac8ac
+
+src/auto/changeAreaCenterPos.c:
+    complete
+    .text       start:0x0208441c end:0x020844e4
+    .data       start:0x020aaee4 end:0x020aaef8
+
+src/auto/DeleteMagicIcom.c:
+    complete
+    .text       start:0x02087bb4 end:0x02087bf4
+    .data       start:0x020ab2f4 end:0x020ab304
+
+src/auto/DeleteModelType.c:
+    complete
+    .text       start:0x020744e0 end:0x02074514
+    .data       start:0x020a9e8c end:0x020a9e9c
+
+src/auto/deleteSituationGageIcon.c:
+    complete
+    .text       start:0x0208669c end:0x020866dc
+    .data       start:0x020ab1cc end:0x020ab1e4
+
+src/auto/DeleteTimerOnScreen.c:
+    complete
+    .text       start:0x02089908 end:0x02089954
+    .data       start:0x020ab5cc end:0x020ab5e0
+
+src/auto/deleteTouchWaitIcon.c:
+    complete
+    .text       start:0x02085e54 end:0x02085eac
+    .data       start:0x020ab124 end:0x020ab138
+
+src/auto/DeleteYesNoIcon.c:
+    complete
+    .text       start:0x02088098 end:0x020880f4
+    .data       start:0x020ab388 end:0x020ab398
+
+src/auto/DummyCallScript.c:
+    complete
+    .text       start:0x0209908c end:0x020990b8
+    .data       start:0x020ac04c end:0x020ac05c
+
+src/auto/GotoTitleScreen.c:
+    complete
+    .text       start:0x0209f1e0 end:0x0209f26c
+    .data       start:0x020acbf8 end:0x020acc08
+
+src/auto/GoTrsObjCommand.c:
+    complete
+    .text       start:0x0207bdfc end:0x0207be68
+    .data       start:0x020aa7ac end:0x020aa7bc
+
+src/auto/HpBar_Status_IconON.c:
+    complete
+    .text       start:0x0209e4ac end:0x0209e4f0
+    .data       start:0x020ac948 end:0x020ac95c
+
+src/auto/IsThereShipIcon.c:
+    complete
+    .text       start:0x02086c70 end:0x02086cb8
+    .data       start:0x020ab23c end:0x020ab24c
+
+src/auto/LeaveTouchPanelActionByGameOver.c:
+    complete
+    .text       start:0x02082298 end:0x020822e4
+    .data       start:0x020aae7c end:0x020aae9c
+
+src/auto/ModeConnect.c:
+    complete
+    .text       start:0x0207e080 end:0x0207e0cc
+    .data       start:0x020aa8bc end:0x020aa8c8
+
+src/auto/ModelWorkReleaseAll.c:
+    complete
+    .text       start:0x020745cc end:0x02074638
+    .data       start:0x020a9eb0 end:0x020a9ec4
+
+src/auto/MoveOnPlanTimer.c:
+    complete
+    .text       start:0x0209e9c0 end:0x0209ea04
+    .data       start:0x020aca14 end:0x020aca24
+
+src/auto/MoveOut_MissionStartAndComplete.c:
+    complete
+    .text       start:0x020887a0 end:0x02088800
+    .data       start:0x020ab450 end:0x020ab470
+
+src/auto/MTG_BattleStart.c:
+    complete
+    .text       start:0x020a2c48 end:0x020a2d58
+    .data       start:0x020ad44c end:0x020ad45c
+
+src/auto/ObjPaletteTrans.c:
+    complete
+    .text       start:0x0206bf28 end:0x0206bf84
+    .data       start:0x020a945c end:0x020a946c
+
+src/auto/OkSend2.c:
+    complete
+    .text       start:0x0207f314 end:0x0207f340
+    .data       start:0x020aaa50 end:0x020aaa58
+
+src/auto/putBoxArrow.c:
+    complete
+    .text       start:0x0207144c end:0x020714f0
+    .data       start:0x020a9c5c end:0x020a9c68
+
+src/auto/Put__MISSION_TIMEUP.c:
+    complete
+    .text       start:0x0209ef88 end:0x0209efb0
+    .data       start:0x020acb34 end:0x020acb48
+
+src/auto/ReleaseKaoGraCommon.c:
+    complete
+    .text       start:0x02088288 end:0x020882cc
+    .data       start:0x020ab3b8 end:0x020ab3cc
+
+src/auto/Routine_BattleStart.c:
+    complete
+    .text       start:0x0209aa18 end:0x0209aab0
+    .data       start:0x020ac3a0 end:0x020ac3b4
+
+src/auto/Routine_CameraFixed.c:
+    complete
+    .text       start:0x0209c684 end:0x0209c6c8
+    .data       start:0x020ac4fc end:0x020ac510
+
+src/auto/Routine_DownLCD_Is3DMap.c:
+    complete
+    .text       start:0x0209c9d8 end:0x0209ca74
+    .data       start:0x020ac600 end:0x020ac618
+
+src/auto/ScCommonTestRoutine.c:
+    complete
+    .text       start:0x020a26bc end:0x020a26e8
+    .data       start:0x020ad38c end:0x020ad3a0
+
+src/auto/scscstParameterInit.c:
+    complete
+    .text       start:0x02098fdc end:0x0209908c
+    .data       start:0x020ac038 end:0x020ac04c
+
+src/auto/SetShisetuLevel.c:
+    complete
+    .text       start:0x0209b9d4 end:0x0209ba10
+    .data       start:0x020ac4cc end:0x020ac4dc
+
+src/auto/TexPaletteTrans.c:
+    complete
+    .text       start:0x02061a58 end:0x02061abc
+    .data       start:0x020a8894 end:0x020a88a4
+
+src/auto/UnitSelCanOrNot.c:
+    complete
+    .text       start:0x0209b898 end:0x0209b8f4
+    .data       start:0x020ac498 end:0x020ac4a8
+
+src/auto/UnReadUnitLogic.c:
+    complete
+    .text       start:0x02076998 end:0x02076a0c
+    .data       start:0x020aa15c end:0x020aa16c
+
+src/auto/WaitShipInnerToBtlField.c:
+    complete
+    .text       start:0x0209e444 end:0x0209e4ac
+    .data       start:0x020ac930 end:0x020ac948
+
+src/auto/WaitSyncAikyoEffect.c:
+    complete
+    .text       start:0x0209989c end:0x02099910
+    .data       start:0x020ac1c4 end:0x020ac1d8
+
+src/auto/WH_GetLastError.c:
+    complete
+    .text       start:0x020a4844 end:0x020a487c
+    .data       start:0x020ae884 end:0x020ae894
+
+src/auto/WH_InitializeForAna.c:
+    complete
+    .text       start:0x0207df2c end:0x0207e030
+    .data       start:0x020aa894 end:0x020aa8a8
+
+src/auto/WH_SetError.c:
+    complete
+    .text       start:0x020a30b8 end:0x020a30fc
+    .data       start:0x020ae15c end:0x020ae168
+
+src/auto/WH_StateInEndParent.c:
+    complete
+    .text       start:0x020a3810 end:0x020a3850
+    .data       start:0x020ae3c8 end:0x020ae3dc
+
+src/auto/WH_StateInEndParentKeyShare.c:
+    complete
+    .text       start:0x020a36e4 end:0x020a3760
+    .data       start:0x020ae360 end:0x020ae37c
+
+src/auto/WH_StateInReset.c:
+    complete
+    .text       start:0x020a44ac end:0x020a44f4
+    .data       start:0x020ae794 end:0x020ae7a4

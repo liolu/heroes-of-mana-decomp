@@ -116,7 +116,7 @@ func_ov112_020e9600 kind:function(arm,size=0x6c) addr:0x020e9600
 func_ov112_020e966c kind:function(arm,size=0xf0) addr:0x020e966c
 func_ov112_020e975c kind:function(arm,size=0xfc) addr:0x020e975c
 func_ov112_020e9858 kind:function(arm,size=0x120) addr:0x020e9858
-func_ov112_020e9978 kind:function(arm,size=0x144) addr:0x020e9978
+i kind:function(arm,size=0x144) addr:0x020e9978
 func_ov112_020e9abc kind:function(arm,size=0x98) addr:0x020e9abc
 func_ov112_020e9b54 kind:function(arm,size=0x1c) addr:0x020e9b54
 func_ov112_020e9b70 kind:function(arm,size=0x1c) addr:0x020e9b70
@@ -146,7 +146,7 @@ data_ov112_020ec460 kind:data(any) addr:0x020ec460
 data_ov112_020ec478 kind:data(any) addr:0x020ec478
 data_ov112_020ec49c kind:data(any) addr:0x020ec49c
 data_ov112_020ec4c4 kind:data(any) addr:0x020ec4c4
-data_ov112_020ec4f4 kind:data(any) addr:0x020ec4f4
+data_ov112_020ec4f4 kind:label(arm) addr:0x020ec4f4
 data_ov112_020ec524 kind:data(any) addr:0x020ec524
 data_ov112_020ec530 kind:data(any) addr:0x020ec530
 data_ov112_020ec540 kind:data(any) addr:0x020ec540

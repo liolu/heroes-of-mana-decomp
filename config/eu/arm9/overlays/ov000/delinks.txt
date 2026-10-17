@@ -2,3 +2,38 @@
     .ctor       start:0x02050460 end:0x02050460 kind:rodata align:4
     .data       start:0x02050480 end:0x02051540 kind:data align:32
     .bss        start:0x02051540 end:0x02051560 kind:bss align:32
+
+src/auto/AllFaceReleaseInMessage.c:
+    complete
+    .text       start:0x0204edc0 end:0x0204ee20
+    .data       start:0x02051454 end:0x0205146c
+
+src/auto/CheckMoveWinBGscrol.c:
+    complete
+    .text       start:0x0204a0c4 end:0x0204a124
+    .data       start:0x02051124 end:0x02051138
+
+src/auto/GetItemAdrsForRetry.c:
+    complete
+    .text       start:0x0204897c end:0x020489c4
+    .data       start:0x02050a00 end:0x02050a14
+
+src/auto/GetTouchPanelStatus.c:
+    complete
+    .text       start:0x0204618c end:0x02046228
+    .data       start:0x020507a4 end:0x020507b8
+
+src/auto/MessageFramePut.c:
+    complete
+    .text       start:0x02049e74 end:0x02049f18
+    .data       start:0x020510e8 end:0x020510f8
+
+src/auto/ReadOneFontData.c:
+    complete
+    .text       start:0x0204e604 end:0x0204e690
+    .data       start:0x020513e8 end:0x020513f8
+
+src/auto/Sample_WaitingConsentVS.c:
+    complete
+    .text       start:0x02044b4c end:0x02044cec
+    .data       start:0x02050678 end:0x02050690

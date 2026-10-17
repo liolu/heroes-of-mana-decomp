@@ -127,3 +127,8 @@ src/auto/func_ov110_020e2654.c:
 src/auto/func_ov110_020e2610.c:
     complete
     .text       start:0x020e2610 end:0x020e262c
+
+src/auto/VX_Free.c:
+    complete
+    .text       start:0x020e2848 end:0x020e287c
+    .data       start:0x020e3cc0 end:0x020e3cc8

@@ -818,11 +818,11 @@ src/auto/func_0200faf0.c:
     complete
     .text       start:0x0200faf0 end:0x0200fafc
 
-src/auto/func_0200fb24.c:
+src/auto/__PROFILE_ENTRY.c:
     complete
     .text       start:0x0200fb24 end:0x0200fb28
 
-src/auto/func_0200fb28.c:
+src/auto/__PROFILE_EXIT.c:
     complete
     .text       start:0x0200fb28 end:0x0200fb2c
 
