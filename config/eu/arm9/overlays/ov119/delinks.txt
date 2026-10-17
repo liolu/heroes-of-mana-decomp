@@ -242,3 +242,7 @@ src/auto/func_ov119_020eb4f0.c:
 src/auto/func_ov119_020edf04.c:
     complete
     .text       start:0x020edf04 end:0x020edf40
+
+src/auto/func_ov119_020edeb8.c:
+    complete
+    .text       start:0x020edeb8 end:0x020edf04
