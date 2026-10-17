@@ -1338,3 +1338,6 @@ src/auto/DeleteAllObjPat.c 2.0/sp1p5 -profile
 src/auto/ReleaseNoneAnimeTex.c 2.0/sp1p5 -profile
 src/auto/ReleaseStock_VSMotoData.c 2.0/sp1p5 -profile
 src/auto/ReleaseWorkForMapChange.c 2.0/sp1p5 -profile
+src/auto/func_ov110_020e17d0.c 1.2/sp3
+src/auto/func_ov123_0207c0fc.c 1.2/sp3
+src/auto/func_ov123_0208b3a8.c 1.2/sp3

@@ -3644,3 +3644,11 @@ src/auto/func_ov004_020c7e58.c:
 src/auto/func_ov004_020c828c.c:
     complete
     .text       start:0x020c828c end:0x020c82c8
+
+src/auto/func_ov004_020c0380.c:
+    complete
+    .text       start:0x020c0380 end:0x020c03ac
+
+src/auto/func_ov004_020c03ac.c:
+    complete
+    .text       start:0x020c03ac end:0x020c03e0

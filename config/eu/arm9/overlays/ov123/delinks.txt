@@ -6280,3 +6280,23 @@ src/auto/func_ov123_020d14e8.c:
 src/auto/func_ov123_020d1544.c:
     complete
     .text       start:0x020d1544 end:0x020d1568
+
+src/auto/func_ov123_0207c0fc.c:
+    complete
+    .text       start:0x0207c0fc end:0x0207c12c
+
+src/auto/func_ov123_020880c4.c:
+    complete
+    .text       start:0x020880c4 end:0x02088114
+
+src/auto/func_ov123_02089efc.c:
+    complete
+    .text       start:0x02089efc end:0x02089f68
+
+src/auto/func_ov123_0208a5b4.c:
+    complete
+    .text       start:0x0208a5b4 end:0x0208a5f0
+
+src/auto/func_ov123_0208b3a8.c:
+    complete
+    .text       start:0x0208b3a8 end:0x0208b490
