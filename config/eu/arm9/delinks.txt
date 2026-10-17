@@ -3642,3 +3642,23 @@ src/auto/GetCRC16.c:
 src/auto/WaitByLoop.c:
     complete
     .text       start:0x0200070c end:0x02000710
+
+src/auto/func_02029ec8.c:
+    complete
+    .text       start:0x02029ec8 end:0x0202a088
+
+src/auto/CARDi_IdentifyBackupCore.c:
+    complete
+    .text       start:0x020171a0 end:0x02017408
+
+src/auto/func_020018b8.c:
+    complete
+    .text       start:0x020018b8 end:0x02001a80
+
+src/auto/func_02001ba0.c:
+    complete
+    .text       start:0x02001ba0 end:0x02001d60
+
+src/auto/func_02020dfc.c:
+    complete
+    .text       start:0x02020dfc end:0x020210ac
