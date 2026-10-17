@@ -143,3 +143,15 @@ src/auto/func_ov121_020e9be4.c:
 src/auto/func_ov121_020f30bc.c:
     complete
     .text       start:0x020f30bc end:0x020f3294
+
+src/auto/func_ov121_020f2b54.c:
+    complete
+    .text       start:0x020f2b54 end:0x020f2bec
+
+src/auto/func_ov121_020ec77c.c:
+    complete
+    .text       start:0x020ec77c end:0x020ec828
+
+src/auto/func_ov121_020eca94.c:
+    complete
+    .text       start:0x020eca94 end:0x020ecb60

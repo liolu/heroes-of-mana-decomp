@@ -123,3 +123,7 @@ src/auto/func_ov112_020e727c.c:
 src/auto/func_ov112_020e8cc0.c:
     complete
     .text       start:0x020e8cc0 end:0x020e8d34
+
+src/auto/func_ov112_020e522c.c:
+    complete
+    .text       start:0x020e522c end:0x020e52c4

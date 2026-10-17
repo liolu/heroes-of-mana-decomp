@@ -87,3 +87,7 @@ src/auto/func_ov113_020e2cc8.c:
 src/auto/func_ov113_020e2334.c:
     complete
     .text       start:0x020e2334 end:0x020e2338
+
+src/auto/func_ov113_020e2338.c:
+    complete
+    .text       start:0x020e2338 end:0x020e23e4
