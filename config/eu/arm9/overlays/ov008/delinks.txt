@@ -10,3 +10,7 @@ src/auto/func_ov008_020d0160.c:
 src/auto/func_ov008_020d0184.c:
     complete
     .text       start:0x020d0184 end:0x020d01ec
+
+src/auto/func_ov008_020d01ec.c:
+    complete
+    .text       start:0x020d01ec end:0x020d054c

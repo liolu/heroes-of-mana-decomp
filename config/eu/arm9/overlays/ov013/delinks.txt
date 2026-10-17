@@ -22,3 +22,7 @@ src/auto/func_ov013_020d05ac.c:
 src/auto/func_ov013_020d0794.c:
     complete
     .text       start:0x020d0794 end:0x020d0840
+
+src/auto/func_ov013_020d0160.c:
+    complete
+    .text       start:0x020d0160 end:0x020d04c8

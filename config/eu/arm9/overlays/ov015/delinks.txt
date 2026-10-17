@@ -18,3 +18,7 @@ src/auto/func_ov015_020d0554.c:
 src/auto/func_ov015_020d0504.c:
     complete
     .text       start:0x020d0504 end:0x020d0554
+
+src/auto/func_ov015_020d019c.c:
+    complete
+    .text       start:0x020d019c end:0x020d0504
