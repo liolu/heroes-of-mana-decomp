@@ -3584,3 +3584,11 @@ src/auto/func_ov123_020d15bc.c:
 src/auto/func_ov123_020d1628.c:
     complete
     .text       start:0x020d1628 end:0x020d1644
+
+src/auto/func_ov123_020d2cfc.c:
+    complete
+    .text       start:0x020d2cfc end:0x020d2d8c
+
+src/auto/func_ov123_020d2d8c.c:
+    complete
+    .text       start:0x020d2d8c end:0x020d2e24
