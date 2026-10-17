@@ -3662,3 +3662,40 @@ src/auto/func_02001ba0.c:
 src/auto/func_02020dfc.c:
     complete
     .text       start:0x02020dfc end:0x020210ac
+
+src/donor/OSi_InsertAlarm.c:
+    complete
+    .text       start:0x0200f6ac end:0x0200f7d8
+
+
+src/donor/long2str.c:
+    complete
+    .text       start:0x02021a70 end:0x02021cbc
+
+src/donor/__strtoul.c:
+    complete
+    .text       start:0x020262b8 end:0x020266a0
+
+src/auto/PM_SendUtilityCommandAsync.c:
+    complete
+    .text       start:0x02015bb8 end:0x02015c18
+
+src/auto/MB_SendGameInfoBeacon.c:
+    complete
+    .text       start:0x0201d3e0 end:0x0201d46c
+
+src/auto/MBi_ReadyBeaconSendStatus.c:
+    complete
+    .text       start:0x0201d46c end:0x0201d50c
+
+src/auto/MBi_SetRecvBufferFromChild.c:
+    complete
+    .text       start:0x0201fb28 end:0x0201fc44
+
+src/auto/MBi_ReceiveRequestDataPiece.c:
+    complete
+    .text       start:0x0201fc44 end:0x0201fcd0
+
+src/auto/TP_GetCalibratedResult.c:
+    complete
+    .text       start:0x0201530c end:0x02015358
