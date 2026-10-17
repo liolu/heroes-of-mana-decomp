@@ -548,6 +548,9 @@ def try_one(dn, con, f, syms, log, licenses) -> tuple[str, str] | None:
         profiles = [(version, flags)] + alt_profiles(version, flags, style)
         status, source, version, flags = compile_profiles(pre, dname, rename, name, size, addr, profiles)
         log(f"  {name}: {repo}:{rel}:{dname} [{version} {flags}] -> {status}")
+        if os.environ.get('DONOR_DUMP') and source and status != 'match' and not repo.startswith('ntrtwl'):
+            os.makedirs(os.environ['DONOR_DUMP'], exist_ok=True)
+            open(os.path.join(os.environ['DONOR_DUMP'], f'{name}.{status}.c'), 'w', encoding='utf-8').write(f'/* {version} {flags} */\n' + source)
         if status == "match":
             head = (f"{am.MARKER}{version} {flags} */\n"
                     f"/* {dname} from https://github.com/{repo.replace('_', '/', 1)} {rel}"
