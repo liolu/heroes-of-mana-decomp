@@ -38,3 +38,15 @@ src/auto/func_ov016_020d0a2c.c:
 src/auto/func_ov016_020d0160.c:
     complete
     .text       start:0x020d0160 end:0x020d06b4
+
+src/auto/func_ov016_020d06b4.c:
+    complete
+    .text       start:0x020d06b4 end:0x020d0700
+
+src/auto/func_ov016_020d0700.c:
+    complete
+    .text       start:0x020d0700 end:0x020d074c
+
+src/auto/func_ov016_020d074c.c:
+    complete
+    .text       start:0x020d074c end:0x020d0798

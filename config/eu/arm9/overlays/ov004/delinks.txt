@@ -3560,3 +3560,7 @@ src/auto/func_ov004_020ca49c.c:
 src/auto/func_ov004_020baa94.c:
     complete
     .text       start:0x020baa94 end:0x020bab5c
+
+src/auto/func_ov004_020bc70c.c:
+    complete
+    .text       start:0x020bc70c end:0x020bc758

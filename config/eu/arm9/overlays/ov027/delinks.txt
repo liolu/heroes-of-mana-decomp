@@ -50,3 +50,15 @@ src/auto/func_ov027_020d0c6c.c:
 src/auto/func_ov027_020d0160.c:
     complete
     .text       start:0x020d0160 end:0x020d06b4
+
+src/auto/func_ov027_020d07a0.c:
+    complete
+    .text       start:0x020d07a0 end:0x020d07ec
+
+src/auto/func_ov027_020d07ec.c:
+    complete
+    .text       start:0x020d07ec end:0x020d0838
+
+src/auto/func_ov027_020d0838.c:
+    complete
+    .text       start:0x020d0838 end:0x020d0884

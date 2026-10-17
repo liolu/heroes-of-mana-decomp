@@ -22,3 +22,15 @@ src/auto/func_ov014_020d082c.c:
 src/auto/func_ov014_020d01c8.c:
     complete
     .text       start:0x020d01c8 end:0x020d0748
+
+src/auto/func_ov014_020d0748.c:
+    complete
+    .text       start:0x020d0748 end:0x020d0794
+
+src/auto/func_ov014_020d0794.c:
+    complete
+    .text       start:0x020d0794 end:0x020d07e0
+
+src/auto/func_ov014_020d07e0.c:
+    complete
+    .text       start:0x020d07e0 end:0x020d082c

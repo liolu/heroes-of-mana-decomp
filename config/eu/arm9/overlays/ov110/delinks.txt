@@ -123,3 +123,7 @@ src/auto/func_ov110_020e2744.c:
 src/auto/func_ov110_020e2654.c:
     complete
     .text       start:0x020e2654 end:0x020e26d8
+
+src/auto/func_ov110_020e2610.c:
+    complete
+    .text       start:0x020e2610 end:0x020e262c

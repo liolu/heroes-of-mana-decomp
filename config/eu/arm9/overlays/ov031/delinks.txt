@@ -14,3 +14,15 @@ src/auto/func_ov031_020d060c.c:
 src/auto/func_ov031_020d0690.c:
     complete
     .text       start:0x020d0690 end:0x020d0718
+
+src/auto/func_ov031_020d0528.c:
+    complete
+    .text       start:0x020d0528 end:0x020d0574
+
+src/auto/func_ov031_020d0574.c:
+    complete
+    .text       start:0x020d0574 end:0x020d05c0
+
+src/auto/func_ov031_020d05c0.c:
+    complete
+    .text       start:0x020d05c0 end:0x020d060c

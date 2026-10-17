@@ -62,3 +62,15 @@ src/auto/func_ov007_020d07e8.c:
 src/auto/func_ov007_020d0160.c:
     complete
     .text       start:0x020d0160 end:0x020d04a8
+
+src/auto/func_ov007_020d04f8.c:
+    complete
+    .text       start:0x020d04f8 end:0x020d0544
+
+src/auto/func_ov007_020d0544.c:
+    complete
+    .text       start:0x020d0544 end:0x020d0590
+
+src/auto/func_ov007_020d0590.c:
+    complete
+    .text       start:0x020d0590 end:0x020d05dc
