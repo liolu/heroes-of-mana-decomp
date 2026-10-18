@@ -3752,3 +3752,11 @@ src/auto/func_ov004_020c5d10.c:
 src/auto/func_ov004_020c98c4.c:
     complete
     .text       start:0x020c98c4 end:0x020c98f4
+
+src/auto/func_ov004_020c7204.c:
+    complete
+    .text       start:0x020c7204 end:0x020c7234
+
+src/auto/func_ov004_020c8364.c:
+    complete
+    .text       start:0x020c8364 end:0x020c8394
