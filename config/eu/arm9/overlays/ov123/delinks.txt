@@ -11112,3 +11112,39 @@ src/auto/func_ov123_02070f78.c:
 src/auto/func_ov123_02088dec.c:
     complete
     .text       start:0x02088dec end:0x02088e78
+
+src/auto/func_ov123_0206cd00.c:
+    complete
+    .text       start:0x0206cd00 end:0x0206cd54
+
+src/auto/func_ov123_02071ea4.c:
+    complete
+    .text       start:0x02071ea4 end:0x02071fb4
+
+src/auto/func_ov123_02077580.c:
+    complete
+    .text       start:0x02077580 end:0x020775f0
+
+src/auto/func_ov123_02094030.c:
+    complete
+    .text       start:0x02094030 end:0x0209407c
+
+src/auto/func_ov123_020c3194.c:
+    complete
+    .text       start:0x020c3194 end:0x020c31e0
+
+src/auto/func_ov123_020d2ec4.c:
+    complete
+    .text       start:0x020d2ec4 end:0x020d2f1c
+
+src/auto/func_ov123_020c31e0.c:
+    complete
+    .text       start:0x020c31e0 end:0x020c322c
+
+src/auto/func_ov123_020c322c.c:
+    complete
+    .text       start:0x020c322c end:0x020c3278
+
+src/auto/func_ov123_020d2f1c.c:
+    complete
+    .text       start:0x020d2f1c end:0x020d2f74

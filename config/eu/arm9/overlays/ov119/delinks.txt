@@ -518,3 +518,7 @@ src/data/ov119_data_020f1a8c.c:
 src/data/ov119_data_020f1c08.c:
     complete
     .data       start:0x020f1c08 end:0x020f1e40
+
+src/auto/func_ov119_020f13f4.c:
+    complete
+    .text       start:0x020f13f4 end:0x020f1470
