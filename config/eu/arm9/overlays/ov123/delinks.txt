@@ -11024,3 +11024,23 @@ src/data/ov123_rodata_020d97dc.c:
 src/data/ov123_rodata_020d97e8.c:
     complete
     .rodata     start:0x020d97e8 end:0x020d97f4
+
+src/auto/func_ov123_020c8f8c.c:
+    complete
+    .text       start:0x020c8f8c end:0x020c9018
+
+src/auto/func_ov123_020cfa3c.c:
+    complete
+    .text       start:0x020cfa3c end:0x020cfab0
+
+src/auto/func_ov123_0207162c.c:
+    complete
+    .text       start:0x0207162c end:0x020716c4
+
+src/auto/func_ov123_02092f4c.c:
+    complete
+    .text       start:0x02092f4c end:0x0209302c
+
+src/auto/func_ov123_0209e5c4.c:
+    complete
+    .text       start:0x0209e5c4 end:0x0209e624
