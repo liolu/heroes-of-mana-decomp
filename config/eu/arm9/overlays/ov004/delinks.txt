@@ -3772,3 +3772,15 @@ src/auto/func_ov004_020be1c8.c:
 src/auto/func_ov004_020beb28.c:
     complete
     .text       start:0x020beb28 end:0x020beb74
+
+src/auto/func_ov004_020bcc44.c:
+    complete
+    .text       start:0x020bcc44 end:0x020bcd4c
+
+src/auto/func_ov004_020ca4f0.c:
+    complete
+    .text       start:0x020ca4f0 end:0x020ca508
+
+src/auto/func_ov004_020ca588.c:
+    complete
+    .text       start:0x020ca588 end:0x020ca5a0
