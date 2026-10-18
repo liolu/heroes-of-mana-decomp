@@ -1386,3 +1386,6 @@ src/auto/func_ov123_0209a8a4.c 1.2/sp3
 src/auto/func_ov123_020ae580.c 1.2/sp3
 src/auto/func_ov123_02092998.c 1.2/sp2p3
 src/auto/func_ov123_02094a0c.c 1.2/sp3
+src/auto/func_ov123_020c27ac.c 1.2/sp3
+src/auto/func_ov123_02070f78.c 1.2/sp2p3
+src/auto/func_ov123_02088dec.c 1.2/sp3

@@ -11096,3 +11096,19 @@ src/auto/func_ov123_02094a0c.c:
 src/auto/func_ov123_02099d64.c:
     complete
     .text       start:0x02099d64 end:0x02099d90
+
+src/auto/func_ov123_020bbf0c.c:
+    complete
+    .text       start:0x020bbf0c end:0x020bc060
+
+src/auto/func_ov123_020c27ac.c:
+    complete
+    .text       start:0x020c27ac end:0x020c280c
+
+src/auto/func_ov123_02070f78.c:
+    complete
+    .text       start:0x02070f78 end:0x02071014
+
+src/auto/func_ov123_02088dec.c:
+    complete
+    .text       start:0x02088dec end:0x02088e78

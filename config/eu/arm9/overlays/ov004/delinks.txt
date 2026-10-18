@@ -4396,3 +4396,7 @@ src/data/ov004_rodata_020ccad8.c:
 src/data/ov004_rodata_020ccaf4.c:
     complete
     .rodata     start:0x020ccaf4 end:0x020ccb18
+
+src/auto/func_ov004_020bc954.c:
+    complete
+    .text       start:0x020bc954 end:0x020bc9ec
