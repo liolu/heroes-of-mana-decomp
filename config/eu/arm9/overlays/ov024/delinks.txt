@@ -30,3 +30,11 @@ src/auto/func_ov024_020d0730.c:
 src/auto/func_ov024_020d077c.c:
     complete
     .text       start:0x020d077c end:0x020d07c8
+
+src/data/ov024_rodata_020d1a5c.c:
+    complete
+    .rodata     start:0x020d1a5c end:0x020d1a78
+
+src/data/ov024_rodata_020d1a78.c:
+    complete
+    .rodata     start:0x020d1a78 end:0x020d1a94

@@ -74,3 +74,15 @@ src/auto/func_ov007_020d0544.c:
 src/auto/func_ov007_020d0590.c:
     complete
     .text       start:0x020d0590 end:0x020d05dc
+
+src/data/ov007_rodata_020d3aa8.c:
+    complete
+    .rodata     start:0x020d3aa8 end:0x020d3abc
+
+src/data/ov007_rodata_020d3abc.c:
+    complete
+    .rodata     start:0x020d3abc end:0x020d3b28
+
+src/data/ov007_rodata_020d3b28.c:
+    complete
+    .rodata     start:0x020d3b28 end:0x020d3b68

@@ -10,3 +10,11 @@ src/auto/func_ov068_020d0304.c:
 src/auto/func_ov068_020d0160.c:
     complete
     .text       start:0x020d0160 end:0x020d0304
+
+src/data/ov068_rodata_020d0898.c:
+    complete
+    .rodata     start:0x020d0898 end:0x020d08b4
+
+src/data/ov068_rodata_020d08b4.c:
+    complete
+    .rodata     start:0x020d08b4 end:0x020d08d0

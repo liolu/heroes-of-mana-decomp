@@ -2,3 +2,11 @@
     .rodata     start:0x020d07f8 end:0x020d0830 kind:rodata align:4
     .ctor       start:0x020d0830 end:0x020d0830 kind:rodata align:4
     .bss        start:0x020d0840 end:0x020d0840 kind:bss align:32
+
+src/data/ov063_rodata_020d07f8.c:
+    complete
+    .rodata     start:0x020d07f8 end:0x020d080c
+
+src/data/ov063_rodata_020d0814.c:
+    complete
+    .rodata     start:0x020d0814 end:0x020d0830

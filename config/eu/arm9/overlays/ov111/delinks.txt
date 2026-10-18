@@ -443,3 +443,35 @@ src/data/ov111_bss_020f1bcc.c:
 src/data/ov111_bss_020f1bd8.c:
     complete
     .bss        start:0x020f1bd8 end:0x020f1c00
+
+src/data/ov111_data_020ebfa0.c:
+    complete
+    .data       start:0x020ebfa0 end:0x020ebfbc
+
+src/data/ov111_data_020ebfbc.c:
+    complete
+    .data       start:0x020ebfbc end:0x020ebfe0
+
+src/data/ov111_data_020ebfe0.c:
+    complete
+    .data       start:0x020ebfe0 end:0x020ebff4
+
+src/data/ov111_data_020ebff4.c:
+    complete
+    .data       start:0x020ebff4 end:0x020ec008
+
+src/data/ov111_data_020ec008.c:
+    complete
+    .data       start:0x020ec008 end:0x020ec01c
+
+src/data/ov111_data_020ec01c.c:
+    complete
+    .data       start:0x020ec01c end:0x020ec048
+
+src/data/ov111_data_020ec048.c:
+    complete
+    .data       start:0x020ec048 end:0x020ec1a0
+
+src/data/ov111_rodata_020eb88c.c:
+    complete
+    .rodata     start:0x020eb88c end:0x020ebf04

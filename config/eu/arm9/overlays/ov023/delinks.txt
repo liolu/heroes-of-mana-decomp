@@ -42,3 +42,11 @@ src/auto/func_ov023_020d05bc.c:
 src/auto/func_ov023_020d0608.c:
     complete
     .text       start:0x020d0608 end:0x020d0654
+
+src/data/ov023_rodata_020d2070.c:
+    complete
+    .rodata     start:0x020d2070 end:0x020d20cc
+
+src/data/ov023_rodata_020d20cc.c:
+    complete
+    .rodata     start:0x020d20cc end:0x020d20fc

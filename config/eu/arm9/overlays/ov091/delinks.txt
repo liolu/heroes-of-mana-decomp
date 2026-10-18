@@ -10,3 +10,27 @@ src/auto/func_ov091_020d0218.c:
 src/auto/func_ov091_020d0160.c:
     complete
     .text       start:0x020d0160 end:0x020d0218
+
+src/data/ov091_rodata_020d1680.c:
+    complete
+    .rodata     start:0x020d1680 end:0x020d1698
+
+src/data/ov091_rodata_020d1698.c:
+    complete
+    .rodata     start:0x020d1698 end:0x020d16b0
+
+src/data/ov091_rodata_020d16b0.c:
+    complete
+    .rodata     start:0x020d16b0 end:0x020d16c8
+
+src/data/ov091_rodata_020d16c8.c:
+    complete
+    .rodata     start:0x020d16c8 end:0x020d16e0
+
+src/data/ov091_rodata_020d16e0.c:
+    complete
+    .rodata     start:0x020d16e0 end:0x020d16fc
+
+src/data/ov091_rodata_020d16fc.c:
+    complete
+    .rodata     start:0x020d16fc end:0x020d1718

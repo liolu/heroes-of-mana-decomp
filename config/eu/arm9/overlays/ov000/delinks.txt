@@ -53,3 +53,15 @@ src/data/ov000_bss_02051548.c:
 src/data/ov000_bss_0205154c.c:
     complete
     .bss        start:0x0205154c end:0x02051560
+
+src/data/ov000_data_02050488.c:
+    complete
+    .data       start:0x02050488 end:0x020504ac
+
+src/data/ov000_data_02050718.c:
+    complete
+    .data       start:0x02050718 end:0x02050720
+
+src/data/ov000_data_02050a60.c:
+    complete
+    .data       start:0x02050a60 end:0x02050ae0

@@ -123,3 +123,19 @@ src/data/ov113_bss_020e506c.c:
 src/data/ov113_bss_020e5390.c:
     complete
     .bss        start:0x020e5390 end:0x020e53c0
+
+src/data/ov113_data_020e48c0.c:
+    complete
+    .data       start:0x020e48c0 end:0x020e48c4
+
+src/data/ov113_data_020e48c4.c:
+    complete
+    .data       start:0x020e48c4 end:0x020e48d4
+
+src/data/ov113_data_020e48d4.c:
+    complete
+    .data       start:0x020e48d4 end:0x020e4940
+
+src/data/ov113_rodata_020e40dc.c:
+    complete
+    .rodata     start:0x020e40dc end:0x020e48a8

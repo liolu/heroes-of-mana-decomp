@@ -140,3 +140,11 @@ src/auto/func_ov110_020e17d0.c:
 src/data/ov110_bss_020e3dc0.c:
     complete
     .bss        start:0x020e3dc0 end:0x020e3de0
+
+src/data/ov110_data_020e3c68.c:
+    complete
+    .data       start:0x020e3c68 end:0x020e3c8c
+
+src/data/ov110_rodata_020e3b80.c:
+    complete
+    .rodata     start:0x020e3b80 end:0x020e3c40

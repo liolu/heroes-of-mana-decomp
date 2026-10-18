@@ -203,3 +203,23 @@ src/data/ov115_bss_020e99d8.c:
 src/data/ov115_bss_020e9a34.c:
     complete
     .bss        start:0x020e9a34 end:0x020e9a60
+
+src/data/ov115_data_020e8ce0.c:
+    complete
+    .data       start:0x020e8ce0 end:0x020e8ce8
+
+src/data/ov115_data_020e8ce8.c:
+    complete
+    .data       start:0x020e8ce8 end:0x020e8d20
+
+src/data/ov115_rodata_020e7f20.c:
+    complete
+    .rodata     start:0x020e7f20 end:0x020e7f38
+
+src/data/ov115_rodata_020e7f38.c:
+    complete
+    .rodata     start:0x020e7f38 end:0x020e81c0
+
+src/data/ov115_rodata_020e84a0.c:
+    complete
+    .rodata     start:0x020e84a0 end:0x020e8cd8

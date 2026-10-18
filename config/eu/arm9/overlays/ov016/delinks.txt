@@ -50,3 +50,7 @@ src/auto/func_ov016_020d0700.c:
 src/auto/func_ov016_020d074c.c:
     complete
     .text       start:0x020d074c end:0x020d0798
+
+src/data/ov016_rodata_020d2354.c:
+    complete
+    .rodata     start:0x020d2354 end:0x020d23c4

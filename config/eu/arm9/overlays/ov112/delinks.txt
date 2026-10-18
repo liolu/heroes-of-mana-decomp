@@ -255,3 +255,23 @@ src/data/ov112_bss_020ed984.c:
 src/data/ov112_bss_020eedb0.c:
     complete
     .bss        start:0x020eedb0 end:0x020eede0
+
+src/data/ov112_data_020ec460.c:
+    complete
+    .data       start:0x020ec460 end:0x020ec4c4
+
+src/data/ov112_data_020ec524.c:
+    complete
+    .data       start:0x020ec524 end:0x020ec530
+
+src/data/ov112_data_020ec530.c:
+    complete
+    .data       start:0x020ec530 end:0x020ec580
+
+src/data/ov112_rodata_020eb32c.c:
+    complete
+    .rodata     start:0x020eb32c end:0x020ebd84
+
+src/data/ov112_rodata_020ec258.c:
+    complete
+    .rodata     start:0x020ec258 end:0x020ec458

@@ -34,3 +34,7 @@ src/auto/func_ov095_020d0160.c:
 src/data/ov095_bss_020d18c0.c:
     complete
     .bss        start:0x020d18c0 end:0x020d18e0
+
+src/data/ov095_rodata_020d1878.c:
+    complete
+    .rodata     start:0x020d1878 end:0x020d18a0

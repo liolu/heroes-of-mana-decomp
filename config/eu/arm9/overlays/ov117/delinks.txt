@@ -359,3 +359,55 @@ src/data/ov117_bss_020f3d94.c:
 src/data/ov117_bss_020f3db8.c:
     complete
     .bss        start:0x020f3db8 end:0x020f3de0
+
+src/data/ov117_data_020efba0.c:
+    complete
+    .data       start:0x020efba0 end:0x020efbb0
+
+src/data/ov117_data_020efbb0.c:
+    complete
+    .data       start:0x020efbb0 end:0x020efbc0
+
+src/data/ov117_data_020efbc0.c:
+    complete
+    .data       start:0x020efbc0 end:0x020efbd4
+
+src/data/ov117_data_020efbd4.c:
+    complete
+    .data       start:0x020efbd4 end:0x020efc00
+
+src/data/ov117_data_020efc00.c:
+    complete
+    .data       start:0x020efc00 end:0x020efc10
+
+src/data/ov117_data_020efc10.c:
+    complete
+    .data       start:0x020efc10 end:0x020efc3c
+
+src/data/ov117_data_020efc3c.c:
+    complete
+    .data       start:0x020efc3c end:0x020f0290
+
+src/data/ov117_data_020f0290.c:
+    complete
+    .data       start:0x020f0290 end:0x020f02b4
+
+src/data/ov117_data_020f02b8.c:
+    complete
+    .data       start:0x020f02b8 end:0x020f02c4
+
+src/data/ov117_rodata_020ed4d4.c:
+    complete
+    .rodata     start:0x020ed4d4 end:0x020edc20
+
+src/data/ov117_rodata_020edc20.c:
+    complete
+    .rodata     start:0x020edc20 end:0x020ee0b8
+
+src/data/ov117_rodata_020ee0b8.c:
+    complete
+    .rodata     start:0x020ee0b8 end:0x020ee328
+
+src/data/ov117_rodata_020eeac0.c:
+    complete
+    .rodata     start:0x020eeac0 end:0x020eef1c

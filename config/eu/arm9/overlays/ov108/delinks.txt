@@ -158,3 +158,15 @@ src/auto/func_ov108_020d9d44.c:
 src/auto/func_ov108_020da1d0.c:
     complete
     .text       start:0x020da1d0 end:0x020da208
+
+src/data/ov108_data_020da3e0.c:
+    complete
+    .data       start:0x020da3e0 end:0x020da3e4
+
+src/data/ov108_data_020da3e4.c:
+    complete
+    .data       start:0x020da3e4 end:0x020da3f0
+
+src/data/ov108_data_020da400.c:
+    complete
+    .data       start:0x020da400 end:0x020da620

@@ -6,3 +6,7 @@
 src/auto/func_ov070_020d0160.c:
     complete
     .text       start:0x020d0160 end:0x020d02f4
+
+src/data/ov070_rodata_020d07c8.c:
+    complete
+    .rodata     start:0x020d07c8 end:0x020d0800

@@ -119,3 +119,39 @@ src/data/ov116_bss_020e7a88.c:
 src/data/ov116_bss_020e7b5c.c:
     complete
     .bss        start:0x020e7b5c end:0x020e7b80
+
+src/data/ov116_data_020e6380.c:
+    complete
+    .data       start:0x020e6380 end:0x020e6384
+
+src/data/ov116_data_020e6384.c:
+    complete
+    .data       start:0x020e6384 end:0x020e6398
+
+src/data/ov116_data_020e6398.c:
+    complete
+    .data       start:0x020e6398 end:0x020e63b4
+
+src/data/ov116_data_020e63b4.c:
+    complete
+    .data       start:0x020e63b4 end:0x020e63d0
+
+src/data/ov116_data_020e63d0.c:
+    complete
+    .data       start:0x020e63d0 end:0x020e63e0
+
+src/data/ov116_data_020e63e0.c:
+    complete
+    .data       start:0x020e63e0 end:0x020e6570
+
+src/data/ov116_data_020e6574.c:
+    complete
+    .data       start:0x020e6574 end:0x020e7180
+
+src/data/ov116_rodata_020e58ec.c:
+    complete
+    .rodata     start:0x020e58ec end:0x020e5970
+
+src/data/ov116_rodata_020e5c24.c:
+    complete
+    .rodata     start:0x020e5c24 end:0x020e637c

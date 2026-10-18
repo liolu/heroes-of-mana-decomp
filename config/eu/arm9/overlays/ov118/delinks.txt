@@ -98,3 +98,27 @@ src/data/ov118_bss_020e332c.c:
 src/data/ov118_bss_020e3730.c:
     complete
     .bss        start:0x020e3730 end:0x020e3740
+
+src/data/ov118_data_020e30a0.c:
+    complete
+    .data       start:0x020e30a0 end:0x020e30a8
+
+src/data/ov118_data_020e30a8.c:
+    complete
+    .data       start:0x020e30a8 end:0x020e30b8
+
+src/data/ov118_data_020e30b8.c:
+    complete
+    .data       start:0x020e30b8 end:0x020e30c8
+
+src/data/ov118_data_020e30c8.c:
+    complete
+    .data       start:0x020e30c8 end:0x020e3100
+
+src/data/ov118_data_020e3100.c:
+    complete
+    .data       start:0x020e3100 end:0x020e3104
+
+src/data/ov118_data_020e3104.c:
+    complete
+    .data       start:0x020e3104 end:0x020e31e0

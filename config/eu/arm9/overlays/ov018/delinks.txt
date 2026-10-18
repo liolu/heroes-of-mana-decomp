@@ -26,3 +26,11 @@ src/auto/func_ov018_020d0b24.c:
 src/auto/func_ov018_020d0b70.c:
     complete
     .text       start:0x020d0b70 end:0x020d0bbc
+
+src/data/ov018_rodata_020d286c.c:
+    complete
+    .rodata     start:0x020d286c end:0x020d288c
+
+src/data/ov018_rodata_020d288c.c:
+    complete
+    .rodata     start:0x020d288c end:0x020d28a8

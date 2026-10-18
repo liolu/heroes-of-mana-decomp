@@ -16,3 +16,15 @@ src/auto/UpDownColorUnitList.c:
 src/data/ov109_bss_020ea340.c:
     complete
     .bss        start:0x020ea340 end:0x020ea360
+
+src/data/ov109_data_020e9aa0.c:
+    complete
+    .data       start:0x020e9aa0 end:0x020e9aa8
+
+src/data/ov109_data_020e9aa8.c:
+    complete
+    .data       start:0x020e9aa8 end:0x020e9abc
+
+src/data/ov109_data_020ea1cc.c:
+    complete
+    .data       start:0x020ea1cc end:0x020ea1d4

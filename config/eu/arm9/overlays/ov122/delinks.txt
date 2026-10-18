@@ -527,3 +527,47 @@ src/data/ov122_bss_02066494.c:
 src/data/ov122_bss_020664a4.c:
     complete
     .bss        start:0x020664a4 end:0x020664c0
+
+src/data/ov122_data_02061cc0.c:
+    complete
+    .data       start:0x02061cc0 end:0x02061cc8
+
+src/data/ov122_data_02061cc8.c:
+    complete
+    .data       start:0x02061cc8 end:0x02061cd8
+
+src/data/ov122_data_02061cd8.c:
+    complete
+    .data       start:0x02061cd8 end:0x02061ce8
+
+src/data/ov122_data_02061ce8.c:
+    complete
+    .data       start:0x02061ce8 end:0x02061d48
+
+src/data/ov122_data_02061d48.c:
+    complete
+    .data       start:0x02061d48 end:0x02061da8
+
+src/data/ov122_data_02061da8.c:
+    complete
+    .data       start:0x02061da8 end:0x02061f04
+
+src/data/ov122_data_02061f08.c:
+    complete
+    .data       start:0x02061f08 end:0x02062b20
+
+src/data/ov122_rodata_02060068.c:
+    complete
+    .rodata     start:0x02060068 end:0x020603a8
+
+src/data/ov122_rodata_020603a8.c:
+    complete
+    .rodata     start:0x020603a8 end:0x020603b0
+
+src/data/ov122_rodata_02060594.c:
+    complete
+    .rodata     start:0x02060594 end:0x020607bc
+
+src/data/ov122_rodata_02060d30.c:
+    complete
+    .rodata     start:0x02060d30 end:0x02061ca8

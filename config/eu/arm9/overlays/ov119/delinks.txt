@@ -486,3 +486,35 @@ src/data/ov119_bss_020f2750.c:
 src/data/ov119_bss_020f2f5c.c:
     complete
     .bss        start:0x020f2f5c end:0x020f2f80
+
+src/data/ov119_data_020f1a00.c:
+    complete
+    .data       start:0x020f1a00 end:0x020f1a14
+
+src/data/ov119_data_020f1a14.c:
+    complete
+    .data       start:0x020f1a14 end:0x020f1a28
+
+src/data/ov119_data_020f1a28.c:
+    complete
+    .data       start:0x020f1a28 end:0x020f1a3c
+
+src/data/ov119_data_020f1a3c.c:
+    complete
+    .data       start:0x020f1a3c end:0x020f1a50
+
+src/data/ov119_data_020f1a50.c:
+    complete
+    .data       start:0x020f1a50 end:0x020f1a7c
+
+src/data/ov119_data_020f1a7c.c:
+    complete
+    .data       start:0x020f1a7c end:0x020f1a8c
+
+src/data/ov119_data_020f1a8c.c:
+    complete
+    .data       start:0x020f1a8c end:0x020f1c08
+
+src/data/ov119_data_020f1c08.c:
+    complete
+    .data       start:0x020f1c08 end:0x020f1e40

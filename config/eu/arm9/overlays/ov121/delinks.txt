@@ -323,3 +323,31 @@ src/data/ov121_bss_020f77dc.c:
 src/data/ov121_bss_020f77f8.c:
     complete
     .bss        start:0x020f77f8 end:0x020f7800
+
+src/data/ov121_data_020f5960.c:
+    complete
+    .data       start:0x020f5960 end:0x020f5968
+
+src/data/ov121_data_020f5968.c:
+    complete
+    .data       start:0x020f5968 end:0x020f598c
+
+src/data/ov121_data_020f598c.c:
+    complete
+    .data       start:0x020f598c end:0x020f5990
+
+src/data/ov121_data_020f5990.c:
+    complete
+    .data       start:0x020f5990 end:0x020f59c4
+
+src/data/ov121_data_020f5a14.c:
+    complete
+    .data       start:0x020f5a14 end:0x020f5b80
+
+src/data/ov121_rodata_020f43a0.c:
+    complete
+    .rodata     start:0x020f43a0 end:0x020f46b0
+
+src/data/ov121_rodata_020f4ae8.c:
+    complete
+    .rodata     start:0x020f4ae8 end:0x020f595c
