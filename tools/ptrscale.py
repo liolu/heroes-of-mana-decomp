@@ -14,6 +14,6 @@ for nm in names:
     for v in ptrs:
         new = re.sub(r'\b%s \+= (0x[0-9A-Fa-f]+|\d+);' % v, r'%s = (void *)((u8 *)%s + \1);' % (v, v), new)
         new = re.sub(r'\(%s \+ (0x[0-9A-Fa-f]+|\d+)\)' % v, r'((u8 *)%s + \1)' % v, new)
-        new = re.sub(r'(?<![\w*])%s \+ (0x[0-9A-Fa-f]+|\d+)(?=\))' % v, r'(u8 *)%s + \1' % v, new)
+        new = re.sub(r'(?<![\w*)])%s \+ (0x[0-9A-Fa-f]+|\d+)(?=\))' % v, r'(u8 *)%s + \1' % v, new)
     if new != t: open(os.path.join(out, nm + '.c'), 'w').write(new); n += 1
 print('wrote', n)
