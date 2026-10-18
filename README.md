@@ -11,11 +11,11 @@ No game assets in this repository: see `extract/README.md`.
 ## Progress
 
 <!-- progress:start -->
-`████░░░░░░░░░░░░░░░░` **19.75%** of the code matched · data 75.27% · 4825/9265 functions
+`████░░░░░░░░░░░░░░░░` **20.65%** of the code matched · data 75.27% · 4829/9265 functions
 
 | Part of the code | Files | Functions | Share of all code |
 |---|---|---|---|
-| Auto-matched (raw m2c output, to clean up) | 4057 | 4057/4057 | 15.69% |
+| Auto-matched (raw m2c output, to clean up) | 4061 | 4061/4061 | 16.58% |
 | Reused from other decompilations, not merged into files yet | 229 | 229/229 | 1.91% |
 | NitroSDK (Nintendo's system library) | 303 | 455/455 | 1.82% |
 | NitroSystem (Nintendo's middleware) | 39 | 52/52 | 0.13% |
@@ -23,7 +23,7 @@ No game assets in this repository: see `extract/README.md`.
 | Other libraries | 9 | 9/9 | 0.08% |
 | Game code: `src/data/` | 2141 | 0/0 | 0.00% |
 
-*Updated 2026-10-18 by `python tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
+*Updated 2026-10-19 by `python tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
 <!-- progress:end -->
 
 ```shell
