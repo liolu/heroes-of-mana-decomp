@@ -3760,3 +3760,15 @@ src/auto/func_ov004_020c7204.c:
 src/auto/func_ov004_020c8364.c:
     complete
     .text       start:0x020c8364 end:0x020c8394
+
+src/auto/func_ov004_020bd93c.c:
+    complete
+    .text       start:0x020bd93c end:0x020bd988
+
+src/auto/func_ov004_020be1c8.c:
+    complete
+    .text       start:0x020be1c8 end:0x020be214
+
+src/auto/func_ov004_020beb28.c:
+    complete
+    .text       start:0x020beb28 end:0x020beb74
