@@ -433,3 +433,139 @@ src/auto/ReleaseWorkForMapChange.c:
     complete
     .text       start:0x020767e8 end:0x020768c0
     .data       start:0x020aa134 end:0x020aa14c
+
+src/data/ov003_bss_020aea80.c:
+    complete
+    .bss        start:0x020aea80 end:0x020aea84
+
+src/data/ov003_bss_020aea84.c:
+    complete
+    .bss        start:0x020aea84 end:0x020aea9c
+
+src/data/ov003_bss_020aea9c.c:
+    complete
+    .bss        start:0x020aea9c end:0x020aeaa0
+
+src/data/ov003_bss_020aeaa0.c:
+    complete
+    .bss        start:0x020aeaa0 end:0x020aeaa4
+
+src/data/ov003_bss_020aeab4.c:
+    complete
+    .bss        start:0x020aeab4 end:0x020af99c
+
+src/data/ov003_bss_020af99c.c:
+    complete
+    .bss        start:0x020af99c end:0x020b08ac
+
+src/data/ov003_bss_020b08ac.c:
+    complete
+    .bss        start:0x020b08ac end:0x020b08c0
+
+src/data/ov003_bss_020b08c0.c:
+    complete
+    .bss        start:0x020b08c0 end:0x020b0938
+
+src/data/ov003_bss_020b095c.c:
+    complete
+    .bss        start:0x020b095c end:0x020b0960
+
+src/data/ov003_bss_020b0960.c:
+    complete
+    .bss        start:0x020b0960 end:0x020b096c
+
+src/data/ov003_bss_020b096c.c:
+    complete
+    .bss        start:0x020b096c end:0x020b0cf0
+
+src/data/ov003_bss_020b0d30.c:
+    complete
+    .bss        start:0x020b0d30 end:0x020b0d34
+
+src/data/ov003_bss_020b0d34.c:
+    complete
+    .bss        start:0x020b0d34 end:0x020b0d38
+
+src/data/ov003_bss_020b0d38.c:
+    complete
+    .bss        start:0x020b0d38 end:0x020b0d50
+
+src/data/ov003_bss_020b0d80.c:
+    complete
+    .bss        start:0x020b0d80 end:0x020b0dac
+
+src/data/ov003_bss_020b0dac.c:
+    complete
+    .bss        start:0x020b0dac end:0x020b0db4
+
+src/data/ov003_bss_020b0db4.c:
+    complete
+    .bss        start:0x020b0db4 end:0x020b0dd0
+
+src/data/ov003_bss_020b0dd0.c:
+    complete
+    .bss        start:0x020b0dd0 end:0x020b0dd8
+
+src/data/ov003_bss_020b0dd8.c:
+    complete
+    .bss        start:0x020b0dd8 end:0x020b5310
+
+src/data/ov003_bss_020b5310.c:
+    complete
+    .bss        start:0x020b5310 end:0x020b5320
+
+src/data/ov003_bss_020b5320.c:
+    complete
+    .bss        start:0x020b5320 end:0x020b5328
+
+src/data/ov003_bss_020b5328.c:
+    complete
+    .bss        start:0x020b5328 end:0x020b5334
+
+src/data/ov003_bss_020b533c.c:
+    complete
+    .bss        start:0x020b533c end:0x020b535c
+
+src/data/ov003_bss_020b535c.c:
+    complete
+    .bss        start:0x020b535c end:0x020b5374
+
+src/data/ov003_bss_020b5374.c:
+    complete
+    .bss        start:0x020b5374 end:0x020b53f0
+
+src/data/ov003_bss_020b53f0.c:
+    complete
+    .bss        start:0x020b53f0 end:0x020b54e8
+
+src/data/ov003_bss_020b54e8.c:
+    complete
+    .bss        start:0x020b54e8 end:0x020b551c
+
+src/data/ov003_bss_020b551c.c:
+    complete
+    .bss        start:0x020b551c end:0x020b6380
+
+src/data/ov003_bss_020b6380.c:
+    complete
+    .bss        start:0x020b6380 end:0x020b6430
+
+src/data/ov003_bss_020b6430.c:
+    complete
+    .bss        start:0x020b6430 end:0x020b64a0
+
+src/data/ov003_bss_020b64a0.c:
+    complete
+    .bss        start:0x020b64a0 end:0x020b64c0
+
+src/data/ov003_bss_020b64c0.c:
+    complete
+    .bss        start:0x020b64c0 end:0x020b7000
+
+src/data/ov003_bss_020b7000.c:
+    complete
+    .bss        start:0x020b7000 end:0x020b7820
+
+src/data/ov003_bss_020b7820.c:
+    complete
+    .bss        start:0x020b7820 end:0x020b8dc0

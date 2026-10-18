@@ -363,3 +363,167 @@ src/auto/func_ov122_0205201c.c:
 src/auto/func_ov122_0205204c.c:
     complete
     .text       start:0x0205204c end:0x0205207c
+
+src/data/ov122_bss_02062b20.c:
+    complete
+    .bss        start:0x02062b20 end:0x02062bd8
+
+src/data/ov122_bss_02062bd8.c:
+    complete
+    .bss        start:0x02062bd8 end:0x02062c68
+
+src/data/ov122_bss_02062c68.c:
+    complete
+    .bss        start:0x02062c68 end:0x02063020
+
+src/data/ov122_bss_02063020.c:
+    complete
+    .bss        start:0x02063020 end:0x020630b0
+
+src/data/ov122_bss_020630b0.c:
+    complete
+    .bss        start:0x020630b0 end:0x02063140
+
+src/data/ov122_bss_02063140.c:
+    complete
+    .bss        start:0x02063140 end:0x02063388
+
+src/data/ov122_bss_02063388.c:
+    complete
+    .bss        start:0x02063388 end:0x020635c8
+
+src/data/ov122_bss_020635c8.c:
+    complete
+    .bss        start:0x020635c8 end:0x020637e0
+
+src/data/ov122_bss_020637e0.c:
+    complete
+    .bss        start:0x020637e0 end:0x0206386c
+
+src/data/ov122_bss_0206386c.c:
+    complete
+    .bss        start:0x0206386c end:0x020638e0
+
+src/data/ov122_bss_020638e0.c:
+    complete
+    .bss        start:0x020638e0 end:0x02063d68
+
+src/data/ov122_bss_02063d68.c:
+    complete
+    .bss        start:0x02063d68 end:0x02063f20
+
+src/data/ov122_bss_02063f20.c:
+    complete
+    .bss        start:0x02063f20 end:0x0206400c
+
+src/data/ov122_bss_0206400c.c:
+    complete
+    .bss        start:0x0206400c end:0x02064080
+
+src/data/ov122_bss_02064080.c:
+    complete
+    .bss        start:0x02064080 end:0x020642c8
+
+src/data/ov122_bss_020642c8.c:
+    complete
+    .bss        start:0x020642c8 end:0x02064508
+
+src/data/ov122_bss_02064508.c:
+    complete
+    .bss        start:0x02064508 end:0x02064720
+
+src/data/ov122_bss_02064720.c:
+    complete
+    .bss        start:0x02064720 end:0x020647ac
+
+src/data/ov122_bss_020647ac.c:
+    complete
+    .bss        start:0x020647ac end:0x020647c0
+
+src/data/ov122_bss_020647c0.c:
+    complete
+    .bss        start:0x020647c0 end:0x020647cc
+
+src/data/ov122_bss_020647cc.c:
+    complete
+    .bss        start:0x020647cc end:0x02064934
+
+src/data/ov122_bss_02064934.c:
+    complete
+    .bss        start:0x02064934 end:0x02064938
+
+src/data/ov122_bss_02064950.c:
+    complete
+    .bss        start:0x02064950 end:0x020649ec
+
+src/data/ov122_bss_020649ec.c:
+    complete
+    .bss        start:0x020649ec end:0x02064a04
+
+src/data/ov122_bss_02064a04.c:
+    complete
+    .bss        start:0x02064a04 end:0x02064a10
+
+src/data/ov122_bss_02064a28.c:
+    complete
+    .bss        start:0x02064a28 end:0x02064ac4
+
+src/data/ov122_bss_02064adc.c:
+    complete
+    .bss        start:0x02064adc end:0x020651b8
+
+src/data/ov122_bss_020651b8.c:
+    complete
+    .bss        start:0x020651b8 end:0x020651bc
+
+src/data/ov122_bss_020651d4.c:
+    complete
+    .bss        start:0x020651d4 end:0x02065270
+
+src/data/ov122_bss_02065270.c:
+    complete
+    .bss        start:0x02065270 end:0x02065604
+
+src/data/ov122_bss_02065604.c:
+    complete
+    .bss        start:0x02065604 end:0x02065a14
+
+src/data/ov122_bss_02065a14.c:
+    complete
+    .bss        start:0x02065a14 end:0x02065a74
+
+src/data/ov122_bss_02065a74.c:
+    complete
+    .bss        start:0x02065a74 end:0x02065ad4
+
+src/data/ov122_bss_02065ad4.c:
+    complete
+    .bss        start:0x02065ad4 end:0x02065e94
+
+src/data/ov122_bss_02065e94.c:
+    complete
+    .bss        start:0x02065e94 end:0x02066014
+
+src/data/ov122_bss_02066014.c:
+    complete
+    .bss        start:0x02066014 end:0x02066374
+
+src/data/ov122_bss_02066374.c:
+    complete
+    .bss        start:0x02066374 end:0x020663dc
+
+src/data/ov122_bss_020663dc.c:
+    complete
+    .bss        start:0x020663dc end:0x02066450
+
+src/data/ov122_bss_02066450.c:
+    complete
+    .bss        start:0x02066450 end:0x02066494
+
+src/data/ov122_bss_02066494.c:
+    complete
+    .bss        start:0x02066494 end:0x020664a4
+
+src/data/ov122_bss_020664a4.c:
+    complete
+    .bss        start:0x020664a4 end:0x020664c0

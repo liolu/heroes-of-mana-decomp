@@ -274,3 +274,215 @@ src/auto/func_ov119_020ea754.c:
 src/auto/func_ov119_020eddc4.c:
     complete
     .text       start:0x020eddc4 end:0x020ede90
+
+src/data/ov119_bss_020f1e40.c:
+    complete
+    .bss        start:0x020f1e40 end:0x020f1e44
+
+src/data/ov119_bss_020f1e44.c:
+    complete
+    .bss        start:0x020f1e44 end:0x020f1e48
+
+src/data/ov119_bss_020f1e48.c:
+    complete
+    .bss        start:0x020f1e48 end:0x020f1e4c
+
+src/data/ov119_bss_020f1e4c.c:
+    complete
+    .bss        start:0x020f1e4c end:0x020f1e60
+
+src/data/ov119_bss_020f1e60.c:
+    complete
+    .bss        start:0x020f1e60 end:0x020f1e64
+
+src/data/ov119_bss_020f1e64.c:
+    complete
+    .bss        start:0x020f1e64 end:0x020f1e68
+
+src/data/ov119_bss_020f1e68.c:
+    complete
+    .bss        start:0x020f1e68 end:0x020f1e6c
+
+src/data/ov119_bss_020f1e6c.c:
+    complete
+    .bss        start:0x020f1e6c end:0x020f1e98
+
+src/data/ov119_bss_020f1e98.c:
+    complete
+    .bss        start:0x020f1e98 end:0x020f1e9c
+
+src/data/ov119_bss_020f1e9c.c:
+    complete
+    .bss        start:0x020f1e9c end:0x020f1ea0
+
+src/data/ov119_bss_020f1ea0.c:
+    complete
+    .bss        start:0x020f1ea0 end:0x020f1ea4
+
+src/data/ov119_bss_020f1ea4.c:
+    complete
+    .bss        start:0x020f1ea4 end:0x020f1ea8
+
+src/data/ov119_bss_020f1ea8.c:
+    complete
+    .bss        start:0x020f1ea8 end:0x020f1eac
+
+src/data/ov119_bss_020f1eac.c:
+    complete
+    .bss        start:0x020f1eac end:0x020f1eb0
+
+src/data/ov119_bss_020f1eb0.c:
+    complete
+    .bss        start:0x020f1eb0 end:0x020f1eb4
+
+src/data/ov119_bss_020f1eb4.c:
+    complete
+    .bss        start:0x020f1eb4 end:0x020f1ee0
+
+src/data/ov119_bss_020f1ee0.c:
+    complete
+    .bss        start:0x020f1ee0 end:0x020f1ee4
+
+src/data/ov119_bss_020f1ee4.c:
+    complete
+    .bss        start:0x020f1ee4 end:0x020f1ee8
+
+src/data/ov119_bss_020f1ee8.c:
+    complete
+    .bss        start:0x020f1ee8 end:0x020f1eec
+
+src/data/ov119_bss_020f1eec.c:
+    complete
+    .bss        start:0x020f1eec end:0x020f1f00
+
+src/data/ov119_bss_020f1f00.c:
+    complete
+    .bss        start:0x020f1f00 end:0x020f1f04
+
+src/data/ov119_bss_020f1f04.c:
+    complete
+    .bss        start:0x020f1f04 end:0x020f1f08
+
+src/data/ov119_bss_020f1f08.c:
+    complete
+    .bss        start:0x020f1f08 end:0x020f1fa4
+
+src/data/ov119_bss_020f1fa4.c:
+    complete
+    .bss        start:0x020f1fa4 end:0x020f1fa8
+
+src/data/ov119_bss_020f1fa8.c:
+    complete
+    .bss        start:0x020f1fa8 end:0x020f1fac
+
+src/data/ov119_bss_020f1fac.c:
+    complete
+    .bss        start:0x020f1fac end:0x020f1fb0
+
+src/data/ov119_bss_020f1fb0.c:
+    complete
+    .bss        start:0x020f1fb0 end:0x020f2028
+
+src/data/ov119_bss_020f2028.c:
+    complete
+    .bss        start:0x020f2028 end:0x020f2034
+
+src/data/ov119_bss_020f2034.c:
+    complete
+    .bss        start:0x020f2034 end:0x020f2038
+
+src/data/ov119_bss_020f2038.c:
+    complete
+    .bss        start:0x020f2038 end:0x020f203c
+
+src/data/ov119_bss_020f203c.c:
+    complete
+    .bss        start:0x020f203c end:0x020f2040
+
+src/data/ov119_bss_020f2040.c:
+    complete
+    .bss        start:0x020f2040 end:0x020f2098
+
+src/data/ov119_bss_020f2098.c:
+    complete
+    .bss        start:0x020f2098 end:0x020f209c
+
+src/data/ov119_bss_020f209c.c:
+    complete
+    .bss        start:0x020f209c end:0x020f20a0
+
+src/data/ov119_bss_020f20a0.c:
+    complete
+    .bss        start:0x020f20a0 end:0x020f20a4
+
+src/data/ov119_bss_020f20a4.c:
+    complete
+    .bss        start:0x020f20a4 end:0x020f20a8
+
+src/data/ov119_bss_020f20a8.c:
+    complete
+    .bss        start:0x020f20a8 end:0x020f20ac
+
+src/data/ov119_bss_020f20b0.c:
+    complete
+    .bss        start:0x020f20b0 end:0x020f211c
+
+src/data/ov119_bss_020f211c.c:
+    complete
+    .bss        start:0x020f211c end:0x020f2120
+
+src/data/ov119_bss_020f2120.c:
+    complete
+    .bss        start:0x020f2120 end:0x020f2124
+
+src/data/ov119_bss_020f2124.c:
+    complete
+    .bss        start:0x020f2124 end:0x020f2128
+
+src/data/ov119_bss_020f2128.c:
+    complete
+    .bss        start:0x020f2128 end:0x020f212c
+
+src/data/ov119_bss_020f212c.c:
+    complete
+    .bss        start:0x020f212c end:0x020f2130
+
+src/data/ov119_bss_020f2130.c:
+    complete
+    .bss        start:0x020f2130 end:0x020f2134
+
+src/data/ov119_bss_020f215c.c:
+    complete
+    .bss        start:0x020f215c end:0x020f2258
+
+src/data/ov119_bss_020f2258.c:
+    complete
+    .bss        start:0x020f2258 end:0x020f2278
+
+src/data/ov119_bss_020f2278.c:
+    complete
+    .bss        start:0x020f2278 end:0x020f228c
+
+src/data/ov119_bss_020f228c.c:
+    complete
+    .bss        start:0x020f228c end:0x020f26a8
+
+src/data/ov119_bss_020f26a8.c:
+    complete
+    .bss        start:0x020f26a8 end:0x020f2730
+
+src/data/ov119_bss_020f2730.c:
+    complete
+    .bss        start:0x020f2730 end:0x020f2734
+
+src/data/ov119_bss_020f2734.c:
+    complete
+    .bss        start:0x020f2734 end:0x020f2750
+
+src/data/ov119_bss_020f2750.c:
+    complete
+    .bss        start:0x020f2750 end:0x020f2f5c
+
+src/data/ov119_bss_020f2f5c.c:
+    complete
+    .bss        start:0x020f2f5c end:0x020f2f80

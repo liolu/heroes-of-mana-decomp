@@ -155,3 +155,47 @@ src/auto/func_ov120_020ec9ec.c:
 src/auto/func_ov120_020eca50.c:
     complete
     .text       start:0x020eca50 end:0x020ecab0
+
+src/data/ov120_bss_020f4200.c:
+    complete
+    .bss        start:0x020f4200 end:0x020f4204
+
+src/data/ov120_bss_020f4204.c:
+    complete
+    .bss        start:0x020f4204 end:0x020f4208
+
+src/data/ov120_bss_020f4208.c:
+    complete
+    .bss        start:0x020f4208 end:0x020f420c
+
+src/data/ov120_bss_020f420c.c:
+    complete
+    .bss        start:0x020f420c end:0x020f42d4
+
+src/data/ov120_bss_020f42d4.c:
+    complete
+    .bss        start:0x020f42d4 end:0x020f46d4
+
+src/data/ov120_bss_020f46d4.c:
+    complete
+    .bss        start:0x020f46d4 end:0x020f4aec
+
+src/data/ov120_bss_020f4aec.c:
+    complete
+    .bss        start:0x020f4aec end:0x020f4b2c
+
+src/data/ov120_bss_020f4b2c.c:
+    complete
+    .bss        start:0x020f4b2c end:0x020f4dec
+
+src/data/ov120_bss_020f4dec.c:
+    complete
+    .bss        start:0x020f4dec end:0x020f50f0
+
+src/data/ov120_bss_020f50f0.c:
+    complete
+    .bss        start:0x020f50f0 end:0x020f5120
+
+src/data/ov120_bss_020f5120.c:
+    complete
+    .bss        start:0x020f5120 end:0x020f5160

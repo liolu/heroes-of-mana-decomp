@@ -127,3 +127,31 @@ src/auto/func_ov114_020e323c.c:
 src/auto/func_ov114_020e32a8.c:
     complete
     .text       start:0x020e32a8 end:0x020e3318
+
+src/data/ov114_bss_020e6100.c:
+    complete
+    .bss        start:0x020e6100 end:0x020e610c
+
+src/data/ov114_bss_020e610c.c:
+    complete
+    .bss        start:0x020e610c end:0x020e6148
+
+src/data/ov114_bss_020e6148.c:
+    complete
+    .bss        start:0x020e6148 end:0x020e6558
+
+src/data/ov114_bss_020e6558.c:
+    complete
+    .bss        start:0x020e6558 end:0x020e65d8
+
+src/data/ov114_bss_020e65d8.c:
+    complete
+    .bss        start:0x020e65d8 end:0x020e6648
+
+src/data/ov114_bss_020e6648.c:
+    complete
+    .bss        start:0x020e6648 end:0x020e6680
+
+src/data/ov114_bss_020e6680.c:
+    complete
+    .bss        start:0x020e6680 end:0x020e66a0

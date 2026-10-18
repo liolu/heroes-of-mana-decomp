@@ -3723,3 +3723,327 @@ src/auto/func_020085a4.c:
 src/auto/func_020048f0.c:
     complete
     .text       start:0x020048f0 end:0x0200495c
+
+src/data/main_bss_02036724.c:
+    complete
+    .bss        start:0x02036724 end:0x02036734
+
+src/data/main_bss_02036734.c:
+    complete
+    .bss        start:0x02036734 end:0x02036738
+
+src/data/main_bss_02036738.c:
+    complete
+    .bss        start:0x02036738 end:0x0203673c
+
+src/data/main_bss_0203673c.c:
+    complete
+    .bss        start:0x0203673c end:0x02036740
+
+src/data/main_bss_02036740.c:
+    complete
+    .bss        start:0x02036740 end:0x0203678c
+
+src/data/main_bss_0203678c.c:
+    complete
+    .bss        start:0x0203678c end:0x02036790
+
+src/data/main_bss_02036790.c:
+    complete
+    .bss        start:0x02036790 end:0x02036794
+
+src/data/main_bss_02036794.c:
+    complete
+    .bss        start:0x02036794 end:0x02036798
+
+src/data/main_bss_02036798.c:
+    complete
+    .bss        start:0x02036798 end:0x020367a8
+
+src/data/main_bss_020367a8.c:
+    complete
+    .bss        start:0x020367a8 end:0x020367b4
+
+src/data/main_bss_020367b4.c:
+    complete
+    .bss        start:0x020367b4 end:0x020367b8
+
+src/data/main_bss_020367b8.c:
+    complete
+    .bss        start:0x020367b8 end:0x020367bc
+
+src/data/main_bss_020367bc.c:
+    complete
+    .bss        start:0x020367bc end:0x020367cc
+
+src/data/main_bss_020367cc.c:
+    complete
+    .bss        start:0x020367cc end:0x020367d8
+
+src/data/main_bss_02036c18.c:
+    complete
+    .bss        start:0x02036c18 end:0x02036c30
+
+src/data/main_bss_02036c30.c:
+    complete
+    .bss        start:0x02036c30 end:0x02037098
+
+src/data/main_bss_02037098.c:
+    complete
+    .bss        start:0x02037098 end:0x02037168
+
+src/data/main_bss_02037168.c:
+    complete
+    .bss        start:0x02037168 end:0x0203716c
+
+src/data/main_bss_0203716c.c:
+    complete
+    .bss        start:0x0203716c end:0x02037190
+
+src/data/main_bss_02037190.c:
+    complete
+    .bss        start:0x02037190 end:0x020376c4
+
+src/data/main_bss_020376c4.c:
+    complete
+    .bss        start:0x020376c4 end:0x02037704
+
+src/data/main_bss_02037704.c:
+    complete
+    .bss        start:0x02037704 end:0x02037708
+
+src/data/main_bss_02037708.c:
+    complete
+    .bss        start:0x02037708 end:0x0203770c
+
+src/data/main_bss_0203770c.c:
+    complete
+    .bss        start:0x0203770c end:0x02037f88
+
+src/data/main_bss_02037f88.c:
+    complete
+    .bss        start:0x02037f88 end:0x02037fa0
+
+src/data/main_bss_02037fa0.c:
+    complete
+    .bss        start:0x02037fa0 end:0x0203856c
+
+src/data/main_bss_0203856c.c:
+    complete
+    .bss        start:0x0203856c end:0x0203857c
+
+src/data/main_bss_02038598.c:
+    complete
+    .bss        start:0x02038598 end:0x020385d8
+
+src/data/main_bss_020385d8.c:
+    complete
+    .bss        start:0x020385d8 end:0x020385dc
+
+src/data/main_bss_020385dc.c:
+    complete
+    .bss        start:0x020385dc end:0x02038608
+
+src/data/main_bss_02038608.c:
+    complete
+    .bss        start:0x02038608 end:0x0203860c
+
+src/data/main_bss_0203860c.c:
+    complete
+    .bss        start:0x0203860c end:0x02038638
+
+src/data/main_bss_02038638.c:
+    complete
+    .bss        start:0x02038638 end:0x02038660
+
+src/data/main_bss_02038660.c:
+    complete
+    .bss        start:0x02038660 end:0x020388b8
+
+src/data/main_bss_020388b8.c:
+    complete
+    .bss        start:0x020388b8 end:0x020388e4
+
+src/data/main_bss_020388e4.c:
+    complete
+    .bss        start:0x020388e4 end:0x020388ec
+
+src/data/main_bss_020388ec.c:
+    complete
+    .bss        start:0x020388ec end:0x02038970
+
+src/data/main_bss_02038970.c:
+    complete
+    .bss        start:0x02038970 end:0x0203897c
+
+src/data/main_bss_0203897c.c:
+    complete
+    .bss        start:0x0203897c end:0x020389a4
+
+src/data/main_bss_020389a4.c:
+    complete
+    .bss        start:0x020389a4 end:0x020389a8
+
+src/data/main_bss_020389a8.c:
+    complete
+    .bss        start:0x020389a8 end:0x020389c0
+
+src/data/main_bss_020389c0.c:
+    complete
+    .bss        start:0x020389c0 end:0x020399e0
+
+src/data/main_bss_020399e0.c:
+    complete
+    .bss        start:0x020399e0 end:0x0203a4a8
+
+src/data/main_bss_0203a4a8.c:
+    complete
+    .bss        start:0x0203a4a8 end:0x0203a520
+
+src/data/main_bss_0203a520.c:
+    complete
+    .bss        start:0x0203a520 end:0x0203a524
+
+src/data/main_bss_0203a524.c:
+    complete
+    .bss        start:0x0203a524 end:0x0203a5a8
+
+src/data/main_bss_0203a5a8.c:
+    complete
+    .bss        start:0x0203a5a8 end:0x0203a5b8
+
+src/data/main_bss_0203a5b8.c:
+    complete
+    .bss        start:0x0203a5b8 end:0x0203a5c4
+
+src/data/main_bss_0203a5c4.c:
+    complete
+    .bss        start:0x0203a5c4 end:0x0203a5cc
+
+src/data/main_bss_0203a5cc.c:
+    complete
+    .bss        start:0x0203a5cc end:0x0203a630
+
+src/data/main_bss_0203a630.c:
+    complete
+    .bss        start:0x0203a630 end:0x0203a66c
+
+src/data/main_bss_0203a66c.c:
+    complete
+    .bss        start:0x0203a66c end:0x0203a678
+
+src/data/main_bss_0203a678.c:
+    complete
+    .bss        start:0x0203a678 end:0x0203a680
+
+src/data/main_bss_0203a680.c:
+    complete
+    .bss        start:0x0203a680 end:0x0203a6ac
+
+src/data/main_bss_0203a6ac.c:
+    complete
+    .bss        start:0x0203a6ac end:0x0203a6d4
+
+src/data/main_bss_0203a6d4.c:
+    complete
+    .bss        start:0x0203a6d4 end:0x0203a700
+
+src/data/main_bss_0203a700.c:
+    complete
+    .bss        start:0x0203a700 end:0x0203ada0
+
+src/data/main_bss_0203ada0.c:
+    complete
+    .bss        start:0x0203ada0 end:0x0203afe0
+
+src/data/main_bss_0203afe0.c:
+    complete
+    .bss        start:0x0203afe0 end:0x0203b000
+
+src/data/main_bss_0203b000.c:
+    complete
+    .bss        start:0x0203b000 end:0x0203b050
+
+src/data/main_bss_0203b050.c:
+    complete
+    .bss        start:0x0203b050 end:0x0203b064
+
+src/data/main_bss_0203b064.c:
+    complete
+    .bss        start:0x0203b064 end:0x0203baa0
+
+src/data/main_bss_0203baa0.c:
+    complete
+    .bss        start:0x0203baa0 end:0x0203bb20
+
+src/data/main_bss_0203bb20.c:
+    complete
+    .bss        start:0x0203bb20 end:0x0203bb80
+
+src/data/main_bss_0203bb80.c:
+    complete
+    .bss        start:0x0203bb80 end:0x0203bb88
+
+src/data/main_bss_0203bb90.c:
+    complete
+    .bss        start:0x0203bb90 end:0x0203e380
+
+src/data/main_bss_0203e380.c:
+    complete
+    .bss        start:0x0203e380 end:0x0203e398
+
+src/data/main_bss_020415e0.c:
+    complete
+    .bss        start:0x020415e0 end:0x02041620
+
+src/data/main_bss_02041620.c:
+    complete
+    .bss        start:0x02041620 end:0x02041638
+
+src/data/main_bss_02041638.c:
+    complete
+    .bss        start:0x02041638 end:0x0204163c
+
+src/data/main_bss_0204163c.c:
+    complete
+    .bss        start:0x0204163c end:0x02041660
+
+src/data/main_bss_02041660.c:
+    complete
+    .bss        start:0x02041660 end:0x02041808
+
+src/data/main_bss_02041808.c:
+    complete
+    .bss        start:0x02041808 end:0x02041c30
+
+src/data/main_bss_02041c30.c:
+    complete
+    .bss        start:0x02041c30 end:0x02041d40
+
+src/data/main_bss_02041d40.c:
+    complete
+    .bss        start:0x02041d40 end:0x02041d64
+
+src/data/main_bss_02041d64.c:
+    complete
+    .bss        start:0x02041d64 end:0x02041e30
+
+src/data/main_bss_02041e30.c:
+    complete
+    .bss        start:0x02041e30 end:0x02041f60
+
+src/data/main_bss_02041f60.c:
+    complete
+    .bss        start:0x02041f60 end:0x02042060
+
+src/data/main_bss_02042060.c:
+    complete
+    .bss        start:0x02042060 end:0x02042160
+
+src/data/main_bss_02042160.c:
+    complete
+    .bss        start:0x02042160 end:0x02042180
+
+src/data/main_bss_02042180.c:
+    complete
+    .bss        start:0x02042180 end:0x020421a0

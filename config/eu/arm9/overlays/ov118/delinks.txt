@@ -82,3 +82,19 @@ src/auto/func_ov118_020e2bb4.c:
 src/auto/func_ov118_020e2448.c:
     complete
     .text       start:0x020e2448 end:0x020e24a8
+
+src/data/ov118_bss_020e31e0.c:
+    complete
+    .bss        start:0x020e31e0 end:0x020e32e0
+
+src/data/ov118_bss_020e32e0.c:
+    complete
+    .bss        start:0x020e32e0 end:0x020e3300
+
+src/data/ov118_bss_020e332c.c:
+    complete
+    .bss        start:0x020e332c end:0x020e3730
+
+src/data/ov118_bss_020e3730.c:
+    complete
+    .bss        start:0x020e3730 end:0x020e3740

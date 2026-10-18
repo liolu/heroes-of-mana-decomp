@@ -275,3 +275,171 @@ src/auto/func_ov111_020e1be0.c:
 src/auto/func_ov111_020e2670.c:
     complete
     .text       start:0x020e2670 end:0x020e26c4
+
+src/data/ov111_bss_020ec1a0.c:
+    complete
+    .bss        start:0x020ec1a0 end:0x020ec1a4
+
+src/data/ov111_bss_020ec1a4.c:
+    complete
+    .bss        start:0x020ec1a4 end:0x020ec1bc
+
+src/data/ov111_bss_020ec1bc.c:
+    complete
+    .bss        start:0x020ec1bc end:0x020ec1c8
+
+src/data/ov111_bss_020ec1c8.c:
+    complete
+    .bss        start:0x020ec1c8 end:0x020ec1cc
+
+src/data/ov111_bss_020ec1cc.c:
+    complete
+    .bss        start:0x020ec1cc end:0x020ec1d0
+
+src/data/ov111_bss_020ec1d0.c:
+    complete
+    .bss        start:0x020ec1d0 end:0x020ec1d4
+
+src/data/ov111_bss_020ec1d4.c:
+    complete
+    .bss        start:0x020ec1d4 end:0x020ec1d8
+
+src/data/ov111_bss_020ec1d8.c:
+    complete
+    .bss        start:0x020ec1d8 end:0x020ec1dc
+
+src/data/ov111_bss_020ec1dc.c:
+    complete
+    .bss        start:0x020ec1dc end:0x020ec1e0
+
+src/data/ov111_bss_020ec1e0.c:
+    complete
+    .bss        start:0x020ec1e0 end:0x020ec1e4
+
+src/data/ov111_bss_020ec1e4.c:
+    complete
+    .bss        start:0x020ec1e4 end:0x020ec1e8
+
+src/data/ov111_bss_020ec1e8.c:
+    complete
+    .bss        start:0x020ec1e8 end:0x020ec1ec
+
+src/data/ov111_bss_020ec1ec.c:
+    complete
+    .bss        start:0x020ec1ec end:0x020ec1f0
+
+src/data/ov111_bss_020ec23c.c:
+    complete
+    .bss        start:0x020ec23c end:0x020ec248
+
+src/data/ov111_bss_020ec248.c:
+    complete
+    .bss        start:0x020ec248 end:0x020ec254
+
+src/data/ov111_bss_020ec254.c:
+    complete
+    .bss        start:0x020ec254 end:0x020ec25c
+
+src/data/ov111_bss_020ec25c.c:
+    complete
+    .bss        start:0x020ec25c end:0x020ec2a4
+
+src/data/ov111_bss_020ec2a4.c:
+    complete
+    .bss        start:0x020ec2a4 end:0x020ec2d4
+
+src/data/ov111_bss_020ec2d4.c:
+    complete
+    .bss        start:0x020ec2d4 end:0x020ec2d8
+
+src/data/ov111_bss_020ec2d8.c:
+    complete
+    .bss        start:0x020ec2d8 end:0x020ec2dc
+
+src/data/ov111_bss_020ec2dc.c:
+    complete
+    .bss        start:0x020ec2dc end:0x020ec674
+
+src/data/ov111_bss_020ec674.c:
+    complete
+    .bss        start:0x020ec674 end:0x020eca84
+
+src/data/ov111_bss_020eca84.c:
+    complete
+    .bss        start:0x020eca84 end:0x020eca90
+
+src/data/ov111_bss_020eca90.c:
+    complete
+    .bss        start:0x020eca90 end:0x020eca98
+
+src/data/ov111_bss_020ecac8.c:
+    complete
+    .bss        start:0x020ecac8 end:0x020ecacc
+
+src/data/ov111_bss_020ecacc.c:
+    complete
+    .bss        start:0x020ecacc end:0x020ed298
+
+src/data/ov111_bss_020ed298.c:
+    complete
+    .bss        start:0x020ed298 end:0x020ed544
+
+src/data/ov111_bss_020ed544.c:
+    complete
+    .bss        start:0x020ed544 end:0x020ed7f0
+
+src/data/ov111_bss_020ed7f0.c:
+    complete
+    .bss        start:0x020ed7f0 end:0x020eda9c
+
+src/data/ov111_bss_020eda9c.c:
+    complete
+    .bss        start:0x020eda9c end:0x020edaa8
+
+src/data/ov111_bss_020edaa8.c:
+    complete
+    .bss        start:0x020edaa8 end:0x020edaac
+
+src/data/ov111_bss_020edaac.c:
+    complete
+    .bss        start:0x020edaac end:0x020edab0
+
+src/data/ov111_bss_020edab0.c:
+    complete
+    .bss        start:0x020edab0 end:0x020edab4
+
+src/data/ov111_bss_020f0298.c:
+    complete
+    .bss        start:0x020f0298 end:0x020f0b78
+
+src/data/ov111_bss_020f1298.c:
+    complete
+    .bss        start:0x020f1298 end:0x020f1398
+
+src/data/ov111_bss_020f1398.c:
+    complete
+    .bss        start:0x020f1398 end:0x020f139c
+
+src/data/ov111_bss_020f139c.c:
+    complete
+    .bss        start:0x020f139c end:0x020f13a0
+
+src/data/ov111_bss_020f13a0.c:
+    complete
+    .bss        start:0x020f13a0 end:0x020f13a4
+
+src/data/ov111_bss_020f13a4.c:
+    complete
+    .bss        start:0x020f13a4 end:0x020f13c0
+
+src/data/ov111_bss_020f13c0.c:
+    complete
+    .bss        start:0x020f13c0 end:0x020f1bcc
+
+src/data/ov111_bss_020f1bcc.c:
+    complete
+    .bss        start:0x020f1bcc end:0x020f1bd8
+
+src/data/ov111_bss_020f1bd8.c:
+    complete
+    .bss        start:0x020f1bd8 end:0x020f1c00

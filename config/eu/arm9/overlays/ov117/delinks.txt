@@ -255,3 +255,107 @@ src/auto/func_ov117_020e2510.c:
 src/auto/func_ov117_020e2538.c:
     complete
     .text       start:0x020e2538 end:0x020e2560
+
+src/data/ov117_bss_020f0ee0.c:
+    complete
+    .bss        start:0x020f0ee0 end:0x020f0ee4
+
+src/data/ov117_bss_020f0ee4.c:
+    complete
+    .bss        start:0x020f0ee4 end:0x020f0ee8
+
+src/data/ov117_bss_020f0ee8.c:
+    complete
+    .bss        start:0x020f0ee8 end:0x020f0f18
+
+src/data/ov117_bss_020f0f18.c:
+    complete
+    .bss        start:0x020f0f18 end:0x020f0fc4
+
+src/data/ov117_bss_020f0fc4.c:
+    complete
+    .bss        start:0x020f0fc4 end:0x020f10c4
+
+src/data/ov117_bss_020f10c4.c:
+    complete
+    .bss        start:0x020f10c4 end:0x020f10e0
+
+src/data/ov117_bss_020f10e0.c:
+    complete
+    .bss        start:0x020f10e0 end:0x020f12e0
+
+src/data/ov117_bss_020f12e0.c:
+    complete
+    .bss        start:0x020f12e0 end:0x020f1310
+
+src/data/ov117_bss_020f1310.c:
+    complete
+    .bss        start:0x020f1310 end:0x020f1710
+
+src/data/ov117_bss_020f1710.c:
+    complete
+    .bss        start:0x020f1710 end:0x020f1a38
+
+src/data/ov117_bss_020f1a38.c:
+    complete
+    .bss        start:0x020f1a38 end:0x020f1ce0
+
+src/data/ov117_bss_020f1ce0.c:
+    complete
+    .bss        start:0x020f1ce0 end:0x020f1d58
+
+src/data/ov117_bss_020f1d58.c:
+    complete
+    .bss        start:0x020f1d58 end:0x020f22e0
+
+src/data/ov117_bss_020f22e0.c:
+    complete
+    .bss        start:0x020f22e0 end:0x020f237c
+
+src/data/ov117_bss_020f237c.c:
+    complete
+    .bss        start:0x020f237c end:0x020f23bc
+
+src/data/ov117_bss_020f23bc.c:
+    complete
+    .bss        start:0x020f23bc end:0x020f23e0
+
+src/data/ov117_bss_020f23e0.c:
+    complete
+    .bss        start:0x020f23e0 end:0x020f27f4
+
+src/data/ov117_bss_020f27f4.c:
+    complete
+    .bss        start:0x020f27f4 end:0x020f2b74
+
+src/data/ov117_bss_020f2b74.c:
+    complete
+    .bss        start:0x020f2b74 end:0x020f2e90
+
+src/data/ov117_bss_020f2e90.c:
+    complete
+    .bss        start:0x020f2e90 end:0x020f2e94
+
+src/data/ov117_bss_020f2e94.c:
+    complete
+    .bss        start:0x020f2e94 end:0x020f2e98
+
+src/data/ov117_bss_020f2ee0.c:
+    complete
+    .bss        start:0x020f2ee0 end:0x020f3614
+
+src/data/ov117_bss_020f3614.c:
+    complete
+    .bss        start:0x020f3614 end:0x020f3ce0
+
+src/data/ov117_bss_020f3ce0.c:
+    complete
+    .bss        start:0x020f3ce0 end:0x020f3d94
+
+src/data/ov117_bss_020f3d94.c:
+    complete
+    .bss        start:0x020f3d94 end:0x020f3da0
+
+src/data/ov117_bss_020f3db8.c:
+    complete
+    .bss        start:0x020f3db8 end:0x020f3de0

@@ -95,3 +95,27 @@ src/auto/func_ov116_020e4850.c:
 src/auto/func_ov116_020e48b4.c:
     complete
     .text       start:0x020e48b4 end:0x020e4914
+
+src/data/ov116_bss_020e7180.c:
+    complete
+    .bss        start:0x020e7180 end:0x020e71a8
+
+src/data/ov116_bss_020e71a8.c:
+    complete
+    .bss        start:0x020e71a8 end:0x020e75b8
+
+src/data/ov116_bss_020e75b8.c:
+    complete
+    .bss        start:0x020e75b8 end:0x020e7744
+
+src/data/ov116_bss_020e7744.c:
+    complete
+    .bss        start:0x020e7744 end:0x020e7a88
+
+src/data/ov116_bss_020e7a88.c:
+    complete
+    .bss        start:0x020e7a88 end:0x020e7b5c
+
+src/data/ov116_bss_020e7b5c.c:
+    complete
+    .bss        start:0x020e7b5c end:0x020e7b80

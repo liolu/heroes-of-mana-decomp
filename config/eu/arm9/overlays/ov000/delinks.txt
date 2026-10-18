@@ -37,3 +37,19 @@ src/auto/Sample_WaitingConsentVS.c:
     complete
     .text       start:0x02044b4c end:0x02044cec
     .data       start:0x02050678 end:0x02050690
+
+src/data/ov000_bss_02051540.c:
+    complete
+    .bss        start:0x02051540 end:0x02051544
+
+src/data/ov000_bss_02051544.c:
+    complete
+    .bss        start:0x02051544 end:0x02051548
+
+src/data/ov000_bss_02051548.c:
+    complete
+    .bss        start:0x02051548 end:0x0205154c
+
+src/data/ov000_bss_0205154c.c:
+    complete
+    .bss        start:0x0205154c end:0x02051560
