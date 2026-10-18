@@ -11064,3 +11064,35 @@ src/auto/func_ov123_020adaa0.c:
 src/auto/func_ov123_020bb264.c:
     complete
     .text       start:0x020bb264 end:0x020bb330
+
+src/auto/func_ov123_020d4b34.c:
+    complete
+    .text       start:0x020d4b34 end:0x020d4b78
+
+src/auto/func_ov123_0209a8a4.c:
+    complete
+    .text       start:0x0209a8a4 end:0x0209a8ec
+
+src/auto/func_ov123_0209a9b8.c:
+    complete
+    .text       start:0x0209a9b8 end:0x0209a9e4
+
+src/auto/func_ov123_020ae580.c:
+    complete
+    .text       start:0x020ae580 end:0x020ae5c8
+
+src/auto/func_ov123_020bc908.c:
+    complete
+    .text       start:0x020bc908 end:0x020bc940
+
+src/auto/func_ov123_02092998.c:
+    complete
+    .text       start:0x02092998 end:0x020929dc
+
+src/auto/func_ov123_02094a0c.c:
+    complete
+    .text       start:0x02094a0c end:0x02094a38
+
+src/auto/func_ov123_02099d64.c:
+    complete
+    .text       start:0x02099d64 end:0x02099d90
