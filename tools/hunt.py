@@ -293,6 +293,22 @@ def artifacts(src):
         for ty in ('s32', 'u8'):
             out.append((f'cmp-hoist {ty} @{mm.start()}', src[:mm.start()] + f'{mm.group(1)}{ty} hunt_v = {mm.group(2)};\n{mm.group(1)}if (hunt_v {mm.group(3)} {mm.group(4)}) {{' + src[mm.end():] ))
         break
+    # goto loop -> do/while and for (session 11: 5 matches needed `for (i = 0; i < N; i++) { if (..) break; }`)
+    for mm in re.finditer(r'^(\s*)(loop_\d+):\n((?:.*\n)*?)[ \t]*if \(([^\n]*)\) goto \2;\n', src, re.M):
+        ws, body_, cond = mm.group(1), mm.group(3), mm.group(4)
+        if re.search(r'^\s*\w+:$', body_, re.M): continue
+        out.append((f'do-while {mm.group(2)}', src[:mm.start()] + f'{ws}do {{\n{body_}{ws}}} while ({cond});\n' + src[mm.end():]))
+        inc = re.search(r'^\s*(\w+) \+= 1;\n$', body_, re.M)
+        pre = re.search(rf'^\s*({inc.group(1)}) = (-?\w+);\n$', src[:mm.start()], re.M) if inc else None
+        if inc and pre and pre.end() == mm.start():
+            v = inc.group(1); b2 = body_[:inc.start()] + body_[inc.end():]
+            out.append((f'for {mm.group(2)}', src[:pre.start()] + f'{ws}for ({v} = {pre.group(2)}; {cond}; {v}++) {{\n{b2}{ws}}}\n' + src[mm.end():]))
+    # virtual call that also forwards the object: o->vt->f(&x, o)  (m2c drops the second `this`)
+    for mm in re.finditer(r'\(\*\(([\w \*]+) \(\*\*\)\(([^)]*)\)\)\(\*\(u8 \*\*\)(\w+) \+ (0x[0-9A-Fa-f]+|\d+)\)\)\(([^()]*)\)', src):
+        o = mm.group(3)
+        if re.search(rf'\b{o}\b', mm.group(5).split(',', 1)[-1]) and ',' in mm.group(5): continue
+        new = f'(*({mm.group(1)} (**)({mm.group(2)}, void *))(*(u8 **){o} + {mm.group(4)}))({mm.group(5)}, {o})'
+        out.append((f'vcall-this2 {o}', src[:mm.start()] + new + src[mm.end():]))
     # unused leading param (callback ends up in r1): add `s32 arg_pad` first
     mm = re.search(r'^(\w[\w \*]*? \**\w+)\(([^)]*)\) \{$', src, re.M)
     if mm and mm.group(2).strip() not in ('', 'void'):
