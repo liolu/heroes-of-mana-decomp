@@ -1377,3 +1377,8 @@ src/auto/func_ov123_020c8f8c.c 1.2/sp3
 src/auto/func_ov123_0207162c.c 1.2/sp2p3
 src/auto/func_ov123_02092f4c.c 1.2/sp3
 src/auto/func_ov123_0209e5c4.c 1.2/sp3
+src/auto/func_ov123_020bb418.c 1.2/sp3
+src/auto/func_ov123_02073128.c 1.2/sp2p3
+src/auto/func_ov123_020a92c0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020adaa0.c 1.2/sp3
+src/auto/func_ov123_020bb264.c 1.2/sp3
