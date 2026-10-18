@@ -355,3 +355,11 @@ src/auto/func_ov122_02053a64.c:
 src/auto/func_ov122_02053ac4.c:
     complete
     .text       start:0x02053ac4 end:0x02053b24
+
+src/auto/func_ov122_0205201c.c:
+    complete
+    .text       start:0x0205201c end:0x0205204c
+
+src/auto/func_ov122_0205204c.c:
+    complete
+    .text       start:0x0205204c end:0x0205207c

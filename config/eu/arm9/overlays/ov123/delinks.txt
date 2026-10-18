@@ -6300,3 +6300,19 @@ src/auto/func_ov123_0208a5b4.c:
 src/auto/func_ov123_0208b3a8.c:
     complete
     .text       start:0x0208b3a8 end:0x0208b490
+
+src/auto/func_ov123_020ceef8.c:
+    complete
+    .text       start:0x020ceef8 end:0x020cef0c
+
+src/auto/func_ov123_020cef0c.c:
+    complete
+    .text       start:0x020cef0c end:0x020cef20
+
+src/auto/func_ov123_02070174.c:
+    complete
+    .text       start:0x02070174 end:0x020701a0
+
+src/auto/func_ov123_02073884.c:
+    complete
+    .text       start:0x02073884 end:0x020738b4

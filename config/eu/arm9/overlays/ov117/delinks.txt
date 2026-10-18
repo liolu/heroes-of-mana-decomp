@@ -239,3 +239,19 @@ src/auto/func_ov117_020ec450.c:
 src/auto/func_ov117_020ec4b0.c:
     complete
     .text       start:0x020ec4b0 end:0x020ec514
+
+src/auto/func_ov117_020e24a8.c:
+    complete
+    .text       start:0x020e24a8 end:0x020e24e8
+
+src/auto/func_ov117_020e24e8.c:
+    complete
+    .text       start:0x020e24e8 end:0x020e2510
+
+src/auto/func_ov117_020e2510.c:
+    complete
+    .text       start:0x020e2510 end:0x020e2538
+
+src/auto/func_ov117_020e2538.c:
+    complete
+    .text       start:0x020e2538 end:0x020e2560
