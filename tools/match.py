@@ -135,30 +135,6 @@ def non_ascii_files() -> list[str]:
     return bad
 
 
-def profile_padding() -> dict:
-    """PROFILE PADDING (the only relaxation of `verify`): mwccarm `-profile` puts the function's name in the object's
-    `.data` (len+1 bytes, byte-aligned); the original linker pads it to 4 bytes with zeros before the next object.
-    Delinking the record with the padded range is what links byte-identically, but objdiff then sees a 15-byte
-    section against a 16-byte target (fuzzy 2*15/(15+16) = 96.77%). {unit name: (record bytes, section bytes)}
-    for the records whose padding bytes are zero in the ROM (tools/profpad.py)."""
-    f = ROOT / "build" / "profnames.json"
-    if not f.exists():
-        return {}
-    d = json.loads(f.read_text(encoding="utf-8"))
-    return {n: (v["rec"][1] - v["rec"][0], v["end4"] - v["rec"][0]) for n, v in d.items() if "end4" in v}
-
-
-def profile_padding_ok(u: dict, s: dict, padding: dict) -> bool:
-    """True only when the `.data` of a profile-record unit differs from the target by exactly the 1-3 zero padding
-    bytes: the section has the padded size and the fuzzy value is the one of 'every record byte equal, padding missing'
-    (any wrong byte lowers it, a different size or a non-record unit never qualifies). The ROM is byte-identical."""
-    stem = Path(u["metadata"].get("source_path", "")).stem
-    if stem not in padding:
-        return False
-    n, m = padding[stem]
-    return int(s.get("size", 0)) == m and abs(float(s.get("fuzzy_match_percent", 0)) - 200.0 * n / (n + m)) < 0.01
-
-
 def cmd_verify(args):
     ok = True
     r = run(["ninja"])
@@ -170,13 +146,10 @@ def cmd_verify(args):
     else:
         print(f"OK  : ROM is byte-identical ({project.ROM_NAME}: OK)")
     report = build_report()
-    padding = profile_padding()
     for u in source_units(report):
         if u["metadata"].get("complete"):
             for s in u.get("sections", []):
                 if float(s.get("fuzzy_match_percent", 0)) < 100.0:
-                    if s["name"] == ".data" and profile_padding_ok(u, s, padding):
-                        continue
                     print(f"FAIL: {u['metadata'].get('source_path')} is marked complete but {s['name']} is "
                           f"{float(s.get('fuzzy_match_percent', 0)):.2f}%")
                     ok = False

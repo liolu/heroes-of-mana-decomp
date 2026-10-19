@@ -98,9 +98,7 @@ def _profile_rec(name):
         f = ROOT / "build" / "profnames.json"
         _PROFREC = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
     v = _PROFREC.get(name)
-    if not v:
-        return None
-    return (v["rec"][0], v.get("end4", v["rec"][1]))  # end4: padded to the 4-byte alignment (tools/profpad.py)
+    return tuple(v["rec"]) if v else None
 
 
 _PROFREC = None
