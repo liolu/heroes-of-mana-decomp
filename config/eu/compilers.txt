@@ -1549,3 +1549,20 @@ src/auto/func_ov123_020c94ec.c 2.0/sp1p5 -O2
 src/auto/func_ov123_020cfe74.c 2.0/sp1p5 -O2
 src/auto/func_ov032_020d1044.c 2.0/sp1p5 -O2
 src/auto/func_ov004_020ba248.c 1.2/sp3
+src/auto/func_ov123_020c1c4c.c 1.2/sp3
+src/donor/func_02027284.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/DeleteShisetuUnitName.c 2.0/sp1p5 -profile
+src/auto/AllUnitStatusToNormal.c 2.0/sp1p5 -profile
+src/auto/ContinueSameUnitConsider.c 2.0/sp1p5 -profile
+src/auto/ScanParentBeaconInit.c 1.2/sp3 -profile
+src/auto/changePutObjByRect.c 2.0/sp1p5 -profile
+src/auto/checkConnectParent.c 1.2/sp3 -profile
+src/auto/func_ov123_02071c10.c 1.2/sp2p3
+src/auto/MakeObjTrsDataOneWork.c 2.0/sp1p5 -profile
+src/auto/ReleaseNowGameData.c 2.0/sp1p5 -profile
+src/auto/ReleaseHitMarkSt.c 2.0/sp1p5 -profile
+src/auto/ReleaseObjTrsDataOneWork.c 2.0/sp1p5 -profile
+src/auto/ReleaseTrsCommand.c 2.0/sp1p5 -profile
+src/auto/ReleaseRetryData.c 2.0/sp1p5 -profile
+src/auto/ReleaseSeireiKazu_ShisetuLevTable.c 2.0/sp1p5 -profile
+src/auto/StockNowGameData.c 2.0/sp1p5 -profile

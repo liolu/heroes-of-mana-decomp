@@ -63,3 +63,8 @@ src/auto/deleteTouchWaitIconInShip.c:
     complete
     .text       start:0x020e74a4 end:0x020e74e0
     .data       start:0x020ea10c end:0x020ea128
+
+src/auto/DeleteShisetuUnitName.c:
+    complete
+    .text       start:0x020e61e4 end:0x020e6258
+    .data       start:0x020e9f48 end:0x020e9f60

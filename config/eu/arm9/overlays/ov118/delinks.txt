@@ -122,3 +122,7 @@ src/data/ov118_data_020e3100.c:
 src/data/ov118_data_020e3104.c:
     complete
     .data       start:0x020e3104 end:0x020e31e0
+
+src/auto/func_ov118_020e2088.c:
+    complete
+    .text       start:0x020e2088 end:0x020e20c4

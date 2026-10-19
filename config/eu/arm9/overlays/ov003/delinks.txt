@@ -1589,3 +1589,63 @@ src/auto/trsCommandNeed.c:
     complete
     .text       start:0x0207bcb0 end:0x0207bd54
     .data       start:0x020aa774 end:0x020aa784
+
+src/auto/AllUnitStatusToNormal.c:
+    complete
+    .text       start:0x0205dc50 end:0x0205dcdc
+    .data       start:0x020a85d4 end:0x020a85ec
+
+src/auto/ContinueSameUnitConsider.c:
+    complete
+    .text       start:0x0209add4 end:0x0209ae64
+    .data       start:0x020ac3d4 end:0x020ac3f0
+
+src/auto/ScanParentBeaconInit.c:
+    complete
+    .text       start:0x0207f918 end:0x0207f96c
+    .data       start:0x020aab1c end:0x020aab34
+
+src/auto/changePutObjByRect.c:
+    complete
+    .text       start:0x02057ec4 end:0x02057f28
+    .data       start:0x020a8054 end:0x020a8068
+
+src/auto/checkConnectParent.c:
+    complete
+    .text       start:0x0207fe38 end:0x0207febc
+    .data       start:0x020aab88 end:0x020aab9c
+
+src/auto/MakeObjTrsDataOneWork.c:
+    complete
+    .text       start:0x0207c754 end:0x0207c7e4
+    .data       start:0x020aa7cc end:0x020aa7e4
+
+src/auto/ReleaseNowGameData.c:
+    complete
+    .text       start:0x0207ace8 end:0x0207ad50
+    .data       start:0x020aa610 end:0x020aa624
+
+src/auto/ReleaseHitMarkSt.c:
+    complete
+    .text       start:0x0208f720 end:0x0208f784
+    .data       start:0x020ab9d8 end:0x020ab9ec
+
+src/auto/ReleaseObjTrsDataOneWork.c:
+    complete
+    .text       start:0x0207c7e4 end:0x0207c838
+    .data       start:0x020aa7e4 end:0x020aa800
+
+src/auto/ReleaseTrsCommand.c:
+    complete
+    .text       start:0x0207bd54 end:0x0207bda8
+    .data       start:0x020aa784 end:0x020aa798
+
+src/auto/ReleaseSeireiKazu_ShisetuLevTable.c:
+    complete
+    .text       start:0x0207a57c end:0x0207a5e4
+    .data       start:0x020aa514 end:0x020aa538
+
+src/auto/StockNowGameData.c:
+    complete
+    .text       start:0x0207abbc end:0x0207ac68
+    .data       start:0x020aa5c8 end:0x020aa5dc

@@ -4404,3 +4404,7 @@ src/auto/func_ov004_020bc954.c:
 src/auto/func_ov004_020ba248.c:
     complete
     .text       start:0x020ba248 end:0x020ba2bc
+
+src/auto/func_ov004_020c0afc.c:
+    complete
+    .text       start:0x020c0afc end:0x020c0bd0
