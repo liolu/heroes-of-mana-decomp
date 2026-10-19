@@ -49,7 +49,7 @@ def main(src, dst):
     lines = fbody.split("\n")
     li = next(i for i, s in enumerate(lines) if s.strip() == "loop_1:")
     pre = lines[:li]
-    decls = [s for s in pre if re.match(r"\s+\w[\w ]*\*? ?\w+;$", s)]
+    decls = [s for s in pre if re.match(r"\s+\w[\w ]*\*? ?\w+(\[\w+\])?;$", s)]
     copies = re.findall(r"M2C_FIELD\(&(sp\w+), s32 \*, 0\) = \(s32\) M2C_FIELD\(&(data_\w+), s32 \*, 0\)", fbody)
     other_pre = [s for s in pre if s.strip() and s not in decls and "M2C_FIELD(" not in s and "saved_reg_" not in s
                  and not re.match(r"\s+temp_r\d+(_\d+)? = &", s)]
@@ -123,6 +123,10 @@ def main(src, dst):
         sys.exit("no empty last case")
     items.append((last, tail + ["    break;"]))
     return finish(head, sig, lines, li, pre, decls, copies, other_pre, words, items, dst)
+
+
+def init_src(copies):
+    return [c[0] for c in copies]
 
 
 def generic(lines, li):
@@ -247,13 +251,25 @@ def finish(head, sig, lines, li, pre, decls, copies, other_pre, words, items, ds
         head = re.sub(r"extern M2C_UNK %s;" % d, "extern Copy%d %s;" % (words[_], d), head)
     keep = []
     for s in decls:
-        name = s.strip().rstrip(";").split()[-1].lstrip("*")
+        name = re.sub(r"\[\w+\]$", "", s.strip().rstrip(";").split()[-1].lstrip("*"))
         if name.startswith("sp") and any(name == c[0] for c in copies):
             keep.append("    Copy%d %s;" % (words[name], name))
         elif re.search(r"\b%s\b" % re.escape(name), code + "\n".join(other_pre)):
             keep.append(s)
+    # stack arrays that m2c used without declaring (spXX[0]): size = distance to the next stack slot
+    body_txt = code + "\n".join(other_pre)
+    declared = {re.sub(r"\[\w+\]$", "", s.strip().rstrip(";").split()[-1].lstrip("*")) for s in decls}
+    slots = sorted({int(n, 16) for n in re.findall(r"\bsp([0-9A-F]+)\b", body_txt + "".join(init_src(copies)))})
+    for n in slots:
+        name = "sp%X" % n
+        if name in declared or any(name == c[0] for c in copies):
+            continue
+        nxt = min([o for o in slots if o > n] + [n + 0x10 * 4])
+        ext = [int(x, 16) for x in re.findall(r"&%s\[0\], s32 \*, (0x[0-9A-F]+|\d+)\)" % name, body_txt)]
+        size = max(nxt - n, (max(ext) + 4) if ext else 4)
+        keep.append("    s32 %s[%d];" % (name, size // 4))
     init = ["    %s = %s;" % (s, d) for s, d in copies]
-    fn = "void " + sig + "{\n" + "\n".join(keep) + "\n\n" + "\n".join(init) + "\n" + "\n".join(other_pre) + \
+    fn ="void " + sig + "{\n" + "\n".join(keep) + "\n\n" + "\n".join(init) + "\n" + "\n".join(other_pre) + \
          "\n    for (;;) {\n        switch (%s->step) {\n" % W + code + "\n        }\n    }\n}\n"
     open(dst, "w").write(head + "\n" + fn)
     if leftover:
