@@ -28,3 +28,38 @@ src/data/ov109_data_020e9aa8.c:
 src/data/ov109_data_020ea1cc.c:
     complete
     .data       start:0x020ea1cc end:0x020ea1d4
+
+src/auto/DeleteSecchiIconGaiaKazuKazu.c:
+    complete
+    .text       start:0x020e64f0 end:0x020e6590
+    .data       start:0x020e9f90 end:0x020e9fb0
+
+src/auto/DeleteShisetuIcon.c:
+    complete
+    .text       start:0x020e470c end:0x020e474c
+    .data       start:0x020e9d60 end:0x020e9d74
+
+src/auto/ReleaseUnitListGraData.c:
+    complete
+    .text       start:0x020e6a44 end:0x020e6a8c
+    .data       start:0x020ea000 end:0x020ea018
+
+src/auto/UpDownColorShisetu.c:
+    complete
+    .text       start:0x020e5c28 end:0x020e5cf8
+    .data       start:0x020e9edc end:0x020e9ef0
+
+src/auto/checkMakeUnitKazu.c:
+    complete
+    .text       start:0x020e47f0 end:0x020e4854
+    .data       start:0x020e9d8c end:0x020e9da0
+
+src/auto/deleteTouchPosIconInShip.c:
+    complete
+    .text       start:0x020e7a3c end:0x020e7a8c
+    .data       start:0x020ea1b0 end:0x020ea1cc
+
+src/auto/deleteTouchWaitIconInShip.c:
+    complete
+    .text       start:0x020e74a4 end:0x020e74e0
+    .data       start:0x020ea10c end:0x020ea128

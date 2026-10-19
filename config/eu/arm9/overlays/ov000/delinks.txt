@@ -70,3 +70,78 @@ src/auto/CutFromPartner.c:
     complete
     .text       start:0x02043c6c end:0x02043c98
     .data       start:0x02050500 end:0x02050510
+
+src/auto/AnaGameLoadAndWorkInit.c:
+    complete
+    .text       start:0x0204449c end:0x020445c8
+    .data       start:0x02050608 end:0x02050620
+
+src/auto/AnaGameUnLoad.c:
+    complete
+    .text       start:0x020445c8 end:0x02044614
+    .data       start:0x02050620 end:0x02050630
+
+src/auto/DoingScrolWindow.c:
+    complete
+    .text       start:0x0204a124 end:0x0204a170
+    .data       start:0x02051138 end:0x0205114c
+
+src/auto/GameSoftReset.c:
+    complete
+    .text       start:0x02046308 end:0x02046334
+    .data       start:0x020507f8 end:0x02050808
+
+src/auto/GetEndSelNoFromKO.c:
+    complete
+    .text       start:0x02044258 end:0x02044284
+    .data       start:0x02050594 end:0x020505a8
+
+src/auto/GetEndSelNoFromOYA.c:
+    complete
+    .text       start:0x02044284 end:0x020442b0
+    .data       start:0x020505a8 end:0x020505bc
+
+src/auto/InitAnaGlobalWork.c:
+    complete
+    .text       start:0x02045694 end:0x0204587c
+    .data       start:0x020506d8 end:0x020506ec
+
+src/auto/InitMessageWorkForDS.c:
+    complete
+    .text       start:0x02049498 end:0x02049594
+    .data       start:0x020510a0 end:0x020510b8
+
+src/auto/ReleaseSenarioScript.c:
+    complete
+    .text       start:0x02045600 end:0x02045694
+    .data       start:0x020506c0 end:0x020506d8
+
+src/auto/RestoreRetryData.c:
+    complete
+    .text       start:0x020488d4 end:0x02048914
+    .data       start:0x020509d8 end:0x020509ec
+
+src/auto/SetAnaIntr.c:
+    complete
+    .text       start:0x02045e98 end:0x02045f0c
+    .data       start:0x02050738 end:0x02050744
+
+src/auto/SetCutTrsMode.c:
+    complete
+    .text       start:0x0204445c end:0x0204449c
+    .data       start:0x020505f8 end:0x02050608
+
+src/auto/SetWinBGscrolOut.c:
+    complete
+    .text       start:0x0204a058 end:0x0204a0c4
+    .data       start:0x02051110 end:0x02051124
+
+src/auto/ana_InitCommon.c:
+    complete
+    .text       start:0x02045dbc end:0x02045e98
+    .data       start:0x02050728 end:0x02050738
+
+src/auto/new_LowLevelWork.c:
+    complete
+    .text       start:0x02045f0c end:0x02045fac
+    .data       start:0x02050744 end:0x02050758

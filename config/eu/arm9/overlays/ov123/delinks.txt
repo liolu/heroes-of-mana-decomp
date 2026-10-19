@@ -11148,3 +11148,11 @@ src/auto/func_ov123_020c322c.c:
 src/auto/func_ov123_020d2f1c.c:
     complete
     .text       start:0x020d2f1c end:0x020d2f74
+
+src/auto/func_ov123_020c94ec.c:
+    complete
+    .text       start:0x020c94ec end:0x020c952c
+
+src/auto/func_ov123_020cfe74.c:
+    complete
+    .text       start:0x020cfe74 end:0x020cfeb8

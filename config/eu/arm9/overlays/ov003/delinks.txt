@@ -969,3 +969,623 @@ src/data/ov003_rodata_020a5f64.c:
 src/data/ov003_rodata_020a6204.c:
     complete
     .rodata     start:0x020a6204 end:0x020a621c
+
+src/auto/CalcModelMatrix2.c:
+    complete
+    .text       start:0x02072278 end:0x020722cc
+    .data       start:0x020a9d04 end:0x020a9d18
+
+src/auto/CancelPutShipInner.c:
+    complete
+    .text       start:0x0209e0ac end:0x0209e154
+    .data       start:0x020ac8ac end:0x020ac8c0
+
+src/auto/CallTrsForLoop.c:
+    complete
+    .text       start:0x0207dc6c end:0x0207dca8
+    .data       start:0x020aa858 end:0x020aa868
+
+src/auto/ChangeCamera2MyKuniLeader.c:
+    complete
+    .text       start:0x02061c20 end:0x02061cac
+    .data       start:0x020a88ec end:0x020a8908
+
+src/auto/AnaInitialize.c:
+    complete
+    .text       start:0x02051560 end:0x0205168c
+    .data       start:0x020a6220 end:0x020a6230
+
+src/auto/CheckSavePossible.c:
+    complete
+    .text       start:0x0207adec end:0x0207ae38
+    .data       start:0x020aa638 end:0x020aa64c
+
+src/auto/ClearPolWork.c:
+    complete
+    .text       start:0x020715a8 end:0x02071600
+    .data       start:0x020a9c78 end:0x020a9c88
+
+src/auto/ChgRaceIconOff.c:
+    complete
+    .text       start:0x02089880 end:0x020898c8
+    .data       start:0x020ab5a8 end:0x020ab5b8
+
+src/auto/ClearAreaMapMaskForEnemy.c:
+    complete
+    .text       start:0x020791e8 end:0x02079224
+    .data       start:0x020aa384 end:0x020aa3a0
+
+src/auto/DeleteAll_SyouriHaibokuJouken.c:
+    complete
+    .text       start:0x02089194 end:0x02089228
+    .data       start:0x020ab534 end:0x020ab554
+
+src/auto/Clear_wmwork.c:
+    complete
+    .text       start:0x0207e5d0 end:0x0207e608
+    .data       start:0x020aa934 end:0x020aa944
+
+src/auto/ClsTransTex2Vram.c:
+    complete
+    .text       start:0x0205caf8 end:0x0205cb3c
+    .data       start:0x020a8504 end:0x020a8518
+
+src/auto/ClearCarisumaMap.c:
+    complete
+    .text       start:0x02065c78 end:0x02065ccc
+    .data       start:0x020a8d90 end:0x020a8da4
+
+src/auto/EndGiveDataCheck.c:
+    complete
+    .text       start:0x0207f278 end:0x0207f2d0
+    .data       start:0x020aaa28 end:0x020aaa3c
+
+src/auto/CountGaiaFind.c:
+    complete
+    .text       start:0x0209b818 end:0x0209b858
+    .data       start:0x020ac478 end:0x020ac488
+
+src/auto/CountTrentFind.c:
+    complete
+    .text       start:0x0209b858 end:0x0209b898
+    .data       start:0x020ac488 end:0x020ac498
+
+src/auto/DeleteInShipIcom.c:
+    complete
+    .text       start:0x02087cf0 end:0x02087d30
+    .data       start:0x020ab328 end:0x020ab33c
+
+src/auto/DeleteWin_HookTakeOff.c:
+    complete
+    .text       start:0x0208804c end:0x02088098
+    .data       start:0x020ab370 end:0x020ab388
+
+src/auto/DeleteWirelessIcon.c:
+    complete
+    .text       start:0x0207125c end:0x020712e4
+    .data       start:0x020a9b2c end:0x020a9b40
+
+src/auto/Delete_MissionGameOver.c:
+    complete
+    .text       start:0x02088ae8 end:0x02088ba0
+    .data       start:0x020ab484 end:0x020ab49c
+
+src/auto/ExtObjPaletteTrans.c:
+    complete
+    .text       start:0x0206ba40 end:0x0206baa4
+    .data       start:0x020a9368 end:0x020a937c
+
+src/auto/Delete_MissionStartCompleteWinLose.c:
+    complete
+    .text       start:0x02088740 end:0x020887a0
+    .data       start:0x020ab42c end:0x020ab450
+
+src/auto/ExtBGPaletteTrans.c:
+    complete
+    .text       start:0x0206bcb4 end:0x0206bd18
+    .data       start:0x020a93e4 end:0x020a93f8
+
+src/auto/FlyArmAllAnime.c:
+    complete
+    .text       start:0x0208a0dc end:0x0208a110
+    .data       start:0x020ab6b4 end:0x020ab6c4
+
+src/auto/FlyArmAllPut.c:
+    complete
+    .text       start:0x0208a968 end:0x0208a99c
+    .data       start:0x020ab738 end:0x020ab748
+
+src/auto/DeleteTutorialIcon.c:
+    complete
+    .text       start:0x0209e2dc end:0x0209e344
+    .data       start:0x020ac8e0 end:0x020ac8f4
+
+src/auto/DeleteUnitRaceIcon.c:
+    complete
+    .text       start:0x02089840 end:0x02089880
+    .data       start:0x020ab594 end:0x020ab5a8
+
+src/auto/DeleteUnitStatusParam.c:
+    complete
+    .text       start:0x02087290 end:0x02087304
+    .data       start:0x020ab280 end:0x020ab298
+
+src/auto/EndScriptRoutine.c:
+    complete
+    .text       start:0x0209f2b0 end:0x0209f33c
+    .data       start:0x020acc1c end:0x020acc30
+
+src/auto/GetCompasIconAtai.c:
+    complete
+    .text       start:0x02075fe0 end:0x020760e8
+    .data       start:0x020aa0a0 end:0x020aa0b4
+
+src/auto/GetNumberChoicePos.c:
+    complete
+    .text       start:0x0209f26c end:0x0209f2b0
+    .data       start:0x020acc08 end:0x020acc1c
+
+src/auto/GetGameLevelMode.c:
+    complete
+    .text       start:0x0209fb2c end:0x0209fb70
+    .data       start:0x020acde4 end:0x020acdf8
+
+src/auto/GetRnd.c:
+    complete
+    .text       start:0x02053e50 end:0x02053ed8
+    .data       start:0x020a7a08 end:0x020a7a10
+
+src/auto/GetSeireiKazu_ShisetuLevTable.c:
+    complete
+    .text       start:0x0207a53c end:0x0207a57c
+    .data       start:0x020aa4f4 end:0x020aa514
+
+src/auto/GetSenkyou.c:
+    complete
+    .text       start:0x020797a4 end:0x02079880
+    .data       start:0x020aa3fc end:0x020aa408
+
+src/auto/HpBar_Status_IconOFF.c:
+    complete
+    .text       start:0x0209e4f0 end:0x0209e534
+    .data       start:0x020ac95c end:0x020ac974
+
+src/auto/GotoLoadData.c:
+    complete
+    .text       start:0x0209f154 end:0x0209f1e0
+    .data       start:0x020acbe8 end:0x020acbf8
+
+src/auto/IsThereMagicIcom.c:
+    complete
+    .text       start:0x02087b6c end:0x02087bb4
+    .data       start:0x020ab2e0 end:0x020ab2f4
+
+src/auto/IsThereInShipIcom.c:
+    complete
+    .text       start:0x02087ca8 end:0x02087cf0
+    .data       start:0x020ab314 end:0x020ab328
+
+src/auto/InitializeMap_Object.c:
+    complete
+    .text       start:0x0206e110 end:0x0206e154
+    .data       start:0x020a9800 end:0x020a9818
+
+src/auto/InitTrsCommand.c:
+    complete
+    .text       start:0x0207baf0 end:0x0207bb58
+    .data       start:0x020aa740 end:0x020aa750
+
+src/auto/MoveOnClearTimer.c:
+    complete
+    .text       start:0x0209e8e8 end:0x0209e92c
+    .data       start:0x020ac9e0 end:0x020ac9f4
+
+src/auto/MTG_ReturnDarkScreen.c:
+    complete
+    .text       start:0x020a2a38 end:0x020a2a88
+    .data       start:0x020ad400 end:0x020ad418
+
+src/auto/ModeError.c:
+    complete
+    .text       start:0x0207febc end:0x0207fefc
+    .data       start:0x020aab9c end:0x020aaba8
+
+src/auto/ModelWorkInit.c:
+    complete
+    .text       start:0x02051900 end:0x02051958
+    .data       start:0x020a6260 end:0x020a6270
+
+src/auto/MakeOnePlane1bit.c:
+    complete
+    .text       start:0x02068ea8 end:0x02068f00
+    .data       start:0x020a9120 end:0x020a9134
+
+src/auto/OnlyDeleteDelTex.c:
+    complete
+    .text       start:0x0205c61c end:0x0205c660
+    .data       start:0x020a8408 end:0x020a841c
+
+src/auto/ParentModeConnect.c:
+    complete
+    .text       start:0x0207e030 end:0x0207e080
+    .data       start:0x020aa8a8 end:0x020aa8bc
+
+src/auto/ObjTexGetInit.c:
+    complete
+    .text       start:0x0205c4f0 end:0x0205c578
+    .data       start:0x020a83d4 end:0x020a83e4
+
+src/auto/PutOrderingInitialize.c:
+    complete
+    .text       start:0x0205a364 end:0x0205a3a8
+    .data       start:0x020a81a4 end:0x020a81bc
+
+src/auto/Put__MISSION_START.c:
+    complete
+    .text       start:0x0209ec40 end:0x0209ec68
+    .data       start:0x020acacc end:0x020acae0
+
+src/auto/ReleaseObjectGraCommon.c:
+    complete
+    .text       start:0x02088df8 end:0x02088e3c
+    .data       start:0x020ab4b0 end:0x020ab4c8
+
+src/auto/ReleaseTexGet.c:
+    complete
+    .text       start:0x0205c578 end:0x0205c5bc
+    .data       start:0x020a83e4 end:0x020a83f4
+
+src/auto/ReleaseFlyArmWork.c:
+    complete
+    .text       start:0x0208c39c end:0x0208c3e0
+    .data       start:0x020ab7d4 end:0x020ab7e8
+
+src/auto/ReleaseObjPaletteTrans.c:
+    complete
+    .text       start:0x0206c01c end:0x0206c068
+    .data       start:0x020a9480 end:0x020a9498
+
+src/auto/ReleaseExtBGPaletteTrans.c:
+    complete
+    .text       start:0x0206bdb0 end:0x0206bdfc
+    .data       start:0x020a9410 end:0x020a942c
+
+src/auto/ReleaseExtObjPaletteTrans.c:
+    complete
+    .text       start:0x0206bb3c end:0x0206bb88
+    .data       start:0x020a9394 end:0x020a93b0
+
+src/auto/Put__MISSION_COMPLETE.c:
+    complete
+    .text       start:0x0209ec68 end:0x0209ec90
+    .data       start:0x020acae0 end:0x020acaf8
+
+src/auto/Routine_CameraFree.c:
+    complete
+    .text       start:0x0209c6c8 end:0x0209c70c
+    .data       start:0x020ac510 end:0x020ac524
+
+src/auto/ReleaseTexPaletteTrans.c:
+    complete
+    .text       start:0x02061b54 end:0x02061ba0
+    .data       start:0x020a88b8 end:0x020a88d0
+
+src/auto/ResetTexPalMap.c:
+    complete
+    .text       start:0x02053ed8 end:0x02053f18
+    .data       start:0x020a7a10 end:0x020a7a20
+
+src/auto/Routine_SetEvPosFadeIn.c:
+    complete
+    .text       start:0x0209ebfc end:0x0209ec40
+    .data       start:0x020acab4 end:0x020acacc
+
+src/auto/ScrollCheckScreenEdge.c:
+    complete
+    .text       start:0x020848d8 end:0x020849e0
+    .data       start:0x020aaf2c end:0x020aaf44
+
+src/auto/ScanParentBeacon.c:
+    complete
+    .text       start:0x0207f618 end:0x0207f670
+    .data       start:0x020aaacc end:0x020aaae0
+
+src/auto/Routine_FadeInAll.c:
+    complete
+    .text       start:0x020996b4 end:0x020996dc
+    .data       start:0x020ac0cc end:0x020ac0e0
+
+src/auto/Routine_FadeOutAll.c:
+    complete
+    .text       start:0x0209968c end:0x020996b4
+    .data       start:0x020ac0b8 end:0x020ac0cc
+
+src/auto/Routine_SaveGo.c:
+    complete
+    .text       start:0x0209c70c end:0x0209c798
+    .data       start:0x020ac524 end:0x020ac534
+
+src/auto/SelectCarisumaChar.c:
+    complete
+    .text       start:0x0209df24 end:0x0209dfb0
+    .data       start:0x020ac85c end:0x020ac870
+
+src/auto/Send_startTrsTrig.c:
+    complete
+    .text       start:0x0207f2d0 end:0x0207f314
+    .data       start:0x020aaa3c end:0x020aaa50
+
+src/auto/SetTutorialModeOFF.c:
+    complete
+    .text       start:0x0209e388 end:0x0209e3cc
+    .data       start:0x020ac908 end:0x020ac91c
+
+src/auto/SetTutorialModeON.c:
+    complete
+    .text       start:0x0209e344 end:0x0209e388
+    .data       start:0x020ac8f4 end:0x020ac908
+
+src/auto/StartForFreeBattle.c:
+    complete
+    .text       start:0x0207ad50 end:0x0207adec
+    .data       start:0x020aa624 end:0x020aa638
+
+src/auto/SiteStockMaskMap.c:
+    complete
+    .text       start:0x02077b7c end:0x02077c04
+    .data       start:0x020aa294 end:0x020aa2a8
+
+src/auto/TransTex2Vram.c:
+    complete
+    .text       start:0x0205c854 end:0x0205c8a4
+    .data       start:0x020a8478 end:0x020a8488
+
+src/auto/TellToChild_VS_Battle_Endding.c:
+    complete
+    .text       start:0x0209fc68 end:0x0209fd0c
+    .data       start:0x020ace28 end:0x020ace48
+
+src/auto/StopClearTimer.c:
+    complete
+    .text       start:0x0209e92c end:0x0209e970
+    .data       start:0x020ac9f4 end:0x020aca04
+
+src/auto/StopMovingGame.c:
+    complete
+    .text       start:0x0209aab0 end:0x0209abec
+    .data       start:0x020ac3b4 end:0x020ac3c4
+
+src/auto/StopPlanTimer.c:
+    complete
+    .text       start:0x0209ea04 end:0x0209ea48
+    .data       start:0x020aca24 end:0x020aca34
+
+src/auto/StoreNowGameData.c:
+    complete
+    .text       start:0x0207ac68 end:0x0207aca8
+    .data       start:0x020aa5dc end:0x020aa5f0
+
+src/auto/StoreNowGameDataWithoutResult.c:
+    complete
+    .text       start:0x0207aca8 end:0x0207ace8
+    .data       start:0x020aa5f0 end:0x020aa610
+
+src/auto/WH_GetMeasureChannel.c:
+    complete
+    .text       start:0x020a4b3c end:0x020a4bb4
+    .data       start:0x020ae92c end:0x020ae944
+
+src/auto/WH_GetSystemState.c:
+    complete
+    .text       start:0x020a480c end:0x020a4844
+    .data       start:0x020ae870 end:0x020ae884
+
+src/auto/WH_Reset.c:
+    complete
+    .text       start:0x020a5114 end:0x020a5174
+    .data       start:0x020aea18 end:0x020aea24
+
+src/auto/WH_StateInEndChild.c:
+    complete
+    .text       start:0x020a4420 end:0x020a4470
+    .data       start:0x020ae76c end:0x020ae780
+
+src/auto/WH_End.c:
+    complete
+    .text       start:0x020a52d0 end:0x020a5334
+    .data       start:0x020aea68 end:0x020aea70
+
+src/auto/WH_EndScan.c:
+    complete
+    .text       start:0x020a3c6c end:0x020a3cb8
+    .data       start:0x020ae4ec end:0x020ae4f8
+
+src/auto/WH_GetBitmap.c:
+    complete
+    .text       start:0x020a47d4 end:0x020a480c
+    .data       start:0x020ae860 end:0x020ae870
+
+src/auto/WH_StateInEndChildKeyShare.c:
+    complete
+    .text       start:0x020a431c end:0x020a438c
+    .data       start:0x020ae720 end:0x020ae73c
+
+src/auto/WH_StateInEndChildMP.c:
+    complete
+    .text       start:0x020a438c end:0x020a43d4
+    .data       start:0x020ae73c end:0x020ae754
+
+src/auto/WH_StateInSetChildWEPKey.c:
+    complete
+    .text       start:0x020a3d9c end:0x020a3e14
+    .data       start:0x020ae548 end:0x020ae564
+
+src/auto/WH_StateInSetParentParam.c:
+    complete
+    .text       start:0x020a30fc end:0x020a3154
+    .data       start:0x020ae168 end:0x020ae184
+
+src/auto/WH_StateInStartParent.c:
+    complete
+    .text       start:0x020a3298 end:0x020a3308
+    .data       start:0x020ae1d8 end:0x020ae1f0
+
+src/auto/WH_StateInStartParentKeyShare.c:
+    complete
+    .text       start:0x020a3698 end:0x020a36e4
+    .data       start:0x020ae320 end:0x020ae340
+
+src/auto/WH_StateInEndParentMP.c:
+    complete
+    .text       start:0x020a3760 end:0x020a37a8
+    .data       start:0x020ae37c end:0x020ae394
+
+src/auto/WH_StateInEndScan.c:
+    complete
+    .text       start:0x020a3cb8 end:0x020a3cf8
+    .data       start:0x020ae4f8 end:0x020ae50c
+
+src/auto/WH_StateInInitialize.c:
+    complete
+    .text       start:0x020a4d5c end:0x020a4db8
+    .data       start:0x020ae978 end:0x020ae990
+
+src/auto/WaitInShipMode.c:
+    complete
+    .text       start:0x0209e154 end:0x0209e1bc
+    .data       start:0x020ac8c0 end:0x020ac8d0
+
+src/auto/VS_Battle_Endding.c:
+    complete
+    .text       start:0x0209fd0c end:0x0209fd98
+    .data       start:0x020ace48 end:0x020ace5c
+
+src/auto/WH_StateInSetParentWEPKey.c:
+    complete
+    .text       start:0x020a31d0 end:0x020a3248
+    .data       start:0x020ae1a0 end:0x020ae1bc
+
+src/auto/WH_StateInStartChildKeyShare.c:
+    complete
+    .text       start:0x020a42ac end:0x020a431c
+    .data       start:0x020ae700 end:0x020ae720
+
+src/auto/WaitSyncMessageEnd.c:
+    complete
+    .text       start:0x0209a1bc end:0x0209a25c
+    .data       start:0x020ac2f0 end:0x020ac304
+
+src/auto/WaitSyncSelectForGameOver.c:
+    complete
+    .text       start:0x0209f0e0 end:0x0209f154
+    .data       start:0x020acbcc end:0x020acbe8
+
+src/auto/WaitSyncTouch.c:
+    complete
+    .text       start:0x02099910 end:0x0209993c
+    .data       start:0x020ac1d8 end:0x020ac1e8
+
+src/auto/WaitSyncTouchOrder.c:
+    complete
+    .text       start:0x0209e3cc end:0x0209e444
+    .data       start:0x020ac91c end:0x020ac930
+
+src/auto/cameraTargetIconON.c:
+    complete
+    .text       start:0x0209e004 end:0x0209e048
+    .data       start:0x020ac884 end:0x020ac898
+
+src/auto/ana_InitVRAM.c:
+    complete
+    .text       start:0x02075720 end:0x020757a8
+    .data       start:0x020aa020 end:0x020aa030
+
+src/auto/chgUpDownIconBrightBengine.c:
+    complete
+    .text       start:0x0206c6e0 end:0x0206c77c
+    .data       start:0x020a95a0 end:0x020a95bc
+
+src/auto/deleteCompasIcon.c:
+    complete
+    .text       start:0x02084b1c end:0x02084b5c
+    .data       start:0x020aaf68 end:0x020aaf7c
+
+src/auto/deleteGaiaIcon.c:
+    complete
+    .text       start:0x02085d28 end:0x02085d90
+    .data       start:0x020ab100 end:0x020ab110
+
+src/auto/deleteShipIcon.c:
+    complete
+    .text       start:0x0208620c end:0x0208624c
+    .data       start:0x020ab170 end:0x020ab180
+
+src/auto/deleteTexByBefore.c:
+    complete
+    .text       start:0x0205c72c end:0x0205c770
+    .data       start:0x020a8444 end:0x020a8458
+
+src/auto/deleteTouchPosIcon.c:
+    complete
+    .text       start:0x020770b8 end:0x02077108
+    .data       start:0x020aa1f8 end:0x020aa20c
+
+src/auto/deleteGetRECTIcon.c:
+    complete
+    .text       start:0x020862e8 end:0x02086328
+    .data       start:0x020ab190 end:0x020ab1a4
+
+src/auto/deleteSelectCancelBtn.c:
+    complete
+    .text       start:0x02085f3c end:0x02085f7c
+    .data       start:0x020ab14c end:0x020ab164
+
+src/auto/deleteTrentoIcon.c:
+    complete
+    .text       start:0x02085a5c end:0x02085ac4
+    .data       start:0x020ab0cc end:0x020ab0e0
+
+src/auto/deleteUPDOWNIcon.c:
+    complete
+    .text       start:0x02084b5c end:0x02084b9c
+    .data       start:0x020aaf7c end:0x020aaf90
+
+src/auto/getErrForSetEntry.c:
+    complete
+    .text       start:0x0207f528 end:0x0207f554
+    .data       start:0x020aaa94 end:0x020aaaa8
+
+src/auto/putAllMap_Object.c:
+    complete
+    .text       start:0x0206e568 end:0x0206e59c
+    .data       start:0x020a98a8 end:0x020a98bc
+
+src/auto/putBoxArrowBox.c:
+    complete
+    .text       start:0x020714f0 end:0x020715a8
+    .data       start:0x020a9c68 end:0x020a9c78
+
+src/auto/trsCommandNeedInit.c:
+    complete
+    .text       start:0x0207bc0c end:0x0207bcb0
+    .data       start:0x020aa760 end:0x020aa774
+
+src/auto/setFirstGameCondition.c:
+    complete
+    .text       start:0x0207e130 end:0x0207e1d4
+    .data       start:0x020aa8d8 end:0x020aa8f0
+
+src/auto/setMaskShadow.c:
+    complete
+    .text       start:0x02073ecc end:0x02073f24
+    .data       start:0x020a9df8 end:0x020a9e08
+
+src/auto/setObjParaAllFirst.c:
+    complete
+    .text       start:0x0207e1d4 end:0x0207e278
+    .data       start:0x020aa8f0 end:0x020aa904
+
+src/auto/trsCommandNeed.c:
+    complete
+    .text       start:0x0207bcb0 end:0x0207bd54
+    .data       start:0x020aa774 end:0x020aa784
