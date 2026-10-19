@@ -62,18 +62,18 @@ def main(src, dst):
             words[cur] = 0
         if cur and re.search(r"= \(s32\) M2C_FIELD\(", s):
             words[cur] += 1
-    base = re.search(r"= temp_r\d+ - (0x[0-9A-F]+);", fbody)
+    base = re.search(r"= temp_r\d+(?:_\d+)? - (0x[0-9A-F]+);", fbody)
     if not base:
         return finish(head, sig, lines, li, pre, decls, copies, other_pre, words, generic(lines, li), dst)
     base = int(base.group(1), 16)
-    thresh = re.search(r"if \(\(u32\) temp_r\d+ < (0x[0-9A-F]+)U\)", fbody)
+    thresh = re.search(r"if \(\(u32\) temp_r\d+(?:_\d+)? < (0x[0-9A-F]+)U\)", fbody)
     if not thresh:
         sys.exit("no threshold")
     thresh = int(thresh.group(1), 16)
     cases = {1: [], 2: [], 3: []}
     for i, s in enumerate(lines):
         m = LAB.match(s)
-        if m:
+        if m and int(m.group(4)) in cases:
             b, _ = body(lines, i)
             cases[int(m.group(4))].append((m.group(2), b))
     # else block = the threshold value
@@ -88,18 +88,24 @@ def main(src, dst):
     while k > 0 and indent(lines[k]) == 4:
         k -= 1
     tail = [s for s in lines[k + 1:end] if s.strip() != "}"]
-    items = []  # (value or None for default, body lines)
-    two = {c: b for c, b in cases[2]}
-    if "default" not in two:
+    items = []  # (value | None for default | list of values, body lines); stacked labels share a body
+    meaningful = lambda b: any(x.strip() and not x.strip().startswith("/*") for x in b)
+    stacks, pend = [], []
+    for lab, b in cases[2]:
+        pend.append(lab)
+        if meaningful(b):
+            stacks.append((pend, b))
+            pend = []
+    if pend:
+        sys.exit("jump table: trailing empty labels")
+    dstack = [st for st in stacks if "default" in st[0]]
+    if len(dstack) != 1:
         sys.exit("no default init")
-    items.append((None, two.pop("default")))
-    n = 0
-    while two:
-        key = "case %d" % n
-        if key not in two:
-            sys.exit("jump table hole %d" % n)
-        items.append((base + n, two.pop(key)))
-        n += 1
+    items.append((None, dstack[0][1]))
+    for labs, b in sorted((st for st in stacks if "default" not in st[0]),
+                          key=lambda st: min(int(l.split()[1]) for l in st[0])):
+        vals = [base + int(l.split()[1]) for l in labs]
+        items.append((vals[0] if len(vals) == 1 else vals, b))
     for c, b in cases[1]:
         if c != "default":
             items.append((int(c.split()[1], 0), [s for s in b if s.strip() not in tops]))
@@ -175,12 +181,13 @@ def finish(head, sig, lines, li, pre, decls, copies, other_pre, words, items, ds
     order, rest = [items[0]], items[1:]
     while rest:
         x = falls_to(order[-1][1])
-        nxt = next((it for it in rest if it[0] == x), rest[0])
+        nxt = next((it for it in rest if it[0] == x or (isinstance(it[0], list) and x in it[0])), rest[0])
         rest.remove(nxt)
         order.append(nxt)
     out = []
     for v, b in order:
-        out.append("        default:" if v is None else "        case 0x%X:" % v)
+        for vv in (v if isinstance(v, list) else [v]):
+            out.append("        default:" if vv is None else "        case 0x%X:" % vv)
         out += dedent(b, 12)
     code = "\n".join(out)
     code = re.sub(r"\n(\s*)goto loop_1;", r"\n\1break;", code)
