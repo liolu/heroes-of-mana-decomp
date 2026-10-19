@@ -432,6 +432,81 @@ def _pad_variants(src):
     return out
 
 
+CALLSTMT = re.compile(r"^([ \t]*)(?:(\w+) = )?(\w+)\(([^;]*)\);[ \t]*$", re.M)
+
+
+def _widen_proto(src, callee, n):
+    proto = ", ".join("M2C_UNK" for _ in range(n))
+    return re.sub(rf"^([^\n]*\b{re.escape(callee)}\s*)\([^)]*\)(;.*)$",
+                  lambda mm: f"{mm.group(1)}({proto}){mm.group(2)}", src, count=1, flags=re.M)
+
+
+def _call_result_variants(src):
+    """a call result kept in a register is often forwarded to the next call that m2c left without it."""
+    if not FUNC_HEAD.search(src):
+        return []
+    calls = list(CALLSTMT.finditer(src))
+    out = []
+    for i in range(len(calls) - 1):
+        m1, m2 = calls[i], calls[i + 1]
+        var = m1.group(2)
+        if m1.group(3) in NOTCALL or m2.group(3) in NOTCALL:
+            continue
+        if var:
+            if len(re.findall(rf"\b{re.escape(var)}\b", src)) > 2:
+                continue
+            args = m2.group(4).strip()
+            t = src[:m2.start(4)] + (args + ", " if args else "") + var + src[m2.end(4):]
+            out.append(_widen_proto(t, m2.group(3), len(args.split(",")) + 1 if args else 1))
+        else:
+            op = m1.group(1)
+            t = src[:m1.start(0)] + f"{op}hunt_t = {m1.group(3)}({m1.group(4)});" + src[m1.end(0):]
+            # declare hunt_t after the opening brace of the function
+            fm = re.search(r"^(%s\([^)]*\) \{\n)" % re.escape(m1.group(3)), t, re.M)
+            if not fm:
+                fm = re.search(r"^(\w[\w \*]*\b\w+\([^)]*\) \{\n)", t, re.M)
+            if fm:
+                t = t[:fm.end()] + "    s32 hunt_t;\n" + t[fm.end():]
+            m2b = CALLSTMT.search(t, t.find(f"hunt_t = {m1.group(3)}(") + 1)
+            if m2b:
+                args = m2b.group(4).strip()
+                t = t[:m2b.start(4)] + (args + ", " if args else "") + "hunt_t" + t[m2b.end(4):]
+                t = _widen_proto(t, m2b.group(3), len(args.split(",")) + 1 if args else 1)
+                out.append(t)
+    return out[:6]
+
+
+VCALL_A = re.compile(
+    r"M2C_FIELD\(M2C_FIELD\((\w+), void \*\*, (0x[0-9A-Fa-f]+|\d+)\), "
+    r"(M2C_UNK|s32|u32) \(\*\*\)\([^)]*\), (0x[0-9A-Fa-f]+|\d+)\)\(\)")
+VCALL_C = re.compile(
+    r"M2C_FIELD\(\*(\w+)\(\), (M2C_UNK|s32|u32) \(\*\*\)\([^)]*\), (0x[0-9A-Fa-f]+|\d+)\)\(\)")
+
+
+def _vcall_arg_variants(src):
+    """virtual calls: the object (or an adjusted sub-object) is passed as the first argument."""
+    out = []
+    for m in list(VCALL_A.finditer(src))[:4]:
+        arg, off, ty, moff = m.groups()
+        for this in (f"(void *)((u8 *){arg} + {off})", f"(M2C_UNK *)((u8 *){arg} + {off})"):
+            out.append(src[:m.start()] + f"M2C_FIELD(M2C_FIELD({arg}, void **, {off}), "
+                       f"{ty} (**)(void *), {moff})({this})" + src[m.end():])
+    for m in list(VCALL_C.finditer(src))[:4]:
+        getter, ty, moff = m.groups()
+        # statement containing the call
+        line_start = src.rfind("\n", 0, m.start()) + 1
+        indent = re.match(r"[ \t]*", src[line_start:]).group(0)
+        for pty in ("void **", "M2C_UNK *"):
+            expr = (f"M2C_FIELD(*hunt_p, {ty} (**)(void **), {moff})(hunt_p)")
+            t = src[:m.start()] + expr + src[m.end():]
+            t = t[:line_start] + f"{indent}hunt_p = {getter}();\n" + t[line_start:]
+            fm = re.search(r"^(\w[\w \*]*\b\w+\([^)]*\) \{\n)", t, re.M)
+            if fm:
+                t = t[:fm.end()] + f"    {pty} hunt_p;\n" + t[fm.end():]
+                out.append(t)
+    return out
+
+
 def extra_mutations(src):
     out = []
     lines = src.split("\n")
@@ -451,6 +526,8 @@ def extra_mutations(src):
     out += _free3_variants(src)
     out += _forward_arg_variants(src)
     out += _tail_call_variants(src)
+    out += _call_result_variants(src)
+    out += _vcall_arg_variants(src)
     out += _pad_variants(src)
     # dedupe, drop identity
     seen, uniq = {src}, []
