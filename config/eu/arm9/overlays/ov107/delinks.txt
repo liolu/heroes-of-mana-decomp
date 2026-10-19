@@ -338,3 +338,19 @@ src/data/ov107_data_020e0de4.c:
 src/data/ov107_data_020e0de8.c:
     complete
     .data       start:0x020e0de8 end:0x020e0df0
+
+src/auto/func_ov107_020d9cbc.c:
+    complete
+    .text       start:0x020d9cbc end:0x020d9e2c
+
+src/auto/func_ov107_020db938.c:
+    complete
+    .text       start:0x020db938 end:0x020dba94
+
+src/auto/func_ov107_020dbf70.c:
+    complete
+    .text       start:0x020dbf70 end:0x020dc0cc
+
+src/auto/func_ov107_020db050.c:
+    complete
+    .text       start:0x020db050 end:0x020db148

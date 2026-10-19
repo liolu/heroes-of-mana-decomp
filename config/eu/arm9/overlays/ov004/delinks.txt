@@ -4400,3 +4400,7 @@ src/data/ov004_rodata_020ccaf4.c:
 src/auto/func_ov004_020bc954.c:
     complete
     .text       start:0x020bc954 end:0x020bc9ec
+
+src/auto/func_ov004_020ba248.c:
+    complete
+    .text       start:0x020ba248 end:0x020ba2bc
