@@ -182,6 +182,7 @@ def _scale_variants(src):
 
 
 STACK = re.compile(r"^(\s*)M2C_UNK (sp[0-9A-Fa-f]+);$", re.M)
+STACK_MAX = 512
 
 
 def _stack_variants(src):
@@ -191,9 +192,9 @@ def _stack_variants(src):
         v = m.group(2)
         if not re.search(r"&" + v + r"\b", src):
             continue
-        for size in range(8, 513, 4):
+        for size in range(8, STACK_MAX + 1, 4):
             t = src[:m.start()] + f"{m.group(1)}u8 {v}[{size}];" + src[m.end():]
-            t = re.sub(r"&" + v + r"\b", v, t)
+            t = re.sub(r"&" + v + r"\b", f"(void *){v}", t)
             out.append(t)
     return out
 
@@ -253,12 +254,93 @@ def _stack_combo_variants(src):
                 t = re.sub(rf"^(\s*)M2C_UNK {re.escape(m.group(2))};$",
                            rf"\g<1>u8 {m.group(2)}[{s}];", t, count=1, flags=re.M)
             for m in ms:
-                t = re.sub(r"&" + re.escape(m.group(2)) + r"\b", m.group(2), t)
+                t = re.sub(r"&" + re.escape(m.group(2)) + r"\b", f"(void *){m.group(2)}", t)
             out.append(t)
     return out
 
 
 PARENADD = re.compile(r"\) \+ (0x[0-9A-Fa-f]+|\d+)")
+
+
+def _balanced(s, i):
+    """index just after the ')' closing the '(' at s[i]."""
+    d = 0
+    for j in range(i, len(s)):
+        d += {"(": 1, ")": -1}.get(s[j], 0)
+        if d == 0:
+            return j + 1
+    return len(s)
+
+
+FUNC_HEAD = re.compile(r"^([A-Za-z_]\w*(?:[ \t\*]+[A-Za-z_]\w*)*)\(([^)]*)\) \{$", re.M)
+CALL = re.compile(r"\b([A-Za-z_]\w*)\s*\(")
+NOTCALL = {"if", "for", "while", "switch", "sizeof", "return", "else"}
+
+
+def _forward_arg_variants(src):
+    """m2c drops parameters the function only forwards: try appending an extra param to a call."""
+    m = FUNC_HEAD.search(src)
+    if not m:
+        return []
+    params = [p.strip() for p in m.group(2).split(",") if p.strip()]
+    if not params or params == ["void"] or len(params) > 3:
+        return []
+    n = len(params)
+    pnames = {p.split()[-1].lstrip("*") for p in params}
+    extra = f"arg{n}"
+    if extra in pnames:
+        return []
+    out = []
+    for ty in ("M2C_UNK", "s32"):
+        sig = src[:m.start()] + f"{m.group(1)}({m.group(2)}, {ty} {extra}) {{" + src[m.end():]
+        calls = []
+        for mm in CALL.finditer(src, m.end()):
+            if mm.group(1) in NOTCALL or mm.group(1) in pnames:
+                continue
+            end = _balanced(src, mm.end() - 1)
+            if not src[mm.end():end - 1].strip():
+                continue
+            calls.append((mm.end() - 1, end - 1))
+        for idx in range(min(len(calls), 4)):
+            op, cl = calls[idx]
+            out.append(sig[:op] + "(" + src[op + 1:cl] + f", {extra}" + sig[cl:])
+        if len(calls) > 1:
+            t = sig
+            for op, cl in reversed(calls[:6]):
+                t = t[:op] + "(" + t[op + 1:cl] + f", {extra}" + t[cl:]
+            out.append(t)
+    return out
+
+
+def _tail_call_variants(src):
+    """m2c drops the arguments a function forwards: append the definition's parameters to a call."""
+    m = FUNC_HEAD.search(src)
+    if not m:
+        return []
+    raw = [p.strip() for p in m.group(2).split(",") if p.strip()]
+    if not raw or raw == ["void"] or len(raw) > 4:
+        return []
+    pnames = [p.split()[-1].lstrip("*") for p in raw]
+    out = []
+    calls = []
+    for mm in CALL.finditer(src, m.end()):
+        if mm.group(1) in NOTCALL or mm.group(1) in pnames:
+            continue
+        end = _balanced(src, mm.end() - 1)
+        calls.append((mm.group(1), mm.end() - 1, end - 1))
+    for callee, op, cl in calls[-3:]:
+        if len(re.findall(rf"\b{re.escape(callee)}\s*\(", src)) > 2:  # definition/decl + this call
+            continue
+        for k in (len(pnames), min(2, len(pnames)), 1):
+            args = ", ".join(pnames[:k])
+            inner = src[op + 1:cl].strip()
+            new = src[:op] + "(" + (inner + ", " if inner else "") + args + src[cl:]
+            # widen the callee's prototype so the extra arguments are legal
+            proto = ", ".join("M2C_UNK" for _ in range(k))
+            new = re.sub(rf"^([^\n]*\b{re.escape(callee)}\s*)\([^)]*\)(;.*)$",
+                         lambda mm: f"{mm.group(1)}({proto}){mm.group(2)}", new, count=1, flags=re.M)
+            out.append(new)
+    return out
 
 
 FREEFIELD = re.compile(r"(M2C_FIELD\([^()]*\))\s*(?:!=|==)\s*0")
@@ -367,6 +449,8 @@ def extra_mutations(src):
     out += _mul_scale_variants(src)
     out += _paren_add_variants(src)
     out += _free3_variants(src)
+    out += _forward_arg_variants(src)
+    out += _tail_call_variants(src)
     out += _pad_variants(src)
     # dedupe, drop identity
     seen, uniq = {src}, []
@@ -484,7 +568,11 @@ def main():
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--size", action="store_true", help="also try functions whose draft has the wrong size")
     ap.add_argument("--from", dest="from_dir", help="use the C files/results of this directory instead of build/hunt/best")
+    ap.add_argument("--quick", action="store_true", help="cap the stack-slot sizes tried (4x faster)")
     a = ap.parse_args()
+    global STACK_MAX
+    if a.quick:
+        STACK_MAX = 128
     if a.from_dir:
         r = json.loads((Path(a.from_dir) / "results.json").read_text(encoding="utf-8"))
         want = ("near", "size") if a.size else ("near",)
