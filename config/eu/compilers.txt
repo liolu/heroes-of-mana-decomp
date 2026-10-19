@@ -1566,3 +1566,19 @@ src/auto/ReleaseTrsCommand.c 2.0/sp1p5 -profile
 src/auto/ReleaseRetryData.c 2.0/sp1p5 -profile
 src/auto/ReleaseSeireiKazu_ShisetuLevTable.c 2.0/sp1p5 -profile
 src/auto/StockNowGameData.c 2.0/sp1p5 -profile
+src/auto/func_ov123_020a9b84.c 1.2/sp2p3 -thumb
+src/auto/SetTouchPadCali.c 2.0/sp1p5 -profile
+src/auto/SetUnitPos4VS.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02075d34.c 1.2/sp2p3
+src/auto/func_ov123_02075e1c.c 1.2/sp2p3
+src/auto/func_ov123_020a678c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_02075154.c 1.2/sp2p3
+src/auto/func_ov123_020aa7dc.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_02075c6c.c 1.2/sp2p3
+src/auto/func_ov123_020a6f70.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020b64fc.c 1.2/sp3
+src/auto/func_ov123_02077544.c 1.2/sp2p3
+src/auto/func_ov123_020a2808.c 1.2/sp3
+src/auto/func_ov123_02069230.c 1.2/sp2p3
+src/auto/func_ov123_0209ab5c.c 1.2/sp3
+src/auto/func_ov123_020a7d38.c 1.2/sp2p3 -thumb

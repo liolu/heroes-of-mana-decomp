@@ -579,3 +579,7 @@ src/auto/func_ov122_02052458.c:
 src/auto/func_ov122_02054d04.c:
     complete
     .text       start:0x02054d04 end:0x02054d5c
+
+src/auto/func_ov122_0205dafc.c:
+    complete
+    .text       start:0x0205dafc end:0x0205db1c

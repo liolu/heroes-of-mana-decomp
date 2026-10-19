@@ -4408,3 +4408,23 @@ src/auto/func_ov004_020ba248.c:
 src/auto/func_ov004_020c0afc.c:
     complete
     .text       start:0x020c0afc end:0x020c0bd0
+
+src/auto/func_ov004_020b9edc.c:
+    complete
+    .text       start:0x020b9edc end:0x020b9f28
+
+src/auto/func_ov004_020bb468.c:
+    complete
+    .text       start:0x020bb468 end:0x020bb4b4
+
+src/auto/func_ov004_020bbd68.c:
+    complete
+    .text       start:0x020bbd68 end:0x020bbdb4
+
+src/auto/func_ov004_020bc1dc.c:
+    complete
+    .text       start:0x020bc1dc end:0x020bc228
+
+src/auto/func_ov004_020c1850.c:
+    complete
+    .text       start:0x020c1850 end:0x020c189c
