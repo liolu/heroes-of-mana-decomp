@@ -155,3 +155,43 @@ src/auto/SetTouchPadCali.c:
     complete
     .text       start:0x020460f0 end:0x02046138
     .data       start:0x02050784 end:0x02050794
+
+src/auto/GetKeyAndTouch.c:
+    complete
+    .text       start:0x02046038 end:0x02046060
+    .data       start:0x02050764 end:0x02050774
+
+src/auto/BGM_volume.c:
+    complete
+    .text       start:0x020462e4 end:0x02046308
+    .data       start:0x020507ec end:0x020507f8
+
+src/auto/deleteUseStringSt.c:
+    complete
+    .text       start:0x0204d270 end:0x0204d2b8
+    .data       start:0x0205135c end:0x02051370
+
+src/auto/Ds_initBeforeOverLay.c:
+    complete
+    .text       start:0x020421a0 end:0x020421dc
+    .data       start:0x020504d8 end:0x020504f0
+
+src/auto/RestoreLoadGameDataOnlyKuni0Item.c:
+    complete
+    .text       start:0x02047f7c end:0x02047fb8
+    .data       start:0x02050990 end:0x020509b4
+
+src/auto/Ring_SoundEffect.c:
+    complete
+    .text       start:0x0204629c end:0x020462c0
+    .data       start:0x020507c4 end:0x020507d8
+
+src/auto/StockRetryData.c:
+    complete
+    .text       start:0x0204888c end:0x020488d4
+    .data       start:0x020509c8 end:0x020509d8
+
+src/auto/Stop_SoundEffect.c:
+    complete
+    .text       start:0x020462c0 end:0x020462e4
+    .data       start:0x020507d8 end:0x020507ec

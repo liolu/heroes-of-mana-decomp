@@ -1654,3 +1654,488 @@ src/auto/SetUnitPos4VS.c:
     complete
     .text       start:0x02076c68 end:0x02076cc8
     .data       start:0x020aa17c end:0x020aa18c
+
+src/auto/CalRnd.c:
+    complete
+    .text       start:0x0209d474 end:0x0209d498
+    .data       start:0x020ac73c end:0x020ac744
+
+src/auto/ana_InitDisplay3D.c:
+    complete
+    .text       start:0x02079924 end:0x02079950
+    .data       start:0x020aa41c end:0x020aa430
+
+src/auto/AnimationAllMap_Object.c:
+    complete
+    .text       start:0x0206e284 end:0x0206e2bc
+    .data       start:0x020a9874 end:0x020a988c
+
+src/auto/CallTrsForMainLoop.c:
+    complete
+    .text       start:0x0207dc10 end:0x0207dc6c
+    .data       start:0x020aa844 end:0x020aa858
+
+src/auto/CancelTransTex2VramArm.c:
+    complete
+    .text       start:0x0208a7ac end:0x0208a7e4
+    .data       start:0x020ab6ec end:0x020ab704
+
+src/auto/CancelTransTex2VramForArm.c:
+    complete
+    .text       start:0x0205ca30 end:0x0205ca68
+    .data       start:0x020a84c8 end:0x020a84e4
+
+src/auto/CancelUnitSelect.c:
+    complete
+    .text       start:0x0209f5bc end:0x0209f5e0
+    .data       start:0x020accd8 end:0x020accec
+
+src/auto/ChangeComObjByFunc.c:
+    complete
+    .text       start:0x020808f0 end:0x02080914
+    .data       start:0x020aad1c end:0x020aad30
+
+src/auto/ChangeCompasIcon.c:
+    complete
+    .text       start:0x02084af0 end:0x02084b1c
+    .data       start:0x020aaf54 end:0x020aaf68
+
+src/auto/ChangeKyotenNo.c:
+    complete
+    .text       start:0x02076cc8 end:0x02076d70
+    .data       start:0x020aa18c end:0x020aa19c
+
+src/auto/ChangeScriptAlphaChg.c:
+    complete
+    .text       start:0x02055c48 end:0x02055ca0
+    .data       start:0x020a7f24 end:0x020a7f3c
+
+src/auto/ClearCanUseObjPalMap.c:
+    complete
+    .text       start:0x02053c08 end:0x02053c54
+    .data       start:0x020a79c4 end:0x020a79dc
+
+src/auto/convertPlane1bitToFULL.c:
+    complete
+    .text       start:0x02068f00 end:0x02068f34
+    .data       start:0x020a9134 end:0x020a914c
+
+src/auto/countDeathByCharNo.c:
+    complete
+    .text       start:0x0206c1dc end:0x0206c22c
+    .data       start:0x020a9500 end:0x020a9514
+
+src/auto/deleteComObjByComnoOther.c:
+    complete
+    .text       start:0x0208061c end:0x02080640
+    .data       start:0x020aac48 end:0x020aac64
+
+src/auto/deleteComObjByPutflag.c:
+    complete
+    .text       start:0x02080a28 end:0x02080a4c
+    .data       start:0x020aad7c end:0x020aad94
+
+src/auto/deleteComObjBySt.c:
+    complete
+    .text       start:0x02080abc end:0x02080ae0
+    .data       start:0x020aadb0 end:0x020aadc4
+
+src/auto/delete_SyouriHaibokuJouken.c:
+    complete
+    .text       start:0x0209f4a4 end:0x0209f4c8
+    .data       start:0x020acc94 end:0x020accb0
+
+src/auto/delete__MISSION_COMPLETE.c:
+    complete
+    .text       start:0x0209f048 end:0x0209f06c
+    .data       start:0x020acb60 end:0x020acb7c
+
+src/auto/delete__MISSION_GAMEOVER.c:
+    complete
+    .text       start:0x0209f0b4 end:0x0209f0e0
+    .data       start:0x020acbb0 end:0x020acbcc
+
+src/auto/delete__MISSION_START.c:
+    complete
+    .text       start:0x0209efb0 end:0x0209f048
+    .data       start:0x020acb48 end:0x020acb60
+
+src/auto/evenOrOdd.c:
+    complete
+    .text       start:0x020a0b08 end:0x020a0b40
+    .data       start:0x020ad238 end:0x020ad244
+
+src/auto/FadeInScreen.c:
+    complete
+    .text       start:0x02053960 end:0x0205398c
+    .data       start:0x020a7968 end:0x020a7978
+
+src/auto/FadeOutScreen.c:
+    complete
+    .text       start:0x020536e4 end:0x02053710
+    .data       start:0x020a7910 end:0x020a7920
+
+src/auto/GetCountCallByUnitBaseNo.c:
+    complete
+    .text       start:0x0209fe9c end:0x0209fee8
+    .data       start:0x020aceb4 end:0x020aced0
+
+src/auto/GetGaiaTrentFromShip.c:
+    complete
+    .text       start:0x020669f8 end:0x02066a24
+    .data       start:0x020a8ec4 end:0x020a8edc
+
+src/auto/GetKazuOfItem.c:
+    complete
+    .text       start:0x0209d4f8 end:0x0209d534
+    .data       start:0x020ac76c end:0x020ac77c
+
+src/auto/GetNowBGM_No.c:
+    complete
+    .text       start:0x0209f7c0 end:0x0209f7e4
+    .data       start:0x020acd2c end:0x020acd3c
+
+src/auto/GetShipAooStByScript.c:
+    complete
+    .text       start:0x0209fee8 end:0x0209ff0c
+    .data       start:0x020aced0 end:0x020acee8
+
+src/auto/GettingItemOneForFree.c:
+    complete
+    .text       start:0x0209d4d4 end:0x0209d4f8
+    .data       start:0x020ac754 end:0x020ac76c
+
+src/auto/GetTrentFromShip.c:
+    complete
+    .text       start:0x02066a50 end:0x02066a7c
+    .data       start:0x020a8eec end:0x020a8f00
+
+src/auto/GetUsualAlpha.c:
+    complete
+    .text       start:0x02055fc0 end:0x02056004
+    .data       start:0x020a7f8c end:0x020a7f9c
+
+src/auto/InitializeOtherKuniAndUnit.c:
+    complete
+    .text       start:0x020995ec end:0x0209962c
+    .data       start:0x020ac088 end:0x020ac0a4
+
+src/auto/InitObjectETC.c:
+    complete
+    .text       start:0x0206ebf0 end:0x0206ec58
+    .data       start:0x020a9938 end:0x020a9948
+
+src/auto/MakeGameScreenOn.c:
+    complete
+    .text       start:0x0207723c end:0x020772d0
+    .data       start:0x020aa224 end:0x020aa238
+
+src/auto/MapScrolByKey.c:
+    complete
+    .text       start:0x0207506c end:0x02075090
+    .data       start:0x020a9ff0 end:0x020aa000
+
+src/auto/MessagePutAndWait.c:
+    complete
+    .text       start:0x0209a25c end:0x0209a284
+    .data       start:0x020ac304 end:0x020ac318
+
+src/auto/MTG_BecomeDarkScreen.c:
+    complete
+    .text       start:0x020a29e8 end:0x020a2a38
+    .data       start:0x020ad3e8 end:0x020ad400
+
+src/auto/MTG_EndEvent.c:
+    complete
+    .text       start:0x020a2c04 end:0x020a2c48
+    .data       start:0x020ad43c end:0x020ad44c
+
+src/auto/MTG_FreeBattleEnd1.c:
+    complete
+    .text       start:0x020a2ec0 end:0x020a2f4c
+    .data       start:0x020ad480 end:0x020ad494
+
+src/auto/MTG_StartEvent.c:
+    complete
+    .text       start:0x020a2a88 end:0x020a2ae4
+    .data       start:0x020ad418 end:0x020ad428
+
+src/auto/ObjOneParaSet1.c:
+    complete
+    .text       start:0x0207c93c end:0x0207c968
+    .data       start:0x020aa814 end:0x020aa824
+
+src/auto/ObjOneParaSet2.c:
+    complete
+    .text       start:0x0207c968 end:0x0207c994
+    .data       start:0x020aa824 end:0x020aa834
+
+src/auto/PutAreaMapUP_LCD.c:
+    complete
+    .text       start:0x0209fb08 end:0x0209fb2c
+    .data       start:0x020acdd0 end:0x020acde4
+
+src/auto/PutBtlResult.c:
+    complete
+    .text       start:0x0209e6d8 end:0x0209e788
+    .data       start:0x020ac99c end:0x020ac9ac
+
+src/auto/PutBtlResultForFreeWithoutSave.c:
+    complete
+    .text       start:0x0209e838 end:0x0209e8e8
+    .data       start:0x020ac9c0 end:0x020ac9e0
+
+src/auto/PutF_AllUnit.c:
+    complete
+    .text       start:0x02086b18 end:0x02086c70
+    .data       start:0x020ab22c end:0x020ab23c
+
+src/auto/PutHaibokuJouken.c:
+    complete
+    .text       start:0x0209f3e4 end:0x0209f408
+    .data       start:0x020acc54 end:0x020acc68
+
+src/auto/PutOnePlanePicUP_LCD.c:
+    complete
+    .text       start:0x0209fae4 end:0x0209fb08
+    .data       start:0x020acdb8 end:0x020acdd0
+
+src/auto/PutOnOffTimer.c:
+    complete
+    .text       start:0x0209eb20 end:0x0209eb6c
+    .data       start:0x020aca64 end:0x020aca74
+
+src/auto/Put__MISSION_GAMEOVER.c:
+    complete
+    .text       start:0x0209f090 end:0x0209f0b4
+    .data       start:0x020acb98 end:0x020acbb0
+
+src/auto/ReadySetUpWaza.c:
+    complete
+    .text       start:0x020909c8 end:0x020909ec
+    .data       start:0x020abaa8 end:0x020abab8
+
+src/auto/RedrawShipIcon.c:
+    complete
+    .text       start:0x02086cb8 end:0x02086d24
+    .data       start:0x020ab24c end:0x020ab25c
+
+src/auto/ReleaseWmWorks.c:
+    complete
+    .text       start:0x0207e818 end:0x0207e840
+    .data       start:0x020aa978 end:0x020aa988
+
+src/auto/ReleaseWorkBeforeChangeMap.c:
+    complete
+    .text       start:0x02079c44 end:0x02079d14
+    .data       start:0x020aa458 end:0x020aa474
+
+src/auto/Routine_BGMchange.c:
+    complete
+    .text       start:0x0209c938 end:0x0209c974
+    .data       start:0x020ac5d4 end:0x020ac5e8
+
+src/auto/Routine_FadeInAllByCount.c:
+    complete
+    .text       start:0x0209970c end:0x0209973c
+    .data       start:0x020ac0fc end:0x020ac118
+
+src/auto/Routine_FadeInAllWithMoveByCount.c:
+    complete
+    .text       start:0x0209976c end:0x0209979c
+    .data       start:0x020ac13c end:0x020ac160
+
+src/auto/Routine_FadeOutAllByCount.c:
+    complete
+    .text       start:0x020996dc end:0x0209970c
+    .data       start:0x020ac0e0 end:0x020ac0fc
+
+src/auto/Routine_FadeOutAllWithMoveByCount.c:
+    complete
+    .text       start:0x0209973c end:0x0209976c
+    .data       start:0x020ac118 end:0x020ac13c
+
+src/auto/Routine_FadeOutAllWithUpDown.c:
+    complete
+    .text       start:0x0209979c end:0x020997c0
+    .data       start:0x020ac160 end:0x020ac180
+
+src/auto/Routine_ScreenRGB_OFF.c:
+    complete
+    .text       start:0x0209c8cc end:0x0209c8f0
+    .data       start:0x020ac590 end:0x020ac5a8
+
+src/auto/Routine_ScreenRGB_ON.c:
+    complete
+    .text       start:0x0209c82c end:0x0209c850
+    .data       start:0x020ac548 end:0x020ac560
+
+src/auto/Routine_SetEvPos.c:
+    complete
+    .text       start:0x0209ae64 end:0x0209ae88
+    .data       start:0x020ac3f0 end:0x020ac404
+
+src/auto/Routine_SetEvPosMode.c:
+    complete
+    .text       start:0x0209ded8 end:0x0209df24
+    .data       start:0x020ac844 end:0x020ac85c
+
+src/auto/Routine_WorldMap2.c:
+    complete
+    .text       start:0x0209c798 end:0x0209c82c
+    .data       start:0x020ac534 end:0x020ac548
+
+src/auto/SetBssDescNo.c:
+    complete
+    .text       start:0x0207fdf0 end:0x0207fe38
+    .data       start:0x020aab78 end:0x020aab88
+
+src/auto/SetCallBackForVS_Trs.c:
+    complete
+    .text       start:0x0207f9dc end:0x0207fa14
+    .data       start:0x020aab44 end:0x020aab5c
+
+src/auto/SetDeathCheckForVS.c:
+    complete
+    .text       start:0x0209fe50 end:0x0209fe9c
+    .data       start:0x020acea0 end:0x020aceb4
+
+src/auto/SetDropItemBySetNo.c:
+    complete
+    .text       start:0x0209ebb4 end:0x0209ebd8
+    .data       start:0x020aca90 end:0x020acaa4
+
+src/auto/SetEntryflagBeacon.c:
+    complete
+    .text       start:0x0207f554 end:0x0207f59c
+    .data       start:0x020aaaa8 end:0x020aaabc
+
+src/auto/SetGameTimeMax.c:
+    complete
+    .text       start:0x0209ead8 end:0x0209eb20
+    .data       start:0x020aca54 end:0x020aca64
+
+src/auto/SetHaibokuJouken.c:
+    complete
+    .text       start:0x0209f33c end:0x0209f390
+    .data       start:0x020acc30 end:0x020acc44
+
+src/auto/SetParentChannel.c:
+    complete
+    .text       start:0x0207f370 end:0x0207f3b0
+    .data       start:0x020aaa68 end:0x020aaa7c
+
+src/auto/SetParentTgid.c:
+    complete
+    .text       start:0x0207f340 end:0x0207f370
+    .data       start:0x020aaa58 end:0x020aaa68
+
+src/auto/SetPlanTimer.c:
+    complete
+    .text       start:0x0209ea48 end:0x0209ea8c
+    .data       start:0x020aca34 end:0x020aca44
+
+src/auto/SetRoutineByCallGodBeast.c:
+    complete
+    .text       start:0x0209fdf0 end:0x0209fe2c
+    .data       start:0x020ace70 end:0x020ace8c
+
+src/auto/SetScenarioNoForResult.c:
+    complete
+    .text       start:0x0209e688 end:0x0209e6d8
+    .data       start:0x020ac984 end:0x020ac99c
+
+src/auto/SetTitleNameNo.c:
+    complete
+    .text       start:0x0209a9c4 end:0x0209aa18
+    .data       start:0x020ac390 end:0x020ac3a0
+
+src/auto/ShipIsAtHook.c:
+    complete
+    .text       start:0x020668d0 end:0x02066900
+    .data       start:0x020a8e90 end:0x020a8ea0
+
+src/auto/ShipIsAtHookByKuni.c:
+    complete
+    .text       start:0x02066900 end:0x0206695c
+    .data       start:0x020a8ea0 end:0x020a8eb4
+
+src/auto/StartMovie.c:
+    complete
+    .text       start:0x0209f7e4 end:0x0209f884
+    .data       start:0x020acd3c end:0x020acd48
+
+src/auto/StartPictureEvent.c:
+    complete
+    .text       start:0x0209f884 end:0x0209f918
+    .data       start:0x020acd48 end:0x020acd5c
+
+src/auto/StockDataForRetry.c:
+    complete
+    .text       start:0x0209fe2c end:0x0209fe50
+    .data       start:0x020ace8c end:0x020acea0
+
+src/auto/UseObjectSetUp.c:
+    complete
+    .text       start:0x02060be4 end:0x02060c10
+    .data       start:0x020a87e8 end:0x020a87f8
+
+src/auto/WH_IndicateHandler.c:
+    complete
+    .text       start:0x020a4d24 end:0x020a4d5c
+    .data       start:0x020ae964 end:0x020ae978
+
+src/auto/WH_SetGgid.c:
+    complete
+    .text       start:0x020a473c end:0x020a4774
+    .data       start:0x020ae830 end:0x020ae83c
+
+src/auto/WH_SetReceiver.c:
+    complete
+    .text       start:0x020a5084 end:0x020a50f0
+    .data       start:0x020ae9fc end:0x020aea0c
+
+src/auto/WH_StateOutEnd.c:
+    complete
+    .text       start:0x020a46fc end:0x020a473c
+    .data       start:0x020ae820 end:0x020ae830
+
+src/auto/WH_StateOutEndChildMP.c:
+    complete
+    .text       start:0x020a43d4 end:0x020a4420
+    .data       start:0x020ae754 end:0x020ae76c
+
+src/auto/WH_StateOutEndParent.c:
+    complete
+    .text       start:0x020a3850 end:0x020a388c
+    .data       start:0x020ae3dc end:0x020ae3f4
+
+src/auto/WH_StateOutEndParentMP.c:
+    complete
+    .text       start:0x020a37a8 end:0x020a3810
+    .data       start:0x020ae3b0 end:0x020ae3c8
+
+src/auto/WH_StateOutEndScan.c:
+    complete
+    .text       start:0x020a3cf8 end:0x020a3d9c
+    .data       start:0x020ae534 end:0x020ae548
+
+src/auto/WH_StateOutInitialize.c:
+    complete
+    .text       start:0x020a4db8 end:0x020a4e20
+    .data       start:0x020ae990 end:0x020ae9a8
+
+src/auto/WH_StateOutSetChildWEPKey.c:
+    complete
+    .text       start:0x020a3e14 end:0x020a3e84
+    .data       start:0x020ae594 end:0x020ae5b0
+
+src/auto/WH_StateOutSetParentParam.c:
+    complete
+    .text       start:0x020a3154 end:0x020a31d0
+    .data       start:0x020ae184 end:0x020ae1a0
+
+src/auto/WH_StateOutSetParentWEPKey.c:
+    complete
+    .text       start:0x020a3248 end:0x020a3298
+    .data       start:0x020ae1bc end:0x020ae1d8

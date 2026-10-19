@@ -68,3 +68,13 @@ src/auto/DeleteShisetuUnitName.c:
     complete
     .text       start:0x020e61e4 end:0x020e6258
     .data       start:0x020e9f48 end:0x020e9f60
+
+src/auto/PutListUnitIcon.c:
+    complete
+    .text       start:0x020e6600 end:0x020e66e4
+    .data       start:0x020e9fcc end:0x020e9fdc
+
+src/auto/touchIconEffectInShip.c:
+    complete
+    .text       start:0x020e7a8c end:0x020e7ad0
+    .data       start:0x020ea21c end:0x020ea234
