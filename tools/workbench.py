@@ -49,6 +49,9 @@ RELOCS = project.ARM9 / "relocs.txt" if hasattr(project, "ARM9") else project.SY
 OVL_DIR = project.ARM9 / "overlays"
 _OVL_INDEX = None
 MODULE = "main"
+# what select_module() must put back when it returns to the main module
+_MAIN_STATE = (project.SYMBOLS, project.DELINKS, getattr(pc, "ARM9_BIN", None), getattr(pc, "ARM9_BASE", None),
+               am.MAIN_TEXT)
 
 
 def overlay_index() -> dict[str, int]:
@@ -73,6 +76,14 @@ def select_module(target: str) -> str:
     global RELOCS, _SYMS, _RELOCS, MODULE
     ov = overlay_index().get(target) if not target.startswith("0x") else None
     if ov is None:
+        if MODULE != "main":  # coming back from an overlay: rebind the main module's files
+            project.SYMBOLS, project.DELINKS = _MAIN_STATE[0], _MAIN_STATE[1]
+            am.SYMBOLS, am.DELINKS, pc.SYMBOLS = project.SYMBOLS, project.DELINKS, project.SYMBOLS
+            pc.ARM9_BIN, pc.ARM9_BASE = _MAIN_STATE[2], _MAIN_STATE[3]
+            am.MAIN_TEXT = _MAIN_STATE[4]
+            RELOCS = project.ARM9 / "relocs.txt"
+            _SYMS = _RELOCS = None
+            MODULE = "main"
         return "main"
     d = project.ARM9 / "itcm" if ov < 0 else OVL_DIR / f"ov{ov:03d}"
     head = (d / "delinks.txt").read_text(encoding="utf-8").split("\n\n", 1)[0]
