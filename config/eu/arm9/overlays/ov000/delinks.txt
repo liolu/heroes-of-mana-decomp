@@ -195,3 +195,38 @@ src/auto/Stop_SoundEffect.c:
     complete
     .text       start:0x020462c0 end:0x020462e4
     .data       start:0x020507d8 end:0x020507ec
+
+src/auto/LocGetUpdateParent.c:
+    complete
+    .text       start:0x020442b0 end:0x020442ec
+    .data       start:0x020505bc end:0x020505d0
+
+src/auto/ReadAnaFileNowSeekPos.c:
+    complete
+    .text       start:0x02046a98 end:0x02046ae0
+    .data       start:0x020508a0 end:0x020508b8
+
+src/auto/ReflectSystemConfig.c:
+    complete
+    .text       start:0x020466d4 end:0x02046788
+    .data       start:0x02050844 end:0x02050858
+
+src/auto/RestoreLoadGameDataWithoutResult.c:
+    complete
+    .text       start:0x02047d24 end:0x02047e2c
+    .data       start:0x02050954 end:0x02050978
+
+src/auto/SetCenteringStr.c:
+    complete
+    .text       start:0x0204fddc end:0x0204fea8
+    .data       start:0x020514d4 end:0x020514e4
+
+src/auto/SetPaletteDataToVram.c:
+    complete
+    .text       start:0x0204aae0 end:0x0204abb4
+    .data       start:0x020511e0 end:0x020511f8
+
+src/auto/SyncPutMessageOneChar.c:
+    complete
+    .text       start:0x0204ba74 end:0x0204bb50
+    .data       start:0x02051294 end:0x020512ac

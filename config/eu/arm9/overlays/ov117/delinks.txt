@@ -463,3 +463,15 @@ src/auto/func_ov117_020ed208.c:
 src/auto/func_ov117_020ed248.c:
     complete
     .text       start:0x020ed248 end:0x020ed2d0
+
+src/auto/func_ov117_020e53dc.c:
+    complete
+    .text       start:0x020e53dc end:0x020e5474
+
+src/auto/func_ov117_020e7450.c:
+    complete
+    .text       start:0x020e7450 end:0x020e74b8
+
+src/auto/func_ov117_020ed2d0.c:
+    complete
+    .text       start:0x020ed2d0 end:0x020ed4d4

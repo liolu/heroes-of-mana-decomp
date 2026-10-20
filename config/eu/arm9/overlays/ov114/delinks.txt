@@ -187,3 +187,7 @@ src/auto/func_ov114_020e2170.c:
 src/auto/func_ov114_020e2fe0.c:
     complete
     .text       start:0x020e2fe0 end:0x020e3098
+
+src/auto/func_ov114_020e23a8.c:
+    complete
+    .text       start:0x020e23a8 end:0x020e2438

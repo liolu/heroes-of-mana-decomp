@@ -187,3 +187,15 @@ src/auto/func_ov116_020e557c.c:
 src/auto/func_ov116_020e55e0.c:
     complete
     .text       start:0x020e55e0 end:0x020e5668
+
+src/auto/func_ov116_020e2a80.c:
+    complete
+    .text       start:0x020e2a80 end:0x020e2b10
+
+src/auto/func_ov116_020e3258.c:
+    complete
+    .text       start:0x020e3258 end:0x020e32c0
+
+src/auto/func_ov116_020e5668.c:
+    complete
+    .text       start:0x020e5668 end:0x020e586c

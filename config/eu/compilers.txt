@@ -1749,3 +1749,91 @@ src/auto/func_ov123_020b0c44.c 1.2/sp3
 src/auto/func_ov123_020b3ad4.c 1.2/sp3
 src/auto/func_ov123_020b9a60.c 1.2/sp3
 src/auto/func_ov123_020c155c.c 1.2/sp3
+src/auto/CanIUseSPwaza.c 2.0/sp1p5 -profile
+src/auto/CarisumaUnitParamUpDownByEquip.c 2.0/sp1p5 -profile
+src/auto/CheckHook2Ship.c 2.0/sp1p5 -profile
+src/auto/CheckHookUnderShip.c 2.0/sp1p5 -profile
+src/auto/CountingMapObj.c 2.0/sp1p5 -profile
+src/auto/DeleteItemOne.c 2.0/sp1p5 -profile
+src/auto/DeleteMap_ObjectOneByIDandOpt.c 2.0/sp1p5 -profile
+src/auto/DoSameRaceChoice.c 2.0/sp1p5 -profile
+src/auto/EscapeAndShipInSet.c 2.0/sp1p5 -profile
+src/auto/GetCreateUnitSpeed.c 2.0/sp1p5 -profile
+src/auto/GetEnemyInOneUnitSite.c 2.0/sp1p5 -profile
+src/auto/GetHookObjNo.c 2.0/sp1p5 -profile
+src/auto/GetMakingUnit.c 2.0/sp1p5 -profile
+src/auto/GetNearerHOOKFromShip.c 2.0/sp1p5 -profile
+src/auto/GetNowUnitKazu.c 2.0/sp1p5 -profile
+src/auto/GetUnitNoFromOrder.c 2.0/sp1p5 -profile
+src/auto/GettingItemOne.c 2.0/sp1p5 -profile
+src/auto/Goto_EventNoAndTitleNo.c 2.0/sp1p5 -profile
+src/auto/IsThereHookPosition.c 2.0/sp1p5 -profile
+src/auto/LocGetUpdateParent.c 2.0/sp1p5 -profile
+src/auto/Logic_createHouseAndUnitInShip.c 2.0/sp1p5 -profile
+src/auto/Logic_separate.c 2.0/sp1p5 -profile
+src/auto/MTG_FreeBattleEnd2.c 2.0/sp1p5 -profile
+src/auto/MTG_GameOver.c 2.0/sp1p5 -profile
+src/auto/MTG_StartLastEvent.c 2.0/sp1p5 -profile
+src/auto/MessagePut.c 2.0/sp1p5 -profile
+src/auto/MoveActionAllP_Obj.c 2.0/sp1p5 -profile
+src/auto/Obj2DeadStatus.c 2.0/sp1p5 -profile
+src/auto/ObjParaSetFirst.c 2.0/sp1p5 -profile
+src/auto/PutShisetuIcon.c 2.0/sp1p5 -profile
+src/auto/Put__MISSION_DRAW.c 2.0/sp1p5 -profile
+src/auto/ReadAnaFileNowSeekPos.c 2.0/sp1p5 -profile
+src/auto/ReflectSystemConfig.c 2.0/sp1p5 -profile
+src/auto/ReleaseObjPaletteTransByNoAndSize.c 2.0/sp1p5 -profile
+src/auto/ReleaseUnitListGraDataOne.c 2.0/sp1p5 -profile
+src/auto/RestoreLoadGameDataWithoutResult.c 2.0/sp1p5 -profile
+src/auto/RestoreStock_VSMotoData.c 2.0/sp1p5 -profile
+src/auto/Routine_GetPosNoInShisetuIconList.c 2.0/sp1p5 -profile
+src/auto/ScriptAlphaToDis.c 2.0/sp1p5 -profile
+src/auto/SearchModelTypeSt.c 2.0/sp1p5 -profile
+src/auto/SearchObjPal.c 2.0/sp1p5 -profile
+src/auto/SearchObjPat.c 2.0/sp1p5 -profile
+src/auto/SearchXYforObj.c 2.0/sp1p5 -profile
+src/auto/SetActionToATTACK.c 2.0/sp1p5 -profile
+src/auto/SetAikyoEffectXYZ.c 2.0/sp1p5 -profile
+src/auto/SetAreaMapMaskForEnemy.c 2.0/sp1p5 -profile
+src/auto/SetCenteringStr.c 2.0/sp1p5 -profile
+src/auto/SetColorRoll.c 2.0/sp1p5 -profile
+src/auto/SetDamageForDamageSense.c 2.0/sp1p5 -profile
+src/auto/SetFlyArmAOM.c 2.0/sp1p5 -profile
+src/auto/SetHookRecover.c 2.0/sp1p5 -profile
+src/auto/SetMapCanThere.c 2.0/sp1p5 -profile
+src/auto/SetOrderUnit.c 2.0/sp1p5 -profile
+src/auto/SetPaletteDataToVram.c 2.0/sp1p5 -profile
+src/auto/SetTexPaletteData.c 2.0/sp1p5 -profile
+src/auto/SetTrsDataForEtc.c 2.0/sp1p5 -profile
+src/auto/SetUpCarisumaSally.c 2.0/sp1p5 -profile
+src/auto/SyncPutMessageOneChar.c 2.0/sp1p5 -profile
+src/auto/TG_BattleRestart.c 2.0/sp1p5 -profile
+src/auto/TG_deadMotionForEvent.c 2.0/sp1p5 -profile
+src/auto/TG_eventTitle.c 2.0/sp1p5 -profile
+src/auto/TensouICON_pallet_B.c 2.0/sp1p5 -profile
+src/auto/TouchSoundByShisetu.c 2.0/sp1p5 -profile
+src/auto/TrsFlyArmWork.c 2.0/sp1p5 -profile
+src/auto/WH_SetUserGameInfo.c 2.0/sp1p5 -profile
+src/auto/WH_StateInStartChild.c 2.0/sp1p5 -profile
+src/auto/WHi_MeasureChannel.c 2.0/sp1p5 -profile
+src/auto/WaitSyncCounter.c 2.0/sp1p5 -profile
+src/auto/changeAnchoMode.c 2.0/sp1p5 -profile
+src/auto/changeAnimationObjByMoveLook.c 2.0/sp1p5 -profile
+src/auto/changeHpUpDown.c 2.0/sp1p5 -profile
+src/auto/changeMoveLeftOneChar.c 2.0/sp1p5 -profile
+src/auto/changePatBySync.c 2.0/sp1p5 -profile
+src/auto/checkEndOrderPos.c 2.0/sp1p5 -profile
+src/auto/checkIsThereShip.c 2.0/sp1p5 -profile
+src/auto/checkRectPosCamp.c 2.0/sp1p5 -profile
+src/auto/countingWaitCondForUnit.c 2.0/sp1p5 -profile
+src/auto/distanceForRecover.c 2.0/sp1p5 -profile
+src/auto/isItOkTargetOne.c 2.0/sp1p5 -profile
+src/auto/putBoxShadowAddSub.c 2.0/sp1p5 -profile
+src/auto/searchSamePosObj.c 2.0/sp1p5 -profile
+src/auto/setConsiderTypeByXZ.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02073c80.c 1.2/sp2p3
+src/auto/func_ov123_02073d68.c 1.2/sp2p3
+src/auto/func_ov123_020888e0.c 1.2/sp3
+src/auto/func_ov123_0209975c.c 1.2/sp3
+src/auto/func_ov123_020c9988.c 1.2/sp3
+src/auto/func_ov123_020cb6ac.c 1.2/sp3

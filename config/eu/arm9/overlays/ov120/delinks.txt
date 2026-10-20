@@ -271,3 +271,15 @@ src/auto/func_ov120_020f16dc.c:
 src/auto/func_ov120_020f1740.c:
     complete
     .text       start:0x020f1740 end:0x020f17c8
+
+src/auto/func_ov120_020ec4bc.c:
+    complete
+    .text       start:0x020ec4bc end:0x020ec554
+
+src/auto/func_ov120_020ef068.c:
+    complete
+    .text       start:0x020ef068 end:0x020ef0d0
+
+src/auto/func_ov120_020f17c8.c:
+    complete
+    .text       start:0x020f17c8 end:0x020f19cc

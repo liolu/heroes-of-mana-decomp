@@ -78,3 +78,28 @@ src/auto/touchIconEffectInShip.c:
     complete
     .text       start:0x020e7a8c end:0x020e7ad0
     .data       start:0x020ea21c end:0x020ea234
+
+src/auto/GetMakingUnit.c:
+    complete
+    .text       start:0x020e1c30 end:0x020e1ce4
+    .data       start:0x020e9b14 end:0x020e9b24
+
+src/auto/PutShisetuIcon.c:
+    complete
+    .text       start:0x020e44bc end:0x020e4590
+    .data       start:0x020e9d20 end:0x020e9d30
+
+src/auto/ReleaseUnitListGraDataOne.c:
+    complete
+    .text       start:0x020e6a8c end:0x020e6b5c
+    .data       start:0x020ea018 end:0x020ea034
+
+src/auto/TouchSoundByShisetu.c:
+    complete
+    .text       start:0x020e99c8 end:0x020e9a9c
+    .data       start:0x020ea320 end:0x020ea334
+
+src/auto/changeMoveLeftOneChar.c:
+    complete
+    .text       start:0x020e97ac end:0x020e985c
+    .data       start:0x020ea2c8 end:0x020ea2e0

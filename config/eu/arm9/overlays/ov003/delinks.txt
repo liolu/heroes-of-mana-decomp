@@ -2139,3 +2139,353 @@ src/auto/WH_StateOutSetParentWEPKey.c:
     complete
     .text       start:0x020a3248 end:0x020a3298
     .data       start:0x020ae1bc end:0x020ae1d8
+
+src/auto/CanIUseSPwaza.c:
+    complete
+    .text       start:0x02066cbc end:0x02066d7c
+    .data       start:0x020a8f28 end:0x020a8f38
+
+src/auto/CarisumaUnitParamUpDownByEquip.c:
+    complete
+    .text       start:0x020a0250 end:0x020a030c
+    .data       start:0x020acf7c end:0x020acf9c
+
+src/auto/CheckHook2Ship.c:
+    complete
+    .text       start:0x02063ad4 end:0x02063bc4
+    .data       start:0x020a8b24 end:0x020a8b34
+
+src/auto/CheckHookUnderShip.c:
+    complete
+    .text       start:0x02063bc4 end:0x02063cb4
+    .data       start:0x020a8b34 end:0x020a8b48
+
+src/auto/CountingMapObj.c:
+    complete
+    .text       start:0x02066bcc end:0x02066cbc
+    .data       start:0x020a8f18 end:0x020a8f28
+
+src/auto/DeleteItemOne.c:
+    complete
+    .text       start:0x0209d634 end:0x0209d670
+    .data       start:0x020ac790 end:0x020ac7a0
+
+src/auto/DeleteMap_ObjectOneByIDandOpt.c:
+    complete
+    .text       start:0x0206e1bc end:0x0206e1f8
+    .data       start:0x020a9830 end:0x020a9850
+
+src/auto/DoSameRaceChoice.c:
+    complete
+    .text       start:0x0206d764 end:0x0206d838
+    .data       start:0x020a9748 end:0x020a975c
+
+src/auto/EscapeAndShipInSet.c:
+    complete
+    .text       start:0x02059054 end:0x02059110
+    .data       start:0x020a80e4 end:0x020a80f8
+
+src/auto/GetCreateUnitSpeed.c:
+    complete
+    .text       start:0x0206d3e4 end:0x0206d4a4
+    .data       start:0x020a96f0 end:0x020a9704
+
+src/auto/GetEnemyInOneUnitSite.c:
+    complete
+    .text       start:0x02091778 end:0x02091850
+    .data       start:0x020abbbc end:0x020abbd4
+
+src/auto/GetHookObjNo.c:
+    complete
+    .text       start:0x0206695c end:0x020669f8
+    .data       start:0x020a8eb4 end:0x020a8ec4
+
+src/auto/GetNearerHOOKFromShip.c:
+    complete
+    .text       start:0x0206dcf4 end:0x0206ddd8
+    .data       start:0x020a97a0 end:0x020a97b8
+
+src/auto/GetNowUnitKazu.c:
+    complete
+    .text       start:0x0206aa3c end:0x0206ab0c
+    .data       start:0x020a9270 end:0x020a9280
+
+src/auto/GetUnitNoFromOrder.c:
+    complete
+    .text       start:0x020682d4 end:0x020682fc
+    .data       start:0x020a9014 end:0x020a9028
+
+src/auto/GettingItemOne.c:
+    complete
+    .text       start:0x0209d498 end:0x0209d4d4
+    .data       start:0x020ac744 end:0x020ac754
+
+src/auto/Goto_EventNoAndTitleNo.c:
+    complete
+    .text       start:0x0209f610 end:0x0209f6cc
+    .data       start:0x020acd00 end:0x020acd18
+
+src/auto/IsThereHookPosition.c:
+    complete
+    .text       start:0x0206302c end:0x020630e8
+    .data       start:0x020a8a58 end:0x020a8a6c
+
+src/auto/Logic_createHouseAndUnitInShip.c:
+    complete
+    .text       start:0x020916a4 end:0x02091778
+    .data       start:0x020abb9c end:0x020abbbc
+
+src/auto/Logic_separate.c:
+    complete
+    .text       start:0x02090bc8 end:0x02090c98
+    .data       start:0x020abaf8 end:0x020abb08
+
+src/auto/MTG_FreeBattleEnd2.c:
+    complete
+    .text       start:0x020a2f4c end:0x020a2f98
+    .data       start:0x020ad494 end:0x020ad4a8
+
+src/auto/MTG_GameOver.c:
+    complete
+    .text       start:0x020a2d58 end:0x020a2e54
+    .data       start:0x020ad45c end:0x020ad46c
+
+src/auto/MTG_StartLastEvent.c:
+    complete
+    .text       start:0x020a2ae4 end:0x020a2c04
+    .data       start:0x020ad428 end:0x020ad43c
+
+src/auto/MessagePut.c:
+    complete
+    .text       start:0x0209a380 end:0x0209a450
+    .data       start:0x020ac338 end:0x020ac344
+
+src/auto/MoveActionAllP_Obj.c:
+    complete
+    .text       start:0x020527f4 end:0x020528e0
+    .data       start:0x020a6334 end:0x020a6348
+
+src/auto/Obj2DeadStatus.c:
+    complete
+    .text       start:0x0205d890 end:0x0205d8d8
+    .data       start:0x020a858c end:0x020a859c
+
+src/auto/ObjParaSetFirst.c:
+    complete
+    .text       start:0x02053304 end:0x020533b4
+    .data       start:0x020a647c end:0x020a648c
+
+src/auto/Put__MISSION_DRAW.c:
+    complete
+    .text       start:0x0209eec8 end:0x0209ef88
+    .data       start:0x020acb20 end:0x020acb34
+
+src/auto/ReleaseObjPaletteTransByNoAndSize.c:
+    complete
+    .text       start:0x0206c0e8 end:0x0206c134
+    .data       start:0x020a94b4 end:0x020a94d8
+
+src/auto/RestoreStock_VSMotoData.c:
+    complete
+    .text       start:0x0207a3c4 end:0x0207a47c
+    .data       start:0x020aa4c4 end:0x020aa4dc
+
+src/auto/Routine_GetPosNoInShisetuIconList.c:
+    complete
+    .text       start:0x0209ff0c end:0x0209ff50
+    .data       start:0x020acee8 end:0x020acf0c
+
+src/auto/ScriptAlphaToDis.c:
+    complete
+    .text       start:0x02055d84 end:0x02055e6c
+    .data       start:0x020a7f50 end:0x020a7f64
+
+src/auto/SearchModelTypeSt.c:
+    complete
+    .text       start:0x0207445c end:0x02074490
+    .data       start:0x020a9e60 end:0x020a9e74
+
+src/auto/SearchObjPal.c:
+    complete
+    .text       start:0x0205f138 end:0x0205f180
+    .data       start:0x020a8694 end:0x020a86a4
+
+src/auto/SearchObjPat.c:
+    complete
+    .text       start:0x0205f0a0 end:0x0205f0e8
+    .data       start:0x020a8674 end:0x020a8684
+
+src/auto/SearchXYforObj.c:
+    complete
+    .text       start:0x0205a4e4 end:0x0205a524
+    .data       start:0x020a81ec end:0x020a81fc
+
+src/auto/SetActionToATTACK.c:
+    complete
+    .text       start:0x02066150 end:0x02066230
+    .data       start:0x020a8df4 end:0x020a8e08
+
+src/auto/SetAikyoEffectXYZ.c:
+    complete
+    .text       start:0x020a001c end:0x020a010c
+    .data       start:0x020acf24 end:0x020acf38
+
+src/auto/SetAreaMapMaskForEnemy.c:
+    complete
+    .text       start:0x02079224 end:0x020792f0
+    .data       start:0x020aa3a0 end:0x020aa3b8
+
+src/auto/SetColorRoll.c:
+    complete
+    .text       start:0x020533b4 end:0x02053470
+    .data       start:0x020a78cc end:0x020a78dc
+
+src/auto/SetDamageForDamageSense.c:
+    complete
+    .text       start:0x0205d700 end:0x0205d7e8
+    .data       start:0x020a8558 end:0x020a8570
+
+src/auto/SetFlyArmAOM.c:
+    complete
+    .text       start:0x0208ca38 end:0x0208cb20
+    .data       start:0x020ab82c end:0x020ab83c
+
+src/auto/SetHookRecover.c:
+    complete
+    .text       start:0x0206853c end:0x02068624
+    .data       start:0x020a907c end:0x020a908c
+
+src/auto/SetMapCanThere.c:
+    complete
+    .text       start:0x02075644 end:0x02075720
+    .data       start:0x020aa010 end:0x020aa020
+
+src/auto/SetOrderUnit.c:
+    complete
+    .text       start:0x02066d7c end:0x02066db0
+    .data       start:0x020a8f38 end:0x020a8f48
+
+src/auto/SetTexPaletteData.c:
+    complete
+    .text       start:0x02061994 end:0x02061a58
+    .data       start:0x020a8880 end:0x020a8894
+
+src/auto/SetTrsDataForEtc.c:
+    complete
+    .text       start:0x0205eff0 end:0x0205f0a0
+    .data       start:0x020a8660 end:0x020a8674
+
+src/auto/SetUpCarisumaSally.c:
+    complete
+    .text       start:0x0209dbe8 end:0x0209dcac
+    .data       start:0x020ac808 end:0x020ac81c
+
+src/auto/TG_BattleRestart.c:
+    complete
+    .text       start:0x020a0b8c end:0x020a0c7c
+    .data       start:0x020ad254 end:0x020ad268
+
+src/auto/TG_deadMotionForEvent.c:
+    complete
+    .text       start:0x020a1eb4 end:0x020a1f58
+    .data       start:0x020ad304 end:0x020ad31c
+
+src/auto/TG_eventTitle.c:
+    complete
+    .text       start:0x020a0b40 end:0x020a0b8c
+    .data       start:0x020ad244 end:0x020ad254
+
+src/auto/TensouICON_pallet_B.c:
+    complete
+    .text       start:0x0206f090 end:0x0206f148
+    .data       start:0x020a997c end:0x020a9990
+
+src/auto/TrsFlyArmWork.c:
+    complete
+    .text       start:0x02052b30 end:0x02052c00
+    .data       start:0x020a637c end:0x020a638c
+
+src/auto/WH_SetUserGameInfo.c:
+    complete
+    .text       start:0x020a4774 end:0x020a47b0
+    .data       start:0x020ae83c end:0x020ae850
+
+src/auto/WH_StateInStartChild.c:
+    complete
+    .text       start:0x020a3e84 end:0x020a3f40
+    .data       start:0x020ae5dc end:0x020ae5f4
+
+src/auto/WHi_MeasureChannel.c:
+    complete
+    .text       start:0x020a4b04 end:0x020a4b3c
+    .data       start:0x020ae900 end:0x020ae914
+
+src/auto/WaitSyncCounter.c:
+    complete
+    .text       start:0x02099b2c end:0x02099be8
+    .data       start:0x020ac210 end:0x020ac220
+
+src/auto/changeAnchoMode.c:
+    complete
+    .text       start:0x020560f8 end:0x020561a4
+    .data       start:0x020a7fc4 end:0x020a7fd4
+
+src/auto/changeAnimationObjByMoveLook.c:
+    complete
+    .text       start:0x02057b9c end:0x02057c8c
+    .data       start:0x020a800c end:0x020a802c
+
+src/auto/changeHpUpDown.c:
+    complete
+    .text       start:0x0205db6c end:0x0205dc50
+    .data       start:0x020a85c4 end:0x020a85d4
+
+src/auto/changePatBySync.c:
+    complete
+    .text       start:0x020873b8 end:0x02087494
+    .data       start:0x020ab2c0 end:0x020ab2d0
+
+src/auto/checkEndOrderPos.c:
+    complete
+    .text       start:0x0209237c end:0x02092440
+    .data       start:0x020abcc4 end:0x020abcd8
+
+src/auto/checkIsThereShip.c:
+    complete
+    .text       start:0x0209ca74 end:0x0209cb30
+    .data       start:0x020ac618 end:0x020ac62c
+
+src/auto/checkRectPosCamp.c:
+    complete
+    .text       start:0x0209cd70 end:0x0209ce24
+    .data       start:0x020ac68c end:0x020ac6a0
+
+src/auto/countingWaitCondForUnit.c:
+    complete
+    .text       start:0x0206b190 end:0x0206b254
+    .data       start:0x020a92e4 end:0x020a92fc
+
+src/auto/distanceForRecover.c:
+    complete
+    .text       start:0x02068624 end:0x02068704
+    .data       start:0x020a908c end:0x020a90a0
+
+src/auto/isItOkTargetOne.c:
+    complete
+    .text       start:0x02067510 end:0x020675c0
+    .data       start:0x020a8f70 end:0x020a8f80
+
+src/auto/putBoxShadowAddSub.c:
+    complete
+    .text       start:0x02073de0 end:0x02073ecc
+    .data       start:0x020a9de4 end:0x020a9df8
+
+src/auto/searchSamePosObj.c:
+    complete
+    .text       start:0x0205b960 end:0x0205ba2c
+    .data       start:0x020a8314 end:0x020a8328
+
+src/auto/setConsiderTypeByXZ.c:
+    complete
+    .text       start:0x0205af4c end:0x0205b00c
+    .data       start:0x020a82b8 end:0x020a82cc
