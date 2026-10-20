@@ -10,3 +10,7 @@ src/data/ov071_rodata_020d07c0.c:
 src/data/ov071_rodata_020d07dc.c:
     complete
     .rodata     start:0x020d07dc end:0x020d07f8
+
+src/auto/func_ov071_020d02fc.c:
+    complete
+    .text       start:0x020d02fc end:0x020d0388

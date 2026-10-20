@@ -1,0 +1,24 @@
+#include "m2c.h"
+
+s32 GetUnitTypeByNo(s32);                       /* extern */
+M2C_UNK changeOcc(M2C_UNK, M2C_UNK, s32, M2C_UNK); /* extern */
+s32 distanceForBattle(s32, M2C_UNK);              /* extern */
+M2C_UNK ReadySetUpWaza();                      /* extern */
+s32 GetEnemyInOneUnitSite(M2C_UNK);                   /* extern */
+
+void func_ov107_020e0d78(M2C_UNK arg0) {
+    s32 temp_r0;
+
+    ReadySetUpWaza();
+    temp_r0 = GetEnemyInOneUnitSite(arg0);
+    if (temp_r0 == -1) {
+        return;
+    }
+    if (GetUnitTypeByNo(temp_r0) == 7) {
+        return;
+    }
+    if (distanceForBattle(temp_r0, arg0) != 1) {
+        return;
+    }
+    changeOcc(3, arg0, temp_r0, 0);
+}

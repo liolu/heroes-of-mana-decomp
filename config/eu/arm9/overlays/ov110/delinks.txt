@@ -148,3 +148,7 @@ src/data/ov110_data_020e3c68.c:
 src/data/ov110_rodata_020e3b80.c:
     complete
     .rodata     start:0x020e3b80 end:0x020e3c40
+
+src/auto/func_ov110_020e1e18.c:
+    complete
+    .text       start:0x020e1e18 end:0x020e1ef4

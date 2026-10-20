@@ -139,3 +139,11 @@ src/data/ov113_data_020e48d4.c:
 src/data/ov113_rodata_020e40dc.c:
     complete
     .rodata     start:0x020e40dc end:0x020e48a8
+
+src/auto/func_ov113_020e1c08.c:
+    complete
+    .text       start:0x020e1c08 end:0x020e1c58
+
+src/auto/func_ov113_020e17f8.c:
+    complete
+    .text       start:0x020e17f8 end:0x020e18a8

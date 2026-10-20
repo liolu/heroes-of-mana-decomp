@@ -279,3 +279,31 @@ src/data/ov112_rodata_020ec258.c:
 src/auto/func_ov112_020ea5fc.c:
     complete
     .text       start:0x020ea5fc end:0x020ea638
+
+src/auto/func_ov112_020e7c68.c:
+    complete
+    .text       start:0x020e7c68 end:0x020e7c9c
+
+src/auto/func_ov112_020e8de0.c:
+    complete
+    .text       start:0x020e8de0 end:0x020e8e24
+
+src/auto/func_ov112_020e919c.c:
+    complete
+    .text       start:0x020e919c end:0x020e91f8
+
+src/auto/func_ov112_020e91f8.c:
+    complete
+    .text       start:0x020e91f8 end:0x020e924c
+
+src/auto/func_ov112_020e1500.c:
+    complete
+    .text       start:0x020e1500 end:0x020e15a8
+
+src/auto/func_ov112_020e15a8.c:
+    complete
+    .text       start:0x020e15a8 end:0x020e1650
+
+src/auto/func_ov112_020e3be0.c:
+    complete
+    .text       start:0x020e3be0 end:0x020e3c28

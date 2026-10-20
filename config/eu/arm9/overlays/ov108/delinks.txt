@@ -170,3 +170,11 @@ src/data/ov108_data_020da3e4.c:
 src/data/ov108_data_020da400.c:
     complete
     .data       start:0x020da400 end:0x020da620
+
+src/auto/func_ov108_020d71d0.c:
+    complete
+    .text       start:0x020d71d0 end:0x020d73ec
+
+src/auto/func_ov108_020d9fe8.c:
+    complete
+    .text       start:0x020d9fe8 end:0x020da110

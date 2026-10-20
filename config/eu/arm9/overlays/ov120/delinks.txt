@@ -231,3 +231,15 @@ src/data/ov120_rodata_020f1b70.c:
 src/data/ov120_rodata_020f2120.c:
     complete
     .rodata     start:0x020f2120 end:0x020f3268
+
+src/auto/func_ov120_020ea1a8.c:
+    complete
+    .text       start:0x020ea1a8 end:0x020ea1f0
+
+src/auto/func_ov120_020ea954.c:
+    complete
+    .text       start:0x020ea954 end:0x020ea9e8
+
+src/auto/func_ov120_020ec250.c:
+    complete
+    .text       start:0x020ec250 end:0x020ec290

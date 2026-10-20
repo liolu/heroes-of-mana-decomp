@@ -1694,3 +1694,38 @@ src/auto/WH_StateOutInitialize.c 2.0/sp1p5 -profile
 src/auto/WH_StateOutSetChildWEPKey.c 2.0/sp1p5 -profile
 src/auto/WH_StateOutSetParentParam.c 2.0/sp1p5 -profile
 src/auto/WH_StateOutSetParentWEPKey.c 2.0/sp1p5 -profile
+src/auto/func_ov122_02056e4c.c 2.0/sp1p5 -O4,s
+src/auto/func_ov122_02056e88.c 2.0/sp1p5 -O4,s
+src/auto/func_ov123_02067c6c.c 1.2/sp2p3
+src/auto/func_ov123_02068880.c 1.2/sp2p3
+src/auto/func_ov123_02068f4c.c 1.2/sp2p3
+src/auto/func_ov123_0206ce0c.c 1.2/sp2p3
+src/auto/func_ov123_0206d108.c 1.2/sp2p3
+src/auto/func_ov123_0206d228.c 1.2/sp2p3
+src/auto/func_ov123_02070498.c 1.2/sp2p3
+src/auto/func_ov123_020710b8.c 1.2/sp2p3
+src/auto/func_ov123_02071bc0.c 1.2/sp2p3
+src/auto/func_ov123_020730ec.c 1.2/sp2p3
+src/auto/func_ov123_02074108.c 1.2/sp2p3
+src/auto/func_ov123_0207465c.c 1.2/sp2p3
+src/auto/func_ov123_0207614c.c 1.2/sp2p3
+src/auto/func_ov123_02090624.c 1.2/sp3
+src/auto/func_ov123_020911cc.c 1.2/sp2p3
+src/auto/func_ov123_020a68d8.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a8ba4.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a8cd4.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9de4.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020acf00.c 1.2/sp2p3 -thumb
+src/auto/NNS_SndHeapClear.c 1.2/sp3
+src/auto/func_ov112_020e3be0.c 2.0/sp1p5 -O4,s
+src/auto/func_ov119_020e9d70.c 2.0/sp1p5 -O4,s
+src/auto/func_ov119_020ebb74.c 2.0/sp1p5 -O4,s
+src/auto/func_ov120_020ec250.c 2.0/sp1p5 -O4,s
+src/auto/func_ov121_020eae68.c 2.0/sp1p5 -O4,s
+src/auto/func_ov122_02054db8.c 2.0/sp1p5 -O4,s
+src/auto/func_ov122_02056ecc.c 2.0/sp1p5 -O4,s
+src/auto/func_ov123_0206ce94.c 1.2/sp2p3
+src/auto/func_ov123_020712f8.c 1.2/sp2p3
+src/auto/func_ov123_020743bc.c 1.2/sp2p3
+src/auto/func_ov123_02088380.c 1.2/sp2p3
+src/auto/func_ov123_020a9e9c.c 1.2/sp2p3 -thumb
