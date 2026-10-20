@@ -159,3 +159,31 @@ src/data/ov116_rodata_020e5c24.c:
 src/auto/func_ov116_020e2134.c:
     complete
     .text       start:0x020e2134 end:0x020e2170
+
+src/auto/func_ov116_020e15c0.c:
+    complete
+    .text       start:0x020e15c0 end:0x020e16dc
+
+src/auto/func_ov116_020e1db8.c:
+    complete
+    .text       start:0x020e1db8 end:0x020e1ea4
+
+src/auto/func_ov116_020e2830.c:
+    complete
+    .text       start:0x020e2830 end:0x020e2870
+
+src/auto/func_ov116_020e2870.c:
+    complete
+    .text       start:0x020e2870 end:0x020e288c
+
+src/auto/func_ov116_020e5454.c:
+    complete
+    .text       start:0x020e5454 end:0x020e553c
+
+src/auto/func_ov116_020e557c.c:
+    complete
+    .text       start:0x020e557c end:0x020e55bc
+
+src/auto/func_ov116_020e55e0.c:
+    complete
+    .text       start:0x020e55e0 end:0x020e5668

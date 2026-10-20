@@ -415,3 +415,51 @@ src/data/ov117_rodata_020eeac0.c:
 src/auto/func_ov117_020e2460.c:
     complete
     .text       start:0x020e2460 end:0x020e24a8
+
+src/auto/func_ov117_020e15e0.c:
+    complete
+    .text       start:0x020e15e0 end:0x020e16fc
+
+src/auto/func_ov117_020e4fd8.c:
+    complete
+    .text       start:0x020e4fd8 end:0x020e5018
+
+src/auto/func_ov117_020e5018.c:
+    complete
+    .text       start:0x020e5018 end:0x020e5034
+
+src/auto/func_ov117_020e7a60.c:
+    complete
+    .text       start:0x020e7a60 end:0x020e7aa8
+
+src/auto/func_ov117_020e7aa8.c:
+    complete
+    .text       start:0x020e7aa8 end:0x020e7af0
+
+src/auto/func_ov117_020e7af0.c:
+    complete
+    .text       start:0x020e7af0 end:0x020e7b38
+
+src/auto/func_ov117_020e7b38.c:
+    complete
+    .text       start:0x020e7b38 end:0x020e7b80
+
+src/auto/func_ov117_020e9e90.c:
+    complete
+    .text       start:0x020e9e90 end:0x020e9ee0
+
+src/auto/func_ov117_020e9ee0.c:
+    complete
+    .text       start:0x020e9ee0 end:0x020e9f30
+
+src/auto/func_ov117_020ed0e0.c:
+    complete
+    .text       start:0x020ed0e0 end:0x020ed1c8
+
+src/auto/func_ov117_020ed208.c:
+    complete
+    .text       start:0x020ed208 end:0x020ed248
+
+src/auto/func_ov117_020ed248.c:
+    complete
+    .text       start:0x020ed248 end:0x020ed2d0

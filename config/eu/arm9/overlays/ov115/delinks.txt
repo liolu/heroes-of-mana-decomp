@@ -259,3 +259,15 @@ src/auto/func_ov115_020e24f8.c:
 src/auto/func_ov115_020e51c8.c:
     complete
     .text       start:0x020e51c8 end:0x020e53f0
+
+src/auto/func_ov115_020e24b0.c:
+    complete
+    .text       start:0x020e24b0 end:0x020e24f8
+
+src/auto/func_ov115_020e36c0.c:
+    complete
+    .text       start:0x020e36c0 end:0x020e3700
+
+src/auto/func_ov115_020e4b98.c:
+    complete
+    .text       start:0x020e4b98 end:0x020e4c64

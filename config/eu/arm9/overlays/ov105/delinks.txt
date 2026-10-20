@@ -9,3 +9,7 @@ src/auto/func_ov105_020d0160.c:
 src/data/ov105_bss_020d0900.c:
     complete
     .bss        start:0x020d0900 end:0x020d0920
+
+src/auto/func_ov105_020d019c.c:
+    complete
+    .text       start:0x020d019c end:0x020d04a4

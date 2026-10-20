@@ -615,3 +615,19 @@ src/auto/func_ov122_02054db8.c:
 src/auto/func_ov122_02056ecc.c:
     complete
     .text       start:0x02056ecc end:0x02056f04
+
+src/auto/func_ov122_02051640.c:
+    complete
+    .text       start:0x02051640 end:0x020516cc
+
+src/auto/func_ov122_020528a8.c:
+    complete
+    .text       start:0x020528a8 end:0x020529c4
+
+src/auto/func_ov122_0205fd3c.c:
+    complete
+    .text       start:0x0205fd3c end:0x0205fe24
+
+src/auto/func_ov122_0205fe24.c:
+    complete
+    .text       start:0x0205fe24 end:0x0205fe64

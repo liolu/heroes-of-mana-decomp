@@ -479,3 +479,7 @@ src/data/ov111_rodata_020eb88c.c:
 src/auto/func_ov111_020e90ec.c:
     complete
     .text       start:0x020e90ec end:0x020e91b0
+
+src/auto/func_ov111_020e19d8.c:
+    complete
+    .text       start:0x020e19d8 end:0x020e1a64
