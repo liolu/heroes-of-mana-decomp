@@ -75,6 +75,16 @@ def select_module(target: str) -> str:
     """Points the tools at the module of `target` (a symbol name or 0xADDR of an overlay function)."""
     global RELOCS, _SYMS, _RELOCS, MODULE
     ov = overlay_index().get(target) if not target.startswith("0x") else None
+    if ov is None and not target.startswith("0x"):
+        # generic names (SetDestination, DummyCall...) can exist in several overlays: overlay_index keeps the first
+        # one, but a -profile function's record tells its real module through the original (m2c) symbol name.
+        global _PROFREC
+        if _PROFREC is None:
+            f = ROOT / "build" / "profnames.json"
+            _PROFREC = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+        m = re.match(r"func_ov(\d{3})_", (_PROFREC.get(target) or {}).get("old", ""))
+        if m:
+            ov = int(m.group(1))
     if ov is None:
         if MODULE != "main":  # coming back from an overlay: rebind the main module's files
             project.SYMBOLS, project.DELINKS = _MAIN_STATE[0], _MAIN_STATE[1]
@@ -109,7 +119,12 @@ def _profile_rec(name):
         f = ROOT / "build" / "profnames.json"
         _PROFREC = json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
     v = _PROFREC.get(name)
-    return tuple(v["rec"]) if v else None
+    if not v:
+        return None
+    rec = v["rec"]
+    # profpad.py adds "end4": the record padded to 4 bytes, and that padded range is what links byte-identically
+    # (an unpadded range leaves a 1-3 byte gap object that shifts everything after it).
+    return (rec[0], v.get("end4", rec[1]))
 
 
 _PROFREC = None
