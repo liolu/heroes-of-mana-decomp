@@ -1,16 +1,17 @@
 {
- "generation": 16,
- "created": 1792277709.81246,
+ "generation": 17,
+ "created": 1792613598.391089,
  "block_size": 50,
  "blocks": [
   {
-   "id": "L0-16001",
+   "id": "L0-17001",
    "level": 0,
    "functions": [
     "_u32_div_f",
     "OS_SetIrqStackChecker",
     "OSi_IrqCallback",
     "OS_SetIrqFunction",
+    "__call_static_initializers",
     "OS_WaitIrq",
     "__exit",
     "double2hex",
@@ -29,7 +30,6 @@
     "DGTi_Hash2ProcessBlock",
     "OSi_ArrangeTimer",
     "WmReceiveFifo",
-    "MBi_MakeBlockInfoTable",
     "__ieee754_pow",
     "func_0200b31c",
     "CARDi_InitCommon",
@@ -40,47 +40,42 @@
     "MB_RegisterFile",
     "MBi_SendFixedBeacon",
     "MBi_SendVolatBeacon",
-    "MBi_ChildPortCallback",
     "MBi_StartParentCore",
     "MB_DisconnectChild",
     "MBi_SendMP",
-    "MBi_CheckWmErrcode",
     "parse_format",
     "__sformatter",
-    "func_02027284",
     "OS_YieldThread",
     "_fsub",
     "__rethrow"
    ],
-   "bytes": 32816,
+   "bytes": 31896,
    "addr": [
     33740420,
     33750252
    ]
   },
   {
-   "id": "L1-16001",
+   "id": "L1-17001",
    "level": 1,
    "functions": [
-    "__call_static_initializers",
     "func_0202efe8",
     "func_0202bb9c",
     "func_0202f470",
     "func_0202f580",
     "func_0202f7d4",
-    "func_020023cc",
     "func_0202bb5c",
     "func_0202ed5c",
     "func_0202f494"
    ],
-   "bytes": 348,
+   "bytes": 232,
    "addr": [
-    33748168,
+    33746920,
     33748124
    ]
   },
   {
-   "id": "L2-16001",
+   "id": "L2-17001",
    "level": 2,
    "functions": [
     "func_020085c0",
@@ -89,12 +84,10 @@
     "func_0202f6fc",
     "func_02008238",
     "func_02008738",
-    "NNS_SndHeapClear",
     "func_02007c48",
     "func_020083f8",
     "func_02008758",
     "func_02008774",
-    "func_020048f0",
     "NNSi_SndPlayerStartSeq",
     "func_0202bb24",
     "func_0202bb50",
@@ -109,8 +102,6 @@
     "RLUnCompReadByCallbackWrite16bit",
     "Mod",
     "Halt",
-    "func_02002650",
-    "MBi_ReloadCache",
     "func_0202fc58",
     "func_01ff85b0",
     "func_01ff85c0",
@@ -132,22 +123,22 @@
     "func_01ff9eb4",
     "func_01ff9efc",
     "func_01ff9f60",
-    "func_01ffa1c8"
-   ],
-   "bytes": 1570,
-   "addr": [
-    33588672,
-    33530324
-   ]
-  },
-  {
-   "id": "L2-16002",
-   "level": 2,
-   "functions": [
+    "func_01ffa1c8",
     "func_01ffa1d4",
     "func_01ffa1e0",
     "func_01ffa1f0",
-    "func_01ffa298",
+    "func_01ffa298"
+   ],
+   "bytes": 1074,
+   "addr": [
+    33588672,
+    33530540
+   ]
+  },
+  {
+   "id": "L2-17002",
+   "level": 2,
+   "functions": [
     "func_01ffa65c",
     "func_01ffa668",
     "func_01ffa674",
@@ -193,22 +184,22 @@
     "func_01ffc528",
     "func_01ffc5d0",
     "func_01ffc754",
-    "func_01ffc760"
-   ],
-   "bytes": 672,
-   "addr": [
-    33530324,
-    33539948
-   ]
-  },
-  {
-   "id": "L2-16003",
-   "level": 2,
-   "functions": [
+    "func_01ffc760",
     "func_01ffc76c",
     "func_01ffc770",
     "func_01ffc7e0",
-    "func_01ffcde4",
+    "func_01ffcde4"
+   ],
+   "bytes": 648,
+   "addr": [
+    33531484,
+    33541616
+   ]
+  },
+  {
+   "id": "L2-17003",
+   "level": 2,
+   "functions": [
     "func_01ffcdf0",
     "func_01ffcdfc",
     "func_01ffce00",
@@ -229,44 +220,13 @@
     "func_01ffd488",
     "func_01ffd4cc",
     "func_ov004_020b9cd8",
-    "func_ov004_020b9cf4",
-    "func_ov004_020b9d08",
     "func_ov004_020b9d1c",
-    "func_ov004_020bb0a8",
     "func_ov004_020bbbbc",
     "func_ov004_020bbce4",
-    "func_ov004_020bfc48",
     "func_ov004_020c058c",
     "func_ov004_020c05cc",
     "func_ov004_020c060c",
     "func_ov004_020c14b0",
-    "func_ov004_020c5cb0",
-    "func_ov004_020c5d10",
-    "func_ov004_020c5d28",
-    "func_ov004_020c5d58",
-    "func_ov004_020c5d88",
-    "func_ov004_020c5da0",
-    "func_ov004_020c5db8",
-    "func_ov004_020c5dd0",
-    "func_ov004_020c5de8",
-    "func_ov004_020c5e00",
-    "func_ov004_020c5e18",
-    "func_ov004_020c5e3c",
-    "func_ov004_020c5e54",
-    "func_ov004_020c6030",
-    "func_ov004_020c8b6c"
-   ],
-   "bytes": 900,
-   "addr": [
-    33539948,
-    34376576
-   ]
-  },
-  {
-   "id": "L2-16004",
-   "level": 2,
-   "functions": [
-    "func_ov004_020c8b80",
     "func_ov004_020c916c",
     "func_ov004_020c9184",
     "func_ov004_020c9198",
@@ -277,9 +237,7 @@
     "func_ov004_020c946c",
     "func_ov004_020c9868",
     "func_ov004_020c9cc0",
-    "func_ov004_020ca4f0",
     "func_ov004_020ca574",
-    "func_ov004_020ca588",
     "func_ov004_020ca648",
     "func_ov004_020cac20",
     "func_ov004_020cad18",
@@ -291,74 +249,50 @@
     "func_ov042_020d0160",
     "func_ov043_020d0160",
     "func_ov044_020d0160",
-    "func_ov098_020d0160",
+    "func_ov098_020d0160"
+   ],
+   "bytes": 864,
+   "addr": [
+    33541616,
+    34406768
+   ]
+  },
+  {
+   "id": "L2-17004",
+   "level": 2,
+   "functions": [
     "func_ov099_020d0160",
     "func_ov100_020d0160",
     "func_ov101_020d0160",
     "func_ov102_020d0160",
     "func_ov103_020d0160",
     "func_ov112_020e3b7c",
-    "func_ov116_020e2870",
-    "func_ov117_020e5018",
-    "func_ov120_020ec2ac",
-    "func_ov121_020eaea8",
-    "func_ov122_0205dafc",
     "func_ov123_020664e4",
-    "func_ov123_0206b2cc",
     "func_ov123_02070d20",
     "func_ov123_02073574",
     "func_ov123_02074834",
     "func_ov123_02076a74",
-    "func_ov123_02077e14",
-    "func_ov123_02077e2c",
     "func_ov123_020788a4",
     "func_ov123_020788b0",
     "func_ov123_020788c0",
     "func_ov123_020788d4",
-    "func_ov123_02083ae4"
-   ],
-   "bytes": 984,
-   "addr": [
-    34376576,
-    34093824
-   ]
-  },
-  {
-   "id": "L2-16005",
-   "level": 2,
-   "functions": [
     "func_ov123_0208655c",
-    "func_ov123_020888e0",
-    "func_ov123_02088a08",
     "func_ov123_0208a580",
     "func_ov123_0208a594",
     "func_ov123_020912ec",
-    "func_ov123_02094378",
     "func_ov123_02094950",
     "func_ov123_02094b0c",
     "func_ov123_02094b28",
-    "func_ov123_0209975c",
     "func_ov123_020a66f0",
-    "func_ov123_020a678c",
-    "func_ov123_020a67dc",
     "func_ov123_020a6848",
     "func_ov123_020a684c",
     "func_ov123_020a68b0",
-    "func_ov123_020a68cc",
-    "func_ov123_020a68d8",
     "func_ov123_020a8098",
-    "func_ov123_020a8cd4",
-    "func_ov123_020a9b84",
     "func_ov123_020a9eec",
     "func_ov123_020a9f04",
     "func_ov123_020ac864",
     "func_ov123_020b29dc",
     "func_ov123_020c9970",
-    "func_ov123_020cb5f8",
-    "func_ov123_020cb6ac",
-    "func_ov123_020cea00",
-    "func_ov123_020ceef8",
-    "func_ov123_020cef0c",
     "func_ov123_020cf62c",
     "func_ov123_020cf6a0",
     "func_ov123_020cf794",
@@ -378,14 +312,14 @@
     "func_ov123_020d0894",
     "func_ov123_020d09e0"
    ],
-   "bytes": 1150,
+   "bytes": 1038,
    "addr": [
-    34104668,
+    34406752,
     34408944
    ]
   },
   {
-   "id": "L2-16006",
+   "id": "L2-17005",
    "level": 2,
    "functions": [
     "func_ov123_020d09f0",
@@ -406,20 +340,16 @@
     "func_ov123_020d1870",
     "func_ov123_020d1880",
     "func_ov123_020d194c",
-    "func_ov123_020d2834",
-    "func_ov123_020d2f74",
-    "func_ov123_020d2fb4",
-    "func_ov123_020d2fcc",
-    "func_ov123_020d2fe4"
+    "func_ov123_020d2834"
    ],
-   "bytes": 488,
+   "bytes": 392,
    "addr": [
     34408944,
-    34418684
+    34416720
    ]
   },
   {
-   "id": "L3-16001",
+   "id": "L3-17001",
    "level": 3,
    "functions": [
     "func_0202c060",
@@ -430,7 +360,6 @@
     "func_0202f280",
     "func_0202f64c",
     "func_0202fb38",
-    "func_02026c60",
     "func_0202f594",
     "func_0202f744",
     "func_0200791c",
@@ -448,9 +377,6 @@
     "func_0200524c",
     "func_02005804",
     "func_020058c8",
-    "SND_FlushCommand",
-    "func_02015b24",
-    "func_0200109c",
     "func_02002304",
     "func_02002b6c",
     "func_020037e8",
@@ -458,10 +384,7 @@
     "func_020075c8",
     "func_02014344",
     "func_02014408",
-    "WmInitCore",
     "OS_IrqHandler",
-    "MIi_DmaSetParams",
-    "MIi_DmaSetParams_noInt",
     "func_01ff84ec",
     "func_01ff8530",
     "func_01ff858c",
@@ -471,25 +394,25 @@
     "func_01ff8bcc",
     "func_01ff8c18",
     "func_01ff8c44",
-    "func_01ff8c70"
-   ],
-   "bytes": 7984,
-   "addr": [
-    33734752,
-    33524928
-   ]
-  },
-  {
-   "id": "L3-16002",
-   "level": 3,
-   "functions": [
+    "func_01ff8c70",
     "func_01ff9258",
     "func_01ff9284",
     "func_01ff96bc",
     "func_01ff9718",
     "func_01ff9744",
     "func_01ff979c",
-    "func_01ff97ec",
+    "func_01ff97ec"
+   ],
+   "bytes": 6984,
+   "addr": [
+    33734752,
+    33527884
+   ]
+  },
+  {
+   "id": "L3-17002",
+   "level": 3,
+   "functions": [
     "func_01ff984c",
     "func_01ff987c",
     "func_01ff9a00",
@@ -532,25 +455,25 @@
     "func_01ffb4bc",
     "func_01ffb518",
     "func_01ffb568",
-    "func_01ffb598"
-   ],
-   "bytes": 3012,
-   "addr": [
-    33526360,
-    33535432
-   ]
-  },
-  {
-   "id": "L3-16003",
-   "level": 3,
-   "functions": [
+    "func_01ffb598",
     "func_01ffb600",
     "func_01ffb62c",
     "func_01ffb6ac",
     "func_01ffb830",
     "func_01ffb880",
     "func_01ffb8b0",
-    "func_01ffb900",
+    "func_01ffb900"
+   ],
+   "bytes": 2908,
+   "addr": [
+    33527884,
+    33536300
+   ]
+  },
+  {
+   "id": "L3-17003",
+   "level": 3,
+   "functions": [
     "func_01ffb990",
     "func_01ffb9bc",
     "func_01ffb9f8",
@@ -593,448 +516,159 @@
     "func_01ffd268",
     "func_01ffd298",
     "func_01ffd2e8",
-    "func_01ffd368"
-   ],
-   "bytes": 2748,
-   "addr": [
-    33535488,
-    33543056
-   ]
-  },
-  {
-   "id": "L3-16004",
-   "level": 3,
-   "functions": [
+    "func_01ffd368",
     "func_01ffd40c",
     "func_01ffd43c",
     "func_01ffd6dc",
     "func_01ffe2c0",
     "func_01ffe430",
     "func_01ffe674",
-    "func_01ffea58",
-    "Ds_initBeforeOverLay",
-    "CutFromPartner",
+    "func_01ffea58"
+   ],
+   "bytes": 2760,
+   "addr": [
+    33536400,
+    33548936
+   ]
+  },
+  {
+   "id": "L3-17004",
+   "level": 3,
+   "functions": [
     "GetOkFromParent",
-    "GetEndSelNoFromKO",
-    "GetEndSelNoFromOYA",
-    "LocGetUpdateParent",
-    "SetCutTrsMode",
-    "AnaGameUnLoad",
-    "GetKeyAndTouch",
-    "SetTouchPadCali",
     "TouchWorkClear",
-    "Ring_SoundEffect",
-    "Stop_SoundEffect",
-    "BGM_volume",
-    "GameSoftReset",
     "HBlankIntr",
-    "ReadAnaFileNowSeekPos",
     "getIconObjPalData",
     "getIconObjAnimeData",
-    "RestoreLoadGameDataOnlyKuni0Item",
-    "StockRetryData",
-    "RestoreRetryData",
     "CountSetUpEventOccur",
-    "DoingScrolWindow",
-    "deleteUseStringSt",
     "ClearBtlBgVramMap",
     "getNameString",
     "getMessString",
-    "ModelWorkInit",
-    "ClearTensouBuff",
     "SetGameConditionForChild",
     "SetGameConditionForParent",
-    "FadeOutScreen",
     "FadeOutScreenX2X",
-    "FadeInScreen",
     "ClearCanUseVramMap",
-    "ClearCanUseObjPalMap",
-    "ResetTexPalMap",
     "countNoUseTexPal",
     "ClearTensouOam",
     "mtx_Scale",
     "mtx_Translate",
-    "ChangeScriptAlphaChg"
-   ],
-   "bytes": 3336,
-   "addr": [
-    33543180,
-    33905824
-   ]
-  },
-  {
-   "id": "L3-16005",
-   "level": 3,
-   "functions": [
-    "GetUsualAlpha",
     "GetObjAlpha",
-    "PutOrderingInitialize",
     "PutOrderingDelete",
-    "AddPutOrder",
-    "SearchXYforObj",
     "ObjAZtoAreaAZ",
     "AreaAZtoObjAZ",
     "SetNowDownId_a",
     "SetNowDownId_i2",
-    "ReleaseTexGet",
     "ReleaseTexGetSub",
-    "OnlyDeleteDelTex",
     "OnlyDeleteDelTexOne",
-    "deleteTexByBefore",
-    "TransTex2Vram",
-    "CancelTransTex2Vram",
-    "CancelTransTex2VramForArm",
-    "ClsTransTex2Vram",
     "ClsTransTex2VramSub",
-    "Obj2DeadStatus",
     "SetUnitStatusIcon",
-    "SearchObjPat",
     "SearchObjPatSub",
-    "SearchObjPal",
     "SearchObjPalSub",
-    "DeleteObjPatOne",
-    "DeleteObjPalOne",
     "SetFirstUNITOnOff",
-    "UseObjectSetUp",
     "MakeKYOTEN_SET_GND_ByKyotenNo",
-    "ReleaseTexPaletteTrans",
     "GetEmptyObjWork",
     "ChainAndAnchorSetOFF",
     "SetObjActionToNONE",
     "releaseUnitIconWorkOne",
-    "ReleaseNoneAnimeTex",
-    "ClearCarisumaMap",
     "GetObjNoInDestination",
     "SetDestination",
     "GetUnitBaseNoByAoo",
-    "ShipIsAtHook",
-    "ShipIsAtHookByKuni",
-    "GetGaiaTrentFromShip",
-    "GetGaiaFromShip",
-    "GetTrentFromShip",
-    "SetOrderUnit",
-    "GetUnitNoFromOrder",
-    "IsThereRecoverHouse",
-    "ClearRecoverHpSw"
-   ],
-   "bytes": 3600,
-   "addr": [
-    33906624,
-    33981756
-   ]
-  },
-  {
-   "id": "L3-16006",
-   "level": 3,
-   "functions": [
-    "MakeOnePlane1bit",
-    "convertPlane1bitToFULL",
+    "ClearRecoverHpSw",
     "GetNowBuildHouseKazu",
-    "ReleaseExtObjPaletteTrans",
-    "ReleaseExtBGPaletteTrans",
-    "ReleaseObjPaletteTrans",
-    "ReleaseObjPaletteTransByNoAndSize",
-    "countDeathByCharNo",
     "GetAooNoFromUnitBaseNo",
     "GetAooNoFromCharNo",
-    "InitializeMap_Object",
-    "DeleteMap_ObjectOneByIDandOpt",
-    "AnimationAllMap_Object",
-    "putAllMap_Object",
-    "DeleteNoAnimeObjOnlyOne",
-    "ClearPolWork",
-    "CalcModelMatrix2",
-    "setMaskShadow",
-    "CopyVecFx32",
-    "CopyVecFx16",
-    "SearchModelTypeSt",
     "SearchModelTypeStSub",
-    "ModelWorkReleaseOne",
     "materialAlphaForShip",
     "GetType_TexRepeat",
     "GetType_TexFlip",
     "SetPolygonAttributeForGame",
     "AreaMapRoll",
-    "MapScrolByKey",
-    "SetHikusenScale",
-    "SetUnitPos4VS",
-    "deleteTouchPosIcon",
-    "ClearAreaMapMaskForEnemy",
-    "ana_InitDisplay3D",
-    "GetSeireiKazu_ShisetuLevTable",
-    "StoreNowGameData",
-    "StoreNowGameDataWithoutResult",
-    "CheckSavePossible",
     "SetAndGoLoopFlag",
-    "StockAikyoEffectWithAttackID",
-    "TrsGameWorkRelease",
-    "ReleaseTrsCommand",
-    "SetTrsObjCommand",
-    "ReleaseObjTrsDataOneWork",
-    "ObjOneParaSet1",
-    "ObjOneParaSet2",
-    "CallTrsForMainLoop",
-    "CallTrsForLoop",
-    "ParentModeConnect",
-    "Clear_wmwork"
+    "StockAikyoEffectWithAttackID"
    ],
-   "bytes": 3544,
+   "bytes": 4076,
    "addr": [
-    33984168,
-    34072072
+    33832436,
+    34060256
    ]
   },
   {
-   "id": "L3-16007",
+   "id": "L3-17005",
    "level": 3,
    "functions": [
-    "ReleaseWmWorks",
-    "EndGiveDataCheck",
-    "Send_startTrsTrig",
-    "SetParentTgid",
-    "SetParentChannel",
-    "getErrForSetEntry",
-    "SetEntryflagBeacon",
-    "ScanParentBeacon",
-    "ScanParentBeaconInit",
-    "SetCallBackForVS_Trs",
-    "SetBssDescNo",
-    "ModeError",
+    "TrsGameWorkRelease",
+    "SetTrsObjCommand",
     "deleteComObj",
     "deleteComObjOne",
     "AddIconPutSt",
-    "deleteComObjByComnoOther",
-    "deleteComObjByComno",
-    "deleteComObjByComnoRect",
-    "SearchComObjByComno",
     "SearchComObjOneByComno",
-    "ChangeComObjByFunc",
-    "ChangeComObjByFuncAndNo",
-    "deleteComObjByPutflag",
-    "deleteComObjBySt",
     "IsThereIconByComno",
     "SelectByGameOver",
     "ChgIconsAnime_Aengine",
-    "ChangeCompasIcon",
-    "deleteCompasIcon",
-    "deleteUPDOWNIcon",
-    "deleteSelectCancelBtn",
-    "deleteShipIcon",
-    "deleteGetRECTIcon",
     "GetHowManyCariSt",
     "GetNoCariStByJunban",
-    "IsThereMagicIcom",
-    "IsThereInShipIcom",
-    "DeleteInShipIcom",
-    "DeleteWin_HookTakeOff",
-    "Delete_MissionStartCompleteWinLose",
-    "ReleaseObjectGraCommon",
-    "DeleteUnitRaceIcon",
-    "ChgRaceIconOff",
     "ChgRaceIconOffOne",
     "SetFlyArmPal",
-    "FlyArmAllAnime",
-    "CancelTransTex2VramArm",
-    "FlyArmAllPut",
     "FlyArmOnePut",
-    "ReleaseFlyArmWork"
-   ],
-   "bytes": 3200,
-   "addr": [
-    34072600,
-    34128864
-   ]
-  },
-  {
-   "id": "L3-16008",
-   "level": 3,
-   "functions": [
     "SetHitMarkPal",
     "distanceForBattle",
-    "ReadySetUpWaza",
-    "SetWazaBySpOrNormal",
     "SearchUnitFunc",
     "calcHitRate",
     "calcUnitSikai",
     "InitializeKuniAndUnit",
-    "InitializeOtherKuniAndUnit",
     "ClearDropItemExist",
-    "Routine_FadeOutAll",
-    "Routine_FadeInAll",
-    "Routine_FadeOutAllByCount",
-    "Routine_FadeInAllByCount",
-    "Routine_FadeOutAllWithMoveByCount",
-    "Routine_FadeInAllWithMoveByCount",
-    "Routine_FadeOutAllWithUpDown",
-    "Routine_FadeInAllWithUpDown",
     "Routine_PutEventTitle",
-    "WaitSyncTouch",
     "Routine_KyotenChange",
     "CameraMoveAndWait",
     "Routine_MessageRect",
     "Routine_MessageRectForInShip",
-    "MessagePutAndWait",
     "EventDurringTitle",
-    "SetTitleNameNo",
-    "Routine_SetEvPos",
-    "Routine_DeleteEvPos",
-    "CountGaiaFind",
-    "CountTrentFind",
-    "ShipUnitSelCanOrNot",
-    "Routine_CameraFree",
-    "Routine_ScreenRGB_ON",
     "Routine_ScreenRGB_rgb",
     "Routine_ScreenRGB_alpha",
-    "Routine_ScreenRGB_OFF",
-    "Routine_SoundEffect",
-    "Routine_StopSoundEffect",
-    "Routine_BGMchange",
-    "checkCanSeeUnit",
-    "GetHpOrResource",
     "SetLogicParaNoForShipIn",
-    "CalRnd",
-    "GettingItemOne",
-    "GettingItemOneForFree",
-    "GetKazuOfItem",
-    "DeleteItemOne",
     "WhatNoEquipSeirei",
-    "Routine_SetEvPosMode"
-   ],
-   "bytes": 3008,
-   "addr": [
-    34141892,
-    34201380
-   ]
-  },
-  {
-   "id": "L3-16009",
-   "level": 3,
-   "functions": [
     "Routine_ShakeScreen",
-    "cameraTargetIconON",
-    "SetTutorialModeON",
-    "SetTutorialModeOFF",
-    "HpBar_Status_IconOFF",
-    "SetScenarioNoForResult",
-    "MoveOnClearTimer",
-    "StopClearTimer",
     "GetClearTimer",
-    "StopPlanTimer",
-    "SetPlanTimer",
     "GetPlanTimer",
-    "SetGameTimeMax",
-    "PutOnOffTimer",
     "SetResultMapReferenceRate",
-    "SetDropItemBySetNo",
-    "SetDropItemByNO",
-    "Routine_SetEvPosFadeIn",
-    "Put__MISSION_START",
-    "Put__MISSION_COMPLETE",
-    "delete__MISSION_COMPLETE",
-    "delete__MISSION_WINLOSEDRAW",
-    "Put__MISSION_GAMEOVER",
-    "delete__MISSION_GAMEOVER",
-    "GetNumberChoicePos",
-    "SetHaibokuJouken",
-    "SetSyouriJouken",
-    "PutHaibokuJouken",
-    "PutSyouriJouken",
-    "delete_SyouriHaibokuJouken",
-    "CancelUnitSelect",
-    "checkMakeEndShisetu",
-    "GetNowBGM_No",
-    "InitializeSiteOfAreaMap",
     "GetDireOfUnit",
     "GetXZOfUnit",
-    "PutOnePlanePicUP_LCD",
-    "PutAreaMapUP_LCD",
-    "GetGameLevelMode",
     "GetFreeScenarioOnOff",
     "GetVSGameTimerMax",
-    "SetRoutineByCallGodBeast",
-    "StockDataForRetry",
-    "SetDeathCheckForVS",
-    "GetCountCallByUnitBaseNo",
-    "GetShipAooStByScript",
-    "Routine_GetPosNoInShisetuIconList",
     "IsThereAikyoEffect",
     "SetMissonFlag",
-    "SystemHelpMessageMaxSet"
-   ],
-   "bytes": 3048,
-   "addr": [
-    34201520,
-    34211972
-   ]
-  },
-  {
-   "id": "L3-16010",
-   "level": 3,
-   "functions": [
-    "evenOrOdd",
-    "TG_eventTitle",
-    "MTG_BecomeDarkScreen",
-    "MTG_ReturnDarkScreen",
-    "MTG_StartEvent",
-    "MTG_EndEvent",
-    "MTG_FreeBattleEnd2",
     "WH_GetWMErrCodeName",
     "WH_GetWMStateCodeName",
-    "WH_StateInSetParentParam",
-    "WH_StateOutSetParentWEPKey",
-    "WH_StateInStartParentKeyShare",
-    "WH_StateInEndParentMP",
-    "WH_StateOutEndParent",
-    "WH_EndScan",
-    "WH_StateInEndScan",
-    "WH_StateInEndChildMP",
-    "WH_StateOutEndChildMP",
-    "WH_StateInEndChild",
-    "WH_StateOutEndChild",
     "WH_StateOutReset",
     "WH_StateOutSetMPData",
-    "WH_StateOutEnd",
-    "WH_SetGgid",
-    "WH_SetUserGameInfo",
-    "WH_GetLinkLevel",
-    "WH_GetBitmap",
-    "WH_GetSystemState",
-    "WHi_MeasureChannel",
-    "WH_IndicateHandler",
-    "WH_StateInInitialize",
-    "WH_SendData",
-    "WH_Reset",
     "func_ov004_020b8dc0",
     "func_ov004_020b8f30",
     "func_ov004_020b90c0",
     "func_ov004_020b9110",
-    "func_ov004_020b9160",
-    "func_ov004_020b91a4",
+    "func_ov004_020b91a4"
+   ],
+   "bytes": 3940,
+   "addr": [
+    34060964,
+    34312684
+   ]
+  },
+  {
+   "id": "L3-17006",
+   "level": 3,
+   "functions": [
     "func_ov004_020b9490",
     "func_ov004_020b94fc",
     "func_ov004_020b9c84",
     "func_ov004_020b9d54",
     "func_ov004_020b9da0",
-    "func_ov004_020b9edc",
     "func_ov004_020ba028",
     "func_ov004_020ba5d4",
     "func_ov004_020babe8",
     "func_ov004_020bac40",
-    "func_ov004_020bac98"
-   ],
-   "bytes": 3688,
-   "addr": [
-    34212616,
-    34319600
-   ]
-  },
-  {
-   "id": "L3-16011",
-   "level": 3,
-   "functions": [
+    "func_ov004_020bac98",
     "func_ov004_020bacf0",
     "func_ov004_020bad48",
-    "func_ov004_020bae4c",
     "func_ov004_020bb0b8",
     "func_ov004_020bb13c",
     "func_ov004_020bb1e8",
@@ -1042,74 +676,48 @@
     "func_ov004_020bb26c",
     "func_ov004_020bb2f0",
     "func_ov004_020bb3cc",
-    "func_ov004_020bb468",
-    "func_ov004_020bb654",
     "func_ov004_020bb6ac",
     "func_ov004_020bbb08",
     "func_ov004_020bbb60",
     "func_ov004_020bbc34",
     "func_ov004_020bbc88",
-    "func_ov004_020bbd68",
-    "func_ov004_020bbf54",
     "func_ov004_020bbfac",
-    "func_ov004_020bc1dc",
     "func_ov004_020bc2c0",
     "func_ov004_020bc30c",
     "func_ov004_020bc360",
     "func_ov004_020bc500",
     "func_ov004_020bc6b4",
-    "func_ov004_020bc758",
-    "func_ov004_020bc7b8",
     "func_ov004_020bc8e0",
     "func_ov004_020bc914",
-    "func_ov004_020bcba0",
     "func_ov004_020bcbf4",
     "func_ov004_020bce7c",
     "func_ov004_020bd058",
     "func_ov004_020bd5d8",
-    "func_ov004_020bd8e8",
-    "func_ov004_020bd93c",
     "func_ov004_020bdbb0",
-    "func_ov004_020be174",
-    "func_ov004_020be1c8",
     "func_ov004_020be648",
-    "func_ov004_020bead4",
-    "func_ov004_020beb28",
-    "func_ov004_020bf6c0",
     "func_ov004_020bf714",
-    "func_ov004_020bfc6c",
     "func_ov004_020bffc0",
-    "func_ov004_020c0380",
-    "func_ov004_020c03ac",
-    "func_ov004_020c1850"
-   ],
-   "bytes": 3640,
-   "addr": [
-    34319600,
-    34347164
-   ]
-  },
-  {
-   "id": "L3-16012",
-   "level": 3,
-   "functions": [
     "func_ov004_020c26f0",
     "func_ov004_020c2748",
-    "func_ov004_020c4db0",
-    "func_ov004_020c5c78",
-    "func_ov004_020c71c4",
-    "func_ov004_020c7204",
-    "func_ov004_020c8364",
     "func_ov004_020c855c",
     "func_ov004_020c8730",
     "func_ov004_020c87d0",
-    "func_ov004_020c8f78",
     "func_ov004_020c90e0",
     "func_ov004_020c9610",
     "func_ov004_020c96d0",
     "func_ov004_020c9710",
-    "func_ov004_020c9780",
-    "func_ov004_020c98c4",
+    "func_ov004_020c9780"
+   ],
+   "bytes": 3756,
+   "addr": [
+    34313360,
+    34379744
+   ]
+  },
+  {
+   "id": "L3-17007",
+   "level": 3,
+   "functions": [
     "func_ov004_020c9c78",
     "func_ov004_020ca248",
     "func_ov004_020ca508",
@@ -1120,7 +728,6 @@
     "func_ov004_020cad30",
     "func_ov004_020cad5c",
     "func_ov004_020cad84",
-    "func_ov004_020cadac",
     "func_ov004_020cb6f8",
     "__sinit_ov004_020cce38",
     "__sinit_ov004_020cce60",
@@ -1142,18 +749,7 @@
     "__sinit_ov004_020cd0e0",
     "__sinit_ov004_020cd108",
     "__sinit_ov004_020cd130",
-    "__sinit_ov004_020cd158"
-   ],
-   "bytes": 2580,
-   "addr": [
-    34350832,
-    34394496
-   ]
-  },
-  {
-   "id": "L3-16013",
-   "level": 3,
-   "functions": [
+    "__sinit_ov004_020cd158",
     "__sinit_ov004_020cd180",
     "__sinit_ov004_020cd1a8",
     "__sinit_ov004_020cd1d0",
@@ -1171,7 +767,18 @@
     "__sinit_ov004_020cd3b0",
     "__sinit_ov004_020cd3d8",
     "__sinit_ov004_020cd400",
-    "__sinit_ov004_020cd428",
+    "__sinit_ov004_020cd428"
+   ],
+   "bytes": 2100,
+   "addr": [
+    34380920,
+    34395216
+   ]
+  },
+  {
+   "id": "L3-17008",
+   "level": 3,
+   "functions": [
     "__sinit_ov004_020cd450",
     "__sinit_ov004_020cd478",
     "__sinit_ov004_020cd4a0",
@@ -1187,7 +794,6 @@
     "func_ov107_020dba94",
     "func_ov107_020dbb7c",
     "func_ov107_020dfb48",
-    "func_ov107_020e0d78",
     "func_ov108_020d8da4",
     "func_ov108_020d9c6c",
     "func_ov108_020d9e9c",
@@ -1196,42 +802,19 @@
     "ReadShipsFile",
     "ReadShipsCompFile",
     "DeleteCancelButtonInShip",
-    "DeleteShisetuIcon",
-    "ReleaseUnitListGraData",
-    "deleteTouchWaitIconInShip",
-    "deleteTouchPosIconInShip",
-    "touchIconEffectInShip",
     "ResetIconBright",
     "DeleteShisetuInShip",
-    "func_ov110_020e17d0"
-   ],
-   "bytes": 2980,
-   "addr": [
-    34394496,
-    34478076
-   ]
-  },
-  {
-   "id": "L3-16014",
-   "level": 3,
-   "functions": [
     "DummyCall",
     "VX_Malloc",
     "VXmovie_SoundCallbackFunction",
     "VXmovie_StopSound",
     "VBlankIntrForMovie",
     "AlarmIntrForMovie",
-    "func_ov111_020e2098",
-    "func_ov111_020e20f0",
-    "func_ov111_020e2148",
     "func_ov111_020e22a4",
-    "func_ov111_020e2670",
     "func_ov111_020e4bc8",
     "func_ov111_020e4c28",
     "func_ov111_020e52d8",
     "func_ov111_020e5318",
-    "func_ov111_020e5640",
-    "func_ov111_020e5664",
     "func_ov111_020e5cb4",
     "func_ov111_020e5d60",
     "func_ov111_020e5d98",
@@ -1244,199 +827,103 @@
     "func_ov111_020e975c",
     "func_ov111_020e9bf8",
     "func_ov112_020e1c98",
-    "func_ov112_020e3be0",
     "func_ov112_020e409c",
-    "func_ov112_020e6ebc",
-    "func_ov112_020e7c68",
-    "func_ov112_020e7c9c",
-    "func_ov112_020e8de0",
-    "func_ov112_020e919c",
-    "func_ov112_020e91f8",
-    "func_ov112_020e924c",
-    "func_ov112_020ea5fc",
-    "func_ov112_020eadbc",
-    "func_ov113_020e1c08",
-    "func_ov113_020e1c58",
-    "func_ov113_020e2484",
-    "func_ov113_020e27ac",
-    "func_ov113_020e2fb0",
-    "func_ov114_020e2170",
-    "func_ov114_020e27d8",
-    "func_ov114_020e3098",
-    "func_ov114_020e4fa0",
-    "func_ov114_020e502c"
+    "func_ov112_020e6ebc"
    ],
-   "bytes": 3604,
+   "bytes": 3644,
    "addr": [
-    34482156,
-    34492508
+    34395216,
+    34500380
    ]
   },
   {
-   "id": "L3-16015",
+   "id": "L3-17009",
    "level": 3,
    "functions": [
+    "func_ov112_020e7c9c",
+    "func_ov112_020e924c",
+    "func_ov112_020eadbc",
+    "func_ov113_020e1c58",
+    "func_ov113_020e2484",
+    "func_ov113_020e2fb0",
+    "func_ov114_020e27d8",
+    "func_ov114_020e502c",
     "func_ov115_020e213c",
-    "func_ov115_020e216c",
-    "func_ov115_020e24b0",
-    "func_ov115_020e24f8",
     "func_ov115_020e2534",
     "func_ov115_020e2a24",
-    "func_ov115_020e36c0",
     "func_ov115_020e3d78",
-    "func_ov115_020e4b50",
-    "func_ov115_020e4fc0",
-    "func_ov115_020e50dc",
     "func_ov115_020e625c",
-    "func_ov115_020e74e0",
     "func_ov115_020e756c",
-    "func_ov116_020e2134",
     "func_ov116_020e22e4",
-    "func_ov116_020e2830",
     "func_ov116_020e2cac",
     "func_ov116_020e3ad4",
     "func_ov116_020e3b10",
     "func_ov116_020e52d8",
-    "func_ov116_020e557c",
-    "func_ov117_020e2460",
-    "func_ov117_020e24a8",
-    "func_ov117_020e24e8",
-    "func_ov117_020e2510",
-    "func_ov117_020e2538",
-    "func_ov117_020e4fd8",
     "func_ov117_020e5704",
     "func_ov117_020e573c",
     "func_ov117_020e5770",
-    "func_ov117_020e7a60",
-    "func_ov117_020e7aa8",
-    "func_ov117_020e7af0",
-    "func_ov117_020e7b38",
-    "func_ov117_020e9e90",
-    "func_ov117_020e9ee0",
     "func_ov117_020ecf50",
-    "func_ov117_020ed208",
-    "func_ov118_020e1dfc",
     "func_ov118_020e205c",
-    "func_ov118_020e2088",
-    "func_ov119_020ea754",
     "func_ov119_020eba5c",
-    "func_ov119_020ebb74",
     "func_ov119_020ede90",
     "func_ov119_020edf40",
     "func_ov119_020edf78",
     "func_ov119_020ee49c",
-    "func_ov119_020ee6dc"
-   ],
-   "bytes": 3256,
-   "addr": [
-    34480444,
-    34531132
-   ]
-  },
-  {
-   "id": "L3-16016",
-   "level": 3,
-   "functions": [
+    "func_ov119_020ee6dc",
     "func_ov119_020ee73c",
     "func_ov119_020f04bc",
     "func_ov119_020f06d8",
     "func_ov119_020f11bc",
-    "func_ov120_020ea1a8",
     "func_ov120_020eb600",
-    "func_ov120_020ec250",
     "func_ov120_020ed530",
     "func_ov120_020ee1b4",
-    "func_ov120_020f0218",
-    "func_ov120_020f0268",
-    "func_ov120_020f16dc",
-    "func_ov121_020ea080",
-    "func_ov121_020ea14c",
-    "func_ov121_020ea4f4",
     "func_ov121_020ea694",
-    "func_ov121_020eae68",
     "func_ov121_020ee638",
-    "func_ov121_020f161c",
-    "func_ov121_020f40b4",
-    "func_ov121_020f40f8",
-    "func_ov121_020f4310",
-    "func_ov122_02051a20",
-    "func_ov122_0205201c",
-    "func_ov122_0205204c",
-    "func_ov122_02052754",
     "func_ov122_02052e94",
     "func_ov122_020546f0",
-    "func_ov122_020548fc",
-    "func_ov122_02054d04",
-    "func_ov122_02054db8",
-    "func_ov122_02054df8",
-    "func_ov122_02054e24",
     "func_ov122_02055268",
-    "func_ov122_02056e4c",
-    "func_ov122_02056e88",
-    "func_ov122_02056ecc",
     "func_ov122_02056f04",
     "func_ov122_0205852c",
-    "func_ov122_0205d06c",
     "func_ov122_0205d0f8",
     "func_ov122_0205d94c",
     "func_ov122_0205d978",
     "func_ov122_0205d9a8",
     "func_ov122_0205db94",
-    "func_ov122_0205fe24",
-    "func_ov123_020664c0",
-    "func_ov123_02067754",
-    "func_ov123_02067c6c",
-    "func_ov123_02068f4c"
+    "func_ov123_020664c0"
    ],
-   "bytes": 3340,
+   "bytes": 3240,
    "addr": [
-    34531132,
-    33984424
+    34503836,
+    33973476
    ]
   },
   {
-   "id": "L3-16017",
+   "id": "L3-17010",
    "level": 3,
    "functions": [
+    "func_ov123_02067754",
     "func_ov123_02068fa8",
-    "func_ov123_02069230",
-    "func_ov123_020692c4",
     "func_ov123_020695ec",
     "func_ov123_02069618",
     "func_ov123_0206983c",
     "func_ov123_02069898",
     "func_ov123_02069d34",
-    "func_ov123_02069f3c",
     "func_ov123_0206a460",
-    "func_ov123_0206b830",
-    "func_ov123_0206cd00",
     "func_ov123_0206cf20",
-    "func_ov123_0206d108",
-    "func_ov123_0206d228",
     "func_ov123_0206d410",
     "func_ov123_0206fcf0",
-    "func_ov123_02070174",
     "func_ov123_020702fc",
     "func_ov123_02070358",
-    "func_ov123_02070498",
     "func_ov123_020711c4",
     "func_ov123_02071750",
-    "func_ov123_02071bc0",
-    "func_ov123_02071c10",
     "func_ov123_02071dbc",
     "func_ov123_020726a0",
-    "func_ov123_020730ec",
-    "func_ov123_02073128",
     "func_ov123_02073240",
     "func_ov123_020733a8",
     "func_ov123_02073408",
     "func_ov123_0207367c",
     "func_ov123_02073844",
-    "func_ov123_02073884",
-    "func_ov123_02073c80",
-    "func_ov123_02073d68",
     "func_ov123_02073ec8",
-    "func_ov123_02074108",
     "func_ov123_02074520",
     "func_ov123_020748dc",
     "func_ov123_020766a8",
@@ -1444,21 +931,8 @@
     "func_ov123_020773c0",
     "func_ov123_02077410",
     "func_ov123_0207749c",
-    "func_ov123_02077544",
-    "func_ov123_02078718",
     "func_ov123_02078770",
-    "func_ov123_020788f0"
-   ],
-   "bytes": 3576,
-   "addr": [
-    33984424,
-    34048312
-   ]
-  },
-  {
-   "id": "L3-16018",
-   "level": 3,
-   "functions": [
+    "func_ov123_020788f0",
     "func_ov123_02078938",
     "func_ov123_020794ac",
     "func_ov123_020794f4",
@@ -1466,8 +940,6 @@
     "func_ov123_020797c4",
     "func_ov123_02079808",
     "func_ov123_02079c88",
-    "func_ov123_0207a3d8",
-    "func_ov123_0207a92c",
     "func_ov123_0207a978",
     "func_ov123_0207ab94",
     "func_ov123_0207ac08",
@@ -1478,143 +950,105 @@
     "func_ov123_0207ae2c",
     "func_ov123_0207ae7c",
     "func_ov123_0207aec0",
-    "func_ov123_0207b1ec",
+    "func_ov123_0207b1ec"
+   ],
+   "bytes": 3660,
+   "addr": [
+    33978196,
+    34058804
+   ]
+  },
+  {
+   "id": "L3-17011",
+   "level": 3,
+   "functions": [
     "func_ov123_0207b234",
     "func_ov123_0207b27c",
     "func_ov123_0207b2c8",
     "func_ov123_0207b35c",
     "func_ov123_0207b3f4",
-    "func_ov123_0207c0fc",
     "func_ov123_0207c12c",
-    "func_ov123_0207e0f0",
     "func_ov123_02081d84",
     "func_ov123_02081e10",
     "func_ov123_020828ac",
     "func_ov123_020835bc",
     "func_ov123_02083618",
     "func_ov123_02083680",
-    "func_ov123_02083774",
     "func_ov123_02086e44",
     "func_ov123_02087094",
     "func_ov123_02087590",
-    "func_ov123_020880c4",
     "func_ov123_02088190",
     "func_ov123_020881d0",
-    "func_ov123_02088380",
     "func_ov123_020884f0",
     "func_ov123_02088520",
     "func_ov123_020889a0",
     "func_ov123_02089710",
-    "func_ov123_02089eb8",
-    "func_ov123_0208a5b4",
     "func_ov123_0208a670",
-    "func_ov123_0208ae00"
-   ],
-   "bytes": 3448,
-   "addr": [
-    34048312,
-    34123320
-   ]
-  },
-  {
-   "id": "L3-16019",
-   "level": 3,
-   "functions": [
+    "func_ov123_0208ae00",
     "func_ov123_0208ae48",
-    "func_ov123_0208b878",
-    "func_ov123_0208ba24",
     "func_ov123_0208be08",
     "func_ov123_0208beb0",
-    "func_ov123_0208c068",
     "func_ov123_0208c314",
     "func_ov123_0208cf90",
     "func_ov123_0208d1e4",
     "func_ov123_0208d384",
-    "func_ov123_0208d3e4",
     "func_ov123_0208d418",
     "func_ov123_0208d940",
     "func_ov123_0208db1c",
     "func_ov123_0208dca0",
     "func_ov123_0208e528",
     "func_ov123_0208e85c",
-    "func_ov123_0208ea40",
     "func_ov123_0208ea78",
     "func_ov123_0208ebdc",
     "func_ov123_0208ed04",
-    "func_ov123_0208ee8c",
-    "func_ov123_02090514",
     "func_ov123_020906f8",
     "func_ov123_02090ba8",
     "func_ov123_02090db4",
     "func_ov123_02090ed8",
     "func_ov123_02091110",
-    "func_ov123_020911cc",
     "func_ov123_02091598",
     "func_ov123_02091618",
-    "func_ov123_02092998",
     "func_ov123_0209335c",
     "func_ov123_02093448",
     "func_ov123_02093600",
-    "func_ov123_0209386c",
-    "func_ov123_02094030",
-    "func_ov123_020941b8",
-    "func_ov123_02094204",
-    "func_ov123_0209422c",
-    "func_ov123_02094450",
-    "func_ov123_020944c4",
-    "func_ov123_020945b4",
-    "func_ov123_020949e0",
-    "func_ov123_02094a0c",
-    "func_ov123_02094ad0",
-    "func_ov123_02095778",
-    "func_ov123_02096094",
-    "func_ov123_02096190",
-    "func_ov123_020961e4"
+    "func_ov123_0209386c"
    ],
-   "bytes": 3396,
+   "bytes": 3572,
    "addr": [
-    34123336,
-    34169400
+    34058804,
+    34158784
    ]
   },
   {
-   "id": "L3-16020",
+   "id": "L3-17012",
    "level": 3,
    "functions": [
-    "func_ov123_0209686c",
+    "func_ov123_020944c4",
+    "func_ov123_020949e0",
+    "func_ov123_02094ad0",
+    "func_ov123_02096190",
+    "func_ov123_020961e4",
     "func_ov123_020971c0",
     "func_ov123_02099778",
     "func_ov123_02099c4c",
-    "func_ov123_02099d64",
     "func_ov123_0209a01c",
     "func_ov123_0209a820",
-    "func_ov123_0209a8a4",
-    "func_ov123_0209a9b8",
-    "func_ov123_0209ab5c",
     "func_ov123_0209bce0",
-    "func_ov123_0209cd6c",
     "func_ov123_0209cfac",
     "func_ov123_0209dc90",
     "func_ov123_0209dce0",
     "func_ov123_0209e3d8",
-    "func_ov123_0209e5c4",
     "func_ov123_020a04d8",
     "func_ov123_020a29b4",
-    "func_ov123_020a4bd4",
-    "func_ov123_020a4c14",
     "func_ov123_020a4cb0",
     "func_ov123_020a4cd8",
     "func_ov123_020a4fc4",
     "func_ov123_020a575c",
     "func_ov123_020a5784",
     "func_ov123_020a57b4",
-    "func_ov123_020a5bb0",
     "func_ov123_020a609c",
     "func_ov123_020a60ec",
     "func_ov123_020a62e4",
-    "func_ov123_020a6334",
-    "func_ov123_020a67a4",
-    "func_ov123_020a67f4",
     "func_ov123_020a6864",
     "func_ov123_020a68e8",
     "func_ov123_020a69dc",
@@ -1629,48 +1063,39 @@
     "func_ov123_020a6e88",
     "func_ov123_020a73c4",
     "func_ov123_020a763c",
-    "func_ov123_020a778c",
-    "func_ov123_020a7cec"
-   ],
-   "bytes": 3362,
-   "addr": [
-    34170988,
-    34241848
-   ]
-  },
-  {
-   "id": "L3-16021",
-   "level": 3,
-   "functions": [
+    "func_ov123_020a7cec",
     "func_ov123_020a7dc0",
     "func_ov123_020a906c",
     "func_ov123_020a928c",
     "func_ov123_020a9708",
-    "func_ov123_020a9de4",
     "func_ov123_020a9e20",
-    "func_ov123_020a9e9c",
     "func_ov123_020a9ec0",
     "func_ov123_020a9f20",
     "func_ov123_020a9f50",
-    "func_ov123_020aa7dc",
-    "func_ov123_020ab5d8",
+    "func_ov123_020ab5d8"
+   ],
+   "bytes": 3280,
+   "addr": [
+    34161860,
+    34256418
+   ]
+  },
+  {
+   "id": "L3-17013",
+   "level": 3,
+   "functions": [
     "func_ov123_020ac480",
     "func_ov123_020ac5c0",
     "func_ov123_020ac718",
     "func_ov123_020ac750",
     "func_ov123_020ac820",
-    "func_ov123_020acf00",
-    "func_ov123_020ad034",
     "func_ov123_020ad070",
     "func_ov123_020ad0b0",
     "func_ov123_020ad4b4",
     "func_ov123_020ae530",
-    "func_ov123_020ae580",
     "func_ov123_020ae628",
     "func_ov123_020b29a0",
-    "func_ov123_020b2f68",
     "func_ov123_020b346c",
-    "func_ov123_020b3ad4",
     "func_ov123_020b4718",
     "func_ov123_020b589c",
     "func_ov123_020b6d04",
@@ -1681,45 +1106,20 @@
     "func_ov123_020bae4c",
     "func_ov123_020baea8",
     "func_ov123_020bb228",
-    "func_ov123_020bb640",
-    "func_ov123_020bc908",
     "func_ov123_020bfbec",
     "func_ov123_020bff3c",
     "func_ov123_020c122c",
-    "func_ov123_020c1c4c",
-    "func_ov123_020c1ce8",
-    "func_ov123_020c1d88",
-    "func_ov123_020c1f04",
-    "func_ov123_020c27ac",
-    "func_ov123_020c2d28"
-   ],
-   "bytes": 3474,
-   "addr": [
-    34241984,
-    34352492
-   ]
-  },
-  {
-   "id": "L3-16022",
-   "level": 3,
-   "functions": [
-    "func_ov123_020c3194",
-    "func_ov123_020c31e0",
-    "func_ov123_020c322c",
+    "func_ov123_020c2d28",
     "func_ov123_020c3278",
     "func_ov123_020c32bc",
     "func_ov123_020c5884",
     "func_ov123_020c8840",
     "func_ov123_020c8988",
     "func_ov123_020c8c80",
-    "func_ov123_020c918c",
     "func_ov123_020c92b0",
-    "func_ov123_020c93b8",
     "func_ov123_020c9410",
     "func_ov123_020c94c8",
-    "func_ov123_020c94ec",
     "func_ov123_020c98a8",
-    "func_ov123_020c9988",
     "func_ov123_020c9acc",
     "func_ov123_020c9f18",
     "func_ov123_020ca3a4",
@@ -1727,43 +1127,39 @@
     "func_ov123_020ca658",
     "func_ov123_020ca6a0",
     "func_ov123_020cacac",
-    "func_ov123_020cad94",
     "func_ov123_020cadd0",
     "func_ov123_020cae10",
     "func_ov123_020cae80",
     "func_ov123_020cb28c",
     "func_ov123_020cb5a0",
     "func_ov123_020cb790",
-    "func_ov123_020cc564",
+    "func_ov123_020cc564"
+   ],
+   "bytes": 3556,
+   "addr": [
+    34260096,
+    34391484
+   ]
+  },
+  {
+   "id": "L3-17014",
+   "level": 3,
+   "functions": [
     "func_ov123_020cc97c",
-    "func_ov123_020ccf28",
     "func_ov123_020cd0e8",
     "func_ov123_020cdd30",
     "func_ov123_020ce604",
     "func_ov123_020ce8e0",
-    "func_ov123_020ce9bc",
     "func_ov123_020cf32c",
     "func_ov123_020cf644",
     "func_ov123_020cf760",
     "func_ov123_020cf7ac",
     "func_ov123_020cfbec",
     "func_ov123_020cfd90",
-    "func_ov123_020cfe74",
     "func_ov123_020d00dc",
     "func_ov123_020d012c",
     "func_ov123_020d0264",
-    "func_ov123_020d0380"
-   ],
-   "bytes": 3416,
-   "addr": [
-    34353556,
-    34407348
-   ]
-  },
-  {
-   "id": "L3-16023",
-   "level": 3,
-   "functions": [
+    "func_ov123_020d0380",
     "func_ov123_020d03cc",
     "func_ov123_020d0634",
     "func_ov123_020d0730",
@@ -1775,61 +1171,41 @@
     "func_ov123_020d17dc",
     "func_ov123_020d1cf8",
     "func_ov123_020d25e8",
-    "func_ov123_020d2698",
     "func_ov123_020d27d8",
-    "func_ov123_020d2ec4",
-    "func_ov123_020d2f1c",
-    "func_ov123_020d2f8c",
     "func_ov123_020d2ffc",
     "func_ov123_020d3030",
     "func_ov123_020d3058",
     "func_ov123_020d3080",
-    "func_ov123_020d3a14",
-    "func_ov123_020d3a3c",
-    "func_ov123_020d3a64",
-    "func_ov123_020d3b0c",
-    "func_ov123_020d3b34",
-    "func_ov123_020d3b5c",
     "func_ov123_020d3b84",
     "func_ov123_020d3bac",
     "func_ov123_020d3c4c",
     "func_ov123_020d3c98",
     "func_ov123_020d3cdc",
-    "func_ov123_020d3d14",
-    "func_ov123_020d3d58",
-    "func_ov123_020d3dac",
-    "func_ov123_020d3e00",
-    "func_ov123_020d3e44",
-    "func_ov123_020d3e88",
     "func_ov123_020d3ff8",
     "func_ov123_020d4020",
     "func_ov123_020d4064",
-    "func_ov123_020d40c0",
-    "func_ov123_020d4104",
     "func_ov123_020d4148",
     "func_ov123_020d41a8",
     "func_ov123_020d4204",
     "func_ov123_020d4260",
     "func_ov123_020d42bc",
-    "func_ov123_020d4324",
-    "func_ov123_020d4368",
-    "func_ov123_020d43ac"
-   ],
-   "bytes": 3232,
-   "addr": [
-    34407372,
-    34423820
-   ]
-  },
-  {
-   "id": "L3-16024",
-   "level": 3,
-   "functions": [
+    "func_ov123_020d43ac",
     "func_ov123_020d440c",
     "func_ov123_020d4468",
     "func_ov123_020d44c4",
     "func_ov123_020d4520",
-    "func_ov123_020d45ac",
+    "func_ov123_020d45ac"
+   ],
+   "bytes": 3452,
+   "addr": [
+    34392444,
+    34424324
+   ]
+  },
+  {
+   "id": "L3-17015",
+   "level": 3,
+   "functions": [
     "func_ov123_020d4604",
     "func_ov123_020d493c",
     "func_ov123_020d4964",
@@ -1837,17 +1213,16 @@
     "func_ov123_020d49b4",
     "func_ov123_020d49dc",
     "func_ov123_020d4a10",
-    "func_ov123_020d4b34",
     "__sinit_ov123_020d97f4"
    ],
-   "bytes": 872,
+   "bytes": 400,
    "addr": [
-    34423820,
+    34424324,
     34445340
    ]
   },
   {
-   "id": "L4-16001",
+   "id": "L4-17001",
    "level": 4,
    "functions": [
     "func_0202d250",
@@ -1856,7 +1231,6 @@
     "func_0202f048",
     "func_0202f92c",
     "func_02023594",
-    "CARDi_RequestStreamCommandCore",
     "NNSi_SndPlayerAllocSeqPlayer",
     "NNSi_SndArcStrmMain",
     "func_02007d7c",
@@ -1899,19 +1273,19 @@
     "func_01ffba58",
     "func_01ffbac8",
     "func_01ffbb40",
-    "func_01ffc040"
+    "func_01ffc040",
+    "func_01ffc0f4"
    ],
-   "bytes": 12960,
+   "bytes": 12588,
    "addr": [
     33739344,
-    33538248
+    33538392
    ]
   },
   {
-   "id": "L4-16002",
+   "id": "L4-17002",
    "level": 4,
    "functions": [
-    "func_01ffc0f4",
     "func_01ffc61c",
     "func_01ffc93c",
     "func_01ffca34",
@@ -1925,27 +1299,17 @@
     "CallMenuRoutine",
     "InformationCuttingTrs",
     "SubWindowMessageSet",
-    "ReleaseSenarioScript",
-    "ana_InitCommon",
-    "SetAnaIntr",
-    "new_LowLevelWork",
     "ana_ReadKey",
     "GetPanelTouch",
     "BGM_Change",
     "func_ov000_02046334",
     "BGM_Fade",
-    "ReflectSystemConfig",
     "ReleaseShipInPara",
     "ReadAnaFile",
     "ReadAnaFileOfsSize",
     "ReadFileAndUncomp",
     "ReadAreaMapSiteMask",
-    "ReleaseRetryData",
-    "InitMessageWorkForDS",
-    "SetWinBGscrolOut",
     "SetWindowPaletteDataToVram",
-    "SetPaletteDataToVram",
-    "SyncPutMessageOneChar",
     "WindowVramUpdate",
     "GetOneStringBitData",
     "ChangePaletteOfNameByID",
@@ -1953,43 +1317,37 @@
     "DeleteNameByNoAnimeObjByID",
     "DeleteMessageNextIcon",
     "CheckTouchMesFrame",
-    "SetCenteringStr",
     "GetOneMojiHaba",
     "PutSelectIconInMes",
     "GetType_TexSizeS",
     "GetType_TexSizeT",
     "GetEmptyModelId",
     "Set3DDefaultMaterial",
-    "Set3DDefaultShininessTable"
-   ],
-   "bytes": 7856,
-   "addr": [
-    33538292,
-    33891568
-   ]
-  },
-  {
-   "id": "L4-16003",
-   "level": 4,
-   "functions": [
-    "MoveActionAllP_Obj",
+    "Set3DDefaultShininessTable",
     "TrsSetWorkEtc",
     "TrsAnchorCondition",
-    "TrsFlyArmWork",
     "TrsEtcDataWork",
     "ReleaseTrsData",
     "SetTrsDataFirstForParent",
     "SetTrsDataFirst",
     "SetObjTrsDataOne_forMove",
     "SetAnchorTrs",
-    "ObjParaSetFirst",
-    "SetColorRoll",
     "ResetColorRoll",
     "ReleaseAllColorRoll",
     "SetBrightnessEng",
-    "HighLightUpDown",
+    "HighLightUpDown"
+   ],
+   "bytes": 7640,
+   "addr": [
+    33539612,
+    33897388
+   ]
+  },
+  {
+   "id": "L4-17003",
+   "level": 4,
+   "functions": [
     "SearchCanUseObjPalNo",
-    "GetRnd",
     "SearchTexPalMap",
     "DeleteTexPalMap",
     "ResetObjPalMapX",
@@ -2004,35 +1362,18 @@
     "changeDireForMove",
     "GetDirectionByAddXZ",
     "MoveScriptAlphaChg",
-    "ScriptAlphaToDis",
     "ScriptAlphaNormal",
     "FinishScriptAlpha",
     "MoveScriptAlphaChgAll",
     "RagTimeSetToX",
-    "changeAnchoMode",
     "ChgObjAnimeDirect",
-    "changeAnimationObjByMoveLook",
     "oneStatueSetDireByEyePos",
-    "changePutObjByRect",
     "GetTakasaXZ",
-    "putMode2NormalP_Obj",
     "changePutModeP_Obj",
     "getAnimation",
-    "EscapeAndShipInSet",
     "SetGXGYforModel",
     "animationAllP_Obj",
-    "changeUnitPatNo"
-   ],
-   "bytes": 8084,
-   "addr": [
-    33892340,
-    33920160
-   ]
-  },
-  {
-   "id": "L4-16004",
-   "level": 4,
-   "functions": [
+    "changeUnitPatNo",
     "setP_ObjTexture",
     "MakeTexCoord",
     "MakeTexCoordXYsize",
@@ -2042,63 +1383,49 @@
     "SetNowDownId_i",
     "objSetDistanceForOrder",
     "MoveSetOneUnit",
-    "setConsiderTypeByXZ",
     "SetTableUnitThere",
-    "searchSamePosObj",
     "searchSamePosObjWithoutFloor",
     "searchHookSamePosObj",
     "SetWaterCantEnter",
     "GetHighPlace",
-    "ObjTexGetInit",
     "ReleaseTexBefore",
     "deleteTexByBeforeSub",
     "SetTex",
     "TransTex2VramSub",
     "CancelTransTex2VramSub",
     "CancelTransTex2VramSubForArm",
-    "SetDamageForDamageSense",
     "SetHitMarkForDamageSense",
     "TrsDeathToChild",
-    "changeHpUpDown",
-    "AllUnitStatusToNormal",
-    "SetTrsDataForEtc",
-    "DeleteObjPalOneSub",
-    "DeleteAllObjPat",
-    "DeleteAllObjPal",
+    "DeleteObjPalOneSub"
+   ],
+   "bytes": 8088,
+   "addr": [
+    33897556,
+    33944612
+   ]
+  },
+  {
+   "id": "L4-17004",
+   "level": 4,
+   "functions": [
     "SetUpOneObjByFirstPos",
     "TrsAikyoEffectToChild",
     "WazaRingSound",
-    "SetTexPaletteData",
     "TexPaletteTransSub",
     "ReleaseTexPaletteTransSub",
-    "ChangeCamera2MyKuniLeader",
     "searchGundanLeaderObj",
     "GetKisekiTable",
     "GetObjCenter2D",
     "Get_aONEOBJadrsByCharno",
     "CheckNearHook",
     "SetETC_TexAndPal",
-    "IsThereHookPosition",
     "GetShipAooSt",
     "IsThereHookCondition",
     "CheckGundanGetOutFinish",
-    "GetAooByUnitno"
-   ],
-   "bytes": 8460,
-   "addr": [
-    33920160,
-    33962288
-   ]
-  },
-  {
-   "id": "L4-16005",
-   "level": 4,
-   "functions": [
+    "GetAooByUnitno",
     "GetAooBySelectLittleNo",
     "GetJunbanKuniUnit",
     "SetClearShipSortieTiming",
-    "CheckHook2Ship",
-    "CheckHookUnderShip",
     "CheckShipMoveTiming",
     "InitNowSelectUnitInAreaMap",
     "ChangeUnitIconOnBengine",
@@ -2112,18 +1439,11 @@
     "GetSelectKazu",
     "SetCarisumaMap",
     "GetCarisumaMap",
-    "SetActionToATTACK",
     "SetObjWaitAndGo",
     "GetNearDestination",
-    "GetHookObjNo",
-    "CountingMapObj",
-    "CanIUseSPwaza",
-    "isItOkTargetOne",
     "GetType_bomb",
     "GetUnitNoFromConsider",
     "CheckObjIsResource",
-    "SetHookRecover",
-    "distanceForRecover",
     "RestoreUpDownParaUD_ST",
     "searchUnitNumberInKuni",
     "GetNoInCanOut",
@@ -2132,29 +1452,25 @@
     "UncompressPlane",
     "GetCanBuildHouse",
     "GetUnitNoByBaseNo",
-    "GetNowUnitKazu",
     "GetNowUnitKazuByUnitType",
     "GetKazeSortieWaitFromShip",
-    "countingWaitCondForUnit",
     "CheckCanTargetting",
     "SetExtObjPaletteData",
-    "ExtObjPaletteTrans",
     "ExtObjPaletteTransSub",
-    "ReleaseExtObjPaletteTransSub",
-    "SetExtBGPaletteData",
-    "ExtBGPaletteTrans",
-    "ExtBGPaletteTransSub"
+    "ReleaseExtObjPaletteTransSub"
    ],
-   "bytes": 8696,
+   "bytes": 8328,
    "addr": [
-    33962288,
-    33996208
+    33945956,
+    33995784
    ]
   },
   {
-   "id": "L4-16006",
+   "id": "L4-17005",
    "level": 4,
    "functions": [
+    "SetExtBGPaletteData",
+    "ExtBGPaletteTransSub",
     "ReleaseExtBGPaletteTransSub",
     "SetObjPaletteData",
     "ObjPaletteTransSub",
@@ -2163,7 +1479,6 @@
     "GetAooFromUnitBaseNo",
     "CanChangeAction",
     "SetATTACK_RagTime",
-    "chgUpDownIconBrightBengine",
     "HowManyEnemyInSpWaza",
     "SetDamageForNoFlyArm",
     "SetDamageAfterEffect",
@@ -2175,23 +1490,18 @@
     "SetUnitsGraYofs",
     "GetHouseBuildCost",
     "GetHouseBuildSpeed",
-    "GetCreateUnitSpeed",
     "SetUnitXZposition",
     "GetUnitType",
     "GetUnitTypeByNo",
     "IsThereSomeChoice",
-    "DoSameRaceChoice",
     "GetTaisouFlag",
-    "GetNearerHOOKFromShip",
     "TrsGodbeastCallToChild",
     "CanPutMagicIcon",
     "GetNearDistance",
     "ReleaseMap_ObjectAll",
     "DeleteMap_ObjectOneByIDandOptSub",
     "ShitaToShita",
-    "InitObjectETC",
     "KihonPalTrans",
-    "TensouICON_pallet_B",
     "MesPalTransToObjPal",
     "DeleteNoAnimeObj",
     "DeleteNoAnimeObjOne",
@@ -2203,27 +1513,24 @@
     "ReleaseWirelessIconPal",
     "ResetWirelessIconBit",
     "PutWirelessIcon",
-    "DeleteWirelessIcon",
-    "Initial_polygon_work"
-   ],
-   "bytes": 7656,
-   "addr": [
-    33996284,
-    34018124
-   ]
-  },
-  {
-   "id": "L4-16007",
-   "level": 4,
-   "functions": [
+    "Initial_polygon_work",
     "QuadArrow",
-    "putBoxArrowBox",
     "ClearPolWorkOne",
     "ClearPolWorkOnMDA",
     "CutAndMakePolygon",
-    "GetGridKazuFromKiseki",
+    "GetGridKazuFromKiseki"
+   ],
+   "bytes": 7656,
+   "addr": [
+    33995784,
+    34027088
+   ]
+  },
+  {
+   "id": "L4-17006",
+   "level": 4,
+   "functions": [
     "GetNextId",
-    "putBoxShadowAddSub",
     "setShadowPol",
     "MoveModelShip",
     "DeleteModelTypeSub",
@@ -2233,69 +1540,37 @@
     "SetPalette",
     "ChangeChain",
     "TexAnimeMove",
-    "SetMapCanThere",
-    "ana_InitVRAM",
     "Set3DAREAmapVIEW",
     "InitOfAreaMap",
     "CheckMoveLookPos",
     "SetHikusenMdl",
     "SetHikusenChainMdl",
     "SetHikusenAnchorMdl",
-    "ReleaseWorkForMapChange",
     "ReadUnitLogic",
-    "ChangeKyotenNo",
     "CameraFlowAfterObject",
     "SetCameraObject",
     "CameraPosToObj",
     "ShakeControl",
-    "MakeGameScreenOn",
-    "SiteStockMaskMap",
     "SiteRestoreMaskMap",
     "SetScreenRGB_AengineOff",
     "SetScreenRGB_AengineChangeRGB",
     "SetScreenRGB_AengineChangePower",
     "Ana_TPRecvCallback",
-    "SetAreaMapMaskForEnemy",
     "CheckAreaMapMaskDot",
     "CheckAreaMapMaskForEnemy",
-    "GetSenkyou",
     "GetUnitKazuInBoard",
-    "ReleaseWorkBeforeChangeMap",
-    "RestoreStock_VSMotoData",
-    "ReleaseStock_VSMotoData",
-    "ReleaseSeireiKazu_ShisetuLevTable",
     "GetSeireiKazu_ShisetuLevTableSub",
-    "SetShisetuLevelBySeireiKazu"
-   ],
-   "bytes": 8824,
-   "addr": [
-    34018124,
-    34056020
-   ]
-  },
-  {
-   "id": "L4-16008",
-   "level": 4,
-   "functions": [
+    "SetShisetuLevelBySeireiKazu",
     "GetCanUseSeireiByKazu",
     "GetCanSelMapNoVS",
-    "StockNowGameData",
-    "ReleaseNowGameData",
-    "StartForFreeBattle",
     "StopAllAikyoEffect",
     "CheckAikyoEffect",
     "SetLoopFlagAikyoEffect",
     "StockAikyoEffect",
     "TrsGameWorkInit",
-    "InitTrsCommand",
     "ResetRequestTRS",
-    "trsCommandNeedInit",
-    "trsCommandNeed",
-    "MakeObjTrsDataOneWork",
     "PutWirelessLevel",
     "checkConnect",
-    "setFirstGameCondition",
-    "setObjParaAllFirst",
     "SetKUNI_paras",
     "SetUD_ST_paras",
     "SetBigTrans",
@@ -2304,13 +1579,22 @@
     "ReleaseWmWorksTrnsWork",
     "ReleaseWmWorkDataw",
     "TransBigSizeData",
-    "OkSend",
+    "OkSend"
+   ],
+   "bytes": 8596,
+   "addr": [
+    34027552,
+    34074732
+   ]
+  },
+  {
+   "id": "L4-17007",
+   "level": 4,
+   "functions": [
     "EndTransCheck",
     "GetChannelMain",
     "ScanParentLifeDec",
-    "DisconnectOneParent",
     "GetEmptyBssDesc",
-    "checkConnectParent",
     "AddObjForCom",
     "ObjAnimePatWorkSetForAob2Data",
     "KeepMaxChr",
@@ -2326,41 +1610,22 @@
     "getComIcon",
     "PutChangeUpDownIcon",
     "redrawUnitConditionHpKazu",
-    "SetUnitConditionHpKazu"
-   ],
-   "bytes": 7692,
-   "addr": [
-    34056020,
-    34098504
-   ]
-  },
-  {
-   "id": "L4-16009",
-   "level": 4,
-   "functions": [
+    "SetUnitConditionHpKazu",
     "DelCheckWindowByGunUnit",
-    "ResetUnitSelect",
-    "deleteTrentoIcon",
-    "deleteGaiaIcon",
     "PutTouchWaitIcon",
     "PutSelectCancelBtn",
     "PutGetRECTIcon",
     "changePosByPos",
     "deleteHataIcon",
     "PutHataIconFor3D",
-    "RedrawShipIcon",
-    "DeleteUnitStatusParam",
-    "changePatBySync",
     "MagicIcomPut",
     "InShipIcomPut",
     "ChgIconButton",
     "ReleaseKaoGraCommonSub",
-    "Delete_MissionGameOver",
     "ReleaseObjectGraCommonSub",
     "PutAll_HaibokuJouken",
     "PutAll_SyouriJouken",
     "PutAll_Anything_SyouriHaibokuJouken",
-    "DeleteAll_SyouriHaibokuJouken",
     "SetSyouriHaibokuMesNo",
     "PutTimerOnScreen",
     "SetFlyAnimation",
@@ -2371,38 +1636,32 @@
     "AddFlyArm",
     "ReleaseFlyArmAll",
     "ReleaseFlyArmOne",
-    "SetFlyArmAOM",
     "SetSLASHworkBoth",
     "SetTrsFlyArm",
     "putOnePoint",
-    "ReleaseHitMarkSt",
     "changeOcc",
-    "changeOccWithKihon",
+    "changeOccWithKihon"
+   ],
+   "bytes": 8184,
+   "addr": [
+    34075096,
+    34144716
+   ]
+  },
+  {
+   "id": "L4-17008",
+   "level": 4,
+   "functions": [
     "SetObjIdling",
     "GetObj2ObjDire",
     "ReadySetUpWazaAt",
     "SetUseWaza",
     "GetLogicNo",
-    "Logic_separate",
-    "Logic_createHouseAndUnitInShip",
-    "GetEnemyInOneUnitSite",
     "GetEnemyInSite",
-    "GetFriendOfHalfHP"
-   ],
-   "bytes": 8388,
-   "addr": [
-    34100308,
-    34151512
-   ]
-  },
-  {
-   "id": "L4-16010",
-   "level": 4,
-   "functions": [
+    "GetFriendOfHalfHP",
     "GetFriendOfHalfHPInSite",
     "GetFriendOfAbnormal",
     "GetFriendOfAbnormalInSite",
-    "checkEndOrderPos",
     "GetUnitOfFunc",
     "SearchGoddessOrHookWithShipFunc",
     "checkUnitKazuInShip",
@@ -2415,85 +1674,56 @@
     "DropItemByNO",
     "WaitSyncUnit",
     "WaitSyncTouchXY",
-    "WaitSyncCounter",
     "WaitSyncCase",
     "WaitSyncCaseWithTwoPara",
     "StockCameraPositon",
     "RestoreCameraPositon",
     "ObjSet_allclear",
-    "WaitSyncMessageEnd",
     "WaitSyncCamera",
     "WaitSyncBattle",
-    "MessagePut",
     "MessageClose",
     "SearchSetUpEventOccur",
-    "ContinueSameUnitConsider",
     "SetEventObjPos",
     "SetEventObjPosOne",
     "DeleteEventObjPos",
     "DeleteEventObjPosOne",
     "CountEnemyUnit",
-    "Routine_SaveGo",
-    "Routine_WorldMap2",
     "Routine_BGMvolChange",
-    "checkIsThereShip",
     "GetUnitStatus",
     "GetUnitStatusRect",
     "CheckAllDeathStatusRect",
     "checkRectPosUnit",
-    "checkRectPosCamp",
     "GetHpOrResourceAndMax",
     "RecoverHpOrResourceByPer",
     "GetMapSitePer",
     "KuniNameSet",
     "GetKazuOfItemKuni",
     "EquipItem",
-    "PutOnItem"
+    "PutOnItem",
+    "PutOffItem",
+    "EquipSeirei"
    ],
-   "bytes": 7704,
+   "bytes": 7548,
    "addr": [
-    34151512,
-    34199788
+    34146404,
+    34200124
    ]
   },
   {
-   "id": "L4-16011",
+   "id": "L4-17009",
    "level": 4,
    "functions": [
-    "PutOffItem",
-    "EquipSeirei",
-    "SetUpCarisumaSally",
     "SetUpSallyForCharNo",
-    "SelectCarisumaChar",
-    "CancelPutShipInner",
-    "WaitInShipMode",
-    "DeleteTutorialIcon",
-    "WaitSyncTouchOrder",
-    "PutBtlResult",
-    "PutBtlResultForFree",
-    "PutBtlResultForFreeWithoutSave",
-    "Put__MISSION_DRAW",
-    "delete__MISSION_START",
-    "WaitSyncSelectForGameOver",
-    "GotoLoadData",
-    "EndScriptRoutine",
     "Put_Any_SyouriHaibokuJouken",
     "GetPosNoByShisetu",
     "GetConditionShisetu",
-    "Goto_EventNoAndTitleNo",
     "SetBright3DScreen",
-    "StartMovie",
-    "StartPictureEvent",
     "SetLogicNoForCreateUnit",
     "SetUnitTypeMax",
     "SetFreeScenarioOnOff",
-    "TellToChild_VS_Battle_Endding",
-    "VS_Battle_Endding",
     "SetAikyoEffectWithXYZ",
-    "SetAikyoEffectXYZ",
     "SetLoopFlagForAikyoEffect",
     "WaitSyncAlphaChange",
-    "CarisumaUnitParamUpDownByEquip",
     "Search_UNIT_INFO",
     "GetBlank_UNIT_INFO",
     "MemoPersonFlag",
@@ -2504,56 +1734,27 @@
     "MemoKeywordFlag",
     "MemoKeywordChange",
     "Global2Local_ObjPara",
-    "TG_BattleRestart",
     "TG_objLookObj_withRelay",
     "TG_partyLookObj",
     "TG_partyLookObj_withRelay",
     "TG_setPartyDirection",
-    "TG_setPartyDirection_withRelay"
-   ],
-   "bytes": 7728,
-   "addr": [
-    34199788,
-    34217652
-   ]
-  },
-  {
-   "id": "L4-16012",
-   "level": 4,
-   "functions": [
-    "TG_deadMotionForEvent",
+    "TG_setPartyDirection_withRelay",
     "TG_setElementsBeforeWorldmap",
     "MTG_SaveParaReset",
     "MTG_BGM_FadeOutAndChange",
-    "MTG_GameOver",
     "MTG_Check_Live_No",
-    "MTG_FreeBattleEnd1",
     "WH_ChangeSysState",
-    "WH_StateOutSetParentParam",
-    "WH_StateInSetParentWEPKey",
-    "WH_StateInStartParent",
     "WH_StateInStartParentMP",
-    "WH_StateOutEndParentMP",
     "WH_StartScan",
     "WH_StateInStartScan",
-    "WH_StateOutEndScan",
-    "WH_StateInSetChildWEPKey",
-    "WH_StateOutSetChildWEPKey",
-    "WH_StateInStartChild",
     "WH_StateInStartChildMP",
-    "WH_StateInStartChildKeyShare",
-    "WH_StateInEndChildKeyShare",
     "WH_StateInSetMPData",
     "WH_PortReceiveCallback",
     "WH_StartMeasureChannel",
     "WH_StateInMeasureChannel",
     "WH_StateOutMeasureChannel",
-    "WH_GetMeasureChannel",
     "SelectChannel",
     "WH_Initialize",
-    "WH_StateOutInitialize",
-    "WH_SetReceiver",
-    "WH_End",
     "func_ov004_020b8e5c",
     "func_ov004_020b91ec",
     "func_ov004_020b92b4",
@@ -2561,30 +1762,25 @@
     "func_ov004_020b9554",
     "func_ov004_020b95d0",
     "func_ov004_020b9640",
-    "func_ov004_020b9e00",
-    "func_ov004_020ba084",
-    "func_ov004_020ba184",
-    "func_ov004_020ba248",
-    "func_ov004_020ba3c4",
-    "func_ov004_020ba634",
-    "func_ov004_020bae98",
-    "func_ov004_020bb174",
-    "func_ov004_020bb328",
-    "func_ov004_020bb6f0"
+    "func_ov004_020b9e00"
    ],
-   "bytes": 7820,
+   "bytes": 8064,
    "addr": [
-    34217652,
-    34322276
+    34200748,
+    34315896
    ]
   },
   {
-   "id": "L4-16013",
+   "id": "L4-17010",
    "level": 4,
    "functions": [
+    "func_ov004_020ba084",
+    "func_ov004_020ba184",
+    "func_ov004_020ba3c4",
+    "func_ov004_020ba634",
+    "func_ov004_020bb174",
+    "func_ov004_020bb328",
     "func_ov004_020bb764",
-    "func_ov004_020bb8e0",
-    "func_ov004_020bb948",
     "func_ov004_020bbff0",
     "func_ov004_020bc064",
     "func_ov004_020bc3e4",
@@ -2593,7 +1789,6 @@
     "func_ov004_020bc5cc",
     "func_ov004_020bc640",
     "func_ov004_020bc818",
-    "func_ov004_020bc954",
     "func_ov004_020bca0c",
     "func_ov004_020bd2e8",
     "func_ov004_020bd460",
@@ -2603,7 +1798,6 @@
     "func_ov004_020bf1f0",
     "func_ov004_020bf950",
     "func_ov004_020c02f4",
-    "func_ov004_020c0afc",
     "func_ov004_020c0dd4",
     "func_ov004_020c1000",
     "func_ov004_020c1154",
@@ -2628,22 +1822,20 @@
     "func_ov004_020c6bc8",
     "func_ov004_020c6de0",
     "func_ov004_020c73dc",
-    "func_ov004_020c7544",
     "func_ov004_020c7718",
-    "func_ov004_020c77e4",
-    "func_ov004_020c7a10"
+    "func_ov004_020c77e4"
    ],
-   "bytes": 7992,
+   "bytes": 8104,
    "addr": [
-    34322276,
-    34372264
+    34316420,
+    34371708
    ]
   },
   {
-   "id": "L4-16014",
+   "id": "L4-17011",
    "level": 4,
    "functions": [
-    "func_ov004_020c7eac",
+    "func_ov004_020c7a10",
     "func_ov004_020c82c8",
     "func_ov004_020c897c",
     "func_ov004_020c8a44",
@@ -2668,20 +1860,13 @@
     "func_ov004_020cbb8c",
     "func_ov004_020cbc84",
     "func_ov020_020d096c",
-    "func_ov022_020d0ad4",
     "func_ov032_020d05dc",
-    "func_ov032_020d3d80",
     "func_ov032_020d42d8",
     "func_ov032_020d4354",
     "func_ov036_020d0160",
     "func_ov045_020d04c0",
     "func_ov045_020d05a4",
-    "func_ov063_020d02fc",
-    "func_ov071_020d02fc",
-    "func_ov073_020d0304",
     "func_ov088_020d0540",
-    "func_ov089_020d027c",
-    "func_ov090_020d0200",
     "func_ov091_020d04d4",
     "func_ov092_020d04c0",
     "func_ov092_020d05a4",
@@ -2692,27 +1877,25 @@
     "func_ov107_020d9794",
     "func_ov107_020da774",
     "func_ov107_020daa08",
-    "func_ov107_020daacc"
-   ],
-   "bytes": 8316,
-   "addr": [
-    34373292,
-    34450368
-   ]
-  },
-  {
-   "id": "L4-16015",
-   "level": 4,
-   "functions": [
+    "func_ov107_020daacc",
     "func_ov107_020dad80",
-    "func_ov107_020db050",
     "func_ov107_020db148",
-    "func_ov107_020db218",
     "func_ov107_020db4bc",
     "func_ov107_020db5c0",
     "func_ov107_020dbaf0",
     "func_ov107_020dc3a8",
-    "func_ov107_020dc9a0",
+    "func_ov107_020dc9a0"
+   ],
+   "bytes": 8224,
+   "addr": [
+    34372112,
+    34458140
+   ]
+  },
+  {
+   "id": "L4-17012",
+   "level": 4,
+   "functions": [
     "func_ov107_020dca1c",
     "func_ov107_020dca98",
     "func_ov107_020dcb78",
@@ -2728,7 +1911,6 @@
     "func_ov107_020de17c",
     "func_ov107_020dea20",
     "func_ov107_020def24",
-    "func_ov107_020df2e8",
     "func_ov107_020df65c",
     "func_ov107_020dfa68",
     "func_ov107_020dfd88",
@@ -2742,90 +1924,65 @@
     "func_ov108_020d9d98",
     "FinishMakeUnit",
     "FinishMakeUnit2",
-    "GetMakingUnit",
     "DeleteHelpInShip",
     "PutCancelButtonInShip",
     "DeleteCommonIconInShip",
-    "PutShisetuIcon",
     "GetPosNoInShisetuIconList",
     "putOneShisetuIcon",
     "checkMakeUnitKazuByRace",
-    "checkMakeUnitKazu",
     "PutListBlackPlane",
     "putOneSelUnitKazuIcon",
-    "ChgShisetuKido"
-   ],
-   "bytes": 9116,
-   "addr": [
-    34450816,
-    34492624
-   ]
-  },
-  {
-   "id": "L4-16016",
-   "level": 4,
-   "functions": [
+    "ChgShisetuKido",
     "ChgColorShisetu",
     "ReleaseUpFactoryData",
     "GetEmptyUnitWorkInShipWithPos",
-    "UpDownColorShisetu",
     "GetShisetuNo",
     "GetShisetuNoWithGodBeast",
-    "DeleteShisetuUnitName",
     "RedrawCoseByKazu",
-    "DeleteSecchiIconGaiaKazuKazu",
     "ChangeObjAnimeInShipAeng",
-    "PutListUnitIcon",
-    "ReleaseUnitListGraDataOne",
     "changeUnitListSel",
     "DeleteMakingGageByPos",
     "DeleteMakingGage",
     "PutShinjuHouseSel",
     "DeleteShinjuHouseSel",
-    "PutTouchWaitIconInShip",
+    "PutTouchWaitIconInShip"
+   ],
+   "bytes": 9144,
+   "addr": [
+    34458140,
+    34501796
+   ]
+  },
+  {
+   "id": "L4-17013",
+   "level": 4,
+   "functions": [
     "PutCarisumaSkill",
     "PutCarisumaSkillNamePlate",
     "PutCarisumaSkillName",
     "SetTouchPosThereInShip",
     "PutOffButton",
-    "changeMoveLeftOneChar",
     "changeMoveRightOneChar",
     "GetShisetuBoardPos",
-    "TouchSoundByShisetu",
     "func_ov110_020e16d4",
     "func_ov110_020e183c",
     "func_ov110_020e1928",
     "func_ov110_020e1b7c",
-    "func_ov110_020e1e18",
     "func_ov110_020e2288",
     "func_ov110_020e26d8",
     "VXmovie_GetBackBuffer",
     "VXmovie_GetSubBackBuffer",
     "FadeOutInMovie",
     "func_ov111_020e191c",
-    "func_ov111_020e19d8",
     "func_ov111_020e1b48",
-    "func_ov111_020e1be0",
     "func_ov111_020e21f0",
     "func_ov111_020e2418",
     "func_ov111_020e4784",
     "func_ov111_020e4c68",
-    "func_ov111_020e568c",
     "func_ov111_020e571c",
     "func_ov111_020e5dd4",
     "func_ov111_020e63bc",
-    "func_ov111_020e6474"
-   ],
-   "bytes": 8532,
-   "addr": [
-    34492624,
-    34497792
-   ]
-  },
-  {
-   "id": "L4-16017",
-   "level": 4,
-   "functions": [
+    "func_ov111_020e6474",
     "func_ov111_020e6628",
     "func_ov111_020e67dc",
     "func_ov111_020e6938",
@@ -2843,16 +2000,24 @@
     "func_ov111_020e8d8c",
     "func_ov111_020e8f98",
     "func_ov111_020e9070",
-    "func_ov111_020e90ec",
     "func_ov111_020e9c50",
     "func_ov111_020e9fcc",
     "func_ov111_020ea7f8",
     "func_ov111_020ea8e4",
-    "func_ov112_020e1500",
-    "func_ov112_020e15a8",
     "func_ov112_020e1650",
     "func_ov112_020e1708",
-    "func_ov112_020e1cf4",
+    "func_ov112_020e1cf4"
+   ],
+   "bytes": 8524,
+   "addr": [
+    34501856,
+    34479516
+   ]
+  },
+  {
+   "id": "L4-17014",
+   "level": 4,
+   "functions": [
     "func_ov112_020e2284",
     "func_ov112_020e264c",
     "func_ov112_020e29ac",
@@ -2869,44 +2034,27 @@
     "func_ov112_020e61d4",
     "func_ov112_020e6274",
     "func_ov112_020e6894",
-    "func_ov112_020e6e40",
     "func_ov112_020e6f1c",
     "func_ov112_020e6fe0",
     "func_ov112_020e70a4",
     "func_ov112_020e7168",
     "func_ov112_020e7b40",
-    "func_ov112_020e8d34"
-   ],
-   "bytes": 8740,
-   "addr": [
-    34498088,
-    34508256
-   ]
-  },
-  {
-   "id": "L4-16018",
-   "level": 4,
-   "functions": [
+    "func_ov112_020e8d34",
     "func_ov112_020e8f9c",
     "func_ov112_020e9600",
     "func_ov112_020e966c",
     "func_ov112_020e975c",
     "func_ov112_020e9abc",
-    "func_ov112_020ea514",
     "func_ov113_020e16c8",
-    "func_ov113_020e1740",
-    "func_ov113_020e17f8",
     "func_ov113_020e23e4",
     "func_ov113_020e2b64",
     "func_ov113_020e2c08",
     "func_ov113_020e2f34",
     "func_ov113_020e37ec",
     "func_ov114_020e1500",
-    "func_ov114_020e23a8",
     "func_ov114_020e2438",
     "func_ov114_020e2734",
     "func_ov114_020e2f58",
-    "func_ov114_020e2fe0",
     "func_ov114_020e3318",
     "func_ov114_020e3d20",
     "func_ov114_020e4300",
@@ -2916,43 +2064,34 @@
     "func_ov115_020e2620",
     "func_ov115_020e2980",
     "func_ov115_020e35b4",
-    "func_ov115_020e38f8",
     "func_ov115_020e3990",
     "func_ov115_020e3d08",
-    "func_ov115_020e4b98",
     "func_ov115_020e4c64",
-    "func_ov115_020e5008",
-    "func_ov115_020e53f0",
-    "func_ov115_020e6174",
-    "func_ov115_020e6a98",
-    "func_ov115_020e77a8",
-    "func_ov116_020e1500",
-    "func_ov116_020e1db8",
-    "func_ov116_020e2088",
-    "func_ov116_020e2330",
-    "func_ov116_020e2764",
-    "func_ov116_020e2a80",
-    "func_ov116_020e2b10",
-    "func_ov116_020e2bac",
-    "func_ov116_020e3258",
-    "func_ov116_020e32e8",
-    "func_ov116_020e3358"
+    "func_ov115_020e6174"
    ],
-   "bytes": 9224,
+   "bytes": 9096,
    "addr": [
-    34508700,
-    34485284
+    34480772,
+    34497116
    ]
   },
   {
-   "id": "L4-16019",
+   "id": "L4-17015",
    "level": 4,
    "functions": [
+    "func_ov115_020e6a98",
+    "func_ov115_020e77a8",
+    "func_ov116_020e1500",
+    "func_ov116_020e2088",
+    "func_ov116_020e2330",
+    "func_ov116_020e2764",
+    "func_ov116_020e2b10",
+    "func_ov116_020e2bac",
+    "func_ov116_020e32e8",
+    "func_ov116_020e3358",
     "func_ov116_020e4304",
     "func_ov116_020e4374",
     "func_ov116_020e4914",
-    "func_ov116_020e5454",
-    "func_ov116_020e55e0",
     "func_ov117_020e2ba8",
     "func_ov117_020e2c38",
     "func_ov117_020e2d30",
@@ -2961,27 +2100,21 @@
     "func_ov117_020e3a74",
     "func_ov117_020e3b24",
     "func_ov117_020e4ecc",
-    "func_ov117_020e53dc",
     "func_ov117_020e5474",
     "func_ov117_020e5ee0",
     "func_ov117_020e7348",
-    "func_ov117_020e7450",
     "func_ov117_020e74e0",
     "func_ov117_020eba20",
     "func_ov117_020ec514",
-    "func_ov117_020ed0e0",
-    "func_ov117_020ed248",
     "func_ov118_020e1634",
     "func_ov118_020e1cd4",
     "func_ov118_020e24a8",
     "func_ov119_020e9ebc",
     "func_ov119_020eb07c",
     "func_ov119_020eb8ec",
-    "func_ov119_020eba9c",
     "func_ov119_020ebbbc",
     "func_ov119_020ec860",
     "func_ov119_020ece18",
-    "func_ov119_020eddc4",
     "func_ov119_020edfb4",
     "func_ov119_020ee854",
     "func_ov119_020eed8c",
@@ -2994,42 +2127,31 @@
     "func_ov119_020f07f0",
     "func_ov119_020f08bc",
     "func_ov119_020f09e4",
-    "func_ov119_020f0a60",
-    "func_ov119_020f1334",
-    "func_ov119_020f13f4",
-    "func_ov119_020f1470"
+    "func_ov119_020f1470",
+    "func_ov120_020e9b84"
    ],
-   "bytes": 8880,
+   "bytes": 9156,
    "addr": [
-    34489092,
-    34542888
+    34499224,
+    34511936
    ]
   },
   {
-   "id": "L4-16020",
+   "id": "L4-17016",
    "level": 4,
    "functions": [
-    "func_ov120_020e9b84",
     "func_ov120_020ea550",
-    "func_ov120_020ea954",
     "func_ov120_020eaff4",
     "func_ov120_020eb2b8",
     "func_ov120_020eb35c",
     "func_ov120_020eb40c",
     "func_ov120_020eb538",
-    "func_ov120_020ec4bc",
     "func_ov120_020ecab0",
     "func_ov120_020ee350",
-    "func_ov120_020ef068",
     "func_ov120_020ef0f8",
     "func_ov120_020f0044",
     "func_ov120_020f12d8",
-    "func_ov120_020f15b4",
-    "func_ov120_020f1740",
-    "func_ov121_020ea18c",
-    "func_ov121_020ea420",
     "func_ov121_020ead78",
-    "func_ov121_020eb2ac",
     "func_ov121_020eb344",
     "func_ov121_020eb6d0",
     "func_ov121_020ec828",
@@ -3038,16 +2160,11 @@
     "func_ov121_020ee5cc",
     "func_ov121_020ef73c",
     "func_ov121_020f0fe0",
-    "func_ov121_020f2aec",
-    "func_ov121_020f2bec",
     "func_ov121_020f4338",
     "func_ov122_02051560",
-    "func_ov122_02051640",
-    "func_ov122_02052458",
     "func_ov122_02052680",
     "func_ov122_020535e0",
     "func_ov122_02053b24",
-    "func_ov122_020552b4",
     "func_ov122_0205534c",
     "func_ov122_020558b0",
     "func_ov122_020559f0",
@@ -3057,19 +2174,7 @@
     "func_ov122_02058ef8",
     "func_ov122_020591f4",
     "func_ov122_0205cf48",
-    "func_ov122_0205da7c",
-    "func_ov122_0205db1c"
-   ],
-   "bytes": 8216,
-   "addr": [
-    34511748,
-    33938324
-   ]
-  },
-  {
-   "id": "L4-16021",
-   "level": 4,
-   "functions": [
+    "func_ov122_0205db1c",
     "func_ov122_0205dea8",
     "func_ov122_0205e17c",
     "func_ov122_0205e3e0",
@@ -3078,16 +2183,24 @@
     "func_ov122_0205e864",
     "func_ov122_0205eae0",
     "func_ov122_0205ee98",
-    "func_ov122_0205fd3c",
     "func_ov123_02066acc",
-    "func_ov123_02066e48",
     "func_ov123_0206759c",
     "func_ov123_020676ac",
     "func_ov123_02067800",
     "func_ov123_02067bbc",
     "func_ov123_02068294",
-    "func_ov123_02068880",
-    "func_ov123_02068af8",
+    "func_ov123_02068af8"
+   ],
+   "bytes": 8764,
+   "addr": [
+    34514256,
+    33983328
+   ]
+  },
+  {
+   "id": "L4-17017",
+   "level": 4,
+   "functions": [
     "func_ov123_02068b60",
     "func_ov123_02068c28",
     "func_ov123_02068e44",
@@ -3118,19 +2231,6 @@
     "func_ov123_0206c8bc",
     "func_ov123_0206cc20",
     "func_ov123_0206cd54",
-    "func_ov123_0206ce0c",
-    "func_ov123_0206ce94"
-   ],
-   "bytes": 8772,
-   "addr": [
-    33939112,
-    34000672
-   ]
-  },
-  {
-   "id": "L4-16022",
-   "level": 4,
-   "functions": [
     "func_ov123_0206cf80",
     "func_ov123_0206d164",
     "func_ov123_0206d460",
@@ -3142,7 +2242,6 @@
     "func_ov123_0206e89c",
     "func_ov123_0206e918",
     "func_ov123_0206e9d4",
-    "func_ov123_0206eab4",
     "func_ov123_0206efa0",
     "func_ov123_0206f414",
     "func_ov123_0206f824",
@@ -3151,21 +2250,28 @@
     "func_ov123_0206fd50",
     "func_ov123_0206fe30",
     "func_ov123_02070104",
-    "func_ov123_0207039c",
+    "func_ov123_0207039c"
+   ],
+   "bytes": 8668,
+   "addr": [
+    33983328,
+    34014300
+   ]
+  },
+  {
+   "id": "L4-17018",
+   "level": 4,
+   "functions": [
     "func_ov123_02070c78",
     "func_ov123_02070d68",
-    "func_ov123_02070f78",
     "func_ov123_020711f8",
-    "func_ov123_020712f8",
     "func_ov123_020713b4",
     "func_ov123_02071430",
-    "func_ov123_0207162c",
     "func_ov123_020716c4",
     "func_ov123_020718b4",
     "func_ov123_02071e14",
     "func_ov123_02071fb4",
     "func_ov123_0207204c",
-    "func_ov123_02072264",
     "func_ov123_02072308",
     "func_ov123_020726c4",
     "func_ov123_020729dc",
@@ -3177,34 +2283,14 @@
     "func_ov123_02073594",
     "func_ov123_02073904",
     "func_ov123_02073a50",
-    "func_ov123_02073aec",
-    "func_ov123_02073bd0",
-    "func_ov123_02073ca4",
-    "func_ov123_02073e58"
-   ],
-   "bytes": 8520,
-   "addr": [
-    34000768,
-    34029256
-   ]
-  },
-  {
-   "id": "L4-16023",
-   "level": 4,
-   "functions": [
+    "func_ov123_02073e58",
     "func_ov123_02073f18",
     "func_ov123_02073fe4",
     "func_ov123_02074144",
     "func_ov123_02074578",
-    "func_ov123_0207465c",
     "func_ov123_020746c4",
     "func_ov123_020747b4",
     "func_ov123_02074840",
-    "func_ov123_02075154",
-    "func_ov123_02075c6c",
-    "func_ov123_02075d34",
-    "func_ov123_02075e1c",
-    "func_ov123_0207614c",
     "func_ov123_020761b0",
     "func_ov123_020764b8",
     "func_ov123_0207655c",
@@ -3212,9 +2298,7 @@
     "func_ov123_020766fc",
     "func_ov123_02076a00",
     "func_ov123_02076aa4",
-    "func_ov123_020772ac",
     "func_ov123_0207733c",
-    "func_ov123_02077580",
     "func_ov123_020775f0",
     "func_ov123_020776f0",
     "func_ov123_02077798",
@@ -3227,7 +2311,18 @@
     "func_ov123_020793f0",
     "func_ov123_02079530",
     "func_ov123_020795a4",
-    "func_ov123_020796a8",
+    "func_ov123_020796a8"
+   ],
+   "bytes": 8376,
+   "addr": [
+    34016376,
+    34051864
+   ]
+  },
+  {
+   "id": "L4-17019",
+   "level": 4,
+   "functions": [
     "func_ov123_02079718",
     "func_ov123_02079994",
     "func_ov123_02079a50",
@@ -3241,18 +2336,7 @@
     "func_ov123_0207a58c",
     "func_ov123_0207a62c",
     "func_ov123_0207a6d8",
-    "func_ov123_0207a748"
-   ],
-   "bytes": 7996,
-   "addr": [
-    34029336,
-    34056132
-   ]
-  },
-  {
-   "id": "L4-16024",
-   "level": 4,
-   "functions": [
+    "func_ov123_0207a748",
     "func_ov123_0207aaf4",
     "func_ov123_0207af84",
     "func_ov123_0207b008",
@@ -3282,14 +2366,24 @@
     "func_ov123_020828e8",
     "func_ov123_02082ef8",
     "func_ov123_020837b0",
-    "func_ov123_02085e4c",
     "func_ov123_02086288",
     "func_ov123_020865d8",
     "func_ov123_020867e0",
     "func_ov123_0208696c",
     "func_ov123_02086a10",
     "func_ov123_02086c3c",
-    "func_ov123_02086cc8",
+    "func_ov123_02086cc8"
+   ],
+   "bytes": 8556,
+   "addr": [
+    34051864,
+    34106696
+   ]
+  },
+  {
+   "id": "L4-17020",
+   "level": 4,
+   "functions": [
     "func_ov123_02086d74",
     "func_ov123_02087348",
     "func_ov123_0208751c",
@@ -3301,25 +2395,12 @@
     "func_ov123_0208805c",
     "func_ov123_0208821c",
     "func_ov123_02088294",
-    "func_ov123_020883d8",
-    "func_ov123_02088444"
-   ],
-   "bytes": 8860,
-   "addr": [
-    34056948,
-    34112752
-   ]
-  },
-  {
-   "id": "L4-16025",
-   "level": 4,
-   "functions": [
+    "func_ov123_02088444",
     "func_ov123_0208865c",
     "func_ov123_02088924",
     "func_ov123_02088a1c",
     "func_ov123_02088aa8",
     "func_ov123_02088b10",
-    "func_ov123_02088dec",
     "func_ov123_02088fdc",
     "func_ov123_020890b0",
     "func_ov123_02089278",
@@ -3328,14 +2409,12 @@
     "func_ov123_0208980c",
     "func_ov123_02089ab8",
     "func_ov123_02089b3c",
-    "func_ov123_02089efc",
     "func_ov123_0208a0d4",
     "func_ov123_0208a1b0",
     "func_ov123_0208a248",
     "func_ov123_0208a4dc",
     "func_ov123_0208a880",
     "func_ov123_0208b074",
-    "func_ov123_0208b3a8",
     "func_ov123_0208b560",
     "func_ov123_0208be3c",
     "func_ov123_0208bfd0",
@@ -3354,30 +2433,27 @@
     "func_ov123_0208db64",
     "func_ov123_0208df2c",
     "func_ov123_0208dfd4",
-    "func_ov123_0208e308",
-    "func_ov123_0208e76c",
+    "func_ov123_0208e308"
+   ],
+   "bytes": 8628,
+   "addr": [
+    34106740,
+    34136948
+   ]
+  },
+  {
+   "id": "L4-17021",
+   "level": 4,
+   "functions": [
     "func_ov123_0208e7f0",
     "func_ov123_0208e944",
     "func_ov123_0208f010",
     "func_ov123_0208f1f0",
-    "func_ov123_0208f4b8",
     "func_ov123_0208f5b0",
     "func_ov123_0208f9a0",
-    "func_ov123_020902e0"
-   ],
-   "bytes": 8552,
-   "addr": [
-    34113116,
-    34145132
-   ]
-  },
-  {
-   "id": "L4-16026",
-   "level": 4,
-   "functions": [
+    "func_ov123_020902e0",
     "func_ov123_0209047c",
     "func_ov123_02090540",
-    "func_ov123_02090624",
     "func_ov123_02090688",
     "func_ov123_02090f08",
     "func_ov123_02090f88",
@@ -3387,7 +2463,6 @@
     "func_ov123_020919e4",
     "func_ov123_02091ae4",
     "func_ov123_02091b64",
-    "func_ov123_02091bcc",
     "func_ov123_02091cac",
     "func_ov123_02091d44",
     "func_ov123_02092010",
@@ -3397,7 +2472,6 @@
     "func_ov123_020929dc",
     "func_ov123_02092b8c",
     "func_ov123_02092c84",
-    "func_ov123_02092f4c",
     "func_ov123_0209302c",
     "func_ov123_020933a4",
     "func_ov123_02093498",
@@ -3420,30 +2494,28 @@
     "func_ov123_020960bc",
     "func_ov123_020967ac",
     "func_ov123_020968ac",
-    "func_ov123_02096928",
-    "func_ov123_02096af4",
-    "func_ov123_02096be4",
-    "func_ov123_02096ca8",
-    "func_ov123_020970ac"
+    "func_ov123_02096928"
    ],
-   "bytes": 8136,
+   "bytes": 7876,
    "addr": [
-    34145404,
-    34173356
+    34138096,
+    34171332
    ]
   },
   {
-   "id": "L4-16027",
+   "id": "L4-17022",
    "level": 4,
    "functions": [
+    "func_ov123_02096af4",
+    "func_ov123_02096be4",
+    "func_ov123_02096ca8",
+    "func_ov123_020970ac",
     "func_ov123_020986f4",
     "func_ov123_02098d84",
-    "func_ov123_0209958c",
     "func_ov123_02099970",
     "func_ov123_02099a3c",
     "func_ov123_02099b20",
     "func_ov123_0209a660",
-    "func_ov123_0209aa14",
     "func_ov123_0209aa78",
     "func_ov123_0209aba8",
     "func_ov123_0209ba14",
@@ -3471,7 +2543,6 @@
     "func_ov123_0209ff00",
     "func_ov123_020a18d8",
     "func_ov123_020a1984",
-    "func_ov123_020a2808",
     "func_ov123_020a28d8",
     "func_ov123_020a2bc8",
     "func_ov123_020a30d0",
@@ -3483,18 +2554,17 @@
     "func_ov123_020a4f04",
     "func_ov123_020a50b4",
     "func_ov123_020a5130",
-    "func_ov123_020a56e0",
     "func_ov123_020a5810",
     "func_ov123_020a58b0"
    ],
-   "bytes": 8472,
+   "bytes": 8696,
    "addr": [
-    34178804,
+    34171636,
     34232636
    ]
   },
   {
-   "id": "L4-16028",
+   "id": "L4-17023",
    "level": 4,
    "functions": [
     "func_ov123_020a59b4",
@@ -3508,18 +2578,14 @@
     "func_ov123_020a6d3c",
     "func_ov123_020a6dc0",
     "func_ov123_020a6ee4",
-    "func_ov123_020a6f70",
     "func_ov123_020a6fe0",
     "func_ov123_020a722c",
     "func_ov123_020a7408",
     "func_ov123_020a7660",
     "func_ov123_020a78e4",
-    "func_ov123_020a7d38",
     "func_ov123_020a90a8",
     "func_ov123_020a9164",
-    "func_ov123_020a92c0",
     "func_ov123_020a9754",
-    "func_ov123_020a9bf8",
     "func_ov123_020aa838",
     "func_ov123_020ac014",
     "func_ov123_020ac3dc",
@@ -3530,7 +2596,6 @@
     "func_ov123_020acf60",
     "func_ov123_020ad500",
     "func_ov123_020ad96c",
-    "func_ov123_020adaa0",
     "func_ov123_020adca4",
     "func_ov123_020add20",
     "func_ov123_020adfe4",
@@ -3546,30 +2611,26 @@
     "func_ov123_020aed9c",
     "func_ov123_020aee18",
     "func_ov123_020aee94",
-    "func_ov123_020af3a4"
-   ],
-   "bytes": 8424,
-   "addr": [
-    34232756,
-    34272384
-   ]
-  },
-  {
-   "id": "L4-16029",
-   "level": 4,
-   "functions": [
+    "func_ov123_020af3a4",
     "func_ov123_020af480",
     "func_ov123_020af55c",
     "func_ov123_020b0278",
     "func_ov123_020b0314",
-    "func_ov123_020b03c4",
+    "func_ov123_020b03c4"
+   ],
+   "bytes": 8452,
+   "addr": [
+    34232756,
+    34276468
+   ]
+  },
+  {
+   "id": "L4-17024",
+   "level": 4,
+   "functions": [
     "func_ov123_020b0474",
     "func_ov123_020b0524",
     "func_ov123_020b0a18",
-    "func_ov123_020b0adc",
-    "func_ov123_020b0b54",
-    "func_ov123_020b0bcc",
-    "func_ov123_020b0c44",
     "func_ov123_020b0cbc",
     "func_ov123_020b0d3c",
     "func_ov123_020b0e10",
@@ -3592,9 +2653,7 @@
     "func_ov123_020b4e18",
     "func_ov123_020b5ebc",
     "func_ov123_020b6348",
-    "func_ov123_020b64fc",
     "func_ov123_020b6df0",
-    "func_ov123_020b7824",
     "func_ov123_020b7900",
     "func_ov123_020b7bc4",
     "func_ov123_020b8a48",
@@ -3604,25 +2663,11 @@
     "func_ov123_020b90fc",
     "func_ov123_020b9920",
     "func_ov123_020b99ac",
-    "func_ov123_020b9a60",
     "func_ov123_020b9b28",
     "func_ov123_020b9dc4",
-    "func_ov123_020bacec"
-   ],
-   "bytes": 8448,
-   "addr": [
-    34272384,
-    34319756
-   ]
-  },
-  {
-   "id": "L4-16030",
-   "level": 4,
-   "functions": [
+    "func_ov123_020bacec",
     "func_ov123_020bad8c",
-    "func_ov123_020bb264",
     "func_ov123_020bb330",
-    "func_ov123_020bb418",
     "func_ov123_020bb4ac",
     "func_ov123_020bb558",
     "func_ov123_020bc1fc",
@@ -3632,11 +2677,20 @@
     "func_ov123_020bfc4c",
     "func_ov123_020c0240",
     "func_ov123_020c06dc",
-    "func_ov123_020c0c84",
-    "func_ov123_020c155c",
+    "func_ov123_020c0c84"
+   ],
+   "bytes": 8864,
+   "addr": [
+    34276468,
+    34344204
+   ]
+  },
+  {
+   "id": "L4-17025",
+   "level": 4,
+   "functions": [
     "func_ov123_020c1b0c",
     "func_ov123_020c1e24",
-    "func_ov123_020c1f50",
     "func_ov123_020c1fdc",
     "func_ov123_020c20f8",
     "func_ov123_020c2428",
@@ -3650,7 +2704,6 @@
     "func_ov123_020c3944",
     "func_ov123_020c3a1c",
     "func_ov123_020c3af4",
-    "func_ov123_020c3bcc",
     "func_ov123_020c3c90",
     "func_ov123_020c3df0",
     "func_ov123_020c3ea0",
@@ -3662,29 +2715,15 @@
     "func_ov123_020c4af4",
     "func_ov123_020c4c04",
     "func_ov123_020c4cdc",
-    "func_ov123_020c4d9c",
     "func_ov123_020c4fdc",
     "func_ov123_020c51ac",
     "func_ov123_020c56c4",
     "func_ov123_020c57b8",
     "func_ov123_020c5e0c",
-    "func_ov123_020c5ef8"
-   ],
-   "bytes": 9608,
-   "addr": [
-    34319756,
-    34365404
-   ]
-  },
-  {
-   "id": "L4-16031",
-   "level": 4,
-   "functions": [
+    "func_ov123_020c5ef8",
     "func_ov123_020c5fdc",
     "func_ov123_020c60c0",
-    "func_ov123_020c616c",
     "func_ov123_020c65d4",
-    "func_ov123_020c69b4",
     "func_ov123_020c6c38",
     "func_ov123_020c6cdc",
     "func_ov123_020c75d4",
@@ -3696,27 +2735,29 @@
     "func_ov123_020c8cb8",
     "func_ov123_020c8e38",
     "func_ov123_020c8ec0",
-    "func_ov123_020c8f8c",
-    "func_ov123_020c91dc",
     "func_ov123_020c9324",
     "func_ov123_020c9740",
     "func_ov123_020c99c0",
-    "func_ov123_020c9b20",
-    "func_ov123_020c9e3c",
+    "func_ov123_020c9b20"
+   ],
+   "bytes": 9532,
+   "addr": [
+    34347788,
+    34380720
+   ]
+  },
+  {
+   "id": "L4-17026",
+   "level": 4,
+   "functions": [
     "func_ov123_020ca5c8",
-    "func_ov123_020cac00",
     "func_ov123_020caf6c",
-    "func_ov123_020cb1cc",
     "func_ov123_020cb620",
     "func_ov123_020cb6c8",
-    "func_ov123_020cbfcc",
     "func_ov123_020cc238",
     "func_ov123_020cc448",
-    "func_ov123_020cc85c",
     "func_ov123_020ccad4",
     "func_ov123_020cd59c",
-    "func_ov123_020cd788",
-    "func_ov123_020cdc80",
     "func_ov123_020cdfd4",
     "func_ov123_020ce504",
     "func_ov123_020ce648",
@@ -3729,20 +2770,8 @@
     "func_ov123_020cf0f0",
     "func_ov123_020cf1c8",
     "func_ov123_020cf3e0",
-    "func_ov123_020cf4a0"
-   ],
-   "bytes": 8888,
-   "addr": [
-    34365404,
-    34403728
-   ]
-  },
-  {
-   "id": "L4-16032",
-   "level": 4,
-   "functions": [
+    "func_ov123_020cf4a0",
     "func_ov123_020cf6b8",
-    "func_ov123_020cfa3c",
     "func_ov123_020cfe08",
     "func_ov123_020d01c0",
     "func_ov123_020d02d8",
@@ -3751,7 +2780,6 @@
     "func_ov123_020d165c",
     "func_ov123_020d1738",
     "func_ov123_020d1d80",
-    "func_ov123_020d23a8",
     "func_ov123_020d2440",
     "func_ov123_020d2524",
     "func_ov123_020d2758",
@@ -3768,14 +2796,14 @@
     "func_ov123_020d4844",
     "func_ov123_020d48c0"
    ],
-   "bytes": 3704,
+   "bytes": 7124,
    "addr": [
-    34404024,
+    34383304,
     34425148
    ]
   },
   {
-   "id": "L5-16001",
+   "id": "L5-17001",
    "level": 5,
    "functions": [
     "_ddiv",
@@ -3836,7 +2864,7 @@
    ]
   },
   {
-   "id": "L5-16002",
+   "id": "L5-17002",
    "level": 5,
    "functions": [
     "func_01ffdd60",
@@ -3848,12 +2876,10 @@
     "appearChild",
     "UpDateParamVSByParent",
     "GetVSErrorByError_Link",
-    "AnaGameLoadAndWorkInit",
     "Sample_SeparateOfAfterBattle",
     "Sample_VsInvitation",
     "Sample_SetUp2PlayerVS",
     "CorrectData2PlayerVS",
-    "InitAnaGlobalWork",
     "release_AnaGlobalWork",
     "PlayMovieRoutine",
     "VBlankIntrWaitInGame",
@@ -3862,7 +2888,6 @@
     "CountFileKazu",
     "changePosNoForOverSea",
     "GetSaveGameData",
-    "RestoreLoadGameDataWithoutResult",
     "AddDiscoveryItemToBag",
     "RestoreLoadGameData",
     "GetCompressDataForRetry",
@@ -3888,21 +2913,21 @@
     "PutStringByObj",
     "setStringToObj",
     "deleteUseStringStOne",
-    "StringToChrData"
+    "StringToChrData",
+    "setOneMojiChr",
+    "setOneMojiChr1_x",
+    "SearchCanUseBtlBgVramNo"
    ],
-   "bytes": 44068,
+   "bytes": 44780,
    "addr": [
     33545568,
-    33873600
+    33875364
    ]
   },
   {
-   "id": "L5-16003",
+   "id": "L5-17003",
    "level": 5,
    "functions": [
-    "setOneMojiChr",
-    "setOneMojiChr1_x",
-    "SearchCanUseBtlBgVramNo",
     "ReadOneString",
     "FaceSetInMessage",
     "FaceReleaseInMessage",
@@ -3911,7 +2936,6 @@
     "changeFrameUpDown",
     "GetOneLineDot",
     "ChgNumIPLtoUseFont",
-    "AnaInitialize",
     "AnaMain",
     "AddModel",
     "AddModelTypeSt",
@@ -3935,7 +2959,6 @@
     "setPutObjData2",
     "mtx_Concat",
     "ReleaseObjWork",
-    "ClearObjGraData",
     "SetKageTexAndPal",
     "TensouKagePatPal",
     "SetNextKisekiPointAndDire",
@@ -3949,23 +2972,23 @@
     "Animation_aONEOBJ",
     "putOneP_Obj",
     "Set_TrsRotScale_forOBJ",
-    "SearchXYforObjSub"
-   ],
-   "bytes": 34396,
-   "addr": [
-    33873600,
-    33924768
-   ]
-  },
-  {
-   "id": "L5-16004",
-   "level": 5,
-   "functions": [
+    "SearchXYforObjSub",
     "changeMoveAction",
     "objSetDistance",
     "objSetDistanceForFly",
     "setBlankPos",
-    "searchSamePosObjWithoutShip",
+    "searchSamePosObjWithoutShip"
+   ],
+   "bytes": 35464,
+   "addr": [
+    33875680,
+    33930168
+   ]
+  },
+  {
+   "id": "L5-17004",
+   "level": 5,
+   "functions": [
     "SetObjBitMap",
     "getPolForKage",
     "putOneP_ObjsKage",
@@ -4010,23 +3033,23 @@
     "SetNoneAnimeTex",
     "objSetDistanceForOrderForSelObj",
     "GetCanIsThereBoard",
-    "CheckCanIsTherePos"
-   ],
-   "bytes": 32840,
-   "addr": [
-    33924768,
-    33969956
-   ]
-  },
-  {
-   "id": "L5-16005",
-   "level": 5,
-   "functions": [
+    "CheckCanIsTherePos",
     "GetCanMoveDisPos",
     "GetNikoCyanIconNo",
     "SetCarisumaMapAllObj",
     "SetCarisumaEffect4Obj",
-    "AutoRecoveryHP",
+    "AutoRecoveryHP"
+   ],
+   "bytes": 31592,
+   "addr": [
+    33930616,
+    33973284
+   ]
+  },
+  {
+   "id": "L5-17005",
+   "level": 5,
+   "functions": [
     "IsItEnemy",
     "SetObjGo",
     "GetResourceNoFromShip",
@@ -4071,23 +3094,23 @@
     "putAllMap_ObjectSub",
     "SetObjsOnOffForMapObj",
     "AddMap_Objects",
-    "ObjWorkInitialize"
-   ],
-   "bytes": 24888,
-   "addr": [
-    33969956,
-    34008500
-   ]
-  },
-  {
-   "id": "L5-16006",
-   "level": 5,
-   "functions": [
+    "ObjWorkInitialize",
     "IconPalTrans",
     "SetKazuByObj",
     "SetNoAnimeObject",
     "NoAnimeObjIncCount",
-    "NoAnimeObjPutSync",
+    "NoAnimeObjPutSync"
+   ],
+   "bytes": 25832,
+   "addr": [
+    33973284,
+    34012864
+   ]
+  },
+  {
+   "id": "L5-17006",
+   "level": 5,
+   "functions": [
     "PutShapeForAob2data",
     "Aob2DataAnimation",
     "SetWirelessIconPal",
@@ -4115,7 +3138,6 @@
     "BengineScreenSetUp",
     "MoveViewPoint",
     "MoveChangeLookPos",
-    "GetCompasIconAtai",
     "SetFirstEyePosition",
     "SetTEST_Model",
     "ChangeGamenMode",
@@ -4132,24 +3154,24 @@
     "SetAreaMapMaskDot",
     "BengineAreaMapTrans",
     "PutOnePlanePicUPlcd",
-    "choiceUnitDataForVS"
-   ],
-   "bytes": 33024,
-   "addr": [
-    34008740,
-    34053752
-   ]
-  },
-  {
-   "id": "L5-16007",
-   "level": 5,
-   "functions": [
+    "choiceUnitDataForVS",
     "InitKuniDataForVS",
     "gameDataControlVS",
     "SetStock_VSMotoData",
     "GetCanSelMapInVS",
     "VsParaUpDown",
-    "EffectEndCallBackForAna",
+    "EffectEndCallBackForAna"
+   ],
+   "bytes": 32204,
+   "addr": [
+    34013028,
+    34058264
+   ]
+  },
+  {
+   "id": "L5-17007",
+   "level": 5,
+   "functions": [
     "GoAikyoEffect",
     "DeleteShisetuInShipByShisetu",
     "commandToMove",
@@ -4178,7 +3200,6 @@
     "LeaveTouchPanelAction",
     "PutIconInit",
     "setHataPat3D",
-    "ScrollCheckScreenEdge",
     "PutCompasIcon",
     "putKisekiToDistance",
     "MakeIconSetScreenOnVBlank",
@@ -4192,28 +3213,26 @@
     "PutSituationGageIcon",
     "newHPbarMake",
     "SituationbarMake",
-    "PutF_AllUnit",
-    "SetUpNikoChanIcon"
-   ],
-   "bytes": 39208,
-   "addr": [
-    34053752,
-    34107160
-   ]
-  },
-  {
-   "id": "L5-16008",
-   "level": 5,
-   "functions": [
+    "SetUpNikoChanIcon",
     "PutNikoCyanIcon",
     "PutK_UNITstatus",
     "PutWin_HookTakeOff",
     "PutYesNoIcon",
     "ChgYesNoButton",
-    "CloseNowInputScMode",
     "ChangeNikoOrRace",
     "Put_MissionStartCompleteWinLose",
-    "Put_MissionGameOver",
+    "Put_MissionGameOver"
+   ],
+   "bytes": 40696,
+   "addr": [
+    34058940,
+    34114280
+   ]
+  },
+  {
+   "id": "L5-17008",
+   "level": 5,
+   "functions": [
     "LoadNclNceNcg2Table",
     "PutSyouriHaibokuBoard",
     "PutUnitRaceIcon",
@@ -4254,18 +3273,7 @@
     "changeOccasion",
     "Logic_separateForBtl",
     "Logic_separateInSite",
-    "Logic_separateForObstacle"
-   ],
-   "bytes": 33244,
-   "addr": [
-    34107160,
-    34148304
-   ]
-  },
-  {
-   "id": "L5-16009",
-   "level": 5,
-   "functions": [
+    "Logic_separateForObstacle",
     "Logic_separateForSelWaza",
     "MakeHouseAndUnitInShip",
     "CountingTimeInShip",
@@ -4274,7 +3282,18 @@
     "is_thereFriendOfHalfHPInSite",
     "is_thereFriendOfAbnormal",
     "is_thereFriendOfAbnormalInSite",
-    "get_UnitOfFunc",
+    "get_UnitOfFunc"
+   ],
+   "bytes": 32952,
+   "addr": [
+    34114464,
+    34154972
+   ]
+  },
+  {
+   "id": "L5-17009",
+   "level": 5,
+   "functions": [
     "GetHookAooNo",
     "SetHookCondSt",
     "researchHookObj",
@@ -4308,25 +3327,13 @@
     "WaitSyncCounterTouch",
     "CameraMove",
     "PutEventTitle",
-    "StopMovingGame",
     "MovingGameGo",
     "AppearOneUnit",
     "SetShisetuLevelByKuniNo",
     "ObjSet",
     "SiteSwitching",
     "SetLogicNoForShipIn",
-    "DeleteItemKuni"
-   ],
-   "bytes": 39552,
-   "addr": [
-    34148304,
-    34199512
-   ]
-  },
-  {
-   "id": "L5-16010",
-   "level": 5,
-   "functions": [
+    "DeleteItemKuni",
     "ChangeKuniNoForUnit",
     "AddCarisumaToParty",
     "PutTutorialIcon",
@@ -4336,11 +3343,21 @@
     "Local2Global_ObjPara",
     "TG_setObjDirection_withRelay",
     "TG_setPartyBeforeWorldmap",
-    "SG_setParty",
+    "SG_setParty"
+   ],
+   "bytes": 41144,
+   "addr": [
+    34154972,
+    34218616
+   ]
+  },
+  {
+   "id": "L5-17010",
+   "level": 5,
+   "functions": [
     "SG_setSisetuFree",
     "SG_judgeAdvantage",
     "MTG_CarisumaPosArrange",
-    "MTG_StartLastEvent",
     "WH_StateOutStartParent",
     "WH_StateOutStartParentMP",
     "WH_StateOutStartScan",
@@ -4357,7 +3374,6 @@
     "func_ov004_020ba7bc",
     "func_ov004_020bb518",
     "func_ov004_020bbe18",
-    "func_ov004_020bcc44",
     "func_ov004_020bd0d8",
     "func_ov004_020bd730",
     "func_ov004_020bd988",
@@ -4376,18 +3392,7 @@
     "func_ov004_020c0bd0",
     "func_ov004_020c1264",
     "func_ov004_020c150c",
-    "func_ov004_020c1670"
-   ],
-   "bytes": 23360,
-   "addr": [
-    34200220,
-    34346968
-   ]
-  },
-  {
-   "id": "L5-16011",
-   "level": 5,
-   "functions": [
+    "func_ov004_020c1670",
     "func_ov004_020c1900",
     "func_ov004_020c1b34",
     "func_ov004_020c1d5c",
@@ -4399,7 +3404,18 @@
     "func_ov004_020c3610",
     "func_ov004_020c3848",
     "func_ov004_020c3b10",
-    "func_ov004_020c3c9c",
+    "func_ov004_020c3c9c"
+   ],
+   "bytes": 23032,
+   "addr": [
+    34218616,
+    34357016
+   ]
+  },
+  {
+   "id": "L5-17011",
+   "level": 5,
+   "functions": [
     "func_ov004_020c3fd4",
     "func_ov004_020c4210",
     "func_ov004_020c452c",
@@ -4427,28 +3443,15 @@
     "func_ov005_020d0178",
     "func_ov006_020d01b8",
     "func_ov007_020d09f4",
-    "func_ov008_020d0630",
     "func_ov009_020d0704",
     "func_ov010_020d096c",
     "func_ov011_020d0978",
-    "func_ov012_020d0620",
     "func_ov013_020d0840",
     "func_ov014_020d08e8",
     "func_ov015_020d06a0",
     "func_ov016_020d0adc",
     "func_ov017_020d099c",
-    "func_ov018_020d0580"
-   ],
-   "bytes": 112652,
-   "addr": [
-    34347264,
-    34409176
-   ]
-  },
-  {
-   "id": "L5-16012",
-   "level": 5,
-   "functions": [
+    "func_ov018_020d0580",
     "func_ov018_020d0bbc",
     "func_ov019_020d01c0",
     "func_ov019_020d062c",
@@ -4457,24 +3460,29 @@
     "func_ov021_020d08b8",
     "func_ov022_020d0c14",
     "func_ov023_020d07d0",
-    "func_ov024_020d087c",
-    "func_ov025_020d08b4",
-    "func_ov026_020d0a10",
     "func_ov026_020d0b9c",
     "func_ov026_020d0fa0",
     "func_ov027_020d0a10",
     "func_ov027_020d0d20",
     "func_ov028_020d053c",
-    "func_ov028_020d0b80",
-    "func_ov029_020d085c",
+    "func_ov029_020d085c"
+   ],
+   "bytes": 164544,
+   "addr": [
+    34357204,
+    34414204
+   ]
+  },
+  {
+   "id": "L5-17012",
+   "level": 5,
+   "functions": [
     "func_ov030_020d080c",
     "func_ov031_020d01cc",
     "func_ov031_020d0718",
     "func_ov031_020d0d84",
     "func_ov032_020d0160",
     "func_ov032_020d067c",
-    "func_ov032_020d1044",
-    "func_ov032_020d2598",
     "func_ov032_020d3268",
     "func_ov032_020d3708",
     "func_ov032_020d3e5c",
@@ -4496,21 +3504,8 @@
     "func_ov056_020d02e8",
     "func_ov057_020d030c",
     "func_ov058_020d0334",
-    "func_ov059_020d0160",
     "func_ov059_020d02e0",
-    "func_ov060_020d033c"
-   ],
-   "bytes": 144428,
-   "addr": [
-    34409404,
-    34408316
-   ]
-  },
-  {
-   "id": "L5-16013",
-   "level": 5,
-   "functions": [
-    "func_ov061_020d0160",
+    "func_ov060_020d033c",
     "func_ov061_020d0330",
     "func_ov062_020d034c",
     "func_ov063_020d0160",
@@ -4531,7 +3526,18 @@
     "func_ov075_020d03b0",
     "func_ov076_020d0160",
     "func_ov076_020d02f8",
-    "func_ov077_020d0160",
+    "func_ov077_020d0160"
+   ],
+   "bytes": 76220,
+   "addr": [
+    34408460,
+    34407224
+   ]
+  },
+  {
+   "id": "L5-17013",
+   "level": 5,
+   "functions": [
     "func_ov077_020d0540",
     "func_ov078_020d0354",
     "func_ov079_020d02f0",
@@ -4559,24 +3565,11 @@
     "func_ov095_020d04d8",
     "func_ov096_020d03d0",
     "func_ov097_020d0380",
-    "func_ov104_020d0160"
-   ],
-   "bytes": 78680,
-   "addr": [
-    34406752,
-    34407344
-   ]
-  },
-  {
-   "id": "L5-16014",
-   "level": 5,
-   "functions": [
-    "func_ov105_020d019c",
+    "func_ov104_020d0160",
     "func_ov105_020d04a4",
     "func_ov106_020d019c",
     "func_ov107_020d6c00",
     "func_ov107_020d6fb8",
-    "func_ov107_020d71d0",
     "func_ov107_020d73ec",
     "func_ov107_020d7b88",
     "func_ov107_020d7d28",
@@ -4591,14 +3584,22 @@
     "func_ov107_020d9198",
     "func_ov107_020d9420",
     "func_ov107_020d9970",
-    "func_ov107_020d9cbc",
     "func_ov107_020da374",
     "func_ov107_020dabc0",
     "func_ov107_020daefc",
-    "func_ov107_020db2f0",
+    "func_ov107_020db2f0"
+   ],
+   "bytes": 68424,
+   "addr": [
+    34407744,
+    34452668
+   ]
+  },
+  {
+   "id": "L5-17014",
+   "level": 5,
+   "functions": [
     "func_ov107_020db68c",
-    "func_ov107_020db938",
-    "func_ov107_020dbf70",
     "func_ov107_020dc0cc",
     "func_ov107_020dc220",
     "func_ov107_020dc42c",
@@ -4611,33 +3612,19 @@
     "func_ov107_020de320",
     "func_ov107_020de68c",
     "func_ov107_020de86c",
-    "func_ov107_020deb50",
     "func_ov107_020decb4",
     "func_ov107_020df1e0",
     "func_ov107_020df354",
     "func_ov107_020df4d8",
     "func_ov107_020df7ec",
     "func_ov107_020dfc00",
-    "func_ov107_020dfe70",
     "func_ov107_020e01c0",
-    "func_ov107_020e0400"
-   ],
-   "bytes": 22696,
-   "addr": [
-    34406812,
-    34473412
-   ]
-  },
-  {
-   "id": "L5-16015",
-   "level": 5,
-   "functions": [
+    "func_ov107_020e0400",
     "func_ov107_020e0690",
     "func_ov107_020e0860",
     "func_ov107_020e09bc",
     "func_ov108_020d6c00",
     "func_ov108_020d6fb8",
-    "func_ov108_020d71d0",
     "func_ov108_020d73ec",
     "func_ov108_020d7b88",
     "func_ov108_020d7d28",
@@ -4652,7 +3639,6 @@
     "func_ov108_020d9264",
     "func_ov108_020d9674",
     "func_ov108_020d99a0",
-    "func_ov108_020d9fe8",
     "func_ov108_020da208",
     "InShipRoutine",
     "oneLoopInShip",
@@ -4662,7 +3648,18 @@
     "PutConfirmationInShip",
     "DeleteConfirmationInShip",
     "SetUpDataInShip",
-    "ReleaseDataInShip",
+    "ReleaseDataInShip"
+   ],
+   "bytes": 23724,
+   "addr": [
+    34453132,
+    34484576
+   ]
+  },
+  {
+   "id": "L5-17015",
+   "level": 5,
+   "functions": [
     "IconPalTransInShip",
     "PutUnitStatusInShip",
     "DeleteUnitStatusInShip",
@@ -4681,18 +3678,7 @@
     "SetUpUnit256Data",
     "ReleaseUpUnit256Data",
     "MoveUnitAllInShip",
-    "SetFactoryMakeInWorld"
-   ],
-   "bytes": 24944,
-   "addr": [
-    34473616,
-    34496676
-   ]
-  },
-  {
-   "id": "L5-16016",
-   "level": 5,
-   "functions": [
+    "SetFactoryMakeInWorld",
     "PutShisetuUnitName",
     "PutSecchiIconGaiaKazuKazu",
     "PutListRelifeIcon",
@@ -4723,7 +3709,18 @@
     "func_ov111_020e3008",
     "func_ov111_020e3300",
     "func_ov111_020e34b8",
-    "func_ov111_020e3ac8",
+    "func_ov111_020e3ac8"
+   ],
+   "bytes": 36368,
+   "addr": [
+    34484576,
+    34490244
+   ]
+  },
+  {
+   "id": "L5-17016",
+   "level": 5,
+   "functions": [
     "func_ov111_020e4a3c",
     "func_ov111_020e4cfc",
     "func_ov111_020e5344",
@@ -4742,18 +3739,7 @@
     "func_ov111_020e87c8",
     "func_ov111_020e8a9c",
     "func_ov111_020e8bac",
-    "func_ov111_020e91b0"
-   ],
-   "bytes": 37996,
-   "addr": [
-    34496676,
-    34509512
-   ]
-  },
-  {
-   "id": "L5-16017",
-   "level": 5,
-   "functions": [
+    "func_ov111_020e91b0",
     "func_ov111_020e92c8",
     "func_ov111_020e9424",
     "func_ov111_020e964c",
@@ -4784,7 +3770,18 @@
     "func_ov112_020e6328",
     "func_ov112_020e64bc",
     "func_ov112_020e6940",
-    "func_ov112_020e6cc8",
+    "func_ov112_020e6cc8"
+   ],
+   "bytes": 32992,
+   "addr": [
+    34490940,
+    34500160
+   ]
+  },
+  {
+   "id": "L5-17017",
+   "level": 5,
+   "functions": [
     "func_ov112_020e72cc",
     "func_ov112_020e7d20",
     "func_ov112_020e7ecc",
@@ -4803,18 +3800,7 @@
     "func_ov112_020eaa90",
     "func_ov113_020e18a8",
     "func_ov113_020e1e0c",
-    "func_ov113_020e24bc"
-   ],
-   "bytes": 37312,
-   "addr": [
-    34509512,
-    34482000
-   ]
-  },
-  {
-   "id": "L5-16018",
-   "level": 5,
-   "functions": [
+    "func_ov113_020e24bc",
     "func_ov113_020e27ec",
     "func_ov113_020e29e4",
     "func_ov113_020e2fe0",
@@ -4845,7 +3831,18 @@
     "func_ov115_020e2358",
     "func_ov115_020e2a80",
     "func_ov115_020e3700",
-    "func_ov115_020e3a2c",
+    "func_ov115_020e3a2c"
+   ],
+   "bytes": 38496,
+   "addr": [
+    34501324,
+    34487456
+   ]
+  },
+  {
+   "id": "L5-17018",
+   "level": 5,
+   "functions": [
     "func_ov115_020e3dec",
     "func_ov115_020e3f0c",
     "func_ov115_020e43a8",
@@ -4853,7 +3850,6 @@
     "func_ov115_020e475c",
     "func_ov115_020e49f4",
     "func_ov115_020e4d68",
-    "func_ov115_020e51c8",
     "func_ov115_020e54ac",
     "func_ov115_020e591c",
     "func_ov115_020e6004",
@@ -4864,20 +3860,8 @@
     "func_ov115_020e7164",
     "func_ov115_020e7374",
     "func_ov115_020e759c",
-    "func_ov115_020e78d4"
-   ],
-   "bytes": 35900,
-   "addr": [
-    34482156,
-    34503852
-   ]
-  },
-  {
-   "id": "L5-16019",
-   "level": 5,
-   "functions": [
+    "func_ov115_020e78d4",
     "func_ov115_020e7cac",
-    "func_ov116_020e15c0",
     "func_ov116_020e17a8",
     "func_ov116_020e1b30",
     "func_ov116_020e1ea4",
@@ -4897,8 +3881,6 @@
     "func_ov116_020e4fac",
     "func_ov116_020e5158",
     "func_ov116_020e5318",
-    "func_ov116_020e5668",
-    "func_ov117_020e15e0",
     "func_ov117_020e17c8",
     "func_ov117_020e1b48",
     "func_ov117_020e1e54",
@@ -4910,7 +3892,18 @@
     "func_ov117_020e2f00",
     "func_ov117_020e30d8",
     "func_ov117_020e3730",
-    "func_ov117_020e3bc8",
+    "func_ov117_020e3bc8"
+   ],
+   "bytes": 35304,
+   "addr": [
+    34487788,
+    34492108
+   ]
+  },
+  {
+   "id": "L5-17019",
+   "level": 5,
+   "functions": [
     "func_ov117_020e5034",
     "func_ov117_020e5228",
     "func_ov117_020e5510",
@@ -4925,18 +3918,7 @@
     "func_ov117_020e6c70",
     "func_ov117_020e754c",
     "func_ov117_020e7b80",
-    "func_ov117_020e7ecc"
-   ],
-   "bytes": 34808,
-   "addr": [
-    34503852,
-    34505120
-   ]
-  },
-  {
-   "id": "L5-16020",
-   "level": 5,
-   "functions": [
+    "func_ov117_020e7ecc",
     "func_ov117_020e81a0",
     "func_ov117_020e85ec",
     "func_ov117_020e8828",
@@ -4953,7 +3935,6 @@
     "func_ov117_020ecbe4",
     "func_ov117_020ecdbc",
     "func_ov117_020ecf90",
-    "func_ov117_020ed2d0",
     "func_ov118_020e16a8",
     "func_ov118_020e1978",
     "func_ov118_020e1e48",
@@ -4963,18 +3944,27 @@
     "func_ov118_020e2d0c",
     "func_ov119_020e9acc",
     "func_ov119_020e9c6c",
-    "func_ov119_020e9d70",
     "func_ov119_020e9f30",
     "func_ov119_020ea11c",
     "func_ov119_020ea390",
     "func_ov119_020ea92c",
     "func_ov119_020eacec",
     "func_ov119_020eb3b4",
-    "func_ov119_020eb4f4",
     "func_ov119_020eb608",
     "func_ov119_020ebc54",
     "func_ov119_020ebe50",
-    "func_ov119_020ec2fc",
+    "func_ov119_020ec2fc"
+   ],
+   "bytes": 38520,
+   "addr": [
+    34492468,
+    34522676
+   ]
+  },
+  {
+   "id": "L5-17020",
+   "level": 5,
+   "functions": [
     "func_ov119_020ec634",
     "func_ov119_020ec92c",
     "func_ov119_020ecb24",
@@ -4986,18 +3976,7 @@
     "func_ov119_020ee95c",
     "func_ov119_020eeaec",
     "func_ov119_020eec80",
-    "func_ov119_020ef11c"
-   ],
-   "bytes": 37672,
-   "addr": [
-    34505120,
-    34535268
-   ]
-  },
-  {
-   "id": "L5-16021",
-   "level": 5,
-   "functions": [
+    "func_ov119_020ef11c",
     "func_ov119_020ef764",
     "func_ov119_020efa14",
     "func_ov119_020efcd0",
@@ -5010,7 +3989,6 @@
     "func_ov119_020f10ac",
     "func_ov119_020f1680",
     "func_ov120_020e9a60",
-    "func_ov120_020e9c40",
     "func_ov120_020e9e28",
     "func_ov120_020ea1f0",
     "func_ov120_020ea3c8",
@@ -5036,29 +4014,27 @@
     "func_ov120_020eeba4",
     "func_ov120_020ef164",
     "func_ov120_020ef4ec",
-    "func_ov120_020ef8cc",
+    "func_ov120_020ef8cc"
+   ],
+   "bytes": 33380,
+   "addr": [
+    34522676,
+    34536884
+   ]
+  },
+  {
+   "id": "L5-17021",
+   "level": 5,
+   "functions": [
     "func_ov120_020efdb4",
     "func_ov120_020efed8",
     "func_ov120_020f02b8",
     "func_ov120_020f0f78",
     "func_ov120_020f136c",
-    "func_ov120_020f17c8",
-    "func_ov121_020e9ac8",
     "func_ov121_020e9cb0",
     "func_ov121_020ea234",
     "func_ov121_020ea6c0",
-    "func_ov121_020eab6c"
-   ],
-   "bytes": 34232,
-   "addr": [
-    34535268,
-    34516344
-   ]
-  },
-  {
-   "id": "L5-16022",
-   "level": 5,
-   "functions": [
+    "func_ov121_020eab6c",
     "func_ov121_020eaec4",
     "func_ov121_020eb0b8",
     "func_ov121_020eb3e0",
@@ -5099,27 +4075,26 @@
     "func_ov122_020518f4",
     "func_ov122_02051a68",
     "func_ov122_02051c94",
-    "func_ov122_0205207c",
+    "func_ov122_0205207c"
+   ],
+   "bytes": 43416,
+   "addr": [
+    34536884,
+    33890800
+   ]
+  },
+  {
+   "id": "L5-17022",
+   "level": 5,
+   "functions": [
     "func_ov122_020521f0",
     "func_ov122_0205232c",
     "func_ov122_02052500",
-    "func_ov122_020528a8",
     "func_ov122_02052a90",
     "func_ov122_02052ec0",
     "func_ov122_020533d0",
     "func_ov122_02053c0c",
-    "func_ov122_02053f44"
-   ],
-   "bytes": 41016,
-   "addr": [
-    34516676,
-    33899004
-   ]
-  },
-  {
-   "id": "L5-16023",
-   "level": 5,
-   "functions": [
+    "func_ov122_02053f44",
     "func_ov122_020541fc",
     "func_ov122_020544a4",
     "func_ov122_02054734",
@@ -5161,26 +4136,25 @@
     "func_ov122_0205ebd4",
     "func_ov122_0205ed28",
     "func_ov122_0205ef68",
-    "func_ov122_0205fbc4",
-    "func_ov122_0205fe64",
+    "func_ov122_0205fbc4"
+   ],
+   "bytes": 41956,
+   "addr": [
+    33890800,
+    33946940
+   ]
+  },
+  {
+   "id": "L5-17023",
+   "level": 5,
+   "functions": [
     "func_ov123_020664ec",
     "func_ov123_02066850",
     "func_ov123_020669a8",
     "func_ov123_02066bb8",
     "func_ov123_02066edc",
     "func_ov123_020671dc",
-    "func_ov123_02067ca0"
-   ],
-   "bytes": 41524,
-   "addr": [
-    33899004,
-    33980156
-   ]
-  },
-  {
-   "id": "L5-16024",
-   "level": 5,
-   "functions": [
+    "func_ov123_02067ca0",
     "func_ov123_02067efc",
     "func_ov123_02068034",
     "func_ov123_0206834c",
@@ -5221,40 +4195,36 @@
     "func_ov123_02070568",
     "func_ov123_0207086c",
     "func_ov123_02070a6c",
-    "func_ov123_020710b8",
     "func_ov123_02071520",
     "func_ov123_020717b0",
-    "func_ov123_02071950",
-    "func_ov123_02071a70",
-    "func_ov123_02071c68",
-    "func_ov123_02071ea4",
-    "func_ov123_020720f4",
-    "func_ov123_020723c4",
-    "func_ov123_02072504"
+    "func_ov123_02071950"
    ],
-   "bytes": 22908,
+   "bytes": 24904,
    "addr": [
-    33980156,
-    34023072
+    33973484,
+    34019952
    ]
   },
   {
-   "id": "L5-16025",
+   "id": "L5-17024",
    "level": 5,
    "functions": [
+    "func_ov123_02071a70",
+    "func_ov123_02071c68",
+    "func_ov123_020720f4",
+    "func_ov123_020723c4",
+    "func_ov123_02072504",
     "func_ov123_02072758",
     "func_ov123_02072870",
     "func_ov123_02072bb8",
     "func_ov123_020736c0",
     "func_ov123_020741c8",
-    "func_ov123_020743bc",
     "func_ov123_02074914",
     "func_ov123_02074bcc",
     "func_ov123_02074edc",
     "func_ov123_020751c8",
     "func_ov123_02075310",
     "func_ov123_020754d0",
-    "func_ov123_020757dc",
     "func_ov123_020759f0",
     "func_ov123_02075f44",
     "func_ov123_02076258",
@@ -5280,12 +4250,9 @@
     "func_ov123_0207c324",
     "func_ov123_0207c64c",
     "func_ov123_0207c7f4",
-    "func_ov123_0207c93c",
     "func_ov123_0207cdd4",
     "func_ov123_0207d8fc",
-    "func_ov123_0207da38",
     "func_ov123_0207dbb8",
-    "func_ov123_0207de14",
     "func_ov123_0207e158",
     "func_ov123_0207e3ec",
     "func_ov123_0207e780",
@@ -5293,14 +4260,14 @@
     "func_ov123_0207f1a8",
     "func_ov123_0207f444"
    ],
-   "bytes": 28556,
+   "bytes": 28368,
    "addr": [
-    34023256,
+    34019952,
     34076668
    ]
   },
   {
-   "id": "L5-16026",
+   "id": "L5-17025",
    "level": 5,
    "functions": [
     "func_ov123_0207f7fc",
@@ -5361,7 +4328,7 @@
    ]
   },
   {
-   "id": "L5-16027",
+   "id": "L5-17026",
    "level": 5,
    "functions": [
     "func_ov123_0208d774",
@@ -5387,7 +4354,6 @@
     "func_ov123_02092374",
     "func_ov123_020924b0",
     "func_ov123_02092780",
-    "func_ov123_02092a74",
     "func_ov123_020930fc",
     "func_ov123_0209321c",
     "func_ov123_02093c84",
@@ -5397,7 +4363,6 @@
     "func_ov123_0209506c",
     "func_ov123_02095274",
     "func_ov123_02095928",
-    "func_ov123_02095a88",
     "func_ov123_02095dd4",
     "func_ov123_02096238",
     "func_ov123_020964e8",
@@ -5413,20 +4378,20 @@
     "func_ov123_020991e0",
     "func_ov123_02099370",
     "func_ov123_02099d90",
-    "func_ov123_02099ebc"
+    "func_ov123_02099ebc",
+    "func_ov123_0209a0ac",
+    "func_ov123_0209a434"
    ],
-   "bytes": 26180,
+   "bytes": 26308,
    "addr": [
     34133876,
-    34185172
+    34186652
    ]
   },
   {
-   "id": "L5-16028",
+   "id": "L5-17027",
    "level": 5,
    "functions": [
-    "func_ov123_0209a0ac",
-    "func_ov123_0209a434",
     "func_ov123_0209a704",
     "func_ov123_0209ada8",
     "func_ov123_0209b1a8",
@@ -5469,26 +4434,25 @@
     "func_ov123_020a3640",
     "func_ov123_020a3744",
     "func_ov123_020a4210",
-    "func_ov123_020a4398",
     "func_ov123_020a4a1c",
     "func_ov123_020a4d44",
     "func_ov123_020a51c8",
     "func_ov123_020a5d64",
-    "func_ov123_020a6144"
+    "func_ov123_020a6144",
+    "func_ov123_020a6378",
+    "func_ov123_020a655c",
+    "func_ov123_020a70d4"
    ],
-   "bytes": 32852,
+   "bytes": 32444,
    "addr": [
-    34185388,
-    34235108
+    34187012,
+    34239020
    ]
   },
   {
-   "id": "L5-16029",
+   "id": "L5-17028",
    "level": 5,
    "functions": [
-    "func_ov123_020a6378",
-    "func_ov123_020a655c",
-    "func_ov123_020a70d4",
     "func_ov123_020a72a0",
     "func_ov123_020a74d8",
     "func_ov123_020a77d4",
@@ -5496,7 +4460,6 @@
     "func_ov123_020a7ab0",
     "func_ov123_020a7de4",
     "func_ov123_020a80b8",
-    "func_ov123_020a8ba4",
     "func_ov123_020a8cf8",
     "func_ov123_020a8edc",
     "func_ov123_020a95f4",
@@ -5535,32 +4498,30 @@
     "func_ov123_020b1d70",
     "func_ov123_020b21e4",
     "func_ov123_020b2478",
-    "func_ov123_020b2ae4"
-   ],
-   "bytes": 31138,
-   "addr": [
-    34235256,
-    34286992
-   ]
-  },
-  {
-   "id": "L5-16030",
-   "level": 5,
-   "functions": [
+    "func_ov123_020b2ae4",
     "func_ov123_020b3280",
     "func_ov123_020b36e8",
     "func_ov123_020b445c",
-    "func_ov123_020b4a74",
+    "func_ov123_020b4a74"
+   ],
+   "bytes": 31234,
+   "addr": [
+    34239136,
+    34294660
+   ]
+  },
+  {
+   "id": "L5-17029",
+   "level": 5,
+   "functions": [
     "func_ov123_020b4c7c",
     "func_ov123_020b7a4c",
     "func_ov123_020b7c78",
     "func_ov123_020b7f40",
-    "func_ov123_020b833c",
     "func_ov123_020b86b8",
     "func_ov123_020b88e8",
     "func_ov123_020b8bb8",
     "func_ov123_020b8ee8",
-    "func_ov123_020b8ff8",
     "func_ov123_020b9238",
     "func_ov123_020b9600",
     "func_ov123_020b97bc",
@@ -5572,7 +4533,6 @@
     "func_ov123_020bb938",
     "func_ov123_020bbbf8",
     "func_ov123_020bbd54",
-    "func_ov123_020bbf0c",
     "func_ov123_020bc060",
     "func_ov123_020bc2c0",
     "func_ov123_020bc654",
@@ -5596,25 +4556,25 @@
     "func_ov123_020c33c8",
     "func_ov123_020c4230",
     "func_ov123_020c4348",
-    "func_ov123_020c4494"
-   ],
-   "bytes": 21776,
-   "addr": [
-    34288256,
-    34358732
-   ]
-  },
-  {
-   "id": "L5-16031",
-   "level": 5,
-   "functions": [
+    "func_ov123_020c4494",
     "func_ov123_020c45cc",
     "func_ov123_020c4964",
     "func_ov123_020c4e28",
     "func_ov123_020c5054",
     "func_ov123_020c536c",
     "func_ov123_020c5908",
-    "func_ov123_020c5c98",
+    "func_ov123_020c5c98"
+   ],
+   "bytes": 22476,
+   "addr": [
+    34294908,
+    34364832
+   ]
+  },
+  {
+   "id": "L5-17030",
+   "level": 5,
+   "functions": [
     "func_ov123_020c6298",
     "func_ov123_020c645c",
     "func_ov123_020c7170",
@@ -5636,12 +4596,9 @@
     "func_ov123_020caaac",
     "func_ov123_020cb050",
     "func_ov123_020cb7dc",
-    "func_ov123_020cbc3c",
     "func_ov123_020cc134",
-    "func_ov123_020cc5bc",
     "func_ov123_020cd13c",
     "func_ov123_020cd2dc",
-    "func_ov123_020cdd84",
     "func_ov123_020ce148",
     "func_ov123_020cea30",
     "func_ov123_020ceb44",
@@ -5652,9 +4609,9 @@
     "func_ov123_020d3edc",
     "func_ov123_020d4b78"
    ],
-   "bytes": 18776,
+   "bytes": 13988,
    "addr": [
-    34358732,
+    34366104,
     34426072
    ]
   }
