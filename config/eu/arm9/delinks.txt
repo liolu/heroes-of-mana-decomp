@@ -4523,3 +4523,35 @@ src/auto/func_02002650.c:
 src/auto/SND_FlushCommand.c:
     complete
     .text       start:0x02010d48 end:0x02010ea8
+
+src/auto/func_02015b24.c:
+    complete
+    .text       start:0x02015b24 end:0x02015bb8
+
+src/auto/CARDi_RequestStreamCommandCore.c:
+    complete
+    .text       start:0x02017408 end:0x020175e0
+
+src/auto/WmInitCore.c:
+    complete
+    .text       start:0x020182bc end:0x02018490
+
+src/auto/MBi_ChildPortCallback.c:
+    complete
+    .text       start:0x0201e220 end:0x0201e290
+
+src/auto/MBi_CheckWmErrcode.c:
+    complete
+    .text       start:0x0201f530 end:0x0201f568
+
+src/auto/func_02026c60.c:
+    complete
+    .text       start:0x02026c60 end:0x02026cd4
+
+src/donor/MBi_MakeBlockInfoTable.c:
+    complete
+    .text       start:0x0201cda8 end:0x0201ce74
+
+src/auto/func_020023cc.c:
+    complete
+    .text       start:0x020023cc end:0x02002414
