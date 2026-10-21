@@ -1159,7 +1159,11 @@ def commit_found(found: list[tuple[str, int, int, str]]) -> int:
     subprocess.run([sys.executable, "tools/configure.py", project.VERSION], cwd=ROOT, check=True, capture_output=True)
     verify = subprocess.run([sys.executable, "tools/match.py", "verify"], cwd=ROOT, capture_output=True, text=True)
     for _ in range(8):
+        # Only this run's files: an older file failing is a baseline problem, and the rollback below would not
+        # bring it back
+        new = {c.relative_to(ROOT).as_posix() for c in created}
         bad = re.findall(r"FAIL: (src/auto/\S+?\.c) is marked complete", verify.stdout) if verify.returncode else []
+        bad = [b for b in bad if b in new]
         if not bad:
             break
         print(f"Dropping {len(bad)} file(s) that do not match once linked: " + ", ".join(bad[:5]))
