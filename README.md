@@ -23,7 +23,7 @@ No game assets in this repository: see `extract/README.md`.
 | Other libraries | 9 | 9/9 | 0.08% |
 | Game code: `src/data/` | 2141 | 0/0 | 0.00% |
 
-*Updated 2026-10-21 by `python tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
+*Updated 2026-10-22 by `python tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
 <!-- progress:end -->
 
 ```shell
