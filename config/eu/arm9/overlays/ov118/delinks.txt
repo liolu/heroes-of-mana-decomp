@@ -134,3 +134,7 @@ src/auto/func_ov118_020e1dfc.c:
 src/data/ov118_bss_020e3300.c:
     complete
     .bss        start:0x020e3300 end:0x020e332c
+
+src/auto/func_ov118_020e1634.c:
+    complete
+    .text       start:0x020e1634 end:0x020e16a8

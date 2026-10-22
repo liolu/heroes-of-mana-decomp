@@ -144,9 +144,6 @@ src/data/ov109_profrec_020e9b90.c:
     complete
     .data       start:0x020e9b90 end:0x020e9ba8
 
-src/data/ov109_profrec_020e9ba8.c:
-    complete
-    .data       start:0x020e9ba8 end:0x020e9bc4
 
 src/data/ov109_profrec_020e9bc4.c:
     complete
@@ -172,9 +169,6 @@ src/data/ov109_profrec_020e9c20.c:
     complete
     .data       start:0x020e9c20 end:0x020e9c34
 
-src/data/ov109_profrec_020e9c34.c:
-    complete
-    .data       start:0x020e9c34 end:0x020e9c4c
 
 src/data/ov109_profrec_020e9c4c.c:
     complete
@@ -184,9 +178,6 @@ src/data/ov109_profrec_020e9c64.c:
     complete
     .data       start:0x020e9c64 end:0x020e9c78
 
-src/data/ov109_profrec_020e9c78.c:
-    complete
-    .data       start:0x020e9c78 end:0x020e9c90
 
 src/data/ov109_profrec_020e9c90.c:
     complete
@@ -200,9 +191,6 @@ src/data/ov109_profrec_020e9cc4.c:
     complete
     .data       start:0x020e9cc4 end:0x020e9cdc
 
-src/data/ov109_profrec_020e9cdc.c:
-    complete
-    .data       start:0x020e9cdc end:0x020e9cf4
 
 src/data/ov109_profrec_020e9cf4.c:
     complete
@@ -427,3 +415,23 @@ src/auto/touchIconEffectInShipCom.c:
     complete
     .text       start:0x020e7ad0 end:0x020e7bec
     .data       start:0x020ea234 end:0x020ea250
+
+src/auto/DeleteConfirmationInShip.c:
+    complete
+    .text       start:0x020e2b1c end:0x020e2c34
+    .data       start:0x020e9ba8 end:0x020e9bc4
+
+src/auto/DeleteDeleteWinInShip.c:
+    complete
+    .text       start:0x020e3c3c end:0x020e3d44
+    .data       start:0x020e9c78 end:0x020e9c90
+
+src/auto/DeleteIconListWinInShip.c:
+    complete
+    .text       start:0x020e3fd8 end:0x020e40e4
+    .data       start:0x020e9cdc end:0x020e9cf4
+
+src/auto/DeleteUnitStatusInShip.c:
+    complete
+    .text       start:0x020e3730 end:0x020e3880
+    .data       start:0x020e9c34 end:0x020e9c4c

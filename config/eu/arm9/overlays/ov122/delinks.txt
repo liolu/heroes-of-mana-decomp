@@ -683,3 +683,7 @@ src/data/ov122_data_02061f04.c:
 src/auto/func_ov122_02056f04.c:
     complete
     .text       start:0x02056f04 end:0x02056f58
+
+src/auto/func_ov122_0205e864.c:
+    complete
+    .text       start:0x0205e864 end:0x0205e958

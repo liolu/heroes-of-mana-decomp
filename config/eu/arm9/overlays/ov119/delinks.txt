@@ -558,3 +558,7 @@ src/data/ov119_bss_020f20ac.c:
 src/data/ov119_bss_020f2134.c:
     complete
     .bss        start:0x020f2134 end:0x020f213c
+
+src/auto/func_ov119_020f07f0.c:
+    complete
+    .text       start:0x020f07f0 end:0x020f08bc

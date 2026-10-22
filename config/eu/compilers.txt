@@ -1871,3 +1871,21 @@ src/auto/func_ov123_0209f158.c 1.2/sp3
 src/auto/func_ov123_020aeaec.c 1.2/sp3
 src/auto/touchIconEffectInShipCom.c 2.0/sp1p5 -profile
 src/auto/VXmovie_GetBackBuffer.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02066acc.c 1.2/sp2p3
+src/auto/func_ov123_0206d164.c 1.2/sp2p3
+src/auto/func_ov123_02096be4.c 1.2/sp3
+src/auto/func_ov123_02099a3c.c 1.2/sp3
+src/auto/func_ov123_020a6864.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_02081a64.c 1.2/sp3
+src/auto/func_ov123_02088444.c 1.2/sp2p3
+src/auto/func_ov123_02091cac.c 1.2/sp3
+src/auto/func_ov123_0206e918.c 1.2/sp2p3
+src/auto/func_ov123_020718b4.c 1.2/sp2p3
+src/auto/func_ov123_020a95f4.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020c4af4.c 1.2/sp3
+src/auto/DeleteConfirmationInShip.c 2.0/sp1p5 -profile
+src/auto/DeleteDeleteWinInShip.c 2.0/sp1p5 -profile
+src/auto/DeleteIconListWinInShip.c 2.0/sp1p5 -profile
+src/auto/DeleteUnitStatusInShip.c 2.0/sp1p5 -profile
+src/auto/func_ov004_020c2000.c 1.2/sp3
+src/auto/Sample_VsInvitation.c 2.0/sp1p5 -profile

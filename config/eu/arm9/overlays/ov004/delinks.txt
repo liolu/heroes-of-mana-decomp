@@ -4528,3 +4528,7 @@ src/auto/func_ov004_020bf754.c:
 src/auto/func_ov004_020c87d0.c:
     complete
     .text       start:0x020c87d0 end:0x020c881c
+
+src/auto/func_ov004_020c2000.c:
+    complete
+    .text       start:0x020c2000 end:0x020c20c8
