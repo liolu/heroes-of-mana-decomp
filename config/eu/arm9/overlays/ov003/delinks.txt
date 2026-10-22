@@ -2582,9 +2582,6 @@ src/data/ov003_profrec_020a63ac.c:
     complete
     .data       start:0x020a63ac end:0x020a63c8
 
-src/data/ov003_profrec_020a63c8.c:
-    complete
-    .data       start:0x020a63c8 end:0x020a63e4
 
 src/data/ov003_profrec_020a63e4.c:
     complete
@@ -2782,9 +2779,6 @@ src/data/ov003_profrec_020a7f78.c:
     complete
     .data       start:0x020a7f78 end:0x020a7f8c
 
-src/data/ov003_profrec_020a7f9c.c:
-    complete
-    .data       start:0x020a7f9c end:0x020a7fb4
 
 src/data/ov003_profrec_020a7fb4.c:
     complete
@@ -5843,3 +5837,13 @@ src/auto/NoAnimeObjIncCount.c:
     complete
     .text       start:0x0206fa64 end:0x0206fb80
     .data       start:0x020a9a24 end:0x020a9a38
+
+src/auto/MoveScriptAlphaChgAll.c:
+    complete
+    .text       start:0x02056004 end:0x02056068
+    .data       start:0x020a7f9c end:0x020a7fb4
+
+src/auto/SetGameConditionForParent.c:
+    complete
+    .text       start:0x02052d80 end:0x02052dc4
+    .data       start:0x020a63c8 end:0x020a63e4

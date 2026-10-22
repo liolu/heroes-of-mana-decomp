@@ -1844,3 +1844,5 @@ src/auto/func_ov123_020a6b1c.c 1.2/sp2p3 -thumb
 src/auto/InitResultData.c 2.0/sp1p5 -profile
 src/auto/NoAnimeObjIncCount.c 2.0/sp1p5 -profile
 src/auto/PutOffButton.c 2.0/sp1p5 -profile
+src/auto/MoveScriptAlphaChgAll.c 2.0/sp1p5 -profile
+src/auto/SetGameConditionForParent.c 2.0/sp1p5 -profile
