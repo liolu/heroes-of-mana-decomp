@@ -2489,3 +2489,23 @@ src/auto/setConsiderTypeByXZ.c:
     complete
     .text       start:0x0205af4c end:0x0205b00c
     .data       start:0x020a82b8 end:0x020a82cc
+
+src/data/ov003_bss_020b093c.c:
+    complete
+    .bss        start:0x020b093c end:0x020b095c
+
+src/data/ov003_data_020a7d94.c:
+    complete
+    .data       start:0x020a7d94 end:0x020a7dcc
+
+src/data/ov003_data_020ab050.c:
+    complete
+    .data       start:0x020ab050 end:0x020ab06c
+
+src/data/ov003_data_020ad4ac.c:
+    complete
+    .data       start:0x020ad4ac end:0x020ad4c4
+
+src/data/ov003_data_020ad768.c:
+    complete
+    .data       start:0x020ad768 end:0x020ada54

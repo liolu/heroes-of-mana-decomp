@@ -315,3 +315,23 @@ src/auto/func_ov112_020e6e40.c:
 src/auto/func_ov112_020ea514.c:
     complete
     .text       start:0x020ea514 end:0x020ea5fc
+
+src/data/ov112_bss_020ed754.c:
+    complete
+    .bss        start:0x020ed754 end:0x020ed7c4
+
+src/data/ov112_bss_020ed844.c:
+    complete
+    .bss        start:0x020ed844 end:0x020ed984
+
+src/data/ov112_rodata_020eade8.c:
+    complete
+    .rodata     start:0x020eade8 end:0x020eb32c
+
+src/data/ov112_rodata_020ebd84.c:
+    complete
+    .rodata     start:0x020ebd84 end:0x020ec144
+
+src/data/ov112_rodata_020ec144.c:
+    complete
+    .rodata     start:0x020ec144 end:0x020ec258

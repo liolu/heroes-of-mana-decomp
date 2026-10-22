@@ -109,9 +109,7 @@ func_ov121_020f4338 kind:function(arm,size=0x68) addr:0x020f4338
 data_ov121_020f43a0 kind:data(any) addr:0x020f43a0
 data_ov121_020f43ac kind:data(any) addr:0x020f43ac
 data_ov121_020f46b0 kind:data(any) addr:0x020f46b0
-data_ov121_020f46b2 kind:data(any) addr:0x020f46b2
 data_ov121_020f4870 kind:data(any) addr:0x020f4870
-data_ov121_020f4872 kind:data(any) addr:0x020f4872
 data_ov121_020f4ae8 kind:data(any) addr:0x020f4ae8
 data_ov121_020f4d64 kind:data(any) addr:0x020f4d64
 data_ov121_020f5960 kind:data(any) addr:0x020f5960

@@ -543,7 +543,7 @@ from:0x020e55dc kind:arm_call to:0x020801c8 module:overlay(3)
 from:0x020e5664 kind:arm_call to:0x0200fb28 module:main
 from:0x020e5670 kind:load to:0x020e9e7c module:overlay(109)
 from:0x020e5674 kind:load to:0x02051548 module:overlay(0)
-from:0x020e5678 kind:load to:0x020ad76a module:overlay(3)
+from:0x020e5678 kind:load to:0x020ad768 add:0x2 module:overlay(3)
 from:0x020e567c kind:load to:0x020ea340 module:overlay(109)
 from:0x020e5680 kind:load to:0x020ad768 module:overlay(3)
 from:0x020e5684 kind:load to:0x020ea1d4 module:overlay(109)

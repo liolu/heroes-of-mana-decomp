@@ -4555,3 +4555,19 @@ src/donor/MBi_MakeBlockInfoTable.c:
 src/auto/func_020023cc.c:
     complete
     .text       start:0x020023cc end:0x02002414
+
+src/data/main_bss_020367d8.c:
+    complete
+    .bss        start:0x020367d8 end:0x02036c18
+
+src/data/main_bss_0203e398.c:
+    complete
+    .bss        start:0x0203e398 end:0x020415e0
+
+src/data/main_rodata_020303c0.c:
+    complete
+    .rodata     start:0x020303c0 end:0x02030580
+
+src/data/main_rodata_0203553c.c:
+    complete
+    .rodata     start:0x0203553c end:0x0203564c

@@ -199,13 +199,10 @@ data_ov122_02060068 kind:data(any) addr:0x02060068
 data_ov122_02060074 kind:data(any) addr:0x02060074
 data_ov122_020603a8 kind:data(any) addr:0x020603a8
 data_ov122_020603b0 kind:data(any) addr:0x020603b0
-data_ov122_02060402 kind:data(any) addr:0x02060402
 data_ov122_02060594 kind:data(any) addr:0x02060594
 data_ov122_020605e4 kind:data(any) addr:0x020605e4
 data_ov122_020607bc kind:data(any) addr:0x020607bc
-data_ov122_020607be kind:data(any) addr:0x020607be
 data_ov122_02060a5c kind:data(any) addr:0x02060a5c
-data_ov122_02060a5e kind:data(any) addr:0x02060a5e
 data_ov122_02060d30 kind:data(any) addr:0x02060d30
 data_ov122_02061028 kind:data(any) addr:0x02061028
 data_ov122_02061cc0 kind:data(any) addr:0x02061cc0

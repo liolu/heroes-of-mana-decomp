@@ -19,12 +19,10 @@ data_027e0958 kind:data(any) addr:0x027e0958
 data_027e0978 kind:data(any) addr:0x027e0978
 data_027e0990 kind:data(any) addr:0x027e0990
 data_027e09a4 kind:data(any) addr:0x027e09a4
-data_027e09b6 kind:data(any) addr:0x027e09b6
 data_027e09c8 kind:data(any) addr:0x027e09c8
 data_027e09dc kind:data(any) addr:0x027e09dc
 data_027e09f0 kind:data(any) addr:0x027e09f0
 data_027e0a08 kind:data(any) addr:0x027e0a08
 data_027e0a20 kind:data(any) addr:0x027e0a20
 data_027e0b40 kind:data(any) addr:0x027e0b40
-data_027e0fce kind:data(any) addr:0x027e0fce
 OSi_IrqThreadQueue kind:bss addr:0x027e1040

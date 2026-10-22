@@ -64,9 +64,7 @@ func_ov114_020e51d8 kind:function(arm,size=0x234) addr:0x020e51d8
 func_ov114_020e540c kind:function(arm,size=0x274) addr:0x020e540c
 data_ov114_020e5680 kind:data(any) addr:0x020e5680
 data_ov114_020e5734 kind:data(any) addr:0x020e5734
-data_ov114_020e5736 kind:data(any) addr:0x020e5736
 data_ov114_020e57fc kind:data(any) addr:0x020e57fc
-data_ov114_020e57fe kind:data(any) addr:0x020e57fe
 data_ov114_020e58ec kind:data(any) addr:0x020e58ec
 data_ov114_020e59e0 kind:data(any) addr:0x020e59e0
 data_ov114_020e60c0 kind:data(any) addr:0x020e60c0

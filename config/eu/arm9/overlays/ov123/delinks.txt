@@ -11720,3 +11720,95 @@ src/auto/func_ov123_020c9988.c:
 src/auto/func_ov123_020cb6ac.c:
     complete
     .text       start:0x020cb6ac end:0x020cb6c8
+
+src/data/ov123_bss_020df240.c:
+    complete
+    .bss        start:0x020df240 end:0x020df2f4
+
+src/data/ov123_bss_020df53c.c:
+    complete
+    .bss        start:0x020df53c end:0x020df6bc
+
+src/data/ov123_bss_020e0e04.c:
+    complete
+    .bss        start:0x020e0e04 end:0x020e0e50
+
+src/data/ov123_bss_020e0fac.c:
+    complete
+    .bss        start:0x020e0fac end:0x020e10ac
+
+src/data/ov123_bss_020e1910.c:
+    complete
+    .bss        start:0x020e1910 end:0x020e1918
+
+src/data/ov123_bss_020e20e8.c:
+    complete
+    .bss        start:0x020e20e8 end:0x020e214c
+
+src/data/ov123_bss_020e2eac.c:
+    complete
+    .bss        start:0x020e2eac end:0x020e2f20
+
+src/data/ov123_rodata_020d7978.c:
+    complete
+    .rodata     start:0x020d7978 end:0x020d7980
+
+src/data/ov123_rodata_020d79dc.c:
+    complete
+    .rodata     start:0x020d79dc end:0x020d79f8
+
+src/data/ov123_rodata_020d7b30.c:
+    complete
+    .rodata     start:0x020d7b30 end:0x020d7c04
+
+src/data/ov123_rodata_020d7d80.c:
+    complete
+    .rodata     start:0x020d7d80 end:0x020d7db8
+
+src/data/ov123_rodata_020d7e14.c:
+    complete
+    .rodata     start:0x020d7e14 end:0x020d7e20
+
+src/data/ov123_rodata_020d7e9c.c:
+    complete
+    .rodata     start:0x020d7e9c end:0x020d7eb0
+
+src/data/ov123_rodata_020d7fd0.c:
+    complete
+    .rodata     start:0x020d7fd0 end:0x020d7fec
+
+src/data/ov123_rodata_020d8128.c:
+    complete
+    .rodata     start:0x020d8128 end:0x020d8140
+
+src/data/ov123_rodata_020d817c.c:
+    complete
+    .rodata     start:0x020d817c end:0x020d81b0
+
+src/data/ov123_rodata_020d8238.c:
+    complete
+    .rodata     start:0x020d8238 end:0x020d8274
+
+src/data/ov123_rodata_020d83a4.c:
+    complete
+    .rodata     start:0x020d83a4 end:0x020d83b0
+
+src/data/ov123_rodata_020d83d0.c:
+    complete
+    .rodata     start:0x020d83d0 end:0x020d83e8
+
+src/data/ov123_rodata_020d83e8.c:
+    complete
+    .rodata     start:0x020d83e8 end:0x020d8400
+
+src/data/ov123_rodata_020d8400.c:
+    complete
+    .rodata     start:0x020d8400 end:0x020d8440
+
+src/data/ov123_rodata_020d8454.c:
+    complete
+    .rodata     start:0x020d8454 end:0x020d845c
+
+src/data/ov123_rodata_020d9680.c:
+    complete
+    .rodata     start:0x020d9680 end:0x020d97dc

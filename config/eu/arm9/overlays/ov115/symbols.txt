@@ -97,9 +97,7 @@ data_ov115_020e7f20 kind:data(any) addr:0x020e7f20
 data_ov115_020e7f38 kind:data(any) addr:0x020e7f38
 data_ov115_020e7f50 kind:data(any) addr:0x020e7f50
 data_ov115_020e81c0 kind:data(any) addr:0x020e81c0
-data_ov115_020e81c2 kind:data(any) addr:0x020e81c2
 data_ov115_020e830c kind:data(any) addr:0x020e830c
-data_ov115_020e830e kind:data(any) addr:0x020e830e
 data_ov115_020e84a0 kind:data(any) addr:0x020e84a0
 data_ov115_020e8638 kind:data(any) addr:0x020e8638
 data_ov115_020e8ce0 kind:data(any) addr:0x020e8ce0

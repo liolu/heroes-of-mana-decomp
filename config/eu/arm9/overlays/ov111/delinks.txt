@@ -507,3 +507,27 @@ src/auto/func_ov111_020e5664.c:
 src/auto/func_ov111_020e568c.c:
     complete
     .text       start:0x020e568c end:0x020e571c
+
+src/data/ov111_bss_020ec1f8.c:
+    complete
+    .bss        start:0x020ec1f8 end:0x020ec23c
+
+src/data/ov111_bss_020eca98.c:
+    complete
+    .bss        start:0x020eca98 end:0x020ecac8
+
+src/data/ov111_bss_020edab4.c:
+    complete
+    .bss        start:0x020edab4 end:0x020f0298
+
+src/data/ov111_bss_020f0b78.c:
+    complete
+    .bss        start:0x020f0b78 end:0x020f1298
+
+src/data/ov111_rodata_020eb45c.c:
+    complete
+    .rodata     start:0x020eb45c end:0x020eb88c
+
+src/data/ov111_rodata_020ebf04.c:
+    complete
+    .rodata     start:0x020ebf04 end:0x020ebf84

@@ -275,3 +275,7 @@ src/auto/func_ov115_020e4b98.c:
 src/auto/func_ov115_020e38f8.c:
     complete
     .text       start:0x020e38f8 end:0x020e3990
+
+src/data/ov115_rodata_020e81c0.c:
+    complete
+    .rodata     start:0x020e81c0 end:0x020e84a0

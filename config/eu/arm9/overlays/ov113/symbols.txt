@@ -44,11 +44,8 @@ func_ov113_020e37ec kind:function(arm,size=0xe8) addr:0x020e37ec
 func_ov113_020e38d4 kind:function(arm,size=0x338) addr:0x020e38d4
 func_ov113_020e3c0c kind:function(arm,size=0x2b8) addr:0x020e3c0c
 data_ov113_020e3ec4 kind:data(any) addr:0x020e3ec4
-data_ov113_020e3ece kind:data(any) addr:0x020e3ece
 data_ov113_020e3f24 kind:data(any) addr:0x020e3f24
-data_ov113_020e3f26 kind:data(any) addr:0x020e3f26
 data_ov113_020e3fec kind:data(any) addr:0x020e3fec
-data_ov113_020e3fee kind:data(any) addr:0x020e3fee
 data_ov113_020e40dc kind:data(any) addr:0x020e40dc
 data_ov113_020e41d0 kind:data(any) addr:0x020e41d0
 data_ov113_020e48c0 kind:data(any) addr:0x020e48c0

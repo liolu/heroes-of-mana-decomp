@@ -211,7 +211,6 @@ data_ov119_020f2136 kind:bss addr:0x020f2136
 data_ov119_020f2138 kind:bss addr:0x020f2138
 data_ov119_020f213a kind:bss addr:0x020f213a
 data_ov119_020f213c kind:bss addr:0x020f213c
-data_ov119_020f213e kind:bss addr:0x020f213e
 data_ov119_020f215c kind:bss addr:0x020f215c
 data_ov119_020f21c8 kind:bss addr:0x020f21c8
 data_ov119_020f2258 kind:bss addr:0x020f2258

@@ -1414,8 +1414,6 @@ data_02030202 kind:data(any) addr:0x02030202
 @EX@0202fcec kind:data(word[3]) addr:0x02030394
 data_020303a0 kind:data(any) addr:0x020303a0
 data_020303c0 kind:data(any) addr:0x020303c0
-data_02030405 kind:data(any) addr:0x02030405
-data_02030505 kind:data(any) addr:0x02030505
 data_02030580 kind:data(any) addr:0x02030580
 data_02030590 kind:data(any) addr:0x02030590
 data_02030644 kind:data(any) addr:0x02030644
@@ -1437,7 +1435,6 @@ __upper_mapC kind:data(any) addr:0x02035394
 __ctype_mapC kind:data(any) addr:0x02035414
 data_02035514 kind:data(any) addr:0x02035514
 data_0203553c kind:data(any) addr:0x0203553c
-data_02035541 kind:data(any) addr:0x02035541
 data_0203564c kind:data(any) addr:0x0203564c
 dp_h kind:data(any) addr:0x0203584c
 bp kind:data(any) addr:0x0203585c
@@ -1593,7 +1590,6 @@ sChannelLock kind:bss addr:0x020367bc
 data_020367c0 kind:bss addr:0x020367c0
 sPrioList kind:bss addr:0x020367cc
 data_020367d8 kind:bss addr:0x020367d8
-data_02036aba kind:bss addr:0x02036aba
 sPlayer kind:bss addr:0x02036c18
 data_02036c30 kind:bss addr:0x02036c30
 data_02036c34 kind:bss addr:0x02036c34
@@ -1719,8 +1715,6 @@ data_0203bb90 kind:bss addr:0x0203bb90
 data_0203bbe8 kind:bss addr:0x0203bbe8
 data_0203e380 kind:bss addr:0x0203e380
 data_0203e398 kind:bss addr:0x0203e398
-data_0203ffff kind:bss addr:0x0203ffff
-data_02040606 kind:bss addr:0x02040606
 WM_DMA_NO kind:bss addr:0x020415e0
 mbc kind:bss addr:0x020415ec
 data_02041600 kind:bss addr:0x02041600

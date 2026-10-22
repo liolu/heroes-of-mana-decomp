@@ -171,10 +171,10 @@ from:0x020e2164 kind:arm_call to:0x02010294 module:main
 from:0x020e216c kind:load to:0x020e6158 module:overlay(114)
 from:0x020e21ac kind:load to:0x020e6148 module:overlay(114)
 from:0x020e2214 kind:arm_call to:0x0202d478 module:main
-from:0x020e2380 kind:load to:0x020e5736 module:overlay(114)
+from:0x020e2380 kind:load to:0x020e5734 add:0x2 module:overlay(114)
 from:0x020e2384 kind:load to:0x020e5734 module:overlay(114)
 from:0x020e2388 kind:load to:0x020e58ec module:overlay(114)
-from:0x020e2390 kind:load to:0x020e57fe module:overlay(114)
+from:0x020e2390 kind:load to:0x020e57fc add:0x2 module:overlay(114)
 from:0x020e2394 kind:load to:0x020e57fc module:overlay(114)
 from:0x020e2398 kind:load to:0x020e59e0 module:overlay(114)
 from:0x020e239c kind:load to:0x020e6158 module:overlay(114)

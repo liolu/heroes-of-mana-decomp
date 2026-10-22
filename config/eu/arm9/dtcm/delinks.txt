@@ -72,3 +72,19 @@ src/data/dtcm_data_027e09dc.c:
 src/data/dtcm_data_027e0a20.c:
     complete
     .data       start:0x027e0a20 end:0x027e0b40
+
+src/data/dtcm_data_027e0908.c:
+    complete
+    .data       start:0x027e0908 end:0x027e0938
+
+src/data/dtcm_data_027e09a4.c:
+    complete
+    .data       start:0x027e09a4 end:0x027e09c8
+
+src/data/dtcm_data_027e0a08.c:
+    complete
+    .data       start:0x027e0a08 end:0x027e0a20
+
+src/data/dtcm_data_027e0b40.c:
+    complete
+    .data       start:0x027e0b40 end:0x027e1040

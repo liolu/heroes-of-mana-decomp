@@ -199,3 +199,11 @@ src/auto/func_ov116_020e3258.c:
 src/auto/func_ov116_020e5668.c:
     complete
     .text       start:0x020e5668 end:0x020e586c
+
+src/data/ov116_rodata_020e586c.c:
+    complete
+    .rodata     start:0x020e586c end:0x020e58ec
+
+src/data/ov116_rodata_020e5970.c:
+    complete
+    .rodata     start:0x020e5970 end:0x020e5c24

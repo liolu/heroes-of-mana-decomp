@@ -638,7 +638,7 @@ from:0x02045d9c kind:arm_call to:0x0200fb28 module:main
 from:0x02045da8 kind:load to:0x02050704 module:overlay(0)
 from:0x02045dac kind:load to:0x02051548 module:overlay(0)
 from:0x02045db0 kind:load to:0x020b0cf0 module:overlay(3)
-from:0x02045db8 kind:load to:0x020b0d12 module:overlay(3)
+from:0x02045db8 kind:load to:0x020b0cf0 add:0x22 module:overlay(3)
 from:0x02045dc4 kind:arm_call to:0x0200fb24 module:main
 from:0x02045dd4 kind:arm_call to:0x0200c884 module:main
 from:0x02045de0 kind:arm_call to:0x0200c684 module:main

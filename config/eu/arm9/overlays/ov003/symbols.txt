@@ -1715,7 +1715,6 @@ data_ov003_020a9f70 kind:label(arm) addr:0x020a9f70
 data_ov003_020a9f80 kind:label(arm) addr:0x020a9f80
 data_ov003_020a9f9c kind:label(arm) addr:0x020a9f9c
 data_ov003_020a9fa8 kind:label(arm) addr:0x020a9fa8
-data_ov003_020a9fb7 kind:data(any) addr:0x020a9fb7
 data_ov003_020a9fc0 kind:data(any) addr:0x020a9fc0
 data_ov003_020a9fd0 kind:data(any) addr:0x020a9fd0
 data_ov003_020a9fe4 kind:label(arm) addr:0x020a9fe4
@@ -1928,7 +1927,6 @@ data_ov003_020ab030 kind:label(arm) addr:0x020ab030
 data_ov003_020ab040 kind:data(any) addr:0x020ab040
 data_ov003_020ab048 kind:data(any) addr:0x020ab048
 data_ov003_020ab050 kind:data(any) addr:0x020ab050
-data_ov003_020ab05b kind:data(any) addr:0x020ab05b
 data_ov003_020ab06c kind:data(any) addr:0x020ab06c
 data_ov003_020ab07c kind:data(any) addr:0x020ab07c
 data_ov003_020ab098 kind:label(arm) addr:0x020ab098
@@ -2373,12 +2371,10 @@ data_ov003_020ad480 kind:label(arm) addr:0x020ad480
 data_ov003_020ad494 kind:label(arm) addr:0x020ad494
 data_ov003_020ad4a8 kind:data(any) addr:0x020ad4a8
 data_ov003_020ad4ac kind:data(any) addr:0x020ad4ac
-data_ov003_020ad4ad kind:data(any) addr:0x020ad4ad
 data_ov003_020ad4c4 kind:data(any) addr:0x020ad4c4
 data_ov003_020ad4cc kind:data(any) addr:0x020ad4cc
 data_ov003_020ad734 kind:data(any) addr:0x020ad734
 data_ov003_020ad768 kind:data(any) addr:0x020ad768
-data_ov003_020ad76a kind:data(any) addr:0x020ad76a
 data_ov003_020ada54 kind:data(any) addr:0x020ada54
 data_ov003_020ada58 kind:data(any) addr:0x020ada58
 data_ov003_020ada6c kind:data(any) addr:0x020ada6c
@@ -2557,9 +2553,7 @@ data_ov003_020b08c4 kind:bss addr:0x020b08c4
 data_ov003_020b0938 kind:bss addr:0x020b0938
 data_ov003_020b093a kind:bss addr:0x020b093a
 data_ov003_020b093c kind:bss addr:0x020b093c
-data_ov003_020b093e kind:bss addr:0x020b093e
 data_ov003_020b0948 kind:bss addr:0x020b0948
-data_ov003_020b094a kind:bss addr:0x020b094a
 data_ov003_020b095c kind:bss addr:0x020b095c
 data_ov003_020b0960 kind:bss addr:0x020b0960
 data_ov003_020b0964 kind:bss addr:0x020b0964
@@ -2567,7 +2561,6 @@ data_ov003_020b096c kind:bss addr:0x020b096c
 data_ov003_020b0970 kind:bss addr:0x020b0970
 data_ov003_020b09ac kind:bss addr:0x020b09ac
 data_ov003_020b0cf0 kind:bss addr:0x020b0cf0
-data_ov003_020b0d12 kind:bss addr:0x020b0d12
 data_ov003_020b0d29 kind:bss addr:0x020b0d29
 data_ov003_020b0d2a kind:bss addr:0x020b0d2a
 data_ov003_020b0d30 kind:bss addr:0x020b0d30

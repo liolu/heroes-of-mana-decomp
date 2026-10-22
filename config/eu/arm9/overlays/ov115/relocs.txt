@@ -281,10 +281,10 @@ from:0x020e36b4 kind:arm_call to:0x02010294 module:main
 from:0x020e36bc kind:load to:0x020e9170 module:overlay(115)
 from:0x020e36fc kind:load to:0x020e9160 module:overlay(115)
 from:0x020e3764 kind:arm_call to:0x0202d478 module:main
-from:0x020e38d0 kind:load to:0x020e81c2 module:overlay(115)
+from:0x020e38d0 kind:load to:0x020e81c0 add:0x2 module:overlay(115)
 from:0x020e38d4 kind:load to:0x020e81c0 module:overlay(115)
 from:0x020e38d8 kind:load to:0x020e84a0 module:overlay(115)
-from:0x020e38e0 kind:load to:0x020e830e module:overlay(115)
+from:0x020e38e0 kind:load to:0x020e830c add:0x2 module:overlay(115)
 from:0x020e38e4 kind:load to:0x020e830c module:overlay(115)
 from:0x020e38e8 kind:load to:0x020e8638 module:overlay(115)
 from:0x020e38ec kind:load to:0x020e9170 module:overlay(115)

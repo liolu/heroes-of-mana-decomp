@@ -651,3 +651,11 @@ src/auto/func_ov122_020552b4.c:
 src/auto/func_ov122_0205fe64.c:
     complete
     .text       start:0x0205fe64 end:0x02060068
+
+src/data/ov122_rodata_020603b0.c:
+    complete
+    .rodata     start:0x020603b0 end:0x02060594
+
+src/data/ov122_rodata_020607bc.c:
+    complete
+    .rodata     start:0x020607bc end:0x02060d30

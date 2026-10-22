@@ -1,7 +1,7 @@
 /* compiler: 2.0/sp1p5 */
 #include "m2c.h"
 
-extern u8 data_027e09b6[];
+extern u8 data_027e09a4[];
 extern u8 data_027e09c8[];
 extern u8 data_027e09dc[];
 extern u8 data_027e09f0[];
@@ -9,7 +9,7 @@ extern u8 data_027e0a08[];
 extern u8 data_027e0a20[];
 
 u32 data_027e00ac[8] = {
-    0x03020201, 0x00000303, (u32)&data_027e09b6, (u32)&data_027e09c8,
+    0x03020201, 0x00000303, (u32)((u8 *)&data_027e09a4 + 0x12), (u32)&data_027e09c8,
     (u32)&data_027e09dc, (u32)&data_027e09f0, (u32)&data_027e0a08, (u32)&data_027e0a20
 };
 u32 data_027e00cc[55] = {
