@@ -5411,9 +5411,6 @@ src/data/ov003_profrec_020ac8d0.c:
     complete
     .data       start:0x020ac8d0 end:0x020ac8e0
 
-src/data/ov003_profrec_020ac974.c:
-    complete
-    .data       start:0x020ac974 end:0x020ac984
 
 src/data/ov003_profrec_020aca04.c:
     complete
@@ -5839,3 +5836,8 @@ src/auto/SetCarisumaMapAllObj.c:
     complete
     .text       start:0x02065d98 end:0x02065ef4
     .data       start:0x020a8db4 end:0x020a8dcc
+
+src/auto/InitResultData.c:
+    complete
+    .text       start:0x0209e534 end:0x0209e688
+    .data       start:0x020ac974 end:0x020ac984
