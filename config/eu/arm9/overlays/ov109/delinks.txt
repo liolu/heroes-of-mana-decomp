@@ -103,3 +103,319 @@ src/auto/changeMoveLeftOneChar.c:
     complete
     .text       start:0x020e97ac end:0x020e985c
     .data       start:0x020ea2c8 end:0x020ea2e0
+
+src/data/ov109_profrec_020e9acc.c:
+    complete
+    .data       start:0x020e9acc end:0x020e9adc
+
+src/data/ov109_profrec_020e9adc.c:
+    complete
+    .data       start:0x020e9adc end:0x020e9aec
+
+src/data/ov109_profrec_020e9aec.c:
+    complete
+    .data       start:0x020e9aec end:0x020e9afc
+
+src/data/ov109_profrec_020e9afc.c:
+    complete
+    .data       start:0x020e9afc end:0x020e9b14
+
+src/data/ov109_profrec_020e9b24.c:
+    complete
+    .data       start:0x020e9b24 end:0x020e9b34
+
+src/data/ov109_profrec_020e9b34.c:
+    complete
+    .data       start:0x020e9b34 end:0x020e9b50
+
+src/data/ov109_profrec_020e9b50.c:
+    complete
+    .data       start:0x020e9b50 end:0x020e9b6c
+
+src/data/ov109_profrec_020e9b6c.c:
+    complete
+    .data       start:0x020e9b6c end:0x020e9b7c
+
+src/data/ov109_profrec_020e9b7c.c:
+    complete
+    .data       start:0x020e9b7c end:0x020e9b90
+
+src/data/ov109_profrec_020e9b90.c:
+    complete
+    .data       start:0x020e9b90 end:0x020e9ba8
+
+src/data/ov109_profrec_020e9ba8.c:
+    complete
+    .data       start:0x020e9ba8 end:0x020e9bc4
+
+src/data/ov109_profrec_020e9bc4.c:
+    complete
+    .data       start:0x020e9bc4 end:0x020e9bd4
+
+src/data/ov109_profrec_020e9bd4.c:
+    complete
+    .data       start:0x020e9bd4 end:0x020e9be8
+
+src/data/ov109_profrec_020e9be8.c:
+    complete
+    .data       start:0x020e9be8 end:0x020e9bfc
+
+src/data/ov109_profrec_020e9bfc.c:
+    complete
+    .data       start:0x020e9bfc end:0x020e9c0c
+
+src/data/ov109_profrec_020e9c0c.c:
+    complete
+    .data       start:0x020e9c0c end:0x020e9c20
+
+src/data/ov109_profrec_020e9c20.c:
+    complete
+    .data       start:0x020e9c20 end:0x020e9c34
+
+src/data/ov109_profrec_020e9c34.c:
+    complete
+    .data       start:0x020e9c34 end:0x020e9c4c
+
+src/data/ov109_profrec_020e9c4c.c:
+    complete
+    .data       start:0x020e9c4c end:0x020e9c64
+
+src/data/ov109_profrec_020e9c64.c:
+    complete
+    .data       start:0x020e9c64 end:0x020e9c78
+
+src/data/ov109_profrec_020e9c78.c:
+    complete
+    .data       start:0x020e9c78 end:0x020e9c90
+
+src/data/ov109_profrec_020e9c90.c:
+    complete
+    .data       start:0x020e9c90 end:0x020e9ca8
+
+src/data/ov109_profrec_020e9ca8.c:
+    complete
+    .data       start:0x020e9ca8 end:0x020e9cc4
+
+src/data/ov109_profrec_020e9cc4.c:
+    complete
+    .data       start:0x020e9cc4 end:0x020e9cdc
+
+src/data/ov109_profrec_020e9cdc.c:
+    complete
+    .data       start:0x020e9cdc end:0x020e9cf4
+
+src/data/ov109_profrec_020e9cf4.c:
+    complete
+    .data       start:0x020e9cf4 end:0x020e9d08
+
+src/data/ov109_profrec_020e9d08.c:
+    complete
+    .data       start:0x020e9d08 end:0x020e9d20
+
+src/data/ov109_profrec_020e9d30.c:
+    complete
+    .data       start:0x020e9d30 end:0x020e9d4c
+
+src/data/ov109_profrec_020e9d4c.c:
+    complete
+    .data       start:0x020e9d4c end:0x020e9d60
+
+src/data/ov109_profrec_020e9d74.c:
+    complete
+    .data       start:0x020e9d74 end:0x020e9d8c
+
+src/data/ov109_profrec_020e9da0.c:
+    complete
+    .data       start:0x020e9da0 end:0x020e9db4
+
+src/data/ov109_profrec_020e9db4.c:
+    complete
+    .data       start:0x020e9db4 end:0x020e9dc8
+
+src/data/ov109_profrec_020e9dc8.c:
+    complete
+    .data       start:0x020e9dc8 end:0x020e9de0
+
+src/data/ov109_profrec_020e9de0.c:
+    complete
+    .data       start:0x020e9de0 end:0x020e9df4
+
+src/data/ov109_profrec_020e9df4.c:
+    complete
+    .data       start:0x020e9df4 end:0x020e9e0c
+
+src/data/ov109_profrec_020e9e0c.c:
+    complete
+    .data       start:0x020e9e0c end:0x020e9e20
+
+src/data/ov109_profrec_020e9e20.c:
+    complete
+    .data       start:0x020e9e20 end:0x020e9e30
+
+src/data/ov109_profrec_020e9e30.c:
+    complete
+    .data       start:0x020e9e30 end:0x020e9e40
+
+src/data/ov109_profrec_020e9e40.c:
+    complete
+    .data       start:0x020e9e40 end:0x020e9e4c
+
+src/data/ov109_profrec_020e9e4c.c:
+    complete
+    .data       start:0x020e9e4c end:0x020e9e64
+
+src/data/ov109_profrec_020e9e64.c:
+    complete
+    .data       start:0x020e9e64 end:0x020e9e7c
+
+src/data/ov109_profrec_020e9e7c.c:
+    complete
+    .data       start:0x020e9e7c end:0x020e9e90
+
+src/data/ov109_profrec_020e9e90.c:
+    complete
+    .data       start:0x020e9e90 end:0x020e9eb0
+
+src/data/ov109_profrec_020e9eb0.c:
+    complete
+    .data       start:0x020e9eb0 end:0x020e9ec8
+
+src/data/ov109_profrec_020e9ec8.c:
+    complete
+    .data       start:0x020e9ec8 end:0x020e9edc
+
+src/data/ov109_profrec_020e9ef0.c:
+    complete
+    .data       start:0x020e9ef0 end:0x020e9f00
+
+src/data/ov109_profrec_020e9f00.c:
+    complete
+    .data       start:0x020e9f00 end:0x020e9f1c
+
+src/data/ov109_profrec_020e9f1c.c:
+    complete
+    .data       start:0x020e9f1c end:0x020e9f34
+
+src/data/ov109_profrec_020e9f34.c:
+    complete
+    .data       start:0x020e9f34 end:0x020e9f48
+
+src/data/ov109_profrec_020e9f60.c:
+    complete
+    .data       start:0x020e9f60 end:0x020e9f7c
+
+src/data/ov109_profrec_020e9f7c.c:
+    complete
+    .data       start:0x020e9f7c end:0x020e9f90
+
+src/data/ov109_profrec_020e9fb0.c:
+    complete
+    .data       start:0x020e9fb0 end:0x020e9fcc
+
+src/data/ov109_profrec_020e9fdc.c:
+    complete
+    .data       start:0x020e9fdc end:0x020e9ff0
+
+src/data/ov109_profrec_020e9ff0.c:
+    complete
+    .data       start:0x020e9ff0 end:0x020ea000
+
+src/data/ov109_profrec_020ea034.c:
+    complete
+    .data       start:0x020ea034 end:0x020ea048
+
+src/data/ov109_profrec_020ea05c.c:
+    complete
+    .data       start:0x020ea05c end:0x020ea06c
+
+src/data/ov109_profrec_020ea06c.c:
+    complete
+    .data       start:0x020ea06c end:0x020ea084
+
+src/data/ov109_profrec_020ea084.c:
+    complete
+    .data       start:0x020ea084 end:0x020ea098
+
+src/data/ov109_profrec_020ea098.c:
+    complete
+    .data       start:0x020ea098 end:0x020ea0ac
+
+src/data/ov109_profrec_020ea0c8.c:
+    complete
+    .data       start:0x020ea0c8 end:0x020ea0dc
+
+src/data/ov109_profrec_020ea0dc.c:
+    complete
+    .data       start:0x020ea0dc end:0x020ea0f4
+
+src/data/ov109_profrec_020ea0f4.c:
+    complete
+    .data       start:0x020ea0f4 end:0x020ea10c
+
+src/data/ov109_profrec_020ea128.c:
+    complete
+    .data       start:0x020ea128 end:0x020ea13c
+
+src/data/ov109_profrec_020ea13c.c:
+    complete
+    .data       start:0x020ea13c end:0x020ea154
+
+src/data/ov109_profrec_020ea154.c:
+    complete
+    .data       start:0x020ea154 end:0x020ea170
+
+src/data/ov109_profrec_020ea170.c:
+    complete
+    .data       start:0x020ea170 end:0x020ea188
+
+src/data/ov109_profrec_020ea188.c:
+    complete
+    .data       start:0x020ea188 end:0x020ea198
+
+src/data/ov109_profrec_020ea198.c:
+    complete
+    .data       start:0x020ea198 end:0x020ea1b0
+
+src/data/ov109_profrec_020ea234.c:
+    complete
+    .data       start:0x020ea234 end:0x020ea250
+
+src/data/ov109_profrec_020ea250.c:
+    complete
+    .data       start:0x020ea250 end:0x020ea270
+
+src/data/ov109_profrec_020ea270.c:
+    complete
+    .data       start:0x020ea270 end:0x020ea28c
+
+src/data/ov109_profrec_020ea28c.c:
+    complete
+    .data       start:0x020ea28c end:0x020ea29c
+
+src/data/ov109_profrec_020ea29c.c:
+    complete
+    .data       start:0x020ea29c end:0x020ea2b8
+
+src/data/ov109_profrec_020ea2b8.c:
+    complete
+    .data       start:0x020ea2b8 end:0x020ea2c8
+
+src/data/ov109_profrec_020ea2e0.c:
+    complete
+    .data       start:0x020ea2e0 end:0x020ea2f8
+
+src/data/ov109_profrec_020ea2f8.c:
+    complete
+    .data       start:0x020ea2f8 end:0x020ea30c
+
+src/data/ov109_profrec_020ea30c.c:
+    complete
+    .data       start:0x020ea30c end:0x020ea320
+
+src/data/ov109_data_020e9abc.c:
+    complete
+    .data       start:0x020e9abc end:0x020e9acc
+
+src/data/ov109_data_020ea1d4.c:
+    complete
+    .data       start:0x020ea1d4 end:0x020ea21c

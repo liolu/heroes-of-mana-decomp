@@ -4504,3 +4504,7 @@ src/auto/func_ov004_020c7eac.c:
 src/auto/func_ov004_020cadac.c:
     complete
     .text       start:0x020cadac end:0x020cadd0
+
+src/data/ov004_profrec_020cd6b0.c:
+    complete
+    .data       start:0x020cd6b0 end:0x020cd6b8

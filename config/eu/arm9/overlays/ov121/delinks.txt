@@ -407,3 +407,7 @@ src/auto/func_ov121_020eb2ac.c:
 src/data/ov121_rodata_020f46b0.c:
     complete
     .rodata     start:0x020f46b0 end:0x020f4ae8
+
+src/data/ov121_data_020f59c4.c:
+    complete
+    .data       start:0x020f59c4 end:0x020f59e4

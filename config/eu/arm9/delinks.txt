@@ -4571,3 +4571,11 @@ src/data/main_rodata_020303c0.c:
 src/data/main_rodata_0203553c.c:
     complete
     .rodata     start:0x0203553c end:0x0203564c
+
+src/data/main_rodata_02030644.c:
+    complete
+    .rodata     start:0x02030644 end:0x02031644
+
+src/data/main_rodata_02032644.c:
+    complete
+    .rodata     start:0x02032644 end:0x02034644
