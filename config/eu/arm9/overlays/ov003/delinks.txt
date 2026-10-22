@@ -2578,9 +2578,6 @@ src/data/ov003_profrec_020a638c.c:
     complete
     .data       start:0x020a638c end:0x020a639c
 
-src/data/ov003_profrec_020a63ac.c:
-    complete
-    .data       start:0x020a63ac end:0x020a63c8
 
 
 src/data/ov003_profrec_020a63e4.c:
@@ -2695,9 +2692,6 @@ src/data/ov003_profrec_020a7ab0.c:
     complete
     .data       start:0x020a7ab0 end:0x020a7ac4
 
-src/data/ov003_profrec_020a7ae4.c:
-    complete
-    .data       start:0x020a7ae4 end:0x020a7af4
 
 src/data/ov003_profrec_020a7af4.c:
     complete
@@ -3357,9 +3351,6 @@ src/data/ov003_profrec_020a8dcc.c:
     complete
     .data       start:0x020a8dcc end:0x020a8ddc
 
-src/data/ov003_profrec_020a8ddc.c:
-    complete
-    .data       start:0x020a8ddc end:0x020a8df4
 
 src/data/ov003_profrec_020a8e08.c:
     complete
@@ -3453,9 +3444,6 @@ src/data/ov003_profrec_020a9068.c:
     complete
     .data       start:0x020a9068 end:0x020a907c
 
-src/data/ov003_profrec_020a90a0.c:
-    complete
-    .data       start:0x020a90a0 end:0x020a90b8
 
 src/data/ov003_profrec_020a90b8.c:
     complete
@@ -3613,9 +3601,6 @@ src/data/ov003_profrec_020a9514.c:
     complete
     .data       start:0x020a9514 end:0x020a952c
 
-src/data/ov003_profrec_020a952c.c:
-    complete
-    .data       start:0x020a952c end:0x020a9544
 
 src/data/ov003_profrec_020a9544.c:
     complete
@@ -3858,9 +3843,6 @@ src/data/ov003_profrec_020a9b1c.c:
     complete
     .data       start:0x020a9b1c end:0x020a9b2c
 
-src/data/ov003_profrec_020a9c38.c:
-    complete
-    .data       start:0x020a9c38 end:0x020a9c50
 
 src/data/ov003_profrec_020a9c50.c:
     complete
@@ -4118,9 +4100,6 @@ src/data/ov003_profrec_020aa284.c:
     complete
     .data       start:0x020aa284 end:0x020aa294
 
-src/data/ov003_profrec_020aa2a8.c:
-    complete
-    .data       start:0x020aa2a8 end:0x020aa2bc
 
 src/data/ov003_profrec_020aa2bc.c:
     complete
@@ -4242,9 +4221,6 @@ src/data/ov003_profrec_020aa6b8.c:
     complete
     .data       start:0x020aa6b8 end:0x020aa6c8
 
-src/data/ov003_profrec_020aa6c8.c:
-    complete
-    .data       start:0x020aa6c8 end:0x020aa6e8
 
 src/data/ov003_profrec_020aa6e8.c:
     complete
@@ -4258,9 +4234,6 @@ src/data/ov003_profrec_020aa71c.c:
     complete
     .data       start:0x020aa71c end:0x020aa72c
 
-src/data/ov003_profrec_020aa72c.c:
-    complete
-    .data       start:0x020aa72c end:0x020aa740
 
 src/data/ov003_profrec_020aa750.c:
     complete
@@ -4766,9 +4739,6 @@ src/data/ov003_profrec_020ab7b4.c:
     complete
     .data       start:0x020ab7b4 end:0x020ab7c0
 
-src/data/ov003_profrec_020ab7c0.c:
-    complete
-    .data       start:0x020ab7c0 end:0x020ab7d4
 
 src/data/ov003_profrec_020ab7e8.c:
     complete
@@ -4950,9 +4920,6 @@ src/data/ov003_profrec_020abb54.c:
     complete
     .data       start:0x020abb54 end:0x020abb70
 
-src/data/ov003_profrec_020abb70.c:
-    complete
-    .data       start:0x020abb70 end:0x020abb88
 
 src/data/ov003_profrec_020abb88.c:
     complete
@@ -5527,9 +5494,6 @@ src/data/ov003_profrec_020ad208.c:
     complete
     .data       start:0x020ad208 end:0x020ad220
 
-src/data/ov003_profrec_020ad220.c:
-    complete
-    .data       start:0x020ad220 end:0x020ad238
 
 src/data/ov003_profrec_020ad268.c:
     complete
@@ -5847,3 +5811,63 @@ src/auto/SetGameConditionForParent.c:
     complete
     .text       start:0x02052d80 end:0x02052dc4
     .data       start:0x020a63c8 end:0x020a63e4
+
+src/auto/ClearTensouOam.c:
+    complete
+    .text       start:0x02054584 end:0x020545cc
+    .data       start:0x020a7ae4 end:0x020a7af4
+
+src/auto/GetAooNoFromUnitBaseNo.c:
+    complete
+    .text       start:0x0206c2a4 end:0x0206c2d4
+    .data       start:0x020a952c end:0x020a9544
+
+src/auto/Global2Local_ObjPara.c:
+    complete
+    .text       start:0x020a0a0c end:0x020a0b08
+    .data       start:0x020ad220 end:0x020ad238
+
+src/auto/Initial_polygon_work.c:
+    complete
+    .text       start:0x020712e4 end:0x0207134c
+    .data       start:0x020a9c38 end:0x020a9c50
+
+src/auto/MakeHouseAndUnitInShip.c:
+    complete
+    .text       start:0x02091128 end:0x02091250
+    .data       start:0x020abb70 end:0x020abb88
+
+src/auto/ReleaseFlyArmAll.c:
+    complete
+    .text       start:0x0208c314 end:0x0208c39c
+    .data       start:0x020ab7c0 end:0x020ab7d4
+
+src/auto/RestoreUpDownParaUD_ST.c:
+    complete
+    .text       start:0x02068704 end:0x02068778
+    .data       start:0x020a90a0 end:0x020a90b8
+
+src/auto/SetCarisumaEffect4Obj.c:
+    complete
+    .text       start:0x02065fa0 end:0x02066150
+    .data       start:0x020a8ddc end:0x020a8df4
+
+src/auto/SetGameConditionForChild.c:
+    complete
+    .text       start:0x02052d3c end:0x02052d80
+    .data       start:0x020a63ac end:0x020a63c8
+
+src/auto/SiteRestoreMaskMap.c:
+    complete
+    .text       start:0x02077c04 end:0x02077d04
+    .data       start:0x020aa2a8 end:0x020aa2bc
+
+src/auto/StockAikyoEffectWithAttackID.c:
+    complete
+    .text       start:0x0207b7a0 end:0x0207b7e0
+    .data       start:0x020aa6c8 end:0x020aa6e8
+
+src/auto/TrsGameWorkRelease.c:
+    complete
+    .text       start:0x0207baa4 end:0x0207baf0
+    .data       start:0x020aa72c end:0x020aa740

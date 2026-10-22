@@ -208,9 +208,6 @@ src/data/ov109_profrec_020e9cf4.c:
     complete
     .data       start:0x020e9cf4 end:0x020e9d08
 
-src/data/ov109_profrec_020e9d08.c:
-    complete
-    .data       start:0x020e9d08 end:0x020e9d20
 
 src/data/ov109_profrec_020e9d30.c:
     complete
@@ -332,9 +329,6 @@ src/data/ov109_profrec_020ea06c.c:
     complete
     .data       start:0x020ea06c end:0x020ea084
 
-src/data/ov109_profrec_020ea084.c:
-    complete
-    .data       start:0x020ea084 end:0x020ea098
 
 src/data/ov109_profrec_020ea098.c:
     complete
@@ -376,9 +370,6 @@ src/data/ov109_profrec_020ea198.c:
     complete
     .data       start:0x020ea198 end:0x020ea1b0
 
-src/data/ov109_profrec_020ea234.c:
-    complete
-    .data       start:0x020ea234 end:0x020ea250
 
 src/data/ov109_profrec_020ea250.c:
     complete
@@ -421,3 +412,18 @@ src/auto/PutOffButton.c:
     complete
     .text       start:0x020e9734 end:0x020e97ac
     .data       start:0x020ea2b8 end:0x020ea2c8
+
+src/auto/DeleteCommonIconInShip.c:
+    complete
+    .text       start:0x020e440c end:0x020e44bc
+    .data       start:0x020e9d08 end:0x020e9d20
+
+src/auto/DeleteMakingGage.c:
+    complete
+    .text       start:0x020e7060 end:0x020e70f0
+    .data       start:0x020ea084 end:0x020ea098
+
+src/auto/touchIconEffectInShipCom.c:
+    complete
+    .text       start:0x020e7ad0 end:0x020e7bec
+    .data       start:0x020ea234 end:0x020ea250

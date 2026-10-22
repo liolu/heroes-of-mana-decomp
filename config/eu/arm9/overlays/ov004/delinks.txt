@@ -4512,3 +4512,19 @@ src/data/ov004_profrec_020cd6b0.c:
 src/data/ov004_rodata_020ccb18.c:
     complete
     .rodata     start:0x020ccb18 end:0x020cce38
+
+src/auto/func_ov004_020ba184.c:
+    complete
+    .text       start:0x020ba184 end:0x020ba248
+
+src/auto/func_ov004_020bd988.c:
+    complete
+    .text       start:0x020bd988 end:0x020bdaa8
+
+src/auto/func_ov004_020bf754.c:
+    complete
+    .text       start:0x020bf754 end:0x020bf874
+
+src/auto/func_ov004_020c87d0.c:
+    complete
+    .text       start:0x020c87d0 end:0x020c881c

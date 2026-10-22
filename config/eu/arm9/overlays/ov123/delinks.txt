@@ -11876,3 +11876,43 @@ src/data/ov123_data_020dd5e0.c:
 src/auto/func_ov123_020a6b1c.c:
     complete
     .text       start:0x020a6b1c end:0x020a6b58
+
+src/auto/func_ov123_020c5c98.c:
+    complete
+    .text       start:0x020c5c98 end:0x020c5da0
+
+src/auto/func_ov123_0207c7f4.c:
+    complete
+    .text       start:0x0207c7f4 end:0x0207c93c
+
+src/auto/func_ov123_02067800.c:
+    complete
+    .text       start:0x02067800 end:0x020678a4
+
+src/auto/func_ov123_020741c8.c:
+    complete
+    .text       start:0x020741c8 end:0x02074320
+
+src/auto/func_ov123_02077798.c:
+    complete
+    .text       start:0x02077798 end:0x02077840
+
+src/auto/func_ov123_0207c16c.c:
+    complete
+    .text       start:0x0207c16c end:0x0207c324
+
+src/auto/func_ov123_0209f158.c:
+    complete
+    .text       start:0x0209f158 end:0x0209f260
+
+src/auto/func_ov123_020aeaec.c:
+    complete
+    .text       start:0x020aeaec end:0x020aebc4
+
+src/auto/func_ov123_020c4c04.c:
+    complete
+    .text       start:0x020c4c04 end:0x020c4c94
+
+src/auto/func_ov123_020ca3a4.c:
+    complete
+    .text       start:0x020ca3a4 end:0x020ca400

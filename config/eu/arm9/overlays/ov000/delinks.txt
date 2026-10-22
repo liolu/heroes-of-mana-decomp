@@ -295,9 +295,6 @@ src/data/ov000_profrec_02050704.c:
     complete
     .data       start:0x02050704 end:0x02050718
 
-src/data/ov000_profrec_02050758.c:
-    complete
-    .data       start:0x02050758 end:0x02050764
 
 src/data/ov000_profrec_02050774.c:
     complete
@@ -594,3 +591,8 @@ src/data/ov000_data_02050ae0.c:
 src/data/ov000_data_02050480.c:
     complete
     .data       start:0x02050480 end:0x02050488
+
+src/auto/ana_ReadKey.c:
+    complete
+    .text       start:0x02045fac end:0x02046038
+    .data       start:0x02050758 end:0x02050764
