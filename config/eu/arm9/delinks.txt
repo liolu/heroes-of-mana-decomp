@@ -4595,3 +4595,7 @@ src/data/main_bss_0203857c.c:
 src/auto/func_02005b1c.c:
     complete
     .text       start:0x02005b1c end:0x02005c3c
+
+src/auto/MBi_SetTask.c:
+    complete
+    .text       start:0x0201f85c end:0x0201f9c8

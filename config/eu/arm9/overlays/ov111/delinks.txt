@@ -535,3 +535,7 @@ src/data/ov111_rodata_020ebf04.c:
 src/data/ov111_bss_020ec1f0.c:
     complete
     .bss        start:0x020ec1f0 end:0x020ec1f8
+
+src/auto/func_ov111_020e9424.c:
+    complete
+    .text       start:0x020e9424 end:0x020e964c

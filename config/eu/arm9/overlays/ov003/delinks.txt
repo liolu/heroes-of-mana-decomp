@@ -3179,9 +3179,6 @@ src/data/ov003_profrec_020a89e4.c:
     complete
     .data       start:0x020a89e4 end:0x020a89f8
 
-src/data/ov003_profrec_020a89f8.c:
-    complete
-    .data       start:0x020a89f8 end:0x020a8a08
 
 src/data/ov003_profrec_020a8a08.c:
     complete
@@ -5875,3 +5872,8 @@ src/auto/TrsSetWorkEtc.c:
     complete
     .text       start:0x02052a24 end:0x02052ac0
     .data       start:0x020a6358 end:0x020a6368
+
+src/auto/RestoreObjTex.c:
+    complete
+    .text       start:0x02062a08 end:0x02062be0
+    .data       start:0x020a89f8 end:0x020a8a08

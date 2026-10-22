@@ -566,3 +566,7 @@ src/auto/func_ov119_020f07f0.c:
 src/auto/func_ov119_020e9c6c.c:
     complete
     .text       start:0x020e9c6c end:0x020e9d70
+
+src/auto/func_ov119_020f0e84.c:
+    complete
+    .text       start:0x020f0e84 end:0x020f10ac

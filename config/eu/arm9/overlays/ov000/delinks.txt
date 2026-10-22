@@ -272,9 +272,6 @@ src/data/ov000_profrec_02050630.c:
     .data       start:0x02050630 end:0x02050650
 
 
-src/data/ov000_profrec_02050664.c:
-    complete
-    .data       start:0x02050664 end:0x02050678
 
 src/data/ov000_profrec_02050690.c:
     complete
@@ -337,9 +334,6 @@ src/data/ov000_profrec_020508b8.c:
     complete
     .data       start:0x020508b8 end:0x020508cc
 
-src/data/ov000_profrec_020508cc.c:
-    complete
-    .data       start:0x020508cc end:0x020508dc
 
 src/data/ov000_profrec_020508dc.c:
     complete
@@ -598,3 +592,13 @@ src/auto/Sample_VsInvitation.c:
     complete
     .text       start:0x020448e4 end:0x02044a50
     .data       start:0x02050650 end:0x02050664
+
+src/auto/CountFileKazu.c:
+    complete
+    .text       start:0x02046c74 end:0x02046e20
+    .data       start:0x020508cc end:0x020508dc
+
+src/auto/SubWindowMessageSet.c:
+    complete
+    .text       start:0x02044a50 end:0x02044b4c
+    .data       start:0x02050664 end:0x02050678
