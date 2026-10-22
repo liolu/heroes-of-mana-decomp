@@ -12064,3 +12064,7 @@ src/auto/func_ov123_02096644.c:
 src/auto/func_ov123_02099d90.c:
     complete
     .text       start:0x02099d90 end:0x02099ebc
+
+src/auto/func_ov123_020ad3a8.c:
+    complete
+    .text       start:0x020ad3a8 end:0x020ad4b4

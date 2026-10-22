@@ -1917,3 +1917,4 @@ src/auto/func_ov123_02099d90.c 1.2/sp3
 src/auto/CountFileKazu.c 2.0/sp1p5 -profile
 src/auto/RestoreObjTex.c 2.0/sp1p5 -profile
 src/auto/SubWindowMessageSet.c 2.0/sp1p5 -profile
+src/auto/func_ov123_020ad3a8.c 1.2/sp2p3 -thumb
