@@ -2566,9 +2566,6 @@ src/data/ov003_profrec_020a6348.c:
     complete
     .data       start:0x020a6348 end:0x020a6358
 
-src/data/ov003_profrec_020a6358.c:
-    complete
-    .data       start:0x020a6358 end:0x020a6368
 
 src/data/ov003_profrec_020a6368.c:
     complete
@@ -4169,9 +4166,6 @@ src/data/ov003_profrec_020aa49c.c:
     complete
     .data       start:0x020aa49c end:0x020aa4b0
 
-src/data/ov003_profrec_020aa4b0.c:
-    complete
-    .data       start:0x020aa4b0 end:0x020aa4c4
 
 src/data/ov003_profrec_020aa538.c:
     complete
@@ -5871,3 +5865,13 @@ src/auto/TrsGameWorkRelease.c:
     complete
     .text       start:0x0207baa4 end:0x0207baf0
     .data       start:0x020aa72c end:0x020aa740
+
+src/auto/SetStock_VSMotoData.c:
+    complete
+    .text       start:0x0207a2a4 end:0x0207a3c4
+    .data       start:0x020aa4b0 end:0x020aa4c4
+
+src/auto/TrsSetWorkEtc.c:
+    complete
+    .text       start:0x02052a24 end:0x02052ac0
+    .data       start:0x020a6358 end:0x020a6368

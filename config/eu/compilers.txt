@@ -1889,3 +1889,18 @@ src/auto/DeleteIconListWinInShip.c 2.0/sp1p5 -profile
 src/auto/DeleteUnitStatusInShip.c 2.0/sp1p5 -profile
 src/auto/func_ov004_020c2000.c 1.2/sp3
 src/auto/Sample_VsInvitation.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02072308.c 1.2/sp2p3
+src/auto/func_ov123_0207bd34.c 1.2/sp3
+src/auto/func_ov123_0208f9a0.c 1.2/sp3
+src/auto/func_ov123_020b0d3c.c 1.2/sp3
+src/auto/func_ov123_0206ae78.c 1.2/sp3
+src/auto/func_ov123_0206cd54.c 1.2/sp2p3
+src/auto/func_ov123_020c7f6c.c 1.2/sp3
+src/auto/func_ov123_020c9f68.c 1.2/sp3
+src/auto/func_ov123_020b9b28.c 1.2/sp3
+src/auto/func_ov123_020c3094.c 1.2/sp3
+src/auto/func_ov123_020c5ef8.c 1.2/sp3 -O2
+src/auto/func_ov123_020c5fdc.c 1.2/sp3
+src/auto/func_02005b1c.c 1.2/sp3
+src/auto/SetStock_VSMotoData.c 2.0/sp1p5 -profile
+src/auto/TrsSetWorkEtc.c 2.0/sp1p5 -profile
