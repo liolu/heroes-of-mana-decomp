@@ -11816,3 +11816,59 @@ src/data/ov123_rodata_020d9680.c:
 src/data/ov123_data_020d992c.c:
     complete
     .data       start:0x020d992c end:0x020d996c
+
+src/data/ov123_bss_020e0bf0.c:
+    complete
+    .bss        start:0x020e0bf0 end:0x020e0c04
+
+src/data/ov123_bss_020e2058.c:
+    complete
+    .bss        start:0x020e2058 end:0x020e2064
+
+src/data/ov123_rodata_020d7e10.c:
+    complete
+    .rodata     start:0x020d7e10 end:0x020d7e14
+
+src/data/ov123_rodata_020d7e98.c:
+    complete
+    .rodata     start:0x020d7e98 end:0x020d7e9c
+
+src/data/ov123_rodata_020d7f20.c:
+    complete
+    .rodata     start:0x020d7f20 end:0x020d7f24
+
+src/data/ov123_rodata_020d80cc.c:
+    complete
+    .rodata     start:0x020d80cc end:0x020d80d0
+
+src/data/ov123_rodata_020d8178.c:
+    complete
+    .rodata     start:0x020d8178 end:0x020d817c
+
+src/data/ov123_rodata_020d8234.c:
+    complete
+    .rodata     start:0x020d8234 end:0x020d8238
+
+src/data/ov123_rodata_020d511c.c:
+    complete
+    .rodata     start:0x020d511c end:0x020d5120
+
+src/data/ov123_rodata_020d8298.c:
+    complete
+    .rodata     start:0x020d8298 end:0x020d82a0
+
+src/data/ov123_rodata_020d82e4.c:
+    complete
+    .rodata     start:0x020d82e4 end:0x020d82e8
+
+src/data/ov123_rodata_020d831c.c:
+    complete
+    .rodata     start:0x020d831c end:0x020d8324
+
+src/data/ov123_data_020dd4d4.c:
+    complete
+    .data       start:0x020dd4d4 end:0x020dd52c
+
+src/data/ov123_data_020dd5e0.c:
+    complete
+    .data       start:0x020dd5e0 end:0x020dd638

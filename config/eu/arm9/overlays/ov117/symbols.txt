@@ -213,7 +213,6 @@ data_ov117_020f3614 kind:bss addr:0x020f3614
 data_ov117_020f3ce0 kind:bss addr:0x020f3ce0
 data_ov117_020f3d94 kind:bss addr:0x020f3d94
 data_ov117_020f3da0 kind:bss addr:0x020f3da0
-data_ov117_020f3db6 kind:bss addr:0x020f3db6
 data_ov117_020f3db8 kind:bss addr:0x020f3db8
 data_ov117_020f3dc0 kind:bss addr:0x020f3dc0
 data_ov117_020f3dcc kind:bss addr:0x020f3dcc

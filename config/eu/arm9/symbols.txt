@@ -1710,7 +1710,6 @@ data_0203bb24 kind:bss addr:0x0203bb24
 sUnlockFunc kind:bss addr:0x0203bb40
 bsendBuff kind:bss addr:0x0203bb80
 data_0203bb88 kind:bss addr:0x0203bb88
-data_0203bb8e kind:bss addr:0x0203bb8e
 data_0203bb90 kind:bss addr:0x0203bb90
 data_0203bbe8 kind:bss addr:0x0203bbe8
 data_0203e380 kind:bss addr:0x0203e380

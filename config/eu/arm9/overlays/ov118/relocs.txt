@@ -143,7 +143,7 @@ from:0x020e23b8 kind:arm_call to:0x020e205c module:overlay(118)
 from:0x020e23c8 kind:arm_call to:0x02010294 module:main
 from:0x020e23e4 kind:arm_call to:0x02010294 module:main
 from:0x020e23f0 kind:load to:0x020e32e0 module:overlay(118)
-from:0x020e2400 kind:load to:0x020e332a module:overlay(118)
+from:0x020e2400 kind:load to:0x020e3300 add:0x2a module:overlay(118)
 from:0x020e2410 kind:load to:0x020e30c8 module:overlay(118)
 from:0x020e2414 kind:load to:0x020e31e0 module:overlay(118)
 from:0x020e241c kind:load to:0x020e3300 module:overlay(118)

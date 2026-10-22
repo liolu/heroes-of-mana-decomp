@@ -1252,8 +1252,6 @@ data_ov004_020ccae4 kind:data(any) addr:0x020ccae4
 data_ov004_020ccaf4 kind:data(any) addr:0x020ccaf4
 data_ov004_020ccb04 kind:data(any) addr:0x020ccb04
 data_ov004_020ccb18 kind:data(any) addr:0x020ccb18
-data_ov004_020ccb1a kind:data(any) addr:0x020ccb1a
-data_ov004_020ccb1b kind:data(any) addr:0x020ccb1b
 __sinit_ov004_020cce38 kind:function(arm,size=0x28) addr:0x020cce38
 __sinit_ov004_020cce60 kind:function(arm,size=0x28) addr:0x020cce60
 __sinit_ov004_020cce88 kind:function(arm,size=0x28) addr:0x020cce88

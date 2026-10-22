@@ -4579,3 +4579,15 @@ src/data/main_rodata_02030644.c:
 src/data/main_rodata_02032644.c:
     complete
     .rodata     start:0x02032644 end:0x02034644
+
+src/data/main_bss_0203bb88.c:
+    complete
+    .bss        start:0x0203bb88 end:0x0203bb90
+
+src/data/main_rodata_02034758.c:
+    complete
+    .rodata     start:0x02034758 end:0x0203475c
+
+src/data/main_bss_0203857c.c:
+    complete
+    .bss        start:0x0203857c end:0x02038598

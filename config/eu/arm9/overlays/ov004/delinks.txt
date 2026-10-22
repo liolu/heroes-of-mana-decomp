@@ -4508,3 +4508,7 @@ src/auto/func_ov004_020cadac.c:
 src/data/ov004_profrec_020cd6b0.c:
     complete
     .data       start:0x020cd6b0 end:0x020cd6b8
+
+src/data/ov004_rodata_020ccb18.c:
+    complete
+    .rodata     start:0x020ccb18 end:0x020cce38

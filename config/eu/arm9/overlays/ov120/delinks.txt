@@ -291,3 +291,7 @@ src/data/ov120_rodata_020f19cc.c:
 src/data/ov120_rodata_020f1ca8.c:
     complete
     .rodata     start:0x020f1ca8 end:0x020f2120
+
+src/data/ov120_data_020f35dc.c:
+    complete
+    .data       start:0x020f35dc end:0x020f35e0

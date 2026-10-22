@@ -659,3 +659,23 @@ src/data/ov122_rodata_020603b0.c:
 src/data/ov122_rodata_020607bc.c:
     complete
     .rodata     start:0x020607bc end:0x02060d30
+
+src/data/ov122_bss_02064938.c:
+    complete
+    .bss        start:0x02064938 end:0x02064950
+
+src/data/ov122_bss_02064a10.c:
+    complete
+    .bss        start:0x02064a10 end:0x02064a28
+
+src/data/ov122_bss_02064ac4.c:
+    complete
+    .bss        start:0x02064ac4 end:0x02064adc
+
+src/data/ov122_bss_020651bc.c:
+    complete
+    .bss        start:0x020651bc end:0x020651d4
+
+src/data/ov122_data_02061f04.c:
+    complete
+    .data       start:0x02061f04 end:0x02061f08

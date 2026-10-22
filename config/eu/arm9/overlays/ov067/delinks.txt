@@ -14,3 +14,7 @@ src/data/ov067_rodata_020d06d8.c:
 src/data/ov067_rodata_020d06f4.c:
     complete
     .rodata     start:0x020d06f4 end:0x020d0704
+
+src/data/ov067_rodata_020d0704.c:
+    complete
+    .rodata     start:0x020d0704 end:0x020d0710

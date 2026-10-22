@@ -22,3 +22,7 @@ src/data/ov075_rodata_020d08a8.c:
 src/data/ov075_rodata_020d08c4.c:
     complete
     .rodata     start:0x020d08c4 end:0x020d08e0
+
+src/data/ov075_rodata_020d08b4.c:
+    complete
+    .rodata     start:0x020d08b4 end:0x020d08c4

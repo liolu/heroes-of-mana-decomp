@@ -531,3 +531,7 @@ src/data/ov111_rodata_020eb45c.c:
 src/data/ov111_rodata_020ebf04.c:
     complete
     .rodata     start:0x020ebf04 end:0x020ebf84
+
+src/data/ov111_bss_020ec1f0.c:
+    complete
+    .bss        start:0x020ec1f0 end:0x020ec1f8

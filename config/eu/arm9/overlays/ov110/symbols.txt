@@ -73,3 +73,5 @@ data_ov110_020e3d84 kind:label(arm) addr:0x020e3d84
 data_ov110_020e3d94 kind:label(arm) addr:0x020e3d94
 data_ov110_020e3dac kind:label(arm) addr:0x020e3dac
 data_ov110_020e3dc0 kind:bss addr:0x020e3dc0
+data_ov110_020e3c60 kind:data(any) addr:0x020e3c60
+data_ov110_020e3db8 kind:data(any) addr:0x020e3db8

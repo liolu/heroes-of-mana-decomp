@@ -193,3 +193,4 @@ data_ov109_020ea2f8 kind:label(arm) addr:0x020ea2f8
 data_ov109_020ea30c kind:label(arm) addr:0x020ea30c
 data_ov109_020ea320 kind:label(arm) addr:0x020ea320
 data_ov109_020ea340 kind:bss addr:0x020ea340
+data_ov109_020ea334 kind:data(any) addr:0x020ea334

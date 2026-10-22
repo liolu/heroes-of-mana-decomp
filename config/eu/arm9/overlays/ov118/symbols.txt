@@ -41,7 +41,6 @@ data_ov118_020e31e0 kind:bss addr:0x020e31e0
 data_ov118_020e3200 kind:bss addr:0x020e3200
 data_ov118_020e32e0 kind:bss addr:0x020e32e0
 data_ov118_020e3300 kind:bss addr:0x020e3300
-data_ov118_020e332a kind:bss addr:0x020e332a
 data_ov118_020e332c kind:bss addr:0x020e332c
 data_ov118_020e3330 kind:bss addr:0x020e3330
 data_ov118_020e3730 kind:bss addr:0x020e3730

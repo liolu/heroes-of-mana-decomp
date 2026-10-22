@@ -263,3 +263,5 @@ data_ov000_02051544 kind:bss addr:0x02051544
 data_ov000_02051548 kind:bss addr:0x02051548
 data_ov000_0205154c kind:bss addr:0x0205154c
 data_ov000_02051550 kind:bss addr:0x02051550
+data_ov000_02050480 kind:data(any) addr:0x02050480
+data_ov000_0205152c kind:data(any) addr:0x0205152c

@@ -590,3 +590,7 @@ src/data/ov000_data_02050808.c:
 src/data/ov000_data_02050ae0.c:
     complete
     .data       start:0x02050ae0 end:0x020510a0
+
+src/data/ov000_data_02050480.c:
+    complete
+    .data       start:0x02050480 end:0x02050488

@@ -5821,3 +5821,19 @@ src/data/ov003_data_020ae9e8.c:
 src/data/ov003_data_020aea40.c:
     complete
     .data       start:0x020aea40 end:0x020aea5c
+
+src/data/ov003_bss_020aeaa4.c:
+    complete
+    .bss        start:0x020aeaa4 end:0x020aeab4
+
+src/data/ov003_bss_020b0cf0.c:
+    complete
+    .bss        start:0x020b0cf0 end:0x020b0d30
+
+src/data/ov003_bss_020b0938.c:
+    complete
+    .bss        start:0x020b0938 end:0x020b093c
+
+src/data/ov003_data_020a9fb8.c:
+    complete
+    .data       start:0x020a9fb8 end:0x020a9fc0

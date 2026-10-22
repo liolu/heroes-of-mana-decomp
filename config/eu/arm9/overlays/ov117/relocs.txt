@@ -453,7 +453,7 @@ from:0x020e4bf4 kind:load to:0x020f3da0 module:overlay(117)
 from:0x020e4bf8 kind:load to:0x020f3d94 module:overlay(117)
 from:0x020e4bfc kind:load to:0x020f0f30 module:overlay(117)
 from:0x020e4c00 kind:load to:0x0203673c module:main
-from:0x020e4c04 kind:load to:0x020f3db6 module:overlay(117)
+from:0x020e4c04 kind:load to:0x020f3da0 add:0x16 module:overlay(117)
 from:0x020e4c3c kind:arm_call to:0x020ebabc module:overlay(117)
 from:0x020e4c58 kind:arm_call to:0x020ebabc module:overlay(117)
 from:0x020e4c94 kind:arm_call to:0x020037e8 module:main

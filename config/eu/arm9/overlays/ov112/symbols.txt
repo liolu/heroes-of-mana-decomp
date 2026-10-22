@@ -170,3 +170,4 @@ data_ov112_020ed844 kind:bss addr:0x020ed844
 data_ov112_020ed984 kind:bss addr:0x020ed984
 data_ov112_020eedb0 kind:bss addr:0x020eedb0
 data_ov112_020eedc4 kind:bss addr:0x020eedc4
+data_ov112_020ec4f8 kind:data(any) addr:0x020ec4f8

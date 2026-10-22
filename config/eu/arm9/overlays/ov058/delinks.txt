@@ -18,3 +18,11 @@ src/data/ov058_rodata_020d0830.c:
 src/data/ov058_rodata_020d084c.c:
     complete
     .rodata     start:0x020d084c end:0x020d085c
+
+src/data/ov058_rodata_020d0840.c:
+    complete
+    .rodata     start:0x020d0840 end:0x020d084c
+
+src/data/ov058_rodata_020d085c.c:
+    complete
+    .rodata     start:0x020d085c end:0x020d0868
