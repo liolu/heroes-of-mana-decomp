@@ -27,13 +27,17 @@ void func_ov059_020d0160(void) {
     s32 temp_r5;
     s32 temp_r5_2;
 
-    temp_r3 = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) + M2C_FIELD(data_0203673c, s32 *, 0x28);
+    temp_r3 = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) +
+              M2C_FIELD(data_0203673c, s32 *, 0x28);
     M2C_FIELD(temp_r3, s32 *, 0x210) = (s32) ((M2C_FIELD(temp_r3, s32 *, 0x210) & ~0x3FFF) | 1);
-    temp_r5 = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) + M2C_FIELD(data_0203673c, s32 *, 0x28);
+    temp_r5                          = (((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) * 0x2D0) +
+              M2C_FIELD(data_0203673c, s32 *, 0x28);
     M2C_FIELD(temp_r5, s32 *, 0x210) = (s32) ((M2C_FIELD(temp_r5, s32 *, 0x210) & 0xF0003FFF) | 0x8000);
-    temp_r5_2 = ((((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) ^ 1) * 0x2D0) + M2C_FIELD(data_0203673c, s32 *, 0x28);
+    temp_r5_2                        = ((((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) ^ 1) * 0x2D0) +
+                M2C_FIELD(data_0203673c, s32 *, 0x28);
     M2C_FIELD(temp_r5_2, s32 *, 0x210) = (s32) (M2C_FIELD(temp_r5_2, s32 *, 0x210) & ~0x3FFF);
-    temp_r2 = ((((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) ^ 1) * 0x2D0) + M2C_FIELD(data_0203673c, s32 *, 0x28);
+    temp_r2 = ((((u32) (M2C_FIELD(data_ov000_02051548, s32 *, 0x14) << 0x14) >> 0x1C) ^ 1) * 0x2D0) +
+              M2C_FIELD(data_0203673c, s32 *, 0x28);
     M2C_FIELD(temp_r2, s32 *, 0x210) = (s32) (M2C_FIELD(temp_r2, s32 *, 0x210) & 0xF0003FFF);
     SetDropItemBySetNo(0x3A);
     SG_setSisetuFree();

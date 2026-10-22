@@ -10,7 +10,7 @@ void func_ov121_020f2aec(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4, s32 a
     s32 var_r8;
 
     temp_r0 = func_0200a80c();
-    var_r7 = temp_r0 + (arg0 * 2);
+    var_r7  = temp_r0 + (arg0 * 2);
     var_r7 += arg1 << 6;
     var_r8 = temp_r0 + (arg4 * 2);
     var_r8 += arg5 << 6;

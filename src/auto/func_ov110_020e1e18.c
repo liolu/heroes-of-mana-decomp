@@ -40,7 +40,7 @@ void func_ov110_020e1e18(Obj *p) {
     if (p->f_b4 != 0) {
         VX_Free();
     }
-    p->obj = NULL;
+    p->obj  = NULL;
     p->f_b4 = 0;
     p->f_b8 = 0;
     p->f_bc = 0;

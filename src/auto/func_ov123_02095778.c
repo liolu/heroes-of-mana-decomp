@@ -12,9 +12,9 @@ void func_ov123_02095778(void) {
     if (data_ov123_020e1678 == NULL) {
         return;
     }
-    base = (u8 *) data_ov123_020e1678 + 0x1000;
-    temp_r4 = M2C_FIELD(base, M2C_UNK (**)(M2C_UNK *, void *, M2C_UNK), 0x210);
-    t = M2C_FIELD(base, s32 *, 0x314);
+    base    = (u8 *) data_ov123_020e1678 + 0x1000;
+    temp_r4 = M2C_FIELD(base, M2C_UNK(**)(M2C_UNK *, void *, M2C_UNK), 0x210);
+    t       = M2C_FIELD(base, s32 *, 0x314);
     if (t != 0) {
         func_ov123_02096ca8();
     }

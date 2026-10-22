@@ -16,8 +16,8 @@ void SetMapCanThere(void) {
     maxx = 0;
     miny = 0x28;
     maxy = 0;
-    p = M2C_FIELD(data_ov000_02051548, u16 **, 0x2E0);
-    row = 0;
+    p    = M2C_FIELD(data_ov000_02051548, u16 **, 0x2E0);
+    row  = 0;
     do {
         col = 0;
         do {

@@ -17,8 +17,8 @@ void func_ov116_020e1db8(s32 arg0, s32 arg1) {
         return;
     }
     base = M2C_FIELD(data_0203673c, s32 *, 0x28);
-    p = (H *) (base + 0x10);
-    i = 0;
+    p    = (H *) (base + 0x10);
+    i    = 0;
     while (i < 0x100) {
         if (arg0 == p->lo) {
             t = arg1 + p->hi;
@@ -47,7 +47,3 @@ void func_ov116_020e1db8(s32 arg0, s32 arg1) {
         p += 1;
     }
 }
-
-
-
-

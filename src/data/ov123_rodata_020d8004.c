@@ -1,6 +1,4 @@
 /* compiler: 2.0/sp1p5 */
 #include "m2c.h"
 
-const u32 data_ov123_020d8004[2] = {
-    0x0034008F, 0x0018002C
-};
+const u32 data_ov123_020d8004[2] = {0x0034008F, 0x0018002C};

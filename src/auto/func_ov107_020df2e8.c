@@ -21,4 +21,3 @@ void func_ov107_020df2e8(void *arg0) {
     }
     changeOccWithKihon(2, arg0, temp_r0, 0);
 }
-

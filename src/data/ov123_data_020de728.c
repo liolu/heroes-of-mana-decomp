@@ -4,6 +4,4 @@
 extern u8 data_ov123_020de730[];
 extern u8 data_ov123_020de750[];
 
-u32 data_ov123_020de728[2] = {
-    (u32)&data_ov123_020de750, (u32)&data_ov123_020de730
-};
+u32 data_ov123_020de728[2] = {(u32) &data_ov123_020de750, (u32) &data_ov123_020de730};

@@ -47,7 +47,7 @@ s32 CheckHook2Ship(S *arg0) {
         return 0;
     }
     if (arg0->f14 != 0x10 && IsThereHookPosition(arg0) == 1) {
-        M2C_FIELD(arg0, u32 *, 0) = (M2C_FIELD(arg0, u32 *, 0) & ~0x3FC000) | 0x3C000;
+        M2C_FIELD(arg0, u32 *, 0)    = (M2C_FIELD(arg0, u32 *, 0) & ~0x3FC000) | 0x3C000;
         M2C_FIELD(arg0, s16 *, 0x2E) = 0;
         return 1;
     }

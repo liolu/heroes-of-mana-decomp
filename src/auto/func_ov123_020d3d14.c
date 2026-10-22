@@ -12,10 +12,10 @@ struct Obj {
 extern Obj *data_ov123_020e47e8;
 
 void func_ov123_020d3d14(s32 arg0) {
-    Obj *o = (Obj *)((u8 *)data_ov123_020e47e8 + 0x530);
+    Obj *o = (Obj *) ((u8 *) data_ov123_020e47e8 + 0x530);
 
-    o = (Obj *)((u8 *)o + 0x7000);
-    o = ((M2)o->vt[0x54 / 4])(o, arg0);
-    o = ((M1)o->vt[0x20 / 4])(o);
-    ((M0)o->vt[0x14 / 4])(o);
+    o = (Obj *) ((u8 *) o + 0x7000);
+    o = ((M2) o->vt[0x54 / 4])(o, arg0);
+    o = ((M1) o->vt[0x20 / 4])(o);
+    ((M0) o->vt[0x14 / 4])(o);
 }

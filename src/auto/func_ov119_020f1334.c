@@ -28,8 +28,8 @@ void func_ov119_020f1334(Obj *p) {
     } else {
         var = p->fc - p->f10;
     }
-    t1 = func_0202d478(p->f4 * func_ov119_020eb1e8((u16) var), p->fc);
-    t2 = func_0202d478(p->f8 * func_ov119_020eb1e8((u16) var), p->fc);
+    t1     = func_0202d478(p->f4 * func_ov119_020eb1e8((u16) var), p->fc);
+    t2     = func_0202d478(p->f8 * func_ov119_020eb1e8((u16) var), p->fc);
     p->f14 = t1;
     p->f18 = t2;
     if (p->f10 < p->fc) {

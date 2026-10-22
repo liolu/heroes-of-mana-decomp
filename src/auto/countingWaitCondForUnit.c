@@ -18,7 +18,12 @@ s32 countingWaitCondForUnit(s32 arg0, s32 arg1) {
         if (((u32) (temp_r6 << 0x1F) >> 0x1F) != 0) {
             var_r2 = M2C_FIELD(var_lr, s32 *, 4);
             if (arg0 == ((u32) (var_r2 << 0x1C) >> 0x1C)) {
-                if ((arg1 == ((u32) (M2C_FIELD((u8 *) M2C_FIELD(data_0203673c, s32 *, 4) + (((u32) (temp_r6 << 0x15) >> 0x17) << 5), s32 *, 8) << 0x12) >> 0x1C)) && (((u32) (var_r2 << 0x18) >> 0x1E) == 2) && (((u32) (var_r2 << 0x1A) >> 0x1F) == 1)) {
+                if ((arg1 ==
+                     ((u32) (M2C_FIELD((u8 *) M2C_FIELD(data_0203673c, s32 *, 4) + (((u32) (temp_r6 << 0x15) >> 0x17) << 5),
+                                       s32 *, 8)
+                             << 0x12) >>
+                      0x1C)) &&
+                    (((u32) (var_r2 << 0x18) >> 0x1E) == 2) && (((u32) (var_r2 << 0x1A) >> 0x1F) == 1)) {
                     if (arg1 == 5) {
                         return 1;
                     }

@@ -21,42 +21,42 @@ void func_ov123_020cbc3c(void) {
     }
     temp_r0 = M2C_FIELD(data_ov123_020e4790, u32 *, 0xE08);
     switch (temp_r0) {
-    default:
-        break;
-    case 1:
-    case 3:
-        OS_LockMutex(data_ov123_020e4790 + 0xE0C);
-        M2C_FIELD(data_ov123_020e4790, s32 *, 0xE24) = 1;
-        M2C_FIELD(data_ov123_020e4790, s32 *, 0xE28) = 1;
-        M2C_FIELD(data_ov123_020e4790, s32 *, 0xE2C) = 0;
-        func_0200e644(data_ov123_020e4790 + 0xE0C);
-        break;
-    case 8:
-        func_ov123_020cbb84(data_ov123_020e4794 + 0x10);
-        break;
-    case 9:
-        func_ov123_020cbb84(data_ov123_020e4794 + 0x10);
-        break;
-    case 4:
-    case 5:
-    case 6:
-    case 7:
-    case 10:
-    case 11:
-        if (func_ov123_020cc4fc() != 0) {
-            func_ov123_020cc51c();
-        }
-        break;
+        default:
+            break;
+        case 1:
+        case 3:
+            OS_LockMutex(data_ov123_020e4790 + 0xE0C);
+            M2C_FIELD(data_ov123_020e4790, s32 *, 0xE24) = 1;
+            M2C_FIELD(data_ov123_020e4790, s32 *, 0xE28) = 1;
+            M2C_FIELD(data_ov123_020e4790, s32 *, 0xE2C) = 0;
+            func_0200e644(data_ov123_020e4790 + 0xE0C);
+            break;
+        case 8:
+            func_ov123_020cbb84(data_ov123_020e4794 + 0x10);
+            break;
+        case 9:
+            func_ov123_020cbb84(data_ov123_020e4794 + 0x10);
+            break;
+        case 4:
+        case 5:
+        case 6:
+        case 7:
+        case 10:
+        case 11:
+            if (func_ov123_020cc4fc() != 0) {
+                func_ov123_020cc51c();
+            }
+            break;
     }
     if (M2C_FIELD(data_ov123_020e4790, s32 *, 0xE24) == 0) {
         return;
     }
     OS_LockMutex(data_ov123_020e4790 + 0xE0C);
     M2C_FIELD(data_ov123_020e4790, s32 *, 0xE24) = 0;
-    temp_r4 = M2C_FIELD(data_ov123_020e4790, s32 *, 0xE28);
-    temp_r5 = M2C_FIELD(data_ov123_020e4790, s32 *, 0xE2C);
-    temp_r6 = M2C_FIELD(data_ov123_020e4790, s32 *, 0xE34);
-    temp_r7 = M2C_FIELD(data_ov123_020e4790, M2C_UNK (**)(s32, s32, s32), 0xE30);
+    temp_r4                                      = M2C_FIELD(data_ov123_020e4790, s32 *, 0xE28);
+    temp_r5                                      = M2C_FIELD(data_ov123_020e4790, s32 *, 0xE2C);
+    temp_r6                                      = M2C_FIELD(data_ov123_020e4790, s32 *, 0xE34);
+    temp_r7                                      = M2C_FIELD(data_ov123_020e4790, M2C_UNK(**)(s32, s32, s32), 0xE30);
     func_ov123_020cc4bc(0, 0);
     M2C_FIELD(data_ov123_020e4790, u32 *, 0xE08) = 2U;
     func_0200e644(data_ov123_020e4790 + 0xE0C);

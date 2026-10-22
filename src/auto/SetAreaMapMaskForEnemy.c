@@ -25,7 +25,8 @@ void SetAreaMapMaskForEnemy(s32 arg0, s32 arg1, s32 arg2) {
                     temp_r5 = arg1 + var_r4;
                     temp_r2 = arg0 + var_lr;
                     if ((temp_r2 >= 0) && (temp_r2 < 0x28) && (temp_r5 >= 0) && (temp_r5 < 0x28)) {
-                        M2C_FIELD(data_ov000_02051548 + (((temp_r2 + (temp_r5 << 6)) >> 5) * 4), s32 *, 0x540) |= 1 << (temp_r2 & 0x1F);
+                        M2C_FIELD(data_ov000_02051548 + (((temp_r2 + (temp_r5 << 6)) >> 5) * 4), s32 *, 0x540) |=
+                            1 << (temp_r2 & 0x1F);
                     }
                     var_lr += 1;
                 } while (var_lr < temp_ip);

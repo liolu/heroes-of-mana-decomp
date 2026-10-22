@@ -43,34 +43,23 @@ s32 func_ov117_020ed2d0(u32 arg0, u32 arg1, void *arg2) {
         return 0;
     }
     switch (arg0) {
-    case 0:
-        return func_ov117_020ed0e0(((u32 *) arg2)[1] / 60 * 100 / ((u32 *) p)[1],
-                                   0, 0);
-    case 5:
-        return func_ov117_020ed0e0(((A3_020ed2d0 *) ((u32 *) arg2 + 3))->g14 * 100 / p[3].f1,
-                                   1, p[3].f0);
-    case 2:
-        return func_ov117_020ed0e0(((A3_020ed2d0 *) ((u32 *) arg2 + 3))->g0 * 100 / p[3].f17,
-                                   1, p[3].f16);
-    case 4:
-        return func_ov117_020ed0e0(((A0_020ed2d0 *) arg2)->f22 * 100 / p[2].f1,
-                                   1, p[2].f0);
-    case 6:
-        return func_ov117_020ed0e0(((A0_020ed2d0 *) arg2)->f2 * 100
-                                       / ((P4_020ed2d0 *) p)[4].h0,
-                                   0, 0);
-    case 1:
-        return func_ov117_020ed0e0(((A0_020ed2d0 *) arg2)->f12 * 100 / p[2].f17,
-                                   0, p[2].f16);
-    case 7:
-        return func_ov117_020ed0e0(((A4_020ed2d0 *) ((u32 *) arg2 + 4))->h0 * 100
-                                       / ((P4_020ed2d0 *) p)[4].h18,
-                                   0, 0);
-    case 3:
-        return func_ov117_020ed0e0(((A4_020ed2d0 *) ((u32 *) arg2 + 4))->h14 * 100
-                                       / ((P4_020ed2d0 *) p)[4].h10,
-                                   1, 0);
-    default:
-        return 0;
+        case 0:
+            return func_ov117_020ed0e0(((u32 *) arg2)[1] / 60 * 100 / ((u32 *) p)[1], 0, 0);
+        case 5:
+            return func_ov117_020ed0e0(((A3_020ed2d0 *) ((u32 *) arg2 + 3))->g14 * 100 / p[3].f1, 1, p[3].f0);
+        case 2:
+            return func_ov117_020ed0e0(((A3_020ed2d0 *) ((u32 *) arg2 + 3))->g0 * 100 / p[3].f17, 1, p[3].f16);
+        case 4:
+            return func_ov117_020ed0e0(((A0_020ed2d0 *) arg2)->f22 * 100 / p[2].f1, 1, p[2].f0);
+        case 6:
+            return func_ov117_020ed0e0(((A0_020ed2d0 *) arg2)->f2 * 100 / ((P4_020ed2d0 *) p)[4].h0, 0, 0);
+        case 1:
+            return func_ov117_020ed0e0(((A0_020ed2d0 *) arg2)->f12 * 100 / p[2].f17, 0, p[2].f16);
+        case 7:
+            return func_ov117_020ed0e0(((A4_020ed2d0 *) ((u32 *) arg2 + 4))->h0 * 100 / ((P4_020ed2d0 *) p)[4].h18, 0, 0);
+        case 3:
+            return func_ov117_020ed0e0(((A4_020ed2d0 *) ((u32 *) arg2 + 4))->h14 * 100 / ((P4_020ed2d0 *) p)[4].h10, 1, 0);
+        default:
+            return 0;
     }
 }

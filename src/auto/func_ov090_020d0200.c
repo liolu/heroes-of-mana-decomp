@@ -13,7 +13,7 @@ void func_ov090_020d0200(void) {
     EquipItem(0xA, -1);
     EquipItem(0xA, -2);
     EquipItem(0xA, -3);
-    obj = data_ov000_02051548;
+    obj   = data_ov000_02051548;
     flags = M2C_FIELD(obj, u32 *, 0x8C) & 0x800000;
     if (M2C_FIELD(obj, s32 *, 0x90) != 5) {
         return;

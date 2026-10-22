@@ -6,9 +6,9 @@ extern M2C_UNK data_ov003_020acb20;
 
 typedef struct {
     u8 pad[0xC];
-    u32 lo:12;
-    u32 cnt:12;
-    u32 hi:8;
+    u32 lo : 12;
+    u32 cnt : 12;
+    u32 hi : 8;
 } S;
 
 typedef struct {

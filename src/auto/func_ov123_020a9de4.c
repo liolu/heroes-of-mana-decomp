@@ -11,15 +11,15 @@ s32 func_ov123_020a9de4(s8 *arg0, s8 *arg1) {
     s8 *temp_r1_2;
     s8 *sp0;
 
-    sp0 = arg0;
+    sp0    = arg0;
     var_r6 = arg1;
     var_r5 = arg0;
     var_r4 = 0;
     for (; var_r4 < 6; var_r4++) {
         temp_r1_2 = &var_r5[func_ov123_020a9e20(var_r5, *var_r6++)];
-        var_r5 = temp_r1_2;
+        var_r5    = temp_r1_2;
         if (var_r4 < 5) {
-            var_r5 = temp_r1_2 + 1;
+            var_r5     = temp_r1_2 + 1;
             *temp_r1_2 = 0x3A;
         }
     }

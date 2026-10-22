@@ -13,16 +13,16 @@ void func_ov123_020c155c(void) {
 
     v = func_ov123_020c530c();
     switch (v) {
-    case 1:
-        data_ov123_020e46b8 = 3;
-        func_ov123_020c36bc(6);
-        break;
-    case 0:
-        data_ov123_020e46b8 = 1;
-        func_ov123_020c36bc(7);
-        break;
-    default:
-        return;
+        case 1:
+            data_ov123_020e46b8 = 3;
+            func_ov123_020c36bc(6);
+            break;
+        case 0:
+            data_ov123_020e46b8 = 1;
+            func_ov123_020c36bc(7);
+            break;
+        default:
+            return;
     }
     func_ov123_020c5320();
     func_ov123_020b2410(&func_ov123_020c14e4);

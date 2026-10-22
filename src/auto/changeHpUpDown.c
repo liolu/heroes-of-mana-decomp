@@ -27,8 +27,8 @@ void changeHpUpDown(void *arg0) {
         M2C_FIELD(M2C_FIELD(arg0, u8 **, 0x84), u16 *, 0x36) = 0x8000;
     }
     g = data_ov000_02051548;
-    if (((((u32) (M2C_FIELD(g, s32 *, 0x18) << 0xF)) >> 0x18) == 2)
-        && (M2C_FIELD(arg0, u8 *, 0x38) == (((u32) (M2C_FIELD(g, s32 *, 0x10) << 6)) >> 0x18))) {
+    if (((((u32) (M2C_FIELD(g, s32 *, 0x18) << 0xF)) >> 0x18) == 2) &&
+        (M2C_FIELD(arg0, u8 *, 0x38) == (((u32) (M2C_FIELD(g, s32 *, 0x10) << 6)) >> 0x18))) {
         t = ((u32) (M2C_FIELD(g, s32 *, 0x10) << 6)) >> 0x18;
         redrawUnitConditionHpKazu(M2C_FIELD(data_ov003_020b0dd8[t].ptr, u16 *, 0x10));
     }

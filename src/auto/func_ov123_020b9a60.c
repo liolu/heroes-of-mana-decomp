@@ -12,16 +12,16 @@ void func_ov123_020b9a60(void) {
     u8 v;
 
     M2C_FIELD(data_ov123_020e465c, u8 *, 0x15) = func_ov123_020c530c();
-    v = M2C_FIELD(data_ov123_020e465c, u8 *, 0x15);
+    v                                          = M2C_FIELD(data_ov123_020e465c, u8 *, 0x15);
     switch (v) {
-    case 0:
-        func_ov123_020c36bc(7);
-        break;
-    case 1:
-        func_ov123_020c36bc(0xE);
-        break;
-    default:
-        return;
+        case 0:
+            func_ov123_020c36bc(7);
+            break;
+        case 1:
+            func_ov123_020c36bc(0xE);
+            break;
+        default:
+            return;
     }
     func_ov123_020c5320();
     func_ov123_020b2410(&func_ov123_020b99ac);

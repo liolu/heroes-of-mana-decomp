@@ -18,7 +18,7 @@ void func_ov119_020e9d70(void) {
     s32 zero;
     s32 minus1;
 
-    zero = 0;
+    zero   = 0;
     minus1 = -1;
     for (i = 0; i < 5; i++) {
         OS_FreeToHeap(zero, minus1, M2C_FIELD(&data_ov119_020f2258 + i * 4, s32 *, 0x20));

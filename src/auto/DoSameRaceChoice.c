@@ -40,7 +40,7 @@ loop_1:
             goto block_16;
         }
     } else {
-block_16:
+    block_16:
         var_r1 += 1;
         var_r2 += 0x110;
         if (var_r1 < 0x42) {

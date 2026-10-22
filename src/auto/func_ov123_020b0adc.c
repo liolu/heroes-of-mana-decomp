@@ -16,9 +16,9 @@ void func_ov123_020b0adc(void *arg0) {
     u8 buf[8];
     s32 t;
 
-    p = ((A *) data_ov123_020e45c0)->unk10;
-    *(s32 *) buf = (s32) ((*p & 0x01FF0000) >> 0x10);
-    t = (s32) (*p & 0xFF);
+    p                  = ((A *) data_ov123_020e45c0)->unk10;
+    *(s32 *) buf       = (s32) ((*p & 0x01FF0000) >> 0x10);
+    t                  = (s32) (*p & 0xFF);
     *(s32 *) (buf + 4) = t;
     t += 0xC;
     *(s32 *) (buf + 4) = t;

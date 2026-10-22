@@ -42,22 +42,51 @@ extern u8 func_ov004_020ca6fc[];
 extern u8 func_ov004_020ca704[];
 extern u8 func_ov004_020ca768[];
 
-u32 data_ov004_020cf74c[7] = {
-    (u32)&func_ov004_020c9ba8, (u32)&func_ov004_020c9c0c, (u32)&func_ov004_020c9cb8, (u32)&func_ov004_020c9cc0,
-    (u32)&func_ov004_020c9ccc, 0x00000000, 0x00000000
-};
-u32 data_ov004_020cf768[9] = {
-    (u32)&func_ov004_020ca1fc, (u32)&func_ov004_020ca200, (u32)&func_ov004_020ca214, (u32)&func_ov004_020ca220,
-    (u32)&func_ov004_020ca234, (u32)&func_ov004_020ca248, (u32)&func_ov004_020ca280, 0x00000000,
-    0x00000000
-};
-u32 data_ov004_020cf78c[32] = {
-    (u32)&func_ov004_020ca450, (u32)&func_ov004_020ca49c, (u32)&func_ov004_020ca4f0, (u32)&func_ov004_020ca508,
-    (u32)&func_ov004_020ca538, (u32)&func_ov004_020ca574, (u32)&func_ov004_020ca588, (u32)&func_ov004_020ca5a0,
-    (u32)&func_ov004_020ca5bc, (u32)&func_ov004_020ca5d8, (u32)&func_ov004_020ca5f4, (u32)&func_ov004_020ca618,
-    (u32)&func_ov004_020ca620, (u32)&func_ov004_020ca634, (u32)&func_ov004_020ca63c, (u32)&func_ov004_020ca648,
-    (u32)&func_ov004_020ca65c, (u32)&func_ov004_020ca668, (u32)&func_ov004_020ca67c, (u32)&func_ov004_020ca698,
-    (u32)&func_ov004_020ca6b4, (u32)&func_ov004_020ca6d0, (u32)&func_ov004_020ca6f4, (u32)&func_ov004_020ca6fc,
-    (u32)&func_ov004_020ca704, (u32)&func_ov004_020ca768, 0x00000000, 0x00000000,
-    (u32)&func_ov004_020bf9dc, (u32)&func_ov004_020c0034, 0x00000000, 0x00000000
-};
+u32 data_ov004_020cf74c[7]  = {(u32) &func_ov004_020c9ba8,
+                               (u32) &func_ov004_020c9c0c,
+                               (u32) &func_ov004_020c9cb8,
+                               (u32) &func_ov004_020c9cc0,
+                               (u32) &func_ov004_020c9ccc,
+                               0x00000000,
+                               0x00000000};
+u32 data_ov004_020cf768[9]  = {(u32) &func_ov004_020ca1fc,
+                               (u32) &func_ov004_020ca200,
+                               (u32) &func_ov004_020ca214,
+                               (u32) &func_ov004_020ca220,
+                               (u32) &func_ov004_020ca234,
+                               (u32) &func_ov004_020ca248,
+                               (u32) &func_ov004_020ca280,
+                               0x00000000,
+                               0x00000000};
+u32 data_ov004_020cf78c[32] = {(u32) &func_ov004_020ca450,
+                               (u32) &func_ov004_020ca49c,
+                               (u32) &func_ov004_020ca4f0,
+                               (u32) &func_ov004_020ca508,
+                               (u32) &func_ov004_020ca538,
+                               (u32) &func_ov004_020ca574,
+                               (u32) &func_ov004_020ca588,
+                               (u32) &func_ov004_020ca5a0,
+                               (u32) &func_ov004_020ca5bc,
+                               (u32) &func_ov004_020ca5d8,
+                               (u32) &func_ov004_020ca5f4,
+                               (u32) &func_ov004_020ca618,
+                               (u32) &func_ov004_020ca620,
+                               (u32) &func_ov004_020ca634,
+                               (u32) &func_ov004_020ca63c,
+                               (u32) &func_ov004_020ca648,
+                               (u32) &func_ov004_020ca65c,
+                               (u32) &func_ov004_020ca668,
+                               (u32) &func_ov004_020ca67c,
+                               (u32) &func_ov004_020ca698,
+                               (u32) &func_ov004_020ca6b4,
+                               (u32) &func_ov004_020ca6d0,
+                               (u32) &func_ov004_020ca6f4,
+                               (u32) &func_ov004_020ca6fc,
+                               (u32) &func_ov004_020ca704,
+                               (u32) &func_ov004_020ca768,
+                               0x00000000,
+                               0x00000000,
+                               (u32) &func_ov004_020bf9dc,
+                               (u32) &func_ov004_020c0034,
+                               0x00000000,
+                               0x00000000};

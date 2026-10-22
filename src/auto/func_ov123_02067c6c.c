@@ -10,7 +10,7 @@ s32 func_ov123_02067c6c(void) {
     s32 var;
 
     state = func_0200fa98();
-    var = 0;
+    var   = 0;
     if (data_ov123_020df180 != NULL) {
         var = M2C_FIELD(data_ov123_020df180, s32 *, 0x2260);
     }

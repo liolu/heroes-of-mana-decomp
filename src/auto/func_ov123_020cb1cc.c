@@ -14,14 +14,14 @@ void func_ov123_020cb1cc(void) {
     void *temp_r1_2;
 
     data_ov123_020e4754 = func_ov123_020ca4ec(0x340, 4);
-    var_r10 = 0;
-    var_r9 = 0;
+    var_r10             = 0;
+    var_r9              = 0;
     do {
         M2C_FIELD((data_ov123_020e4754 + var_r9), s32 *, 0x19C) = func_ov123_020c94ec(0x20, data_ov123_020e4754 + var_r9, 0xC);
         M2C_FIELD((data_ov123_020e4754 + var_r9), s32 *, 0x198) = func_ov123_020cae34();
         M2C_FIELD((data_ov123_020e4754 + var_r9), s16 *, 0x188) = 0x300;
         M2C_FIELD((data_ov123_020e4754 + var_r9), s16 *, 0x194) = 0x400;
-        temp_r1 = data_ov123_020e4754 + var_r9;
+        temp_r1                                                 = data_ov123_020e4754 + var_r9;
         func_ov123_020cad74(M2C_FIELD(temp_r1, s32 *, 0x198), temp_r1 + 0x180);
         temp_r1_2 = data_ov123_020e4754 + var_r9;
         func_ov123_020cad84(M2C_FIELD(temp_r1_2, s32 *, 0x198), temp_r1_2 + 0x18C);

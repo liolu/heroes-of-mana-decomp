@@ -2,13 +2,13 @@
 #include "m2c.h"
 
 typedef struct {
-    u32 active:1;
-    u32 :30;
-    u32 used:1;
-    u32 type:4;
-    u32 :1;
-    u32 a:1;
-    u32 b:2;
+    u32 active : 1;
+    u32 : 30;
+    u32 used : 1;
+    u32 type : 4;
+    u32 : 1;
+    u32 a : 1;
+    u32 b : 2;
     u8 pad[0x2C];
 } Ent;
 
@@ -24,10 +24,10 @@ s32 GetNowUnitKazu(void *arg0) {
     u8 *q;
 
     count = 0;
-    g = data_0203673c;
-    i = 0;
-    base = M2C_FIELD(g, Ent **, 0x24);
-    off = 0;
+    g     = data_0203673c;
+    i     = 0;
+    base  = M2C_FIELD(g, Ent **, 0x24);
+    off   = 0;
     do {
         if (base->active) {
             q = M2C_FIELD(g, u8 **, 0x24);

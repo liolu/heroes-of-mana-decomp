@@ -19,7 +19,7 @@ extern Flags112 data_ov112_020ec588;
 void func_ov112_020e1500(M2C_UNK arg0) {
     s32 temp_r4;
 
-    temp_r4 = M2C_FIELD(data_0203678c, s32 *, 0xA0);
+    temp_r4                 = M2C_FIELD(data_0203678c, s32 *, 0xA0);
     data_ov112_020ec588.f17 = 0;
     data_ov112_020ec588.f18 = 0;
     if (M2C_FIELD(data_0203678c, s32 *, 0xA0) != 0x26) {

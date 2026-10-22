@@ -26,7 +26,7 @@ void SyncPutMessageOneChar(s32 arg0) {
     s32 temp_r4;
     MsgObj *temp_r2;
 
-    var_r5 = arg0;
+    var_r5  = arg0;
     temp_r4 = var_r5 * 0xD0;
     if (!((MsgObj *) (data_ov000_02051550 + temp_r4))->b) {
         return;

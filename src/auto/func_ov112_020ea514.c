@@ -19,19 +19,19 @@ void func_ov112_020ea514(void) {
     M2C_FIELD(&data_ov112_020ec588, s32 *, 0x488) = (s32) ((M2C_FIELD(&data_ov112_020ec588, s32 *, 0x488) & 0xFFFFF807) | 8);
     MIi_CpuClearFast(0, func_0200a7b8(), 0x800);
     if (M2C_FIELD(&data_ov112_020ec584, u8 *, 2) != 0) {
-        *(volatile s32 *)0x04000010 = 0x01FE0004;
+        *(volatile s32 *) 0x04000010 = 0x01FE0004;
     } else {
-        *(volatile s32 *)0x04000010 = 0x01FE0000;
+        *(volatile s32 *) 0x04000010 = 0x01FE0000;
     }
     func_ov112_020eaa90();
-    var_r2 = 0;
+    var_r2                                        = 0;
     M2C_FIELD(&data_ov112_020eca1c, s32 *, 0xD48) = 0;
     M2C_FIELD(&data_ov112_020eca1c, s32 *, 0xD4C) = 0;
     M2C_FIELD(&data_ov112_020eca1c, s32 *, 0xD44) = 0;
     if (M2C_FIELD(&data_ov112_020ec584, u8 *, 2) == 0) {
         return;
     }
-    var_r3 = (u8 *)&data_ov112_020ed784;
+    var_r3 = (u8 *) &data_ov112_020ed784;
     do {
         var_r2 += 1;
         M2C_FIELD(var_r3, u16 *, 0x202) = (u16) (M2C_FIELD(var_r3, u16 *, 0x202) & ~3);

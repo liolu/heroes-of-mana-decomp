@@ -36,10 +36,10 @@ void func_ov121_020ea18c(void) {
         p->f0 &= ~1;
         p += 1;
     } while (i < 0xF);
-    j = 0;
-    q = data_ov121_020f60a4;
+    j   = 0;
+    q   = data_ov121_020f60a4;
     dst = (u8 *) data_ov121_020f6628;
-    n = 0;
+    n   = 0;
     do {
         if (q->flag) {
             q->field22 = func_ov121_020f4148(q->field26);

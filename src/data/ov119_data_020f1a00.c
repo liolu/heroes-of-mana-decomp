@@ -7,7 +7,5 @@ extern u8 data_ov119_020f1a3c[];
 extern u8 data_ov119_020f1a50[];
 extern u8 data_ov119_020f1a64[];
 
-u32 data_ov119_020f1a00[5] = {
-    (u32)&data_ov119_020f1a28, (u32)&data_ov119_020f1a50, (u32)&data_ov119_020f1a64, (u32)&data_ov119_020f1a3c,
-    (u32)&data_ov119_020f1a14
-};
+u32 data_ov119_020f1a00[5] = {(u32) &data_ov119_020f1a28, (u32) &data_ov119_020f1a50, (u32) &data_ov119_020f1a64,
+                              (u32) &data_ov119_020f1a3c, (u32) &data_ov119_020f1a14};

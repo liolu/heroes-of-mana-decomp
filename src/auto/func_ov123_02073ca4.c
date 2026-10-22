@@ -16,6 +16,7 @@ s32 func_ov123_02073ca4(s32 arg0, s32 arg1, s32 arg2, s32 arg3, u8 *arg4) {
         return r;
     }
     M2C_FIELD(arg4, s16 *, 2) = (s16) ((u8) ((s32) sp8 >> 8) | ((sp8 << 8) & 0xFF00));
-    M2C_FIELD(arg4, s32 *, 4) = (s32) (((spC << 0x18) & 0xFF000000) | (((spC << 8) & 0xFF0000) | ((u8) (spC >> 0x18) | ((spC >> 8) & 0xFF00))));
+    M2C_FIELD(arg4, s32 *, 4) =
+        (s32) (((spC << 0x18) & 0xFF000000) | (((spC << 8) & 0xFF0000) | ((u8) (spC >> 0x18) | ((spC >> 8) & 0xFF00))));
     return r;
 }

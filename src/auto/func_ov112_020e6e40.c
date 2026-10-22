@@ -8,12 +8,12 @@ M2C_UNK func_ov112_020e72cc(M2C_UNK);               /* extern */
 
 typedef struct {
     u8 pad0[0x488];
-    u32 a:19;
-    u32 b:4;
-    u32 c:3;
-    u32 d:2;
-    u32 e:1;
-    u32 f:3;
+    u32 a : 19;
+    u32 b : 4;
+    u32 c : 3;
+    u32 d : 2;
+    u32 e : 1;
+    u32 f : 3;
 } S;
 
 extern S data_ov112_020ec588;
@@ -28,8 +28,8 @@ void func_ov112_020e6e40(void) {
     data_ov112_020ec588.b = 0;
     data_ov112_020ec588.c = 0;
     data_ov112_020ec588.e = 0;
-    p = data_ov112_020eca1c;
-    i = 0;
+    p                     = data_ov112_020eca1c;
+    i                     = 0;
     do {
         i += 1;
         p[0xD38] = 0;

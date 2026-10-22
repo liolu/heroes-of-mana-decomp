@@ -10,7 +10,7 @@ extern void *data_ov000_02051548;
 void ObjParaSetFirst(void *arg0) {
     u8 *temp_r4;
 
-    temp_r4 = M2C_FIELD(arg0, u8 **, 4);
+    temp_r4                                      = M2C_FIELD(arg0, u8 **, 4);
     M2C_FIELD(data_ov000_02051548, s16 *, 0x258) = (s16) M2C_FIELD(temp_r4, s32 *, 0);
     ModelWorkInit();
     MIi_CpuCopy16(temp_r4 + 4, M2C_FIELD(data_0203673c, s32 *, 0x24), 0x11E0);

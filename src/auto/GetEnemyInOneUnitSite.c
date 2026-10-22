@@ -17,7 +17,7 @@ s32 GetEnemyInOneUnitSite(void *arg0) {
     if (p == NULL) {
         return -1;
     }
-    q = M2C_FIELD(arg0, void **, 0xE4);
+    q   = M2C_FIELD(arg0, void **, 0xE4);
     sel = 2;
     if (q != NULL) {
         kind = (u32) (M2C_FIELD(q, s32 *, 4) << 0x1A) >> 0x1A;
@@ -28,19 +28,21 @@ s32 GetEnemyInOneUnitSite(void *arg0) {
         }
     }
     switch (sel) {
-    case 0:
-        ret = GetFriendOfHalfHP();
-        break;
-    case 1:
-        ret = GetFriendOfAbnormal();
-        break;
-    default:
-        if ((((u32) (M2C_FIELD((M2C_FIELD(data_0203673c, s32 *, 0x10) + (((u32) (*p << 0xD) >> 0x18) * 4)), s32 *, 8) << 9) >> 0x1B) == 4)) {
-            ret = is_thereEnemy(arg0, (((u32) (M2C_FIELD(arg0, u16 *, 0x2C) << 0x1F)) >> 0x1F) ^ 1);
-        } else {
-            ret = is_thereEnemy(arg0, ((u32) (M2C_FIELD(arg0, u16 *, 0x2C) << 0x1F)) >> 0x1F);
-        }
-        break;
+        case 0:
+            ret = GetFriendOfHalfHP();
+            break;
+        case 1:
+            ret = GetFriendOfAbnormal();
+            break;
+        default:
+            if ((((u32) (M2C_FIELD((M2C_FIELD(data_0203673c, s32 *, 0x10) + (((u32) (*p << 0xD) >> 0x18) * 4)), s32 *, 8)
+                         << 9) >>
+                  0x1B) == 4)) {
+                ret = is_thereEnemy(arg0, (((u32) (M2C_FIELD(arg0, u16 *, 0x2C) << 0x1F)) >> 0x1F) ^ 1);
+            } else {
+                ret = is_thereEnemy(arg0, ((u32) (M2C_FIELD(arg0, u16 *, 0x2C) << 0x1F)) >> 0x1F);
+            }
+            break;
     }
     return ret;
 }

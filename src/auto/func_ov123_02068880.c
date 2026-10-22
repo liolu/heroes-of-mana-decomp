@@ -10,7 +10,7 @@ s32 func_ov123_02068880(void) {
     void *v;
 
     irq = func_0200fa98();
-    v = data_ov123_020df180;
+    v   = data_ov123_020df180;
     if (v == NULL) {
         func_0200faac(irq);
         return 1;

@@ -15,7 +15,7 @@ s32 func_ov114_020e2fe0(void) {
     s32 n;
 
     for (i = 0; i < 4; i++) {
-        data_ov114_020e6148.arr[i] = (void *)func_0200ed38(0, -1, 0x800);
+        data_ov114_020e6148.arr[i] = (void *) func_0200ed38(0, -1, 0x800);
     }
     n = 0;
     for (i = 0; i < 4; i++) {
@@ -34,7 +34,3 @@ s32 func_ov114_020e2fe0(void) {
     }
     return 1;
 }
-
-
-
-

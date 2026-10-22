@@ -30,23 +30,23 @@ void MTG_GameOver(void *arg0, void *arg1, s32 arg4) {
     WaitSyncSelectForGameOver();
     temp_r0 = GetNumberChoicePos();
     switch (temp_r0) {                              /* irregular */
-    case 1:
-        SetBright3DScreen(-8, 0, 0x14);
-        WaitSyncCounter(0x14);
-        delete__MISSION_GAMEOVER();
-        Goto_EventNoAndTitleNo(temp_r5, temp_r4);
-        break;
-    case 2:
-        SetBright3DScreen(-8, 0, 0x14);
-        WaitSyncCounter(0x14);
-        delete__MISSION_GAMEOVER();
-        GotoLoadData();
-        break;
-    case 3:
-        SetBright3DScreen(-8, 0, 0x14);
-        WaitSyncCounter(0x14);
-        delete__MISSION_GAMEOVER();
-        GotoTitleScreen();
-        break;
+        case 1:
+            SetBright3DScreen(-8, 0, 0x14);
+            WaitSyncCounter(0x14);
+            delete__MISSION_GAMEOVER();
+            Goto_EventNoAndTitleNo(temp_r5, temp_r4);
+            break;
+        case 2:
+            SetBright3DScreen(-8, 0, 0x14);
+            WaitSyncCounter(0x14);
+            delete__MISSION_GAMEOVER();
+            GotoLoadData();
+            break;
+        case 3:
+            SetBright3DScreen(-8, 0, 0x14);
+            WaitSyncCounter(0x14);
+            delete__MISSION_GAMEOVER();
+            GotoTitleScreen();
+            break;
     }
 }

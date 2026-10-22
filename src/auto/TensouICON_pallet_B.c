@@ -18,11 +18,13 @@ void TensouICON_pallet_B(void *arg0, void *arg1, s32 arg5) {
 
     temp_r6 = arg0;
     temp_r5 = arg1;
-    s = (S *)data_ov000_0205154c;
+    s       = (S *) data_ov000_0205154c;
     temp_r4 = M2C_FIELD(data_ov000_0205154c, u16 *, 0xA1E);
     if (((u32) (M2C_FIELD(data_ov000_0205154c, s32 *, 0x608) << 0x1F) >> 0x1F) == 1) {
-        MIi_CpuCopy16((u8 *)s->pal + 0x4B0 + ((temp_r6 + M2C_FIELD(data_ov000_0205154c, u16 *, 0xA1C)) << 5), M2C_FIELD(data_ov000_0205154c, s32 *, 0x610) + ((temp_r4 + temp_r5) << 5), 0x20);
+        MIi_CpuCopy16((u8 *) s->pal + 0x4B0 + ((temp_r6 + M2C_FIELD(data_ov000_0205154c, u16 *, 0xA1C)) << 5),
+                      M2C_FIELD(data_ov000_0205154c, s32 *, 0x610) + ((temp_r4 + temp_r5) << 5), 0x20);
     }
-    s = (S *)data_ov000_0205154c;
-    MIi_CpuCopy16((u8 *)s->pal + 0x4B0 + ((temp_r6 + M2C_FIELD(data_ov000_0205154c, u16 *, 0xA1C)) << 5), (u8 *)s->pal + 0x4B0 + ((temp_r4 + temp_r5) << 5), 0x20);
+    s = (S *) data_ov000_0205154c;
+    MIi_CpuCopy16((u8 *) s->pal + 0x4B0 + ((temp_r6 + M2C_FIELD(data_ov000_0205154c, u16 *, 0xA1C)) << 5),
+                  (u8 *) s->pal + 0x4B0 + ((temp_r4 + temp_r5) << 5), 0x20);
 }

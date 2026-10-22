@@ -7,9 +7,9 @@ void func_ov114_020e4fa0(void *arg0) {
     u32 var_r4;
     void *temp_ip;
 
-    var_lr = 0;
+    var_lr  = 0;
     temp_r1 = (u32) (M2C_FIELD(arg0, s32 *, 4) << 8) >> 0x18;
-    var_r4 = 0;
+    var_r4  = 0;
     do {
         temp_ip = arg0 + var_lr;
         temp_r3 = M2C_FIELD(temp_ip, u8 *, 0x10);

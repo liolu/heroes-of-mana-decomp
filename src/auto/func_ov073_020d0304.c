@@ -12,7 +12,7 @@ void func_ov073_020d0304(void) {
         EquipItem(9, -2);
         EquipItem(9, -3);
         flags = M2C_FIELD(data_ov000_02051548, s32 *, 0x8C) & 0x800000;
-        val = M2C_FIELD(data_ov000_02051548, s32 *, 0x90);
+        val   = M2C_FIELD(data_ov000_02051548, s32 *, 0x90);
         if ((val == 4) && (flags != 0x800000)) {
             EquipItem(9, 0x9D);
         }
@@ -24,7 +24,7 @@ void func_ov073_020d0304(void) {
     EquipItem(0xA, -2);
     EquipItem(0xA, -3);
     flags = M2C_FIELD(data_ov000_02051548, s32 *, 0x8C) & 0x800000;
-    val = M2C_FIELD(data_ov000_02051548, s32 *, 0x90);
+    val   = M2C_FIELD(data_ov000_02051548, s32 *, 0x90);
     if (val != 5) {
         return;
     }

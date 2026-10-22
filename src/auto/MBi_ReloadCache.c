@@ -17,8 +17,7 @@ void MBi_ReloadCache(void *arg0) {
     temp_r4 = M2C_FIELD(arg0, void **, 0x10);
     func_02013190((M2C_UNK *) sp4);
     temp_r5_2 = M2C_FIELD(temp_r4, s32 *, 0);
-    if (FS_OpenFileDirect((M2C_UNK *) sp4,
-                          FS_FindArchive(temp_r5 + 0x10, M2C_FIELD(temp_r5, s32 *, 0x14)), temp_r5_2,
+    if (FS_OpenFileDirect((M2C_UNK *) sp4, FS_FindArchive(temp_r5 + 0x10, M2C_FIELD(temp_r5, s32 *, 0x14)), temp_r5_2,
                           temp_r5_2 + M2C_FIELD(temp_r4, s32 *, 4), -1) != 0) {
         if (M2C_FIELD(temp_r4, s32 *, 4) ==
             func_0201360c((M2C_UNK *) sp4, M2C_FIELD(temp_r4, s32 *, 8), M2C_FIELD(temp_r4, s32 *, 4))) {

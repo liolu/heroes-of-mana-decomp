@@ -5,10 +5,10 @@ typedef struct {
     u32 f0;
     u32 f4;
     u8 pad0[8];
-    u32 p28:28;
-    u32 b28:1;
-    u32 b29:1;
-    u32 p2:2;
+    u32 p28 : 28;
+    u32 b28 : 1;
+    u32 b29 : 1;
+    u32 p2 : 2;
 } SysData;
 
 void ClearRecoverHpSw(void);                  /* extern */

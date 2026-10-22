@@ -26,8 +26,8 @@ void changeAnimationObjByMoveLook(void) {
         var_r5 += 1;
         var_r4 += 0x110;
     } while (var_r5 < 0x42);
-    temp_r0 = -(M2C_FIELD(data_ov000_02051548, s32 *, 0x1E0) - 675);
-    var_r5 = (s32) (u16) ((temp_r0 * 0x10000) / 1200) >> 13;
+    temp_r0  = -(M2C_FIELD(data_ov000_02051548, s32 *, 0x1E0) - 675);
+    var_r5   = (s32) (u16) ((temp_r0 * 0x10000) / 1200) >> 13;
     var_r4_2 = M2C_FIELD(data_ov000_02051548, void **, 0x2F0);
     if (var_r4_2 != NULL) {
         do {

@@ -11,10 +11,22 @@ extern u8 func_ov004_020bcb34[];
 extern u8 func_ov004_020bf910[];
 extern u8 func_ov004_020bf944[];
 
-u32 data_ov004_020ce304[19] = {
-    (u32)&func_ov004_020bf944, (u32)&func_ov004_020bf910, 0x00000000, 0x00000000,
-    (u32)&func_ov004_020ba6c8, (u32)&func_ov004_020ba6ac, (u32)&func_ov004_020ba6c0, (u32)&func_ov004_020ba6a8,
-    (u32)&func_ov004_020ba6a0, 0x00000000, 0x00000000, (u32)&func_ov004_020bcb34,
-    (u32)&func_ov004_020bcb20, (u32)&func_ov004_020ba6c0, (u32)&func_ov004_020ba6a8, (u32)&func_ov004_020ba6a0,
-    0x00000000, 0x00000000, 0x00000000
-};
+u32 data_ov004_020ce304[19] = {(u32) &func_ov004_020bf944,
+                               (u32) &func_ov004_020bf910,
+                               0x00000000,
+                               0x00000000,
+                               (u32) &func_ov004_020ba6c8,
+                               (u32) &func_ov004_020ba6ac,
+                               (u32) &func_ov004_020ba6c0,
+                               (u32) &func_ov004_020ba6a8,
+                               (u32) &func_ov004_020ba6a0,
+                               0x00000000,
+                               0x00000000,
+                               (u32) &func_ov004_020bcb34,
+                               (u32) &func_ov004_020bcb20,
+                               (u32) &func_ov004_020ba6c0,
+                               (u32) &func_ov004_020ba6a8,
+                               (u32) &func_ov004_020ba6a0,
+                               0x00000000,
+                               0x00000000,
+                               0x00000000};

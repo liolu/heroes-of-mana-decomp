@@ -18,21 +18,21 @@ s32 func_ov123_020712f8(void *arg0) {
     temp_r0 = M2C_FIELD(temp_r4, s8 *, 0x73);
     temp_r1 = M2C_FIELD(temp_r4, s32 *, 0x68);
     switch (temp_r0) {
-    default:
-        break;
-    case 0:
-    case 4:
-        func_ov123_0206d2e0(temp_r1 + 0x20);
-        func_ov123_0206d318();
-        break;
-    case 1:
-        func_ov123_0206d318();
-        func_ov123_0206d3bc();
-        func_ov123_0206d27c(&func_ov123_02071950);
-        break;
-    case 2:
-        func_ov123_0206d3bc();
-        break;
+        default:
+            break;
+        case 0:
+        case 4:
+            func_ov123_0206d2e0(temp_r1 + 0x20);
+            func_ov123_0206d318();
+            break;
+        case 1:
+            func_ov123_0206d318();
+            func_ov123_0206d3bc();
+            func_ov123_0206d27c(&func_ov123_02071950);
+            break;
+        case 2:
+            func_ov123_0206d3bc();
+            break;
     }
     M2C_FIELD(temp_r4, s16 *, 0x70) = 1;
     return 0;

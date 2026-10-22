@@ -13,6 +13,6 @@ void func_ov123_0208b878(void) {
     if (M2C_FIELD(p, s32 *, 0) != -1) {
         func_ov123_0207af34(M2C_FIELD(p, s32 *, 0));
     }
-    M2C_FIELD(p, s32 *, 0) = -1;
+    M2C_FIELD(p, s32 *, 0)    = -1;
     M2C_FIELD(p, s32 *, 0x10) = 4;
 }

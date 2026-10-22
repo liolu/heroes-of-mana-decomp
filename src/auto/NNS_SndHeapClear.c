@@ -28,14 +28,14 @@ void NNS_SndHeapClear(Heap *heap) {
     s32 flag;
 
     flag = 0;
-    p = NNS_FndGetPrevListObject(&heap->list, NULL);
+    p    = NNS_FndGetPrevListObject(&heap->list, NULL);
     if (p != NULL) {
         do {
             q = NNS_FndGetPrevListObject(p, NULL);
             while (q != NULL) {
                 node = q;
                 if (node->callback != NULL) {
-                    node->callback((u8 *)node + 0x20, node->field8, node->field10, node->field14);
+                    node->callback((u8 *) node + 0x20, node->field8, node->field10, node->field14);
                     flag = 1;
                 }
                 q = NNS_FndGetPrevListObject(p, q);

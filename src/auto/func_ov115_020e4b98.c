@@ -13,8 +13,8 @@ void func_ov115_020e4b98(s32 arg0) {
     s32 j;
 
     data_ov115_020e9160 = 0x200;
-    i = 0;
-    off = 5;
+    i                   = 0;
+    off                 = 5;
     for (; i < 2; i++) {
         if (data_ov115_020e99d8[i] != 0) {
             func_ov115_020e696c(5, arg0 + off, data_ov115_020e99d8[i], 4, 0, 0);
@@ -22,7 +22,7 @@ void func_ov115_020e4b98(s32 arg0) {
         off += 3;
     }
     off2 = 0xC;
-    j = 0;
+    j    = 0;
     while (j < 4) {
         if (data_ov115_020e99dc[j] != 0) {
             func_ov115_020e69d0(5, arg0 + off2, data_ov115_020e99dc[j], 4, 0, 0);
@@ -31,6 +31,3 @@ void func_ov115_020e4b98(s32 arg0) {
         j++;
     }
 }
-
-
-

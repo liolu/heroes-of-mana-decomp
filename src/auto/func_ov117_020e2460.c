@@ -16,15 +16,15 @@ typedef struct {
 } Obj216c;
 
 void func_ov117_020e2460(Obj216c *arg0) {
-    arg0->b0 = 0;
-    arg0->b1 = 0;
-    arg0->h2 = 0;
-    arg0->h4 = 0;
-    arg0->h6 = 0;
-    arg0->f8 = 0;
-    arg0->f9 = 0;
-    arg0->hC = 0;
-    arg0->hE = 0;
+    arg0->b0  = 0;
+    arg0->b1  = 0;
+    arg0->h2  = 0;
+    arg0->h4  = 0;
+    arg0->h6  = 0;
+    arg0->f8  = 0;
+    arg0->f9  = 0;
+    arg0->hC  = 0;
+    arg0->hE  = 0;
     arg0->f10 = 0;
-    arg0->f0 = 0x65;
+    arg0->f0  = 0x65;
 }

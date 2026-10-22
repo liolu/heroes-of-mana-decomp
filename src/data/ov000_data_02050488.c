@@ -11,8 +11,6 @@ extern u8 UpDateParamVSByChild[];
 extern u8 UpDateParamVSByParent[];
 extern u8 appearChild[];
 
-u32 data_ov000_02050488[9] = {
-    (u32)&appearChild, (u32)&GetOkFromParent, (u32)&UpDateParamVSByParent, (u32)&UpDateParamVSByChild,
-    (u32)&GetVSErrorByError_Link, (u32)&GetVSErrorByError_WireLessBad, (u32)&GetEndSelNoFromKO, (u32)&GetEndSelNoFromOYA,
-    (u32)&CutFromPartner
-};
+u32 data_ov000_02050488[9] = {(u32) &appearChild,          (u32) &GetOkFromParent,        (u32) &UpDateParamVSByParent,
+                              (u32) &UpDateParamVSByChild, (u32) &GetVSErrorByError_Link, (u32) &GetVSErrorByError_WireLessBad,
+                              (u32) &GetEndSelNoFromKO,    (u32) &GetEndSelNoFromOYA,     (u32) &CutFromPartner};

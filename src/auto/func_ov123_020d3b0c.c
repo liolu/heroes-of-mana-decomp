@@ -6,8 +6,8 @@ typedef struct VT {
 extern void *data_ov123_020e47e8;
 
 void func_ov123_020d3b0c(void *arg0) {
-    unsigned char *p = (unsigned char *)((unsigned int)data_ov123_020e47e8 + 0x530) + 0x7000;
-    VT *vt = *(VT **)p;
+    unsigned char *p = (unsigned char *) ((unsigned int) data_ov123_020e47e8 + 0x530) + 0x7000;
+    VT *vt           = *(VT **) p;
 
     vt->fn(p);
 }

@@ -15,8 +15,10 @@ s32 checkRectPosCamp(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4) {
     var_ip = data_ov003_020b0cf0;
     var_lr = 0;
     do {
-        if ((((u32) (M2C_FIELD(var_ip, s32 *, 0) << 0x1F) >> 0x1F) != 0) && (temp_r6 = M2C_FIELD(var_ip, void **, 0xE8), (temp_r6 != NULL))) {
-            if ((((u32) (M2C_FIELD(temp_r6, s32 *, 8) << 8) >> 0x1F) == 0) && (arg0 == ((u32) (M2C_FIELD(var_ip, s32 *, 8) << 5) >> 0x1C))) {
+        if ((((u32) (M2C_FIELD(var_ip, s32 *, 0) << 0x1F) >> 0x1F) != 0) &&
+            (temp_r6 = M2C_FIELD(var_ip, void **, 0xE8), (temp_r6 != NULL))) {
+            if ((((u32) (M2C_FIELD(temp_r6, s32 *, 8) << 8) >> 0x1F) == 0) &&
+                (arg0 == ((u32) (M2C_FIELD(var_ip, s32 *, 8) << 5) >> 0x1C))) {
                 temp_r6_2 = M2C_FIELD(var_ip, s8 *, 0x60);
                 if ((temp_r6_2 >= arg1) && (temp_r6_2 <= arg3)) {
                     temp_r6_3 = M2C_FIELD(var_ip, s8 *, 0x61);

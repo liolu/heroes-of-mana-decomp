@@ -26,12 +26,12 @@ void func_0200109c(s32 arg0) {
         M2C_FIELD(data_0203673c, s32 *, 8) = 0;
     }
     if ((arg0 != 0) && (arg0 == 1)) {
-        M2C_FIELD(data_0203673c, s32 *, 4) = func_02001598(0xD, &sp0);
+        M2C_FIELD(data_0203673c, s32 *, 4)    = func_02001598(0xD, &sp0);
         M2C_FIELD(data_0203673c, u32 *, 0x1C) = (u32) ((u32) (sp0 - 8) >> 5);
-        M2C_FIELD(data_0203673c, s32 *, 8) = func_02001598(0xE, &sp0);
+        M2C_FIELD(data_0203673c, s32 *, 8)    = func_02001598(0xE, &sp0);
         return;
     }
-    M2C_FIELD(data_0203673c, s32 *, 4) = func_02001598(0, &sp0);
+    M2C_FIELD(data_0203673c, s32 *, 4)    = func_02001598(0, &sp0);
     M2C_FIELD(data_0203673c, u32 *, 0x1C) = (u32) ((u32) (sp0 - 8) >> 5);
-    M2C_FIELD(data_0203673c, s32 *, 8) = func_02001598(2, &sp0);
+    M2C_FIELD(data_0203673c, s32 *, 8)    = func_02001598(2, &sp0);
 }

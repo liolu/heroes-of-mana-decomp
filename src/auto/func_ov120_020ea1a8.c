@@ -16,15 +16,15 @@ typedef struct {
 } S;
 
 void func_ov120_020ea1a8(S *arg0) {
-    arg0->f0 = 0;
-    arg0->f1 = 0;
-    arg0->f2 = 0;
-    arg0->f4 = 0;
-    arg0->f6 = 0;
-    arg0->b8 = 0;
-    arg0->b9 = 0;
-    arg0->fC = 0;
-    arg0->fE = 0;
+    arg0->f0     = 0;
+    arg0->f1     = 0;
+    arg0->f2     = 0;
+    arg0->f4     = 0;
+    arg0->f6     = 0;
+    arg0->b8     = 0;
+    arg0->b9     = 0;
+    arg0->fC     = 0;
+    arg0->fE     = 0;
     arg0->b10_17 = 0;
-    arg0->b0_7 = 0x23;
+    arg0->b0_7   = 0x23;
 }

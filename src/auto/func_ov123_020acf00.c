@@ -19,15 +19,15 @@ s32 func_ov123_020acf00(void) {
             if (var_r0 != 0) {
                 do {
                     switch (var_r0) {               /* irregular */
-                    case 4:
-                    case 5:
-                        break;
-                    case 20:
-                        var_r5 = 0;
-                        break;
-                    default:
-                        var_r5 = 0;
-                        break;
+                        case 4:
+                        case 5:
+                            break;
+                        case 20:
+                            var_r5 = 0;
+                            break;
+                        default:
+                            var_r5 = 0;
+                            break;
                     }
                     var_r0 = func_ov123_020ad070();
                 } while (var_r0 != 0);

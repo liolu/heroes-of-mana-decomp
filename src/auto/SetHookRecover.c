@@ -2,8 +2,8 @@
 #include "m2c.h"
 
 typedef struct {
-    u16 b0:1;
-    u16 rest:15;
+    u16 b0 : 1;
+    u16 rest : 15;
 } Bit16;
 
 typedef struct {
@@ -12,9 +12,9 @@ typedef struct {
     u8 pad1[0x2C - 0xC];
     Bit16 f2C;
     u8 pad2[0xA8 - 0x2E];
-    u16 lo:7;
-    u16 hi:7;
-    u16 top:2;
+    u16 lo : 7;
+    u16 hi : 7;
+    u16 top : 2;
 } ShipObj;
 
 void *GetShipAooSt(s32);                     /* extern */

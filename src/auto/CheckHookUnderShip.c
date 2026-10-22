@@ -42,8 +42,8 @@ s32 CheckHookUnderShip(S *arg0, void *arg1) {
         return 0;
     }
     arg0->lo = 0;
-    arg0->x = arg0->a;
-    arg0->y = arg0->b;
+    arg0->x  = arg0->a;
+    arg0->y  = arg0->b;
     SetShipAnchor(arg0);
     return 1;
 }

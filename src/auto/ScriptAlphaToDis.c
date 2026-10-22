@@ -21,15 +21,15 @@ void FinishScriptAlpha(void *);
 void ScriptAlphaToDis(S *arg0, s32 arg1, s32 arg2) {
     if (!arg0->flag) {
         arg0->alpha = GetUsualAlpha(arg0);
-        arg0->r = 0;
-        arg0->g = arg2;
+        arg0->r     = 0;
+        arg0->g     = arg2;
     } else {
         arg0->r = 0;
         arg0->g = arg2;
     }
-    arg0->f4b = arg1;
+    arg0->f4b  = arg1;
     arg0->flag = 1;
-    arg0->f4c = ((volatile S *) arg0)->alpha;
+    arg0->f4c  = ((volatile S *) arg0)->alpha;
     if (arg2 == 0) {
         FinishScriptAlpha(arg0);
     }

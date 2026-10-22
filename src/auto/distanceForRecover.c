@@ -23,38 +23,38 @@ s32 distanceForRecover(s32 arg0, s8 *arg1) {
         return 0;
     }
     switch ((p->kind << 5) >> 28) {
-    case 4:
-        dx = arg1[0x60] - p->x;
-        if (dx < 0) {
-            dx = -dx;
-        }
-        if (dx > 5) {
-            goto fail;
-        }
-        dy = arg1[0x61] - p->y;
-        if (dy < 0) {
-            dy = -dy;
-        }
-        if (dy > 5) {
-            goto fail;
-        }
-        return 1;
-    case 7:
-        dx = arg1[0x60] - p->x;
-        if (dx < 0) {
-            dx = -dx;
-        }
-        if (dx > 3) {
-            goto fail;
-        }
-        dy = arg1[0x61] - p->y;
-        if (dy < 0) {
-            dy = -dy;
-        }
-        if (dy > 3) {
-            goto fail;
-        }
-        return 1;
+        case 4:
+            dx = arg1[0x60] - p->x;
+            if (dx < 0) {
+                dx = -dx;
+            }
+            if (dx > 5) {
+                goto fail;
+            }
+            dy = arg1[0x61] - p->y;
+            if (dy < 0) {
+                dy = -dy;
+            }
+            if (dy > 5) {
+                goto fail;
+            }
+            return 1;
+        case 7:
+            dx = arg1[0x60] - p->x;
+            if (dx < 0) {
+                dx = -dx;
+            }
+            if (dx > 3) {
+                goto fail;
+            }
+            dy = arg1[0x61] - p->y;
+            if (dy < 0) {
+                dy = -dy;
+            }
+            if (dy > 3) {
+                goto fail;
+            }
+            return 1;
     }
 fail:
     return 0;

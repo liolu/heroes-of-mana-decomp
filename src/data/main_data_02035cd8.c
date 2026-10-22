@@ -3,6 +3,4 @@
 
 extern u8 data_020352fc[];
 
-u32 data_02035cd8[1] = {
-    (u32)&data_020352fc
-};
+u32 data_02035cd8[1] = {(u32) &data_020352fc};

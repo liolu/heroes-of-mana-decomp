@@ -13,7 +13,7 @@ typedef struct {
 extern S data_ov115_020e9160;
 
 void func_ov115_020e4fc0(void) {
-    M2C_FIELD(&data_ov115_020e9160, s32 *, 4) = 1;
+    M2C_FIELD(&data_ov115_020e9160, s32 *, 4)   = 1;
     M2C_FIELD(&data_ov115_020e9160, s32 *, 0xC) = 0x200;
     func_ov115_020e36c0();
     func_ov115_020e3690(0, 0x400);

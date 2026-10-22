@@ -24,7 +24,7 @@ void func_ov114_020e23a8(s32 arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4, s32 a
     if (idx >= 0x80) {
         return;
     }
-    e = &data_ov114_020e6148.table[idx];
+    e     = &data_ov114_020e6148.table[idx];
     e->lo = arg4 | (arg5 | ((arg1 & 0xFF) | (arg7 << 10)) | ((u32) (arg0 & 0x1FF) << 16));
     e->hi = arg3 | (arg6 << 10) | (arg2 << 12);
     data_ov114_020e6148.count++;

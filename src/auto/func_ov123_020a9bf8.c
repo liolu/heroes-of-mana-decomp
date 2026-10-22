@@ -20,7 +20,7 @@ s32 func_ov123_020a9bf8(void) {
     s32 temp_r6;
 
     if (data_ov123_020e3094 != 0) {
-        temp_r6 = data_ov123_020e3068;
+        temp_r6             = data_ov123_020e3068;
         data_ov123_020e3040 = 1;
         while ((data_ov123_020e3068 >= 1) && (data_ov123_020e3068 <= 5)) {
             func_0200e0a4(0x64);
@@ -42,7 +42,7 @@ s32 func_ov123_020a9bf8(void) {
         }
     }
     if (data_ov123_020e30a4 > 0) {
-        temp_r0 = func_ov123_020acf00();
+        temp_r0             = func_ov123_020acf00();
         data_ov123_020e30a4 = 0;
         return temp_r0;
     }

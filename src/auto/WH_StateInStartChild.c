@@ -16,8 +16,8 @@ s32 WH_StateInStartChild(void) {
 
     state = M2C_FIELD(&data_ov003_020b6440, s32 *, 0x10);
     if (!((state != 4) && (state != 6) && (state != 5))) {
-        if (M2C_FIELD(&data_ov003_020b6440, M2C_UNK (**)(M2C_UNK *), 0x18) != NULL) {
-            M2C_FIELD(&data_ov003_020b6440, M2C_UNK (**)(M2C_UNK *), 0x18)(&data_ov003_020ae5b0);
+        if (M2C_FIELD(&data_ov003_020b6440, M2C_UNK(**)(M2C_UNK *), 0x18) != NULL) {
+            M2C_FIELD(&data_ov003_020b6440, M2C_UNK(**)(M2C_UNK *), 0x18)(&data_ov003_020ae5b0);
         }
         return 1;
     } else {

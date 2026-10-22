@@ -20,11 +20,8 @@ s32 IsThereHookPosition(void *arg0) {
             return 0;
         }
         hb = (HB *) ((u8 *) p + 0xA8);
-        if ((((u32) (M2C_FIELD(p, s32 *, 0) << 0x1F) >> 0x1F) != 0) &&
-            (((u32) (M2C_FIELD(p, s32 *, 8) * 4) >> 0x1F) != 0) &&
-            (hb->c == 2) &&
-            (hb->a == M2C_FIELD(arg0, s8 *, 0x60)) &&
-            (hb->b == M2C_FIELD(arg0, s8 *, 0x61))) {
+        if ((((u32) (M2C_FIELD(p, s32 *, 0) << 0x1F) >> 0x1F) != 0) && (((u32) (M2C_FIELD(p, s32 *, 8) * 4) >> 0x1F) != 0) &&
+            (hb->c == 2) && (hb->a == M2C_FIELD(arg0, s8 *, 0x60)) && (hb->b == M2C_FIELD(arg0, s8 *, 0x61))) {
             return 1;
         }
     }
