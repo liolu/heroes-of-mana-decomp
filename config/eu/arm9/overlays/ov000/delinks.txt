@@ -281,9 +281,6 @@ src/data/ov000_profrec_020506a8.c:
     complete
     .data       start:0x020506a8 end:0x020506c0
 
-src/data/ov000_profrec_020506ec.c:
-    complete
-    .data       start:0x020506ec end:0x02050704
 
 src/data/ov000_profrec_02050704.c:
     complete
@@ -602,3 +599,8 @@ src/auto/SubWindowMessageSet.c:
     complete
     .text       start:0x02044a50 end:0x02044b4c
     .data       start:0x02050664 end:0x02050678
+
+src/auto/release_AnaGlobalWork.c:
+    complete
+    .text       start:0x0204587c end:0x02045c28
+    .data       start:0x020506ec end:0x02050704

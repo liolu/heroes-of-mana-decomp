@@ -382,3 +382,7 @@ src/auto/func_ov107_020dfe70.c:
 src/data/ov107_data_020e0e00.c:
     complete
     .data       start:0x020e0e00 end:0x020e1500
+
+src/auto/func_ov107_020d6c00.c:
+    complete
+    .text       start:0x020d6c00 end:0x020d6f30
