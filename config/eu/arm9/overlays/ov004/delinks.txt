@@ -4576,3 +4576,19 @@ src/auto/func_ov004_020cb6f8.c:
 src/auto/func_ov004_020b8dc0.c:
     complete
     .text       start:0x020b8dc0 end:0x020b8df8
+
+src/auto/func_ov004_020cab40.c:
+    complete
+    .text       start:0x020cab40 end:0x020cabfc
+
+src/auto/func_ov004_020c2810.c:
+    complete
+    .text       start:0x020c2810 end:0x020c28d4
+
+src/auto/func_ov004_020c6de0.c:
+    complete
+    .text       start:0x020c6de0 end:0x020c6e8c
+
+src/auto/func_ov004_020bd658.c:
+    complete
+    .text       start:0x020bd658 end:0x020bd710

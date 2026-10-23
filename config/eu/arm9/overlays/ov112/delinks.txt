@@ -363,3 +363,23 @@ src/auto/func_ov112_020e59bc.c:
 src/auto/func_ov112_020eadbc.c:
     complete
     .text       start:0x020eadbc end:0x020eade8
+
+src/auto/func_ov112_020e1708.c:
+    complete
+    .text       start:0x020e1708 end:0x020e17c4
+
+src/auto/func_ov112_020e5174.c:
+    complete
+    .text       start:0x020e5174 end:0x020e522c
+
+src/auto/func_ov112_020e6274.c:
+    complete
+    .text       start:0x020e6274 end:0x020e6328
+
+src/auto/func_ov112_020e1650.c:
+    complete
+    .text       start:0x020e1650 end:0x020e1708
+
+src/auto/func_ov112_020e8d34.c:
+    complete
+    .text       start:0x020e8d34 end:0x020e8de0

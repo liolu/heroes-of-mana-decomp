@@ -332,9 +332,6 @@ src/data/ov000_profrec_020508b8.c:
     .data       start:0x020508b8 end:0x020508cc
 
 
-src/data/ov000_profrec_020508dc.c:
-    complete
-    .data       start:0x020508dc end:0x020508f0
 
 src/data/ov000_profrec_020508f0.c:
     complete
@@ -468,13 +465,7 @@ src/data/ov000_profrec_02051300.c:
     complete
     .data       start:0x02051300 end:0x02051318
 
-src/data/ov000_profrec_02051318.c:
-    complete
-    .data       start:0x02051318 end:0x02051330
 
-src/data/ov000_profrec_02051330.c:
-    complete
-    .data       start:0x02051330 end:0x0205134c
 
 src/data/ov000_profrec_0205134c.c:
     complete
@@ -548,9 +539,6 @@ src/data/ov000_profrec_020514e4.c:
     complete
     .data       start:0x020514e4 end:0x020514f4
 
-src/data/ov000_profrec_020514f4.c:
-    complete
-    .data       start:0x020514f4 end:0x02051504
 
 src/data/ov000_profrec_02051504.c:
     complete
@@ -604,3 +592,23 @@ src/auto/release_AnaGlobalWork.c:
     complete
     .text       start:0x0204587c end:0x02045c28
     .data       start:0x020506ec end:0x02050704
+
+src/auto/ReadFileAndUncomp.c:
+    complete
+    .text       start:0x02046e20 end:0x02046ed0
+    .data       start:0x020508dc end:0x020508f0
+
+src/auto/DeleteNameByNoAnimeObjByID.c:
+    complete
+    .text       start:0x0204ce58 end:0x0204cf10
+    .data       start:0x02051330 end:0x0205134c
+
+src/auto/DeleteNameByNoAnimeObj.c:
+    complete
+    .text       start:0x0204cda8 end:0x0204ce58
+    .data       start:0x02051318 end:0x02051330
+
+src/auto/GetOneMojiHaba.c:
+    complete
+    .text       start:0x020501e0 end:0x02050290
+    .data       start:0x020514f4 end:0x02051504

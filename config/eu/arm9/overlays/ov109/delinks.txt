@@ -197,13 +197,7 @@ src/data/ov109_profrec_020e9cf4.c:
     .data       start:0x020e9cf4 end:0x020e9d08
 
 
-src/data/ov109_profrec_020e9d30.c:
-    complete
-    .data       start:0x020e9d30 end:0x020e9d4c
 
-src/data/ov109_profrec_020e9d4c.c:
-    complete
-    .data       start:0x020e9d4c end:0x020e9d60
 
 src/data/ov109_profrec_020e9d74.c:
     complete
@@ -237,9 +231,6 @@ src/data/ov109_profrec_020e9e20.c:
     complete
     .data       start:0x020e9e20 end:0x020e9e30
 
-src/data/ov109_profrec_020e9e30.c:
-    complete
-    .data       start:0x020e9e30 end:0x020e9e40
 
 src/data/ov109_profrec_020e9e40.c:
     complete
@@ -269,9 +260,6 @@ src/data/ov109_profrec_020e9ec8.c:
     complete
     .data       start:0x020e9ec8 end:0x020e9edc
 
-src/data/ov109_profrec_020e9ef0.c:
-    complete
-    .data       start:0x020e9ef0 end:0x020e9f00
 
 src/data/ov109_profrec_020e9f00.c:
     complete
@@ -305,9 +293,6 @@ src/data/ov109_profrec_020e9ff0.c:
     complete
     .data       start:0x020e9ff0 end:0x020ea000
 
-src/data/ov109_profrec_020ea034.c:
-    complete
-    .data       start:0x020ea034 end:0x020ea048
 
 src/data/ov109_profrec_020ea05c.c:
     complete
@@ -435,3 +420,28 @@ src/auto/DeleteUnitStatusInShip.c:
     complete
     .text       start:0x020e3730 end:0x020e3880
     .data       start:0x020e9c34 end:0x020e9c4c
+
+src/auto/ChgColorShisetu.c:
+    complete
+    .text       start:0x020e50d0 end:0x020e518c
+    .data       start:0x020e9e30 end:0x020e9e40
+
+src/auto/GetPosNoInShisetuIconList.c:
+    complete
+    .text       start:0x020e4590 end:0x020e464c
+    .data       start:0x020e9d30 end:0x020e9d4c
+
+src/auto/GetShisetuNo.c:
+    complete
+    .text       start:0x020e5cf8 end:0x020e5dbc
+    .data       start:0x020e9ef0 end:0x020e9f00
+
+src/auto/putOneShisetuIcon.c:
+    complete
+    .text       start:0x020e464c end:0x020e470c
+    .data       start:0x020e9d4c end:0x020e9d60
+
+src/auto/changeUnitListSel.c:
+    complete
+    .text       start:0x020e6b5c end:0x020e6c0c
+    .data       start:0x020ea034 end:0x020ea048

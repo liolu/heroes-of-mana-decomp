@@ -390,3 +390,15 @@ src/auto/func_ov107_020d6c00.c:
 src/auto/func_ov107_020dbb7c.c:
     complete
     .text       start:0x020dbb7c end:0x020dbbc8
+
+src/auto/func_ov107_020da774.c:
+    complete
+    .text       start:0x020da774 end:0x020da82c
+
+src/auto/func_ov107_020daa08.c:
+    complete
+    .text       start:0x020daa08 end:0x020daacc
+
+src/auto/func_ov107_020e0cb4.c:
+    complete
+    .text       start:0x020e0cb4 end:0x020e0d78

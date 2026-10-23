@@ -199,3 +199,7 @@ src/data/ov114_rodata_020e5734.c:
 src/auto/func_ov114_020e502c.c:
     complete
     .text       start:0x020e502c end:0x020e505c
+
+src/auto/func_ov114_020e4e38.c:
+    complete
+    .text       start:0x020e4e38 end:0x020e4ee4

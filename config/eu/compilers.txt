@@ -1976,3 +1976,68 @@ src/auto/calcHitRate.c 1.2/sp2p3 -profile
 src/auto/deleteComObj.c 2.0/sp1p5 -profile
 src/auto/SetResultMapReferenceRate.c 2.0/sp1p5 -profile
 src/auto/WH_GetWMStateCodeName.c 1.2/sp2p3 -profile
+src/auto/ResetRequestTRS.c 2.0/sp1p5 -profile
+src/auto/ScriptAlphaNormal.c 2.0/sp1p5 -profile
+src/auto/SetAnchorTrs.c 2.0/sp1p5 -profile
+src/auto/SetExtBGPaletteData.c 2.0/sp1p5 -profile
+src/auto/PutTouchWaitIcon.c 2.0/sp1p5 -profile
+src/auto/PutWirelessLevel.c 2.0/sp1p5 -profile
+src/auto/ReadFileAndUncomp.c 2.0/sp1p5 -profile
+src/auto/ReleaseKaoGraCommonSub.c 2.0/sp1p5 -profile
+src/auto/PutChangeUpDownIcon.c 2.0/sp1p5 -profile
+src/auto/DeleteNameByNoAnimeObjByID.c 2.0/sp1p5 -profile
+src/auto/DropItemByNO.c 2.0/sp1p5 -profile
+src/auto/GetNextId.c 2.0/sp1p5 -profile
+src/auto/GetTaisouFlag.c 2.0/sp1p5 -profile
+src/auto/InShipIcomPut.c 2.0/sp1p5 -profile
+src/auto/MagicIcomPut.c 2.0/sp1p5 -profile
+src/auto/CanPutMagicIcon.c 2.0/sp1p5 -profile
+src/auto/ChgColorShisetu.c 2.0/sp1p5 -profile
+src/auto/DeleteModelTypeSub.c 2.0/sp1p5 -profile
+src/auto/DeleteNameByNoAnimeObj.c 2.0/sp1p5 -profile
+src/auto/MesPalTransToObjPal.c 2.0/sp1p5 -profile
+src/auto/ModelWorkReleaseAllSub.c 2.0/sp1p5 -profile
+src/auto/GetOneMojiHaba.c 2.0/sp1p5 -profile
+src/auto/GetPosNoInShisetuIconList.c 2.0/sp1p5 -profile
+src/auto/GetShisetuNo.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02067bbc.c 1.2/sp2p3
+src/auto/func_ov123_02068294.c 1.2/sp2p3
+src/auto/SetExtObjPaletteData.c 2.0/sp1p5 -profile
+src/auto/SetKUNI_paras.c 2.0/sp1p5 -profile
+src/auto/SetNowDownId_i.c 1.2/sp3 -profile
+src/auto/SetObjPaletteData.c 2.0/sp1p5 -profile
+src/auto/SetPalette.c 2.0/sp1p5 -profile
+src/auto/SetScreenRGB_AengineChangeRGB.c 2.0/sp1p5 -profile
+src/auto/SetUD_ST_paras.c 2.0/sp1p5 -profile
+src/auto/func_ov123_0206b494.c 1.2/sp2p3
+src/auto/func_ov123_0206efa0.c 1.2/sp2p3
+src/auto/func_ov123_0206f414.c 1.2/sp2p3
+src/auto/func_ov123_02099b20.c 1.2/sp3
+src/auto/func_ov123_0209c798.c 1.2/sp3
+src/auto/func_ov123_020a18d8.c 1.2/sp3
+src/auto/func_ov123_020793f0.c 1.2/sp2p3
+src/auto/func_ov123_020795a4.c 1.2/sp2p3
+src/auto/func_ov123_02079718.c 1.2/sp2p3
+src/auto/func_ov123_020b49c4.c 1.2/sp3
+src/auto/func_ov123_020b99ac.c 1.2/sp3
+src/auto/func_ov123_02069f80.c 1.2/sp3
+src/auto/func_ov123_0206adcc.c 1.2/sp3
+src/auto/func_ov123_0207a62c.c 1.2/sp3
+src/auto/func_ov123_0207ea0c.c 1.2/sp3
+src/auto/func_ov123_02073188.c 1.2/sp2p3
+src/auto/func_ov123_0208d244.c 1.2/sp3
+src/auto/func_ov123_020c4768.c 1.2/sp3
+src/auto/func_ov123_020a4758.c 1.2/sp3
+src/auto/func_ov123_020ae754.c 1.2/sp3
+src/auto/func_ov123_020c60c0.c 1.2/sp3
+src/auto/func_ov123_020c65d4.c 1.2/sp3
+src/auto/func_ov123_020b03c4.c 1.2/sp3
+src/auto/func_ov123_020b0524.c 1.2/sp3
+src/auto/func_ov123_0208a248.c 1.2/sp3
+src/auto/putOneShisetuIcon.c 2.0/sp1p5 -profile
+src/auto/changeUnitListSel.c 2.0/sp1p5 -profile
+src/auto/checkUnitKazuInShip.c 2.0/sp1p5 -profile
+src/auto/TransTex2VramSub.c 2.0/sp1p5 -profile
+src/auto/NNSi_SndPlayerAllocSeqPlayer.c 1.2/sp3
+src/auto/func_02005804.c 1.2/sp3
+src/auto/func_02007e38.c 1.2/sp3

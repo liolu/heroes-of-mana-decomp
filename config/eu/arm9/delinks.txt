@@ -4603,3 +4603,19 @@ src/auto/MBi_SetTask.c:
 src/auto/func_02014408.c:
     complete
     .text       start:0x02014408 end:0x020144fc
+
+src/auto/NNSi_SndPlayerAllocSeqPlayer.c:
+    complete
+    .text       start:0x02004140 end:0x020041ec
+
+src/auto/func_02005804.c:
+    complete
+    .text       start:0x02005804 end:0x020058c8
+
+src/auto/func_02002b6c.c:
+    complete
+    .text       start:0x02002b6c end:0x02002c20
+
+src/auto/func_02007e38.c:
+    complete
+    .text       start:0x02007e38 end:0x02007ef8
