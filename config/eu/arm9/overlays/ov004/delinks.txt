@@ -4600,3 +4600,7 @@ src/auto/func_ov004_020c6fd8.c:
 src/auto/func_ov004_020ba488.c:
     complete
     .text       start:0x020ba488 end:0x020ba5d4
+
+src/auto/func_ov004_020c452c.c:
+    complete
+    .text       start:0x020c452c end:0x020c4780

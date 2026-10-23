@@ -426,3 +426,19 @@ src/auto/func_ov107_020dd684.c:
 src/auto/func_ov107_020decb4.c:
     complete
     .text       start:0x020decb4 end:0x020dedf8
+
+src/auto/func_ov107_020dd288.c:
+    complete
+    .text       start:0x020dd288 end:0x020dd494
+
+src/auto/func_ov107_020dda38.c:
+    complete
+    .text       start:0x020dda38 end:0x020ddc80
+
+src/auto/func_ov107_020de320.c:
+    complete
+    .text       start:0x020de320 end:0x020de590
+
+src/auto/func_ov107_020e01c0.c:
+    complete
+    .text       start:0x020e01c0 end:0x020e0400

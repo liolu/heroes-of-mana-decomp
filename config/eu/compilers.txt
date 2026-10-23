@@ -2093,3 +2093,35 @@ src/auto/func_ov123_020c4348.c 1.2/sp3
 src/auto/AddDiscoveryItemToBag.c 2.0/sp1p5 -profile
 src/auto/PutDeleteWinInShip.c 2.0/sp1p5 -profile
 src/auto/ChangeKuniNoForUnit.c 2.0/sp1p5 -profile
+src/auto/IntoShipInner.c 2.0/sp1p5 -profile
+src/auto/LoadNclNceNcg2Table.c 2.0/sp1p5 -profile
+src/auto/SetNoneAnimeTex.c 2.0/sp1p5 -profile
+src/auto/SetNow3Dhata.c 2.0/sp1p5 -profile
+src/auto/SetShipXYZandRot.c 2.0/sp1p5 -profile
+src/auto/CameraMove.c 2.0/sp1p5 -profile
+src/auto/ChangeGamenMode.c 2.0/sp1p5 -profile
+src/auto/CheckOneTATEline.c 2.0/sp1p5 -profile
+src/auto/GetBetterDireForAttack.c 2.0/sp1p5 -profile
+src/auto/GetCanIsThereBoard.c 2.0/sp1p5 -profile
+src/auto/SetFactoryMakeInWorld.c 2.0/sp1p5 -profile
+src/auto/SetMyParemForVS.c 2.0/sp1p5 -profile
+src/auto/RestoreObjPalette.c 2.0/sp1p5 -profile
+src/auto/SG_setSisetuFree.c 2.0/sp1p5 -profile
+src/auto/PutConfirmationInShip.c 2.0/sp1p5 -profile
+src/auto/DrawModel.c 2.0/sp1p5 -profile
+src/auto/SetUnitBaseNo.c 2.0/sp1p5 -profile
+src/auto/Status2Normal.c 2.0/sp1p5 -profile
+src/auto/VBlankIntrWaitInGame.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02068034.c 1.2/sp2p3
+src/auto/func_ov123_02068648.c 1.2/sp2p3
+src/auto/func_ov123_0206fe94.c 1.2/sp2p3
+src/auto/func_ov123_0209e624.c 1.2/sp3
+src/auto/func_ov123_020a33e0.c 1.2/sp3
+src/auto/func_ov123_02067ca0.c 1.2/sp2p3
+src/auto/func_ov123_020754d0.c 1.2/sp2p3
+src/auto/func_ov123_0208b680.c 1.2/sp3
+src/auto/func_ov123_0208c100.c 1.2/sp3
+src/auto/func_ov123_02085c40.c 1.2/sp3
+src/auto/func_ov123_020bf0ac.c 1.2/sp3
+src/auto/putKisekiToDistance.c 2.0/sp1p5 -profile
+src/auto/ldexp.c 2.0/sp1p5 -O2,p

@@ -137,9 +137,6 @@ src/data/ov109_profrec_020e9b7c.c:
     complete
     .data       start:0x020e9b7c end:0x020e9b90
 
-src/data/ov109_profrec_020e9b90.c:
-    complete
-    .data       start:0x020e9b90 end:0x020e9ba8
 
 
 src/data/ov109_profrec_020e9bc4.c:
@@ -259,9 +256,6 @@ src/data/ov109_profrec_020e9f00.c:
     complete
     .data       start:0x020e9f00 end:0x020e9f1c
 
-src/data/ov109_profrec_020e9f1c.c:
-    complete
-    .data       start:0x020e9f1c end:0x020e9f34
 
 
 src/data/ov109_profrec_020e9f60.c:
@@ -455,3 +449,13 @@ src/auto/PutDeleteWinInShip.c:
     complete
     .text       start:0x020e3b08 end:0x020e3c3c
     .data       start:0x020e9c64 end:0x020e9c78
+
+src/auto/SetFactoryMakeInWorld.c:
+    complete
+    .text       start:0x020e5e9c end:0x020e60a4
+    .data       start:0x020e9f1c end:0x020e9f34
+
+src/auto/PutConfirmationInShip.c:
+    complete
+    .text       start:0x020e28e4 end:0x020e2b1c
+    .data       start:0x020e9b90 end:0x020e9ba8

@@ -4627,3 +4627,7 @@ src/auto/func_02002eb0.c:
 src/auto/func_0202ed64.c:
     complete
     .text       start:0x0202ed64 end:0x0202eeb8
+
+src/auto/ldexp.c:
+    complete
+    .text       start:0x0202a144 end:0x0202a390

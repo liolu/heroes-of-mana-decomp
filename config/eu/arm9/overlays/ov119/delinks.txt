@@ -594,3 +594,11 @@ src/auto/func_ov119_020f1470.c:
 src/auto/func_ov119_020eb3b4.c:
     complete
     .text       start:0x020eb3b4 end:0x020eb4f0
+
+src/auto/func_ov119_020f0278.c:
+    complete
+    .text       start:0x020f0278 end:0x020f0474
+
+src/auto/func_ov119_020f0b28.c:
+    complete
+    .text       start:0x020f0b28 end:0x020f0d28
