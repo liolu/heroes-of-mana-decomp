@@ -1934,3 +1934,45 @@ src/auto/func_ov123_0208e588.c 1.2/sp3
 src/auto/func_ov123_0209506c.c 1.2/sp3
 src/auto/func_ov123_020a70d4.c 1.2/sp2p3 -thumb
 src/auto/func_02014408.c 1.2/sp2p3
+src/auto/func_ov123_02070358.c 1.2/sp2p3
+src/auto/func_ov123_02076a7c.c 1.2/sp2p3
+src/auto/func_ov123_0209a01c.c 1.2/sp3
+src/auto/func_ov123_020a4cb0.c 1.2/sp2p3
+src/auto/func_ov115_020e756c.c 1.2/sp2p3
+src/auto/AddIconPutSt.c 2.0/sp1p5 -profile
+src/auto/ChgRaceIconOffOne.c 2.0/sp1p5 -profile
+src/auto/FadeOutScreenX2X.c 2.0/sp1p5 -profile
+src/auto/Routine_MessageRectForInShip.c 2.0/sp1p5 -profile
+src/auto/Routine_PutEventTitle.c 2.0/sp1p5 -profile
+src/auto/Routine_ScreenRGB_alpha.c 2.0/sp1p5 -profile
+src/auto/Routine_ScreenRGB_rgb.c 2.0/sp1p5 -profile
+src/auto/FlyArmOnePut.c 2.0/sp1p5 -profile
+src/auto/GetDireOfUnit.c 2.0/sp1p5 -profile
+src/auto/GetObjNoInDestination.c 2.0/sp1p5 -profile
+src/auto/func_ov123_0207367c.c 1.2/sp2p3
+src/auto/func_ov123_02073844.c 1.2/sp2p3
+src/auto/func_ov123_02087094.c 1.2/sp2p3
+src/auto/func_ov123_0207ae7c.c 1.2/sp3
+src/auto/func_ov123_02081d84.c 1.2/sp2p3
+src/auto/func_ov123_020828ac.c 1.2/sp2p3
+src/auto/GetPlanTimer.c 2.0/sp1p5 -profile
+src/auto/InitializeKuniAndUnit.c 2.0/sp1p5 -profile
+src/auto/Routine_MessageRect.c 2.0/sp1p5 -profile
+src/auto/func_ov123_020748dc.c 1.2/sp2p3
+src/auto/func_ov123_020794ac.c 1.2/sp2p3
+src/auto/func_ov123_020c2d28.c 1.2/sp3
+src/auto/func_ov123_020c8840.c 1.2/sp2p3
+src/auto/func_ov123_020c8988.c 1.2/sp3
+src/auto/func_ov123_020c8c80.c 1.2/sp3
+src/auto/func_ov123_02091110.c 1.2/sp3
+src/auto/func_ov123_020b73f0.c 1.2/sp3
+src/auto/func_ov123_020bb228.c 1.2/sp3
+src/auto/func_ov123_020794f4.c 1.2/sp2p3
+src/auto/func_ov123_020797c4.c 1.2/sp2p3
+src/auto/func_ov123_0208d940.c 1.2/sp3
+src/auto/func_ov123_020cacac.c 1.2/sp3
+src/auto/func_ov123_020ca6a0.c 1.2/sp3
+src/auto/calcHitRate.c 1.2/sp2p3 -profile
+src/auto/deleteComObj.c 2.0/sp1p5 -profile
+src/auto/SetResultMapReferenceRate.c 2.0/sp1p5 -profile
+src/auto/WH_GetWMStateCodeName.c 1.2/sp2p3 -profile

@@ -211,3 +211,11 @@ src/data/ov116_rodata_020e5970.c:
 src/data/ov116_data_020e6570.c:
     complete
     .data       start:0x020e6570 end:0x020e6574
+
+src/auto/func_ov116_020e3b10.c:
+    complete
+    .text       start:0x020e3b10 end:0x020e3b4c
+
+src/auto/func_ov116_020e52d8.c:
+    complete
+    .text       start:0x020e52d8 end:0x020e5318

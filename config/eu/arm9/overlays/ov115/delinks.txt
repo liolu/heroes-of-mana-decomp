@@ -283,3 +283,19 @@ src/data/ov115_rodata_020e81c0.c:
 src/auto/func_ov115_020e4c64.c:
     complete
     .text       start:0x020e4c64 end:0x020e4d54
+
+src/auto/func_ov115_020e213c.c:
+    complete
+    .text       start:0x020e213c end:0x020e216c
+
+src/auto/func_ov115_020e2534.c:
+    complete
+    .text       start:0x020e2534 end:0x020e2568
+
+src/auto/func_ov115_020e625c.c:
+    complete
+    .text       start:0x020e625c end:0x020e629c
+
+src/auto/func_ov115_020e756c.c:
+    complete
+    .text       start:0x020e756c end:0x020e759c

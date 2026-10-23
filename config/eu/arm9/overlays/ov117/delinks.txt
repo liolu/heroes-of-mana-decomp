@@ -515,3 +515,7 @@ src/auto/func_ov117_020e92e4.c:
 src/auto/func_ov117_020e8828.c:
     complete
     .text       start:0x020e8828 end:0x020e8a40
+
+src/auto/func_ov117_020ecf50.c:
+    complete
+    .text       start:0x020ecf50 end:0x020ecf90

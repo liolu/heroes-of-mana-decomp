@@ -570,3 +570,19 @@ src/auto/func_ov119_020e9c6c.c:
 src/auto/func_ov119_020f0e84.c:
     complete
     .text       start:0x020f0e84 end:0x020f10ac
+
+src/auto/func_ov119_020ede90.c:
+    complete
+    .text       start:0x020ede90 end:0x020edeb8
+
+src/auto/func_ov119_020edf40.c:
+    complete
+    .text       start:0x020edf40 end:0x020edf78
+
+src/auto/func_ov119_020edf78.c:
+    complete
+    .text       start:0x020edf78 end:0x020edfb4
+
+src/auto/func_ov119_020eba5c.c:
+    complete
+    .text       start:0x020eba5c end:0x020eba9c

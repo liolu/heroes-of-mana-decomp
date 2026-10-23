@@ -299,3 +299,11 @@ src/data/ov120_data_020f35dc.c:
 src/auto/func_ov120_020ea3c8.c:
     complete
     .text       start:0x020ea3c8 end:0x020ea550
+
+src/auto/func_ov120_020eb600.c:
+    complete
+    .text       start:0x020eb600 end:0x020eb63c
+
+src/auto/func_ov120_020ed530.c:
+    complete
+    .text       start:0x020ed530 end:0x020ed570

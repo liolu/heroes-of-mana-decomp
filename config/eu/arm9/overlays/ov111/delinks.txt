@@ -539,3 +539,19 @@ src/data/ov111_bss_020ec1f0.c:
 src/auto/func_ov111_020e9424.c:
     complete
     .text       start:0x020e9424 end:0x020e964c
+
+src/auto/func_ov111_020e4c28.c:
+    complete
+    .text       start:0x020e4c28 end:0x020e4c68
+
+src/auto/func_ov111_020e5318.c:
+    complete
+    .text       start:0x020e5318 end:0x020e5344
+
+src/auto/func_ov111_020e5d60.c:
+    complete
+    .text       start:0x020e5d60 end:0x020e5d98
+
+src/auto/func_ov111_020e5d98.c:
+    complete
+    .text       start:0x020e5d98 end:0x020e5dd4
