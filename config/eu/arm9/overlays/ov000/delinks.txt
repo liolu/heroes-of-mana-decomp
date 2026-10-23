@@ -353,9 +353,6 @@ src/data/ov000_profrec_02050944.c:
     complete
     .data       start:0x02050944 end:0x02050954
 
-src/data/ov000_profrec_02050978.c:
-    complete
-    .data       start:0x02050978 end:0x02050990
 
 src/data/ov000_profrec_020509b4.c:
     complete
@@ -381,9 +378,6 @@ src/data/ov000_profrec_020510d0.c:
     complete
     .data       start:0x020510d0 end:0x020510e8
 
-src/data/ov000_profrec_020510f8.c:
-    complete
-    .data       start:0x020510f8 end:0x02051110
 
 src/data/ov000_profrec_0205114c.c:
     complete
@@ -405,9 +399,6 @@ src/data/ov000_profrec_02051190.c:
     complete
     .data       start:0x02051190 end:0x020511a8
 
-src/data/ov000_profrec_020511a8.c:
-    complete
-    .data       start:0x020511a8 end:0x020511c4
 
 src/data/ov000_profrec_020511c4.c:
     complete
@@ -612,3 +603,18 @@ src/auto/GetOneMojiHaba.c:
     complete
     .text       start:0x020501e0 end:0x02050290
     .data       start:0x020514f4 end:0x02051504
+
+src/auto/MessageFramePutWriteSub.c:
+    complete
+    .text       start:0x02049f18 end:0x0204a058
+    .data       start:0x020510f8 end:0x02051110
+
+src/auto/SetUpStringReadHeaderPos.c:
+    complete
+    .text       start:0x0204a904 end:0x0204aa54
+    .data       start:0x020511a8 end:0x020511c4
+
+src/auto/AddDiscoveryItemToBag.c:
+    complete
+    .text       start:0x02047e2c end:0x02047f7c
+    .data       start:0x02050978 end:0x02050990

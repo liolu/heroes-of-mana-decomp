@@ -4619,3 +4619,11 @@ src/auto/func_02002b6c.c:
 src/auto/func_02007e38.c:
     complete
     .text       start:0x02007e38 end:0x02007ef8
+
+src/auto/func_02002eb0.c:
+    complete
+    .text       start:0x02002eb0 end:0x02002fe4
+
+src/auto/func_0202ed64.c:
+    complete
+    .text       start:0x0202ed64 end:0x0202eeb8

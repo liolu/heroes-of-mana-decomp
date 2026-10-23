@@ -4592,3 +4592,11 @@ src/auto/func_ov004_020c6de0.c:
 src/auto/func_ov004_020bd658.c:
     complete
     .text       start:0x020bd658 end:0x020bd710
+
+src/auto/func_ov004_020c6fd8.c:
+    complete
+    .text       start:0x020c6fd8 end:0x020c7108
+
+src/auto/func_ov004_020ba488.c:
+    complete
+    .text       start:0x020ba488 end:0x020ba5d4

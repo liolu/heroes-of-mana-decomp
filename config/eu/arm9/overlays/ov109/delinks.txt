@@ -132,9 +132,6 @@ src/data/ov109_profrec_020e9b50.c:
     complete
     .data       start:0x020e9b50 end:0x020e9b6c
 
-src/data/ov109_profrec_020e9b6c.c:
-    complete
-    .data       start:0x020e9b6c end:0x020e9b7c
 
 src/data/ov109_profrec_020e9b7c.c:
     complete
@@ -174,9 +171,6 @@ src/data/ov109_profrec_020e9c4c.c:
     complete
     .data       start:0x020e9c4c end:0x020e9c64
 
-src/data/ov109_profrec_020e9c64.c:
-    complete
-    .data       start:0x020e9c64 end:0x020e9c78
 
 
 src/data/ov109_profrec_020e9c90.c:
@@ -269,9 +263,6 @@ src/data/ov109_profrec_020e9f1c.c:
     complete
     .data       start:0x020e9f1c end:0x020e9f34
 
-src/data/ov109_profrec_020e9f34.c:
-    complete
-    .data       start:0x020e9f34 end:0x020e9f48
 
 src/data/ov109_profrec_020e9f60.c:
     complete
@@ -303,9 +294,6 @@ src/data/ov109_profrec_020ea06c.c:
     .data       start:0x020ea06c end:0x020ea084
 
 
-src/data/ov109_profrec_020ea098.c:
-    complete
-    .data       start:0x020ea098 end:0x020ea0ac
 
 src/data/ov109_profrec_020ea0c8.c:
     complete
@@ -323,9 +311,6 @@ src/data/ov109_profrec_020ea128.c:
     complete
     .data       start:0x020ea128 end:0x020ea13c
 
-src/data/ov109_profrec_020ea13c.c:
-    complete
-    .data       start:0x020ea13c end:0x020ea154
 
 src/data/ov109_profrec_020ea154.c:
     complete
@@ -445,3 +430,28 @@ src/auto/changeUnitListSel.c:
     complete
     .text       start:0x020e6b5c end:0x020e6c0c
     .data       start:0x020ea034 end:0x020ea048
+
+src/auto/PutHelpInShip.c:
+    complete
+    .text       start:0x020e268c end:0x020e27e4
+    .data       start:0x020e9b6c end:0x020e9b7c
+
+src/auto/PutNowCanMakeUnitKazu.c:
+    complete
+    .text       start:0x020e7580 end:0x020e76c4
+    .data       start:0x020ea13c end:0x020ea154
+
+src/auto/PutShisetuUnitName.c:
+    complete
+    .text       start:0x020e60a4 end:0x020e61e4
+    .data       start:0x020e9f34 end:0x020e9f48
+
+src/auto/SetUnitMakeInWorld.c:
+    complete
+    .text       start:0x020e70f0 end:0x020e722c
+    .data       start:0x020ea098 end:0x020ea0ac
+
+src/auto/PutDeleteWinInShip.c:
+    complete
+    .text       start:0x020e3b08 end:0x020e3c3c
+    .data       start:0x020e9c64 end:0x020e9c78
