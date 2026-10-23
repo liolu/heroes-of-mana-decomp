@@ -12600,3 +12600,39 @@ src/auto/func_ov123_02085c40.c:
 src/auto/func_ov123_020bf0ac.c:
     complete
     .text       start:0x020bf0ac end:0x020bf2cc
+
+src/auto/func_ov123_0207f7fc.c:
+    complete
+    .text       start:0x0207f7fc end:0x0207fa54
+
+src/auto/func_ov123_0208ae48.c:
+    complete
+    .text       start:0x0208ae48 end:0x0208ae78
+
+src/auto/func_ov123_0208ebdc.c:
+    complete
+    .text       start:0x0208ebdc end:0x0208ec18
+
+src/auto/func_ov123_0207039c.c:
+    complete
+    .text       start:0x0207039c end:0x0207045c
+
+src/auto/func_ov123_020c9608.c:
+    complete
+    .text       start:0x020c9608 end:0x020c9740
+
+src/auto/func_ov123_020c98a8.c:
+    complete
+    .text       start:0x020c98a8 end:0x020c98d8
+
+src/auto/func_ov123_020ca658.c:
+    complete
+    .text       start:0x020ca658 end:0x020ca6a0
+
+src/auto/func_ov123_020778b4.c:
+    complete
+    .text       start:0x020778b4 end:0x02077974
+
+src/auto/func_ov123_0207a9b8.c:
+    complete
+    .text       start:0x0207a9b8 end:0x0207aaf4
