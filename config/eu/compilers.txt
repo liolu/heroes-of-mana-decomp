@@ -2135,3 +2135,72 @@ src/auto/func_ov123_020ca658.c 1.2/sp2p3
 src/auto/func_ov123_020778b4.c 1.2/sp2p3
 src/auto/func_ov123_0207a9b8.c 1.2/sp3
 src/auto/DecideMakeUnitFromType.c 2.0/sp1p5 -profile
+src/auto/IsThereAikyoEffect.c 2.0/sp1p5 -profile
+src/auto/IsThereIconByComno.c 2.0/sp1p5 -profile
+src/auto/MakeKYOTEN_SET_GND_ByKyotenNo.c 2.0/sp1p5 -profile
+src/auto/AreaAZtoObjAZ.c 2.0/sp1p5 -profile
+src/auto/AreaMapRoll.c 2.0/sp1p5 -profile
+src/auto/ChainAndAnchorSetOFF.c 2.0/sp1p5 -profile
+src/auto/ChgIconsAnime_Aengine.c 2.0/sp1p5 -profile
+src/auto/FinishMakeUnitBefore.c 2.0/sp1p5 -profile
+src/auto/GetAooNoFromCharNo.c 2.0/sp1p5 -profile
+src/auto/GetClearTimer.c 2.0/sp1p5 -profile
+src/auto/GetEmptyObjWork.c 2.0/sp1p5 -profile
+src/auto/GetType_TexFlip.c 2.0/sp1p5 -profile
+src/auto/GetType_TexRepeat.c 2.0/sp1p5 -profile
+src/auto/GetVSGameTimerMax.c 2.0/sp1p5 -profile
+src/auto/GetXZOfUnit.c 2.0/sp1p5 -profile
+src/auto/GetNowBuildHouseKazu.c 1.2/sp3 -profile
+src/auto/GetObjAlpha.c 2.0/sp1p5 -profile
+src/auto/ObjAZtoAreaAZ.c 2.0/sp1p5 -profile
+src/auto/PutOrderingDelete.c 2.0/sp1p5 -profile
+src/auto/SetPolygonAttributeForGame.c 2.0/sp1p5 -profile
+src/auto/SetTrsObjCommand.c 2.0/sp1p5 -profile
+src/auto/TouchWorkClear.c 2.0/sp1p5 -profile
+src/auto/ResetIconBright.c 2.0/sp1p5 -profile
+src/auto/Routine_KyotenChange.c 2.0/sp1p5 -profile
+src/auto/ClearRecoverHpSw.c 1.2/sp3 -profile
+src/auto/CountSetUpEventOccur.c 2.0/sp1p5 -profile
+src/auto/DeleteShisetuInShip.c 2.0/sp1p5 -profile
+src/auto/SetNowDownId_i2.c 2.0/sp1p5 -profile
+src/auto/SetObjActionToNONE.c 2.0/sp1p5 -profile
+src/auto/SearchComObjOneByComno.c 2.0/sp1p5 -profile
+src/auto/SearchModelTypeStSub.c 2.0/sp1p5 -profile
+src/auto/SearchObjPalSub.c 2.0/sp1p5 -profile
+src/auto/SearchObjPatSub.c 2.0/sp1p5 -profile
+src/auto/SearchUnitFunc.c 2.0/sp1p5 -profile
+src/auto/SelectByGameOver.c 2.0/sp1p5 -profile
+src/auto/SetAndGoLoopFlag.c 2.0/sp1p5 -profile
+src/auto/SetHitMarkPal.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02067754.c 1.2/sp2p3
+src/auto/func_ov123_02069618.c 1.2/sp3
+src/auto/WH_GetWMErrCodeName.c 2.0/sp1p5 -profile
+src/auto/WH_StateOutReset.c 2.0/sp1p5 -profile
+src/auto/WH_StateOutSetMPData.c 2.0/sp1p5 -profile
+src/auto/func_ov123_020773c0.c 1.2/sp2p3
+src/auto/func_ov123_0207ac08.c 1.2/sp2p3
+src/auto/func_ov123_0206983c.c 1.2/sp3
+src/auto/func_ov123_02069898.c 1.2/sp3
+src/auto/func_ov123_0206a460.c 1.2/sp3
+src/auto/func_ov123_02087590.c 1.2/sp3
+src/auto/func_ov123_0208beb0.c 1.2/sp3
+src/auto/func_ov123_0207b27c.c 1.2/sp2p3
+src/auto/func_ov123_0207b2c8.c 1.2/sp2p3
+src/auto/func_ov123_020cb790.c 1.2/sp3
+src/auto/func_ov123_0208dca0.c 1.2/sp3
+src/auto/func_ov123_020906f8.c 1.2/sp3
+src/auto/func_ov123_02091618.c 1.2/sp3
+src/auto/func_ov123_020702fc.c 1.2/sp2p3
+src/auto/func_ov123_020bae4c.c 1.2/sp3
+src/auto/func_ov123_020c122c.c 1.2/sp3
+src/auto/func_ov123_020cb5a0.c 1.2/sp3
+src/auto/func_ov123_020961e4.c 1.2/sp3
+src/auto/func_ov123_020971c0.c 1.2/sp3
+src/auto/getIconObjAnimeData.c 2.0/sp1p5 -profile
+src/auto/func_ov123_020b346c.c 1.2/sp3
+src/auto/func_ov123_020a609c.c 1.2/sp3
+src/auto/getIconObjPalData.c 2.0/sp1p5 -profile
+src/auto/mtx_Translate.c 2.0/sp1p5 -profile
+src/auto/calcUnitSikai.c 2.0/sp1p5 -profile
+src/auto/distanceForBattle.c 2.0/sp1p5 -profile
+src/auto/NNSi_SndPlayerStartSeq.c 1.2/sp3

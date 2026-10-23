@@ -116,9 +116,6 @@ src/data/ov109_profrec_020e9aec.c:
     complete
     .data       start:0x020e9aec end:0x020e9afc
 
-src/data/ov109_profrec_020e9afc.c:
-    complete
-    .data       start:0x020e9afc end:0x020e9b14
 
 src/data/ov109_profrec_020e9b24.c:
     complete
@@ -331,9 +328,6 @@ src/data/ov109_profrec_020ea270.c:
     complete
     .data       start:0x020ea270 end:0x020ea28c
 
-src/data/ov109_profrec_020ea28c.c:
-    complete
-    .data       start:0x020ea28c end:0x020ea29c
 
 src/data/ov109_profrec_020ea29c.c:
     complete
@@ -348,9 +342,6 @@ src/data/ov109_profrec_020ea2f8.c:
     complete
     .data       start:0x020ea2f8 end:0x020ea30c
 
-src/data/ov109_profrec_020ea30c.c:
-    complete
-    .data       start:0x020ea30c end:0x020ea320
 
 src/data/ov109_data_020e9abc.c:
     complete
@@ -459,3 +450,18 @@ src/auto/PutConfirmationInShip.c:
     complete
     .text       start:0x020e28e4 end:0x020e2b1c
     .data       start:0x020e9b90 end:0x020e9ba8
+
+src/auto/FinishMakeUnitBefore.c:
+    complete
+    .text       start:0x020e1be4 end:0x020e1c30
+    .data       start:0x020e9afc end:0x020e9b14
+
+src/auto/ResetIconBright.c:
+    complete
+    .text       start:0x020e89cc end:0x020e8a24
+    .data       start:0x020ea28c end:0x020ea29c
+
+src/auto/DeleteShisetuInShip.c:
+    complete
+    .text       start:0x020e9974 end:0x020e99c8
+    .data       start:0x020ea30c end:0x020ea320

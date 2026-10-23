@@ -4631,3 +4631,7 @@ src/auto/func_0202ed64.c:
 src/auto/ldexp.c:
     complete
     .text       start:0x0202a144 end:0x0202a390
+
+src/auto/NNSi_SndPlayerStartSeq.c:
+    complete
+    .text       start:0x020040dc end:0x02004134

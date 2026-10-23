@@ -602,3 +602,15 @@ src/auto/func_ov119_020f0278.c:
 src/auto/func_ov119_020f0b28.c:
     complete
     .text       start:0x020f0b28 end:0x020f0d28
+
+src/auto/func_ov119_020ee73c.c:
+    complete
+    .text       start:0x020ee73c end:0x020ee794
+
+src/auto/func_ov119_020f04bc.c:
+    complete
+    .text       start:0x020f04bc end:0x020f0508
+
+src/auto/func_ov119_020f11bc.c:
+    complete
+    .text       start:0x020f11bc end:0x020f120c

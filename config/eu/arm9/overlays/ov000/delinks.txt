@@ -291,9 +291,6 @@ src/data/ov000_profrec_02050774.c:
     complete
     .data       start:0x02050774 end:0x02050784
 
-src/data/ov000_profrec_02050794.c:
-    complete
-    .data       start:0x02050794 end:0x020507a4
 
 src/data/ov000_profrec_020507b8.c:
     complete
@@ -330,13 +327,7 @@ src/data/ov000_profrec_020508b8.c:
 
 
 
-src/data/ov000_profrec_020508f0.c:
-    complete
-    .data       start:0x020508f0 end:0x02050904
 
-src/data/ov000_profrec_02050904.c:
-    complete
-    .data       start:0x02050904 end:0x02050918
 
 src/data/ov000_profrec_02050918.c:
     complete
@@ -363,9 +354,6 @@ src/data/ov000_profrec_02050a2c.c:
     complete
     .data       start:0x02050a2c end:0x02050a48
 
-src/data/ov000_profrec_02050a48.c:
-    complete
-    .data       start:0x02050a48 end:0x02050a60
 
 src/data/ov000_profrec_020510b8.c:
     complete
@@ -620,3 +608,23 @@ src/auto/VBlankIntrWaitInGame.c:
     complete
     .text       start:0x020464a8 end:0x020466d4
     .data       start:0x0205082c end:0x02050844
+
+src/auto/TouchWorkClear.c:
+    complete
+    .text       start:0x02046138 end:0x0204618c
+    .data       start:0x02050794 end:0x020507a4
+
+src/auto/CountSetUpEventOccur.c:
+    complete
+    .text       start:0x02049440 end:0x02049498
+    .data       start:0x02050a48 end:0x02050a60
+
+src/auto/getIconObjAnimeData.c:
+    complete
+    .text       start:0x02046f24 end:0x02046f78
+    .data       start:0x02050904 end:0x02050918
+
+src/auto/getIconObjPalData.c:
+    complete
+    .text       start:0x02046ed0 end:0x02046f24
+    .data       start:0x020508f0 end:0x02050904
