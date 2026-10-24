@@ -243,3 +243,19 @@ src/auto/func_ov116_020e5318.c:
 src/auto/func_ov116_020e43f8.c:
     complete
     .text       start:0x020e43f8 end:0x020e4628
+
+src/auto/func_ov116_020e32e8.c:
+    complete
+    .text       start:0x020e32e8 end:0x020e3354
+
+src/auto/func_ov116_020e3358.c:
+    complete
+    .text       start:0x020e3358 end:0x020e3424
+
+src/auto/func_ov116_020e2330.c:
+    complete
+    .text       start:0x020e2330 end:0x020e23d4
+
+src/auto/func_ov116_020e4304.c:
+    complete
+    .text       start:0x020e4304 end:0x020e4374

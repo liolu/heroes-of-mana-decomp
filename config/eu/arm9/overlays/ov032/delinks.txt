@@ -66,3 +66,15 @@ src/auto/func_ov032_020d2598.c:
 src/auto/func_ov032_020d3d80.c:
     complete
     .text       start:0x020d3d80 end:0x020d3e5c
+
+src/auto/func_ov032_020d05dc.c:
+    complete
+    .text       start:0x020d05dc end:0x020d067c
+
+src/auto/func_ov032_020d42d8.c:
+    complete
+    .text       start:0x020d42d8 end:0x020d4354
+
+src/auto/func_ov032_020d4354.c:
+    complete
+    .text       start:0x020d4354 end:0x020d4418

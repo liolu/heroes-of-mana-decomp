@@ -255,17 +255,11 @@ src/data/ov000_profrec_0205055c.c:
     complete
     .data       start:0x0205055c end:0x02050574
 
-src/data/ov000_profrec_02050574.c:
-    complete
-    .data       start:0x02050574 end:0x02050594
 
 src/data/ov000_profrec_020505d0.c:
     complete
     .data       start:0x020505d0 end:0x020505e0
 
-src/data/ov000_profrec_020505e0.c:
-    complete
-    .data       start:0x020505e0 end:0x020505f8
 
 src/data/ov000_profrec_02050630.c:
     complete
@@ -287,39 +281,21 @@ src/data/ov000_profrec_02050704.c:
     .data       start:0x02050704 end:0x02050718
 
 
-src/data/ov000_profrec_02050774.c:
-    complete
-    .data       start:0x02050774 end:0x02050784
 
 
-src/data/ov000_profrec_020507b8.c:
-    complete
-    .data       start:0x020507b8 end:0x020507c4
 
 src/data/ov000_profrec_02050814.c:
     complete
     .data       start:0x02050814 end:0x02050820
 
-src/data/ov000_profrec_02050820.c:
-    complete
-    .data       start:0x02050820 end:0x0205082c
 
 
 src/data/ov000_profrec_02050858.c:
     complete
     .data       start:0x02050858 end:0x0205086c
 
-src/data/ov000_profrec_0205086c.c:
-    complete
-    .data       start:0x0205086c end:0x02050880
 
-src/data/ov000_profrec_02050880.c:
-    complete
-    .data       start:0x02050880 end:0x0205088c
 
-src/data/ov000_profrec_0205088c.c:
-    complete
-    .data       start:0x0205088c end:0x020508a0
 
 src/data/ov000_profrec_020508b8.c:
     complete
@@ -385,9 +361,6 @@ src/data/ov000_profrec_02051190.c:
     .data       start:0x02051190 end:0x020511a8
 
 
-src/data/ov000_profrec_020511c4.c:
-    complete
-    .data       start:0x020511c4 end:0x020511e0
 
 src/data/ov000_profrec_020511f8.c:
     complete
@@ -425,21 +398,12 @@ src/data/ov000_profrec_020512ac.c:
     complete
     .data       start:0x020512ac end:0x020512c8
 
-src/data/ov000_profrec_020512c8.c:
-    complete
-    .data       start:0x020512c8 end:0x020512dc
 
-src/data/ov000_profrec_020512dc.c:
-    complete
-    .data       start:0x020512dc end:0x020512f0
 
 src/data/ov000_profrec_020512f0.c:
     complete
     .data       start:0x020512f0 end:0x02051300
 
-src/data/ov000_profrec_02051300.c:
-    complete
-    .data       start:0x02051300 end:0x02051318
 
 
 
@@ -628,3 +592,63 @@ src/auto/getIconObjPalData.c:
     complete
     .text       start:0x02046ed0 end:0x02046f24
     .data       start:0x020508f0 end:0x02050904
+
+src/auto/ChangePaletteOfNameByID.c:
+    complete
+    .text       start:0x0204cd14 end:0x0204cda8
+    .data       start:0x02051300 end:0x02051318
+
+src/auto/BGM_Change.c:
+    complete
+    .text       start:0x02046228 end:0x0204629c
+    .data       start:0x020507b8 end:0x020507c4
+
+src/auto/BGM_Fade.c:
+    complete
+    .text       start:0x02046418 end:0x020464a8
+    .data       start:0x02050820 end:0x0205082c
+
+src/auto/GetOneStringBitData.c:
+    complete
+    .text       start:0x0204c8f4 end:0x0204c980
+    .data       start:0x020512dc end:0x020512f0
+
+src/auto/GetPanelTouch.c:
+    complete
+    .text       start:0x02046060 end:0x020460f0
+    .data       start:0x02050774 end:0x02050784
+
+src/auto/InformationCuttingTrs.c:
+    complete
+    .text       start:0x020443ec end:0x0204445c
+    .data       start:0x020505e0 end:0x020505f8
+
+src/auto/ReleaseShipInPara.c:
+    complete
+    .text       start:0x02046904 end:0x02046984
+    .data       start:0x0205086c end:0x02050880
+
+src/auto/SetWindowPaletteDataToVram.c:
+    complete
+    .text       start:0x0204aa54 end:0x0204aae0
+    .data       start:0x020511c4 end:0x020511e0
+
+src/auto/GetVSErrorByError_WireLessBad.c:
+    complete
+    .text       start:0x0204417c end:0x02044258
+    .data       start:0x02050574 end:0x02050594
+
+src/auto/WindowVramUpdate.c:
+    complete
+    .text       start:0x0204c864 end:0x0204c8f4
+    .data       start:0x020512c8 end:0x020512dc
+
+src/auto/ReadAnaFile.c:
+    complete
+    .text       start:0x02046984 end:0x02046a14
+    .data       start:0x02050880 end:0x0205088c
+
+src/auto/ReadAnaFileOfsSize.c:
+    complete
+    .text       start:0x02046a14 end:0x02046a98
+    .data       start:0x0205088c end:0x020508a0

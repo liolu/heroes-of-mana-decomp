@@ -108,9 +108,6 @@ src/data/ov109_profrec_020e9acc.c:
     complete
     .data       start:0x020e9acc end:0x020e9adc
 
-src/data/ov109_profrec_020e9adc.c:
-    complete
-    .data       start:0x020e9adc end:0x020e9aec
 
 src/data/ov109_profrec_020e9aec.c:
     complete
@@ -167,9 +164,6 @@ src/data/ov109_profrec_020e9c4c.c:
 
 
 
-src/data/ov109_profrec_020e9c90.c:
-    complete
-    .data       start:0x020e9c90 end:0x020e9ca8
 
 src/data/ov109_profrec_020e9ca8.c:
     complete
@@ -195,9 +189,6 @@ src/data/ov109_profrec_020e9da0.c:
     complete
     .data       start:0x020e9da0 end:0x020e9db4
 
-src/data/ov109_profrec_020e9db4.c:
-    complete
-    .data       start:0x020e9db4 end:0x020e9dc8
 
 src/data/ov109_profrec_020e9dc8.c:
     complete
@@ -263,9 +254,6 @@ src/data/ov109_profrec_020e9f7c.c:
     complete
     .data       start:0x020e9f7c end:0x020e9f90
 
-src/data/ov109_profrec_020e9fb0.c:
-    complete
-    .data       start:0x020e9fb0 end:0x020e9fcc
 
 src/data/ov109_profrec_020e9fdc.c:
     complete
@@ -280,9 +268,6 @@ src/data/ov109_profrec_020ea05c.c:
     complete
     .data       start:0x020ea05c end:0x020ea06c
 
-src/data/ov109_profrec_020ea06c.c:
-    complete
-    .data       start:0x020ea06c end:0x020ea084
 
 
 
@@ -294,18 +279,9 @@ src/data/ov109_profrec_020ea0dc.c:
     complete
     .data       start:0x020ea0dc end:0x020ea0f4
 
-src/data/ov109_profrec_020ea0f4.c:
-    complete
-    .data       start:0x020ea0f4 end:0x020ea10c
-
-src/data/ov109_profrec_020ea128.c:
-    complete
-    .data       start:0x020ea128 end:0x020ea13c
 
 
-src/data/ov109_profrec_020ea154.c:
-    complete
-    .data       start:0x020ea154 end:0x020ea170
+
 
 src/data/ov109_profrec_020ea170.c:
     complete
@@ -334,13 +310,7 @@ src/data/ov109_profrec_020ea29c.c:
     .data       start:0x020ea29c end:0x020ea2b8
 
 
-src/data/ov109_profrec_020ea2e0.c:
-    complete
-    .data       start:0x020ea2e0 end:0x020ea2f8
 
-src/data/ov109_profrec_020ea2f8.c:
-    complete
-    .data       start:0x020ea2f8 end:0x020ea30c
 
 
 src/data/ov109_data_020e9abc.c:
@@ -465,3 +435,53 @@ src/auto/DeleteShisetuInShip.c:
     complete
     .text       start:0x020e9974 end:0x020e99c8
     .data       start:0x020ea30c end:0x020ea320
+
+src/auto/ChangeObjAnimeInShipAeng.c:
+    complete
+    .text       start:0x020e6590 end:0x020e6600
+    .data       start:0x020e9fb0 end:0x020e9fcc
+
+src/auto/DeleteMakingGageByPos.c:
+    complete
+    .text       start:0x020e6fc0 end:0x020e7060
+    .data       start:0x020ea06c end:0x020ea084
+
+src/auto/FinishMakeUnit.c:
+    complete
+    .text       start:0x020e1af0 end:0x020e1b5c
+    .data       start:0x020e9adc end:0x020e9aec
+
+src/auto/GetShisetuBoardPos.c:
+    complete
+    .text       start:0x020e98d0 end:0x020e9974
+    .data       start:0x020ea2f8 end:0x020ea30c
+
+src/auto/PutCancelButtonInShip.c:
+    complete
+    .text       start:0x020e3d44 end:0x020e3de0
+    .data       start:0x020e9c90 end:0x020e9ca8
+
+src/auto/PutTouchWaitIconInShip.c:
+    complete
+    .text       start:0x020e741c end:0x020e74a4
+    .data       start:0x020ea0f4 end:0x020ea10c
+
+src/auto/changeMoveRightOneChar.c:
+    complete
+    .text       start:0x020e985c end:0x020e98d0
+    .data       start:0x020ea2e0 end:0x020ea2f8
+
+src/auto/PutCarisumaSkill.c:
+    complete
+    .text       start:0x020e74e0 end:0x020e7580
+    .data       start:0x020ea128 end:0x020ea13c
+
+src/auto/PutCarisumaSkillNamePlate.c:
+    complete
+    .text       start:0x020e76c4 end:0x020e7748
+    .data       start:0x020ea154 end:0x020ea170
+
+src/auto/PutListBlackPlane.c:
+    complete
+    .text       start:0x020e4a70 end:0x020e4af4
+    .data       start:0x020e9db4 end:0x020e9dc8

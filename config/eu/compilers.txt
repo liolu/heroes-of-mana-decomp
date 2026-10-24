@@ -2204,3 +2204,352 @@ src/auto/mtx_Translate.c 2.0/sp1p5 -profile
 src/auto/calcUnitSikai.c 2.0/sp1p5 -profile
 src/auto/distanceForBattle.c 2.0/sp1p5 -profile
 src/auto/NNSi_SndPlayerStartSeq.c 1.2/sp3
+src/auto/ChangeXYtoAreaMapScreenXY2.c 2.0/sp1p5 -profile
+src/auto/CheckAikyoEffect.c 2.0/sp1p5 -profile
+src/auto/CheckAllDeathStatusRect.c 2.0/sp1p5 -profile
+src/auto/CanChangeAction.c 2.0/sp1p5 -profile
+src/auto/CancelTransTex2VramSub.c 2.0/sp1p5 -profile
+src/auto/CancelTransTex2VramSubArm.c 2.0/sp1p5 -profile
+src/auto/CancelTransTex2VramSubForArm.c 2.0/sp1p5 -profile
+src/auto/ChangeComObjOneByFuncAndNo.c 2.0/sp1p5 -profile
+src/auto/ChangeObjAnimeInShipAeng.c 2.0/sp1p5 -profile
+src/auto/ChangePaletteOfNameByID.c 2.0/sp1p5 -profile
+src/auto/CheckShipMoveTiming.c 2.0/sp1p5 -profile
+src/auto/CheckThereGrid.c 2.0/sp1p5 -profile
+src/auto/ClsTransTex2VramSub.c 2.0/sp1p5 -profile
+src/auto/CountEnemyUnit.c 2.0/sp1p5 -profile
+src/auto/DeleteMakingGageByPos.c 2.0/sp1p5 -profile
+src/auto/DeleteMap_ObjectOneByIDandOptSub.c 2.0/sp1p5 -profile
+src/auto/DeleteNoAnimeObj.c 2.0/sp1p5 -profile
+src/auto/DeleteNoAnimeObjOne.c 2.0/sp1p5 -profile
+src/auto/BGM_Change.c 2.0/sp1p5 -profile
+src/auto/BGM_Fade.c 2.0/sp1p5 -profile
+src/auto/CameraFlowAfterObject.c 2.0/sp1p5 -profile
+src/auto/CameraPosToObj.c 2.0/sp1p5 -profile
+src/auto/DeleteEventObjPos.c 2.0/sp1p5 -profile
+src/auto/DeleteEventObjPosOne.c 2.0/sp1p5 -profile
+src/auto/DeleteNoAnimeObjOnlyOneSub.c 2.0/sp1p5 -profile
+src/auto/DeleteOneObj.c 2.0/sp1p5 -profile
+src/auto/DeletePalDataFromVram.c 2.0/sp1p5 -profile
+src/auto/DeleteTexPalMap.c 2.0/sp1p5 -profile
+src/auto/EventDurringTitle.c 2.0/sp1p5 -profile
+src/auto/ExtBGPaletteTransSub.c 2.0/sp1p5 -profile
+src/auto/ExtObjPaletteTransSub.c 2.0/sp1p5 -profile
+src/auto/GetAooByUnitno.c 1.2/sp3 -profile
+src/auto/GetBlank_KEYWORD_INFO.c 2.0/sp1p5 -profile
+src/auto/GetBlank_UNIT_INFO.c 2.0/sp1p5 -profile
+src/auto/DropItemBySetNoOne.c 2.0/sp1p5 -profile
+src/auto/EndTransCheck.c 2.0/sp1p5 -profile
+src/auto/AddFlyArm.c 2.0/sp1p5 -profile
+src/auto/AddObjForCom.c 2.0/sp1p5 -profile
+src/auto/AddPutOrderSub.c 2.0/sp1p5 -profile
+src/auto/AreaMapScreenXYtoAreaXY.c 2.0/sp1p5 -profile
+src/auto/GetCanUseSeireiByKazu.c 2.0/sp1p5 -profile
+src/auto/GetChannelMain.c 2.0/sp1p5 -profile
+src/auto/GetConditionShisetu.c 2.0/sp1p5 -profile
+src/auto/FinishMakeUnit.c 2.0/sp1p5 -profile
+src/auto/GetFriendOfAbnormal.c 2.0/sp1p5 -profile
+src/auto/GetFriendOfAbnormalInSite.c 2.0/sp1p5 -profile
+src/auto/GetFriendOfHalfHP.c 2.0/sp1p5 -profile
+src/auto/GetFriendOfHalfHPInSite.c 2.0/sp1p5 -profile
+src/auto/GetEmptyModelId.c 2.0/sp1p5 -profile
+src/auto/GetLogicNo.c 2.0/sp1p5 -profile
+src/auto/GetNearDestination.c 2.0/sp1p5 -profile
+src/auto/GetHouseBuildSpeed.c 2.0/sp1p5 -profile
+src/auto/GetHpOrResourceAndMax.c 2.0/sp1p5 -profile
+src/auto/GetObj2ObjDire.c 2.0/sp1p5 -profile
+src/auto/GetObjCenter2D.c 2.0/sp1p5 -profile
+src/auto/GetOneStringBitData.c 2.0/sp1p5 -profile
+src/auto/GetPanelTouch.c 2.0/sp1p5 -profile
+src/auto/CheckGundanGetOutFinish.c 2.0/sp1p5 -profile
+src/auto/CheckObjIsResource.c 2.0/sp1p5 -profile
+src/auto/GetShipDamageWhenInShip.c 2.0/sp1p5 -profile
+src/auto/GetShisetuBoardPos.c 2.0/sp1p5 -profile
+src/auto/GetTakasaXZ.c 2.0/sp1p5 -profile
+src/auto/GetType_TexSizeS.c 2.0/sp1p5 -profile
+src/auto/GetPosNoByShisetu.c 2.0/sp1p5 -profile
+src/auto/GetSeireiKazu_ShisetuLevTableSub.c 2.0/sp1p5 -profile
+src/auto/GetSelectKazu.c 1.2/sp3 -profile
+src/auto/GetType_TexSizeT.c 2.0/sp1p5 -profile
+src/auto/GetUnitNoByBaseNo.c 2.0/sp1p5 -profile
+src/auto/GetUnitStatus.c 2.0/sp1p5 -profile
+src/auto/GetUnitStatusRect.c 2.0/sp1p5 -profile
+src/auto/InitOfAreaMap.c 2.0/sp1p5 -profile
+src/auto/InitTransBigSizeData.c 2.0/sp1p5 -profile
+src/auto/IsThereHookCondition.c 2.0/sp1p5 -profile
+src/auto/IsThereSomeChoice.c 1.2/sp3 -profile
+src/auto/MemoKeywordChange.c 2.0/sp1p5 -profile
+src/auto/MemoKeywordFlag.c 2.0/sp1p5 -profile
+src/auto/MemoPersonChange.c 2.0/sp1p5 -profile
+src/auto/MemoPersonFlag.c 2.0/sp1p5 -profile
+src/auto/HowManyEnemyInSpWaza.c 2.0/sp1p5 -profile
+src/auto/InformationCuttingTrs.c 2.0/sp1p5 -profile
+src/auto/InitNowSelectUnitInAreaMap.c 2.0/sp1p5 -profile
+src/auto/KuniNameSet.c 2.0/sp1p5 -profile
+src/auto/MTG_BGM_FadeOutAndChange.c 2.0/sp1p5 -profile
+src/auto/MTG_Check_Live_No.c 2.0/sp1p5 -profile
+src/auto/MessageClose.c 2.0/sp1p5 -profile
+src/auto/ModelTypeReleaseAllSub.c 2.0/sp1p5 -profile
+src/auto/CheckDownGrid.c 2.0/sp1p5 -profile
+src/auto/CheckDropItem.c 2.0/sp1p5 -profile
+src/auto/ObjSet_allclear.c 2.0/sp1p5 -profile
+src/auto/OkSend.c 2.0/sp1p5 -profile
+src/auto/OnlyDeleteDelTexOne.c 2.0/sp1p5 -profile
+src/auto/PickUpItem.c 1.2/sp3 -profile
+src/auto/PutCancelButtonInShip.c 2.0/sp1p5 -profile
+src/auto/PutOffItem.c 2.0/sp1p5 -profile
+src/auto/PutSelectCancelBtn.c 2.0/sp1p5 -profile
+src/auto/PutTouchWaitIconInShip.c 2.0/sp1p5 -profile
+src/auto/ReadUnitLogic.c 2.0/sp1p5 -profile
+src/auto/ReadySetUpWazaAt.c 2.0/sp1p5 -profile
+src/auto/ReleaseAllColorRoll.c 2.0/sp1p5 -profile
+src/auto/ReleaseDeleteObjST.c 2.0/sp1p5 -profile
+src/auto/ReleaseExtBGPaletteTransSub.c 2.0/sp1p5 -profile
+src/auto/ReleaseExtObjPaletteTransSub.c 2.0/sp1p5 -profile
+src/auto/ReleaseMap_ObjectAll.c 2.0/sp1p5 -profile
+src/auto/ReleaseObjPaletteTransSub.c 2.0/sp1p5 -profile
+src/auto/ReleaseObjPaletteTransSubByNoAndSize.c 2.0/sp1p5 -profile
+src/auto/ReleaseObjWorkOne.c 2.0/sp1p5 -profile
+src/auto/ReleaseObjectGraCommonSub.c 2.0/sp1p5 -profile
+src/auto/ReleaseShipInPara.c 2.0/sp1p5 -profile
+src/auto/ReleaseTexBefore.c 2.0/sp1p5 -profile
+src/auto/ReleaseTexGetSub.c 2.0/sp1p5 -profile
+src/auto/ReleaseTexPaletteTransSub.c 2.0/sp1p5 -profile
+src/auto/ReleaseTrsData.c 2.0/sp1p5 -profile
+src/auto/ReleaseWmWorkDataw.c 2.0/sp1p5 -profile
+src/auto/ClearPolWorkOnMDA.c 2.0/sp1p5 -profile
+src/auto/ResetColorRoll.c 2.0/sp1p5 -profile
+src/auto/ResetObjPalMapX.c 2.0/sp1p5 -profile
+src/auto/SearchGoddessOrHookWithShipFunc.c 2.0/sp1p5 -profile
+src/auto/Search_KEYWORD_INFO.c 1.2/sp3 -profile
+src/auto/Search_UNIT_INFO.c 1.2/sp3 -profile
+src/auto/RestoreCameraPositon.c 2.0/sp1p5 -profile
+src/auto/ScanParentLifeDec.c 2.0/sp1p5 -profile
+src/auto/SetAikyoEffectWithXYZ.c 2.0/sp1p5 -profile
+src/auto/SetBrightnessEng.c 2.0/sp1p5 -profile
+src/auto/SetDamageAfterEffect.c 2.0/sp1p5 -profile
+src/auto/SetDamageForNoFlyArm.c 2.0/sp1p5 -profile
+src/auto/SetDropItemByData.c 2.0/sp1p5 -profile
+src/auto/SetETC_TexAndPal.c 2.0/sp1p5 -profile
+src/auto/SetEventObjPos.c 2.0/sp1p5 -profile
+src/auto/SetEventObjPosOne.c 2.0/sp1p5 -profile
+src/auto/SetFirstUNITOnOff.c 2.0/sp1p5 -profile
+src/auto/SetFlyAnimation.c 2.0/sp1p5 -profile
+src/auto/SetFlyArmPal.c 2.0/sp1p5 -profile
+src/auto/SetFreeScenarioOnOff.c 2.0/sp1p5 -profile
+src/auto/SetGXGYforModel.c 2.0/sp1p5 -profile
+src/auto/SetGageKazuOne.c 2.0/sp1p5 -profile
+src/auto/SetHataXYfor3D.c 2.0/sp1p5 -profile
+src/auto/SetHikusenAnchorMdl.c 2.0/sp1p5 -profile
+src/auto/SetHikusenChainMdl.c 2.0/sp1p5 -profile
+src/auto/SetHikusenMdl.c 2.0/sp1p5 -profile
+src/auto/GetHata3Dto2DZahyou.c 2.0/sp1p5 -profile
+src/auto/GetHouseBuildCost.c 2.0/sp1p5 -profile
+src/auto/SetHitMarkForDamageSense.c 2.0/sp1p5 -profile
+src/auto/SetLogicNoForCreateUnit.c 2.0/sp1p5 -profile
+src/auto/SetLoopFlagForAikyoEffect.c 2.0/sp1p5 -profile
+src/auto/SetNowDownId_a.c 2.0/sp1p5 -profile
+src/auto/SetNowDownId_a2.c 2.0/sp1p5 -profile
+src/auto/SetObjIdling.c 2.0/sp1p5 -profile
+src/auto/SetObjTrsDataOne_forMove.c 2.0/sp1p5 -profile
+src/auto/SetObjWaitAndGo.c 2.0/sp1p5 -profile
+src/auto/SetUpOneObjByFirstPos.c 2.0/sp1p5 -profile
+src/auto/SetUpSallyForCharNo.c 2.0/sp1p5 -profile
+src/auto/SetUseWaza.c 2.0/sp1p5 -profile
+src/auto/SetWaterCantEnter.c 2.0/sp1p5 -profile
+src/auto/SetTableUnitThere.c 2.0/sp1p5 -profile
+src/auto/SetTex.c 2.0/sp1p5 -profile
+src/auto/SetWindowPaletteDataToVram.c 2.0/sp1p5 -profile
+src/auto/ShitaToShita.c 2.0/sp1p5 -profile
+src/auto/StockCameraPositon.c 2.0/sp1p5 -profile
+src/auto/SyncBigTransGo.c 2.0/sp1p5 -profile
+src/auto/TG_partyLookObj.c 2.0/sp1p5 -profile
+src/auto/TG_partyLookObj_withRelay.c 2.0/sp1p5 -profile
+src/auto/TG_setElementsBeforeWorldmap.c 2.0/sp1p5 -profile
+src/auto/TG_setPartyDirection.c 2.0/sp1p5 -profile
+src/auto/TG_setPartyDirection_withRelay.c 2.0/sp1p5 -profile
+src/auto/TexAnimeMove.c 2.0/sp1p5 -profile
+src/auto/TexPaletteTransSub.c 2.0/sp1p5 -profile
+src/auto/TransBigSizeData.c 2.0/sp1p5 -profile
+src/auto/TrsAnchorCondition.c 1.2/sp3 -profile
+src/auto/TrsDeathToChild.c 2.0/sp1p5 -profile
+src/auto/TrsGameWorkInit.c 2.0/sp1p5 -profile
+src/auto/TrsGodbeastCallToChild.c 2.0/sp1p5 -profile
+src/auto/UncompressPlane.c 2.0/sp1p5 -profile
+src/auto/WH_ChangeSysState.c 2.0/sp1p5 -profile
+src/auto/WaitSyncAlphaChange.c 2.0/sp1p5 -profile
+src/auto/WaitSyncBattle.c 2.0/sp1p5 -profile
+src/auto/WaitSyncCamera.c 2.0/sp1p5 -profile
+src/auto/WaitSyncCase.c 2.0/sp1p5 -profile
+src/auto/WH_PortReceiveCallback.c 2.0/sp1p5 -profile
+src/auto/WH_StateInMeasureChannel.c 2.0/sp1p5 -profile
+src/auto/WH_StateInStartChildMP.c 2.0/sp1p5 -profile
+src/auto/WaitSyncCaseWithTwoPara.c 2.0/sp1p5 -profile
+src/auto/WaitSyncUnit.c 2.0/sp1p5 -profile
+src/auto/WhatNoEquipSeirei.c 2.0/sp1p5 -profile
+src/auto/GetUsePalNoAob2data.c 2.0/sp1p5 -profile
+src/auto/GetVSErrorByError_WireLessBad.c 2.0/sp1p5 -profile
+src/auto/Get_aONEOBJadrsByCharno.c 1.2/sp3 -profile
+src/auto/changeOcc.c 2.0/sp1p5 -profile
+src/auto/changeOccWithKihon.c 2.0/sp1p5 -profile
+src/auto/changePosByPos.c 2.0/sp1p5 -profile
+src/auto/changePutModeP_Obj.c 2.0/sp1p5 -profile
+src/auto/WindowVramUpdate.c 2.0/sp1p5 -profile
+src/auto/animationAllP_Obj.c 2.0/sp1p5 -profile
+src/auto/changeMoveRightOneChar.c 2.0/sp1p5 -profile
+src/auto/deleteComObjOneByComnoOther.c 2.0/sp1p5 -profile
+src/auto/deleteComObjOneByComnoRect.c 2.0/sp1p5 -profile
+src/auto/deleteComObjOneByPutflag.c 2.0/sp1p5 -profile
+src/auto/deleteComObjOneBySt.c 2.0/sp1p5 -profile
+src/auto/checkCanSeeUnitByUser.c 2.0/sp1p5 -profile
+src/auto/checkRectPosUnit.c 2.0/sp1p5 -profile
+src/auto/Put_Any_SyouriHaibokuJouken.c 2.0/sp1p5 -profile
+src/auto/ReadAnaFile.c 2.0/sp1p5 -profile
+src/auto/ReadAnaFileOfsSize.c 2.0/sp1p5 -profile
+src/auto/PutCarisumaSkill.c 2.0/sp1p5 -profile
+src/auto/PutCarisumaSkillNamePlate.c 2.0/sp1p5 -profile
+src/auto/PutGetRECTIcon.c 2.0/sp1p5 -profile
+src/auto/PutListBlackPlane.c 2.0/sp1p5 -profile
+src/auto/SetTrsFlyArm.c 2.0/sp1p5 -profile
+src/auto/SetUnitConditionHpKazu.c 2.0/sp1p5 -profile
+src/auto/SetUnitTypeMax.c 2.0/sp1p5 -profile
+src/auto/SetUnitsGraYofs.c 2.0/sp1p5 -profile
+src/auto/func_ov110_020e183c.c 1.2/sp3
+src/auto/func_ov110_020e1928.c 1.2/sp3
+src/auto/convertPlane1bitToVC.c 2.0/sp1p5 -profile
+src/auto/covertVCtoPlane1bit.c 2.0/sp1p5 -profile
+src/auto/deleteComObjOne.c 2.0/sp1p5 -profile
+src/auto/deleteComObjOneByComno.c 2.0/sp1p5 -profile
+src/auto/Set3DAREAmapVIEW.c 2.0/sp1p5 -profile
+src/auto/Set3DDefaultMaterial.c 2.0/sp1p5 -profile
+src/auto/Set3DDefaultShininessTable.c 2.0/sp1p5 -profile
+src/auto/func_ov123_020676ac.c 1.2/sp2p3
+src/auto/func_ov123_02068b60.c 1.2/sp2p3
+src/auto/func_ov123_02068e44.c 1.2/sp2p3
+src/auto/func_ov123_02068fa8.c 1.2/sp2p3
+src/auto/func_ov123_0206cf20.c 1.2/sp2p3
+src/auto/func_ov123_0206cf80.c 1.2/sp2p3
+src/auto/func_ov123_0206d510.c 1.2/sp2p3
+src/auto/func_ov123_0206e76c.c 1.2/sp2p3
+src/auto/func_ov123_020713b4.c 1.2/sp2p3
+src/auto/func_ov123_020716c4.c 1.2/sp2p3
+src/auto/func_ov123_02071e14.c 1.2/sp2p3
+src/auto/func_ov123_02071fb4.c 1.2/sp2p3
+src/auto/func_ov123_0207204c.c 1.2/sp2p3
+src/auto/func_ov123_020726c4.c 1.2/sp2p3
+src/auto/func_ov123_020734ac.c 1.2/sp2p3
+src/auto/func_ov123_02073594.c 1.2/sp2p3
+src/auto/func_ov123_0207733c.c 1.2/sp2p3
+src/auto/func_ov123_02077410.c 1.2/sp2p3
+src/auto/func_ov123_020776f0.c 1.2/sp2p3
+src/auto/func_ov123_0206c64c.c 1.2/sp2p3
+src/auto/func_ov123_0206c770.c 1.2/sp2p3
+src/auto/func_ov123_0207936c.c 1.2/sp2p3
+src/auto/func_ov123_02079530.c 1.2/sp2p3
+src/auto/func_ov123_020796a8.c 1.2/sp2p3
+src/auto/func_ov123_02079b98.c 1.2/sp3
+src/auto/func_ov123_020787b4.c 1.2/sp2p3
+src/auto/func_ov123_02078938.c 1.2/sp2p3
+src/auto/func_ov123_02069444.c 1.2/sp2p3
+src/auto/func_ov123_02069504.c 1.2/sp2p3
+src/auto/func_ov123_0206e89c.c 1.2/sp2p3
+src/auto/func_ov123_0206fe30.c 1.2/sp2p3
+src/auto/func_ov123_0207a58c.c 1.2/sp3
+src/auto/func_ov123_0207a748.c 1.2/sp3
+src/auto/func_ov123_02069930.c 1.2/sp3
+src/auto/func_ov123_0206b428.c 1.2/sp2p3
+src/auto/func_ov123_02073a50.c 1.2/sp2p3
+src/auto/func_ov123_02073e58.c 1.2/sp2p3
+src/auto/func_ov123_02074144.c 1.2/sp2p3
+src/auto/func_ov123_0207a3fc.c 1.2/sp3
+src/auto/func_ov123_0207a47c.c 1.2/sp3
+src/auto/func_ov123_0208696c.c 1.2/sp3
+src/auto/func_ov123_02086c3c.c 1.2/sp3
+src/auto/func_ov123_02086cc8.c 1.2/sp2p3
+src/auto/func_ov123_02070104.c 1.2/sp2p3
+src/auto/func_ov123_02070d68.c 1.2/sp2p3
+src/auto/func_ov123_020711f8.c 1.2/sp2p3
+src/auto/func_ov123_02089638.c 1.2/sp3
+src/auto/func_ov123_0207aaf4.c 1.2/sp3
+src/auto/func_ov123_0207af84.c 1.2/sp2p3
+src/auto/func_ov123_0207b450.c 1.2/sp3
+src/auto/func_ov123_0208bfd0.c 1.2/sp3
+src/auto/func_ov123_0208da54.c 1.2/sp3
+src/auto/func_ov123_0208df2c.c 1.2/sp3
+src/auto/func_ov123_0208865c.c 1.2/sp2p3
+src/auto/func_ov123_02088924.c 1.2/sp3
+src/auto/func_ov123_02074840.c 1.2/sp2p3
+src/auto/func_ov123_020761b0.c 1.2/sp2p3
+src/auto/func_ov123_0208751c.c 1.2/sp3
+src/auto/func_ov123_0208821c.c 1.2/sp3
+src/auto/func_ov123_02090f88.c 1.2/sp3
+src/auto/func_ov123_02091150.c 1.2/sp3
+src/auto/func_ov123_02088b10.c 1.2/sp3
+src/auto/func_ov123_02088fdc.c 1.2/sp3
+src/auto/func_ov123_020890b0.c 1.2/sp3
+src/auto/func_ov123_02093634.c 1.2/sp3
+src/auto/func_ov123_020929dc.c 1.2/sp3
+src/auto/func_ov123_02092c84.c 1.2/sp3
+src/auto/func_ov123_0209302c.c 1.2/sp3
+src/auto/func_ov123_0207fdd4.c 1.2/sp3
+src/auto/func_ov123_02091b64.c 1.2/sp3
+src/auto/func_ov123_0209265c.c 1.2/sp3
+src/auto/func_ov123_0209047c.c 1.2/sp3
+src/auto/func_ov123_02090688.c 1.2/sp3
+src/auto/func_ov123_020942e8.c 1.2/sp3
+src/auto/func_ov123_0209dbec.c 1.2/sp3
+src/auto/func_ov123_0209e364.c 1.2/sp3
+src/auto/func_ov123_020960bc.c 1.2/sp3
+src/auto/func_ov123_02096928.c 1.2/sp3
+src/auto/func_ov123_02096ca8.c 1.2/sp3
+src/auto/func_ov123_0209a660.c 1.2/sp3
+src/auto/func_ov123_020adca4.c 1.2/sp3
+src/auto/func_ov123_020ae9d0.c 1.2/sp3
+src/auto/func_ov123_020af480.c 1.2/sp3
+src/auto/func_ov123_020af55c.c 1.2/sp3 -O2,p
+src/auto/func_ov123_0208a880.c 1.2/sp2p3
+src/auto/func_ov123_020b0a18.c 1.2/sp3
+src/auto/func_ov123_02094794.c 1.2/sp3
+src/auto/func_ov123_0209aa78.c 1.2/sp3
+src/auto/func_ov123_0209ba14.c 1.2/sp3
+src/auto/func_ov123_0209cb94.c 1.2/sp3
+src/auto/func_ov123_0209ccc8.c 1.2/sp3
+src/auto/func_ov123_020b2a28.c 1.2/sp3
+src/auto/func_ov123_020bff3c.c 1.2/sp3
+src/auto/func_ov123_020c0c84.c 1.2/sp3
+src/auto/func_ov123_0209e464.c 1.2/sp3
+src/auto/func_ov123_020b5ebc.c 1.2/sp3
+src/auto/func_ov123_020b6348.c 1.2/sp3
+src/auto/func_ov123_020b90fc.c 1.2/sp3
+src/auto/func_ov123_020c1b0c.c 1.2/sp3
+src/auto/func_ov123_020c1fdc.c 1.2/sp3
+src/auto/func_ov123_020c20f8.c 1.2/sp3
+src/auto/func_ov123_020c2a78.c 1.2/sp3
+src/auto/func_ov123_020b0e9c.c 1.2/sp3
+src/auto/func_ov123_020b2794.c 1.2/sp3
+src/auto/func_ov123_020c8a44.c 1.2/sp3
+src/auto/func_ov123_020c8cb8.c 1.2/sp3
+src/auto/func_ov123_020c8e38.c 1.2/sp3
+src/auto/func_ov123_020c9b20.c 1.2/sp3
+src/auto/func_ov123_020ca5c8.c 1.2/sp3
+src/auto/func_ov123_020b9920.c 1.2/sp3
+src/auto/func_ov123_020a58b0.c 1.2/sp3
+src/auto/func_ov123_020aeca4.c 1.2/sp3
+src/auto/func_ov123_020aed20.c 1.2/sp3
+src/auto/releaseUnitIconWorkOne.c 2.0/sp1p5 -profile
+src/auto/searchGundanLeaderObj.c 2.0/sp1p5 -profile
+src/auto/searchHookSamePosObj.c 2.0/sp1p5 -profile
+src/auto/searchSamePosObjWithoutFloor.c 2.0/sp1p5 -profile
+src/auto/getOneSelUnit.c 2.0/sp1p5 -profile
+src/auto/materialAlphaForShip.c 2.0/sp1p5 -profile
+src/auto/mtx_Copy.c 2.0/sp1p5 -profile
+src/auto/mtx_Scale.c 2.0/sp1p5 -profile
+src/auto/func_ov123_020c5884.c 1.2/sp3
+src/auto/func_ov123_020c87d4.c 1.2/sp3
+src/auto/func_ov123_020c4fdc.c 1.2/sp3
+src/auto/oneStatueSetDireByEyePos.c 2.0/sp1p5 -profile
+src/auto/redrawUnitConditionHpKazu.c 2.0/sp1p5 -profile
+src/auto/deleteTexByBeforeSub.c 2.0/sp1p5 -profile
+src/auto/ObjPaletteTransSub.c 2.0/sp1p5 -profile
+src/auto/MovePartysIconInAreaMapByMapXY.c 2.0/sp1p5 -profile
+src/auto/func_020075c8.c 1.2/sp3

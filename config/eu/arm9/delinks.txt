@@ -4635,3 +4635,27 @@ src/auto/ldexp.c:
 src/auto/NNSi_SndPlayerStartSeq.c:
     complete
     .text       start:0x020040dc end:0x02004134
+
+src/auto/func_02005500.c:
+    complete
+    .text       start:0x02005500 end:0x0200558c
+
+src/auto/func_020075c8.c:
+    complete
+    .text       start:0x020075c8 end:0x0200769c
+
+src/auto/func_02004a80.c:
+    complete
+    .text       start:0x02004a80 end:0x02004b00
+
+src/auto/func_020037e8.c:
+    complete
+    .text       start:0x020037e8 end:0x02003864
+
+src/auto/func_02021218.c:
+    complete
+    .text       start:0x02021218 end:0x020212a0
+
+src/auto/OS_SetIrqFunction.c:
+    complete
+    .text       start:0x0200c684 end:0x0200c70c

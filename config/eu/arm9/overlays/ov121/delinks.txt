@@ -431,3 +431,19 @@ src/auto/func_ov121_020f1490.c:
 src/auto/func_ov121_020ebff4.c:
     complete
     .text       start:0x020ebff4 end:0x020ec130
+
+src/auto/func_ov121_020ead78.c:
+    complete
+    .text       start:0x020ead78 end:0x020eae0c
+
+src/auto/func_ov121_020ec828.c:
+    complete
+    .text       start:0x020ec828 end:0x020ec8c4
+
+src/auto/func_ov121_020ec8c4.c:
+    complete
+    .text       start:0x020ec8c4 end:0x020ec990
+
+src/auto/func_ov121_020f4338.c:
+    complete
+    .text       start:0x020f4338 end:0x020f43a0

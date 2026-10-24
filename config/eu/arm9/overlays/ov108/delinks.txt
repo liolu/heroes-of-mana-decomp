@@ -202,3 +202,19 @@ src/auto/func_ov108_020d8e04.c:
 src/auto/func_ov108_020d9c6c.c:
     complete
     .text       start:0x020d9c6c end:0x020d9cc8
+
+src/auto/func_ov108_020d9378.c:
+    complete
+    .text       start:0x020d9378 end:0x020d93ec
+
+src/auto/func_ov108_020d9490.c:
+    complete
+    .text       start:0x020d9490 end:0x020d9538
+
+src/auto/func_ov108_020d9d98.c:
+    complete
+    .text       start:0x020d9d98 end:0x020d9e60
+
+src/auto/func_ov108_020d9e9c.c:
+    complete
+    .text       start:0x020d9e9c end:0x020d9efc

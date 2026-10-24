@@ -319,3 +319,7 @@ src/auto/func_ov115_020e4520.c:
 src/auto/func_ov115_020e2358.c:
     complete
     .text       start:0x020e2358 end:0x020e24b0
+
+src/auto/func_ov115_020e2980.c:
+    complete
+    .text       start:0x020e2980 end:0x020e2a24
