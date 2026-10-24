@@ -54,3 +54,7 @@ src/data/ov045_rodata_020d179c.c:
 src/auto/func_ov045_020d0828.c:
     complete
     .text       start:0x020d0828 end:0x020d0960
+
+src/auto/func_ov045_020d04c0.c:
+    complete
+    .text       start:0x020d04c0 end:0x020d05a4

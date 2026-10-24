@@ -2553,3 +2553,243 @@ src/auto/deleteTexByBeforeSub.c 2.0/sp1p5 -profile
 src/auto/ObjPaletteTransSub.c 2.0/sp1p5 -profile
 src/auto/MovePartysIconInAreaMapByMapXY.c 2.0/sp1p5 -profile
 src/auto/func_020075c8.c 1.2/sp3
+src/auto/CallMenuRoutine.c 2.0/sp1p5 -profile
+src/auto/CallTrsForLoopVBlank.c 2.0/sp1p5 -profile
+src/auto/ChangeChain.c 2.0/sp1p5 -profile
+src/auto/Ana_TPRecvCallback.c 2.0/sp1p5 -profile
+src/auto/Animation_FLYARMWORK.c 2.0/sp1p5 -profile
+src/auto/Aob2DataAnimation.c 2.0/sp1p5 -profile
+src/auto/CheckAndSetGoingHook.c 2.0/sp1p5 -profile
+src/auto/CheckBoxAround.c 2.0/sp1p5 -profile
+src/auto/CheckBoxAroundNinja.c 2.0/sp1p5 -profile
+src/auto/ChangeNikoOrRace.c 2.0/sp1p5 -profile
+src/auto/ChangeObjPicture.c 2.0/sp1p5 -profile
+src/auto/ChangeUnitIconOnBengine.c 2.0/sp1p5 -profile
+src/auto/ActionWazaByLogic.c 2.0/sp1p5 -profile
+src/auto/AengineScreenSetUp.c 2.0/sp1p5 -profile
+src/auto/AnaMain.c 2.0/sp1p5 -profile
+src/auto/ChgYesNoButton.c 2.0/sp1p5 -profile
+src/auto/DeleteItemKuni.c 2.0/sp1p5 -profile
+src/auto/DeleteObjPalOneSub.c 2.0/sp1p5 -profile
+src/auto/DeleteObjPatOneSub.c 2.0/sp1p5 -profile
+src/auto/GetDisPos.c 2.0/sp1p5 -profile
+src/auto/GetEnemyInSite.c 2.0/sp1p5 -profile
+src/auto/GetItemFromMap.c 2.0/sp1p5 -profile
+src/auto/CheckOneLine4fly.c 2.0/sp1p5 -profile
+src/auto/CheckOneLineNinja.c 2.0/sp1p5 -profile
+src/auto/GetKazuOfItemKuni.c 2.0/sp1p5 -profile
+src/auto/GetKisekiTable.c 2.0/sp1p5 -profile
+src/auto/GetVSErrorByError_Link.c 2.0/sp1p5 -profile
+src/auto/IsItEnemy.c 2.0/sp1p5 -profile
+src/auto/Local2Global_ObjPara.c 2.0/sp1p5 -profile
+src/auto/DeleteShisetuInShipByShisetu.c 2.0/sp1p5 -profile
+src/auto/EquipSeirei.c 2.0/sp1p5 -profile
+src/auto/GetTargetObj.c 2.0/sp1p5 -profile
+src/auto/GetTexArea.c 2.0/sp1p5 -profile
+src/auto/GetType_around.c 1.2/sp3 -profile
+src/auto/GetUnitNoFromConsider.c 2.0/sp1p5 -profile
+src/auto/MessageOneSet.c 2.0/sp1p5 -profile
+src/auto/MoveSetOneUnit.c 2.0/sp1p5 -profile
+src/auto/Make2DeleteForCarisuma.c 2.0/sp1p5 -profile
+src/auto/Make2WaitCondForUnit.c 2.0/sp1p5 -profile
+src/auto/OutPutFlyArm.c 2.0/sp1p5 -profile
+src/auto/PutCarisumaSkillName.c 2.0/sp1p5 -profile
+src/auto/PutCompasIcon.c 2.0/sp1p5 -profile
+src/auto/ObjConsiderAll.c 2.0/sp1p5 -profile
+src/auto/ObjParaSetFirstForParent.c 2.0/sp1p5 -profile
+src/auto/MoveShipShake.c 2.0/sp1p5 -profile
+src/auto/MoveUnitAndAnime.c 2.0/sp1p5 -profile
+src/auto/PutOnePlanePicUPlcd.c 2.0/sp1p5 -profile
+src/auto/PutShinjuHouseSel.c 2.0/sp1p5 -profile
+src/auto/PutTutorialIcon.c 2.0/sp1p5 -profile
+src/auto/ObjWorkInitialize.c 2.0/sp1p5 -profile
+src/auto/OneMovePartysIconInAreaMapByMapXY.c 2.0/sp1p5 -profile
+src/auto/PutMessageStart.c 2.0/sp1p5 -profile
+src/auto/PutOneAreaIcon.c 2.0/sp1p5 -profile
+src/auto/ReleaseFlyArmOne.c 2.0/sp1p5 -profile
+src/auto/ReleaseObjWork.c 2.0/sp1p5 -profile
+src/auto/ReleaseTexAreaOne.c 2.0/sp1p5 -profile
+src/auto/ReleaseUpFactoryData.c 2.0/sp1p5 -profile
+src/auto/SafeDisconnect.c 2.0/sp1p5 -profile
+src/auto/SearchCanUseBtlBgVramNo.c 2.0/sp1p5 -profile
+src/auto/SetAikyoWaza.c 2.0/sp1p5 -profile
+src/auto/SetAroundwork.c 2.0/sp1p5 -profile
+src/auto/SetAroundworkBoth.c 2.0/sp1p5 -profile
+src/auto/SearchTexPalMap.c 2.0/sp1p5 -profile
+src/auto/SelectChannel.c 2.0/sp1p5 -profile
+src/auto/SelectUnitByDrawRect.c 2.0/sp1p5 -profile
+src/auto/SelectUnitInAreaMap.c 2.0/sp1p5 -profile
+src/auto/SendOnePack.c 2.0/sp1p5 -profile
+src/auto/Set3DireWazawork.c 2.0/sp1p5 -profile
+src/auto/PutListRelifeIcon.c 2.0/sp1p5 -profile
+src/auto/PutWirelessIcon.c 2.0/sp1p5 -profile
+src/auto/Put_MissionStartCompleteWinLose.c 2.0/sp1p5 -profile
+src/auto/SetBOWGUNwork.c 2.0/sp1p5 -profile
+src/auto/SetCheckMtx.c 2.0/sp1p5 -profile
+src/auto/SetConsiderFromData.c 2.0/sp1p5 -profile
+src/auto/SetScreenRGB_AengineOff.c 2.0/sp1p5 -profile
+src/auto/SetSnowAndStonePal.c 2.0/sp1p5 -profile
+src/auto/SetPartysIconInAreaMap.c 2.0/sp1p5 -profile
+src/auto/SetSLASHwork.c 2.0/sp1p5 -profile
+src/auto/SetSLASHworkBoth.c 2.0/sp1p5 -profile
+src/auto/SetKageTexAndPal.c 2.0/sp1p5 -profile
+src/auto/SetLogicNoForShipIn.c 2.0/sp1p5 -profile
+src/auto/SetLoopFlagAikyoEffect.c 2.0/sp1p5 -profile
+src/auto/SetNoAnimeObject.c 2.0/sp1p5 -profile
+src/auto/SetNormalMessageFrame.c 2.0/sp1p5 -profile
+src/auto/SetObjTrsDataOne.c 2.0/sp1p5 -profile
+src/auto/SetFirstEyePosition.c 2.0/sp1p5 -profile
+src/auto/SetGetObjTrsDataOne.c 2.0/sp1p5 -profile
+src/auto/SetHookCondSt.c 2.0/sp1p5 -profile
+src/auto/SetUnitXZposition.c 2.0/sp1p5 -profile
+src/auto/SetUpSenarioScript.c 2.0/sp1p5 -profile
+src/auto/SetSyouriHaibokuMesNo.c 2.0/sp1p5 -profile
+src/auto/SetTouchPosThereInShip.c 2.0/sp1p5 -profile
+src/auto/SetUnitIconByAreaMap.c 2.0/sp1p5 -profile
+src/auto/SetUnitStatus.c 2.0/sp1p5 -profile
+src/auto/SprendBomb.c 2.0/sp1p5 -profile
+src/auto/StockAikyoEffect.c 2.0/sp1p5 -profile
+src/auto/TG_setPartyBeforeWorldmap.c 2.0/sp1p5 -profile
+src/auto/SetYUMIwork.c 2.0/sp1p5 -profile
+src/auto/TransEnddingPhase.c 2.0/sp1p5 -profile
+src/auto/TrsAikyoEffectToChild.c 2.0/sp1p5 -profile
+src/auto/TrsEtcDataWork.c 2.0/sp1p5 -profile
+src/auto/UnitConsiderContinue.c 2.0/sp1p5 -profile
+src/auto/UpDownColor.c 2.0/sp1p5 -profile
+src/auto/appearChild.c 2.0/sp1p5 -profile
+src/auto/changeParamVS.c 2.0/sp1p5 -profile
+src/auto/changeShisetuPosBoard.c 2.0/sp1p5 -profile
+src/auto/WH_StateOutMeasureChannel.c 2.0/sp1p5 -profile
+src/auto/WH_StateOutStartChild.c 2.0/sp1p5 -profile
+src/auto/checkHookStatus.c 2.0/sp1p5 -profile
+src/auto/chgPalData.c 2.0/sp1p5 -profile
+src/auto/func_ov004_020bdcfc.c 2.0/sp1p5
+src/auto/func_ov117_020e3730.c 2.0/sp1p5
+src/auto/func_ov123_0206e384.c 1.2/sp2p3
+src/auto/func_ov123_0206e518.c 1.2/sp2p3
+src/auto/func_ov123_0206e9d4.c 1.2/sp2p3
+src/auto/func_ov123_0206ede8.c 1.2/sp2p3
+src/auto/func_ov123_0206834c.c 1.2/sp2p3
+src/auto/func_ov123_0206853c.c 1.2/sp2p3
+src/auto/func_ov122_020518f4.c 2.0/sp1p5
+src/auto/func_ov123_02070a6c.c 1.2/sp2p3
+src/auto/func_ov123_02071950.c 1.2/sp2p3
+src/auto/func_ov123_0206c8bc.c 1.2/sp2p3
+src/auto/func_ov123_0206fd50.c 1.2/sp2p3
+src/auto/func_ov123_02072bb8.c 1.2/sp2p3
+src/auto/func_ov123_02074578.c 1.2/sp2p3
+src/auto/func_ov123_020746c4.c 1.2/sp2p3
+src/auto/func_ov123_020775f0.c 1.2/sp2p3
+src/auto/func_ov123_0207b0f4.c 1.2/sp3
+src/auto/func_ov123_0207bb48.c 1.2/sp3
+src/auto/func_ov123_02075310.c 1.2/sp2p3
+src/auto/func_ov123_02076aa4.c 1.2/sp2p3
+src/auto/func_ov123_0208637c.c 1.2/sp3
+src/auto/func_ov123_020865d8.c 1.2/sp3
+src/auto/func_ov123_020866bc.c 2.0/sp1p5
+src/auto/func_ov123_02086868.c 1.2/sp3
+src/auto/func_ov123_0207e68c.c 1.2/sp3
+src/auto/func_ov123_0207fff0.c 1.2/sp3
+src/auto/func_ov123_02081b14.c 1.2/sp3
+src/auto/func_ov123_02082604.c 1.2/sp3
+src/auto/func_ov123_020837b0.c 1.2/sp3
+src/auto/func_ov123_0208389c.c 1.2/sp3
+src/auto/func_ov123_02086e8c.c 1.2/sp3
+src/auto/func_ov123_02087850.c 1.2/sp3
+src/auto/func_ov123_02087960.c 1.2/sp3
+src/auto/func_ov123_02089278.c 1.2/sp3
+src/auto/func_ov123_0208980c.c 1.2/sp3
+src/auto/func_ov123_02089d94.c 1.2/sp3
+src/auto/func_ov123_02089fc0.c 1.2/sp3
+src/auto/func_ov123_0207ccec.c 1.2/sp3
+src/auto/func_ov123_02085f74.c 1.2/sp3
+src/auto/func_ov123_02086288.c 1.2/sp3
+src/auto/func_ov123_02091744.c 1.2/sp3
+src/auto/func_ov123_020919e4.c 1.2/sp3
+src/auto/func_ov123_0208b13c.c 1.2/sp3
+src/auto/func_ov123_0208dfd4.c 1.2/sp3
+src/auto/func_ov123_0208f1f0.c 1.2/sp3
+src/auto/func_ov123_0209036c.c 1.2/sp3
+src/auto/func_ov123_020964e8.c 1.2/sp3
+src/auto/func_ov123_02096af4.c 1.2/sp3
+src/auto/func_ov123_0209c0ec.c 1.2/sp3
+src/auto/func_ov123_02092b8c.c 1.2/sp3
+src/auto/func_ov123_020930fc.c 1.2/sp3
+src/auto/func_ov123_02093498.c 1.2/sp3
+src/auto/func_ov123_020970ac.c 1.2/sp3
+src/auto/func_ov123_020987f4.c 1.2/sp3
+src/auto/func_ov123_0209209c.c 1.2/sp3
+src/auto/func_ov123_0209ff00.c 1.2/sp3
+src/auto/func_ov123_020a1b40.c 1.2/sp3
+src/auto/func_ov123_0209d7e8.c 1.2/sp3
+src/auto/func_ov123_0209fae0.c 1.2/sp3
+src/auto/func_ov123_02099370.c 1.2/sp3
+src/auto/func_ov123_0209b45c.c 1.2/sp3
+src/auto/func_ov123_0209bd50.c 1.2/sp3
+src/auto/func_ov123_020b21e4.c 1.2/sp3
+src/auto/func_ov123_020b2e48.c 1.2/sp3
+src/auto/func_ov123_020b3280.c 1.2/sp3
+src/auto/func_ov123_020b3930.c 1.2/sp3
+src/auto/func_ov123_020a4a1c.c 1.2/sp3
+src/auto/func_ov123_020a59b4.c 1.2/sp3
+src/auto/func_ov123_020a2c50.c 1.2/sp3
+src/auto/func_ov123_020b6df0.c 1.2/sp3
+src/auto/func_ov123_020b0070.c 1.2/sp3
+src/auto/func_ov123_020b1608.c 1.2/sp3
+src/auto/func_ov123_020bc9b8.c 1.2/sp3
+src/auto/func_ov123_020bed88.c 1.2/sp3
+src/auto/func_ov123_020bf354.c 1.2/sp3
+src/auto/func_ov123_020ae164.c 1.2/sp3
+src/auto/func_ov123_020bf730.c 1.2/sp3
+src/auto/func_ov123_020bfa6c.c 1.2/sp3
+src/auto/func_ov123_020b88e8.c 1.2/sp3
+src/auto/func_ov123_020b8a48.c 1.2/sp3
+src/auto/func_ov123_020c3ea0.c 1.2/sp3
+src/auto/func_ov123_020c3f84.c 1.2/sp3
+src/auto/func_ov123_020c4068.c 1.2/sp3
+src/auto/func_ov123_020c4230.c 1.2/sp3
+src/auto/func_ov123_020c0240.c 1.2/sp3
+src/auto/func_ov123_020c21c8.c 1.2/sp3
+src/auto/func_ov123_020b8bb8.c 1.2/sp3
+src/auto/func_ov123_020c2e94.c 1.2/sp3
+src/auto/func_ov123_020c2fac.c 1.2/sp3
+src/auto/func_ov123_020c3c90.c 1.2/sp3
+src/auto/func_ov123_020c2428.c 1.2/sp3
+src/auto/func_ov123_020c28fc.c 1.2/sp3
+src/auto/func_ov123_020c2d7c.c 1.2/sp3
+src/auto/func_ov123_020c7814.c 1.2/sp3 -O2,p
+src/auto/func_ov123_020c9740.c 1.2/sp3
+src/auto/func_ov123_020ca244.c 1.2/sp3
+src/auto/is_thereFriendOfAbnormal.c 2.0/sp1p5 -profile
+src/auto/is_thereFriendOfAbnormalInSite.c 2.0/sp1p5 -profile
+src/auto/is_thereFriendOfHalfHP.c 2.0/sp1p5 -profile
+src/auto/is_thereFriendOfHalfHPInSite.c 2.0/sp1p5 -profile
+src/auto/getComIcon.c 2.0/sp1p5 -profile
+src/auto/getComIconRect.c 2.0/sp1p5 -profile
+src/auto/winBGscrolControl.c 2.0/sp1p5 -profile
+src/auto/getNewPattern.c 2.0/sp1p5 -profile
+src/auto/getNewPatternPalette.c 2.0/sp1p5 -profile
+src/auto/iconCommandEffect.c 2.0/sp1p5 -profile
+src/auto/objSetDistanceForFly.c 2.0/sp1p5 -profile
+src/auto/panelOpenRoutine.c 2.0/sp1p5 -profile
+src/auto/putAllMap_ObjectSub.c 2.0/sp1p5 -profile
+src/auto/setP_ObjTextureFlyArm.c 2.0/sp1p5 -profile
+src/auto/putOneUnitIcon.c 2.0/sp1p5 -profile
+src/auto/ReleaseUpUnit256Data.c 2.0/sp1p5 -profile
+src/auto/Logic_separateInSite.c 2.0/sp1p5 -profile
+src/auto/WaitSyncCounterTouch.c 2.0/sp1p5 -profile
+src/auto/BengineScreenSetUp.c 2.0/sp1p5 -profile
+src/auto/BengineAreaMapTrans.c 2.0/sp1p5 -profile
+src/auto/DecideBuildHouse.c 2.0/sp1p5 -profile
+src/auto/SG_judgeAdvantage.c 2.0/sp1p5 -profile
+src/auto/CutAndMakePolygonType.c 2.0/sp1p5 -profile
+src/auto/WazaRingSound.c 2.0/sp1p5 -profile
+src/auto/FadeOutScreenByCount.c 2.0/sp1p5 -profile
+src/auto/Logic_separateForBtl.c 2.0/sp1p5 -profile
+src/auto/Logic_separateForObstacle.c 2.0/sp1p5 -profile
+src/auto/FadeOutScreenByCountWithX2X.c 2.0/sp1p5 -profile
+src/auto/func_02023594.c 2.0/sp1p5 -O2,p
+src/auto/func_020058c8.c 1.2/sp3
+src/auto/DGT_Hash2CalcHmac.c 1.2/sp2p3
+src/auto/func_0202f048.c 1.2/sp3
+src/auto/func_02006300.c 1.2/sp3

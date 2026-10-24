@@ -223,3 +223,23 @@ src/auto/func_ov114_020e2734.c:
 src/auto/func_ov114_020e2f58.c:
     complete
     .text       start:0x020e2f58 end:0x020e2fe0
+
+src/auto/func_ov114_020e415c.c:
+    complete
+    .text       start:0x020e415c end:0x020e4300
+
+src/auto/func_ov114_020e4300.c:
+    complete
+    .text       start:0x020e4300 end:0x020e43e8
+
+src/auto/func_ov114_020e50ac.c:
+    complete
+    .text       start:0x020e50ac end:0x020e51a8
+
+src/auto/func_ov114_020e15e4.c:
+    complete
+    .text       start:0x020e15e4 end:0x020e1768
+
+src/auto/func_ov114_020e19c8.c:
+    complete
+    .text       start:0x020e19c8 end:0x020e1ba4

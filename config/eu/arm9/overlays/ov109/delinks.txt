@@ -198,9 +198,6 @@ src/data/ov109_profrec_020e9de0.c:
     complete
     .data       start:0x020e9de0 end:0x020e9df4
 
-src/data/ov109_profrec_020e9df4.c:
-    complete
-    .data       start:0x020e9df4 end:0x020e9e0c
 
 src/data/ov109_profrec_020e9e0c.c:
     complete
@@ -211,13 +208,7 @@ src/data/ov109_profrec_020e9e20.c:
     .data       start:0x020e9e20 end:0x020e9e30
 
 
-src/data/ov109_profrec_020e9e40.c:
-    complete
-    .data       start:0x020e9e40 end:0x020e9e4c
 
-src/data/ov109_profrec_020e9e4c.c:
-    complete
-    .data       start:0x020e9e4c end:0x020e9e64
 
 src/data/ov109_profrec_020e9e64.c:
     complete
@@ -231,9 +222,6 @@ src/data/ov109_profrec_020e9e90.c:
     complete
     .data       start:0x020e9e90 end:0x020e9eb0
 
-src/data/ov109_profrec_020e9eb0.c:
-    complete
-    .data       start:0x020e9eb0 end:0x020e9ec8
 
 src/data/ov109_profrec_020e9ec8.c:
     complete
@@ -255,13 +243,7 @@ src/data/ov109_profrec_020e9f7c.c:
     .data       start:0x020e9f7c end:0x020e9f90
 
 
-src/data/ov109_profrec_020e9fdc.c:
-    complete
-    .data       start:0x020e9fdc end:0x020e9ff0
 
-src/data/ov109_profrec_020e9ff0.c:
-    complete
-    .data       start:0x020e9ff0 end:0x020ea000
 
 
 src/data/ov109_profrec_020ea05c.c:
@@ -271,9 +253,6 @@ src/data/ov109_profrec_020ea05c.c:
 
 
 
-src/data/ov109_profrec_020ea0c8.c:
-    complete
-    .data       start:0x020ea0c8 end:0x020ea0dc
 
 src/data/ov109_profrec_020ea0dc.c:
     complete
@@ -283,17 +262,8 @@ src/data/ov109_profrec_020ea0dc.c:
 
 
 
-src/data/ov109_profrec_020ea170.c:
-    complete
-    .data       start:0x020ea170 end:0x020ea188
 
-src/data/ov109_profrec_020ea188.c:
-    complete
-    .data       start:0x020ea188 end:0x020ea198
 
-src/data/ov109_profrec_020ea198.c:
-    complete
-    .data       start:0x020ea198 end:0x020ea1b0
 
 
 src/data/ov109_profrec_020ea250.c:
@@ -485,3 +455,53 @@ src/auto/PutListBlackPlane.c:
     complete
     .text       start:0x020e4a70 end:0x020e4af4
     .data       start:0x020e9db4 end:0x020e9dc8
+
+src/auto/PutCarisumaSkillName.c:
+    complete
+    .text       start:0x020e7748 end:0x020e7848
+    .data       start:0x020ea170 end:0x020ea188
+
+src/auto/MoveShipShake.c:
+    complete
+    .text       start:0x020e7848 end:0x020e794c
+    .data       start:0x020ea188 end:0x020ea198
+
+src/auto/PutShinjuHouseSel.c:
+    complete
+    .text       start:0x020e72c4 end:0x020e73b8
+    .data       start:0x020ea0c8 end:0x020ea0dc
+
+src/auto/ReleaseUpFactoryData.c:
+    complete
+    .text       start:0x020e5298 end:0x020e5380
+    .data       start:0x020e9e4c end:0x020e9e64
+
+src/auto/PutListRelifeIcon.c:
+    complete
+    .text       start:0x020e66e4 end:0x020e6884
+    .data       start:0x020e9fdc end:0x020e9ff0
+
+src/auto/SetTouchPosThereInShip.c:
+    complete
+    .text       start:0x020e794c end:0x020e7a3c
+    .data       start:0x020ea198 end:0x020ea1b0
+
+src/auto/changeShisetuPosBoard.c:
+    complete
+    .text       start:0x020e4d34 end:0x020e4eb0
+    .data       start:0x020e9df4 end:0x020e9e0c
+
+src/auto/chgPalData.c:
+    complete
+    .text       start:0x020e518c end:0x020e5298
+    .data       start:0x020e9e40 end:0x020e9e4c
+
+src/auto/putOneUnitIcon.c:
+    complete
+    .text       start:0x020e6884 end:0x020e6a44
+    .data       start:0x020e9ff0 end:0x020ea000
+
+src/auto/ReleaseUpUnit256Data.c:
+    complete
+    .text       start:0x020e56f0 end:0x020e580c
+    .data       start:0x020e9eb0 end:0x020e9ec8

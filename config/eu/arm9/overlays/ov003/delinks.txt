@@ -2510,9 +2510,6 @@ src/data/ov003_data_020ad768.c:
     complete
     .data       start:0x020ad768 end:0x020ada54
 
-src/data/ov003_profrec_020a6230.c:
-    complete
-    .data       start:0x020a6230 end:0x020a6238
 
 
 
@@ -2536,20 +2533,11 @@ src/data/ov003_profrec_020a62bc.c:
 
 
 
-src/data/ov003_profrec_020a630c.c:
-    complete
-    .data       start:0x020a630c end:0x020a631c
-
-src/data/ov003_profrec_020a631c.c:
-    complete
-    .data       start:0x020a631c end:0x020a6334
 
 
 
 
-src/data/ov003_profrec_020a638c.c:
-    complete
-    .data       start:0x020a638c end:0x020a639c
+
 
 
 
@@ -2562,15 +2550,9 @@ src/data/ov003_profrec_020a6410.c:
     complete
     .data       start:0x020a6410 end:0x020a6420
 
-src/data/ov003_profrec_020a6420.c:
-    complete
-    .data       start:0x020a6420 end:0x020a6434
 
 
 
-src/data/ov003_profrec_020a6460.c:
-    complete
-    .data       start:0x020a6460 end:0x020a647c
 
 
 
@@ -2578,14 +2560,8 @@ src/data/ov003_profrec_020a7900.c:
     complete
     .data       start:0x020a7900 end:0x020a7910
 
-src/data/ov003_profrec_020a7920.c:
-    complete
-    .data       start:0x020a7920 end:0x020a7938
 
 
-src/data/ov003_profrec_020a794c.c:
-    complete
-    .data       start:0x020a794c end:0x020a7968
 
 
 
@@ -2605,22 +2581,13 @@ src/data/ov003_profrec_020a79f4.c:
     complete
     .data       start:0x020a79f4 end:0x020a7a08
 
-src/data/ov003_profrec_020a7a20.c:
-    complete
-    .data       start:0x020a7a20 end:0x020a7a30
 
 
 src/data/ov003_profrec_020a7a40.c:
     complete
     .data       start:0x020a7a40 end:0x020a7a54
 
-src/data/ov003_profrec_020a7a54.c:
-    complete
-    .data       start:0x020a7a54 end:0x020a7a60
 
-src/data/ov003_profrec_020a7a60.c:
-    complete
-    .data       start:0x020a7a60 end:0x020a7a74
 
 
 src/data/ov003_profrec_020a7a84.c:
@@ -2664,14 +2631,8 @@ src/data/ov003_profrec_020a7b6c.c:
     complete
     .data       start:0x020a7b6c end:0x020a7b78
 
-src/data/ov003_profrec_020a7e84.c:
-    complete
-    .data       start:0x020a7e84 end:0x020a7e94
 
 
-src/data/ov003_profrec_020a7eb8.c:
-    complete
-    .data       start:0x020a7eb8 end:0x020a7ecc
 
 src/data/ov003_profrec_020a7ecc.c:
     complete
@@ -2797,17 +2758,11 @@ src/data/ov003_profrec_020a8290.c:
     complete
     .data       start:0x020a8290 end:0x020a82a8
 
-src/data/ov003_profrec_020a82a8.c:
-    complete
-    .data       start:0x020a82a8 end:0x020a82b8
 
 src/data/ov003_profrec_020a82cc.c:
     complete
     .data       start:0x020a82cc end:0x020a82dc
 
-src/data/ov003_profrec_020a82dc.c:
-    complete
-    .data       start:0x020a82dc end:0x020a82f4
 
 src/data/ov003_profrec_020a82f4.c:
     complete
@@ -2860,9 +2815,6 @@ src/data/ov003_profrec_020a85ac.c:
     complete
     .data       start:0x020a85ac end:0x020a85c4
 
-src/data/ov003_profrec_020a85ec.c:
-    complete
-    .data       start:0x020a85ec end:0x020a85fc
 
 src/data/ov003_profrec_020a85fc.c:
     complete
@@ -2887,13 +2839,7 @@ src/data/ov003_profrec_020a8654.c:
 
 
 
-src/data/ov003_profrec_020a86c4.c:
-    complete
-    .data       start:0x020a86c4 end:0x020a86d8
 
-src/data/ov003_profrec_020a86e8.c:
-    complete
-    .data       start:0x020a86e8 end:0x020a86fc
 
 src/data/ov003_profrec_020a871c.c:
     complete
@@ -2918,37 +2864,19 @@ src/data/ov003_profrec_020a87c4.c:
     complete
     .data       start:0x020a87c4 end:0x020a87d4
 
-src/data/ov003_profrec_020a87d4.c:
-    complete
-    .data       start:0x020a87d4 end:0x020a87e8
 
-src/data/ov003_profrec_020a87f8.c:
-    complete
-    .data       start:0x020a87f8 end:0x020a880c
 
 src/data/ov003_profrec_020a880c.c:
     complete
     .data       start:0x020a880c end:0x020a8828
 
 
-src/data/ov003_profrec_020a8848.c:
-    complete
-    .data       start:0x020a8848 end:0x020a8858
-
-src/data/ov003_profrec_020a8858.c:
-    complete
-    .data       start:0x020a8858 end:0x020a8870
-
-src/data/ov003_profrec_020a8870.c:
-    complete
-    .data       start:0x020a8870 end:0x020a8880
 
 
 
 
-src/data/ov003_profrec_020a8920.c:
-    complete
-    .data       start:0x020a8920 end:0x020a8930
+
+
 
 
 
@@ -2958,9 +2886,6 @@ src/data/ov003_profrec_020a897c.c:
     complete
     .data       start:0x020a897c end:0x020a8994
 
-src/data/ov003_profrec_020a8994.c:
-    complete
-    .data       start:0x020a8994 end:0x020a89ac
 
 
 src/data/ov003_profrec_020a89c4.c:
@@ -2979,9 +2904,6 @@ src/data/ov003_profrec_020a8a08.c:
 
 
 
-src/data/ov003_profrec_020a8a44.c:
-    complete
-    .data       start:0x020a8a44 end:0x020a8a58
 
 src/data/ov003_profrec_020a8a6c.c:
     complete
@@ -3011,34 +2933,16 @@ src/data/ov003_profrec_020a8b08.c:
 
 
 
-src/data/ov003_profrec_020a8ba0.c:
-    complete
-    .data       start:0x020a8ba0 end:0x020a8bb4
 
 src/data/ov003_profrec_020a8bb4.c:
     complete
     .data       start:0x020a8bb4 end:0x020a8bc4
 
-src/data/ov003_profrec_020a8bc4.c:
-    complete
-    .data       start:0x020a8bc4 end:0x020a8bdc
-
-src/data/ov003_profrec_020a8bdc.c:
-    complete
-    .data       start:0x020a8bdc end:0x020a8bf4
-
-src/data/ov003_profrec_020a8bf4.c:
-    complete
-    .data       start:0x020a8bf4 end:0x020a8c0c
-
-src/data/ov003_profrec_020a8c0c.c:
-    complete
-    .data       start:0x020a8c0c end:0x020a8c1c
 
 
-src/data/ov003_profrec_020a8c3c.c:
-    complete
-    .data       start:0x020a8c3c end:0x020a8c60
+
+
+
 
 
 
@@ -3086,9 +2990,6 @@ src/data/ov003_profrec_020a8e08.c:
     complete
     .data       start:0x020a8e08 end:0x020a8e18
 
-src/data/ov003_profrec_020a8e18.c:
-    complete
-    .data       start:0x020a8e18 end:0x020a8e24
 
 
 src/data/ov003_profrec_020a8e3c.c:
@@ -3127,17 +3028,11 @@ src/data/ov003_profrec_020a8fe4.c:
     complete
     .data       start:0x020a8fe4 end:0x020a8ff4
 
-src/data/ov003_profrec_020a8ff4.c:
-    complete
-    .data       start:0x020a8ff4 end:0x020a9004
 
 src/data/ov003_profrec_020a9004.c:
     complete
     .data       start:0x020a9004 end:0x020a9014
 
-src/data/ov003_profrec_020a9028.c:
-    complete
-    .data       start:0x020a9028 end:0x020a9040
 
 
 
@@ -3146,9 +3041,6 @@ src/data/ov003_profrec_020a90b8.c:
     complete
     .data       start:0x020a90b8 end:0x020a90cc
 
-src/data/ov003_profrec_020a90cc.c:
-    complete
-    .data       start:0x020a90cc end:0x020a90e4
 
 src/data/ov003_profrec_020a90e4.c:
     complete
@@ -3178,9 +3070,6 @@ src/data/ov003_profrec_020a91c4.c:
     complete
     .data       start:0x020a91c4 end:0x020a91dc
 
-src/data/ov003_profrec_020a91dc.c:
-    complete
-    .data       start:0x020a91dc end:0x020a91f0
 
 src/data/ov003_profrec_020a91f0.c:
     complete
@@ -3216,14 +3105,8 @@ src/data/ov003_profrec_020a92b8.c:
     complete
     .data       start:0x020a92b8 end:0x020a92cc
 
-src/data/ov003_profrec_020a92cc.c:
-    complete
-    .data       start:0x020a92cc end:0x020a92e4
 
 
-src/data/ov003_profrec_020a9310.c:
-    complete
-    .data       start:0x020a9310 end:0x020a9328
 
 src/data/ov003_profrec_020a9328.c:
     complete
@@ -3254,9 +3137,6 @@ src/data/ov003_profrec_020a9568.c:
     complete
     .data       start:0x020a9568 end:0x020a957c
 
-src/data/ov003_profrec_020a957c.c:
-    complete
-    .data       start:0x020a957c end:0x020a9590
 
 src/data/ov003_profrec_020a9590.c:
     complete
@@ -3270,9 +3150,6 @@ src/data/ov003_profrec_020a9604.c:
     .data       start:0x020a9604 end:0x020a9628
 
 
-src/data/ov003_profrec_020a9638.c:
-    complete
-    .data       start:0x020a9638 end:0x020a9648
 
 
 
@@ -3292,9 +3169,6 @@ src/data/ov003_profrec_020a96b0.c:
 
 
 
-src/data/ov003_profrec_020a9704.c:
-    complete
-    .data       start:0x020a9704 end:0x020a9718
 
 src/data/ov003_profrec_020a9718.c:
     complete
@@ -3305,9 +3179,6 @@ src/data/ov003_profrec_020a9724.c:
     .data       start:0x020a9724 end:0x020a9734
 
 
-src/data/ov003_profrec_020a975c.c:
-    complete
-    .data       start:0x020a975c end:0x020a976c
 
 src/data/ov003_profrec_020a976c.c:
     complete
@@ -3318,9 +3189,6 @@ src/data/ov003_profrec_020a978c.c:
     complete
     .data       start:0x020a978c end:0x020a97a0
 
-src/data/ov003_profrec_020a97b8.c:
-    complete
-    .data       start:0x020a97b8 end:0x020a97c8
 
 
 
@@ -3334,9 +3202,6 @@ src/data/ov003_profrec_020a988c.c:
     complete
     .data       start:0x020a988c end:0x020a98a8
 
-src/data/ov003_profrec_020a98bc.c:
-    complete
-    .data       start:0x020a98bc end:0x020a98d0
 
 src/data/ov003_profrec_020a98d0.c:
     complete
@@ -3347,9 +3212,6 @@ src/data/ov003_profrec_020a98e8.c:
     .data       start:0x020a98e8 end:0x020a98f8
 
 
-src/data/ov003_profrec_020a9948.c:
-    complete
-    .data       start:0x020a9948 end:0x020a995c
 
 src/data/ov003_profrec_020a995c.c:
     complete
@@ -3364,9 +3226,6 @@ src/data/ov003_profrec_020a99a4.c:
     complete
     .data       start:0x020a99a4 end:0x020a99b4
 
-src/data/ov003_profrec_020a99b4.c:
-    complete
-    .data       start:0x020a99b4 end:0x020a99c8
 
 
 
@@ -3386,9 +3245,6 @@ src/data/ov003_profrec_020a9a88.c:
     complete
     .data       start:0x020a9a88 end:0x020a9a98
 
-src/data/ov003_profrec_020a9a98.c:
-    complete
-    .data       start:0x020a9a98 end:0x020a9aac
 
 src/data/ov003_profrec_020a9aac.c:
     complete
@@ -3410,9 +3266,6 @@ src/data/ov003_profrec_020a9b04.c:
     complete
     .data       start:0x020a9b04 end:0x020a9b1c
 
-src/data/ov003_profrec_020a9b1c.c:
-    complete
-    .data       start:0x020a9b1c end:0x020a9b2c
 
 
 src/data/ov003_profrec_020a9c50.c:
@@ -3424,13 +3277,7 @@ src/data/ov003_profrec_020a9c88.c:
     .data       start:0x020a9c88 end:0x020a9c98
 
 
-src/data/ov003_profrec_020a9cac.c:
-    complete
-    .data       start:0x020a9cac end:0x020a9cb8
 
-src/data/ov003_profrec_020a9cb8.c:
-    complete
-    .data       start:0x020a9cb8 end:0x020a9cd0
 
 src/data/ov003_profrec_020a9cd0.c:
     complete
@@ -3520,9 +3367,6 @@ src/data/ov003_profrec_020a9f44.c:
 
 
 
-src/data/ov003_profrec_020a9f9c.c:
-    complete
-    .data       start:0x020a9f9c end:0x020a9fa8
 
 
 
@@ -3530,14 +3374,8 @@ src/data/ov003_profrec_020aa000.c:
     complete
     .data       start:0x020aa000 end:0x020aa010
 
-src/data/ov003_profrec_020aa030.c:
-    complete
-    .data       start:0x020aa030 end:0x020aa044
 
 
-src/data/ov003_profrec_020aa058.c:
-    complete
-    .data       start:0x020aa058 end:0x020aa06c
 
 
 src/data/ov003_profrec_020aa07c.c:
@@ -3552,9 +3390,6 @@ src/data/ov003_profrec_020aa0b4.c:
     complete
     .data       start:0x020aa0b4 end:0x020aa0c8
 
-src/data/ov003_profrec_020aa0c8.c:
-    complete
-    .data       start:0x020aa0c8 end:0x020aa0dc
 
 src/data/ov003_profrec_020aa0dc.c:
     complete
@@ -3599,9 +3434,6 @@ src/data/ov003_profrec_020aa2cc.c:
     complete
     .data       start:0x020aa2cc end:0x020aa2e4
 
-src/data/ov003_profrec_020aa2e4.c:
-    complete
-    .data       start:0x020aa2e4 end:0x020aa2fc
 
 
 src/data/ov003_profrec_020aa31c.c:
@@ -3612,9 +3444,6 @@ src/data/ov003_profrec_020aa33c.c:
     complete
     .data       start:0x020aa33c end:0x020aa354
 
-src/data/ov003_profrec_020aa354.c:
-    complete
-    .data       start:0x020aa354 end:0x020aa368
 
 src/data/ov003_profrec_020aa368.c:
     complete
@@ -3636,13 +3465,7 @@ src/data/ov003_profrec_020aa408.c:
     complete
     .data       start:0x020aa408 end:0x020aa41c
 
-src/data/ov003_profrec_020aa430.c:
-    complete
-    .data       start:0x020aa430 end:0x020aa444
 
-src/data/ov003_profrec_020aa444.c:
-    complete
-    .data       start:0x020aa444 end:0x020aa458
 
 src/data/ov003_profrec_020aa474.c:
     complete
@@ -3684,9 +3507,6 @@ src/data/ov003_profrec_020aa664.c:
     .data       start:0x020aa664 end:0x020aa678
 
 
-src/data/ov003_profrec_020aa68c.c:
-    complete
-    .data       start:0x020aa68c end:0x020aa6a4
 
 
 src/data/ov003_profrec_020aa6b8.c:
@@ -3694,13 +3514,7 @@ src/data/ov003_profrec_020aa6b8.c:
     .data       start:0x020aa6b8 end:0x020aa6c8
 
 
-src/data/ov003_profrec_020aa6e8.c:
-    complete
-    .data       start:0x020aa6e8 end:0x020aa6fc
 
-src/data/ov003_profrec_020aa6fc.c:
-    complete
-    .data       start:0x020aa6fc end:0x020aa71c
 
 
 
@@ -3710,17 +3524,11 @@ src/data/ov003_profrec_020aa7bc.c:
     complete
     .data       start:0x020aa7bc end:0x020aa7cc
 
-src/data/ov003_profrec_020aa800.c:
-    complete
-    .data       start:0x020aa800 end:0x020aa814
 
 src/data/ov003_profrec_020aa834.c:
     complete
     .data       start:0x020aa834 end:0x020aa844
 
-src/data/ov003_profrec_020aa868.c:
-    complete
-    .data       start:0x020aa868 end:0x020aa880
 
 
 src/data/ov003_profrec_020aa8c8.c:
@@ -3729,9 +3537,6 @@ src/data/ov003_profrec_020aa8c8.c:
 
 
 
-src/data/ov003_profrec_020aa924.c:
-    complete
-    .data       start:0x020aa924 end:0x020aa934
 
 src/data/ov003_profrec_020aa944.c:
     complete
@@ -3749,18 +3554,12 @@ src/data/ov003_profrec_020aa9b4.c:
     .data       start:0x020aa9b4 end:0x020aa9d0
 
 
-src/data/ov003_profrec_020aa9e4.c:
-    complete
-    .data       start:0x020aa9e4 end:0x020aa9f0
 
 src/data/ov003_profrec_020aa9f0.c:
     complete
     .data       start:0x020aa9f0 end:0x020aa9fc
 
 
-src/data/ov003_profrec_020aaa04.c:
-    complete
-    .data       start:0x020aaa04 end:0x020aaa18
 
 
 src/data/ov003_profrec_020aaa7c.c:
@@ -3781,9 +3580,6 @@ src/data/ov003_profrec_020aab5c.c:
     complete
     .data       start:0x020aab5c end:0x020aab68
 
-src/data/ov003_profrec_020aab68.c:
-    complete
-    .data       start:0x020aab68 end:0x020aab78
 
 
 
@@ -3816,29 +3612,17 @@ src/data/ov003_profrec_020aad30.c:
 
 
 
-src/data/ov003_profrec_020aadec.c:
-    complete
-    .data       start:0x020aadec end:0x020aadf8
 
-src/data/ov003_profrec_020aadf8.c:
-    complete
-    .data       start:0x020aadf8 end:0x020aae08
 
 src/data/ov003_profrec_020aae08.c:
     complete
     .data       start:0x020aae08 end:0x020aae14
 
-src/data/ov003_profrec_020aae14.c:
-    complete
-    .data       start:0x020aae14 end:0x020aae20
 
 src/data/ov003_profrec_020aae20.c:
     complete
     .data       start:0x020aae20 end:0x020aae30
 
-src/data/ov003_profrec_020aae30.c:
-    complete
-    .data       start:0x020aae30 end:0x020aae44
 
 
 src/data/ov003_profrec_020aae58.c:
@@ -3866,9 +3650,6 @@ src/data/ov003_profrec_020aaf04.c:
     .data       start:0x020aaf04 end:0x020aaf14
 
 
-src/data/ov003_profrec_020aaf44.c:
-    complete
-    .data       start:0x020aaf44 end:0x020aaf54
 
 
 
@@ -3949,22 +3730,13 @@ src/data/ov003_profrec_020ab2d0.c:
 
 
 
-src/data/ov003_profrec_020ab398.c:
-    complete
-    .data       start:0x020ab398 end:0x020ab3a8
 
 src/data/ov003_profrec_020ab3a8.c:
     complete
     .data       start:0x020ab3a8 end:0x020ab3b8
 
 
-src/data/ov003_profrec_020ab3f8.c:
-    complete
-    .data       start:0x020ab3f8 end:0x020ab40c
 
-src/data/ov003_profrec_020ab40c.c:
-    complete
-    .data       start:0x020ab40c end:0x020ab42c
 
 src/data/ov003_profrec_020ab470.c:
     complete
@@ -3988,9 +3760,6 @@ src/data/ov003_profrec_020ab554.c:
     complete
     .data       start:0x020ab554 end:0x020ab56c
 
-src/data/ov003_profrec_020ab56c.c:
-    complete
-    .data       start:0x020ab56c end:0x020ab584
 
 src/data/ov003_profrec_020ab584.c:
     complete
@@ -4015,14 +3784,8 @@ src/data/ov003_profrec_020ab6c4.c:
     complete
     .data       start:0x020ab6c4 end:0x020ab6d4
 
-src/data/ov003_profrec_020ab6d4.c:
-    complete
-    .data       start:0x020ab6d4 end:0x020ab6ec
 
 
-src/data/ov003_profrec_020ab720.c:
-    complete
-    .data       start:0x020ab720 end:0x020ab738
 
 
 src/data/ov003_profrec_020ab758.c:
@@ -4044,54 +3807,30 @@ src/data/ov003_profrec_020ab79c.c:
 
 
 
-src/data/ov003_profrec_020ab7e8.c:
-    complete
-    .data       start:0x020ab7e8 end:0x020ab7fc
 
 src/data/ov003_profrec_020ab7fc.c:
     complete
     .data       start:0x020ab7fc end:0x020ab808
 
-src/data/ov003_profrec_020ab808.c:
-    complete
-    .data       start:0x020ab808 end:0x020ab818
 
-src/data/ov003_profrec_020ab818.c:
-    complete
-    .data       start:0x020ab818 end:0x020ab82c
 
 
 src/data/ov003_profrec_020ab84c.c:
     complete
     .data       start:0x020ab84c end:0x020ab860
 
-src/data/ov003_profrec_020ab860.c:
-    complete
-    .data       start:0x020ab860 end:0x020ab870
 
-src/data/ov003_profrec_020ab870.c:
-    complete
-    .data       start:0x020ab870 end:0x020ab884
 
-src/data/ov003_profrec_020ab884.c:
-    complete
-    .data       start:0x020ab884 end:0x020ab894
 
 src/data/ov003_profrec_020ab894.c:
     complete
     .data       start:0x020ab894 end:0x020ab8a8
 
-src/data/ov003_profrec_020ab8a8.c:
-    complete
-    .data       start:0x020ab8a8 end:0x020ab8bc
 
 src/data/ov003_profrec_020ab8bc.c:
     complete
     .data       start:0x020ab8bc end:0x020ab8d4
 
-src/data/ov003_profrec_020ab8d4.c:
-    complete
-    .data       start:0x020ab8d4 end:0x020ab8e0
 
 src/data/ov003_profrec_020ab8e0.c:
     complete
@@ -4114,13 +3853,7 @@ src/data/ov003_profrec_020ab92c.c:
     complete
     .data       start:0x020ab92c end:0x020ab940
 
-src/data/ov003_profrec_020ab940.c:
-    complete
-    .data       start:0x020ab940 end:0x020ab94c
 
-src/data/ov003_profrec_020ab94c.c:
-    complete
-    .data       start:0x020ab94c end:0x020ab964
 
 src/data/ov003_profrec_020ab964.c:
     complete
@@ -4151,9 +3884,6 @@ src/data/ov003_profrec_020ab9ec.c:
     complete
     .data       start:0x020ab9ec end:0x020aba00
 
-src/data/ov003_profrec_020aba10.c:
-    complete
-    .data       start:0x020aba10 end:0x020aba20
 
 src/data/ov003_profrec_020aba20.c:
     complete
@@ -4175,17 +3905,8 @@ src/data/ov003_profrec_020aba64.c:
 
 
 
-src/data/ov003_profrec_020abb08.c:
-    complete
-    .data       start:0x020abb08 end:0x020abb20
 
-src/data/ov003_profrec_020abb20.c:
-    complete
-    .data       start:0x020abb20 end:0x020abb38
 
-src/data/ov003_profrec_020abb38.c:
-    complete
-    .data       start:0x020abb38 end:0x020abb54
 
 
 
@@ -4193,9 +3914,6 @@ src/data/ov003_profrec_020abb88.c:
     complete
     .data       start:0x020abb88 end:0x020abb9c
 
-src/data/ov003_profrec_020abbd4.c:
-    complete
-    .data       start:0x020abbd4 end:0x020abbe4
 
 src/data/ov003_profrec_020abbe4.c:
     complete
@@ -4203,23 +3921,11 @@ src/data/ov003_profrec_020abbe4.c:
 
 
 
-src/data/ov003_profrec_020abc20.c:
-    complete
-    .data       start:0x020abc20 end:0x020abc38
-
-src/data/ov003_profrec_020abc38.c:
-    complete
-    .data       start:0x020abc38 end:0x020abc58
 
 
 
-src/data/ov003_profrec_020abc88.c:
-    complete
-    .data       start:0x020abc88 end:0x020abca4
 
-src/data/ov003_profrec_020abca4.c:
-    complete
-    .data       start:0x020abca4 end:0x020abcc4
+
 
 src/data/ov003_profrec_020abcd8.c:
     complete
@@ -4235,20 +3941,11 @@ src/data/ov003_profrec_020abd28.c:
     complete
     .data       start:0x020abd28 end:0x020abd38
 
-src/data/ov003_profrec_020abd38.c:
-    complete
-    .data       start:0x020abd38 end:0x020abd48
 
 
 
 
-src/data/ov003_profrec_020abd84.c:
-    complete
-    .data       start:0x020abd84 end:0x020abd94
 
-src/data/ov003_profrec_020abd94.c:
-    complete
-    .data       start:0x020abd94 end:0x020abda0
 
 src/data/ov003_profrec_020abda0.c:
     complete
@@ -4259,9 +3956,6 @@ src/data/ov003_profrec_020abdac.c:
     .data       start:0x020abdac end:0x020abdc0
 
 
-src/data/ov003_profrec_020abdd0.c:
-    complete
-    .data       start:0x020abdd0 end:0x020abde0
 
 src/data/ov003_profrec_020abde0.c:
     complete
@@ -4276,9 +3970,6 @@ src/data/ov003_profrec_020abe14.c:
     complete
     .data       start:0x020abe14 end:0x020abe20
 
-src/data/ov003_profrec_020abe20.c:
-    complete
-    .data       start:0x020abe20 end:0x020abe34
 
 
 src/data/ov003_profrec_020abe48.c:
@@ -4297,13 +3988,7 @@ src/data/ov003_profrec_020abe88.c:
     complete
     .data       start:0x020abe88 end:0x020abe9c
 
-src/data/ov003_profrec_020abe9c.c:
-    complete
-    .data       start:0x020abe9c end:0x020abeb0
 
-src/data/ov003_profrec_020abeb0.c:
-    complete
-    .data       start:0x020abeb0 end:0x020abec4
 
 src/data/ov003_profrec_020abec4.c:
     complete
@@ -4346,13 +4031,7 @@ src/data/ov003_profrec_020abff0.c:
     complete
     .data       start:0x020abff0 end:0x020ac000
 
-src/data/ov003_profrec_020ac000.c:
-    complete
-    .data       start:0x020ac000 end:0x020ac014
 
-src/data/ov003_profrec_020ac024.c:
-    complete
-    .data       start:0x020ac024 end:0x020ac038
 
 src/data/ov003_profrec_020ac05c.c:
     complete
@@ -4369,9 +4048,6 @@ src/data/ov003_profrec_020ac1e8.c:
     complete
     .data       start:0x020ac1e8 end:0x020ac1f8
 
-src/data/ov003_profrec_020ac1f8.c:
-    complete
-    .data       start:0x020ac1f8 end:0x020ac210
 
 
 
@@ -4439,22 +4115,13 @@ src/data/ov003_profrec_020ac6f4.c:
     complete
     .data       start:0x020ac6f4 end:0x020ac704
 
-src/data/ov003_profrec_020ac704.c:
-    complete
-    .data       start:0x020ac704 end:0x020ac718
 
 src/data/ov003_profrec_020ac718.c:
     complete
     .data       start:0x020ac718 end:0x020ac730
 
 
-src/data/ov003_profrec_020ac77c.c:
-    complete
-    .data       start:0x020ac77c end:0x020ac790
 
-src/data/ov003_profrec_020ac7a0.c:
-    complete
-    .data       start:0x020ac7a0 end:0x020ac7b0
 
 src/data/ov003_profrec_020ac7b0.c:
     complete
@@ -4465,9 +4132,6 @@ src/data/ov003_profrec_020ac7bc.c:
     .data       start:0x020ac7bc end:0x020ac7c8
 
 
-src/data/ov003_profrec_020ac7d4.c:
-    complete
-    .data       start:0x020ac7d4 end:0x020ac7e0
 
 
 
@@ -4480,9 +4144,6 @@ src/data/ov003_profrec_020ac870.c:
     complete
     .data       start:0x020ac870 end:0x020ac884
 
-src/data/ov003_profrec_020ac8d0.c:
-    complete
-    .data       start:0x020ac8d0 end:0x020ac8e0
 
 
 
@@ -4533,9 +4194,6 @@ src/data/ov003_profrec_020acff8.c:
 
 
 
-src/data/ov003_profrec_020ad208.c:
-    complete
-    .data       start:0x020ad208 end:0x020ad220
 
 
 src/data/ov003_profrec_020ad268.c:
@@ -4550,16 +4208,10 @@ src/data/ov003_profrec_020ad288.c:
 
 
 
-src/data/ov003_profrec_020ad31c.c:
-    complete
-    .data       start:0x020ad31c end:0x020ad338
 
 
 
 
-src/data/ov003_profrec_020ad378.c:
-    complete
-    .data       start:0x020ad378 end:0x020ad38c
 
 src/data/ov003_profrec_020ad3a0.c:
     complete
@@ -4598,9 +4250,6 @@ src/data/ov003_profrec_020ae4d4.c:
     complete
     .data       start:0x020ae4d4 end:0x020ae4ec
 
-src/data/ov003_profrec_020ae65c.c:
-    complete
-    .data       start:0x020ae65c end:0x020ae674
 
 
 src/data/ov003_profrec_020ae6e8.c:
@@ -4619,13 +4268,7 @@ src/data/ov003_profrec_020ae894.c:
     .data       start:0x020ae894 end:0x020ae8ac
 
 
-src/data/ov003_profrec_020ae8e4.c:
-    complete
-    .data       start:0x020ae8e4 end:0x020ae900
 
-src/data/ov003_profrec_020ae944.c:
-    complete
-    .data       start:0x020ae944 end:0x020ae954
 
 src/data/ov003_profrec_020ae954.c:
     complete
@@ -6543,3 +6186,598 @@ src/auto/MovePartysIconInAreaMapByMapXY.c:
     complete
     .text       start:0x02064800 end:0x020648a8
     .data       start:0x020a8c1c end:0x020a8c3c
+
+src/auto/CallTrsForLoopVBlank.c:
+    complete
+    .text       start:0x0207dca8 end:0x0207de80
+    .data       start:0x020aa868 end:0x020aa880
+
+src/auto/ChangeChain.c:
+    complete
+    .text       start:0x02074e58 end:0x02074f44
+    .data       start:0x020a9f9c end:0x020a9fa8
+
+src/auto/Ana_TPRecvCallback.c:
+    complete
+    .text       start:0x02078930 end:0x02078a2c
+    .data       start:0x020aa354 end:0x020aa368
+
+src/auto/Animation_FLYARMWORK.c:
+    complete
+    .text       start:0x0208a600 end:0x0208a7ac
+    .data       start:0x020ab6d4 end:0x020ab6ec
+
+src/auto/Aob2DataAnimation.c:
+    complete
+    .text       start:0x02070c50 end:0x02070d78
+    .data       start:0x020a9a98 end:0x020a9aac
+
+src/auto/CheckAndSetGoingHook.c:
+    complete
+    .text       start:0x02062480 end:0x0206259c
+    .data       start:0x020a8994 end:0x020a89ac
+
+src/auto/CheckBoxAround.c:
+    complete
+    .text       start:0x02093ce4 end:0x02093e48
+    .data       start:0x020abdd0 end:0x020abde0
+
+src/auto/CheckBoxAroundNinja.c:
+    complete
+    .text       start:0x02095f3c end:0x020960e0
+    .data       start:0x020abeb0 end:0x020abec4
+
+src/auto/ChangeNikoOrRace.c:
+    complete
+    .text       start:0x02088518 end:0x0208862c
+    .data       start:0x020ab3f8 end:0x020ab40c
+
+src/auto/ChangeObjPicture.c:
+    complete
+    .text       start:0x02062e48 end:0x0206302c
+    .data       start:0x020a8a44 end:0x020a8a58
+
+src/auto/ChangeUnitIconOnBengine.c:
+    complete
+    .text       start:0x0206442c end:0x02064528
+    .data       start:0x020a8bdc end:0x020a8bf4
+
+src/auto/ActionWazaByLogic.c:
+    complete
+    .text       start:0x0206c43c end:0x0206c568
+    .data       start:0x020a957c end:0x020a9590
+
+src/auto/AengineScreenSetUp.c:
+    complete
+    .text       start:0x020757a8 end:0x02075930
+    .data       start:0x020aa030 end:0x020aa044
+
+src/auto/AnaMain.c:
+    complete
+    .text       start:0x0205168c end:0x02051800
+    .data       start:0x020a6230 end:0x020a6238
+
+src/auto/ChgYesNoButton.c:
+    complete
+    .text       start:0x020880f4 end:0x02088204
+    .data       start:0x020ab398 end:0x020ab3a8
+
+src/auto/DeleteItemKuni.c:
+    complete
+    .text       start:0x0209d670 end:0x0209d7d8
+    .data       start:0x020ac7a0 end:0x020ac7b0
+
+src/auto/DeleteObjPalOneSub.c:
+    complete
+    .text       start:0x0205f344 end:0x0205f424
+    .data       start:0x020a86e8 end:0x020a86fc
+
+src/auto/DeleteObjPatOneSub.c:
+    complete
+    .text       start:0x0205f1f4 end:0x0205f320
+    .data       start:0x020a86c4 end:0x020a86d8
+
+src/auto/GetDisPos.c:
+    complete
+    .text       start:0x02093174 end:0x02093354
+    .data       start:0x020abd94 end:0x020abda0
+
+src/auto/GetEnemyInSite.c:
+    complete
+    .text       start:0x02091850 end:0x0209193c
+    .data       start:0x020abbd4 end:0x020abbe4
+
+src/auto/GetItemFromMap.c:
+    complete
+    .text       start:0x0206cb6c end:0x0206cc60
+    .data       start:0x020a9638 end:0x020a9648
+
+src/auto/CheckOneLine4fly.c:
+    complete
+    .text       start:0x02094dfc end:0x02094f08
+    .data       start:0x020abe20 end:0x020abe34
+
+src/auto/CheckOneLineNinja.c:
+    complete
+    .text       start:0x02095dd4 end:0x02095f3c
+    .data       start:0x020abe9c end:0x020abeb0
+
+src/auto/GetKazuOfItemKuni.c:
+    complete
+    .text       start:0x0209d534 end:0x0209d634
+    .data       start:0x020ac77c end:0x020ac790
+
+src/auto/GetKisekiTable.c:
+    complete
+    .text       start:0x02061d30 end:0x02061e30
+    .data       start:0x020a8920 end:0x020a8930
+
+src/auto/IsItEnemy.c:
+    complete
+    .text       start:0x02066424 end:0x0206658c
+    .data       start:0x020a8e18 end:0x020a8e24
+
+src/auto/Local2Global_ObjPara.c:
+    complete
+    .text       start:0x020a0884 end:0x020a0a0c
+    .data       start:0x020ad208 end:0x020ad220
+
+src/auto/DeleteShisetuInShipByShisetu.c:
+    complete
+    .text       start:0x0207b8d4 end:0x0207ba30
+    .data       start:0x020aa6fc end:0x020aa71c
+
+src/auto/EquipSeirei.c:
+    complete
+    .text       start:0x0209d958 end:0x0209da3c
+    .data       start:0x020ac7d4 end:0x020ac7e0
+
+src/auto/GetTargetObj.c:
+    complete
+    .text       start:0x0206d838 end:0x0206d9f0
+    .data       start:0x020a975c end:0x020a976c
+
+src/auto/GetTexArea.c:
+    complete
+    .text       start:0x020540d8 end:0x020541e0
+    .data       start:0x020a7a54 end:0x020a7a60
+
+src/auto/GetType_around.c:
+    complete
+    .text       start:0x02068004 end:0x0206816c
+    .data       start:0x020a8ff4 end:0x020a9004
+
+src/auto/GetUnitNoFromConsider.c:
+    complete
+    .text       start:0x020682fc end:0x020683f4
+    .data       start:0x020a9028 end:0x020a9040
+
+src/auto/MoveSetOneUnit.c:
+    complete
+    .text       start:0x0205ae4c end:0x0205af4c
+    .data       start:0x020a82a8 end:0x020a82b8
+
+src/auto/Make2DeleteForCarisuma.c:
+    complete
+    .text       start:0x0206b3a4 end:0x0206b508
+    .data       start:0x020a9310 end:0x020a9328
+
+src/auto/Make2WaitCondForUnit.c:
+    complete
+    .text       start:0x0206b064 end:0x0206b190
+    .data       start:0x020a92cc end:0x020a92e4
+
+src/auto/OutPutFlyArm.c:
+    complete
+    .text       start:0x020615e8 end:0x020617a4
+    .data       start:0x020a8848 end:0x020a8858
+
+src/auto/PutCompasIcon.c:
+    complete
+    .text       start:0x020849e0 end:0x02084af0
+    .data       start:0x020aaf44 end:0x020aaf54
+
+src/auto/ObjConsiderAll.c:
+    complete
+    .text       start:0x0208fa20 end:0x0208fb80
+    .data       start:0x020aba10 end:0x020aba20
+
+src/auto/ObjParaSetFirstForParent.c:
+    complete
+    .text       start:0x020531fc end:0x02053304
+    .data       start:0x020a6460 end:0x020a647c
+
+src/auto/MoveUnitAndAnime.c:
+    complete
+    .text       start:0x02098d1c end:0x02098ec8
+    .data       start:0x020ac000 end:0x020ac014
+
+src/auto/PutOnePlanePicUPlcd.c:
+    complete
+    .text       start:0x02079ad0 end:0x02079c44
+    .data       start:0x020aa444 end:0x020aa458
+
+src/auto/PutTutorialIcon.c:
+    complete
+    .text       start:0x0209e1bc end:0x0209e2dc
+    .data       start:0x020ac8d0 end:0x020ac8e0
+
+src/auto/ObjWorkInitialize.c:
+    complete
+    .text       start:0x0206ec58 end:0x0206edb4
+    .data       start:0x020a9948 end:0x020a995c
+
+src/auto/OneMovePartysIconInAreaMapByMapXY.c:
+    complete
+    .text       start:0x020648a8 end:0x020649d0
+    .data       start:0x020a8c3c end:0x020a8c60
+
+src/auto/PutOneAreaIcon.c:
+    complete
+    .text       start:0x0206464c end:0x02064800
+    .data       start:0x020a8c0c end:0x020a8c1c
+
+src/auto/ReleaseFlyArmOne.c:
+    complete
+    .text       start:0x0208c3e0 end:0x0208c4c4
+    .data       start:0x020ab7e8 end:0x020ab7fc
+
+src/auto/ReleaseObjWork.c:
+    complete
+    .text       start:0x02055264 end:0x020553e4
+    .data       start:0x020a7e84 end:0x020a7e94
+
+src/auto/ReleaseTexAreaOne.c:
+    complete
+    .text       start:0x020541e0 end:0x020542f4
+    .data       start:0x020a7a60 end:0x020a7a74
+
+src/auto/SafeDisconnect.c:
+    complete
+    .text       start:0x0207fcdc end:0x0207fdf0
+    .data       start:0x020aab68 end:0x020aab78
+
+src/auto/SetAikyoWaza.c:
+    complete
+    .text       start:0x0206ddd8 end:0x0206df3c
+    .data       start:0x020a97b8 end:0x020a97c8
+
+src/auto/SetAroundwork.c:
+    complete
+    .text       start:0x0208c70c end:0x0208c8a8
+    .data       start:0x020ab808 end:0x020ab818
+
+src/auto/SetAroundworkBoth.c:
+    complete
+    .text       start:0x0208c8a8 end:0x0208ca38
+    .data       start:0x020ab818 end:0x020ab82c
+
+src/auto/SearchTexPalMap.c:
+    complete
+    .text       start:0x02053f18 end:0x02054004
+    .data       start:0x020a7a20 end:0x020a7a30
+
+src/auto/SelectChannel.c:
+    complete
+    .text       start:0x020a4bb4 end:0x020a4ca8
+    .data       start:0x020ae944 end:0x020ae954
+
+src/auto/SelectUnitByDrawRect.c:
+    complete
+    .text       start:0x0208e624 end:0x0208e7dc
+    .data       start:0x020ab94c end:0x020ab964
+
+src/auto/SelectUnitInAreaMap.c:
+    complete
+    .text       start:0x02063f60 end:0x020640bc
+    .data       start:0x020a8ba0 end:0x020a8bb4
+
+src/auto/SendOnePack.c:
+    complete
+    .text       start:0x0207ec54 end:0x0207ee08
+    .data       start:0x020aa9e4 end:0x020aa9f0
+
+src/auto/Set3DireWazawork.c:
+    complete
+    .text       start:0x0208d440 end:0x0208d5dc
+    .data       start:0x020ab8a8 end:0x020ab8bc
+
+src/auto/PutWirelessIcon.c:
+    complete
+    .text       start:0x02071178 end:0x0207125c
+    .data       start:0x020a9b1c end:0x020a9b2c
+
+src/auto/Put_MissionStartCompleteWinLose.c:
+    complete
+    .text       start:0x0208862c end:0x02088740
+    .data       start:0x020ab40c end:0x020ab42c
+
+src/auto/SetBOWGUNwork.c:
+    complete
+    .text       start:0x0208d11c end:0x0208d2d0
+    .data       start:0x020ab884 end:0x020ab894
+
+src/auto/SetCheckMtx.c:
+    complete
+    .text       start:0x02071720 end:0x02071888
+    .data       start:0x020a9cac end:0x020a9cb8
+
+src/auto/SetConsiderFromData.c:
+    complete
+    .text       start:0x02060acc end:0x02060be4
+    .data       start:0x020a87d4 end:0x020a87e8
+
+src/auto/SetScreenRGB_AengineOff.c:
+    complete
+    .text       start:0x020782a0 end:0x0207839c
+    .data       start:0x020aa2e4 end:0x020aa2fc
+
+src/auto/SetSnowAndStonePal.c:
+    complete
+    .text       start:0x02060c10 end:0x02060d90
+    .data       start:0x020a87f8 end:0x020a880c
+
+src/auto/SetPartysIconInAreaMap.c:
+    complete
+    .text       start:0x02064528 end:0x0206464c
+    .data       start:0x020a8bf4 end:0x020a8c0c
+
+src/auto/SetSLASHwork.c:
+    complete
+    .text       start:0x0208ce88 end:0x0208d024
+    .data       start:0x020ab860 end:0x020ab870
+
+src/auto/SetSLASHworkBoth.c:
+    complete
+    .text       start:0x0208d024 end:0x0208d11c
+    .data       start:0x020ab870 end:0x020ab884
+
+src/auto/SetKageTexAndPal.c:
+    complete
+    .text       start:0x02055630 end:0x0205573c
+    .data       start:0x020a7eb8 end:0x020a7ecc
+
+src/auto/SetLogicNoForShipIn.c:
+    complete
+    .text       start:0x0209d244 end:0x0209d3a8
+    .data       start:0x020ac704 end:0x020ac718
+
+src/auto/SetLoopFlagAikyoEffect.c:
+    complete
+    .text       start:0x0207b178 end:0x0207b26c
+    .data       start:0x020aa68c end:0x020aa6a4
+
+src/auto/SetNoAnimeObject.c:
+    complete
+    .text       start:0x0206f6c0 end:0x0206f880
+    .data       start:0x020a99b4 end:0x020a99c8
+
+src/auto/SetObjTrsDataOne.c:
+    complete
+    .text       start:0x02052f58 end:0x0205306c
+    .data       start:0x020a6420 end:0x020a6434
+
+src/auto/SetFirstEyePosition.c:
+    complete
+    .text       start:0x02076150 end:0x020762b0
+    .data       start:0x020aa0c8 end:0x020aa0dc
+
+src/auto/SetGetObjTrsDataOne.c:
+    complete
+    .text       start:0x0207c838 end:0x0207c93c
+    .data       start:0x020aa800 end:0x020aa814
+
+src/auto/SetHookCondSt.c:
+    complete
+    .text       start:0x02092cd0 end:0x02092dfc
+    .data       start:0x020abd38 end:0x020abd48
+
+src/auto/SetUnitXZposition.c:
+    complete
+    .text       start:0x0206d4a4 end:0x0206d5a4
+    .data       start:0x020a9704 end:0x020a9718
+
+src/auto/SetUpSenarioScript.c:
+    complete
+    .text       start:0x02098ec8 end:0x02098fdc
+    .data       start:0x020ac024 end:0x020ac038
+
+src/auto/SetSyouriHaibokuMesNo.c:
+    complete
+    .text       start:0x020894d0 end:0x020895c0
+    .data       start:0x020ab56c end:0x020ab584
+
+src/auto/SetUnitIconByAreaMap.c:
+    complete
+    .text       start:0x0206431c end:0x0206442c
+    .data       start:0x020a8bc4 end:0x020a8bdc
+
+src/auto/SetUnitStatus.c:
+    complete
+    .text       start:0x0205dcdc end:0x0205de98
+    .data       start:0x020a85ec end:0x020a85fc
+
+src/auto/SprendBomb.c:
+    complete
+    .text       start:0x0208e4fc end:0x0208e624
+    .data       start:0x020ab940 end:0x020ab94c
+
+src/auto/StockAikyoEffect.c:
+    complete
+    .text       start:0x0207b7e0 end:0x0207b8d4
+    .data       start:0x020aa6e8 end:0x020aa6fc
+
+src/auto/TG_setPartyBeforeWorldmap.c:
+    complete
+    .text       start:0x020a1f58 end:0x020a2060
+    .data       start:0x020ad31c end:0x020ad338
+
+src/auto/SetYUMIwork.c:
+    complete
+    .text       start:0x0208d860 end:0x0208da14
+    .data       start:0x020ab8d4 end:0x020ab8e0
+
+src/auto/TransEnddingPhase.c:
+    complete
+    .text       start:0x0207f06c end:0x0207f1d8
+    .data       start:0x020aaa04 end:0x020aaa18
+
+src/auto/TrsAikyoEffectToChild.c:
+    complete
+    .text       start:0x020617a4 end:0x020618a0
+    .data       start:0x020a8858 end:0x020a8870
+
+src/auto/TrsEtcDataWork.c:
+    complete
+    .text       start:0x02052c00 end:0x02052cf0
+    .data       start:0x020a638c end:0x020a639c
+
+src/auto/UnitConsiderContinue.c:
+    complete
+    .text       start:0x02068ab0 end:0x02068c54
+    .data       start:0x020a90cc end:0x020a90e4
+
+src/auto/UpDownColor.c:
+    complete
+    .text       start:0x0208162c end:0x02081798
+    .data       start:0x020aae14 end:0x020aae20
+
+src/auto/changeParamVS.c:
+    complete
+    .text       start:0x0207e400 end:0x0207e5d0
+    .data       start:0x020aa924 end:0x020aa934
+
+src/auto/WH_StateOutMeasureChannel.c:
+    complete
+    .text       start:0x020a4a10 end:0x020a4b04
+    .data       start:0x020ae8e4 end:0x020ae900
+
+src/auto/WH_StateOutStartChild.c:
+    complete
+    .text       start:0x020a3f40 end:0x020a40d0
+    .data       start:0x020ae65c end:0x020ae674
+
+src/auto/checkHookStatus.c:
+    complete
+    .text       start:0x02093080 end:0x02093174
+    .data       start:0x020abd84 end:0x020abd94
+
+src/auto/is_thereFriendOfAbnormal.c:
+    complete
+    .text       start:0x020920a0 end:0x02092204
+    .data       start:0x020abc88 end:0x020abca4
+
+src/auto/is_thereFriendOfAbnormalInSite.c:
+    complete
+    .text       start:0x02092204 end:0x0209237c
+    .data       start:0x020abca4 end:0x020abcc4
+
+src/auto/is_thereFriendOfHalfHP.c:
+    complete
+    .text       start:0x02091cd0 end:0x02091e34
+    .data       start:0x020abc20 end:0x020abc38
+
+src/auto/is_thereFriendOfHalfHPInSite.c:
+    complete
+    .text       start:0x02091e34 end:0x02091fb0
+    .data       start:0x020abc38 end:0x020abc58
+
+src/auto/getComIcon.c:
+    complete
+    .text       start:0x02080bb4 end:0x02080cb0
+    .data       start:0x020aadec end:0x020aadf8
+
+src/auto/getComIconRect.c:
+    complete
+    .text       start:0x02080cb0 end:0x02080dbc
+    .data       start:0x020aadf8 end:0x020aae08
+
+src/auto/getNewPattern.c:
+    complete
+    .text       start:0x020524f0 end:0x02052680
+    .data       start:0x020a630c end:0x020a631c
+
+src/auto/getNewPatternPalette.c:
+    complete
+    .text       start:0x02052680 end:0x020527f4
+    .data       start:0x020a631c end:0x020a6334
+
+src/auto/iconCommandEffect.c:
+    complete
+    .text       start:0x02081d98 end:0x02081eb8
+    .data       start:0x020aae30 end:0x020aae44
+
+src/auto/objSetDistanceForFly.c:
+    complete
+    .text       start:0x0205b4b8 end:0x0205b62c
+    .data       start:0x020a82dc end:0x020a82f4
+
+src/auto/putAllMap_ObjectSub.c:
+    complete
+    .text       start:0x0206e59c end:0x0206e6a8
+    .data       start:0x020a98bc end:0x020a98d0
+
+src/auto/setP_ObjTextureFlyArm.c:
+    complete
+    .text       start:0x0208a874 end:0x0208a968
+    .data       start:0x020ab720 end:0x020ab738
+
+src/auto/Logic_separateInSite.c:
+    complete
+    .text       start:0x02090da0 end:0x02090ec8
+    .data       start:0x020abb20 end:0x020abb38
+
+src/auto/WaitSyncCounterTouch.c:
+    complete
+    .text       start:0x02099a08 end:0x02099b2c
+    .data       start:0x020ac1f8 end:0x020ac210
+
+src/auto/BengineScreenSetUp.c:
+    complete
+    .text       start:0x0207599c end:0x02075b00
+    .data       start:0x020aa058 end:0x020aa06c
+
+src/auto/BengineAreaMapTrans.c:
+    complete
+    .text       start:0x02079950 end:0x02079ad0
+    .data       start:0x020aa430 end:0x020aa444
+
+src/auto/DecideBuildHouse.c:
+    complete
+    .text       start:0x02069838 end:0x02069a18
+    .data       start:0x020a91dc end:0x020a91f0
+
+src/auto/SG_judgeAdvantage.c:
+    complete
+    .text       start:0x020a24e0 end:0x020a26bc
+    .data       start:0x020ad378 end:0x020ad38c
+
+src/auto/CutAndMakePolygonType.c:
+    complete
+    .text       start:0x02071888 end:0x02071a6c
+    .data       start:0x020a9cb8 end:0x020a9cd0
+
+src/auto/WazaRingSound.c:
+    complete
+    .text       start:0x020618a0 end:0x02061994
+    .data       start:0x020a8870 end:0x020a8880
+
+src/auto/FadeOutScreenByCount.c:
+    complete
+    .text       start:0x02053710 end:0x0205381c
+    .data       start:0x020a7920 end:0x020a7938
+
+src/auto/Logic_separateForBtl.c:
+    complete
+    .text       start:0x02090c98 end:0x02090da0
+    .data       start:0x020abb08 end:0x020abb20
+
+src/auto/Logic_separateForObstacle.c:
+    complete
+    .text       start:0x02090ec8 end:0x02090fd0
+    .data       start:0x020abb38 end:0x020abb54
+
+src/auto/FadeOutScreenByCountWithX2X.c:
+    complete
+    .text       start:0x02053850 end:0x02053960
+    .data       start:0x020a794c end:0x020a7968

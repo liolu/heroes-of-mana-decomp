@@ -447,3 +447,23 @@ src/auto/func_ov121_020ec8c4.c:
 src/auto/func_ov121_020f4338.c:
     complete
     .text       start:0x020f4338 end:0x020f43a0
+
+src/auto/func_ov121_020f3af8.c:
+    complete
+    .text       start:0x020f3af8 end:0x020f3c60
+
+src/auto/func_ov121_020f4188.c:
+    complete
+    .text       start:0x020f4188 end:0x020f4310
+
+src/auto/func_ov121_020ee6d8.c:
+    complete
+    .text       start:0x020ee6d8 end:0x020ee8a0
+
+src/auto/func_ov121_020eee60.c:
+    complete
+    .text       start:0x020eee60 end:0x020eefd8
+
+src/auto/func_ov121_020f130c.c:
+    complete
+    .text       start:0x020f130c end:0x020f1490

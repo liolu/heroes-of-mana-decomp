@@ -218,3 +218,39 @@ src/auto/func_ov108_020d9d98.c:
 src/auto/func_ov108_020d9e9c.c:
     complete
     .text       start:0x020d9e9c end:0x020d9efc
+
+src/auto/func_ov108_020d8808.c:
+    complete
+    .text       start:0x020d8808 end:0x020d89e4
+
+src/auto/func_ov108_020d8c90.c:
+    complete
+    .text       start:0x020d8c90 end:0x020d8da4
+
+src/auto/func_ov108_020d9264.c:
+    complete
+    .text       start:0x020d9264 end:0x020d9378
+
+src/auto/func_ov108_020d9674.c:
+    complete
+    .text       start:0x020d9674 end:0x020d97a0
+
+src/auto/func_ov108_020d99a0.c:
+    complete
+    .text       start:0x020d99a0 end:0x020d9aa4
+
+src/auto/func_ov108_020d9b70.c:
+    complete
+    .text       start:0x020d9b70 end:0x020d9c6c
+
+src/auto/func_ov108_020da208.c:
+    complete
+    .text       start:0x020da208 end:0x020da3c4
+
+src/auto/func_ov108_020d7b88.c:
+    complete
+    .text       start:0x020d7b88 end:0x020d7d28
+
+src/auto/func_ov108_020d84f8.c:
+    complete
+    .text       start:0x020d84f8 end:0x020d8680

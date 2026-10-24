@@ -4659,3 +4659,43 @@ src/auto/func_02021218.c:
 src/auto/OS_SetIrqFunction.c:
     complete
     .text       start:0x0200c684 end:0x0200c70c
+
+src/auto/OSi_ArrangeTimer.c:
+    complete
+    .text       start:0x0200f94c end:0x0200fa3c
+
+src/auto/func_02023594.c:
+    complete
+    .text       start:0x02023594 end:0x020236ac
+
+src/auto/func_020058c8.c:
+    complete
+    .text       start:0x020058c8 end:0x020059a8
+
+src/auto/MBi_SendMP.c:
+    complete
+    .text       start:0x0201f3a8 end:0x0201f488
+
+src/auto/DGT_Hash2CalcHmac.c:
+    complete
+    .text       start:0x0201453c end:0x020146c8
+
+src/auto/func_0202f048.c:
+    complete
+    .text       start:0x0202f048 end:0x0202f224
+
+src/auto/MBi_StartParentCore.c:
+    complete
+    .text       start:0x0201eebc end:0x0201f0a0
+
+src/auto/func_0202f280.c:
+    complete
+    .text       start:0x0202f280 end:0x0202f36c
+
+src/auto/func_02006300.c:
+    complete
+    .text       start:0x02006300 end:0x020063fc
+
+src/auto/func_02002a5c.c:
+    complete
+    .text       start:0x02002a5c end:0x02002b6c

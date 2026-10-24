@@ -355,3 +355,15 @@ src/auto/func_ov120_020ee1b4.c:
 src/auto/func_ov120_020ef0f8.c:
     complete
     .text       start:0x020ef0f8 end:0x020ef164
+
+src/auto/func_ov120_020f0f78.c:
+    complete
+    .text       start:0x020f0f78 end:0x020f110c
+
+src/auto/func_ov120_020e9a60.c:
+    complete
+    .text       start:0x020e9a60 end:0x020e9b84
+
+src/auto/func_ov120_020edfc4.c:
+    complete
+    .text       start:0x020edfc4 end:0x020ee13c

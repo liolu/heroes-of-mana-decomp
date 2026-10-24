@@ -627,3 +627,59 @@ src/auto/func_ov111_020e5dd4.c:
 src/auto/func_ov111_020e62bc.c:
     complete
     .text       start:0x020e62bc end:0x020e631c
+
+src/auto/func_ov111_020e3300.c:
+    complete
+    .text       start:0x020e3300 end:0x020e34b8
+
+src/auto/func_ov111_020e4a3c.c:
+    complete
+    .text       start:0x020e4a3c end:0x020e4bc4
+
+src/auto/func_ov111_020e5e5c.c:
+    complete
+    .text       start:0x020e5e5c end:0x020e5f6c
+
+src/auto/func_ov111_020e6ac0.c:
+    complete
+    .text       start:0x020e6ac0 end:0x020e6ba0
+
+src/auto/func_ov111_020e8a9c.c:
+    complete
+    .text       start:0x020e8a9c end:0x020e8bac
+
+src/auto/func_ov111_020e8bac.c:
+    complete
+    .text       start:0x020e8bac end:0x020e8cbc
+
+src/auto/func_ov111_020e91b0.c:
+    complete
+    .text       start:0x020e91b0 end:0x020e92c8
+
+src/auto/func_ov111_020ea7f8.c:
+    complete
+    .text       start:0x020ea7f8 end:0x020ea8e4
+
+src/auto/func_ov111_020e6dd4.c:
+    complete
+    .text       start:0x020e6dd4 end:0x020e6f68
+
+src/auto/func_ov111_020e2418.c:
+    complete
+    .text       start:0x020e2418 end:0x020e24fc
+
+src/auto/func_ov111_020e964c.c:
+    complete
+    .text       start:0x020e964c end:0x020e975c
+
+src/auto/func_ov111_020e9840.c:
+    complete
+    .text       start:0x020e9840 end:0x020e994c
+
+src/auto/func_ov111_020e7c34.c:
+    complete
+    .text       start:0x020e7c34 end:0x020e7de8
+
+src/auto/func_ov111_020e7de8.c:
+    complete
+    .text       start:0x020e7de8 end:0x020e7f9c

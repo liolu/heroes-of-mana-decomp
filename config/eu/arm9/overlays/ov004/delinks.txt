@@ -4716,3 +4716,39 @@ src/auto/func_ov004_020cb1dc.c:
 src/auto/func_ov004_020b9da0.c:
     complete
     .text       start:0x020b9da0 end:0x020b9e00
+
+src/auto/func_ov004_020bd730.c:
+    complete
+    .text       start:0x020bd730 end:0x020bd898
+
+src/auto/func_ov004_020bdcfc.c:
+    complete
+    .text       start:0x020bdcfc end:0x020bde28
+
+src/auto/func_ov004_020cb564.c:
+    complete
+    .text       start:0x020cb564 end:0x020cb6f8
+
+src/auto/func_ov004_020c150c.c:
+    complete
+    .text       start:0x020c150c end:0x020c1670
+
+src/auto/func_ov004_020c1a28.c:
+    complete
+    .text       start:0x020c1a28 end:0x020c1b0c
+
+src/auto/func_ov004_020bca0c.c:
+    complete
+    .text       start:0x020bca0c end:0x020bcb08
+
+src/auto/func_ov004_020c6628.c:
+    complete
+    .text       start:0x020c6628 end:0x020c6724
+
+src/auto/func_ov004_020c9234.c:
+    complete
+    .text       start:0x020c9234 end:0x020c9390
+
+src/auto/func_ov004_020c0dd4.c:
+    complete
+    .text       start:0x020c0dd4 end:0x020c0ec8

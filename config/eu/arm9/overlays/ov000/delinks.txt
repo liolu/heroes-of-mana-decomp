@@ -235,9 +235,6 @@ src/data/ov000_profrec_020504f0.c:
     complete
     .data       start:0x020504f0 end:0x02050500
 
-src/data/ov000_profrec_02050510.c:
-    complete
-    .data       start:0x02050510 end:0x0205051c
 
 src/data/ov000_profrec_0205051c.c:
     complete
@@ -251,14 +248,8 @@ src/data/ov000_profrec_02050544.c:
     complete
     .data       start:0x02050544 end:0x0205055c
 
-src/data/ov000_profrec_0205055c.c:
-    complete
-    .data       start:0x0205055c end:0x02050574
 
 
-src/data/ov000_profrec_020505d0.c:
-    complete
-    .data       start:0x020505d0 end:0x020505e0
 
 
 src/data/ov000_profrec_02050630.c:
@@ -290,9 +281,6 @@ src/data/ov000_profrec_02050814.c:
 
 
 
-src/data/ov000_profrec_02050858.c:
-    complete
-    .data       start:0x02050858 end:0x0205086c
 
 
 
@@ -340,9 +328,6 @@ src/data/ov000_profrec_020510d0.c:
     .data       start:0x020510d0 end:0x020510e8
 
 
-src/data/ov000_profrec_0205114c.c:
-    complete
-    .data       start:0x0205114c end:0x02051160
 
 src/data/ov000_profrec_02051160.c:
     complete
@@ -362,13 +347,7 @@ src/data/ov000_profrec_02051190.c:
 
 
 
-src/data/ov000_profrec_020511f8.c:
-    complete
-    .data       start:0x020511f8 end:0x02051208
 
-src/data/ov000_profrec_02051208.c:
-    complete
-    .data       start:0x02051208 end:0x02051220
 
 src/data/ov000_profrec_02051220.c:
     complete
@@ -378,9 +357,6 @@ src/data/ov000_profrec_02051230.c:
     complete
     .data       start:0x02051230 end:0x02051244
 
-src/data/ov000_profrec_02051244.c:
-    complete
-    .data       start:0x02051244 end:0x02051254
 
 src/data/ov000_profrec_02051254.c:
     complete
@@ -427,9 +403,6 @@ src/data/ov000_profrec_020513a8.c:
     complete
     .data       start:0x020513a8 end:0x020513bc
 
-src/data/ov000_profrec_020513bc.c:
-    complete
-    .data       start:0x020513bc end:0x020513d4
 
 src/data/ov000_profrec_020513d4.c:
     complete
@@ -652,3 +625,48 @@ src/auto/ReadAnaFileOfsSize.c:
     complete
     .text       start:0x02046a14 end:0x02046a98
     .data       start:0x0205088c end:0x020508a0
+
+src/auto/CallMenuRoutine.c:
+    complete
+    .text       start:0x020442ec end:0x020443ec
+    .data       start:0x020505d0 end:0x020505e0
+
+src/auto/GetVSErrorByError_Link.c:
+    complete
+    .text       start:0x02044060 end:0x0204417c
+    .data       start:0x0205055c end:0x02050574
+
+src/auto/MessageOneSet.c:
+    complete
+    .text       start:0x0204b0d8 end:0x0204b27c
+    .data       start:0x02051244 end:0x02051254
+
+src/auto/PutMessageStart.c:
+    complete
+    .text       start:0x0204abb4 end:0x0204ad1c
+    .data       start:0x020511f8 end:0x02051208
+
+src/auto/SearchCanUseBtlBgVramNo.c:
+    complete
+    .text       start:0x0204e488 end:0x0204e5a4
+    .data       start:0x020513bc end:0x020513d4
+
+src/auto/SetNormalMessageFrame.c:
+    complete
+    .text       start:0x0204ad1c end:0x0204ae88
+    .data       start:0x02051208 end:0x02051220
+
+src/auto/appearChild.c:
+    complete
+    .text       start:0x02043c98 end:0x02043df4
+    .data       start:0x02050510 end:0x0205051c
+
+src/auto/winBGscrolControl.c:
+    complete
+    .text       start:0x0204a170 end:0x0204a310
+    .data       start:0x0205114c end:0x02051160
+
+src/auto/panelOpenRoutine.c:
+    complete
+    .text       start:0x02046788 end:0x02046904
+    .data       start:0x02050858 end:0x0205086c
