@@ -174,3 +174,11 @@ src/auto/func_ov110_020e183c.c:
 src/auto/func_ov110_020e1928.c:
     complete
     .text       start:0x020e1928 end:0x020e19c8
+
+src/data/ov110_data_020e3c60.c:
+    complete
+    .data       start:0x020e3c60 end:0x020e3c68
+
+src/data/ov110_data_020e3db8.c:
+    complete
+    .data       start:0x020e3db8 end:0x020e3dc0

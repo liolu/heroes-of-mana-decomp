@@ -4747,3 +4747,23 @@ src/auto/func_0202f92c.c:
 src/auto/func_0202fb38.c:
     complete
     .text       start:0x0202fb38 end:0x0202fbd8
+
+src/data/main_data_02035e30.c:
+    complete
+    .data       start:0x02035e30 end:0x02035e34
+
+src/data/main_data_02036084.c:
+    complete
+    .data       start:0x02036084 end:0x02036088
+
+src/data/main_data_02036088.c:
+    complete
+    .data       start:0x02036088 end:0x0203608c
+
+src/data/main_data_020360ec.c:
+    complete
+    .data       start:0x020360ec end:0x020360f0
+
+src/data/main_data_020360f0.c:
+    complete
+    .data       start:0x020360f0 end:0x020360f4

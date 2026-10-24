@@ -680,3 +680,7 @@ src/auto/changePosNoForOverSea.c:
     complete
     .text       start:0x02047008 end:0x02047368
     .data       start:0x0205092c end:0x02050944
+
+src/data/ov000_data_0205152c.c:
+    complete
+    .data       start:0x0205152c end:0x02051540
