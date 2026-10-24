@@ -1,3 +1,7 @@
     .text       start:0x020d0160 end:0x020d0410 kind:code align:32
     .ctor       start:0x020d0410 end:0x020d0410 kind:rodata align:4
     .bss        start:0x020d0420 end:0x020d0420 kind:bss align:32
+
+src/auto/func_ov039_020d0160.c:
+    complete
+    .text       start:0x020d0160 end:0x020d0410

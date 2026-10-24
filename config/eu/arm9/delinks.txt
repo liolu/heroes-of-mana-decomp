@@ -4699,3 +4699,19 @@ src/auto/func_02006300.c:
 src/auto/func_02002a5c.c:
     complete
     .text       start:0x02002a5c end:0x02002b6c
+
+src/auto/func_0202a784.c:
+    complete
+    .text       start:0x0202a784 end:0x0202ab08
+
+src/auto/func_02005314.c:
+    complete
+    .text       start:0x02005314 end:0x02005500
+
+src/auto/func_0200524c.c:
+    complete
+    .text       start:0x0200524c end:0x02005314
+
+src/auto/func_020015cc.c:
+    complete
+    .text       start:0x020015cc end:0x020018b8

@@ -831,3 +831,23 @@ src/auto/func_ov122_0205b190.c:
 src/auto/func_ov122_020518f4.c:
     complete
     .text       start:0x020518f4 end:0x02051a20
+
+src/auto/func_ov122_02052500.c:
+    complete
+    .text       start:0x02052500 end:0x02052680
+
+src/auto/func_ov122_02053b24.c:
+    complete
+    .text       start:0x02053b24 end:0x02053c0c
+
+src/auto/func_ov122_02053f44.c:
+    complete
+    .text       start:0x02053f44 end:0x020541fc
+
+src/auto/func_ov122_020541fc.c:
+    complete
+    .text       start:0x020541fc end:0x020544a4
+
+src/auto/func_ov122_02056af8.c:
+    complete
+    .text       start:0x02056af8 end:0x02056dac

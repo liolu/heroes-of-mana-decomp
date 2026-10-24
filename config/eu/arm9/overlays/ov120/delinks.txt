@@ -367,3 +367,19 @@ src/auto/func_ov120_020e9a60.c:
 src/auto/func_ov120_020edfc4.c:
     complete
     .text       start:0x020edfc4 end:0x020ee13c
+
+src/auto/func_ov120_020ed6ac.c:
+    complete
+    .text       start:0x020ed6ac end:0x020ed920
+
+src/auto/func_ov120_020ee8ec.c:
+    complete
+    .text       start:0x020ee8ec end:0x020eeb8c
+
+src/auto/func_ov120_020ecab0.c:
+    complete
+    .text       start:0x020ecab0 end:0x020ecb98
+
+src/auto/func_ov120_020eced0.c:
+    complete
+    .text       start:0x020eced0 end:0x020ed17c

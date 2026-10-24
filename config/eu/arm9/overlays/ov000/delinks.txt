@@ -252,9 +252,6 @@ src/data/ov000_profrec_02050544.c:
 
 
 
-src/data/ov000_profrec_02050630.c:
-    complete
-    .data       start:0x02050630 end:0x02050650
 
 
 
@@ -293,13 +290,7 @@ src/data/ov000_profrec_020508b8.c:
 
 
 
-src/data/ov000_profrec_02050918.c:
-    complete
-    .data       start:0x02050918 end:0x0205092c
 
-src/data/ov000_profrec_0205092c.c:
-    complete
-    .data       start:0x0205092c end:0x02050944
 
 src/data/ov000_profrec_02050944.c:
     complete
@@ -353,9 +344,6 @@ src/data/ov000_profrec_02051220.c:
     complete
     .data       start:0x02051220 end:0x02051230
 
-src/data/ov000_profrec_02051230.c:
-    complete
-    .data       start:0x02051230 end:0x02051244
 
 
 src/data/ov000_profrec_02051254.c:
@@ -453,9 +441,6 @@ src/data/ov000_profrec_020514e4.c:
     .data       start:0x020514e4 end:0x020514f4
 
 
-src/data/ov000_profrec_02051504.c:
-    complete
-    .data       start:0x02051504 end:0x02051518
 
 src/data/ov000_profrec_02051518.c:
     complete
@@ -670,3 +655,28 @@ src/auto/panelOpenRoutine.c:
     complete
     .text       start:0x02046788 end:0x02046904
     .data       start:0x02050858 end:0x0205086c
+
+src/auto/MesWindowScrollIn.c:
+    complete
+    .text       start:0x0204afb4 end:0x0204b0d8
+    .data       start:0x02051230 end:0x02051244
+
+src/auto/PutSelectIconInMes.c:
+    complete
+    .text       start:0x02050290 end:0x02050340
+    .data       start:0x02051504 end:0x02051518
+
+src/auto/ReadAreaMapSiteMask.c:
+    complete
+    .text       start:0x02046f78 end:0x02047008
+    .data       start:0x02050918 end:0x0205092c
+
+src/auto/Sample_SeparateOfAfterBattle.c:
+    complete
+    .text       start:0x02044614 end:0x020448e4
+    .data       start:0x02050630 end:0x02050650
+
+src/auto/changePosNoForOverSea.c:
+    complete
+    .text       start:0x02047008 end:0x02047368
+    .data       start:0x0205092c end:0x02050944

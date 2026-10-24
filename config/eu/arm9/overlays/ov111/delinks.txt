@@ -683,3 +683,23 @@ src/auto/func_ov111_020e7c34.c:
 src/auto/func_ov111_020e7de8.c:
     complete
     .text       start:0x020e7de8 end:0x020e7f9c
+
+src/auto/func_ov111_020e3008.c:
+    complete
+    .text       start:0x020e3008 end:0x020e3300
+
+src/auto/func_ov111_020e8cbc.c:
+    complete
+    .text       start:0x020e8cbc end:0x020e8d8c
+
+src/auto/func_ov111_020e8d8c.c:
+    complete
+    .text       start:0x020e8d8c end:0x020e8e58
+
+src/auto/func_ov111_020e72f0.c:
+    complete
+    .text       start:0x020e72f0 end:0x020e74e4
+
+src/auto/func_ov111_020e9cf8.c:
+    complete
+    .text       start:0x020e9cf8 end:0x020e9fcc

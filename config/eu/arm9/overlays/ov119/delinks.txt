@@ -678,3 +678,11 @@ src/auto/func_ov119_020f0170.c:
 src/auto/func_ov119_020f10ac.c:
     complete
     .text       start:0x020f10ac end:0x020f11bc
+
+src/auto/func_ov119_020eed8c.c:
+    complete
+    .text       start:0x020eed8c end:0x020eee4c
+
+src/auto/func_ov119_020eacec.c:
+    complete
+    .text       start:0x020eacec end:0x020eb07c

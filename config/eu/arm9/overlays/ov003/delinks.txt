@@ -2513,9 +2513,6 @@ src/data/ov003_data_020ad768.c:
 
 
 
-src/data/ov003_profrec_020a6270.c:
-    complete
-    .data       start:0x020a6270 end:0x020a627c
 
 
 src/data/ov003_profrec_020a628c.c:
@@ -2569,9 +2566,6 @@ src/data/ov003_profrec_020a79a0.c:
     complete
     .data       start:0x020a79a0 end:0x020a79b0
 
-src/data/ov003_profrec_020a79b0.c:
-    complete
-    .data       start:0x020a79b0 end:0x020a79c4
 
 src/data/ov003_profrec_020a79dc.c:
     complete
@@ -2642,9 +2636,6 @@ src/data/ov003_profrec_020a7ee0.c:
     complete
     .data       start:0x020a7ee0 end:0x020a7efc
 
-src/data/ov003_profrec_020a7efc.c:
-    complete
-    .data       start:0x020a7efc end:0x020a7f10
 
 src/data/ov003_profrec_020a7f10.c:
     complete
@@ -2705,9 +2696,6 @@ src/data/ov003_profrec_020a80d8.c:
 
 
 
-src/data/ov003_profrec_020a811c.c:
-    complete
-    .data       start:0x020a811c end:0x020a8130
 
 src/data/ov003_profrec_020a8130.c:
     complete
@@ -2746,9 +2734,6 @@ src/data/ov003_profrec_020a8210.c:
 
 
 
-src/data/ov003_profrec_020a8244.c:
-    complete
-    .data       start:0x020a8244 end:0x020a8250
 
 
 
@@ -2764,9 +2749,6 @@ src/data/ov003_profrec_020a82cc.c:
     .data       start:0x020a82cc end:0x020a82dc
 
 
-src/data/ov003_profrec_020a82f4.c:
-    complete
-    .data       start:0x020a82f4 end:0x020a8300
 
 
 src/data/ov003_profrec_020a8328.c:
@@ -2829,9 +2811,6 @@ src/data/ov003_profrec_020a8630.c:
     complete
     .data       start:0x020a8630 end:0x020a8644
 
-src/data/ov003_profrec_020a8644.c:
-    complete
-    .data       start:0x020a8644 end:0x020a8654
 
 src/data/ov003_profrec_020a8654.c:
     complete
@@ -2905,9 +2884,6 @@ src/data/ov003_profrec_020a8a08.c:
 
 
 
-src/data/ov003_profrec_020a8a6c.c:
-    complete
-    .data       start:0x020a8a6c end:0x020a8a7c
 
 
 src/data/ov003_profrec_020a8a94.c:
@@ -3126,9 +3102,6 @@ src/data/ov003_profrec_020a933c.c:
 
 
 
-src/data/ov003_profrec_020a9514.c:
-    complete
-    .data       start:0x020a9514 end:0x020a952c
 
 
 
@@ -3170,9 +3143,6 @@ src/data/ov003_profrec_020a96b0.c:
 
 
 
-src/data/ov003_profrec_020a9718.c:
-    complete
-    .data       start:0x020a9718 end:0x020a9724
 
 src/data/ov003_profrec_020a9724.c:
     complete
@@ -3217,9 +3187,6 @@ src/data/ov003_profrec_020a995c.c:
     complete
     .data       start:0x020a995c end:0x020a996c
 
-src/data/ov003_profrec_020a996c.c:
-    complete
-    .data       start:0x020a996c end:0x020a997c
 
 
 src/data/ov003_profrec_020a99a4.c:
@@ -3272,9 +3239,6 @@ src/data/ov003_profrec_020a9c50.c:
     complete
     .data       start:0x020a9c50 end:0x020a9c5c
 
-src/data/ov003_profrec_020a9c88.c:
-    complete
-    .data       start:0x020a9c88 end:0x020a9c98
 
 
 
@@ -3401,14 +3365,8 @@ src/data/ov003_profrec_020aa0dc.c:
 
 
 
-src/data/ov003_profrec_020aa1b4.c:
-    complete
-    .data       start:0x020aa1b4 end:0x020aa1c4
 
 
-src/data/ov003_profrec_020aa1d4.c:
-    complete
-    .data       start:0x020aa1d4 end:0x020aa1e4
 
 
 
@@ -3457,9 +3415,6 @@ src/data/ov003_profrec_020aa3cc.c:
     complete
     .data       start:0x020aa3cc end:0x020aa3e0
 
-src/data/ov003_profrec_020aa3e0.c:
-    complete
-    .data       start:0x020aa3e0 end:0x020aa3fc
 
 src/data/ov003_profrec_020aa408.c:
     complete
@@ -3572,9 +3527,6 @@ src/data/ov003_profrec_020aaae0.c:
     .data       start:0x020aaae0 end:0x020aaaf4
 
 
-src/data/ov003_profrec_020aab34.c:
-    complete
-    .data       start:0x020aab34 end:0x020aab44
 
 src/data/ov003_profrec_020aab5c.c:
     complete
@@ -3694,9 +3646,6 @@ src/data/ov003_profrec_020ab1e4.c:
     complete
     .data       start:0x020ab1e4 end:0x020ab1f4
 
-src/data/ov003_profrec_020ab1f4.c:
-    complete
-    .data       start:0x020ab1f4 end:0x020ab208
 
 src/data/ov003_profrec_020ab208.c:
     complete
@@ -3706,9 +3655,6 @@ src/data/ov003_profrec_020ab218.c:
     complete
     .data       start:0x020ab218 end:0x020ab22c
 
-src/data/ov003_profrec_020ab25c.c:
-    complete
-    .data       start:0x020ab25c end:0x020ab270
 
 src/data/ov003_profrec_020ab270.c:
     complete
@@ -3718,9 +3664,6 @@ src/data/ov003_profrec_020ab298.c:
     complete
     .data       start:0x020ab298 end:0x020ab2ac
 
-src/data/ov003_profrec_020ab2ac.c:
-    complete
-    .data       start:0x020ab2ac end:0x020ab2c0
 
 src/data/ov003_profrec_020ab2d0.c:
     complete
@@ -3756,14 +3699,8 @@ src/data/ov003_profrec_020ab510.c:
     complete
     .data       start:0x020ab510 end:0x020ab534
 
-src/data/ov003_profrec_020ab554.c:
-    complete
-    .data       start:0x020ab554 end:0x020ab56c
 
 
-src/data/ov003_profrec_020ab584.c:
-    complete
-    .data       start:0x020ab584 end:0x020ab594
 
 
 src/data/ov003_profrec_020ab5e0.c:
@@ -3863,9 +3800,6 @@ src/data/ov003_profrec_020ab970.c:
     complete
     .data       start:0x020ab970 end:0x020ab97c
 
-src/data/ov003_profrec_020ab97c.c:
-    complete
-    .data       start:0x020ab97c end:0x020ab990
 
 src/data/ov003_profrec_020ab990.c:
     complete
@@ -3889,9 +3823,6 @@ src/data/ov003_profrec_020aba20.c:
     complete
     .data       start:0x020aba20 end:0x020aba30
 
-src/data/ov003_profrec_020aba30.c:
-    complete
-    .data       start:0x020aba30 end:0x020aba44
 
 
 
@@ -4002,9 +3933,6 @@ src/data/ov003_profrec_020abef4.c:
     complete
     .data       start:0x020abef4 end:0x020abf04
 
-src/data/ov003_profrec_020abf04.c:
-    complete
-    .data       start:0x020abf04 end:0x020abf14
 
 src/data/ov003_profrec_020abf14.c:
     complete
@@ -4087,9 +4015,6 @@ src/data/ov003_profrec_020ac428.c:
 
 
 
-src/data/ov003_profrec_020ac4dc.c:
-    complete
-    .data       start:0x020ac4dc end:0x020ac4f4
 
 src/data/ov003_profrec_020ac4f4.c:
     complete
@@ -4116,16 +4041,10 @@ src/data/ov003_profrec_020ac6f4.c:
     .data       start:0x020ac6f4 end:0x020ac704
 
 
-src/data/ov003_profrec_020ac718.c:
-    complete
-    .data       start:0x020ac718 end:0x020ac730
 
 
 
 
-src/data/ov003_profrec_020ac7b0.c:
-    complete
-    .data       start:0x020ac7b0 end:0x020ac7bc
 
 src/data/ov003_profrec_020ac7bc.c:
     complete
@@ -4217,9 +4136,6 @@ src/data/ov003_profrec_020ad3a0.c:
     complete
     .data       start:0x020ad3a0 end:0x020ad3b4
 
-src/data/ov003_profrec_020ad3b4.c:
-    complete
-    .data       start:0x020ad3b4 end:0x020ad3cc
 
 
 
@@ -6781,3 +6697,143 @@ src/auto/FadeOutScreenByCountWithX2X.c:
     complete
     .text       start:0x02053850 end:0x02053960
     .data       start:0x020a794c end:0x020a7968
+
+src/auto/ClearCanUseVramMap.c:
+    complete
+    .text       start:0x02053bac end:0x02053c08
+    .data       start:0x020a79b0 end:0x020a79c4
+
+src/auto/ClearPolWorkOne.c:
+    complete
+    .text       start:0x02071600 end:0x0207167c
+    .data       start:0x020a9c88 end:0x020a9c98
+
+src/auto/CheckAreaMapMaskForEnemy.c:
+    complete
+    .text       start:0x02079738 end:0x020797a4
+    .data       start:0x020aa3e0 end:0x020aa3fc
+
+src/auto/AddModel.c:
+    complete
+    .text       start:0x02051958 end:0x02051c00
+    .data       start:0x020a6270 end:0x020a627c
+
+src/auto/Animation_aONEOBJ.c:
+    complete
+    .text       start:0x02059218 end:0x020593b0
+    .data       start:0x020a811c end:0x020a8130
+
+src/auto/GetAooFromUnitBaseNo.c:
+    complete
+    .text       start:0x0206c22c end:0x0206c2a4
+    .data       start:0x020a9514 end:0x020a952c
+
+src/auto/GetID_takasa.c:
+    complete
+    .text       start:0x02096c2c end:0x02096cac
+    .data       start:0x020abf04 end:0x020abf14
+
+src/auto/GetNoCariStByJunban.c:
+    complete
+    .text       start:0x02087358 end:0x020873b8
+    .data       start:0x020ab2ac end:0x020ab2c0
+
+src/auto/GetShipAooSt.c:
+    complete
+    .text       start:0x020630e8 end:0x020631b4
+    .data       start:0x020a8a6c end:0x020a8a7c
+
+src/auto/GetEmptyBssDesc.c:
+    complete
+    .text       start:0x0207f96c end:0x0207f9dc
+    .data       start:0x020aab34 end:0x020aab44
+
+src/auto/PaintScreenOutRect.c:
+    complete
+    .text       start:0x0208eaec end:0x0208ed8c
+    .data       start:0x020ab97c end:0x020ab990
+
+src/auto/GetUnitType.c:
+    complete
+    .text       start:0x0206d5a4 end:0x0206d624
+    .data       start:0x020a9718 end:0x020a9724
+
+src/auto/IconPalTrans.c:
+    complete
+    .text       start:0x0206eea4 end:0x0206f090
+    .data       start:0x020a996c end:0x020a997c
+
+src/auto/MTG_CarisumaPosArrange.c:
+    complete
+    .text       start:0x020a278c end:0x020a297c
+    .data       start:0x020ad3b4 end:0x020ad3cc
+
+src/auto/PutOneHITmark.c:
+    complete
+    .text       start:0x0205e60c end:0x0205e90c
+    .data       start:0x020a8644 end:0x020a8654
+
+src/auto/PutHataIconFor3D.c:
+    complete
+    .text       start:0x02086748 end:0x02086830
+    .data       start:0x020ab1f4 end:0x020ab208
+
+src/auto/PutSyouriHaibokuBoard.c:
+    complete
+    .text       start:0x02089228 end:0x020894d0
+    .data       start:0x020ab554 end:0x020ab56c
+
+src/auto/PutUnitRaceIcon.c:
+    complete
+    .text       start:0x020895c0 end:0x02089840
+    .data       start:0x020ab584 end:0x020ab594
+
+src/auto/SetCameraObject.c:
+    complete
+    .text       start:0x02076e0c end:0x02076e90
+    .data       start:0x020aa1b4 end:0x020aa1c4
+
+src/auto/SetLogicParaNoForShipIn.c:
+    complete
+    .text       start:0x0209d3a8 end:0x0209d400
+    .data       start:0x020ac718 end:0x020ac730
+
+src/auto/SetUpNikoChanIcon.c:
+    complete
+    .text       start:0x02086d24 end:0x02086f18
+    .data       start:0x020ab25c end:0x020ab270
+
+src/auto/ShakeControl.c:
+    complete
+    .text       start:0x02076ef4 end:0x02076f84
+    .data       start:0x020aa1d4 end:0x020aa1e4
+
+src/auto/SetShisetuLevelByKuniNo.c:
+    complete
+    .text       start:0x0209ba10 end:0x0209bca4
+    .data       start:0x020ac4dc end:0x020ac4f4
+
+src/auto/changeDireForMove.c:
+    complete
+    .text       start:0x02055b4c end:0x02055be0
+    .data       start:0x020a7efc end:0x020a7f10
+
+src/auto/setBlankPos.c:
+    complete
+    .text       start:0x0205b62c end:0x0205b8c8
+    .data       start:0x020a82f4 end:0x020a8300
+
+src/auto/EquipItem.c:
+    complete
+    .text       start:0x0209d7d8 end:0x0209d864
+    .data       start:0x020ac7b0 end:0x020ac7bc
+
+src/auto/checkBoxIn.c:
+    complete
+    .text       start:0x0205ab04 end:0x0205ab90
+    .data       start:0x020a8244 end:0x020a8250
+
+src/auto/is_thereEnemyInSite.c:
+    complete
+    .text       start:0x0208fe4c end:0x020900e4
+    .data       start:0x020aba30 end:0x020aba44

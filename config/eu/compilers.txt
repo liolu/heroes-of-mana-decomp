@@ -2793,3 +2793,83 @@ src/auto/func_020058c8.c 1.2/sp3
 src/auto/DGT_Hash2CalcHmac.c 1.2/sp2p3
 src/auto/func_0202f048.c 1.2/sp3
 src/auto/func_02006300.c 1.2/sp3
+src/auto/ClearCanUseVramMap.c 2.0/sp1p5 -profile
+src/auto/ClearPolWorkOne.c 2.0/sp1p5 -profile
+src/auto/BengineSetUpForShipInner.c 2.0/sp1p5 -profile
+src/auto/CheckAreaMapMaskForEnemy.c 2.0/sp1p5 -profile
+src/auto/AddModel.c 2.0/sp1p5 -profile
+src/auto/Animation_aONEOBJ.c 2.0/sp1p5 -profile
+src/auto/FinishMakeUnit2.c 2.0/sp1p5 -profile
+src/auto/GetAooFromUnitBaseNo.c 2.0/sp1p5 -profile
+src/auto/GetID_takasa.c 2.0/sp1p5 -profile
+src/auto/GetNoCariStByJunban.c 2.0/sp1p5 -profile
+src/auto/GetShipAooSt.c 2.0/sp1p5 -profile
+src/auto/MesWindowScrollIn.c 2.0/sp1p5 -profile
+src/auto/GetEmptyBssDesc.c 2.0/sp1p5 -profile
+src/auto/PaintScreenOutRect.c 2.0/sp1p5 -profile
+src/auto/GetUnitType.c 2.0/sp1p5 -profile
+src/auto/IconPalTrans.c 2.0/sp1p5 -profile
+src/auto/MomentTouchPanelActionInShip.c 2.0/sp1p5 -profile
+src/auto/MTG_CarisumaPosArrange.c 2.0/sp1p5 -profile
+src/auto/PutOneHITmark.c 2.0/sp1p5 -profile
+src/auto/PutHataIconFor3D.c 2.0/sp1p5 -profile
+src/auto/ReleaseDataInShip.c 2.0/sp1p5 -profile
+src/auto/PutSecchiIconGaiaKazuKazu.c 2.0/sp1p5 -profile
+src/auto/PutSelectIconInMes.c 2.0/sp1p5 -profile
+src/auto/ReadAreaMapSiteMask.c 1.2/sp3 -profile
+src/auto/PutSyouriHaibokuBoard.c 2.0/sp1p5 -profile
+src/auto/PutUnitRaceIcon.c 2.0/sp1p5 -profile
+src/auto/SetCameraObject.c 2.0/sp1p5 -profile
+src/auto/SetLogicParaNoForShipIn.c 2.0/sp1p5 -profile
+src/auto/Sample_SeparateOfAfterBattle.c 2.0/sp1p5 -profile
+src/auto/SetUpDataInShip.c 2.0/sp1p5 -profile
+src/auto/SetUpNikoChanIcon.c 2.0/sp1p5 -profile
+src/auto/ShakeControl.c 2.0/sp1p5 -profile
+src/auto/SetShisetuLevelByKuniNo.c 2.0/sp1p5 -profile
+src/auto/changeDireForMove.c 2.0/sp1p5 -profile
+src/auto/func_ov004_020bc5cc.c 2.0/sp1p5 -O2,p
+src/auto/func_ov119_020eacec.c 2.0/sp1p5 -O2,p
+src/auto/func_ov123_0206b578.c 1.2/sp2p3
+src/auto/func_ov123_02066bb8.c 1.2/sp2p3
+src/auto/func_ov123_02069d90.c 1.2/sp3
+src/auto/func_ov123_0206b01c.c 1.2/sp3
+src/auto/func_ov123_0207bf24.c 1.2/sp3
+src/auto/func_ov123_0207d890.c 1.2/sp3
+src/auto/func_ov123_0207e158.c 1.2/sp3
+src/auto/func_ov123_0207f1a8.c 1.2/sp3
+src/auto/func_ov123_0207fa54.c 1.2/sp3
+src/auto/func_ov123_020860b8.c 1.2/sp3
+src/auto/func_ov123_02079994.c 1.2/sp3
+src/auto/func_ov123_02089378.c 1.2/sp3
+src/auto/func_ov123_02089bd0.c 1.2/sp3
+src/auto/func_ov123_0209746c.c 1.2/sp3
+src/auto/func_ov123_02099970.c 1.2/sp3
+src/auto/func_ov123_02099ebc.c 1.2/sp3
+src/auto/func_ov123_02091e88.c 1.2/sp3
+src/auto/func_ov123_0209a0ac.c 1.2/sp3
+src/auto/func_ov123_0209ada8.c 1.2/sp3
+src/auto/func_ov123_02094660.c 1.2/sp3
+src/auto/func_ov123_0209e4d4.c 1.2/sp3
+src/auto/func_ov123_0209eae4.c 1.2/sp3
+src/auto/func_ov123_02095dd4.c 1.2/sp3
+src/auto/func_ov123_020ae668.c 1.2/sp3
+src/auto/func_ov123_020aebc4.c 1.2/sp3 -O2,p
+src/auto/setBlankPos.c 2.0/sp1p5 -profile
+src/auto/EquipItem.c 2.0/sp1p5 -profile
+src/auto/checkBoxIn.c 2.0/sp1p5 -profile
+src/auto/changePosNoForOverSea.c 2.0/sp1p5 -profile
+src/auto/is_thereEnemyInSite.c 2.0/sp1p5 -profile
+src/auto/func_ov123_020aed9c.c 1.2/sp3
+src/auto/func_ov123_020a23a8.c 1.2/sp3
+src/auto/func_ov123_020adb98.c 1.2/sp3
+src/auto/func_ov123_020b9dc4.c 1.2/sp3
+src/auto/func_ov123_020ba3b8.c 1.2/sp3
+src/auto/func_ov123_020bb6a8.c 1.2/sp3
+src/auto/func_ov123_020bc654.c 1.2/sp3
+src/auto/func_ov123_020b9238.c 1.2/sp3
+src/auto/func_ov123_020c2b08.c 1.2/sp3
+src/auto/func_ov123_020cadd0.c 1.2/sp3
+src/auto/func_ov123_020cb050.c 1.2/sp3
+src/auto/func_ov123_020c7d5c.c 1.2/sp3
+src/auto/func_02005314.c 1.2/sp3
+src/auto/func_0200524c.c 1.2/sp3

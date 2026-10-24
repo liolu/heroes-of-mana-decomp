@@ -109,9 +109,6 @@ src/data/ov109_profrec_020e9acc.c:
     .data       start:0x020e9acc end:0x020e9adc
 
 
-src/data/ov109_profrec_020e9aec.c:
-    complete
-    .data       start:0x020e9aec end:0x020e9afc
 
 
 src/data/ov109_profrec_020e9b24.c:
@@ -122,9 +119,6 @@ src/data/ov109_profrec_020e9b34.c:
     complete
     .data       start:0x020e9b34 end:0x020e9b50
 
-src/data/ov109_profrec_020e9b50.c:
-    complete
-    .data       start:0x020e9b50 end:0x020e9b6c
 
 
 src/data/ov109_profrec_020e9b7c.c:
@@ -133,13 +127,7 @@ src/data/ov109_profrec_020e9b7c.c:
 
 
 
-src/data/ov109_profrec_020e9bc4.c:
-    complete
-    .data       start:0x020e9bc4 end:0x020e9bd4
 
-src/data/ov109_profrec_020e9bd4.c:
-    complete
-    .data       start:0x020e9bd4 end:0x020e9be8
 
 src/data/ov109_profrec_020e9be8.c:
     complete
@@ -234,9 +222,6 @@ src/data/ov109_profrec_020e9f00.c:
 
 
 
-src/data/ov109_profrec_020e9f60.c:
-    complete
-    .data       start:0x020e9f60 end:0x020e9f7c
 
 src/data/ov109_profrec_020e9f7c.c:
     complete
@@ -266,9 +251,6 @@ src/data/ov109_profrec_020ea0dc.c:
 
 
 
-src/data/ov109_profrec_020ea250.c:
-    complete
-    .data       start:0x020ea250 end:0x020ea270
 
 src/data/ov109_profrec_020ea270.c:
     complete
@@ -505,3 +487,33 @@ src/auto/ReleaseUpUnit256Data.c:
     complete
     .text       start:0x020e56f0 end:0x020e580c
     .data       start:0x020e9eb0 end:0x020e9ec8
+
+src/auto/BengineSetUpForShipInner.c:
+    complete
+    .text       start:0x020e235c end:0x020e268c
+    .data       start:0x020e9b50 end:0x020e9b6c
+
+src/auto/FinishMakeUnit2.c:
+    complete
+    .text       start:0x020e1b5c end:0x020e1be4
+    .data       start:0x020e9aec end:0x020e9afc
+
+src/auto/MomentTouchPanelActionInShip.c:
+    complete
+    .text       start:0x020e7bec end:0x020e7f88
+    .data       start:0x020ea250 end:0x020ea270
+
+src/auto/ReleaseDataInShip.c:
+    complete
+    .text       start:0x020e2ed4 end:0x020e3160
+    .data       start:0x020e9bd4 end:0x020e9be8
+
+src/auto/PutSecchiIconGaiaKazuKazu.c:
+    complete
+    .text       start:0x020e6258 end:0x020e644c
+    .data       start:0x020e9f60 end:0x020e9f7c
+
+src/auto/SetUpDataInShip.c:
+    complete
+    .text       start:0x020e2c34 end:0x020e2ed4
+    .data       start:0x020e9bc4 end:0x020e9bd4

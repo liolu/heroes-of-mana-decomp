@@ -443,3 +443,19 @@ src/auto/func_ov112_020e6cc8.c:
 src/auto/func_ov112_020e9094.c:
     complete
     .text       start:0x020e9094 end:0x020e919c
+
+src/auto/func_ov112_020e5010.c:
+    complete
+    .text       start:0x020e5010 end:0x020e5174
+
+src/auto/func_ov112_020e52c4.c:
+    complete
+    .text       start:0x020e52c4 end:0x020e55e4
+
+src/auto/func_ov112_020e55e4.c:
+    complete
+    .text       start:0x020e55e4 end:0x020e5980
+
+src/auto/func_ov112_020e86f4.c:
+    complete
+    .text       start:0x020e86f4 end:0x020e8a84
