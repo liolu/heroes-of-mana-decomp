@@ -6837,3 +6837,7 @@ src/auto/is_thereEnemyInSite.c:
     complete
     .text       start:0x0208fe4c end:0x020900e4
     .data       start:0x020aba30 end:0x020aba44
+
+src/data/ov003_data_020aea70.c:
+    complete
+    .data       start:0x020aea70 end:0x020aea80
