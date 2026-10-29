@@ -186,6 +186,9 @@ void CARDi_SetRomOp(u32, u32);
 #ifndef M2C_SELF_CARDi_TaskThread
 void CARDi_TaskThread(void *);
 #endif
+#ifndef M2C_SELF_CARDi_TryReadCardDma
+s32 CARDi_TryReadCardDma(u32 *);
+#endif
 #ifndef M2C_SELF_CARDi_TryWaitAsync
 s32 CARDi_TryWaitAsync(void);
 #endif
@@ -1686,11 +1689,17 @@ s32 MB_CommIsBootable(s32);
 #ifndef M2C_SELF_MB_CommSetParentStateCallback
 void MB_CommSetParentStateCallback(s32);
 #endif
+#ifndef M2C_SELF_MB_DisconnectChild
+void MB_DisconnectChild(u16);
+#endif
 #ifndef M2C_SELF_MB_EndToIdle
 void MB_EndToIdle(void);
 #endif
 #ifndef M2C_SELF_MB_InitSendGameInfoStatus
 void MB_InitSendGameInfoStatus(void);
+#endif
+#ifndef M2C_SELF_MB_RegisterFile
+int MB_RegisterFile(void *, void *);
 #endif
 #ifndef M2C_SELF_MB_SendGameInfoBeacon
 void MB_SendGameInfoBeacon(u32, u32, u32);
@@ -1797,8 +1806,14 @@ u8 *MBi_ReceiveRequestDataPiece(u8 *, s32);
 #ifndef M2C_SELF_MBi_ReloadCache
 void MBi_ReloadCache(void *);
 #endif
+#ifndef M2C_SELF_MBi_SendFixedBeacon
+void MBi_SendFixedBeacon(u16, u32, u32);
+#endif
 #ifndef M2C_SELF_MBi_SendMP
 s32 MBi_SendMP(u32, u32, u32);
+#endif
+#ifndef M2C_SELF_MBi_SendVolatBeacon
+void MBi_SendVolatBeacon(u16, u32, u32);
 #endif
 #ifndef M2C_SELF_MBi_SetChildMPMaxSize
 void MBi_SetChildMPMaxSize(s32);
@@ -2340,6 +2355,9 @@ void OS_UnlockCartridge(M2C_UNK);
 #ifndef M2C_SELF_OS_VSPrintf
 void OS_VSPrintf(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
+#ifndef M2C_SELF_OS_WaitIrq
+void OS_WaitIrq(s32, u32);
+#endif
 #ifndef M2C_SELF_OS_WakeupThread
 void OS_WakeupThread(void *);
 #endif
@@ -2396,6 +2414,9 @@ void OSi_InsertLinkToQueue(void *, void *);
 #endif
 #ifndef M2C_SELF_OSi_InsertThreadToList
 void OSi_InsertThreadToList(void *);
+#endif
+#ifndef M2C_SELF_OSi_IrqCallback
+void OSi_IrqCallback(int);
 #endif
 #ifndef M2C_SELF_OSi_IrqDma0
 void OSi_IrqDma0(void);
@@ -3104,6 +3125,9 @@ void Routine_WorldMap2(M2C_UNK);
 #endif
 #ifndef M2C_SELF_RtcBCD2HEX
 s32 RtcBCD2HEX(u32);
+#endif
+#ifndef M2C_SELF_RtcCommonCallback
+void RtcCommonCallback(s32, u32, s32);
 #endif
 #ifndef M2C_SELF_RtcGetResultCallback
 void RtcGetResultCallback(s32);
@@ -4431,6 +4455,9 @@ void __destroy_global_chain(void);
 #ifndef M2C_SELF___end__catch
 void __end__catch(void *);
 #endif
+#ifndef M2C_SELF___exit
+void __exit(void);
+#endif
 #ifndef M2C_SELF___mbtowc_noconv
 s32 __mbtowc_noconv(s16 *, u8 *, s32);
 #endif
@@ -5316,6 +5343,12 @@ void func_0201360c(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02013704
 int func_02013704(int, int, int, int);
 #endif
+#ifndef M2C_SELF_func_02013f5c
+void func_02013f5c(void *);
+#endif
+#ifndef M2C_SELF_func_02014344
+void func_02014344(u8 *, void *);
+#endif
 #ifndef M2C_SELF_func_02014408
 void func_02014408(void *, const u8 *, u32);
 #endif
@@ -5354,6 +5387,9 @@ s32 func_02015b24(s32, u32);
 #endif
 #ifndef M2C_SELF_func_02015c18
 u32 func_02015c18(u32, u16 *, void *, void *);
+#endif
+#ifndef M2C_SELF_func_02015f28
+void func_02015f28(u32, u16, u16);
 #endif
 #ifndef M2C_SELF_func_02016268
 s32 func_02016268(s32, s32, s32);
@@ -5553,6 +5589,9 @@ char *func_02024ed4(const char *, int);
 #ifndef M2C_SELF_func_02024f10
 u8 *func_02024f10(u8 *, u8 *);
 #endif
+#ifndef M2C_SELF_func_020261c8
+double func_020261c8(s32, s32 *);
+#endif
 #ifndef M2C_SELF_func_020262a8
 void func_020262a8(M2C_UNK);
 #endif
@@ -5570,6 +5609,9 @@ s32 func_02026c60(void *, s32);
 #endif
 #ifndef M2C_SELF_func_02026ce4
 unsigned int func_02026ce4(unsigned int, unsigned int, unsigned int, unsigned int);
+#endif
+#ifndef M2C_SELF_func_02026d0c
+void *func_02026d0c(void *, void *, void *);
 #endif
 #ifndef M2C_SELF_func_02027b50
 void func_02027b50(void *, int);
@@ -5595,6 +5637,12 @@ void func_0202a784(void *, s32);
 #ifndef M2C_SELF_func_0202ab08
 int func_0202ab08(void *, void *);
 #endif
+#ifndef M2C_SELF_func_0202abe8
+s32 func_0202abe8(void *, void *);
+#endif
+#ifndef M2C_SELF_func_0202acc8
+void func_0202acc8(void *, void *, void *);
+#endif
 #ifndef M2C_SELF_func_0202b0ec
 void func_0202b0ec(void *, double, void *);
 #endif
@@ -5609,6 +5657,9 @@ double func_0202b8d0(double, int);
 #endif
 #ifndef M2C_SELF_func_0202b8fc
 void func_0202b8fc(M2C_UNK);
+#endif
+#ifndef M2C_SELF_func_0202b92c
+int func_0202b92c(const unsigned char *, const unsigned char *);
 #endif
 #ifndef M2C_SELF_func_0202b994
 void func_0202b994(void);
@@ -9726,6 +9777,9 @@ void func_ov107_020d7a50(void *, M2C_UNK);
 #ifndef M2C_SELF_func_ov107_020d7b88
 s32 func_ov107_020d7b88(void *);
 #endif
+#ifndef M2C_SELF_func_ov107_020d7d28
+void func_ov107_020d7d28(void *);
+#endif
 #ifndef M2C_SELF_func_ov107_020d7f0c
 void func_ov107_020d7f0c(M2C_UNK, M2C_UNK);
 #endif
@@ -10199,6 +10253,9 @@ void func_ov108_020d7a50(void *, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov108_020d7b88
 s32 func_ov108_020d7b88(void *);
+#endif
+#ifndef M2C_SELF_func_ov108_020d7d28
+void func_ov108_020d7d28(void *);
 #endif
 #ifndef M2C_SELF_func_ov108_020d7f0c
 void func_ov108_020d7f0c(M2C_UNK, M2C_UNK);
@@ -14040,6 +14097,9 @@ void func_ov123_02076258(s32, s32, void *);
 #ifndef M2C_SELF_func_ov123_02076634
 s32 func_ov123_02076634(s32);
 #endif
+#ifndef M2C_SELF_func_ov123_020766fc
+void func_ov123_020766fc(u8 *, u8 *);
+#endif
 #ifndef M2C_SELF_func_ov123_02076a7c
 s32 func_ov123_02076a7c(s8 *);
 #endif
@@ -14403,6 +14463,9 @@ s32 func_ov123_0207e158(s32, void *, u8 *, s32);
 #ifndef M2C_SELF_func_ov123_0207e260
 s32 func_ov123_0207e260(s32, void *, u8);
 #endif
+#ifndef M2C_SELF_func_ov123_0207e2fc
+s32 func_ov123_0207e2fc(void *, s32);
+#endif
 #ifndef M2C_SELF_func_ov123_0207e3ec
 void func_ov123_0207e3ec(void *, void *);
 #endif
@@ -14498,6 +14561,9 @@ s32 func_ov123_02082bcc(M2C_UNK, void *);
 #endif
 #ifndef M2C_SELF_func_ov123_02082c70
 s32 func_ov123_02082c70(void **, void *);
+#endif
+#ifndef M2C_SELF_func_ov123_02082fc8
+s32 func_ov123_02082fc8(void *, void *);
 #endif
 #ifndef M2C_SELF_func_ov123_02083578
 s32 func_ov123_02083578(void *);
@@ -15024,6 +15090,9 @@ void func_ov123_0208dca0(void *);
 #ifndef M2C_SELF_func_ov123_0208dcf0
 void func_ov123_0208dcf0(void *);
 #endif
+#ifndef M2C_SELF_func_ov123_0208dd80
+void func_ov123_0208dd80(void *, s32);
+#endif
 #ifndef M2C_SELF_func_ov123_0208df24
 s32 func_ov123_0208df24(void);
 #endif
@@ -15299,6 +15368,9 @@ s32 func_ov123_02091744(void);
 #endif
 #ifndef M2C_SELF_func_ov123_020919e4
 void func_ov123_020919e4(s32, u8 *);
+#endif
+#ifndef M2C_SELF_func_ov123_02091ae4
+void func_ov123_02091ae4(s32, u16 *, s32, s32);
 #endif
 #ifndef M2C_SELF_func_ov123_02091b64
 void func_ov123_02091b64(u8, u16 *, s32, u8 *);
@@ -20013,6 +20085,9 @@ void oneStatueSetDireByEyePos(void *, s32);
 #ifndef M2C_SELF_panelOpenRoutine
 void panelOpenRoutine(void);
 #endif
+#ifndef M2C_SELF_parse_format
+const char *parse_format(const char *, void *);
+#endif
 #ifndef M2C_SELF_pow
 void pow(void);
 #endif
@@ -20156,9 +20231,6 @@ void BuildHouse(void);
 #endif
 #ifndef M2C_SELF_CARDi_InitCommon
 void CARDi_InitCommon(void);
-#endif
-#ifndef M2C_SELF_CARDi_TryReadCardDma
-void CARDi_TryReadCardDma(M2C_UNK);
 #endif
 #ifndef M2C_SELF_CTRDGi_InitModuleInfo
 void CTRDGi_InitModuleInfo(void);
@@ -20523,23 +20595,11 @@ void LeaveTouchPanelAction(void);
 #ifndef M2C_SELF_LeaveTouchPanelActionInShip
 void LeaveTouchPanelActionInShip(void);
 #endif
-#ifndef M2C_SELF_MB_DisconnectChild
-void MB_DisconnectChild(M2C_UNK);
-#endif
-#ifndef M2C_SELF_MB_RegisterFile
-void MB_RegisterFile(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_MBi_ChildCallback
 void MBi_ChildCallback(M2C_UNK);
 #endif
 #ifndef M2C_SELF_MBi_ParentCallback
 void MBi_ParentCallback(M2C_UNK);
-#endif
-#ifndef M2C_SELF_MBi_SendFixedBeacon
-void MBi_SendFixedBeacon(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_MBi_SendVolatBeacon
-void MBi_SendVolatBeacon(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_MTG_SaveParaReset
 void MTG_SaveParaReset(void);
@@ -20670,14 +20730,8 @@ void OS_SetIrqStackChecker(void);
 #ifndef M2C_SELF_OS_VSNPrintf
 void OS_VSNPrintf(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_OS_WaitIrq
-void OS_WaitIrq(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_OS_YieldThread
 void OS_YieldThread(void);
-#endif
-#ifndef M2C_SELF_OSi_IrqCallback
-void OSi_IrqCallback(M2C_UNK);
 #endif
 #ifndef M2C_SELF_ObjAnimePatWorkSetForAob2Data
 void ObjAnimePatWorkSetForAob2Data(void);
@@ -20867,9 +20921,6 @@ void Routine_BGMvolChange(void);
 #endif
 #ifndef M2C_SELF_Routine_ShakeScreen
 void Routine_ShakeScreen(void);
-#endif
-#ifndef M2C_SELF_RtcCommonCallback
-void RtcCommonCallback(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_SND_CommandInit
 void SND_CommandInit(void);
@@ -21195,9 +21246,6 @@ M2C_UNK __dec2num(M2C_UNK);
 #ifndef M2C_SELF___dorounddecup
 void __dorounddecup(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF___exit
-void __exit(void);
-#endif
 #ifndef M2C_SELF___ieee754_pow
 void __ieee754_pow(void);
 #endif
@@ -21358,7 +21406,7 @@ void __sinit_ov004_020cd590(void);
 void __sinit_ov123_020d97f4(void);
 #endif
 #ifndef M2C_SELF___strtold
-M2C_UNK __strtold(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
+void __strtold(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF___strtoull
 M2C_UNK __strtoull(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
@@ -21443,12 +21491,6 @@ void deleteObjCharDataInVBlank(void);
 #endif
 #ifndef M2C_SELF_deleteUseStringStOne
 void deleteUseStringStOne(void);
-#endif
-#ifndef M2C_SELF_double2hex
-M2C_UNK double2hex(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_float2str
-M2C_UNK float2str(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_forShipHPbarMake
 void forShipHPbarMake(void);
@@ -22299,15 +22341,6 @@ void func_02008238(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_0200b31c
 void func_0200b31c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02013f5c
-void func_02013f5c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02014344
-void func_02014344(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02015f28
-void func_02015f28(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_0201c458
 void func_0201c458(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -22320,12 +22353,6 @@ void func_0202071c(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02021cbc
 M2C_UNK func_02021cbc(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_020261c8
-void func_020261c8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02026d0c
-M2C_UNK func_02026d0c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_020274d4
 M2C_UNK func_020274d4(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -22336,22 +22363,10 @@ M2C_UNK func_020277b8(M2C_UNK, M2C_UNK, M2C_UNK);
 M2C_UNK func_02027c74(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020282c0
-M2C_UNK func_020282c0(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_02028c18
-void func_02028c18(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202abe8
-M2C_UNK func_0202abe8(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202acc8
-void func_0202acc8(M2C_UNK, M2C_UNK);
+void func_020282c0(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202af6c
 void func_0202af6c(M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202b92c
-void func_0202b92c(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202bb24
 void func_0202bb24(M2C_UNK);
@@ -22364,9 +22379,6 @@ void func_0202bb5c(void);
 #endif
 #ifndef M2C_SELF_func_0202bb9c
 void func_0202bb9c(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_0202c060
-M2C_UNK func_0202c060(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_0202ca34
 void func_0202ca34(M2C_UNK, M2C_UNK);
@@ -23256,9 +23268,6 @@ void func_ov105_020d04a4(void);
 #ifndef M2C_SELF_func_ov107_020d73ec
 void func_ov107_020d73ec(M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_ov107_020d7d28
-void func_ov107_020d7d28(M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_ov107_020d8034
 void func_ov107_020d8034(M2C_UNK);
 #endif
@@ -23300,9 +23309,6 @@ void func_ov108_020d6c00(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov108_020d73ec
 void func_ov108_020d73ec(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_ov108_020d7d28
-void func_ov108_020d7d28(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov108_020d8034
 void func_ov108_020d8034(M2C_UNK);
@@ -24633,9 +24639,6 @@ M2C_UNK func_ov123_02076644(M2C_UNK, M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_ov123_020766a8
 M2C_UNK func_ov123_020766a8(M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_ov123_020766fc
-void func_ov123_020766fc(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_ov123_020767c4
 void func_ov123_020767c4(M2C_UNK);
 #endif
@@ -24789,9 +24792,6 @@ void func_ov123_0207df18(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_ov123_0207dff4
 M2C_UNK func_ov123_0207dff4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_ov123_0207e2fc
-void func_ov123_0207e2fc(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_ov123_0207e5e0
 M2C_UNK func_ov123_0207e5e0(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
@@ -24836,9 +24836,6 @@ void func_ov123_020828e8(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov123_02082ef8
 void func_ov123_02082ef8(M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_ov123_02082fc8
-void func_ov123_02082fc8(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov123_02083214
 void func_ov123_02083214(M2C_UNK, M2C_UNK);
@@ -25008,9 +25005,6 @@ void func_ov123_0208d988(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_ov123_0208db64
 void func_ov123_0208db64(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_ov123_0208dd80
-void func_ov123_0208dd80(M2C_UNK, M2C_UNK);
-#endif
 #ifndef M2C_SELF_func_ov123_0208e11c
 void func_ov123_0208e11c(M2C_UNK, M2C_UNK);
 #endif
@@ -25088,9 +25082,6 @@ M2C_UNK func_ov123_02091598(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov123_02091824
 void func_ov123_02091824(M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_ov123_02091ae4
-void func_ov123_02091ae4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_ov123_02091d44
 void func_ov123_02091d44(M2C_UNK, M2C_UNK, M2C_UNK);
@@ -26177,9 +26168,6 @@ M2C_UNK onceLoopOnAna(void);
 #endif
 #ifndef M2C_SELF_oneLoopInShip
 M2C_UNK oneLoopInShip(void);
-#endif
-#ifndef M2C_SELF_parse_format
-M2C_UNK parse_format(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_putAllP_Obj
 void putAllP_Obj(void);
