@@ -1702,7 +1702,7 @@ src/msl/fp_compare.c:
     complete
     .text       start:0x0202cc58 end:0x0202cd94
 
-src/auto/func_0202cd94.c:
+src/auto/_dls.c:
     complete
     .text       start:0x0202cd94 end:0x0202ce30
 
@@ -1710,7 +1710,7 @@ src/msl/fp_compare_2.c:
     complete
     .text       start:0x0202ce30 end:0x0202cebc
 
-src/auto/func_0202cebc.c:
+src/auto/_dneq.c:
     complete
     .text       start:0x0202cebc end:0x0202cf48
 
@@ -4767,3 +4767,99 @@ src/data/main_data_020360ec.c:
 src/data/main_data_020360f0.c:
     complete
     .data       start:0x020360f0 end:0x020360f4
+
+src/auto/RtcCommonCallback.c:
+    complete
+    .text       start:0x02016638 end:0x02016b88
+
+src/auto/CARDi_TryReadCardDma.c:
+    complete
+    .text       start:0x02017a58 end:0x02017bb8
+
+src/auto/MBi_SendFixedBeacon.c:
+    complete
+    .text       start:0x0201d560 end:0x0201d6c4
+
+src/auto/MBi_SendVolatBeacon.c:
+    complete
+    .text       start:0x0201d6f4 end:0x0201d960
+
+src/auto/MB_DisconnectChild.c:
+    complete
+    .text       start:0x0201f1c0 end:0x0201f34c
+
+src/auto/__exit.c:
+    complete
+    .text       start:0x02020b24 end:0x02020c4c
+
+src/auto/double2hex.c:
+    complete
+    .text       start:0x02021f9c end:0x02022478
+
+src/auto/func_0202abe8.c:
+    complete
+    .text       start:0x0202abe8 end:0x0202acc8
+
+src/donor/OS_WaitIrq.c:
+    complete
+    .text       start:0x0200c4ec end:0x0200c560
+
+src/donor/OSi_IrqCallback.c:
+    complete
+    .text       start:0x0200c564 end:0x0200c5ec
+
+src/donor/func_02013f5c.c:
+    complete
+    .text       start:0x02013f5c end:0x02014344
+
+src/donor/func_02014344.c:
+    complete
+    .text       start:0x02014344 end:0x02014408
+
+src/donor/func_02015f28.c:
+    complete
+    .text       start:0x02015f28 end:0x02016158
+
+src/donor/MB_RegisterFile.c:
+    complete
+    .text       start:0x0201c92c end:0x0201cbbc
+
+src/donor/float2str.c:
+    complete
+    .text       start:0x0202259c end:0x02022d00
+
+src/donor/parse_format.c:
+    complete
+    .text       start:0x020237ac end:0x02023ca4
+
+src/donor/func_020261c8.c:
+    complete
+    .text       start:0x020261c8 end:0x020262a8
+
+src/donor/func_02026d0c.c:
+    complete
+    .text       start:0x02026d0c end:0x02027284
+
+src/donor/func_02028c18.c:
+    complete
+    .text       start:0x02028c18 end:0x02028c88
+
+src/donor/func_0202acc8.c:
+    complete
+    .text       start:0x0202acc8 end:0x0202af6c
+
+src/donor/func_0202b92c.c:
+    complete
+    .text       start:0x0202b92c end:0x0202b994
+
+src/donor/_ll_ufrom_d.c:
+    complete
+    .text       start:0x0202c060 end:0x0202c0ec
+
+src/auto/func_0202af6c.c:
+    complete
+    .text       start:0x0202af6c end:0x0202b0ec
+
+src/auto/StrmCallback.c:
+    complete
+    .text       start:0x02004790 end:0x02004844

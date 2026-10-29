@@ -4776,3 +4776,15 @@ src/auto/func_ov004_020cb25c.c:
 src/data/ov004_data_020cd6a8.c:
     complete
     .data       start:0x020cd6a8 end:0x020cd6b0
+
+src/auto/func_ov004_020bbff0.c:
+    complete
+    .text       start:0x020bbff0 end:0x020bc064
+
+src/auto/func_ov004_020bc558.c:
+    complete
+    .text       start:0x020bc558 end:0x020bc5cc
+
+src/auto/func_ov004_020bc640.c:
+    complete
+    .text       start:0x020bc640 end:0x020bc6b4

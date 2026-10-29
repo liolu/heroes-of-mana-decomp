@@ -2878,3 +2878,37 @@ src/auto/func_ov123_0207e2fc.c 1.2/sp3
 src/auto/func_ov123_02082fc8.c 1.2/sp3
 src/auto/func_ov123_0208dd80.c 1.2/sp3
 src/auto/func_ov123_02091ae4.c 1.2/sp3
+src/auto/MBi_SendFixedBeacon.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/MBi_SendVolatBeacon.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/MB_DisconnectChild.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/double2hex.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OS_WaitIrq.c 2.0/sp1p5
+src/donor/OSi_IrqCallback.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02013f5c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02014344.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02015f28.c 2.0/sp1p5
+src/donor/MB_RegisterFile.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/float2str.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/parse_format.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020261c8.c 2.0/sp1p5
+src/donor/func_02026d0c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02028c18.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0202acc8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0202b92c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/_ll_ufrom_d.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_ov123_02094b0c.c 1.2/sp2p3
+src/auto/func_ov123_02094b28.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_ov123_020726a0.c 1.2/sp2p3
+src/auto/func_ov123_020884f0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_ov123_02088520.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_ov111_020e975c.c 2.0/sp1p5 -O2,p
+src/auto/func_01ff81f4.c 2.0/sp1p5
+src/auto/func_ov004_020bbff0.c 2.0/sp1p5
+src/auto/func_ov004_020bc558.c 2.0/sp1p5 -O2,p
+src/auto/func_ov004_020bc640.c 2.0/sp1p5 -O2,p
+src/auto/func_ov123_0208a0d4.c 1.2/sp3
+src/auto/func_ov107_020dc0cc.c 2.0/sp1p5
+src/auto/func_0202af6c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_ov108_020d6c00.c 2.0/sp1p5
+src/auto/func_ov123_02089ab8.c 1.2/sp3
+src/auto/StrmCallback.c 1.2/sp3

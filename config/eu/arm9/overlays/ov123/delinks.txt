@@ -14088,3 +14088,31 @@ src/data/ov123_data_020de85c.c:
 src/data/ov123_data_020de864.c:
     complete
     .data       start:0x020de864 end:0x020de870
+
+src/auto/func_ov123_02094b0c.c:
+    complete
+    .text       start:0x02094b0c end:0x02094b20
+
+src/auto/func_ov123_02094b28.c:
+    complete
+    .text       start:0x02094b28 end:0x02094b48
+
+src/auto/func_ov123_020726a0.c:
+    complete
+    .text       start:0x020726a0 end:0x020726c4
+
+src/auto/func_ov123_020884f0.c:
+    complete
+    .text       start:0x020884f0 end:0x02088520
+
+src/auto/func_ov123_02088520.c:
+    complete
+    .text       start:0x02088520 end:0x02088550
+
+src/auto/func_ov123_0208a0d4.c:
+    complete
+    .text       start:0x0208a0d4 end:0x0208a1b0
+
+src/auto/func_ov123_02089ab8.c:
+    complete
+    .text       start:0x02089ab8 end:0x02089b3c

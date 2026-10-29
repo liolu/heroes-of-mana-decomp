@@ -8,3 +8,7 @@ src/auto/MIi_DmaSetParams.c:
 src/auto/MIi_DmaSetParams_noInt.c:
     complete
     .text       start:0x01ff8264 end:0x01ff8288
+
+src/auto/func_01ff81f4.c:
+    complete
+    .text       start:0x01ff81f4 end:0x01ff8264

@@ -703,3 +703,7 @@ src/auto/func_ov111_020e72f0.c:
 src/auto/func_ov111_020e9cf8.c:
     complete
     .text       start:0x020e9cf8 end:0x020e9fcc
+
+src/auto/func_ov111_020e975c.c:
+    complete
+    .text       start:0x020e975c end:0x020e97ac

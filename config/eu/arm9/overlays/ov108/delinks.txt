@@ -282,3 +282,7 @@ src/data/ov108_data_020da3f8.c:
 src/data/ov108_data_020da3fc.c:
     complete
     .data       start:0x020da3fc end:0x020da400
+
+src/auto/func_ov108_020d6c00.c:
+    complete
+    .text       start:0x020d6c00 end:0x020d6f30
