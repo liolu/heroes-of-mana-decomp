@@ -133,9 +133,6 @@ src/data/ov109_profrec_020e9be8.c:
     complete
     .data       start:0x020e9be8 end:0x020e9bfc
 
-src/data/ov109_profrec_020e9bfc.c:
-    complete
-    .data       start:0x020e9bfc end:0x020e9c0c
 
 src/data/ov109_profrec_020e9c0c.c:
     complete
@@ -745,3 +742,8 @@ src/data/ov109_profpad_020e9be6.c:
 src/data/ov109_profpad_020e9f7a.c:
     complete
     .data       start:0x020e9f7a end:0x020e9f7c
+
+src/auto/ReadShipsFile.c:
+    complete
+    .text       start:0x020e32b8 end:0x020e3304
+    .data       start:0x020e9bfc end:0x020e9c0c

@@ -4984,3 +4984,43 @@ src/data/ov004_ctor_020cd684.c:
 src/data/ov004_ctor_020cd688.c:
     complete
     .ctor       start:0x020cd688 end:0x020cd68c
+
+src/auto/func_ov004_020b9cd8.c:
+    complete
+    .text       start:0x020b9cd8 end:0x020b9cf4
+
+src/auto/func_ov004_020b9d1c.c:
+    complete
+    .text       start:0x020b9d1c end:0x020b9d30
+
+src/auto/func_ov004_020c14b0.c:
+    complete
+    .text       start:0x020c14b0 end:0x020c14d0
+
+src/auto/func_ov004_020c4460.c:
+    complete
+    .text       start:0x020c4460 end:0x020c44fc
+
+src/auto/func_ov004_020c9868.c:
+    complete
+    .text       start:0x020c9868 end:0x020c9874
+
+src/auto/func_ov004_020c9cc0.c:
+    complete
+    .text       start:0x020c9cc0 end:0x020c9ccc
+
+src/auto/func_ov004_020c9450.c:
+    complete
+    .text       start:0x020c9450 end:0x020c9464
+
+src/auto/func_ov004_020c946c.c:
+    complete
+    .text       start:0x020c946c end:0x020c9480
+
+src/auto/func_ov004_020cac20.c:
+    complete
+    .text       start:0x020cac20 end:0x020cac38
+
+src/auto/func_ov004_020cad18.c:
+    complete
+    .text       start:0x020cad18 end:0x020cad30

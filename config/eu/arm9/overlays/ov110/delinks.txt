@@ -198,3 +198,7 @@ src/data/ov110_data_020e3cc8.c:
 src/data/ov110_data_020e3d44.c:
     complete
     .data       start:0x020e3d44 end:0x020e3dac
+
+src/auto/func_ov110_020e2288.c:
+    complete
+    .text       start:0x020e2288 end:0x020e2324

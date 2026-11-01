@@ -2701,9 +2701,6 @@ src/data/ov003_profrec_020a8130.c:
     complete
     .data       start:0x020a8130 end:0x020a8140
 
-src/data/ov003_profrec_020a8140.c:
-    complete
-    .data       start:0x020a8140 end:0x020a8150
 
 src/data/ov003_profrec_020a8150.c:
     complete
@@ -2968,9 +2965,6 @@ src/data/ov003_profrec_020a8e08.c:
 
 
 
-src/data/ov003_profrec_020a8e3c.c:
-    complete
-    .data       start:0x020a8e3c end:0x020a8e4c
 
 
 
@@ -3297,9 +3291,6 @@ src/data/ov003_profrec_020a9dd8.c:
     complete
     .data       start:0x020a9dd8 end:0x020a9de4
 
-src/data/ov003_profrec_020a9e08.c:
-    complete
-    .data       start:0x020a9e08 end:0x020a9e18
 
 src/data/ov003_profrec_020a9e18.c:
     complete
@@ -3984,9 +3975,6 @@ src/data/ov003_profrec_020ac1e8.c:
 
 
 
-src/data/ov003_profrec_020ac2a8.c:
-    complete
-    .data       start:0x020ac2a8 end:0x020ac2bc
 
 
 
@@ -9621,3 +9609,23 @@ src/data/ov003_bss_020b5339.c:
 src/data/ov003_bss_020b533b.c:
     complete
     .bss        start:0x020b533b end:0x020b533c
+
+src/auto/CameraMoveAndWait.c:
+    complete
+    .text       start:0x0209a0ec end:0x0209a134
+    .data       start:0x020ac2a8 end:0x020ac2bc
+
+src/auto/SetDestination.c:
+    complete
+    .text       start:0x020665b8 end:0x020665e4
+    .data       start:0x020a8e3c end:0x020a8e4c
+
+src/auto/setP_ObjTexture.c:
+    complete
+    .text       start:0x020594a0 end:0x02059598
+    .data       start:0x020a8140 end:0x020a8150
+
+src/auto/setShadowPol.c:
+    complete
+    .text       start:0x02073f24 end:0x02073fb0
+    .data       start:0x020a9e08 end:0x020a9e18

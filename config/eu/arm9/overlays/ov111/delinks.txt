@@ -707,3 +707,11 @@ src/auto/func_ov111_020e9cf8.c:
 src/auto/func_ov111_020e975c.c:
     complete
     .text       start:0x020e975c end:0x020e97ac
+
+src/auto/func_ov111_020e5cb4.c:
+    complete
+    .text       start:0x020e5cb4 end:0x020e5cd8
+
+src/auto/func_ov111_020e9bf8.c:
+    complete
+    .text       start:0x020e9bf8 end:0x020e9c50
