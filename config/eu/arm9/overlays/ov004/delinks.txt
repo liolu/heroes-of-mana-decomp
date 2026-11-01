@@ -4788,3 +4788,199 @@ src/auto/func_ov004_020bc558.c:
 src/auto/func_ov004_020bc640.c:
     complete
     .text       start:0x020bc640 end:0x020bc6b4
+
+src/data/ov004_data_020cd6a0.c:
+    complete
+    .data       start:0x020cd6a0 end:0x020cd6a8
+
+src/data/ov004_ctor_020cd5cc.c:
+    complete
+    .ctor       start:0x020cd5cc end:0x020cd5d0
+
+src/data/ov004_ctor_020cd5d0.c:
+    complete
+    .ctor       start:0x020cd5d0 end:0x020cd5d4
+
+src/data/ov004_ctor_020cd5d4.c:
+    complete
+    .ctor       start:0x020cd5d4 end:0x020cd5d8
+
+src/data/ov004_ctor_020cd5d8.c:
+    complete
+    .ctor       start:0x020cd5d8 end:0x020cd5dc
+
+src/data/ov004_ctor_020cd5dc.c:
+    complete
+    .ctor       start:0x020cd5dc end:0x020cd5e0
+
+src/data/ov004_ctor_020cd5e0.c:
+    complete
+    .ctor       start:0x020cd5e0 end:0x020cd5e4
+
+src/data/ov004_ctor_020cd5e4.c:
+    complete
+    .ctor       start:0x020cd5e4 end:0x020cd5e8
+
+src/data/ov004_ctor_020cd5e8.c:
+    complete
+    .ctor       start:0x020cd5e8 end:0x020cd5ec
+
+src/data/ov004_ctor_020cd5ec.c:
+    complete
+    .ctor       start:0x020cd5ec end:0x020cd5f0
+
+src/data/ov004_ctor_020cd5f0.c:
+    complete
+    .ctor       start:0x020cd5f0 end:0x020cd5f4
+
+src/data/ov004_ctor_020cd5f4.c:
+    complete
+    .ctor       start:0x020cd5f4 end:0x020cd5f8
+
+src/data/ov004_ctor_020cd5f8.c:
+    complete
+    .ctor       start:0x020cd5f8 end:0x020cd5fc
+
+src/data/ov004_ctor_020cd5fc.c:
+    complete
+    .ctor       start:0x020cd5fc end:0x020cd600
+
+src/data/ov004_ctor_020cd600.c:
+    complete
+    .ctor       start:0x020cd600 end:0x020cd604
+
+src/data/ov004_ctor_020cd604.c:
+    complete
+    .ctor       start:0x020cd604 end:0x020cd608
+
+src/data/ov004_ctor_020cd608.c:
+    complete
+    .ctor       start:0x020cd608 end:0x020cd60c
+
+src/data/ov004_ctor_020cd60c.c:
+    complete
+    .ctor       start:0x020cd60c end:0x020cd610
+
+src/data/ov004_ctor_020cd610.c:
+    complete
+    .ctor       start:0x020cd610 end:0x020cd614
+
+src/data/ov004_ctor_020cd614.c:
+    complete
+    .ctor       start:0x020cd614 end:0x020cd618
+
+src/data/ov004_ctor_020cd618.c:
+    complete
+    .ctor       start:0x020cd618 end:0x020cd61c
+
+src/data/ov004_ctor_020cd61c.c:
+    complete
+    .ctor       start:0x020cd61c end:0x020cd620
+
+src/data/ov004_ctor_020cd620.c:
+    complete
+    .ctor       start:0x020cd620 end:0x020cd624
+
+src/data/ov004_ctor_020cd624.c:
+    complete
+    .ctor       start:0x020cd624 end:0x020cd628
+
+src/data/ov004_ctor_020cd628.c:
+    complete
+    .ctor       start:0x020cd628 end:0x020cd62c
+
+src/data/ov004_ctor_020cd62c.c:
+    complete
+    .ctor       start:0x020cd62c end:0x020cd630
+
+src/data/ov004_ctor_020cd630.c:
+    complete
+    .ctor       start:0x020cd630 end:0x020cd634
+
+src/data/ov004_ctor_020cd634.c:
+    complete
+    .ctor       start:0x020cd634 end:0x020cd638
+
+src/data/ov004_ctor_020cd638.c:
+    complete
+    .ctor       start:0x020cd638 end:0x020cd63c
+
+src/data/ov004_ctor_020cd63c.c:
+    complete
+    .ctor       start:0x020cd63c end:0x020cd640
+
+src/data/ov004_ctor_020cd640.c:
+    complete
+    .ctor       start:0x020cd640 end:0x020cd644
+
+src/data/ov004_ctor_020cd644.c:
+    complete
+    .ctor       start:0x020cd644 end:0x020cd648
+
+src/data/ov004_ctor_020cd648.c:
+    complete
+    .ctor       start:0x020cd648 end:0x020cd64c
+
+src/data/ov004_ctor_020cd64c.c:
+    complete
+    .ctor       start:0x020cd64c end:0x020cd650
+
+src/data/ov004_ctor_020cd650.c:
+    complete
+    .ctor       start:0x020cd650 end:0x020cd654
+
+src/data/ov004_ctor_020cd654.c:
+    complete
+    .ctor       start:0x020cd654 end:0x020cd658
+
+src/data/ov004_ctor_020cd658.c:
+    complete
+    .ctor       start:0x020cd658 end:0x020cd65c
+
+src/data/ov004_ctor_020cd65c.c:
+    complete
+    .ctor       start:0x020cd65c end:0x020cd660
+
+src/data/ov004_ctor_020cd660.c:
+    complete
+    .ctor       start:0x020cd660 end:0x020cd664
+
+src/data/ov004_ctor_020cd664.c:
+    complete
+    .ctor       start:0x020cd664 end:0x020cd668
+
+src/data/ov004_ctor_020cd668.c:
+    complete
+    .ctor       start:0x020cd668 end:0x020cd66c
+
+src/data/ov004_ctor_020cd66c.c:
+    complete
+    .ctor       start:0x020cd66c end:0x020cd670
+
+src/data/ov004_ctor_020cd670.c:
+    complete
+    .ctor       start:0x020cd670 end:0x020cd674
+
+src/data/ov004_ctor_020cd674.c:
+    complete
+    .ctor       start:0x020cd674 end:0x020cd678
+
+src/data/ov004_ctor_020cd678.c:
+    complete
+    .ctor       start:0x020cd678 end:0x020cd67c
+
+src/data/ov004_ctor_020cd67c.c:
+    complete
+    .ctor       start:0x020cd67c end:0x020cd680
+
+src/data/ov004_ctor_020cd680.c:
+    complete
+    .ctor       start:0x020cd680 end:0x020cd684
+
+src/data/ov004_ctor_020cd684.c:
+    complete
+    .ctor       start:0x020cd684 end:0x020cd688
+
+src/data/ov004_ctor_020cd688.c:
+    complete
+    .ctor       start:0x020cd688 end:0x020cd68c

@@ -1,0 +1,11 @@
+data_02036720_end = 0x02036720;
+data_ov123_020d9aad = 0x020d9aad;
+data_ov110_020e3cb4 = 0x020e3cb4;
+data_ov110_020e3ce8 = 0x020e3ce8;
+data_ov110_020e3d04 = 0x020e3d04;
+data_ov110_020e3d18 = 0x020e3d18;
+data_ov110_020e3d60 = 0x020e3d60;
+data_ov110_020e3d70 = 0x020e3d70;
+data_ov110_020e3d84 = 0x020e3d84;
+data_ov110_020e3d94 = 0x020e3d94;
+data_027e0021 = 0x027e0021;

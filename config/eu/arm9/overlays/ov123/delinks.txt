@@ -14116,3 +14116,11 @@ src/auto/func_ov123_0208a0d4.c:
 src/auto/func_ov123_02089ab8.c:
     complete
     .text       start:0x02089ab8 end:0x02089b3c
+
+src/data/ov123_data_020d9aac.c:
+    complete
+    .data       start:0x020d9aac end:0x020d9aec
+
+src/data/ov123_ctor_020d981c.c:
+    complete
+    .ctor       start:0x020d981c end:0x020d9820

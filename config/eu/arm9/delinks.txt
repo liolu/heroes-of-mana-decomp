@@ -4863,3 +4863,7 @@ src/auto/func_0202af6c.c:
 src/auto/StrmCallback.c:
     complete
     .text       start:0x02004790 end:0x02004844
+
+src/data/main_bss_02036720.c:
+    complete
+    .bss        start:0x02036720 end:0x02036724

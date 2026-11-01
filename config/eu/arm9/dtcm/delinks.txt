@@ -88,3 +88,7 @@ src/data/dtcm_data_027e0a08.c:
 src/data/dtcm_data_027e0b40.c:
     complete
     .data       start:0x027e0b40 end:0x027e1040
+
+src/data/dtcm_data_027e0000.c:
+    complete
+    .data       start:0x027e0000 end:0x027e0060

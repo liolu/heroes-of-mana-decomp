@@ -69,87 +69,87 @@ src/data/ov000_data_02050a60.c:
 src/auto/CutFromPartner.c:
     complete
     .text       start:0x02043c6c end:0x02043c98
-    .data       start:0x02050500 end:0x02050510
+    .data       start:0x02050500 end:0x0205050f
 
 src/auto/AnaGameLoadAndWorkInit.c:
     complete
     .text       start:0x0204449c end:0x020445c8
-    .data       start:0x02050608 end:0x02050620
+    .data       start:0x02050608 end:0x0205061f
 
 src/auto/AnaGameUnLoad.c:
     complete
     .text       start:0x020445c8 end:0x02044614
-    .data       start:0x02050620 end:0x02050630
+    .data       start:0x02050620 end:0x0205062e
 
 src/auto/DoingScrolWindow.c:
     complete
     .text       start:0x0204a124 end:0x0204a170
-    .data       start:0x02051138 end:0x0205114c
+    .data       start:0x02051138 end:0x02051149
 
 src/auto/GameSoftReset.c:
     complete
     .text       start:0x02046308 end:0x02046334
-    .data       start:0x020507f8 end:0x02050808
+    .data       start:0x020507f8 end:0x02050806
 
 src/auto/GetEndSelNoFromKO.c:
     complete
     .text       start:0x02044258 end:0x02044284
-    .data       start:0x02050594 end:0x020505a8
+    .data       start:0x02050594 end:0x020505a6
 
 src/auto/GetEndSelNoFromOYA.c:
     complete
     .text       start:0x02044284 end:0x020442b0
-    .data       start:0x020505a8 end:0x020505bc
+    .data       start:0x020505a8 end:0x020505bb
 
 src/auto/InitAnaGlobalWork.c:
     complete
     .text       start:0x02045694 end:0x0204587c
-    .data       start:0x020506d8 end:0x020506ec
+    .data       start:0x020506d8 end:0x020506ea
 
 src/auto/InitMessageWorkForDS.c:
     complete
     .text       start:0x02049498 end:0x02049594
-    .data       start:0x020510a0 end:0x020510b8
+    .data       start:0x020510a0 end:0x020510b5
 
 src/auto/ReleaseSenarioScript.c:
     complete
     .text       start:0x02045600 end:0x02045694
-    .data       start:0x020506c0 end:0x020506d8
+    .data       start:0x020506c0 end:0x020506d5
 
 src/auto/RestoreRetryData.c:
     complete
     .text       start:0x020488d4 end:0x02048914
-    .data       start:0x020509d8 end:0x020509ec
+    .data       start:0x020509d8 end:0x020509e9
 
 src/auto/SetAnaIntr.c:
     complete
     .text       start:0x02045e98 end:0x02045f0c
-    .data       start:0x02050738 end:0x02050744
+    .data       start:0x02050738 end:0x02050743
 
 src/auto/SetCutTrsMode.c:
     complete
     .text       start:0x0204445c end:0x0204449c
-    .data       start:0x020505f8 end:0x02050608
+    .data       start:0x020505f8 end:0x02050606
 
 src/auto/SetWinBGscrolOut.c:
     complete
     .text       start:0x0204a058 end:0x0204a0c4
-    .data       start:0x02051110 end:0x02051124
+    .data       start:0x02051110 end:0x02051121
 
 src/auto/ana_InitCommon.c:
     complete
     .text       start:0x02045dbc end:0x02045e98
-    .data       start:0x02050728 end:0x02050738
+    .data       start:0x02050728 end:0x02050737
 
 src/auto/new_LowLevelWork.c:
     complete
     .text       start:0x02045f0c end:0x02045fac
-    .data       start:0x02050744 end:0x02050758
+    .data       start:0x02050744 end:0x02050755
 
 src/auto/ReleaseRetryData.c:
     complete
     .text       start:0x02048914 end:0x0204897c
-    .data       start:0x020509ec end:0x02050a00
+    .data       start:0x020509ec end:0x020509fd
 
 src/auto/SetTouchPadCali.c:
     complete
@@ -159,52 +159,52 @@ src/auto/SetTouchPadCali.c:
 src/auto/GetKeyAndTouch.c:
     complete
     .text       start:0x02046038 end:0x02046060
-    .data       start:0x02050764 end:0x02050774
+    .data       start:0x02050764 end:0x02050773
 
 src/auto/BGM_volume.c:
     complete
     .text       start:0x020462e4 end:0x02046308
-    .data       start:0x020507ec end:0x020507f8
+    .data       start:0x020507ec end:0x020507f7
 
 src/auto/deleteUseStringSt.c:
     complete
     .text       start:0x0204d270 end:0x0204d2b8
-    .data       start:0x0205135c end:0x02051370
+    .data       start:0x0205135c end:0x0205136e
 
 src/auto/Ds_initBeforeOverLay.c:
     complete
     .text       start:0x020421a0 end:0x020421dc
-    .data       start:0x020504d8 end:0x020504f0
+    .data       start:0x020504d8 end:0x020504ed
 
 src/auto/RestoreLoadGameDataOnlyKuni0Item.c:
     complete
     .text       start:0x02047f7c end:0x02047fb8
-    .data       start:0x02050990 end:0x020509b4
+    .data       start:0x02050990 end:0x020509b1
 
 src/auto/Ring_SoundEffect.c:
     complete
     .text       start:0x0204629c end:0x020462c0
-    .data       start:0x020507c4 end:0x020507d8
+    .data       start:0x020507c4 end:0x020507d5
 
 src/auto/StockRetryData.c:
     complete
     .text       start:0x0204888c end:0x020488d4
-    .data       start:0x020509c8 end:0x020509d8
+    .data       start:0x020509c8 end:0x020509d7
 
 src/auto/Stop_SoundEffect.c:
     complete
     .text       start:0x020462c0 end:0x020462e4
-    .data       start:0x020507d8 end:0x020507ec
+    .data       start:0x020507d8 end:0x020507e9
 
 src/auto/LocGetUpdateParent.c:
     complete
     .text       start:0x020442b0 end:0x020442ec
-    .data       start:0x020505bc end:0x020505d0
+    .data       start:0x020505bc end:0x020505cf
 
 src/auto/ReadAnaFileNowSeekPos.c:
     complete
     .text       start:0x02046a98 end:0x02046ae0
-    .data       start:0x020508a0 end:0x020508b8
+    .data       start:0x020508a0 end:0x020508b6
 
 src/auto/ReflectSystemConfig.c:
     complete
@@ -214,7 +214,7 @@ src/auto/ReflectSystemConfig.c:
 src/auto/RestoreLoadGameDataWithoutResult.c:
     complete
     .text       start:0x02047d24 end:0x02047e2c
-    .data       start:0x02050954 end:0x02050978
+    .data       start:0x02050954 end:0x02050975
 
 src/auto/SetCenteringStr.c:
     complete
@@ -224,12 +224,12 @@ src/auto/SetCenteringStr.c:
 src/auto/SetPaletteDataToVram.c:
     complete
     .text       start:0x0204aae0 end:0x0204abb4
-    .data       start:0x020511e0 end:0x020511f8
+    .data       start:0x020511e0 end:0x020511f5
 
 src/auto/SyncPutMessageOneChar.c:
     complete
     .text       start:0x0204ba74 end:0x0204bb50
-    .data       start:0x02051294 end:0x020512ac
+    .data       start:0x02051294 end:0x020512aa
 
 src/data/ov000_profrec_020504f0.c:
     complete
@@ -479,7 +479,7 @@ src/auto/Sample_VsInvitation.c:
 src/auto/CountFileKazu.c:
     complete
     .text       start:0x02046c74 end:0x02046e20
-    .data       start:0x020508cc end:0x020508dc
+    .data       start:0x020508cc end:0x020508da
 
 src/auto/SubWindowMessageSet.c:
     complete
@@ -489,27 +489,27 @@ src/auto/SubWindowMessageSet.c:
 src/auto/release_AnaGlobalWork.c:
     complete
     .text       start:0x0204587c end:0x02045c28
-    .data       start:0x020506ec end:0x02050704
+    .data       start:0x020506ec end:0x02050702
 
 src/auto/ReadFileAndUncomp.c:
     complete
     .text       start:0x02046e20 end:0x02046ed0
-    .data       start:0x020508dc end:0x020508f0
+    .data       start:0x020508dc end:0x020508ee
 
 src/auto/DeleteNameByNoAnimeObjByID.c:
     complete
     .text       start:0x0204ce58 end:0x0204cf10
-    .data       start:0x02051330 end:0x0205134c
+    .data       start:0x02051330 end:0x0205134b
 
 src/auto/DeleteNameByNoAnimeObj.c:
     complete
     .text       start:0x0204cda8 end:0x0204ce58
-    .data       start:0x02051318 end:0x02051330
+    .data       start:0x02051318 end:0x0205132f
 
 src/auto/GetOneMojiHaba.c:
     complete
     .text       start:0x020501e0 end:0x02050290
-    .data       start:0x020514f4 end:0x02051504
+    .data       start:0x020514f4 end:0x02051503
 
 src/auto/MessageFramePutWriteSub.c:
     complete
@@ -519,27 +519,27 @@ src/auto/MessageFramePutWriteSub.c:
 src/auto/SetUpStringReadHeaderPos.c:
     complete
     .text       start:0x0204a904 end:0x0204aa54
-    .data       start:0x020511a8 end:0x020511c4
+    .data       start:0x020511a8 end:0x020511c1
 
 src/auto/AddDiscoveryItemToBag.c:
     complete
     .text       start:0x02047e2c end:0x02047f7c
-    .data       start:0x02050978 end:0x02050990
+    .data       start:0x02050978 end:0x0205098e
 
 src/auto/VBlankIntrWaitInGame.c:
     complete
     .text       start:0x020464a8 end:0x020466d4
-    .data       start:0x0205082c end:0x02050844
+    .data       start:0x0205082c end:0x02050841
 
 src/auto/TouchWorkClear.c:
     complete
     .text       start:0x02046138 end:0x0204618c
-    .data       start:0x02050794 end:0x020507a4
+    .data       start:0x02050794 end:0x020507a3
 
 src/auto/CountSetUpEventOccur.c:
     complete
     .text       start:0x02049440 end:0x02049498
-    .data       start:0x02050a48 end:0x02050a60
+    .data       start:0x02050a48 end:0x02050a5d
 
 src/auto/getIconObjAnimeData.c:
     complete
@@ -549,7 +549,7 @@ src/auto/getIconObjAnimeData.c:
 src/auto/getIconObjPalData.c:
     complete
     .text       start:0x02046ed0 end:0x02046f24
-    .data       start:0x020508f0 end:0x02050904
+    .data       start:0x020508f0 end:0x02050902
 
 src/auto/ChangePaletteOfNameByID.c:
     complete
@@ -559,12 +559,12 @@ src/auto/ChangePaletteOfNameByID.c:
 src/auto/BGM_Change.c:
     complete
     .text       start:0x02046228 end:0x0204629c
-    .data       start:0x020507b8 end:0x020507c4
+    .data       start:0x020507b8 end:0x020507c3
 
 src/auto/BGM_Fade.c:
     complete
     .text       start:0x02046418 end:0x020464a8
-    .data       start:0x02050820 end:0x0205082c
+    .data       start:0x02050820 end:0x02050829
 
 src/auto/GetOneStringBitData.c:
     complete
@@ -574,32 +574,32 @@ src/auto/GetOneStringBitData.c:
 src/auto/GetPanelTouch.c:
     complete
     .text       start:0x02046060 end:0x020460f0
-    .data       start:0x02050774 end:0x02050784
+    .data       start:0x02050774 end:0x02050782
 
 src/auto/InformationCuttingTrs.c:
     complete
     .text       start:0x020443ec end:0x0204445c
-    .data       start:0x020505e0 end:0x020505f8
+    .data       start:0x020505e0 end:0x020505f6
 
 src/auto/ReleaseShipInPara.c:
     complete
     .text       start:0x02046904 end:0x02046984
-    .data       start:0x0205086c end:0x02050880
+    .data       start:0x0205086c end:0x0205087e
 
 src/auto/SetWindowPaletteDataToVram.c:
     complete
     .text       start:0x0204aa54 end:0x0204aae0
-    .data       start:0x020511c4 end:0x020511e0
+    .data       start:0x020511c4 end:0x020511df
 
 src/auto/GetVSErrorByError_WireLessBad.c:
     complete
     .text       start:0x0204417c end:0x02044258
-    .data       start:0x02050574 end:0x02050594
+    .data       start:0x02050574 end:0x02050592
 
 src/auto/WindowVramUpdate.c:
     complete
     .text       start:0x0204c864 end:0x0204c8f4
-    .data       start:0x020512c8 end:0x020512dc
+    .data       start:0x020512c8 end:0x020512d9
 
 src/auto/ReadAnaFile.c:
     complete
@@ -609,7 +609,7 @@ src/auto/ReadAnaFile.c:
 src/auto/ReadAnaFileOfsSize.c:
     complete
     .text       start:0x02046a14 end:0x02046a98
-    .data       start:0x0205088c end:0x020508a0
+    .data       start:0x0205088c end:0x0205089f
 
 src/auto/CallMenuRoutine.c:
     complete
@@ -619,12 +619,12 @@ src/auto/CallMenuRoutine.c:
 src/auto/GetVSErrorByError_Link.c:
     complete
     .text       start:0x02044060 end:0x0204417c
-    .data       start:0x0205055c end:0x02050574
+    .data       start:0x0205055c end:0x02050573
 
 src/auto/MessageOneSet.c:
     complete
     .text       start:0x0204b0d8 end:0x0204b27c
-    .data       start:0x02051244 end:0x02051254
+    .data       start:0x02051244 end:0x02051252
 
 src/auto/PutMessageStart.c:
     complete
@@ -639,7 +639,7 @@ src/auto/SearchCanUseBtlBgVramNo.c:
 src/auto/SetNormalMessageFrame.c:
     complete
     .text       start:0x0204ad1c end:0x0204ae88
-    .data       start:0x02051208 end:0x02051220
+    .data       start:0x02051208 end:0x0205121e
 
 src/auto/appearChild.c:
     complete
@@ -649,22 +649,22 @@ src/auto/appearChild.c:
 src/auto/winBGscrolControl.c:
     complete
     .text       start:0x0204a170 end:0x0204a310
-    .data       start:0x0205114c end:0x02051160
+    .data       start:0x0205114c end:0x0205115e
 
 src/auto/panelOpenRoutine.c:
     complete
     .text       start:0x02046788 end:0x02046904
-    .data       start:0x02050858 end:0x0205086c
+    .data       start:0x02050858 end:0x02050869
 
 src/auto/MesWindowScrollIn.c:
     complete
     .text       start:0x0204afb4 end:0x0204b0d8
-    .data       start:0x02051230 end:0x02051244
+    .data       start:0x02051230 end:0x02051242
 
 src/auto/PutSelectIconInMes.c:
     complete
     .text       start:0x02050290 end:0x02050340
-    .data       start:0x02051504 end:0x02051518
+    .data       start:0x02051504 end:0x02051517
 
 src/auto/ReadAreaMapSiteMask.c:
     complete
@@ -674,13 +674,253 @@ src/auto/ReadAreaMapSiteMask.c:
 src/auto/Sample_SeparateOfAfterBattle.c:
     complete
     .text       start:0x02044614 end:0x020448e4
-    .data       start:0x02050630 end:0x02050650
+    .data       start:0x02050630 end:0x0205064d
 
 src/auto/changePosNoForOverSea.c:
     complete
     .text       start:0x02047008 end:0x02047368
-    .data       start:0x0205092c end:0x02050944
+    .data       start:0x0205092c end:0x02050942
 
 src/data/ov000_data_0205152c.c:
     complete
     .data       start:0x0205152c end:0x02051540
+
+src/data/ov000_profpad_0205050f.c:
+    complete
+    .data       start:0x0205050f end:0x02050510
+
+src/data/ov000_profpad_0205061f.c:
+    complete
+    .data       start:0x0205061f end:0x02050620
+
+src/data/ov000_profpad_0205062e.c:
+    complete
+    .data       start:0x0205062e end:0x02050630
+
+src/data/ov000_profpad_02051149.c:
+    complete
+    .data       start:0x02051149 end:0x0205114c
+
+src/data/ov000_profpad_02050806.c:
+    complete
+    .data       start:0x02050806 end:0x02050808
+
+src/data/ov000_profpad_020505a6.c:
+    complete
+    .data       start:0x020505a6 end:0x020505a8
+
+src/data/ov000_profpad_020505bb.c:
+    complete
+    .data       start:0x020505bb end:0x020505bc
+
+src/data/ov000_profpad_020506ea.c:
+    complete
+    .data       start:0x020506ea end:0x020506ec
+
+src/data/ov000_profpad_020510b5.c:
+    complete
+    .data       start:0x020510b5 end:0x020510b8
+
+src/data/ov000_profpad_020506d5.c:
+    complete
+    .data       start:0x020506d5 end:0x020506d8
+
+src/data/ov000_profpad_020509e9.c:
+    complete
+    .data       start:0x020509e9 end:0x020509ec
+
+src/data/ov000_profpad_02050743.c:
+    complete
+    .data       start:0x02050743 end:0x02050744
+
+src/data/ov000_profpad_02050606.c:
+    complete
+    .data       start:0x02050606 end:0x02050608
+
+src/data/ov000_profpad_02051121.c:
+    complete
+    .data       start:0x02051121 end:0x02051124
+
+src/data/ov000_profpad_02050737.c:
+    complete
+    .data       start:0x02050737 end:0x02050738
+
+src/data/ov000_profpad_02050755.c:
+    complete
+    .data       start:0x02050755 end:0x02050758
+
+src/data/ov000_profpad_020509fd.c:
+    complete
+    .data       start:0x020509fd end:0x02050a00
+
+src/data/ov000_profpad_02050773.c:
+    complete
+    .data       start:0x02050773 end:0x02050774
+
+src/data/ov000_profpad_020507f7.c:
+    complete
+    .data       start:0x020507f7 end:0x020507f8
+
+src/data/ov000_profpad_0205136e.c:
+    complete
+    .data       start:0x0205136e end:0x02051370
+
+src/data/ov000_profpad_020504ed.c:
+    complete
+    .data       start:0x020504ed end:0x020504f0
+
+src/data/ov000_profpad_020509b1.c:
+    complete
+    .data       start:0x020509b1 end:0x020509b4
+
+src/data/ov000_profpad_020507d5.c:
+    complete
+    .data       start:0x020507d5 end:0x020507d8
+
+src/data/ov000_profpad_020509d7.c:
+    complete
+    .data       start:0x020509d7 end:0x020509d8
+
+src/data/ov000_profpad_020507e9.c:
+    complete
+    .data       start:0x020507e9 end:0x020507ec
+
+src/data/ov000_profpad_020505cf.c:
+    complete
+    .data       start:0x020505cf end:0x020505d0
+
+src/data/ov000_profpad_020508b6.c:
+    complete
+    .data       start:0x020508b6 end:0x020508b8
+
+src/data/ov000_profpad_02050975.c:
+    complete
+    .data       start:0x02050975 end:0x02050978
+
+src/data/ov000_profpad_020511f5.c:
+    complete
+    .data       start:0x020511f5 end:0x020511f8
+
+src/data/ov000_profpad_020512aa.c:
+    complete
+    .data       start:0x020512aa end:0x020512ac
+
+src/data/ov000_profpad_020508da.c:
+    complete
+    .data       start:0x020508da end:0x020508dc
+
+src/data/ov000_profpad_02050702.c:
+    complete
+    .data       start:0x02050702 end:0x02050704
+
+src/data/ov000_profpad_020508ee.c:
+    complete
+    .data       start:0x020508ee end:0x020508f0
+
+src/data/ov000_profpad_0205134b.c:
+    complete
+    .data       start:0x0205134b end:0x0205134c
+
+src/data/ov000_profpad_0205132f.c:
+    complete
+    .data       start:0x0205132f end:0x02051330
+
+src/data/ov000_profpad_02051503.c:
+    complete
+    .data       start:0x02051503 end:0x02051504
+
+src/data/ov000_profpad_020511c1.c:
+    complete
+    .data       start:0x020511c1 end:0x020511c4
+
+src/data/ov000_profpad_0205098e.c:
+    complete
+    .data       start:0x0205098e end:0x02050990
+
+src/data/ov000_profpad_02050841.c:
+    complete
+    .data       start:0x02050841 end:0x02050844
+
+src/data/ov000_profpad_020507a3.c:
+    complete
+    .data       start:0x020507a3 end:0x020507a4
+
+src/data/ov000_profpad_02050a5d.c:
+    complete
+    .data       start:0x02050a5d end:0x02050a60
+
+src/data/ov000_profpad_02050902.c:
+    complete
+    .data       start:0x02050902 end:0x02050904
+
+src/data/ov000_profpad_020507c3.c:
+    complete
+    .data       start:0x020507c3 end:0x020507c4
+
+src/data/ov000_profpad_02050829.c:
+    complete
+    .data       start:0x02050829 end:0x0205082c
+
+src/data/ov000_profpad_02050782.c:
+    complete
+    .data       start:0x02050782 end:0x02050784
+
+src/data/ov000_profpad_020505f6.c:
+    complete
+    .data       start:0x020505f6 end:0x020505f8
+
+src/data/ov000_profpad_0205087e.c:
+    complete
+    .data       start:0x0205087e end:0x02050880
+
+src/data/ov000_profpad_020511df.c:
+    complete
+    .data       start:0x020511df end:0x020511e0
+
+src/data/ov000_profpad_02050592.c:
+    complete
+    .data       start:0x02050592 end:0x02050594
+
+src/data/ov000_profpad_020512d9.c:
+    complete
+    .data       start:0x020512d9 end:0x020512dc
+
+src/data/ov000_profpad_0205089f.c:
+    complete
+    .data       start:0x0205089f end:0x020508a0
+
+src/data/ov000_profpad_02050573.c:
+    complete
+    .data       start:0x02050573 end:0x02050574
+
+src/data/ov000_profpad_02051252.c:
+    complete
+    .data       start:0x02051252 end:0x02051254
+
+src/data/ov000_profpad_0205121e.c:
+    complete
+    .data       start:0x0205121e end:0x02051220
+
+src/data/ov000_profpad_0205115e.c:
+    complete
+    .data       start:0x0205115e end:0x02051160
+
+src/data/ov000_profpad_02050869.c:
+    complete
+    .data       start:0x02050869 end:0x0205086c
+
+src/data/ov000_profpad_02051242.c:
+    complete
+    .data       start:0x02051242 end:0x02051244
+
+src/data/ov000_profpad_02051517.c:
+    complete
+    .data       start:0x02051517 end:0x02051518
+
+src/data/ov000_profpad_0205064d.c:
+    complete
+    .data       start:0x0205064d end:0x02050650
+
+src/data/ov000_profpad_02050942.c:
+    complete
+    .data       start:0x02050942 end:0x02050944
