@@ -4871,3 +4871,11 @@ src/data/main_bss_02036720.c:
 src/auto/func_0202bb9c.cpp:
     complete
     .text       start:0x0202bb9c end:0x0202bbcc
+
+src/data/main_exceptix_0202fe30.c:
+    complete
+    .exceptix   start:0x0202fe30 end:0x020303a0
+
+src/data/main_exception_0202fcf8.c:
+    complete
+    .exception  start:0x0202fcf8 end:0x0202fe30

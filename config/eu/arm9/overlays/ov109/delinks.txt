@@ -746,4 +746,8 @@ src/data/ov109_profpad_020e9f7a.c:
 src/auto/ReadShipsFile.c:
     complete
     .text       start:0x020e32b8 end:0x020e3304
-    .data       start:0x020e9bfc end:0x020e9c0c
+    .data       start:0x020e9bfc end:0x020e9c0a
+
+src/data/ov109_profpad_020e9c0a.c:
+    complete
+    .data       start:0x020e9c0a end:0x020e9c0c
