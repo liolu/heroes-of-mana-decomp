@@ -2934,3 +2934,4 @@ src/auto/setShadowPol.c 2.0/sp1p5 -profile
 src/auto/func_ov110_020e1b7c.cpp 1.2/sp3
 src/auto/func_ov110_020e16d4.cpp 1.2/sp3
 src/auto/func_ov110_020e1c68.cpp 1.2/sp3
+src/auto/func_ov123_020aee18.c 1.2/sp3

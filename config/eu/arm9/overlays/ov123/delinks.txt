@@ -14456,3 +14456,7 @@ src/auto/func_ov123_020d042c.cpp:
 src/auto/func_ov123_020d3edc.cpp:
     complete
     .text       start:0x020d3edc end:0x020d3ff8
+
+src/auto/func_ov123_020aee18.c:
+    complete
+    .text       start:0x020aee18 end:0x020aee94
