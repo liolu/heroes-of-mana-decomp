@@ -5024,3 +5024,199 @@ src/auto/func_ov004_020cac20.c:
 src/auto/func_ov004_020cad18.c:
     complete
     .text       start:0x020cad18 end:0x020cad30
+
+src/auto/func_ov004_020caac0.cpp:
+    complete
+    .text       start:0x020caac0 end:0x020caae8
+
+src/auto/func_ov004_020caae8.cpp:
+    complete
+    .text       start:0x020caae8 end:0x020cab18
+
+src/auto/func_ov004_020cab18.cpp:
+    complete
+    .text       start:0x020cab18 end:0x020cab40
+
+src/auto/func_ov004_020bd5d8.cpp:
+    complete
+    .text       start:0x020bd5d8 end:0x020bd61c
+
+src/auto/func_ov004_020be648.cpp:
+    complete
+    .text       start:0x020be648 end:0x020be680
+
+src/auto/func_ov004_020c96d0.cpp:
+    complete
+    .text       start:0x020c96d0 end:0x020c9710
+
+src/auto/func_ov004_020c9c78.cpp:
+    complete
+    .text       start:0x020c9c78 end:0x020c9cb8
+
+src/auto/func_ov004_020bc8e0.cpp:
+    complete
+    .text       start:0x020bc8e0 end:0x020bc914
+
+src/auto/func_ov004_020bc914.cpp:
+    complete
+    .text       start:0x020bc914 end:0x020bc948
+
+src/auto/func_ov004_020bce7c.cpp:
+    complete
+    .text       start:0x020bce7c end:0x020bceb0
+
+src/auto/func_ov004_020bd058.cpp:
+    complete
+    .text       start:0x020bd058 end:0x020bd08c
+
+src/auto/func_ov004_020bb0b8.cpp:
+    complete
+    .text       start:0x020bb0b8 end:0x020bb108
+
+src/auto/func_ov004_020bb26c.cpp:
+    complete
+    .text       start:0x020bb26c end:0x020bb2bc
+
+src/auto/func_ov004_020bbc34.cpp:
+    complete
+    .text       start:0x020bbc34 end:0x020bbc88
+
+src/auto/func_ov004_020babe8.cpp:
+    complete
+    .text       start:0x020babe8 end:0x020bac40
+
+src/auto/func_ov004_020bac40.cpp:
+    complete
+    .text       start:0x020bac40 end:0x020bac98
+
+src/auto/func_ov004_020bac98.cpp:
+    complete
+    .text       start:0x020bac98 end:0x020bacf0
+
+src/auto/func_ov004_020bacf0.cpp:
+    complete
+    .text       start:0x020bacf0 end:0x020bad48
+
+src/auto/func_ov004_020c26f0.cpp:
+    complete
+    .text       start:0x020c26f0 end:0x020c2748
+
+src/auto/func_ov004_020c2748.cpp:
+    complete
+    .text       start:0x020c2748 end:0x020c27a0
+
+src/auto/func_ov004_020bc818.cpp:
+    complete
+    .text       start:0x020bc818 end:0x020bc880
+
+src/auto/func_ov004_020bdc18.cpp:
+    complete
+    .text       start:0x020bdc18 end:0x020bdc90
+
+src/auto/func_ov004_020c1000.cpp:
+    complete
+    .text       start:0x020c1000 end:0x020c106c
+
+src/auto/func_ov004_020c77e4.cpp:
+    complete
+    .text       start:0x020c77e4 end:0x020c787c
+
+src/auto/func_ov004_020caca8.cpp:
+    complete
+    .text       start:0x020caca8 end:0x020cad14
+
+src/auto/func_ov004_020c7a10.cpp:
+    complete
+    .text       start:0x020c7a10 end:0x020c7aa8
+
+src/auto/func_ov004_020ca90c.cpp:
+    complete
+    .text       start:0x020ca90c end:0x020ca980
+
+src/auto/func_ov004_020ca980.cpp:
+    complete
+    .text       start:0x020ca980 end:0x020caa00
+
+src/auto/func_ov004_020b8e5c.cpp:
+    complete
+    .text       start:0x020b8e5c end:0x020b8f08
+
+src/auto/func_ov004_020c23f0.cpp:
+    complete
+    .text       start:0x020c23f0 end:0x020c2494
+
+src/auto/func_ov004_020c2494.cpp:
+    complete
+    .text       start:0x020c2494 end:0x020c2538
+
+src/auto/func_ov004_020c4780.cpp:
+    complete
+    .text       start:0x020c4780 end:0x020c4828
+
+src/auto/func_ov004_020c4828.cpp:
+    complete
+    .text       start:0x020c4828 end:0x020c48d8
+
+src/auto/func_ov004_020c55f4.cpp:
+    complete
+    .text       start:0x020c55f4 end:0x020c569c
+
+src/auto/func_ov004_020c569c.cpp:
+    complete
+    .text       start:0x020c569c end:0x020c574c
+
+src/auto/func_ov004_020c62b8.cpp:
+    complete
+    .text       start:0x020c62b8 end:0x020c6398
+
+src/auto/func_ov004_020ca280.cpp:
+    complete
+    .text       start:0x020ca280 end:0x020ca33c
+
+src/auto/func_ov004_020caa00.cpp:
+    complete
+    .text       start:0x020caa00 end:0x020caaa8
+
+src/auto/func_ov004_020ba7bc.cpp:
+    complete
+    .text       start:0x020ba7bc end:0x020ba93c
+
+src/auto/func_ov004_020be79c.cpp:
+    complete
+    .text       start:0x020be79c end:0x020be950
+
+src/auto/func_ov004_020c1d5c.cpp:
+    complete
+    .text       start:0x020c1d5c end:0x020c1e74
+
+src/auto/func_ov004_020c1e74.cpp:
+    complete
+    .text       start:0x020c1e74 end:0x020c1f94
+
+src/auto/func_ov004_020c9490.cpp:
+    complete
+    .text       start:0x020c9490 end:0x020c9594
+
+src/auto/func_ov004_020c98f4.cpp:
+    complete
+    .text       start:0x020c98f4 end:0x020c9a8c
+
+src/auto/func_ov004_020c9a8c.cpp:
+    complete
+    .text       start:0x020c9a8c end:0x020c9ba8
+
+src/auto/func_ov004_020cb340.cpp:
+    complete
+    .text       start:0x020cb340 end:0x020cb4f4
+
+src/auto/func_ov004_020c5254.cpp:
+    complete
+    .text       start:0x020c5254 end:0x020c55f4
+
+src/auto/func_ov004_020c1670.cpp:
+    complete
+    .text       start:0x020c1670 end:0x020c17d8
+
+src/auto/func_ov004_020bde48.cpp:
+    complete
+    .text       start:0x020bde48 end:0x020be124
