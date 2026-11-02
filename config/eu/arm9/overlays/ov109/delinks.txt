@@ -752,4 +752,8 @@ src/data/ov109_profpad_020e9c0a.c:
 src/auto/DeleteCancelButtonInShip.c:
     complete
     .text       start:0x020e3de0 end:0x020e3e3c
-    .data       start:0x020e9ca8 end:0x020e9cc4
+    .data       start:0x020e9ca8 end:0x020e9cc1
+
+src/data/ov109_profpad_020e9cc1.c:
+    complete
+    .data       start:0x020e9cc1 end:0x020e9cc4
