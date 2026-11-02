@@ -214,3 +214,7 @@ src/auto/func_ov110_020e16d4.cpp:
 src/auto/func_ov110_020e1c68.cpp:
     complete
     .text       start:0x020e1c68 end:0x020e1e00
+
+src/auto/func_ov110_020e26d8.c:
+    complete
+    .text       start:0x020e26d8 end:0x020e2744

@@ -150,9 +150,6 @@ src/data/ov109_profrec_020e9c4c.c:
 
 
 
-src/data/ov109_profrec_020e9ca8.c:
-    complete
-    .data       start:0x020e9ca8 end:0x020e9cc4
 
 src/data/ov109_profrec_020e9cc4.c:
     complete
@@ -751,3 +748,8 @@ src/auto/ReadShipsFile.c:
 src/data/ov109_profpad_020e9c0a.c:
     complete
     .data       start:0x020e9c0a end:0x020e9c0c
+
+src/auto/DeleteCancelButtonInShip.c:
+    complete
+    .text       start:0x020e3de0 end:0x020e3e3c
+    .data       start:0x020e9ca8 end:0x020e9cc4

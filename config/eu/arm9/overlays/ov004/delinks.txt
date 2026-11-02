@@ -5220,3 +5220,87 @@ src/auto/func_ov004_020c1670.cpp:
 src/auto/func_ov004_020bde48.cpp:
     complete
     .text       start:0x020bde48 end:0x020be124
+
+src/auto/func_ov004_020bbbbc.cpp:
+    complete
+    .text       start:0x020bbbbc end:0x020bbbdc
+
+src/auto/func_ov004_020bbce4.cpp:
+    complete
+    .text       start:0x020bbce4 end:0x020bbd04
+
+src/auto/func_ov004_020bad48.cpp:
+    complete
+    .text       start:0x020bad48 end:0x020bad88
+
+src/auto/func_ov004_020bbb08.cpp:
+    complete
+    .text       start:0x020bbb08 end:0x020bbb60
+
+src/auto/func_ov004_020bbc88.cpp:
+    complete
+    .text       start:0x020bbc88 end:0x020bbcd0
+
+src/auto/func_ov004_020bc500.cpp:
+    complete
+    .text       start:0x020bc500 end:0x020bc558
+
+src/auto/func_ov004_020c058c.cpp:
+    complete
+    .text       start:0x020c058c end:0x020c05a8
+
+src/auto/func_ov004_020c05cc.cpp:
+    complete
+    .text       start:0x020c05cc end:0x020c05e8
+
+src/auto/func_ov004_020c060c.cpp:
+    complete
+    .text       start:0x020c060c end:0x020c0628
+
+src/auto/func_ov004_020c916c.cpp:
+    complete
+    .text       start:0x020c916c end:0x020c9184
+
+src/auto/func_ov004_020c9184.cpp:
+    complete
+    .text       start:0x020c9184 end:0x020c9198
+
+src/auto/func_ov004_020c9198.cpp:
+    complete
+    .text       start:0x020c9198 end:0x020c91b8
+
+src/auto/func_ov004_020c91b8.cpp:
+    complete
+    .text       start:0x020c91b8 end:0x020c91cc
+
+src/auto/func_ov004_020c91cc.cpp:
+    complete
+    .text       start:0x020c91cc end:0x020c91e0
+
+src/auto/func_ov004_020c91e0.cpp:
+    complete
+    .text       start:0x020c91e0 end:0x020c91fc
+
+src/auto/func_ov004_020ca248.cpp:
+    complete
+    .text       start:0x020ca248 end:0x020ca280
+
+src/auto/func_ov004_020ca574.cpp:
+    complete
+    .text       start:0x020ca574 end:0x020ca588
+
+src/auto/func_ov004_020ca648.cpp:
+    complete
+    .text       start:0x020ca648 end:0x020ca65c
+
+src/auto/func_ov004_020bb2f0.cpp:
+    complete
+    .text       start:0x020bb2f0 end:0x020bb328
+
+src/auto/func_ov004_020c9594.cpp:
+    complete
+    .text       start:0x020c9594 end:0x020c9610
+
+src/auto/func_ov004_020bbb60.cpp:
+    complete
+    .text       start:0x020bbb60 end:0x020bbba8

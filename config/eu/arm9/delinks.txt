@@ -4879,3 +4879,7 @@ src/data/main_exceptix_0202fe30.c:
 src/data/main_exception_0202fcf8.c:
     complete
     .exception  start:0x0202fcf8 end:0x0202fe30
+
+src/donor/OS_VSNPrintf.c:
+    complete
+    .text       start:0x0200cde4 end:0x0200d660

@@ -2697,9 +2697,6 @@ src/data/ov003_profrec_020a80d8.c:
 
 
 
-src/data/ov003_profrec_020a8130.c:
-    complete
-    .data       start:0x020a8130 end:0x020a8140
 
 
 src/data/ov003_profrec_020a8150.c:
@@ -2898,9 +2895,6 @@ src/data/ov003_profrec_020a8af4.c:
     complete
     .data       start:0x020a8af4 end:0x020a8b08
 
-src/data/ov003_profrec_020a8b08.c:
-    complete
-    .data       start:0x020a8b08 end:0x020a8b24
 
 
 
@@ -3633,9 +3627,6 @@ src/data/ov003_profrec_020ab1b4.c:
     complete
     .data       start:0x020ab1b4 end:0x020ab1cc
 
-src/data/ov003_profrec_020ab1e4.c:
-    complete
-    .data       start:0x020ab1e4 end:0x020ab1f4
 
 
 src/data/ov003_profrec_020ab208.c:
@@ -9641,3 +9632,18 @@ src/data/ov003_profpad_020a8e4b.c:
 src/data/ov003_profpad_020a9e15.c:
     complete
     .data       start:0x020a9e15 end:0x020a9e18
+
+src/auto/changeUnitPatNo.c:
+    complete
+    .text       start:0x020593b0 end:0x020594a0
+    .data       start:0x020a8130 end:0x020a8140
+
+src/auto/deleteHataIcon.c:
+    complete
+    .text       start:0x020866dc end:0x02086748
+    .data       start:0x020ab1e4 end:0x020ab1f4
+
+src/auto/SetClearShipSortieTiming.c:
+    complete
+    .text       start:0x02063a70 end:0x02063ad4
+    .data       start:0x020a8b08 end:0x020a8b24

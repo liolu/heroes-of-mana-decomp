@@ -2935,3 +2935,34 @@ src/auto/func_ov110_020e1b7c.cpp 1.2/sp3
 src/auto/func_ov110_020e16d4.cpp 1.2/sp3
 src/auto/func_ov110_020e1c68.cpp 1.2/sp3
 src/auto/func_ov123_020aee18.c 1.2/sp3
+src/donor/OS_VSNPrintf.c 2.0/sp1p2 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_ov123_0207ae2c.c 1.2/sp3
+src/auto/func_ov123_0207c12c.c 1.2/sp3
+src/auto/func_ov123_0207cb10.c 1.2/sp3
+src/auto/func_ov123_020926fc.c 1.2/sp3
+src/auto/func_ov110_020e26d8.c 1.2/sp3
+src/auto/func_ov123_0207add8.c 1.2/sp3
+src/auto/func_ov123_0208805c.c 1.2/sp2p3
+src/auto/func_ov123_02088190.c 1.2/sp3
+src/auto/func_ov123_02099778.c 1.2/sp3
+src/auto/func_ov123_020c9f18.c 1.2/sp3 -O2,p
+src/auto/func_ov123_020caf6c.c 1.2/sp3 -O2,p
+src/auto/func_ov123_0206ad1c.c 1.2/sp3
+src/auto/func_ov123_02076644.c 1.2/sp2p3
+src/auto/func_ov123_02079c1c.c 1.2/sp3
+src/auto/func_ov123_020823f8.c 1.2/sp3
+src/auto/func_ov123_02087b44.c 1.2/sp3
+src/auto/func_ov123_02087c18.c 1.2/sp3
+src/auto/func_ov123_0208c6d0.c 1.2/sp3
+src/auto/changeUnitPatNo.c 2.0/sp1p5 -profile
+src/auto/DeleteCancelButtonInShip.c 2.0/sp1p5 -profile
+src/auto/deleteHataIcon.c 2.0/sp1p5 -profile
+src/auto/func_ov004_020bbc88.cpp 2.0/sp1p5 -O2,p
+src/auto/func_ov123_020711c4.c 1.2/sp2p3
+src/auto/SetClearShipSortieTiming.c 1.2/sp3 -profile
+src/auto/func_ov123_0207acf4.c 1.2/sp3
+src/auto/func_ov123_020881d0.c 1.2/sp3
+src/auto/func_ov123_020968ac.c 1.2/sp3
+src/auto/func_ov123_020c9acc.c 1.2/sp3
+src/auto/func_ov004_020bbb60.cpp 2.0/sp1p5 -O2,p
+src/auto/func_ov123_0208cab4.c 1.2/sp3
