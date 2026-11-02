@@ -9638,34 +9638,62 @@ src/data/ov003_profpad_020a8b21.c:
 src/auto/GetCanBuildHouse.c:
     complete
     .text       start:0x020693f4 end:0x020694e4
-    .data       start:0x020a91b0 end:0x020a91c4
+    .data       start:0x020a91b0 end:0x020a91c1
 
 src/auto/GetJunbanKuniUnit.c:
     complete
     .text       start:0x02063a00 end:0x02063a70
-    .data       start:0x020a8af4 end:0x020a8b08
+    .data       start:0x020a8af4 end:0x020a8b06
 
 src/auto/PutTimerOnScreen.c:
     complete
     .text       start:0x02089954 end:0x02089a24
-    .data       start:0x020ab5e0 end:0x020ab5f4
+    .data       start:0x020ab5e0 end:0x020ab5f1
 
 src/auto/Put__MISSION_LOSE.c:
     complete
     .text       start:0x0209edac end:0x0209eec8
-    .data       start:0x020acb0c end:0x020acb20
+    .data       start:0x020acb0c end:0x020acb1e
 
 src/auto/Put__MISSION_WIN.c:
     complete
     .text       start:0x0209ec90 end:0x0209edac
-    .data       start:0x020acaf8 end:0x020acb0c
+    .data       start:0x020acaf8 end:0x020acb09
 
 src/auto/RagTimeSetToX.c:
     complete
     .text       start:0x02056068 end:0x020560f8
-    .data       start:0x020a7fb4 end:0x020a7fc4
+    .data       start:0x020a7fb4 end:0x020a7fc2
 
 src/auto/MTG_SaveParaReset.c:
     complete
     .text       start:0x020a26e8 end:0x020a278c
-    .data       start:0x020ad3a0 end:0x020ad3b4
+    .data       start:0x020ad3a0 end:0x020ad3b2
+
+src/data/ov003_profpad_020a91c1.c:
+    complete
+    .data       start:0x020a91c1 end:0x020a91c4
+
+src/data/ov003_profpad_020a8b06.c:
+    complete
+    .data       start:0x020a8b06 end:0x020a8b08
+
+src/data/ov003_profpad_020ab5f1.c:
+    complete
+    .data       start:0x020ab5f1 end:0x020ab5f4
+
+src/data/ov003_profpad_020acb1e.c:
+    complete
+    .data       start:0x020acb1e end:0x020acb20
+
+src/data/ov003_profpad_020acb09.c:
+    complete
+    .data       start:0x020acb09 end:0x020acb0c
+
+src/data/ov003_profpad_020a7fc2.c:
+    complete
+    .data       start:0x020a7fc2 end:0x020a7fc4
+
+src/data/ov003_profpad_020ad3b2.c:
+    complete
+    .data       start:0x020ad3b2 end:0x020ad3b4

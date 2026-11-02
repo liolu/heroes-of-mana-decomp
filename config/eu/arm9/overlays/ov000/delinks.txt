@@ -925,4 +925,8 @@ src/data/ov000_profpad_02050942.c:
 src/auto/HBlankIntr.c:
     complete
     .text       start:0x020463c8 end:0x02046418
-    .data       start:0x02050814 end:0x02050820
+    .data       start:0x02050814 end:0x0205081f
+
+src/data/ov000_profpad_0205081f.c:
+    complete
+    .data       start:0x0205081f end:0x02050820
