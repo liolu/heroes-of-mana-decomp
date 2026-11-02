@@ -4883,3 +4883,15 @@ src/data/main_exception_0202fcf8.c:
 src/donor/OS_VSNPrintf.c:
     complete
     .text       start:0x0200cde4 end:0x0200d660
+
+src/auto/OS_YieldThread.c:
+    complete
+    .text       start:0x0200df20 end:0x0200dfd8
+
+src/auto/func_02008238.c:
+    complete
+    .text       start:0x02008238 end:0x0200827c
+
+src/auto/func_02007c48.c:
+    complete
+    .text       start:0x02007c48 end:0x02007c8c

@@ -690,3 +690,11 @@ src/auto/func_ov107_020db148.c:
 src/auto/func_ov107_020dcdb4.c:
     complete
     .text       start:0x020dcdb4 end:0x020dce90
+
+src/auto/func_ov107_020def24.c:
+    complete
+    .text       start:0x020def24 end:0x020df00c
+
+src/auto/func_ov107_020dc220.c:
+    complete
+    .text       start:0x020dc220 end:0x020dc350

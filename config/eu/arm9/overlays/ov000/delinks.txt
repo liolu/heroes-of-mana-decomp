@@ -272,9 +272,6 @@ src/data/ov000_profrec_02050704.c:
 
 
 
-src/data/ov000_profrec_02050814.c:
-    complete
-    .data       start:0x02050814 end:0x02050820
 
 
 
@@ -924,3 +921,8 @@ src/data/ov000_profpad_0205064d.c:
 src/data/ov000_profpad_02050942.c:
     complete
     .data       start:0x02050942 end:0x02050944
+
+src/auto/HBlankIntr.c:
+    complete
+    .text       start:0x020463c8 end:0x02046418
+    .data       start:0x02050814 end:0x02050820
