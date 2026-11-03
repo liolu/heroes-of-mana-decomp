@@ -256,9 +256,6 @@ src/data/ov000_profrec_02050690.c:
     complete
     .data       start:0x02050690 end:0x020506a8
 
-src/data/ov000_profrec_020506a8.c:
-    complete
-    .data       start:0x020506a8 end:0x020506c0
 
 
 src/data/ov000_profrec_02050704.c:
@@ -398,9 +395,6 @@ src/data/ov000_profrec_02051408.c:
     complete
     .data       start:0x02051408 end:0x02051418
 
-src/data/ov000_profrec_02051418.c:
-    complete
-    .data       start:0x02051418 end:0x02051428
 
 src/data/ov000_profrec_02051428.c:
     complete
@@ -414,9 +408,6 @@ src/data/ov000_profrec_0205146c.c:
     complete
     .data       start:0x0205146c end:0x02051480
 
-src/data/ov000_profrec_02051480.c:
-    complete
-    .data       start:0x02051480 end:0x02051498
 
 src/data/ov000_profrec_02051498.c:
     complete
@@ -430,9 +421,6 @@ src/data/ov000_profrec_020514c0.c:
     complete
     .data       start:0x020514c0 end:0x020514d4
 
-src/data/ov000_profrec_020514e4.c:
-    complete
-    .data       start:0x020514e4 end:0x020514f4
 
 
 
@@ -932,3 +920,39 @@ src/auto/GetOkFromParent.c:
     complete
     .text       start:0x02043df4 end:0x02043e30
     .data       start:0x0205051c end:0x0205052c
+
+src/auto/GetOneLineDot.c:
+    complete
+    .text       start:0x0204fea8 end:0x020501e0
+    .data       start:0x020514e4 end:0x020514f2
+
+src/auto/DeleteMessageNextIcon.c:
+    complete
+    .text       start:0x0204ef7c end:0x0204efe4
+    .data       start:0x02051480 end:0x02051496
+
+src/auto/CorrectData2PlayerVS.c:
+    complete
+    .text       start:0x02045240 end:0x02045600
+    .data       start:0x020506a8 end:0x020506bd
+
+src/auto/getMessString.c:
+    complete
+    .text       start:0x0204e818 end:0x0204e870
+    .data       start:0x02051418 end:0x02051426
+
+src/data/ov000_profpad_020514f2.c:
+    complete
+    .data       start:0x020514f2 end:0x020514f4
+
+src/data/ov000_profpad_02051496.c:
+    complete
+    .data       start:0x02051496 end:0x02051498
+
+src/data/ov000_profpad_020506bd.c:
+    complete
+    .data       start:0x020506bd end:0x020506c0
+
+src/data/ov000_profpad_02051426.c:
+    complete
+    .data       start:0x02051426 end:0x02051428

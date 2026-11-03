@@ -112,9 +112,6 @@ src/data/ov109_profrec_020e9acc.c:
 
 
 
-src/data/ov109_profrec_020e9b34.c:
-    complete
-    .data       start:0x020e9b34 end:0x020e9b50
 
 
 
@@ -194,9 +191,6 @@ src/data/ov109_profrec_020e9e7c.c:
     complete
     .data       start:0x020e9e7c end:0x020e9e90
 
-src/data/ov109_profrec_020e9e90.c:
-    complete
-    .data       start:0x020e9e90 end:0x020e9eb0
 
 
 src/data/ov109_profrec_020e9ec8.c:
@@ -224,9 +218,6 @@ src/data/ov109_profrec_020ea05c.c:
 
 
 
-src/data/ov109_profrec_020ea0dc.c:
-    complete
-    .data       start:0x020ea0dc end:0x020ea0f4
 
 
 
@@ -775,3 +766,30 @@ src/data/ov109_profpad_020e9c1e.c:
 src/data/ov109_profpad_020e9f8d.c:
     complete
     .data       start:0x020e9f8d end:0x020e9f90
+
+src/auto/DeleteShinjuHouseSel.c:
+    complete
+    .text       start:0x020e73b8 end:0x020e741c
+    .data       start:0x020ea0dc end:0x020ea0f1
+
+src/auto/AengineSetUpForShipInner.c:
+    complete
+    .text       start:0x020e1edc end:0x020e235c
+    .data       start:0x020e9b34 end:0x020e9b4d
+
+src/auto/GetEmptyUnitWorkInShipWithPos.c:
+    complete
+    .text       start:0x020e568c end:0x020e56f0
+    .data       start:0x020e9e90 end:0x020e9eae
+
+src/data/ov109_profpad_020ea0f1.c:
+    complete
+    .data       start:0x020ea0f1 end:0x020ea0f4
+
+src/data/ov109_profpad_020e9b4d.c:
+    complete
+    .data       start:0x020e9b4d end:0x020e9b50
+
+src/data/ov109_profpad_020e9eae.c:
+    complete
+    .data       start:0x020e9eae end:0x020e9eb0

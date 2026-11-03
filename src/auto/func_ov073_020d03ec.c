@@ -1,0 +1,167 @@
+#include "m2c.h"
+
+typedef struct {
+    s32 v[7];
+} Arr7;
+typedef struct {
+    u32 a : 5;
+    u32 flag : 1;
+    u32 b : 7;
+    u32 mode : 4;
+    u32 rest : 15;
+} D0;
+typedef struct {
+    u32 bit0 : 1;
+    u32 rest : 31;
+} B760;
+typedef struct {
+    u8 pad0[0x90];
+    s32 f90;
+    u8 pad1[0x3c];
+    D0 d0;
+    u32 d4;
+    u8 pad2[0x688];
+    B760 f760;
+} G;
+
+extern Arr7 data_ov073_020d0850;
+extern Arr7 data_ov073_020d086c;
+extern G *data_ov000_02051548;
+
+void ReleaseRetryData(void);
+void InitializeOtherKuniAndUnit(void);
+void InitializeKuniAndUnit(void);
+void SG_setParty(void);
+void Routine_FadeOutAll(void);
+void StockDataForRetry(void);
+void EventDurringTitle(s32);
+void Routine_KyotenChange(s32);
+void ObjSet_allclear(void);
+void func_ov073_020d0160(void);
+void InitializeSiteOfAreaMap(void);
+void PutAreaMapUP_LCD(void);
+void MTG_BGM_FadeOutAndChange(s32);
+void SetUpCarisumaSally(void);
+void Routine_SetEvPosMode(s32);
+void SelectCarisumaChar(void);
+void Routine_SetEvPos(s32);
+void WaitSyncCounter(s32);
+void ObjSet(s32, s32, s32, s32);
+void MTG_CarisumaPosArrange(Arr7 *, Arr7 *);
+void CameraMoveAndWait(s32, s32, s32, s32, s32, s32, s32);
+void Routine_FadeInAll(void);
+void KuniNameSet(s32, s32);
+void MTG_BattleStart(s32, s32);
+s32 CheckAllDeathStatusRect(s32, s32);
+void func_ov073_020d0304(void);
+void SetUpSallyForCharNo(s32, s32);
+s32 GetUnitStatus(s32);
+void OS_SleepThread(s32);
+void MTG_StartEvent(void);
+void MTG_BecomeDarkScreen(void);
+void Routine_MessageRect(s32, s32, s32, s32);
+void MessagePutAndWait(s32);
+void MTG_ReturnDarkScreen(void);
+void PutBtlResultForFreeWithoutSave(void);
+void MTG_FreeBattleEnd1(void);
+void MTG_FreeBattleEnd2(s32);
+void EndScriptRoutine(void);
+
+void func_ov073_020d03ec(void) {
+    Arr7 a = data_ov073_020d0850;
+    Arr7 b = data_ov073_020d086c;
+
+    for (;;) {
+        switch (data_ov000_02051548->d4 & 0xffff) {
+            default:
+                ReleaseRetryData();
+                InitializeOtherKuniAndUnit();
+                if (data_ov000_02051548->d0.flag != 0) {
+                    InitializeKuniAndUnit();
+                    data_ov000_02051548->f90 = 0x1a;
+                    SG_setParty();
+                }
+                Routine_FadeOutAll();
+                StockDataForRetry();
+                EventDurringTitle(0x1a90);
+            case 0x1a90:
+                Routine_KyotenChange(0x13);
+                ObjSet_allclear();
+                InitializeOtherKuniAndUnit();
+                func_ov073_020d0160();
+                InitializeSiteOfAreaMap();
+                PutAreaMapUP_LCD();
+                MTG_BGM_FadeOutAndChange(0x28);
+                ObjSet_allclear();
+                SetUpCarisumaSally();
+                data_ov000_02051548->d0.mode = 2;
+                SetUpSallyForCharNo(2, 2);
+                SetUpSallyForCharNo(9, 2);
+                Routine_SetEvPosMode(2);
+                SelectCarisumaChar();
+                Routine_SetEvPos(0);
+                WaitSyncCounter(10);
+                ObjSet(0, 5, 0, 0);
+                MTG_CarisumaPosArrange(&a, &b);
+                WaitSyncCounter(10);
+                CameraMoveAndWait(1, 0, 9, 0xc, 0x3e8, 0x1c2, 0xbe);
+                ObjSet(0xd, 0x1e, 0, 0);
+                WaitSyncCounter(10);
+                Routine_FadeInAll();
+                MTG_BGM_FadeOutAndChange(0x2f);
+                KuniNameSet(0, 1);
+                KuniNameSet(1, 8);
+                MTG_BattleStart(0x46, 0x30);
+                EventDurringTitle(0x1a91);
+            case 0x1a91:
+                if (GetUnitStatus(0xb) == 0) {
+                    data_ov000_02051548->d4 = (data_ov000_02051548->d4 & 0xffff0000) | 0x1aec;
+                } else if (GetUnitStatus(2) == 1 || GetUnitStatus(9) == 1 || GetUnitStatus(0xd) == 1) {
+                    data_ov000_02051548->d4 = (data_ov000_02051548->d4 & 0xffff0000) | 0x1aee;
+                } else if (CheckAllDeathStatusRect(0xf0a, 0xf10) != 0) {
+                    data_ov000_02051548->d4 = (data_ov000_02051548->d4 & 0xffff0000) | 0x1af2;
+                } else {
+                    data_ov000_02051548->f760.bit0 = 0;
+                    OS_SleepThread(0);
+                    data_ov000_02051548->d4 = (data_ov000_02051548->d4 & 0xffff0000) | 0x1a91;
+                }
+                break;
+            case 0x1aec:
+                MTG_StartEvent();
+                WaitSyncCounter(0x1e);
+                CameraMoveAndWait(0x3c, 1, 0xb, 0, -1, -1, -1);
+                WaitSyncCounter(0x3c);
+                MTG_BecomeDarkScreen();
+                MTG_BGM_FadeOutAndChange(6);
+                Routine_MessageRect(2, 9, 0x1c, 10);
+                MessagePutAndWait(0x138a);
+                WaitSyncCounter(0x3c);
+                MTG_ReturnDarkScreen();
+                EventDurringTitle(0x1aed);
+            case 0x1aed:
+                EventDurringTitle(0x1a90);
+                PutBtlResultForFreeWithoutSave();
+                EventDurringTitle(0x1aee);
+            case 0x1aee:
+                MTG_StartEvent();
+                MTG_BecomeDarkScreen();
+                MTG_BGM_FadeOutAndChange(6);
+                Routine_MessageRect(2, 9, 0x1c, 10);
+                MessagePutAndWait(0x138c);
+                WaitSyncCounter(0x3c);
+                MTG_ReturnDarkScreen();
+                EventDurringTitle(0x1aef);
+            case 0x1aef:
+                EventDurringTitle(0x1a90);
+                PutBtlResultForFreeWithoutSave();
+                EventDurringTitle(0x1af2);
+            case 0x1af2:
+                func_ov073_020d0304();
+                EventDurringTitle(0x1a90);
+                MTG_FreeBattleEnd1();
+                MTG_FreeBattleEnd2(0x44);
+                EndScriptRoutine();
+                break;
+        }
+    }
+}

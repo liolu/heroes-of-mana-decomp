@@ -702,3 +702,15 @@ src/auto/func_ov107_020dc220.c:
 src/auto/func_ov107_020dca1c.c:
     complete
     .text       start:0x020dca1c end:0x020dca98
+
+src/auto/func_ov107_020d73ec.c:
+    complete
+    .text       start:0x020d73ec end:0x020d77dc
+
+src/auto/func_ov107_020d837c.c:
+    complete
+    .text       start:0x020d837c end:0x020d84f8
+
+src/auto/func_ov107_020df354.c:
+    complete
+    .text       start:0x020df354 end:0x020df4d8

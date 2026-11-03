@@ -5336,3 +5336,11 @@ src/auto/func_ov004_020ca508.cpp:
 src/auto/func_ov004_020c6bc8.c:
     complete
     .text       start:0x020c6bc8 end:0x020c6c38
+
+src/auto/func_ov004_020c9780.c:
+    complete
+    .text       start:0x020c9780 end:0x020c97e0
+
+src/auto/func_ov004_020c1b34.cpp:
+    complete
+    .text       start:0x020c1b34 end:0x020c1d5c

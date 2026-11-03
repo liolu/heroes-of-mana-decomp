@@ -3112,3 +3112,106 @@ src/auto/SearchSetUpEventOccur.c 2.0/sp1p5 -profile
 src/auto/func_ov123_020788b0.c 1.2/sp2p3 -proc arm7tdmi
 src/auto/func_ov123_0207a978.c 1.2/sp3
 src/auto/func_ov123_020ac480.c 1.2/sp2p3 -thumb
+src/auto/GetNoInCanOut.c 2.0/sp1p5 -profile
+src/auto/GetOneLineDot.c 2.0/sp1p5 -profile
+src/auto/GetUnitKazuInBoard.c 2.0/sp1p5 -profile
+src/auto/HikusenChainAnchorPut.c 2.0/sp1p5 -profile
+src/auto/DeleteAob2Data.c 2.0/sp1p5 -profile
+src/auto/DeleteMessageNextIcon.c 2.0/sp1p5 -profile
+src/auto/DeleteShinjuHouseSel.c 2.0/sp1p5 -profile
+src/auto/AengineSetUpForShipInner.c 2.0/sp1p5 -profile
+src/auto/AnimationAllMap_ObjectSub.c 2.0/sp1p5 -profile
+src/auto/CanMakeUnitDetail.c 2.0/sp1p5 -profile
+src/auto/GetHighPlace.c 2.0/sp1p5 -profile
+src/auto/GetMapSitePer.c 2.0/sp1p5 -profile
+src/auto/MakeTexCoordXYsize.c 2.0/sp1p5 -profile
+src/auto/MakeUnitOne.c 2.0/sp1p5 -profile
+src/auto/MakeBlankPosWork.c 2.0/sp1p5 -profile
+src/auto/MakeIconSetScreenOnVBlank.c 2.0/sp1p5 -profile
+src/auto/GetCanThroughKai.c 2.0/sp1p5 -profile
+src/auto/GetDataMP.c 2.0/sp1p5 -profile
+src/auto/GetEmptyUnitWorkInShipWithPos.c 2.0/sp1p5 -profile
+src/auto/CheckAttackTarget.c 2.0/sp1p5 -profile
+src/auto/GetAreaMapIcon.c 2.0/sp1p5 -profile
+src/auto/SetAdrsOfModel.c 1.2/sp3 -profile
+src/auto/SetBOMBwork.c 2.0/sp1p5 -profile
+src/auto/ChgObjAnimeDirect.c 2.0/sp1p5 -profile
+src/auto/CorrectData2PlayerVS.c 2.0/sp1p5 -profile
+src/auto/RecoverHpOrResourceByPer.c 2.0/sp1p5 -profile
+src/auto/ReleaseWmWorksTrnsWork.c 2.0/sp1p5 -profile
+src/auto/WaitSyncTouchXY.c 2.0/sp1p5 -profile
+src/auto/SetCameraPoint.c 2.0/sp1p5 -profile
+src/auto/SetCarisumaSkillInShip.c 2.0/sp1p5 -profile
+src/auto/SetCreateInShipPara.c 2.0/sp1p5 -profile
+src/auto/SetTrsDataFirstForParent.c 2.0/sp1p5 -profile
+src/auto/SetUpOneMapObjByFirstPos.c 2.0/sp1p5 -profile
+src/auto/WH_StartMeasureChannel.c 2.0/sp1p5 -profile
+src/auto/WH_StateInStartParentMP.c 2.0/sp1p5 -profile
+src/auto/Routine_BGMvolChange.c 2.0/sp1p5 -profile
+src/auto/PutNowCurSorIn3D.c 2.0/sp1p5 -profile
+src/auto/PutOnItem.c 2.0/sp1p5 -profile
+src/auto/SetScreenRGB_AengineChangePower.c 2.0/sp1p5 -profile
+src/auto/func_ov111_020e85e0.c 1.2/sp3
+src/auto/func_ov111_020e191c.c 2.0/sp1p5 -O2,p
+src/auto/func_ov117_020e4ecc.c 2.0/sp1p5 -O2,p
+src/auto/func_ov117_020e5ee0.c 1.2/sp3 -O1
+src/auto/func_ov123_02072f14.c 1.2/sp2p3
+src/auto/func_ov123_02073ec8.c 1.2/sp2p3
+src/auto/func_ov123_02073fe4.c 1.2/sp2p3
+src/auto/func_ov123_02074520.c 1.2/sp2p3
+src/auto/func_ov123_0206f4d0.c 1.2/sp2p3
+src/auto/func_ov123_0206d410.c 1.2/sp2p3
+src/auto/func_ov123_0206da90.c 1.2/sp2p3
+src/auto/func_ov123_02074914.c 1.2/sp2p3
+src/auto/func_ov123_020759f0.c 1.2/sp2p3
+src/auto/func_ov123_02076ba4.c 1.2/sp2p3
+src/auto/func_ov123_0207df18.c 1.2/sp2p3
+src/auto/func_ov123_0207e780.c 1.2/sp3
+src/auto/func_ov123_02083214.c 1.2/sp3
+src/auto/func_ov123_02083b00.c 1.2/sp3
+src/auto/func_ov123_02086a10.c 1.2/sp3
+src/auto/func_ov123_02086d74.c 1.2/sp3
+src/auto/func_ov123_02069254.c 1.2/sp2p3
+src/auto/func_ov123_0207aec0.c 1.2/sp3
+src/auto/func_ov123_0207b4e4.c 1.2/sp3
+src/auto/func_ov123_0206ba5c.c 1.2/sp2p3
+src/auto/func_ov123_0208ce34.c 1.2/sp3
+src/auto/gameDataControlVS.c 2.0/sp1p5 -profile
+src/auto/getMessString.c 2.0/sp1p5 -profile
+src/auto/get_UnitOfFunc.c 2.0/sp1p5 -profile
+src/auto/mtx_Concat.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02090c80.c 1.2/sp3
+src/auto/func_ov123_02091440.c 1.2/sp3
+src/auto/func_ov123_02091598.c 1.2/sp3
+src/auto/func_ov123_020924b0.c 1.2/sp3
+src/auto/func_ov123_02094970.c 1.2/sp3
+src/auto/func_ov123_02094bbc.c 1.2/sp3
+src/auto/func_ov123_0209b834.c 1.2/sp3
+src/auto/func_ov123_0209c688.c 1.2/sp3
+src/auto/func_ov123_020a4590.c 1.2/sp3
+src/auto/func_ov123_020a4f04.c 1.2/sp3
+src/auto/func_ov123_020a60ec.c 1.2/sp3
+src/auto/func_ov123_02098908.c 1.2/sp3
+src/auto/func_ov123_02098b4c.c 1.2/sp3
+src/auto/func_ov123_02098d84.c 1.2/sp3
+src/auto/func_ov123_020ac5ec.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad070.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ad0b0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020b1418.c 1.2/sp3
+src/auto/func_ov123_020b1a58.c 1.2/sp3
+src/auto/func_ov123_020b29a0.c 1.2/sp3
+src/auto/func_ov123_020bbd54.c 1.2/sp3
+src/auto/func_ov123_020bd1bc.c 1.2/sp3
+src/auto/func_ov123_020bfbec.c 1.2/sp3
+src/auto/func_ov123_020c75d4.c 1.2/sp3
+src/auto/func_ov123_020c7904.c 1.2/sp3
+src/auto/func_ov123_020c8084.c 1.2/sp3
+src/auto/func_ov123_020c482c.c 1.2/sp3
+src/auto/func_ov123_020c5054.c 1.2/sp3
+src/auto/func_ov123_020c7170.c 1.2/sp3
+src/auto/func_ov123_020b6d04.c 1.2/sp3
+src/auto/func_ov123_020b7c78.c 1.2/sp3
+src/auto/func_ov123_020aef20.c 1.2/sp3
+src/auto/func_ov123_020c414c.c 1.2/sp3
+src/auto/func_ov123_0209dd3c.c 1.2/sp3
+src/auto/func_ov123_020baee4.c 1.2/sp3
