@@ -236,9 +236,6 @@ src/data/ov000_profrec_020504f0.c:
     .data       start:0x020504f0 end:0x02050500
 
 
-src/data/ov000_profrec_0205051c.c:
-    complete
-    .data       start:0x0205051c end:0x0205052c
 
 src/data/ov000_profrec_0205052c.c:
     complete
@@ -930,3 +927,8 @@ src/auto/HBlankIntr.c:
 src/data/ov000_profpad_0205081f.c:
     complete
     .data       start:0x0205081f end:0x02050820
+
+src/auto/GetOkFromParent.c:
+    complete
+    .text       start:0x02043df4 end:0x02043e30
+    .data       start:0x0205051c end:0x0205052c

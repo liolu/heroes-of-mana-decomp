@@ -5332,3 +5332,7 @@ src/auto/func_ov004_020c90e0.cpp:
 src/auto/func_ov004_020ca508.cpp:
     complete
     .text       start:0x020ca508 end:0x020ca538
+
+src/auto/func_ov004_020c6bc8.c:
+    complete
+    .text       start:0x020c6bc8 end:0x020c6c38
