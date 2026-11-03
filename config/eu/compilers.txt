@@ -3014,3 +3014,4 @@ src/auto/func_ov123_020c8ec0.c 1.2/sp3
 src/auto/oneLoopInShip.c 2.0/sp1p5 -profile
 src/auto/func_02008238.c 1.2/sp3
 src/auto/func_02007c48.c 1.2/sp3
+src/auto/func_ov123_0207badc.c 1.2/sp3
