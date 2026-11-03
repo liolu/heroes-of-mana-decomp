@@ -2577,9 +2577,6 @@ src/data/ov003_profrec_020a79f4.c:
 
 
 
-src/data/ov003_profrec_020a7a40.c:
-    complete
-    .data       start:0x020a7a40 end:0x020a7a54
 
 
 
@@ -2637,9 +2634,6 @@ src/data/ov003_profrec_020a7ee0.c:
     .data       start:0x020a7ee0 end:0x020a7efc
 
 
-src/data/ov003_profrec_020a7f10.c:
-    complete
-    .data       start:0x020a7f10 end:0x020a7f24
 
 src/data/ov003_profrec_020a7f3c.c:
     complete
@@ -2798,9 +2792,6 @@ src/data/ov003_profrec_020a860c.c:
     .data       start:0x020a860c end:0x020a8620
 
 
-src/data/ov003_profrec_020a8630.c:
-    complete
-    .data       start:0x020a8630 end:0x020a8644
 
 
 src/data/ov003_profrec_020a8654.c:
@@ -3281,9 +3272,6 @@ src/data/ov003_profrec_020a9e18.c:
     complete
     .data       start:0x020a9e18 end:0x020a9e28
 
-src/data/ov003_profrec_020a9e40.c:
-    complete
-    .data       start:0x020a9e40 end:0x020a9e50
 
 src/data/ov003_profrec_020a9e50.c:
     complete
@@ -3326,9 +3314,6 @@ src/data/ov003_profrec_020aa08c.c:
     complete
     .data       start:0x020aa08c end:0x020aa0a0
 
-src/data/ov003_profrec_020aa0b4.c:
-    complete
-    .data       start:0x020aa0b4 end:0x020aa0c8
 
 
 src/data/ov003_profrec_020aa0dc.c:
@@ -3512,9 +3497,6 @@ src/data/ov003_profrec_020aab5c.c:
 
 
 
-src/data/ov003_profrec_020aabd8.c:
-    complete
-    .data       start:0x020aabd8 end:0x020aabe8
 
 
 
@@ -3532,9 +3514,6 @@ src/data/ov003_profrec_020aac28.c:
 
 
 
-src/data/ov003_profrec_020aad30.c:
-    complete
-    .data       start:0x020aad30 end:0x020aad48
 
 
 
@@ -3918,9 +3897,6 @@ src/data/ov003_profrec_020abf8c.c:
     .data       start:0x020abf8c end:0x020abf98
 
 
-src/data/ov003_profrec_020abfa8.c:
-    complete
-    .data       start:0x020abfa8 end:0x020abfb8
 
 
 
@@ -4026,9 +4002,6 @@ src/data/ov003_profrec_020ac830.c:
     complete
     .data       start:0x020ac830 end:0x020ac844
 
-src/data/ov003_profrec_020ac870.c:
-    complete
-    .data       start:0x020ac870 end:0x020ac884
 
 
 
@@ -4049,9 +4022,6 @@ src/data/ov003_profrec_020acd18.c:
 
 
 
-src/data/ov003_profrec_020ace10.c:
-    complete
-    .data       start:0x020ace10 end:0x020ace28
 
 
 
@@ -4066,9 +4036,6 @@ src/data/ov003_profrec_020acfe8.c:
     complete
     .data       start:0x020acfe8 end:0x020acff8
 
-src/data/ov003_profrec_020acff8.c:
-    complete
-    .data       start:0x020acff8 end:0x020ad008
 
 
 
@@ -4131,9 +4098,6 @@ src/data/ov003_profrec_020ae6e8.c:
     .data       start:0x020ae6e8 end:0x020ae700
 
 
-src/data/ov003_profrec_020ae7dc.c:
-    complete
-    .data       start:0x020ae7dc end:0x020ae7f0
 
 
 
@@ -9697,3 +9661,95 @@ src/data/ov003_profpad_020a7fc2.c:
 src/data/ov003_profpad_020ad3b2.c:
     complete
     .data       start:0x020ad3b2 end:0x020ad3b4
+
+src/auto/ChangeComObjOneByFunc.c:
+    complete
+    .text       start:0x02080914 end:0x02080984
+    .data       start:0x020aad30 end:0x020aad46
+
+src/auto/DropItemBySetNo.c:
+    complete
+    .text       start:0x020980b8 end:0x0209814c
+    .data       start:0x020abfa8 end:0x020abfb8
+
+src/auto/CheckMoveLookPos.c:
+    complete
+    .text       start:0x020760e8 end:0x02076150
+    .data       start:0x020aa0b4 end:0x020aa0c5
+
+src/auto/GetDirectionByAddXZ.c:
+    complete
+    .text       start:0x02055be0 end:0x02055c48
+    .data       start:0x020a7f10 end:0x020a7f24
+
+src/auto/GetFreeScenarioOnOff.c:
+    complete
+    .text       start:0x0209fc10 end:0x0209fc68
+    .data       start:0x020ace10 end:0x020ace25
+
+src/auto/MoveModelShip.c:
+    complete
+    .text       start:0x02074298 end:0x0207433c
+    .data       start:0x020a9e40 end:0x020a9e4e
+
+src/auto/Routine_ShakeScreen.c:
+    complete
+    .text       start:0x0209dfb0 end:0x0209e004
+    .data       start:0x020ac870 end:0x020ac884
+
+src/auto/SetStatusIcon.c:
+    complete
+    .text       start:0x020801c8 end:0x02080328
+    .data       start:0x020aabd8 end:0x020aabe6
+
+src/auto/SetMissonFlag.c:
+    complete
+    .text       start:0x020a05b8 end:0x020a0610
+    .data       start:0x020acff8 end:0x020ad006
+
+src/auto/SetUnitStatusIcon.c:
+    complete
+    .text       start:0x0205e5bc end:0x0205e60c
+    .data       start:0x020a8630 end:0x020a8642
+
+src/auto/WH_StateInSetMPData.c:
+    complete
+    .text       start:0x020a4550 end:0x020a4620
+    .data       start:0x020ae7dc end:0x020ae7f0
+
+src/auto/countNoUseTexPal.c:
+    complete
+    .text       start:0x0205407c end:0x020540d8
+    .data       start:0x020a7a40 end:0x020a7a51
+
+src/data/ov003_profpad_020aad46.c:
+    complete
+    .data       start:0x020aad46 end:0x020aad48
+
+src/data/ov003_profpad_020aa0c5.c:
+    complete
+    .data       start:0x020aa0c5 end:0x020aa0c8
+
+src/data/ov003_profpad_020ace25.c:
+    complete
+    .data       start:0x020ace25 end:0x020ace28
+
+src/data/ov003_profpad_020a9e4e.c:
+    complete
+    .data       start:0x020a9e4e end:0x020a9e50
+
+src/data/ov003_profpad_020aabe6.c:
+    complete
+    .data       start:0x020aabe6 end:0x020aabe8
+
+src/data/ov003_profpad_020ad006.c:
+    complete
+    .data       start:0x020ad006 end:0x020ad008
+
+src/data/ov003_profpad_020a8642.c:
+    complete
+    .data       start:0x020a8642 end:0x020a8644
+
+src/data/ov003_profpad_020a7a51.c:
+    complete
+    .data       start:0x020a7a51 end:0x020a7a54

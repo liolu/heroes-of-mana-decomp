@@ -131,9 +131,6 @@ src/data/ov109_profrec_020e9be8.c:
     .data       start:0x020e9be8 end:0x020e9bfc
 
 
-src/data/ov109_profrec_020e9c0c.c:
-    complete
-    .data       start:0x020e9c0c end:0x020e9c20
 
 src/data/ov109_profrec_020e9c20.c:
     complete
@@ -214,9 +211,6 @@ src/data/ov109_profrec_020e9f00.c:
 
 
 
-src/data/ov109_profrec_020e9f7c.c:
-    complete
-    .data       start:0x020e9f7c end:0x020e9f90
 
 
 
@@ -763,3 +757,21 @@ src/auto/oneLoopInShip.c:
 src/data/ov109_profpad_020e9b32.c:
     complete
     .data       start:0x020e9b32 end:0x020e9b34
+
+src/auto/ReadShipsCompFile.c:
+    complete
+    .text       start:0x020e3304 end:0x020e3350
+    .data       start:0x020e9c0c end:0x020e9c1e
+
+src/auto/RedrawCoseByKazu.c:
+    complete
+    .text       start:0x020e644c end:0x020e64f0
+    .data       start:0x020e9f7c end:0x020e9f8d
+
+src/data/ov109_profpad_020e9c1e.c:
+    complete
+    .data       start:0x020e9c1e end:0x020e9c20
+
+src/data/ov109_profpad_020e9f8d.c:
+    complete
+    .data       start:0x020e9f8d end:0x020e9f90

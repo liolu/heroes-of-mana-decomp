@@ -5304,3 +5304,31 @@ src/auto/func_ov004_020c9594.cpp:
 src/auto/func_ov004_020bbb60.cpp:
     complete
     .text       start:0x020bbb60 end:0x020bbba8
+
+src/auto/func_ov004_020bb13c.cpp:
+    complete
+    .text       start:0x020bb13c end:0x020bb174
+
+src/auto/func_ov004_020bb234.cpp:
+    complete
+    .text       start:0x020bb234 end:0x020bb26c
+
+src/auto/func_ov004_020bb3cc.cpp:
+    complete
+    .text       start:0x020bb3cc end:0x020bb404
+
+src/auto/func_ov004_020bcbf4.cpp:
+    complete
+    .text       start:0x020bcbf4 end:0x020bcc44
+
+src/auto/func_ov004_020c8d98.cpp:
+    complete
+    .text       start:0x020c8d98 end:0x020c8e34
+
+src/auto/func_ov004_020c90e0.cpp:
+    complete
+    .text       start:0x020c90e0 end:0x020c911c
+
+src/auto/func_ov004_020ca508.cpp:
+    complete
+    .text       start:0x020ca508 end:0x020ca538

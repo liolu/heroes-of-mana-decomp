@@ -3015,3 +3015,76 @@ src/auto/oneLoopInShip.c 2.0/sp1p5 -profile
 src/auto/func_02008238.c 1.2/sp3
 src/auto/func_02007c48.c 1.2/sp3
 src/auto/func_ov123_0207badc.c 1.2/sp3
+src/auto/ChangeComObjOneByFunc.c 2.0/sp1p5 -profile
+src/auto/DropItemBySetNo.c 2.0/sp1p5 -profile
+src/auto/CheckMoveLookPos.c 2.0/sp1p5 -profile
+src/auto/GetDirectionByAddXZ.c 2.0/sp1p5 -profile
+src/auto/GetFreeScenarioOnOff.c 2.0/sp1p5 -profile
+src/auto/MoveModelShip.c 2.0/sp1p5 -profile
+src/auto/Routine_ShakeScreen.c 2.0/sp1p5 -profile
+src/auto/ReadShipsCompFile.c 2.0/sp1p5 -profile
+src/auto/RedrawCoseByKazu.c 2.0/sp1p5 -profile
+src/auto/SetStatusIcon.c 2.0/sp1p5 -profile
+src/auto/SetMissonFlag.c 2.0/sp1p5 -profile
+src/auto/SetUnitStatusIcon.c 2.0/sp1p5 -profile
+src/auto/WH_StateInSetMPData.c 2.0/sp1p5 -profile
+src/auto/countNoUseTexPal.c 2.0/sp1p5 -profile
+src/auto/func_ov123_0206af74.c 1.2/sp3
+src/auto/func_ov123_02071c68.c 1.2/sp2p3
+src/auto/func_ov123_02073290.c 1.2/sp2p3
+src/auto/func_ov123_020766a8.c 1.2/sp2p3
+src/auto/func_ov123_0207ab94.c 1.2/sp3
+src/auto/func_ov123_02077ef4.c 1.2/sp2p3
+src/auto/func_ov123_0207b008.c 1.2/sp3
+src/auto/func_ov123_0207a4f0.c 1.2/sp3
+src/auto/func_ov123_0208a670.c 1.2/sp3
+src/auto/func_ov123_0208e7f0.c 1.2/sp2p3
+src/auto/func_ov123_0208d444.c 1.2/sp3
+src/auto/func_ov123_0208d988.c 1.2/sp3
+src/auto/func_ov123_020a66fc.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6848.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a684c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a68b0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a68e8.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a693c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6a18.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6a90.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6b58.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6b98.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6bc4.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6c0c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6c3c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6ca8.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6d3c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6dc0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6e28.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6e88.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a6fe0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a722c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a78e4.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a79a8.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a66f0.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a928c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9708.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ac3dc.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ac5c0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ac718.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ac750.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ac820.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a7cec.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a7dc0.c 2.0/sp1p5 -thumb
+src/auto/func_ov123_020a9ec0.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a9eec.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020aa838.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020a763c.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020ae3b4.c 1.2/sp3
+src/auto/func_ov123_020b34bc.c 1.2/sp3
+src/auto/func_ov123_020b3a24.c 1.2/sp3
+src/auto/func_ov123_020b474c.c 1.2/sp3
+src/auto/func_ov123_020ac864.c 1.2/sp2p3 -thumb
+src/auto/func_ov123_020b76b8.c 1.2/sp3
+src/auto/func_ov123_020bf2cc.c 1.2/sp3
+src/auto/func_ov123_020c51ac.c 1.2/sp3
+src/auto/func_ov123_020c3870.c 1.2/sp3
+src/auto/func_ov123_020c56c4.c 1.2/sp3
+src/auto/func_ov123_020c57b8.c 1.2/sp3
