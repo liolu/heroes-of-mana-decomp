@@ -3215,3 +3215,11 @@ src/auto/func_ov123_020aef20.c 1.2/sp3
 src/auto/func_ov123_020c414c.c 1.2/sp3
 src/auto/func_ov123_0209dd3c.c 1.2/sp3
 src/auto/func_ov123_020baee4.c 1.2/sp3
+src/auto/ChgNumIPLtoUseFont.c 2.0/sp1p5 -profile
+src/auto/func_ov123_0206a074.c 1.2/sp3
+src/auto/func_ov123_02075f44.c 1.2/sp2p3
+src/auto/func_ov123_02090540.c 1.2/sp3
+src/auto/func_ov114_020e2438.c 2.0/sp1p5 -O2,p
+src/auto/func_ov123_0209b618.c 1.2/sp3
+src/auto/func_ov123_020ba7cc.c 1.2/sp3
+src/auto/objSetDistance.c 2.0/sp1p5 -profile

@@ -4895,3 +4895,7 @@ src/auto/func_02008238.c:
 src/auto/func_02007c48.c:
     complete
     .text       start:0x02007c48 end:0x02007c8c
+
+src/auto/FSi_FindPathCommand.c:
+    complete
+    .text       start:0x02011fb8 end:0x0201219c

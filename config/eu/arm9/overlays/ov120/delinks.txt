@@ -407,3 +407,7 @@ src/auto/func_ov120_020ea550.c:
 src/auto/func_ov120_020eb538.c:
     complete
     .text       start:0x020eb538 end:0x020eb5a4
+
+src/auto/func_ov120_020ea634.c:
+    complete
+    .text       start:0x020ea634 end:0x020ea838

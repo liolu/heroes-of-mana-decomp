@@ -15380,3 +15380,27 @@ src/auto/func_ov123_0209dd3c.c:
 src/auto/func_ov123_020baee4.c:
     complete
     .text       start:0x020baee4 end:0x020bb228
+
+src/auto/func_ov123_0206a074.c:
+    complete
+    .text       start:0x0206a074 end:0x0206a288
+
+src/auto/func_ov123_02075f44.c:
+    complete
+    .text       start:0x02075f44 end:0x0207614c
+
+src/auto/func_ov123_02090540.c:
+    complete
+    .text       start:0x02090540 end:0x020905ec
+
+src/auto/func_ov123_0209b618.c:
+    complete
+    .text       start:0x0209b618 end:0x0209b834
+
+src/auto/func_ov123_020ba7cc.c:
+    complete
+    .text       start:0x020ba7cc end:0x020baba4
+
+src/auto/func_ov123_020ceb44.c:
+    complete
+    .text       start:0x020ceb44 end:0x020ced60

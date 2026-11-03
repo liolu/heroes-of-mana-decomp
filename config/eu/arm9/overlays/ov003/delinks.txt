@@ -2714,9 +2714,6 @@ src/data/ov003_profrec_020a8290.c:
     .data       start:0x020a8290 end:0x020a82a8
 
 
-src/data/ov003_profrec_020a82cc.c:
-    complete
-    .data       start:0x020a82cc end:0x020a82dc
 
 
 
@@ -9963,3 +9960,12 @@ src/data/ov003_profpad_020abd27.c:
 src/data/ov003_profpad_020a7b37.c:
     complete
     .data       start:0x020a7b37 end:0x020a7b38
+
+src/auto/objSetDistance.c:
+    complete
+    .text       start:0x0205b00c end:0x0205b4b8
+    .data       start:0x020a82cc end:0x020a82db
+
+src/data/ov003_profpad_020a82db.c:
+    complete
+    .data       start:0x020a82db end:0x020a82dc

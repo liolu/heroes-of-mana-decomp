@@ -424,9 +424,6 @@ src/data/ov000_profrec_020514c0.c:
 
 
 
-src/data/ov000_profrec_02051518.c:
-    complete
-    .data       start:0x02051518 end:0x0205152c
 
 src/data/ov000_data_020504ac.c:
     complete
@@ -956,3 +953,12 @@ src/data/ov000_profpad_020506bd.c:
 src/data/ov000_profpad_02051426.c:
     complete
     .data       start:0x02051426 end:0x02051428
+
+src/auto/ChgNumIPLtoUseFont.c:
+    complete
+    .text       start:0x02050340 end:0x02050460
+    .data       start:0x02051518 end:0x0205152b
+
+src/data/ov000_profpad_0205152b.c:
+    complete
+    .data       start:0x0205152b end:0x0205152c
