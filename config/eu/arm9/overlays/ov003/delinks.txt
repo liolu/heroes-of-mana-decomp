@@ -2515,9 +2515,6 @@ src/data/ov003_data_020ad768.c:
 
 
 
-src/data/ov003_profrec_020a628c.c:
-    complete
-    .data       start:0x020a628c end:0x020a629c
 
 src/data/ov003_profrec_020a629c.c:
     complete
@@ -2687,9 +2684,6 @@ src/data/ov003_profrec_020a8168.c:
     complete
     .data       start:0x020a8168 end:0x020a8180
 
-src/data/ov003_profrec_020a8180.c:
-    complete
-    .data       start:0x020a8180 end:0x020a8190
 
 
 
@@ -3036,9 +3030,6 @@ src/data/ov003_profrec_020a9568.c:
     .data       start:0x020a9568 end:0x020a957c
 
 
-src/data/ov003_profrec_020a9590.c:
-    complete
-    .data       start:0x020a9590 end:0x020a95a0
 
 
 
@@ -3221,9 +3212,6 @@ src/data/ov003_profrec_020a9f38.c:
     complete
     .data       start:0x020a9f38 end:0x020a9f44
 
-src/data/ov003_profrec_020a9f44.c:
-    complete
-    .data       start:0x020a9f44 end:0x020a9f50
 
 
 
@@ -3283,9 +3271,6 @@ src/data/ov003_profrec_020aa2bc.c:
     complete
     .data       start:0x020aa2bc end:0x020aa2cc
 
-src/data/ov003_profrec_020aa2cc.c:
-    complete
-    .data       start:0x020aa2cc end:0x020aa2e4
 
 
 
@@ -3331,9 +3316,6 @@ src/data/ov003_profrec_020aa590.c:
     complete
     .data       start:0x020aa590 end:0x020aa5a4
 
-src/data/ov003_profrec_020aa5a4.c:
-    complete
-    .data       start:0x020aa5a4 end:0x020aa5b8
 
 src/data/ov003_profrec_020aa5b8.c:
     complete
@@ -3603,9 +3585,6 @@ src/data/ov003_profrec_020ab78c.c:
     complete
     .data       start:0x020ab78c end:0x020ab79c
 
-src/data/ov003_profrec_020ab79c.c:
-    complete
-    .data       start:0x020ab79c end:0x020ab7b4
 
 
 
@@ -3988,9 +3967,6 @@ src/data/ov003_profrec_020ae6e8.c:
 
 
 
-src/data/ov003_profrec_020ae954.c:
-    complete
-    .data       start:0x020ae954 end:0x020ae964
 
 src/data/ov003_profrec_020ae9c4.c:
     complete
@@ -9969,3 +9945,71 @@ src/auto/objSetDistance.c:
 src/data/ov003_profpad_020a82db.c:
     complete
     .data       start:0x020a82db end:0x020a82dc
+
+src/auto/WH_Initialize.c:
+    complete
+    .text       start:0x020a4ca8 end:0x020a4d24
+    .data       start:0x020ae954 end:0x020ae962
+
+src/auto/MakeTexCoord.c:
+    complete
+    .text       start:0x0205a1fc end:0x0205a2b8
+    .data       start:0x020a8180 end:0x020a818d
+
+src/auto/MakeTexCoordFLYARMWORK.c:
+    complete
+    .text       start:0x0208c1d0 end:0x0208c28c
+    .data       start:0x020ab79c end:0x020ab7b3
+
+src/auto/AddModelTypeSt.c:
+    complete
+    .text       start:0x02051cc8 end:0x02051e04
+    .data       start:0x020a628c end:0x020a629b
+
+src/auto/GetCanSelMapNoVS.c:
+    complete
+    .text       start:0x0207a8c0 end:0x0207a944
+    .data       start:0x020aa5a4 end:0x020aa5b5
+
+src/auto/SetImage.c:
+    complete
+    .text       start:0x02074bc0 end:0x02074cb4
+    .data       start:0x020a9f44 end:0x020a9f4d
+
+src/auto/SetScreenRGB_AengineOn.c:
+    complete
+    .text       start:0x02078074 end:0x020782a0
+    .data       start:0x020aa2cc end:0x020aa2e3
+
+src/auto/OneAooGetDamage.c:
+    complete
+    .text       start:0x0206c568 end:0x0206c6e0
+    .data       start:0x020a9590 end:0x020a95a0
+
+src/data/ov003_profpad_020ae962.c:
+    complete
+    .data       start:0x020ae962 end:0x020ae964
+
+src/data/ov003_profpad_020a818d.c:
+    complete
+    .data       start:0x020a818d end:0x020a8190
+
+src/data/ov003_profpad_020ab7b3.c:
+    complete
+    .data       start:0x020ab7b3 end:0x020ab7b4
+
+src/data/ov003_profpad_020a629b.c:
+    complete
+    .data       start:0x020a629b end:0x020a629c
+
+src/data/ov003_profpad_020aa5b5.c:
+    complete
+    .data       start:0x020aa5b5 end:0x020aa5b8
+
+src/data/ov003_profpad_020a9f4d.c:
+    complete
+    .data       start:0x020a9f4d end:0x020a9f50
+
+src/data/ov003_profpad_020aa2e3.c:
+    complete
+    .data       start:0x020aa2e3 end:0x020aa2e4

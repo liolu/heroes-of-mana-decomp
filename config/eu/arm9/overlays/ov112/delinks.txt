@@ -487,3 +487,7 @@ src/auto/func_ov112_020e6ebc.c:
 src/auto/func_ov112_020e64bc.c:
     complete
     .text       start:0x020e64bc end:0x020e6894
+
+src/auto/func_ov112_020e8f9c.c:
+    complete
+    .text       start:0x020e8f9c end:0x020e9094

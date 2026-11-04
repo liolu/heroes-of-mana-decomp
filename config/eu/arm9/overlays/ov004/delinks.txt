@@ -5344,3 +5344,15 @@ src/auto/func_ov004_020c9780.c:
 src/auto/func_ov004_020c1b34.cpp:
     complete
     .text       start:0x020c1b34 end:0x020c1d5c
+
+src/auto/func_ov004_020c97e0.cpp:
+    complete
+    .text       start:0x020c97e0 end:0x020c9860
+
+src/auto/func_ov004_020ca704.c:
+    complete
+    .text       start:0x020ca704 end:0x020ca768
+
+src/auto/func_ov004_020bf950.c:
+    complete
+    .text       start:0x020bf950 end:0x020bf9c8

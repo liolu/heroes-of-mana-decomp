@@ -3223,3 +3223,18 @@ src/auto/func_ov114_020e2438.c 2.0/sp1p5 -O2,p
 src/auto/func_ov123_0209b618.c 1.2/sp3
 src/auto/func_ov123_020ba7cc.c 1.2/sp3
 src/auto/objSetDistance.c 2.0/sp1p5 -profile
+src/auto/WH_Initialize.c 2.0/sp1p5 -profile
+src/auto/MakeTexCoord.c 2.0/sp1p5 -profile
+src/auto/MakeTexCoordFLYARMWORK.c 2.0/sp1p5 -profile
+src/auto/AddModelTypeSt.c 2.0/sp1p5 -profile
+src/auto/GetCanSelMapNoVS.c 2.0/sp1p5 -profile
+src/auto/SetImage.c 2.0/sp1p5 -profile
+src/auto/SetScreenRGB_AengineOn.c 2.0/sp1p5 -profile
+src/auto/OneAooGetDamage.c 2.0/sp1p5 -profile
+src/auto/func_ov123_0206c1e0.c 1.2/sp2p3
+src/auto/func_ov123_0206c9a8.c 1.2/sp2p3
+src/auto/func_ov122_020533d0.c 2.0/sp1p5 -O2,p
+src/auto/func_ov123_020afb14.c 1.2/sp3
+src/auto/func_ov123_020b9600.c 1.2/sp3
+src/auto/func_ov123_0206fc0c.c 1.2/sp2p3
+src/auto/func_ov123_02094950.c 1.2/sp3
