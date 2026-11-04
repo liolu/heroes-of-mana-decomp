@@ -1,11 +1,13 @@
 {
  "AHEP": {
+  "arm_stack": true,
   "gates": {
    "0x020e3870": "nds_gate_skip"
   },
   "hooks": {
    "0x0200fddc": "nds_hook_game_halt"
   },
+  "lift_parts": 8,
   "names": {
    "0x02013704": "FSi_ReadRomCallback",
    "0x0201509c": "TP_GetUserInfo",
@@ -21,7 +23,6 @@
     "0x01ffd6dc"
    ]
   ],
-  "stack_args": 32,
   "values": {
    "nds_long_args": "1",
    "nds_stack_margin": "512",
