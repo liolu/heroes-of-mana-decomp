@@ -1,0 +1,32 @@
+{
+ "AHEP": {
+  "arm_stack": true,
+  "gates": {
+   "0x020e3870": "nds_gate_skip"
+  },
+  "hooks": {
+   "0x0200fddc": "nds_hook_game_halt"
+  },
+  "lift_parts": 8,
+  "names": {
+   "0x02013704": "FSi_ReadRomCallback",
+   "0x0201509c": "TP_GetUserInfo",
+   "0x02015258": "hle_tp_set_callback",
+   "0x02015374": "TP_RequestAutoSamplingStartAsync",
+   "0x020155a8": "hle_tp_latest_index",
+   "0x020157a4": "TP_GetCalibratedPoint"
+  },
+  "overlays": "multi",
+  "shared_regs": [
+   [
+    "0x01ff8380",
+    "0x01ffd6dc"
+   ]
+  ],
+  "values": {
+   "nds_long_args": "1",
+   "nds_stack_margin": "512",
+   "nds_stack_reuse": "1"
+  }
+ }
+}
