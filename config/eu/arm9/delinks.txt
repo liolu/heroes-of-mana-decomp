@@ -30,6 +30,34 @@ src/auto/OSi_ReferSymbol.c:
     complete
     .text       start:0x02000b58 end:0x02000b5c
 
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b5c end:0x02000b80
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000b80 end:0x02000b98
+
+src/nitro/init/version_vx.c:
+    complete
+    .text       start:0x02000b98 end:0x02000bac
+
+src/nitro/init/version_cps.c:
+    complete
+    .text       start:0x02000bac end:0x02000bc4
+
+src/nitro/init/version_wifi.c:
+    complete
+    .text       start:0x02000bc4 end:0x02000bec
+
+src/nitro/init/version_ssl.c:
+    complete
+    .text       start:0x02000bec end:0x02000c04
+
+src/nitro/init/version_dwc.c:
+    complete
+    .text       start:0x02000c04 end:0x02000c3c
+
 src/auto/func_02000ee0.c:
     complete
     .text       start:0x02000ee0 end:0x02000f44

@@ -25,6 +25,12 @@ init_cp15 kind:function(arm,size=0xe8) addr:0x02000a6c
 func_02000b54 kind:function(arm,size=0x4) addr:0x02000b54
 OSi_ReferSymbol kind:function(arm,size=0x4) addr:0x02000b58
 BuildInfo kind:data(any) addr:0x02000b5c
+_SDK_NintendoBackup kind:data(any) addr:0x02000b80
+_SDK_ActimagineVx kind:data(any) addr:0x02000b98
+_SDK_UbiquitousCps kind:data(any) addr:0x02000bac
+_SDK_NintendoWifi kind:data(any) addr:0x02000bc4
+_SDK_UbiquitousSsl kind:data(any) addr:0x02000bec
+_SDK_NintendoDwc kind:data(any) addr:0x02000c04
 main kind:function(arm,size=0x2a4) addr:0x02000c3c
 func_02000ee0 kind:function(arm,size=0x64) addr:0x02000ee0
 func_02000f44 kind:function(arm,size=0x34) addr:0x02000f44
