@@ -252,9 +252,6 @@ src/data/ov000_profrec_02050544.c:
 
 
 
-src/data/ov000_profrec_02050690.c:
-    complete
-    .data       start:0x02050690 end:0x020506a8
 
 
 
@@ -962,3 +959,8 @@ src/auto/ChgNumIPLtoUseFont.c:
 src/data/ov000_profpad_0205152b.c:
     complete
     .data       start:0x0205152b end:0x0205152c
+
+src/auto/Sample_SetUp2PlayerVS.c:
+    complete
+    .text       start:0x02044cec end:0x02045240
+    .data       start:0x02050690 end:0x020506a8

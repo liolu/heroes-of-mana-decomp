@@ -86,3 +86,11 @@ src/auto/func_ov032_020d0160.c:
 src/auto/func_ov032_020d3268.c:
     complete
     .text       start:0x020d3268 end:0x020d3708
+
+src/auto/func_ov032_020d067c.c:
+    complete
+    .text       start:0x020d067c end:0x020d0b7c
+
+src/auto/func_ov032_020d3708.c:
+    complete
+    .text       start:0x020d3708 end:0x020d3d80

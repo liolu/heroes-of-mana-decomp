@@ -15428,3 +15428,15 @@ src/auto/func_ov123_0206fc0c.c:
 src/auto/func_ov123_02094950.c:
     complete
     .text       start:0x02094950 end:0x02094970
+
+src/auto/func_ov123_02080a2c.c:
+    complete
+    .text       start:0x02080a2c end:0x02080f04
+
+src/auto/func_ov123_0209f47c.c:
+    complete
+    .text       start:0x0209f47c end:0x0209fae0
+
+src/auto/func_ov123_0207eac0.c:
+    complete
+    .text       start:0x0207eac0 end:0x0207f1a8

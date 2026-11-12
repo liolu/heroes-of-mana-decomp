@@ -26,3 +26,11 @@ src/data/ov086_rodata_020d1964.c:
 src/data/ov086_rodata_020d1980.c:
     complete
     .rodata     start:0x020d1980 end:0x020d199c
+
+src/auto/func_ov086_020d0160.c:
+    complete
+    .text       start:0x020d0160 end:0x020d02c8
+
+src/auto/func_ov086_020d04a0.c:
+    complete
+    .text       start:0x020d04a0 end:0x020d1964

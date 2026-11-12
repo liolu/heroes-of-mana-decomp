@@ -18,3 +18,7 @@ src/data/ov081_rodata_020d0820.c:
 src/data/ov081_rodata_020d083c.c:
     complete
     .rodata     start:0x020d083c end:0x020d0858
+
+src/auto/func_ov081_020d033c.c:
+    complete
+    .text       start:0x020d033c end:0x020d0820

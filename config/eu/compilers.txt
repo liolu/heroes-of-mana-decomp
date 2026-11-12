@@ -3238,3 +3238,11 @@ src/auto/func_ov123_020afb14.c 1.2/sp3
 src/auto/func_ov123_020b9600.c 1.2/sp3
 src/auto/func_ov123_0206fc0c.c 1.2/sp2p3
 src/auto/func_ov123_02094950.c 1.2/sp3
+src/auto/changeOccasion.c 2.0/sp1p5 -profile
+src/auto/Sample_SetUp2PlayerVS.c 2.0/sp1p5 -profile
+src/auto/ScenarioScriptMove.c 2.0/sp1p5 -profile
+src/auto/GoAikyoEffect.c 2.0/sp1p5 -profile
+src/auto/InShipRoutine.c 2.0/sp1p5 -profile
+src/auto/func_ov123_02080a2c.c 1.2/sp3
+src/auto/func_ov123_0209f47c.c 1.2/sp3
+src/auto/func_ov123_0207eac0.c 1.2/sp3

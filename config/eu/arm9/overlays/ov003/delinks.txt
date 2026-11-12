@@ -3332,9 +3332,6 @@ src/data/ov003_profrec_020aa664.c:
 
 
 
-src/data/ov003_profrec_020aa6b8.c:
-    complete
-    .data       start:0x020aa6b8 end:0x020aa6c8
 
 
 
@@ -3667,9 +3664,6 @@ src/data/ov003_profrec_020aba20.c:
 
 
 
-src/data/ov003_profrec_020aba64.c:
-    complete
-    .data       start:0x020aba64 end:0x020aba74
 
 
 
@@ -3793,9 +3787,6 @@ src/data/ov003_profrec_020abff0.c:
 
 
 
-src/data/ov003_profrec_020ac05c.c:
-    complete
-    .data       start:0x020ac05c end:0x020ac070
 
 
 
@@ -10013,3 +10004,18 @@ src/data/ov003_profpad_020a9f4d.c:
 src/data/ov003_profpad_020aa2e3.c:
     complete
     .data       start:0x020aa2e3 end:0x020aa2e4
+
+src/auto/changeOccasion.c:
+    complete
+    .text       start:0x020901cc end:0x02090864
+    .data       start:0x020aba64 end:0x020aba74
+
+src/auto/ScenarioScriptMove.c:
+    complete
+    .text       start:0x020990b8 end:0x020995a0
+    .data       start:0x020ac05c end:0x020ac070
+
+src/auto/GoAikyoEffect.c:
+    complete
+    .text       start:0x0207b2bc end:0x0207b7a0
+    .data       start:0x020aa6b8 end:0x020aa6c8
