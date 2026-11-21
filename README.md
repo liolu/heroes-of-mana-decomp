@@ -1,5 +1,7 @@
 # Heroes of Mana decompilation (EU)
 
+> **This game moved to [liolu/All-nds-decomp-games](https://github.com/liolu/All-nds-decomp-games/tree/main/games/H/heroes-of-mana)** (`games/H/heroes-of-mana`), with its whole history: every Nintendo DS decompilation in one repository, one game downloadable on its own (`python nds.py get heroes-of-mana`). This repository is archived; issues and pull requests go there.
+
 <!-- bytematch:start -->
 [![Code](https://bytematch.dev/liolu/heroes-of-mana-decomp.svg?label=Code&measure=matched_code_percent)](https://bytematch.dev/liolu/heroes-of-mana-decomp) [![Data](https://bytematch.dev/liolu/heroes-of-mana-decomp.svg?label=Data&measure=matched_data_percent)](https://bytematch.dev/liolu/heroes-of-mana-decomp) [![Functions](https://bytematch.dev/liolu/heroes-of-mana-decomp.svg?label=Functions&measure=matched_functions)](https://bytematch.dev/liolu/heroes-of-mana-decomp)
 <!-- bytematch:end -->
